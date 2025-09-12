@@ -1,0 +1,23 @@
+{
+  "Abbeville": "Stronghold Republican",
+  "Aiken": "Likely Republican",
+  "Allendale": "Stronghold Democratic",
+  "Anderson": "Stronghold Republican",
+  "Bamberg": "Stronghold Democratic",
+  "Barnwell": "Likely Republican",
+  "Beaufort": "Likely Republican",
+  "Berkeley": "Likely Republican",
+  "Calhoun": "Lean Republican",
+  "Charleston": "Lean Democratic",
+  "Cherokee": "Stronghold Republican",
+  "Chester": "Lean Republican",
+  "Chesterfield": "Likely Republican",
+  "Clarendon": "Lean Republican",
+  "Colleton": "Likely Republican",
+  "Darlington": "Lean Republican",
+  "Dillon": "Lean Republican",
+  "Dorchester": "Likely Republican",
+  "Edgefield": "Stronghold Republican",
+  "Fairfield": "Stronghold Democratic"
+  // ...add the rest as needed
+}

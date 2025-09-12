@@ -1,0 +1,221 @@
+division_name,division_id,office_name,office_id,candidate_name,candidate_id,candidate_party_name,candidate_party_id,votes
+ Abbeville                 ,57, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,38
+ Abbeville                 ,57, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,16
+ Abbeville                 ,57, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,31
+ Abbeville                 ,57, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,8509
+ Abbeville                 ,57, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,26
+ Abbeville                 ,57, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,3399
+ Abbeville                 ,57, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Abbeville                 ,57, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,29
+ Abbeville                 ,57, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,12048
+ Abbeville                 ,57, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,12048
+ Aiken                     ,75, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,437
+ Aiken                     ,75, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,108
+ Aiken                     ,75, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,247
+ Aiken                     ,75, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,53592
+ Aiken                     ,75, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,228
+ Aiken                     ,75, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,31298
+ Aiken                     ,75, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Aiken                     ,75, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,181
+ Aiken                     ,75, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,86091
+ Aiken                     ,75, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,86091
+ Allendale                 ,164, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,4
+ Allendale                 ,164, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,3
+ Allendale                 ,164, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,29
+ Allendale                 ,164, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,813
+ Allendale                 ,164, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,4
+ Allendale                 ,164, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,2165
+ Allendale                 ,164, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Allendale                 ,164, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,5
+ Allendale                 ,164, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,3023
+ Allendale                 ,164, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,3023
+ Anderson                  ,175, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,439
+ Anderson                  ,175, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,83
+ Anderson                  ,175, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,215
+ Anderson                  ,175, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,71828
+ Anderson                  ,175, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,218
+ Anderson                  ,175, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,25281
+ Anderson                  ,175, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Anderson                  ,175, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,232
+ Anderson                  ,175, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,98296
+ Anderson                  ,175, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,98296
+ Bamberg                   ,257, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,14
+ Bamberg                   ,257, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,10
+ Bamberg                   ,257, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,25
+ Bamberg                   ,257, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,2376
+ Bamberg                   ,257, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,11
+ Bamberg                   ,257, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,3245
+ Bamberg                   ,257, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Bamberg                   ,257, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,13
+ Bamberg                   ,257, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,5694
+ Bamberg                   ,257, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,5694
+ Barnwell                  ,273, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,28
+ Barnwell                  ,273, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,14
+ Barnwell                  ,273, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,36
+ Barnwell                  ,273, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,5605
+ Barnwell                  ,273, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,22
+ Barnwell                  ,273, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,4082
+ Barnwell                  ,273, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Barnwell                  ,273, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,16
+ Barnwell                  ,273, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,9803
+ Barnwell                  ,273, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,9803
+ Beaufort                  ,291, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,535
+ Beaufort                  ,291, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,74
+ Beaufort                  ,291, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,181
+ Beaufort                  ,291, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,59123
+ Beaufort                  ,291, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,308
+ Beaufort                  ,291, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,44002
+ Beaufort                  ,291, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Beaufort                  ,291, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,180
+ Beaufort                  ,291, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,104403
+ Beaufort                  ,291, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,104403
+ Berkeley                  ,420, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,615
+ Berkeley                  ,420, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,154
+ Berkeley                  ,420, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,331
+ Berkeley                  ,420, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,64777
+ Berkeley                  ,420, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,337
+ Berkeley                  ,420, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,46416
+ Berkeley                  ,420, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Berkeley                  ,420, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,204
+ Berkeley                  ,420, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,112834
+ Berkeley                  ,420, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,112834
+ Calhoun                   ,517, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,29
+ Calhoun                   ,517, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,8
+ Calhoun                   ,517, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,25
+ Calhoun                   ,517, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,4474
+ Calhoun                   ,517, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,21
+ Calhoun                   ,517, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,3339
+ Calhoun                   ,517, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Calhoun                   ,517, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,18
+ Calhoun                   ,517, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,7914
+ Calhoun                   ,517, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,7914
+ Charleston                ,532, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,1665
+ Charleston                ,532, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,310
+ Charleston                ,532, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,501
+ Charleston                ,532, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,99265
+ Charleston                ,532, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,973
+ Charleston                ,532, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,111427
+ Charleston                ,532, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Charleston                ,532, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,380
+ Charleston                ,532, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,214521
+ Charleston                ,532, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,214521
+ Cherokee                  ,717, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,61
+ Cherokee                  ,717, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,19
+ Cherokee                  ,717, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,41
+ Cherokee                  ,717, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,18697
+ Cherokee                  ,717, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,48
+ Cherokee                  ,717, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,5939
+ Cherokee                  ,717, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Cherokee                  ,717, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,34
+ Cherokee                  ,717, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,24839
+ Cherokee                  ,717, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,24839
+ Chester                   ,749, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,60
+ Chester                   ,749, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,22
+ Chester                   ,749, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,43
+ Chester                   ,749, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,9030
+ Chester                   ,749, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,22
+ Chester                   ,749, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,6353
+ Chester                   ,749, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Chester                   ,749, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,26
+ Chester                   ,749, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,15556
+ Chester                   ,749, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,15556
+ Chesterfield              ,773, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,38
+ Chesterfield              ,773, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,21
+ Chesterfield              ,773, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,55
+ Chesterfield              ,773, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,11682
+ Chesterfield              ,773, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,37
+ Chesterfield              ,773, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,6520
+ Chesterfield              ,773, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Chesterfield              ,773, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,38
+ Chesterfield              ,773, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,18391
+ Chesterfield              ,773, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,18391
+ Clarendon                 ,801, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,43
+ Clarendon                 ,801, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,26
+ Clarendon                 ,801, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,66
+ Clarendon                 ,801, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,9065
+ Clarendon                 ,801, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,27
+ Clarendon                 ,801, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,7064
+ Clarendon                 ,801, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Clarendon                 ,801, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,29
+ Clarendon                 ,801, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,16320
+ Clarendon                 ,801, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,16320
+ Colleton                  ,829, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,63
+ Colleton                  ,829, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,23
+ Colleton                  ,829, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,41
+ Colleton                  ,829, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,10696
+ Colleton                  ,829, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,40
+ Colleton                  ,829, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,7376
+ Colleton                  ,829, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Colleton                  ,829, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,37
+ Colleton                  ,829, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,18276
+ Colleton                  ,829, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,18276
+ Darlington                ,864, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,101
+ Darlington                ,864, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,36
+ Darlington                ,864, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,87
+ Darlington                ,864, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,17017
+ Darlington                ,864, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,59
+ Darlington                ,864, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,12977
+ Darlington                ,864, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Darlington                ,864, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,54
+ Darlington                ,864, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,30331
+ Darlington                ,864, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,30331
+ Dillon                    ,899, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,21
+ Dillon                    ,899, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,18
+ Dillon                    ,899, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,27
+ Dillon                    ,899, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,6526
+ Dillon                    ,899, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,12
+ Dillon                    ,899, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,5241
+ Dillon                    ,899, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Dillon                    ,899, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,16
+ Dillon                    ,899, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,11861
+ Dillon                    ,899, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,11861
+ Dorchester                ,921, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,444
+ Dorchester                ,921, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,102
+ Dorchester                ,921, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,174
+ Dorchester                ,921, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,43839
+ Dorchester                ,921, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,533
+ Dorchester                ,921, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,32489
+ Dorchester                ,921, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Dorchester                ,921, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,183
+ Dorchester                ,921, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,77764
+ Dorchester                ,921, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,77764
+ Edgefield                 ,1005, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,61
+ Edgefield                 ,1005, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,19
+ Edgefield                 ,1005, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,31
+ Edgefield                 ,1005, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,9092
+ Edgefield                 ,1005, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,24
+ Edgefield                 ,1005, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,4659
+ Edgefield                 ,1005, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Edgefield                 ,1005, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,33
+ Edgefield                 ,1005, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,13919
+ Edgefield                 ,1005, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,13919
+ Fairfield                 ,7, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,29
+ Fairfield                 ,7, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,13
+ Fairfield                 ,7, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,54
+ Fairfield                 ,7, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,4792
+ Fairfield                 ,7, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,31
+ Fairfield                 ,7, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,6277
+ Fairfield                 ,7, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Fairfield                 ,7, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,19
+ Fairfield                 ,7, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,11215
+ Fairfield                 ,7, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,11215
+ Florence                  ,1044, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,206
+ Florence                  ,1044, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,73
+ Florence                  ,1044, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,258
+ Florence                  ,1044, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,32615
+ Florence                  ,1044, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,166
+ Florence                  ,1044, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,27706
+ Florence                  ,1044, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Florence                  ,1044, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,116
+ Florence                  ,1044, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,61140
+ Florence                  ,1044, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,61140
+ Georgetown                ,1110, President of the United States,1, Chase Oliver and Mike ter Maat        ,8258, Libertarian         ,                  4,160
+ Georgetown                ,1110, President of the United States,1, Claudia De La Cruz and Karina Garcia  ,8259, Workers             ,                282,36
+ Georgetown                ,1110, President of the United States,1, Cornel West and Melina Abdulla        ,8260, United Citizens     ,                278,106
+ Georgetown                ,1110, President of the United States,1, Donald J. Trump and JD Vance          ,27, Republican          ,                  2,22326
+ Georgetown                ,1110, President of the United States,1, Jill Stein and Rudolph Butch Ware     ,6882, Green               ,                  3,105
+ Georgetown                ,1110, President of the United States,1, Kamala D. Harris and Tim Walz         ,7553, Democratic          ,                  1,14965
+ Georgetown                ,1110, President of the United States,1, Overvotes/Undervotes                  ,10,                     ,                   ,0
+ Georgetown                ,1110, President of the United States,1, Randall A. Terry and Stephen E. Broden,8261, Constitution        ,                275,56
+ Georgetown                ,1110, President of the United States,1, Total Ballots Cast                    ,1,                     ,                   ,37754
+ Georgetown                ,1110, President of the United States,1, Total Votes Cast                      ,4,                     ,                   ,37754
