@@ -1009,14 +1009,15 @@ fetch('sc_election_results_structured.json')
                 f.properties.winner = winner;
             });
             countiesSource.setData(geojson);
-            map.setPaintProperty('county-fill', 'fill-color', [
-                'match',
-                ['get', 'winner'],
-                'REP', '#ef3b2c',
-                'DEM', '#6baed6',
-                'TIE', '#f7f7f7',
-                /* other */ '#e0e0e0'
-            ]);
+                    map.setPaintProperty('county-fill', 'fill-color', [
+                        'match',
+                        ['get', 'winner'],
+                        'REP', '#ef3b2c',
+                        'DEM', '#6baed6',
+                        'TIE', '#f7f7f7',
+                        /* other */ '#e0e0e0'
+                    ]);
+                    map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
     });
   });
 
