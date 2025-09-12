@@ -937,46 +937,64 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Add SC counties GeoJSON as a source and layer on map load
         map.on('load', function() {
-            map.addSource('counties', {
-                type: 'geojson',
-                data: 'tl_2020_45_county20.geojson'
-            });
-            map.addLayer({
-                id: 'county-fill',
-                type: 'fill',
-                source: 'counties',
-                paint: {
-                    'fill-color': '#e0e0e0',
-                    'fill-opacity': 0.6
-                }
-            });
-            map.addLayer({
-                id: 'county-outline',
-                type: 'line',
-                source: 'counties',
-                paint: {
-                    'line-color': '#333',
-                    'line-width': 1
-                }
-            });
-            // Add county labels
-            map.addLayer({
-                id: 'county-labels',
-                type: 'symbol',
-                source: 'counties',
-                layout: {
-                    'text-field': ['get', 'NAME20'],
-                    'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-                    'text-size': 14,
-                    'text-anchor': 'center',
-                    'text-allow-overlap': false
-                },
-                paint: {
-                    'text-color': '#222',
-                    'text-halo-color': '#fff',
-                    'text-halo-width': 2
-                }
-            });
+            updateStatus('⏳ Fetching county GeoJSON...');
+            console.log('Fetching county GeoJSON: tl_2020_45_county20.geojson');
+            fetch('tl_2020_45_county20.geojson')
+                .then(res => {
+                    if (!res.ok) {
+                        updateStatus('❌ Failed to fetch county GeoJSON');
+                        throw new Error('Failed to fetch county GeoJSON');
+                    }
+                    return res.json();
+                })
+                .then(geojson => {
+                    updateStatus('✅ County GeoJSON loaded');
+                    console.log('County GeoJSON loaded:', geojson);
+                    map.addSource('counties', {
+                        type: 'geojson',
+                        data: geojson
+                    });
+                    map.addLayer({
+                        id: 'county-fill',
+                        type: 'fill',
+                        source: 'counties',
+                        paint: {
+                            'fill-color': '#e0e0e0',
+                            'fill-opacity': 0.6
+                        }
+                    });
+                    map.addLayer({
+                        id: 'county-outline',
+                        type: 'line',
+                        source: 'counties',
+                        paint: {
+                            'line-color': '#333',
+                            'line-width': 1
+                        }
+                    });
+                    // Add county labels
+                    map.addLayer({
+                        id: 'county-labels',
+                        type: 'symbol',
+                        source: 'counties',
+                        layout: {
+                            'text-field': ['get', 'NAME20'],
+                            'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+                            'text-size': 14,
+                            'text-anchor': 'center',
+                            'text-allow-overlap': false
+                        },
+                        paint: {
+                            'text-color': '#222',
+                            'text-halo-color': '#fff',
+                            'text-halo-width': 2
+                        }
+                    });
+                })
+                .catch(err => {
+                    updateStatus('❌ Error loading county GeoJSON: ' + err.message);
+                    console.error('Error loading county GeoJSON:', err);
+                });
         });
 
 // --- Election Results Visualization ---
@@ -1166,6 +1184,12 @@ window.hideSwingArrows = hideSwingArrows;
 
 // Dummy applyCategories for now (should be replaced with real logic if needed)
 function applyCategories() {
+    // Check if county GeoJSON is loaded
+    const countiesSource = map.getSource('counties');
+    if (!countiesSource || !countiesSource._data || !countiesSource._data.features) {
+        updateStatus('❌ County GeoJSON not loaded. Please wait for the map to finish loading.');
+        return;
+    }
     updateStatus('🎨 Political categories applied (placeholder)');
 }
 window.applyCategories = applyCategories;
