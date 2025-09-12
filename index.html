@@ -997,47 +997,83 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
         });
 
-// --- Election Results Visualization ---
-fetch('sc_election_results_structured.json')
-  .then(res => res.json())
-  .then(data => {
-    window.electionData = data; // Make available globally
-    const year = '2024'; // Change to desired year
-    const resultsByCounty = data.results_by_year[year];
-    map.once('idle', () => {
-      const countiesSource = map.getSource('counties');
-      if (!countiesSource) return;
+// --- Election Results Visualization (Dynamic Contest/Year) ---
+fetch('sc_election_results_v06_structured_corrected.json')
+    .then(res => res.json())
+    .then(data => {
+        window.electionData = data; // Make available globally
+        // Populate year/contest dropdown
+        const contestSelect = document.getElementById('contest');
+        contestSelect.innerHTML = '<option value="">Select a Contest...</option>';
+        for (const year of Object.keys(data.results_by_year).sort()) {
+            const contests = data.results_by_year[year];
+            for (const contestKey of Object.keys(contests)) {
+                const contestObj = contests[contestKey];
+                const label = `${contestObj.contest_name} (${year})`;
+                const value = `${year}__${contestKey}`;
+                const option = document.createElement('option');
+                option.value = value;
+                option.textContent = label;
+                contestSelect.appendChild(option);
+            }
+        }
+
+        // Helper to update map for selected contest
+        function updateMapForContest(year, contestKey) {
+            const contestResults = data.results_by_year[year]?.[contestKey]?.results;
+            if (!contestResults) {
+                updateStatus('❌ No results for selected contest.');
+                return;
+            }
+            const countiesSource = map.getSource('counties');
+            if (!countiesSource) return;
             let geojson = countiesSource._data;
             if (!geojson || !geojson.features) {
                 updateStatus('❌ County GeoJSON not loaded');
                 return;
             }
+            let matchedCount = 0;
             geojson.features.forEach(f => {
-                const fips = f.properties.COUNTYFP20;
-                let winner = null;
-                for (const county in resultsByCounty) {
-                    for (const contest in resultsByCounty[county]) {
-                        if (resultsByCounty[county][contest].county_fips === fips) {
-                            winner = resultsByCounty[county][contest].winner;
-                            break;
-                        }
-                    }
-                    if (winner) break;
-                }
-                f.properties.winner = winner;
+                // Use GEOID20 for full 5-digit FIPS matching
+                let fips = f.properties.GEOID20;
+                if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
+                else if (typeof fips === 'string') fips = fips.padStart(5, '0');
+                const result = contestResults[fips];
+                if (result) matchedCount++;
+                f.properties.winner = result ? (result.rep_votes > result.dem_votes ? 'REP' : (result.dem_votes > result.rep_votes ? 'DEM' : 'TIE')) : null;
+                f.properties.competitiveness_color = result ? result.competitiveness_color : '#e0e0e0';
             });
+            console.log(`Matched ${matchedCount} counties for ${year}__${contestKey}`);
             countiesSource.setData(geojson);
-                    map.setPaintProperty('county-fill', 'fill-color', [
-                        'match',
-                        ['get', 'winner'],
-                        'REP', '#ef3b2c',
-                        'DEM', '#6baed6',
-                        'TIE', '#f7f7f7',
-                        /* other */ '#e0e0e0'
-                    ]);
-                    map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
+            // Use competitiveness_color for fill if available, else fallback to winner
+            map.setPaintProperty('county-fill', 'fill-color', [
+                'case',
+                    ['has', 'competitiveness_color'], ['get', 'competitiveness_color'],
+                    ['match', ['get', 'winner'], 'REP', '#ef3b2c', 'DEM', '#6baed6', 'TIE', '#f7f7f7', '#e0e0e0']
+            ]);
+            map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
+            if (matchedCount === 0) {
+                updateStatus(`❌ No counties matched for ${year}__${contestKey} ${year}. Please check your data or contest selection.`);
+            } else {
+                updateStatus(`✅ ${matchedCount} counties matched for ${year}__${contestKey}`);
+            }
+        }
+
+        // Listen for contest selection
+        contestSelect.addEventListener('change', function() {
+            const val = contestSelect.value;
+            if (!val) return;
+            const [year, contestKey] = val.split('__');
+            updateMapForContest(year, contestKey);
+        });
+
+        // Auto-select the most recent contest
+        const options = contestSelect.querySelectorAll('option');
+        if (options.length > 1) {
+            contestSelect.selectedIndex = options.length - 1;
+            contestSelect.dispatchEvent(new Event('change'));
+        }
     });
-  });
 
 
 let electionData = null;
@@ -1190,31 +1226,111 @@ function applyCategories() {
         updateStatus('❌ County GeoJSON not loaded. Please wait for the map to finish loading.');
         return;
     }
-    updateStatus('🎨 Political categories applied (placeholder)');
-}
-window.applyCategories = applyCategories;
-// --- END: UI/Map Functions from NC Map ---
-
-function showCountyDetails(countyName) {
-    // Find the county FIPS or name in the loaded electionData
     if (!window.electionData) {
         updateStatus('❌ Election data not loaded');
         return;
     }
-    const year = '2024'; // Or get from UI
-    const resultsByCounty = window.electionData.results_by_year[year];
-    let foundResult = null;
-    for (const countyKey in resultsByCounty) {
-        for (const contestKey in resultsByCounty[countyKey]) {
-            const result = resultsByCounty[countyKey][contestKey];
-            if (
-                result.county_name && result.county_name.toLowerCase() === countyName.toLowerCase()
-            ) {
-                foundResult = result;
-                break;
+    const contestElement = document.getElementById('contest');
+    if (!contestElement) {
+        updateStatus('❌ Contest dropdown not found!');
+        return;
+    }
+    const contest = contestElement.value;
+    if (!contest) {
+        updateStatus('❌ Please select a contest!');
+        return;
+    }
+    // Extract year from contest value (e.g., "president_2024" -> "2024")
+    const yearMatch = contest.match(/(\d{4})/);
+    if (!yearMatch) {
+        updateStatus('❌ Could not determine year from contest selection!');
+        return;
+    }
+    const year = yearMatch[1];
+    const resultsByYear = window.electionData.results_by_year;
+    if (!resultsByYear[year]) {
+        updateStatus(`❌ No data for year ${year}`);
+        return;
+    }
+    // Find the contest data for each county
+    const resultsByCounty = resultsByYear[year];
+    // Build a color expression for Mapbox
+    const colorExpression = ['match', ['get', 'NAME20']];
+    let coloredCount = 0;
+    countiesSource._data.features.forEach(f => {
+        const countyName = f.properties.NAME20;
+        let foundResult = null;
+        if (resultsByCounty[countyName]) {
+            // Use the first contest in the county if multiple
+            const contests = resultsByCounty[countyName];
+            for (const contestKey in contests) {
+                if (contestKey === contest && contests[contestKey].competitiveness_color) {
+                    foundResult = contests[contestKey];
+                    break;
+                }
+            }
+            // Fallback: just use the first contest if exact match not found
+            if (!foundResult) {
+                const firstKey = Object.keys(contests)[0];
+                foundResult = contests[firstKey];
             }
         }
-        if (foundResult) break;
+        if (foundResult && foundResult.competitiveness_color) {
+            colorExpression.push(countyName, foundResult.competitiveness_color);
+            coloredCount++;
+        }
+    });
+    colorExpression.push('#e0e0e0'); // Default color
+    if (coloredCount === 0) {
+        updateStatus(`❌ No counties matched for ${contest} ${year}. Please check your data or contest selection.`);
+        return;
+    }
+    map.setPaintProperty('county-fill', 'fill-color', colorExpression);
+    map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
+    updateStatus(`✅ ${contest} ${year} applied! ${coloredCount} counties colored by competitiveness.`);
+    // Refresh county details if a county was previously selected
+    if (lastSelectedCounty) {
+        showCountyDetails(lastSelectedCounty);
+    }
+}
+window.applyCategories = applyCategories;
+// --- END: UI/Map Functions from NC Map ---
+
+function showCountyDetails(countyFIPS) {
+    if (!window.electionData) {
+        updateStatus('❌ Election data not loaded');
+        return;
+    }
+    const contestElement = document.getElementById('contest');
+    if (!contestElement) {
+        updateStatus('❌ Contest dropdown not found!');
+        return;
+    }
+    const contestVal = contestElement.value;
+    if (!contestVal) {
+        updateStatus('❌ Please select a contest!');
+        return;
+    }
+    // contestVal is like "2024__PRES_2024"
+    const [year, contestKey] = contestVal.split('__');
+    if (!year || !contestKey) {
+        updateStatus('❌ Could not determine year/contest from selection!');
+        return;
+    }
+    const resultsByYear = window.electionData.results_by_year;
+    if (!resultsByYear[year] || !resultsByYear[year][contestKey]) {
+        updateStatus(`❌ No data for year ${year} and contest ${contestKey}`);
+        return;
+    }
+    const contestResults = resultsByYear[year][contestKey].results;
+    let foundResult = null;
+    if (contestResults && contestResults[countyFIPS]) {
+        foundResult = contestResults[countyFIPS];
+    }
+    // Fallback: try to find any county result for this FIPS
+    if (!foundResult && contestResults) {
+        const firstKey = Object.keys(contestResults)[0];
+        foundResult = contestResults[firstKey];
     }
     const countyDetails = document.getElementById('county-details');
     const countyNameElement = document.getElementById('county-name');
@@ -1223,41 +1339,56 @@ function showCountyDetails(countyName) {
         console.error('County sidebar elements not found');
         return;
     }
+    // Try to get county name from GeoJSON or data
+    let countyName = countyFIPS;
+    if (window.countyFipsToName && window.countyFipsToName[countyFIPS]) {
+        countyName = window.countyFipsToName[countyFIPS];
+    } else if (foundResult && foundResult.county_name) {
+        countyName = foundResult.county_name;
+    }
     countyNameElement.textContent = countyName + ' County';
     let sidebarContent = '';
     if (foundResult) {
         const demVotes = foundResult.dem_votes || 0;
         const repVotes = foundResult.rep_votes || 0;
         const totalVotes = foundResult.total_votes || 0;
-        const demPct = totalVotes ? ((demVotes / totalVotes) * 100).toFixed(2) : '0.00';
-        const repPct = totalVotes ? ((repVotes / totalVotes) * 100).toFixed(2) : '0.00';
+    const demPct = totalVotes ? ((demVotes / totalVotes) * 100).toFixed(2) : '0.00';
+    const repPct = totalVotes ? ((repVotes / totalVotes) * 100).toFixed(2) : '0.00';
         const marginText = foundResult.competitiveness_margin || 'N/A';
-        const competitiveness = foundResult.competitiveness_category || 'N/A';
-        const compColor = foundResult.competitiveness_color || '#6b7280';
-        const winner = repVotes > demVotes ? 'Republican' : 'Democratic';
-        const winnerColor = winner === 'Republican' ? '#dc2626' : '#2563eb';
-        sidebarContent += '<div class="result-summary">';
-        sidebarContent += '<h5>📊 Election Results</h5>';
-        sidebarContent += '<p><strong>Total Votes:</strong> ' + totalVotes.toLocaleString() + '</p>';
-        sidebarContent += `</div>`;
-        sidebarContent += `<div class="winner-section">`;
-        sidebarContent += '<h5>🏆 Winner</h5>';
-        sidebarContent += '<p style="color: ' + winnerColor + '; font-weight: bold; font-size: 16px;">' + winner + '</p>';
-        sidebarContent += `</div>`;
-        sidebarContent += `<div class="margin-section">`;
-        sidebarContent += '<h5>📈 Margin</h5>';
-        sidebarContent += '<p style="color: ' + winnerColor + '; font-weight: bold; font-size: 18px;">' + marginText + '</p>';
-        sidebarContent += '<p style="color: #6b7280; font-size: 14px;">(' + Math.abs(repVotes - demVotes).toLocaleString() + ' vote margin)</p>';
-        sidebarContent += `</div>`;
-        sidebarContent += `<div class="vote-breakdown">`;
-        sidebarContent += '<h5>🗳️ Vote Breakdown</h5>';
-        sidebarContent += '<p><span style="color: #2563eb; font-weight: bold;">Democratic :</span> ' + demPct + '% (' + demVotes.toLocaleString() + ')</p>';
-        sidebarContent += '<p><span style="color: #dc2626; font-weight: bold;">Republican :</span> ' + repPct + '% (' + repVotes.toLocaleString() + ')</p>';
-        sidebarContent += `</div>`;
-        sidebarContent += `<div class="competitiveness-section">`;
-        sidebarContent += '<h5>🎯 Competitiveness</h5>';
-        sidebarContent += '<p style="color: ' + compColor + '; font-weight: bold; font-size: 16px;">' + competitiveness + '</p>';
-        sidebarContent += `</div>`;
+    const competitiveness = foundResult.competitiveness_category || 'N/A';
+    const compColor = foundResult.competitiveness_color || '#6b7280';
+    const winner = repVotes > demVotes ? 'Republican' : 'Democratic';
+    const winnerColor = winner === 'Republican' ? '#dc2626' : '#2563eb';
+        let competitivenessFull = 'N/A';
+        if (competitiveness !== 'N/A') {
+            if (competitiveness.toLowerCase() === 'tossup') {
+                competitivenessFull = `<span style="font-weight:bold; color:#6b7280;">Tossup</span> <span style="color: ${winnerColor}; font-weight:bold;">(${winner} win)</span>`;
+            } else {
+                competitivenessFull = `${competitiveness} ${winner}`;
+            }
+        }
+    sidebarContent += '<div class="result-summary">';
+    sidebarContent += '<h5>📊 Election Results</h5>';
+    sidebarContent += '<p><strong>Total Votes:</strong> ' + totalVotes.toLocaleString() + '</p>';
+    sidebarContent += `</div>`;
+    sidebarContent += `<div class="winner-section">`;
+    sidebarContent += '<h5>🏆 Winner</h5>';
+    sidebarContent += '<p style="color: ' + winnerColor + '; font-weight: bold; font-size: 16px;">' + winner + '</p>';
+    sidebarContent += `</div>`;
+    sidebarContent += `<div class="margin-section">`;
+    sidebarContent += '<h5>📈 Margin</h5>';
+    sidebarContent += '<p style="color: ' + winnerColor + '; font-weight: bold; font-size: 18px;">' + marginText + '</p>';
+    sidebarContent += '<p style="color: #6b7280; font-size: 14px;">(' + Math.abs(repVotes - demVotes).toLocaleString() + ' vote margin)</p>';
+    sidebarContent += `</div>`;
+    sidebarContent += `<div class="vote-breakdown">`;
+    sidebarContent += '<h5>🗳️ Vote Breakdown</h5>';
+    sidebarContent += '<p><span style="color: #2563eb; font-weight: bold;">Democratic :</span> ' + demPct + '% (' + demVotes.toLocaleString() + ')</p>';
+    sidebarContent += '<p><span style="color: #dc2626; font-weight: bold;">Republican :</span> ' + repPct + '% (' + repVotes.toLocaleString() + ')</p>';
+    sidebarContent += `</div>`;
+    sidebarContent += `<div class="competitiveness-section">`;
+    sidebarContent += '<h5>🎯 Competitiveness</h5>';
+    sidebarContent += '<p style="color: ' + compColor + '; font-weight: bold; font-size: 16px;">' + competitivenessFull + '</p>';
+    sidebarContent += `</div>`;
     } else {
         sidebarContent += `<p><em>No detailed election data available for this county.</em></p>`;
     }
@@ -1266,10 +1397,23 @@ function showCountyDetails(countyName) {
 }
 window.showCountyDetails = showCountyDetails;
 
-// Connect Mapbox county click events to showCountyDetails
-map.on('click', 'county-fill', function(e) {
-    const countyName = e.features[0].properties.NAME20;
-    showCountyDetails(countyName);
+// Attach click and hover handlers after all layers are loaded
+map.on('load', function() {
+    // ...existing code for adding layers...
+
+    // Click handler for counties
+    map.on('click', 'county-fill', function(e) {
+        if (!e.features || !e.features.length) return;
+        const countyFIPS = e.features[0].properties.GEOID20;
+        showCountyDetails(countyFIPS);
+    });
+    // Change cursor to pointer on hover
+    map.on('mouseenter', 'county-fill', function() {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'county-fill', function() {
+        map.getCanvas().style.cursor = '';
+    });
 });
 </script>
 </body>
