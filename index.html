@@ -989,30 +989,34 @@ fetch('sc_election_results_structured.json')
     map.once('idle', () => {
       const countiesSource = map.getSource('counties');
       if (!countiesSource) return;
-      let geojson = countiesSource._data;
-      geojson.features.forEach(f => {
-        const fips = f.properties.COUNTYFP20;
-        let winner = null;
-        for (const county in resultsByCounty) {
-          for (const contest in resultsByCounty[county]) {
-            if (resultsByCounty[county][contest].county_fips === fips) {
-              winner = resultsByCounty[county][contest].winner;
-              break;
+            let geojson = countiesSource._data;
+            if (!geojson || !geojson.features) {
+                updateStatus('❌ County GeoJSON not loaded');
+                return;
             }
-          }
-          if (winner) break;
-        }
-        f.properties.winner = winner;
-      });
-      countiesSource.setData(geojson);
-      map.setPaintProperty('county-fill', 'fill-color', [
-        'match',
-        ['get', 'winner'],
-        'REP', '#ef3b2c',
-        'DEM', '#6baed6',
-        'TIE', '#f7f7f7',
-        /* other */ '#e0e0e0'
-      ]);
+            geojson.features.forEach(f => {
+                const fips = f.properties.COUNTYFP20;
+                let winner = null;
+                for (const county in resultsByCounty) {
+                    for (const contest in resultsByCounty[county]) {
+                        if (resultsByCounty[county][contest].county_fips === fips) {
+                            winner = resultsByCounty[county][contest].winner;
+                            break;
+                        }
+                    }
+                    if (winner) break;
+                }
+                f.properties.winner = winner;
+            });
+            countiesSource.setData(geojson);
+            map.setPaintProperty('county-fill', 'fill-color', [
+                'match',
+                ['get', 'winner'],
+                'REP', '#ef3b2c',
+                'DEM', '#6baed6',
+                'TIE', '#f7f7f7',
+                /* other */ '#e0e0e0'
+            ]);
     });
   });
 
