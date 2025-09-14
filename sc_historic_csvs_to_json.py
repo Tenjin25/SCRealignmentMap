@@ -105,6 +105,16 @@ output = {
     'results_by_year': results_by_year
 }
 
+# Add dem_pct and rep_pct to each result
+for year in results_by_year:
+    for contest_key in results_by_year[year]:
+        for geo_key, result in results_by_year[year][contest_key]['results'].items():
+            total = result['total_votes']
+            dem = result['dem_votes']
+            rep = result['rep_votes']
+            result['dem_pct'] = round((dem / total) * 100, 2) if total else 0.00
+            result['rep_pct'] = round((rep / total) * 100, 2) if total else 0.00
+
 # Convert defaultdicts to dicts for JSON serialization
 def dictify(obj):
     if isinstance(obj, defaultdict):

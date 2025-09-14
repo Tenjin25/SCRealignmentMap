@@ -90,7 +90,24 @@ for _, row in df.iterrows():
             results_by_year[year][contest_key]['results'][geo_key]['competitiveness_category'] = cat
             results_by_year[year][contest_key]['results'][geo_key]['competitiveness_range'] = rng
             results_by_year[year][contest_key]['results'][geo_key]['competitiveness_color'] = color
-            results_by_year[year][contest_key]['results'][geo_key]['competitiveness_margin'] = margin
+
+            # Add dem_pct and rep_pct
+            total = results_by_year[year][contest_key]['results'][geo_key]['total_votes']
+            dem = results_by_year[year][contest_key]['results'][geo_key]['dem_votes']
+            rep = results_by_year[year][contest_key]['results'][geo_key]['rep_votes']
+            dem_pct = round((dem / total) * 100, 2) if total else 0.00
+            rep_pct = round((rep / total) * 100, 2) if total else 0.00
+            results_by_year[year][contest_key]['results'][geo_key]['dem_pct'] = dem_pct
+            results_by_year[year][contest_key]['results'][geo_key]['rep_pct'] = rep_pct
+            # Add competitiveness_margin (margin string)
+            margin = abs(rep_pct - dem_pct)
+            if rep_pct > dem_pct:
+                margin_str = f"R+{margin:.2f}%"
+            elif dem_pct > rep_pct:
+                margin_str = f"D+{margin:.2f}%"
+            else:
+                margin_str = "Tied"
+            results_by_year[year][contest_key]['results'][geo_key]['competitiveness_margin'] = margin_str
             total_results += 1
 
 summary = {

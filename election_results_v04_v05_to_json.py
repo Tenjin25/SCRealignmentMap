@@ -95,6 +95,12 @@ def process_election_file(input_csv, output_json):
                 results_by_year[year][contest_key]['results'][geo_key]['competitiveness_range'] = rng
                 results_by_year[year][contest_key]['results'][geo_key]['competitiveness_color'] = color
                 results_by_year[year][contest_key]['results'][geo_key]['competitiveness_margin'] = margin
+                # Add dem_pct and rep_pct
+                total = results_by_year[year][contest_key]['results'][geo_key]['total_votes']
+                dem = results_by_year[year][contest_key]['results'][geo_key]['dem_votes']
+                rep = results_by_year[year][contest_key]['results'][geo_key]['rep_votes']
+                results_by_year[year][contest_key]['results'][geo_key]['dem_pct'] = round((dem / total) * 100, 2) if total else 0.00
+                results_by_year[year][contest_key]['results'][geo_key]['rep_pct'] = round((rep / total) * 100, 2) if total else 0.00
                 total_results += 1
 
     summary = {

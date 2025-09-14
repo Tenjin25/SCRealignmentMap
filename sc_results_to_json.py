@@ -28,9 +28,11 @@ competitiveness_scale = [
 ]
 
 def get_competitiveness(margin_pct):
-    for threshold, category, code, color, party in competitiveness_scale:
+    # Sort by threshold descending for Republican, ascending for Democratic
+    for threshold, category, code, color, party in sorted(competitiveness_scale, key=lambda x: -x[0]):
         if margin_pct >= threshold:
             return {'category': category, 'party': party, 'code': code, 'color': color}
+    for threshold, category, code, color, party in sorted(competitiveness_scale, key=lambda x: x[0]):
         if margin_pct <= threshold:
             return {'category': category, 'party': party, 'code': code, 'color': color}
     return {'category': 'Tossup', 'party': 'Tossup', 'code': 'TOSSUP', 'color': '#f7f7f7'}
@@ -197,9 +199,11 @@ for year in data:
                     "contest_name": contest,
                     "results": {}
                 }
-            # Use county name as key (or FIPS if you prefer)
-            county_key = county
+                       # Use county FIPS as key if available, else county name
+            county_fips = data[year][county][contest].get('county_fips')
+            county_key = county_fips if county_fips else county  # fallback to name if FIPS missing
             contest_type_map[contest_type][contest_key]["results"][county_key] = data[year][county][contest]
+
     # Flatten contest_type_map into year_obj
     for contest_type in contest_type_map:
         year_obj[contest_type] = contest_type_map[contest_type]
