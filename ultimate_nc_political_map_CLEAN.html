@@ -2210,12 +2210,11 @@ function showCountyDetails(countyName) {
                     else if (year === '2024') { demCandidate = 'Jessica Holmes'; repCandidate = 'Dave Boliek'; }
                 }
             }
-            // Use competitiveness fields from JSON
-            const marginText = firstResult.competitiveness_margin || 'N/A';
-            const competitiveness = firstResult.competitiveness_category || 'N/A';
-            const compColor = firstResult.competitiveness_color || '#6b7280';
-            const winner = (repVotes - demVotes) > 0 ? 'Republican' : 'Democratic';
-            const winnerCandidate = (repVotes - demVotes) > 0 ? repCandidate : demCandidate;
+            const margin = repVotes - demVotes;
+            const marginPct = (Math.abs(margin) / totalVotes * 100).toFixed(2);
+            const winner = margin > 0 ? 'Republican' : 'Democratic';
+            const winnerCandidate = margin > 0 ? repCandidate : demCandidate;
+            const marginText = margin > 0 ? 'R+' + marginPct + '%' : 'D+' + marginPct + '%';
             const winnerColor = winner === 'Republican' ? '#dc2626' : '#2563eb';
             sidebarContent += '<div class="result-summary">';
             sidebarContent += '<h5>📊 Election Results</h5>';
