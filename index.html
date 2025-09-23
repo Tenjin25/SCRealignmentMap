@@ -998,7 +998,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
 // --- Election Results Visualization (Dynamic Contest/Year) ---
-fetch('sc_election_results_v06_structured_corrected.json')
+fetch('workspace_files/all_county_results.json')
     .then(res => res.json())
     .then(data => {
         window.electionData = data; // Make available globally
