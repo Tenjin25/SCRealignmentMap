@@ -1047,6 +1047,15 @@ fetch('workspace_files/all_county_results.json')
 
         // Helper to update map for selected contest
         function updateMapForContest(year, contestKey) {
+            // Debug: print available county keys in results and GeoJSON
+            if (data[year]) {
+                const contestCounties = Object.keys(data[year]);
+                console.log('County keys in results for year', year, ':', contestCounties);
+            }
+            if (map.getSource('counties') && map.getSource('counties')._data && map.getSource('counties')._data.features) {
+                const geojsonCountyNames = map.getSource('counties')._data.features.map(f => f.properties.NAME20);
+                console.log('County names in GeoJSON:', geojsonCountyNames);
+            }
             // Find contest results in new structure (use contest object directly)
             let contestResults = {};
             if (data[year]) {
