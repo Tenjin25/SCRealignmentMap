@@ -1,0 +1,3293 @@
+{
+  "ABBEVILLE": {
+    "PRESIDENT": {
+      "county": "ABBEVILLE",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 3741,
+      "rep_votes": 6763,
+      "other_votes": 271,
+      "total_votes": 10775,
+      "two_party_total": 10504,
+      "margin": 3022,
+      "margin_pct": 28.77,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 3741,
+        "CON": 38,
+        "IND": 56,
+        "GRN": 36,
+        "REP": 6763,
+        "AMR": 12,
+        "LIB": 129
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ABBEVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 3285,
+      "rep_votes": 6669,
+      "other_votes": 516,
+      "total_votes": 10470,
+      "two_party_total": 9954,
+      "margin": 3384,
+      "margin_pct": 34.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 3285,
+        "WFM": 226,
+        "CON": 79,
+        "GRN": 59,
+        "REP": 6669,
+        "AMR": 58,
+        "LIB": 88,
+        "NON": 6
+      }
+    }
+  },
+  "AIKEN": {
+    "PRESIDENT": {
+      "county": "AIKEN",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 25455,
+      "rep_votes": 46025,
+      "other_votes": 3371,
+      "total_votes": 74851,
+      "two_party_total": 71480,
+      "margin": 20570,
+      "margin_pct": 28.78,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 25455,
+        "CON": 213,
+        "IND": 791,
+        "GRN": 460,
+        "REP": 46025,
+        "AMR": 109,
+        "LIB": 1798
+      }
+    },
+    "U.S. SENATE": {
+      "county": "AIKEN",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 21801,
+      "rep_votes": 47318,
+      "other_votes": 4051,
+      "total_votes": 73170,
+      "two_party_total": 69119,
+      "margin": 25517,
+      "margin_pct": 36.92,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 21801,
+        "WFM": 1359,
+        "CON": 575,
+        "GRN": 521,
+        "REP": 47318,
+        "AMR": 446,
+        "LIB": 1085,
+        "NON": 65
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "AIKEN",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Jason Goings",
+      "dem_votes": 0,
+      "rep_votes": 57477,
+      "other_votes": 445,
+      "total_votes": 57922,
+      "two_party_total": 57477,
+      "margin": 57477,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 57477,
+        "NON": 445
+      }
+    }
+  },
+  "ALLENDALE": {
+    "PRESIDENT": {
+      "county": "ALLENDALE",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 2735,
+      "rep_votes": 789,
+      "other_votes": 68,
+      "total_votes": 3592,
+      "two_party_total": 3524,
+      "margin": 1946,
+      "margin_pct": 55.22,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 2735,
+        "CON": 11,
+        "IND": 12,
+        "GRN": 11,
+        "REP": 789,
+        "AMR": 12,
+        "LIB": 22
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ALLENDALE",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 2452,
+      "rep_votes": 796,
+      "other_votes": 147,
+      "total_votes": 3395,
+      "two_party_total": 3248,
+      "margin": 1656,
+      "margin_pct": 50.99,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 2452,
+        "WFM": 77,
+        "CON": 21,
+        "GRN": 15,
+        "REP": 796,
+        "AMR": 22,
+        "LIB": 11,
+        "NON": 1
+      }
+    }
+  },
+  "ANDERSON": {
+    "PRESIDENT": {
+      "county": "ANDERSON",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 21097,
+      "rep_votes": 56232,
+      "other_votes": 3154,
+      "total_votes": 80483,
+      "two_party_total": 77329,
+      "margin": 35135,
+      "margin_pct": 45.44,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 21097,
+        "CON": 236,
+        "IND": 776,
+        "GRN": 438,
+        "REP": 56232,
+        "AMR": 112,
+        "LIB": 1592
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ANDERSON",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 16538,
+      "rep_votes": 57675,
+      "other_votes": 4202,
+      "total_votes": 78415,
+      "two_party_total": 74213,
+      "margin": 41137,
+      "margin_pct": 55.43,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 16538,
+        "WFM": 1530,
+        "CON": 553,
+        "GRN": 580,
+        "REP": 57675,
+        "AMR": 501,
+        "LIB": 983,
+        "NON": 55
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "ANDERSON",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Jason P Phillips",
+      "dem_votes": 0,
+      "rep_votes": 65027,
+      "other_votes": 179,
+      "total_votes": 65206,
+      "two_party_total": 65027,
+      "margin": 65027,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 65027,
+        "NON": 179
+      }
+    }
+  },
+  "BAMBERG": {
+    "PRESIDENT": {
+      "county": "BAMBERG",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 3898,
+      "rep_votes": 2204,
+      "other_votes": 112,
+      "total_votes": 6214,
+      "two_party_total": 6102,
+      "margin": 1694,
+      "margin_pct": 27.76,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "DEM": 3898,
+        "CON": 16,
+        "IND": 21,
+        "GRN": 17,
+        "REP": 2204,
+        "AMR": 7,
+        "LIB": 51
+      }
+    },
+    "U.S. SENATE": {
+      "county": "BAMBERG",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 3706,
+      "rep_votes": 2159,
+      "other_votes": 208,
+      "total_votes": 6073,
+      "two_party_total": 5865,
+      "margin": 1547,
+      "margin_pct": 26.38,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "DEM": 3706,
+        "WFM": 96,
+        "CON": 28,
+        "GRN": 23,
+        "REP": 2159,
+        "AMR": 21,
+        "LIB": 38,
+        "NON": 2
+      }
+    }
+  },
+  "BARNWELL": {
+    "PRESIDENT": {
+      "county": "BARNWELL",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 4400,
+      "rep_votes": 4889,
+      "other_votes": 196,
+      "total_votes": 9485,
+      "two_party_total": 9289,
+      "margin": 489,
+      "margin_pct": 5.26,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 4400,
+        "CON": 24,
+        "IND": 43,
+        "GRN": 35,
+        "REP": 4889,
+        "AMC": 7,
+        "LIB": 87
+      }
+    },
+    "U.S. SENATE": {
+      "county": "BARNWELL",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 3998,
+      "rep_votes": 4793,
+      "other_votes": 396,
+      "total_votes": 9187,
+      "two_party_total": 8791,
+      "margin": 795,
+      "margin_pct": 9.04,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "DEM": 3998,
+        "WFM": 182,
+        "CON": 53,
+        "GRN": 48,
+        "REP": 4793,
+        "AMC": 56,
+        "LIB": 54,
+        "NON": 3
+      }
+    }
+  },
+  "BEAUFORT": {
+    "PRESIDENT": {
+      "county": "BEAUFORT",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 32138,
+      "rep_votes": 42922,
+      "other_votes": 3464,
+      "total_votes": 78524,
+      "two_party_total": 75060,
+      "margin": 10784,
+      "margin_pct": 14.37,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 32138,
+        "CON": 142,
+        "IND": 743,
+        "GRN": 482,
+        "REP": 42922,
+        "AMC": 92,
+        "LIB": 2005
+      }
+    },
+    "U.S. SENATE": {
+      "county": "BEAUFORT",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 24875,
+      "rep_votes": 48125,
+      "other_votes": 3293,
+      "total_votes": 76293,
+      "two_party_total": 73000,
+      "margin": 23250,
+      "margin_pct": 31.85,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 24875,
+        "WFM": 1179,
+        "CON": 288,
+        "GRN": 565,
+        "REP": 48125,
+        "AMC": 316,
+        "LIB": 892,
+        "NON": 53
+      }
+    }
+  },
+  "BERKELEY": {
+    "PRESIDENT": {
+      "county": "BERKELEY",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 30705,
+      "rep_votes": 44587,
+      "other_votes": 4225,
+      "total_votes": 79517,
+      "two_party_total": 75292,
+      "margin": 13882,
+      "margin_pct": 18.44,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 30705,
+        "CON": 230,
+        "IND": 864,
+        "GRN": 543,
+        "REP": 44587,
+        "AMR": 118,
+        "LIB": 2470
+      }
+    },
+    "U.S. SENATE": {
+      "county": "BERKELEY",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 23628,
+      "rep_votes": 50423,
+      "other_votes": 3659,
+      "total_votes": 77710,
+      "two_party_total": 74051,
+      "margin": 26795,
+      "margin_pct": 36.18,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 23628,
+        "WFM": 1252,
+        "CON": 406,
+        "GRN": 555,
+        "REP": 50423,
+        "AMR": 420,
+        "LIB": 952,
+        "NON": 74
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "BERKELEY",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Carolyn M Umphlett",
+      "dem_votes": 0,
+      "rep_votes": 59118,
+      "other_votes": 513,
+      "total_votes": 59631,
+      "two_party_total": 59118,
+      "margin": 59118,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 59118,
+        "NON": 513
+      }
+    }
+  },
+  "CALHOUN": {
+    "PRESIDENT": {
+      "county": "CALHOUN",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 3573,
+      "rep_votes": 3787,
+      "other_votes": 189,
+      "total_votes": 7549,
+      "two_party_total": 7360,
+      "margin": 214,
+      "margin_pct": 2.91,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 3573,
+        "CON": 15,
+        "IND": 39,
+        "GRN": 24,
+        "REP": 3787,
+        "AMR": 6,
+        "LIB": 105
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CALHOUN",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 3236,
+      "rep_votes": 3834,
+      "other_votes": 318,
+      "total_votes": 7388,
+      "two_party_total": 7070,
+      "margin": 598,
+      "margin_pct": 8.46,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "DEM": 3236,
+        "WFW": 98,
+        "CON": 60,
+        "GRN": 31,
+        "REP": 3834,
+        "AMR": 47,
+        "LIB": 76,
+        "NON": 6
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CALHOUN",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Rebecca C Furtick",
+      "rep_candidate": null,
+      "dem_votes": 6313,
+      "rep_votes": 0,
+      "other_votes": 18,
+      "total_votes": 6331,
+      "two_party_total": 6313,
+      "margin": 6313,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 6313,
+        "NON": 18
+      }
+    }
+  },
+  "CHARLESTON": {
+    "PRESIDENT": {
+      "county": "CHARLESTON",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 89299,
+      "rep_votes": 75443,
+      "other_votes": 11603,
+      "total_votes": 176345,
+      "two_party_total": 164742,
+      "margin": 13856,
+      "margin_pct": 8.41,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "DEM": 89299,
+        "CON": 428,
+        "IND": 1985,
+        "GRN": 1681,
+        "REP": 75443,
+        "AMR": 226,
+        "LIB": 7283
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CHARLESTON",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 67341,
+      "rep_votes": 97219,
+      "other_votes": 8365,
+      "total_votes": 172925,
+      "two_party_total": 164560,
+      "margin": 29878,
+      "margin_pct": 18.16,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 67341,
+        "WFM": 2400,
+        "CON": 569,
+        "GRN": 1890,
+        "REP": 97219,
+        "AMR": 823,
+        "LIB": 2520,
+        "NON": 163
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHARLESTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Mary Tinkler",
+      "rep_candidate": "Andrew C Smith",
+      "dem_votes": 79837,
+      "rep_votes": 77679,
+      "other_votes": 11702,
+      "total_votes": 169218,
+      "two_party_total": 157516,
+      "margin": 2158,
+      "margin_pct": 1.37,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "DEM": 79837,
+        "WFM": 5215,
+        "REP": 77679,
+        "LIB": 6407,
+        "NON": 80
+      }
+    }
+  },
+  "CHEROKEE": {
+    "PRESIDENT": {
+      "county": "CHEROKEE",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 6092,
+      "rep_votes": 15167,
+      "other_votes": 500,
+      "total_votes": 21759,
+      "two_party_total": 21259,
+      "margin": 9075,
+      "margin_pct": 42.69,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 6092,
+        "CON": 52,
+        "IND": 96,
+        "GRN": 80,
+        "REP": 15167,
+        "AMR": 30,
+        "LIB": 242
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CHEROKEE",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 5239,
+      "rep_votes": 14565,
+      "other_votes": 1216,
+      "total_votes": 21020,
+      "two_party_total": 19804,
+      "margin": 9326,
+      "margin_pct": 47.09,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 5239,
+        "WFM": 534,
+        "CON": 163,
+        "GRN": 128,
+        "REP": 14565,
+        "AMR": 165,
+        "LIB": 209,
+        "NON": 17
+      }
+    }
+  },
+  "CHESTER": {
+    "PRESIDENT": {
+      "county": "CHESTER",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 6579,
+      "rep_votes": 7265,
+      "other_votes": 348,
+      "total_votes": 14192,
+      "two_party_total": 13844,
+      "margin": 686,
+      "margin_pct": 4.96,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 6579,
+        "CON": 30,
+        "IND": 64,
+        "GRN": 50,
+        "REP": 7265,
+        "AMR": 29,
+        "LIB": 175
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CHESTER",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 5964,
+      "rep_votes": 6649,
+      "other_votes": 1001,
+      "total_votes": 13614,
+      "two_party_total": 12613,
+      "margin": 685,
+      "margin_pct": 5.43,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 5964,
+        "WFM": 520,
+        "CON": 106,
+        "GRN": 94,
+        "REP": 6649,
+        "AMR": 121,
+        "LIB": 153,
+        "NON": 7
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Thomas E Darby",
+      "rep_candidate": null,
+      "dem_votes": 11834,
+      "rep_votes": 0,
+      "other_votes": 43,
+      "total_votes": 11877,
+      "two_party_total": 11834,
+      "margin": 11834,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 11834,
+        "NON": 43
+      }
+    }
+  },
+  "CHESTERFIELD": {
+    "PRESIDENT": {
+      "county": "CHESTERFIELD",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 6858,
+      "rep_votes": 9312,
+      "other_votes": 411,
+      "total_votes": 16581,
+      "two_party_total": 16170,
+      "margin": 2454,
+      "margin_pct": 15.18,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 6858,
+        "CON": 60,
+        "IND": 95,
+        "GRN": 47,
+        "REP": 9312,
+        "AMR": 24,
+        "LIB": 185
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CHESTERFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 6204,
+      "rep_votes": 8895,
+      "other_votes": 917,
+      "total_votes": 16016,
+      "two_party_total": 15099,
+      "margin": 2691,
+      "margin_pct": 17.82,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 6204,
+        "WFM": 487,
+        "CON": 105,
+        "GRN": 92,
+        "REP": 8895,
+        "AMR": 96,
+        "LIB": 124,
+        "NON": 13
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHESTERFIELD",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Fred Harris",
+      "rep_candidate": null,
+      "dem_votes": 12560,
+      "rep_votes": 0,
+      "other_votes": 75,
+      "total_votes": 12635,
+      "two_party_total": 12560,
+      "margin": 12560,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 12560,
+        "NON": 75
+      }
+    }
+  },
+  "CLARENDON": {
+    "PRESIDENT": {
+      "county": "CLARENDON",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 7732,
+      "rep_votes": 7386,
+      "other_votes": 277,
+      "total_votes": 15395,
+      "two_party_total": 15118,
+      "margin": 346,
+      "margin_pct": 2.29,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "DEM": 7732,
+        "CON": 25,
+        "IND": 74,
+        "GRN": 27,
+        "REP": 7386,
+        "AMR": 24,
+        "LIB": 127
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CLARENDON",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 6965,
+      "rep_votes": 7477,
+      "other_votes": 492,
+      "total_votes": 14934,
+      "two_party_total": 14442,
+      "margin": 512,
+      "margin_pct": 3.55,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 6965,
+        "WFM": 194,
+        "CON": 64,
+        "GRN": 55,
+        "REP": 7477,
+        "AMR": 73,
+        "LIB": 91,
+        "NON": 15
+      }
+    }
+  },
+  "COLLETON": {
+    "PRESIDENT": {
+      "county": "COLLETON",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 7627,
+      "rep_votes": 9091,
+      "other_votes": 533,
+      "total_votes": 17251,
+      "two_party_total": 16718,
+      "margin": 1464,
+      "margin_pct": 8.76,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "DEM": 7627,
+        "CON": 60,
+        "IND": 103,
+        "GRN": 79,
+        "REP": 9091,
+        "AMR": 29,
+        "LIB": 262
+      }
+    },
+    "U.S. SENATE": {
+      "county": "COLLETON",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 6346,
+      "rep_votes": 9427,
+      "other_votes": 722,
+      "total_votes": 16495,
+      "two_party_total": 15773,
+      "margin": 3081,
+      "margin_pct": 19.53,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 6346,
+        "WFM": 270,
+        "CON": 93,
+        "GRN": 94,
+        "REP": 9427,
+        "AMR": 133,
+        "LIB": 119,
+        "NON": 13
+      }
+    }
+  },
+  "DARLINGTON": {
+    "PRESIDENT": {
+      "county": "DARLINGTON",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 13888,
+      "rep_votes": 14989,
+      "other_votes": 797,
+      "total_votes": 29674,
+      "two_party_total": 28877,
+      "margin": 1101,
+      "margin_pct": 3.81,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 13888,
+        "CON": 73,
+        "IND": 168,
+        "GRN": 133,
+        "REP": 14989,
+        "AMR": 38,
+        "LIB": 385
+      }
+    },
+    "U.S. SENATE": {
+      "county": "DARLINGTON",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 12336,
+      "rep_votes": 15261,
+      "other_votes": 1285,
+      "total_votes": 28882,
+      "two_party_total": 27597,
+      "margin": 2925,
+      "margin_pct": 10.6,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 12336,
+        "WFM": 574,
+        "CON": 152,
+        "GRN": 156,
+        "REP": 15261,
+        "AMR": 140,
+        "LIB": 248,
+        "NON": 15
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "DARLINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Robin Slater Edwards",
+      "rep_candidate": "Jeff Robinson",
+      "dem_votes": 14291,
+      "rep_votes": 14473,
+      "other_votes": 7,
+      "total_votes": 28771,
+      "two_party_total": 28764,
+      "margin": 182,
+      "margin_pct": 0.63,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Tilt",
+        "party": "Republican",
+        "color": "#fee8c8"
+      },
+      "all_parties": {
+        "DEM": 14291,
+        "REP": 14473,
+        "NON": 7
+      }
+    }
+  },
+  "DILLON": {
+    "PRESIDENT": {
+      "county": "DILLON",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 5834,
+      "rep_votes": 5637,
+      "other_votes": 227,
+      "total_votes": 11698,
+      "two_party_total": 11471,
+      "margin": 197,
+      "margin_pct": 1.72,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "DEM": 5834,
+        "CON": 23,
+        "IND": 43,
+        "GRN": 54,
+        "REP": 5637,
+        "AMR": 28,
+        "LIB": 79
+      }
+    },
+    "U.S. SENATE": {
+      "county": "DILLON",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 4567,
+      "rep_votes": 5743,
+      "other_votes": 611,
+      "total_votes": 10921,
+      "two_party_total": 10310,
+      "margin": 1176,
+      "margin_pct": 11.41,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 4567,
+        "WFM": 342,
+        "CON": 54,
+        "GRN": 60,
+        "REP": 5743,
+        "AMR": 74,
+        "LIB": 62,
+        "NON": 19
+      }
+    }
+  },
+  "DORCHESTER": {
+    "PRESIDENT": {
+      "county": "DORCHESTER",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 24055,
+      "rep_votes": 34987,
+      "other_votes": 3525,
+      "total_votes": 62567,
+      "two_party_total": 59042,
+      "margin": 10932,
+      "margin_pct": 18.52,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 24055,
+        "CON": 215,
+        "IND": 731,
+        "GRN": 447,
+        "REP": 34987,
+        "AMR": 82,
+        "LIB": 2050
+      }
+    },
+    "U.S. SENATE": {
+      "county": "DORCHESTER",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 18510,
+      "rep_votes": 39918,
+      "other_votes": 2934,
+      "total_votes": 61362,
+      "two_party_total": 58428,
+      "margin": 21408,
+      "margin_pct": 36.64,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 18510,
+        "WF": 1086,
+        "CON": 300,
+        "GRN": 413,
+        "REP": 39918,
+        "AMR": 329,
+        "LIB": 759,
+        "NON": 47
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "DORCHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Mary Pearson",
+      "dem_votes": 0,
+      "rep_votes": 46440,
+      "other_votes": 247,
+      "total_votes": 46687,
+      "two_party_total": 46440,
+      "margin": 46440,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 46440,
+        "NON": 247
+      }
+    }
+  },
+  "EDGEFIELD": {
+    "PRESIDENT": {
+      "county": "EDGEFIELD",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 4491,
+      "rep_votes": 6842,
+      "other_votes": 311,
+      "total_votes": 11644,
+      "two_party_total": 11333,
+      "margin": 2351,
+      "margin_pct": 20.74,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 4491,
+        "CON": 42,
+        "IND": 68,
+        "GRN": 35,
+        "REP": 6842,
+        "AMR": 14,
+        "LIB": 152
+      }
+    },
+    "U.S. SENATE": {
+      "county": "EDGEFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 4038,
+      "rep_votes": 6662,
+      "other_votes": 556,
+      "total_votes": 11256,
+      "two_party_total": 10700,
+      "margin": 2624,
+      "margin_pct": 24.52,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 4038,
+        "WFM": 232,
+        "CON": 85,
+        "GRN": 50,
+        "REP": 6662,
+        "AMR": 60,
+        "LIB": 123,
+        "NON": 6
+      }
+    }
+  },
+  "FAIRFIELD": {
+    "PRESIDENT": {
+      "county": "FAIRFIELD",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 6945,
+      "rep_votes": 4027,
+      "other_votes": 295,
+      "total_votes": 11267,
+      "two_party_total": 10972,
+      "margin": 2918,
+      "margin_pct": 26.59,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "DEM": 6945,
+        "CON": 32,
+        "IND": 73,
+        "GRN": 49,
+        "REP": 4027,
+        "AMR": 21,
+        "LIB": 120
+      }
+    },
+    "U.S. SENATE": {
+      "county": "FAIRFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 6068,
+      "rep_votes": 4265,
+      "other_votes": 499,
+      "total_votes": 10832,
+      "two_party_total": 10333,
+      "margin": 1803,
+      "margin_pct": 17.45,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "DEM": 6068,
+        "WFM": 204,
+        "CON": 62,
+        "GRN": 70,
+        "REP": 4265,
+        "AMR": 69,
+        "LIB": 85,
+        "NON": 9
+      }
+    }
+  },
+  "FLORENCE": {
+    "PRESIDENT": {
+      "county": "FLORENCE",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 26710,
+      "rep_votes": 29573,
+      "other_votes": 1648,
+      "total_votes": 57931,
+      "two_party_total": 56283,
+      "margin": 2863,
+      "margin_pct": 5.09,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 26710,
+        "CON": 116,
+        "IND": 350,
+        "GRN": 255,
+        "REP": 29573,
+        "AMR": 74,
+        "LIB": 853
+      }
+    },
+    "U.S. SENATE": {
+      "county": "FLORENCE",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 23026,
+      "rep_votes": 31449,
+      "other_votes": 2269,
+      "total_votes": 56744,
+      "two_party_total": 54475,
+      "margin": 8423,
+      "margin_pct": 15.46,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 23026,
+        "WFW": 1001,
+        "CON": 229,
+        "GRN": 303,
+        "REP": 31449,
+        "AMR": 258,
+        "LIB": 429,
+        "NON": 49
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "FLORENCE",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Laurie Walsh Carpenter",
+      "dem_votes": 0,
+      "rep_votes": 39828,
+      "other_votes": 269,
+      "total_votes": 40097,
+      "two_party_total": 39828,
+      "margin": 39828,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 39828,
+        "NON": 269
+      }
+    }
+  },
+  "GEORGETOWN": {
+    "PRESIDENT": {
+      "county": "GEORGETOWN",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 13310,
+      "rep_votes": 17389,
+      "other_votes": 958,
+      "total_votes": 31657,
+      "two_party_total": 30699,
+      "margin": 4079,
+      "margin_pct": 13.29,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 13310,
+        "CON": 57,
+        "IND": 202,
+        "GRN": 165,
+        "REP": 17389,
+        "AMR": 36,
+        "LIB": 498
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GEORGETOWN",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 11311,
+      "rep_votes": 18737,
+      "other_votes": 1004,
+      "total_votes": 31052,
+      "two_party_total": 30048,
+      "margin": 7426,
+      "margin_pct": 24.71,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 11311,
+        "WFM": 402,
+        "CON": 86,
+        "GRN": 169,
+        "REP": 18737,
+        "AMR": 150,
+        "LIB": 183,
+        "NON": 14
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "GEORGETOWN",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Chelice Cox Waites",
+      "rep_candidate": "Allison Sippel Peteet",
+      "dem_votes": 13138,
+      "rep_votes": 17562,
+      "other_votes": 12,
+      "total_votes": 30712,
+      "two_party_total": 30700,
+      "margin": 4424,
+      "margin_pct": 14.41,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 13138,
+        "REP": 17562,
+        "NON": 12
+      }
+    }
+  },
+  "GREENVILLE": {
+    "PRESIDENT": {
+      "county": "GREENVILLE",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 74483,
+      "rep_votes": 127832,
+      "other_votes": 12850,
+      "total_votes": 215165,
+      "two_party_total": 202315,
+      "margin": 53349,
+      "margin_pct": 26.37,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 74483,
+        "CON": 884,
+        "IND": 3645,
+        "GRN": 1495,
+        "REP": 127832,
+        "AME": 315,
+        "LIB": 6511
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GREENVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 59012,
+      "rep_votes": 141731,
+      "other_votes": 10270,
+      "total_votes": 211013,
+      "two_party_total": 200743,
+      "margin": 82719,
+      "margin_pct": 41.21,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 59012,
+        "WFM": 2776,
+        "CON": 1494,
+        "GRN": 1653,
+        "REP": 141731,
+        "AME": 1044,
+        "LIB": 3081,
+        "NON": 222
+      }
+    }
+  },
+  "GREENWOOD": {
+    "PRESIDENT": {
+      "county": "GREENWOOD",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 10711,
+      "rep_votes": 16961,
+      "other_votes": 1091,
+      "total_votes": 28763,
+      "two_party_total": 27672,
+      "margin": 6250,
+      "margin_pct": 22.59,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 10711,
+        "CON": 81,
+        "IND": 221,
+        "GRN": 160,
+        "REP": 16961,
+        "AME": 49,
+        "LIB": 580
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GREENWOOD",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 9086,
+      "rep_votes": 17568,
+      "other_votes": 1315,
+      "total_votes": 27969,
+      "two_party_total": 26654,
+      "margin": 8482,
+      "margin_pct": 31.82,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 9086,
+        "WFM": 555,
+        "CON": 156,
+        "GRN": 156,
+        "REP": 17568,
+        "AME": 146,
+        "LIB": 284,
+        "NON": 18
+      }
+    }
+  },
+  "HAMPTON": {
+    "PRESIDENT": {
+      "county": "HAMPTON",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 5170,
+      "rep_votes": 3488,
+      "other_votes": 148,
+      "total_votes": 8806,
+      "two_party_total": 8658,
+      "margin": 1682,
+      "margin_pct": 19.43,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "DEM": 5170,
+        "CON": 14,
+        "IND": 32,
+        "GRN": 19,
+        "REP": 3488,
+        "AMR": 14,
+        "LIB": 69
+      }
+    },
+    "U.S. SENATE": {
+      "county": "HAMPTON",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 4518,
+      "rep_votes": 3265,
+      "other_votes": 516,
+      "total_votes": 8299,
+      "two_party_total": 7783,
+      "margin": 1253,
+      "margin_pct": 16.1,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "DEM": 4518,
+        "WFM": 256,
+        "CON": 60,
+        "GRN": 57,
+        "REP": 3265,
+        "AMR": 65,
+        "LIB": 74,
+        "NON": 4
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "HAMPTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Jennifer Ginn Youmans",
+      "rep_candidate": null,
+      "dem_votes": 7417,
+      "rep_votes": 0,
+      "other_votes": 28,
+      "total_votes": 7445,
+      "two_party_total": 7417,
+      "margin": 7417,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 7417,
+        "NON": 28
+      }
+    }
+  },
+  "HORRY": {
+    "PRESIDENT": {
+      "county": "HORRY",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 39410,
+      "rep_votes": 89288,
+      "other_votes": 4222,
+      "total_votes": 132920,
+      "two_party_total": 128698,
+      "margin": 49878,
+      "margin_pct": 38.76,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 39410,
+        "CON": 197,
+        "IND": 737,
+        "GRN": 811,
+        "REP": 89288,
+        "AMR": 201,
+        "LIB": 2276
+      }
+    },
+    "U.S. SENATE": {
+      "county": "HORRY",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 31688,
+      "rep_votes": 90641,
+      "other_votes": 6213,
+      "total_votes": 128542,
+      "two_party_total": 122329,
+      "margin": 58953,
+      "margin_pct": 48.19,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 31688,
+        "WFM": 2467,
+        "CON": 669,
+        "GRN": 883,
+        "REP": 90641,
+        "AMR": 694,
+        "LIB": 1408,
+        "NON": 92
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "HORRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Angie Jones",
+      "dem_votes": 0,
+      "rep_votes": 101449,
+      "other_votes": 558,
+      "total_votes": 102007,
+      "two_party_total": 101449,
+      "margin": 101449,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 101449,
+        "NON": 558
+      }
+    }
+  },
+  "JASPER": {
+    "PRESIDENT": {
+      "county": "JASPER",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 5956,
+      "rep_votes": 5187,
+      "other_votes": 284,
+      "total_votes": 11427,
+      "two_party_total": 11143,
+      "margin": 769,
+      "margin_pct": 6.9,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "DEM": 5956,
+        "CON": 25,
+        "IND": 68,
+        "GRN": 35,
+        "REP": 5187,
+        "AMR": 17,
+        "LIB": 139
+      }
+    },
+    "U.S. SENATE": {
+      "county": "JASPER",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 4798,
+      "rep_votes": 5152,
+      "other_votes": 651,
+      "total_votes": 10601,
+      "two_party_total": 9950,
+      "margin": 354,
+      "margin_pct": 3.56,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 4798,
+        "WFM": 311,
+        "CON": 71,
+        "GRN": 92,
+        "REP": 5152,
+        "AMR": 71,
+        "LIB": 96,
+        "NON": 10
+      }
+    }
+  },
+  "KERSHAW": {
+    "PRESIDENT": {
+      "county": "KERSHAW",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 10330,
+      "rep_votes": 17542,
+      "other_votes": 1123,
+      "total_votes": 28995,
+      "two_party_total": 27872,
+      "margin": 7212,
+      "margin_pct": 25.88,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 10330,
+        "CON": 72,
+        "IND": 289,
+        "GRN": 143,
+        "REP": 17542,
+        "AMR": 59,
+        "LIB": 560
+      }
+    },
+    "U.S. SENATE": {
+      "county": "KERSHAW",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 8666,
+      "rep_votes": 17949,
+      "other_votes": 1611,
+      "total_votes": 28226,
+      "two_party_total": 26615,
+      "margin": 9283,
+      "margin_pct": 34.88,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 8666,
+        "WFM": 638,
+        "CON": 210,
+        "GRN": 182,
+        "REP": 17949,
+        "AMR": 217,
+        "LIB": 330,
+        "NON": 34
+      }
+    }
+  },
+  "LANCASTER": {
+    "PRESIDENT": {
+      "county": "LANCASTER",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 13812,
+      "rep_votes": 23719,
+      "other_votes": 1407,
+      "total_votes": 38938,
+      "two_party_total": 37531,
+      "margin": 9907,
+      "margin_pct": 26.4,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 13812,
+        "CON": 97,
+        "IND": 336,
+        "GRN": 161,
+        "REP": 23719,
+        "AMR": 49,
+        "LIB": 764
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LANCASTER",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 12088,
+      "rep_votes": 23199,
+      "other_votes": 2334,
+      "total_votes": 37621,
+      "two_party_total": 35287,
+      "margin": 11111,
+      "margin_pct": 31.49,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 12088,
+        "WFM": 1051,
+        "CON": 276,
+        "GRN": 211,
+        "REP": 23199,
+        "AMR": 280,
+        "LIB": 486,
+        "NON": 30
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "LANCASTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Carrie Williams Helms",
+      "dem_votes": 0,
+      "rep_votes": 30624,
+      "other_votes": 161,
+      "total_votes": 30785,
+      "two_party_total": 30624,
+      "margin": 30624,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 30624,
+        "NON": 161
+      }
+    }
+  },
+  "LAURENS": {
+    "PRESIDENT": {
+      "county": "LAURENS",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 8889,
+      "rep_votes": 16816,
+      "other_votes": 861,
+      "total_votes": 26566,
+      "two_party_total": 25705,
+      "margin": 7927,
+      "margin_pct": 30.84,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 8889,
+        "CON": 122,
+        "IND": 201,
+        "GRN": 125,
+        "REP": 16816,
+        "AMR": 40,
+        "LIB": 373
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LAURENS",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 6889,
+      "rep_votes": 17051,
+      "other_votes": 1685,
+      "total_votes": 25625,
+      "two_party_total": 23940,
+      "margin": 10162,
+      "margin_pct": 42.45,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 6889,
+        "WFM": 715,
+        "CON": 248,
+        "GRN": 189,
+        "REP": 17051,
+        "AMR": 215,
+        "LIB": 289,
+        "NON": 29
+      }
+    }
+  },
+  "LEE": {
+    "PRESIDENT": {
+      "county": "LEE",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 5199,
+      "rep_votes": 2803,
+      "other_votes": 154,
+      "total_votes": 8156,
+      "two_party_total": 8002,
+      "margin": 2396,
+      "margin_pct": 29.94,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "DEM": 5199,
+        "CON": 25,
+        "IND": 33,
+        "GRN": 22,
+        "REP": 2803,
+        "AMR": 11,
+        "LIB": 63
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LEE",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 4806,
+      "rep_votes": 2727,
+      "other_votes": 335,
+      "total_votes": 7868,
+      "two_party_total": 7533,
+      "margin": 2079,
+      "margin_pct": 27.6,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "DEM": 4806,
+        "WFW": 161,
+        "CON": 43,
+        "GRN": 31,
+        "REP": 2727,
+        "AMR": 56,
+        "LIB": 42,
+        "NON": 2
+      }
+    }
+  },
+  "LEXINGTON": {
+    "PRESIDENT": {
+      "county": "LEXINGTON",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 35230,
+      "rep_votes": 80026,
+      "other_votes": 6837,
+      "total_votes": 122093,
+      "two_party_total": 115256,
+      "margin": 44796,
+      "margin_pct": 38.87,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 35230,
+        "CON": 416,
+        "IND": 1733,
+        "GRN": 894,
+        "REP": 80026,
+        "AMR": 210,
+        "LIB": 3584
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LEXINGTON",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 26910,
+      "rep_votes": 85385,
+      "other_votes": 7381,
+      "total_votes": 119676,
+      "two_party_total": 112295,
+      "margin": 58475,
+      "margin_pct": 52.07,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 26910,
+        "WFM": 2101,
+        "CON": 1192,
+        "GRN": 984,
+        "REP": 85385,
+        "AMR": 937,
+        "LIB": 2018,
+        "NON": 149
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "LEXINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Jim Eckstrom",
+      "dem_votes": 0,
+      "rep_votes": 98842,
+      "other_votes": 573,
+      "total_votes": 99415,
+      "two_party_total": 98842,
+      "margin": 98842,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 98842,
+        "NON": 573
+      }
+    }
+  },
+  "MARION": {
+    "PRESIDENT": {
+      "county": "MARION",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 8569,
+      "rep_votes": 5444,
+      "other_votes": 263,
+      "total_votes": 14276,
+      "two_party_total": 14013,
+      "margin": 3125,
+      "margin_pct": 22.3,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "DEM": 8569,
+        "CON": 27,
+        "IND": 46,
+        "GRN": 65,
+        "REP": 5444,
+        "AMR": 22,
+        "LIB": 103
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MARION",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 7535,
+      "rep_votes": 5500,
+      "other_votes": 551,
+      "total_votes": 13586,
+      "two_party_total": 13035,
+      "margin": 2035,
+      "margin_pct": 15.61,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "DEM": 7535,
+        "WFM": 315,
+        "CON": 49,
+        "GRN": 65,
+        "REP": 5500,
+        "AMR": 63,
+        "LIB": 51,
+        "NON": 8
+      }
+    }
+  },
+  "MARLBORO": {
+    "PRESIDENT": {
+      "county": "MARLBORO",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 5954,
+      "rep_votes": 4267,
+      "other_votes": 168,
+      "total_votes": 10389,
+      "two_party_total": 10221,
+      "margin": 1687,
+      "margin_pct": 16.51,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "DEM": 5954,
+        "CON": 20,
+        "IND": 32,
+        "GRN": 33,
+        "REP": 4267,
+        "AMR": 13,
+        "LIB": 70
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MARLBORO",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 5364,
+      "rep_votes": 4132,
+      "other_votes": 519,
+      "total_votes": 10015,
+      "two_party_total": 9496,
+      "margin": 1232,
+      "margin_pct": 12.97,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "DEM": 5364,
+        "WFW": 300,
+        "CON": 54,
+        "GRN": 53,
+        "REP": 4132,
+        "AMR": 49,
+        "LIB": 60,
+        "NON": 3
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "MARLBORO",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Delorice B Barrington",
+      "rep_candidate": null,
+      "dem_votes": 9108,
+      "rep_votes": 0,
+      "other_votes": 27,
+      "total_votes": 9135,
+      "two_party_total": 9108,
+      "margin": 9108,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 9108,
+        "NON": 27
+      }
+    }
+  },
+  "MCCORMICK": {
+    "PRESIDENT": {
+      "county": "MCCORMICK",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 2479,
+      "rep_votes": 2652,
+      "other_votes": 85,
+      "total_votes": 5216,
+      "two_party_total": 5131,
+      "margin": 173,
+      "margin_pct": 3.37,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "DEM": 2479,
+        "CON": 6,
+        "IND": 17,
+        "GRN": 8,
+        "REP": 2652,
+        "AMR": 7,
+        "LIB": 47
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MCCORMICK",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 2136,
+      "rep_votes": 2699,
+      "other_votes": 184,
+      "total_votes": 5019,
+      "two_party_total": 4835,
+      "margin": 563,
+      "margin_pct": 11.64,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 2136,
+        "WFM": 84,
+        "CON": 25,
+        "GRN": 21,
+        "REP": 2699,
+        "AMR": 20,
+        "LIB": 32,
+        "NON": 2
+      }
+    }
+  },
+  "NEWBERRY": {
+    "PRESIDENT": {
+      "county": "NEWBERRY",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 6217,
+      "rep_votes": 10017,
+      "other_votes": 573,
+      "total_votes": 16807,
+      "two_party_total": 16234,
+      "margin": 3800,
+      "margin_pct": 23.41,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 6217,
+        "CON": 34,
+        "IND": 109,
+        "GRN": 65,
+        "REP": 10017,
+        "AMR": 52,
+        "LIB": 313
+      }
+    },
+    "U.S. SENATE": {
+      "county": "NEWBERRY",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 5311,
+      "rep_votes": 10048,
+      "other_votes": 949,
+      "total_votes": 16308,
+      "two_party_total": 15359,
+      "margin": 4737,
+      "margin_pct": 30.84,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 5311,
+        "WFM": 349,
+        "CON": 155,
+        "GRN": 112,
+        "REP": 10048,
+        "AMR": 139,
+        "LIB": 183,
+        "NON": 11
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "NEWBERRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Karen Lindler Smith",
+      "rep_candidate": null,
+      "dem_votes": 14246,
+      "rep_votes": 0,
+      "other_votes": 108,
+      "total_votes": 14354,
+      "two_party_total": 14246,
+      "margin": 14246,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 14246,
+        "NON": 108
+      }
+    }
+  },
+  "OCONEE": {
+    "PRESIDENT": {
+      "county": "OCONEE",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 7998,
+      "rep_votes": 24178,
+      "other_votes": 1459,
+      "total_votes": 33635,
+      "two_party_total": 32176,
+      "margin": 16180,
+      "margin_pct": 50.29,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 7998,
+        "CON": 92,
+        "IND": 316,
+        "GRN": 225,
+        "REP": 24178,
+        "AMR": 101,
+        "LIB": 725
+      }
+    },
+    "U.S. SENATE": {
+      "county": "OCONEE",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 5863,
+      "rep_votes": 25248,
+      "other_votes": 1636,
+      "total_votes": 32747,
+      "two_party_total": 31111,
+      "margin": 19385,
+      "margin_pct": 62.31,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 5863,
+        "WFM": 614,
+        "CON": 219,
+        "GRN": 245,
+        "REP": 25248,
+        "AMR": 211,
+        "LIB": 327,
+        "NON": 20
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "OCONEE",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Greg Nowell",
+      "dem_votes": 0,
+      "rep_votes": 28406,
+      "other_votes": 88,
+      "total_votes": 28494,
+      "two_party_total": 28406,
+      "margin": 28406,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 28406,
+        "NON": 88
+      }
+    }
+  },
+  "ORANGEBURG": {
+    "PRESIDENT": {
+      "county": "ORANGEBURG",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 26318,
+      "rep_votes": 11931,
+      "other_votes": 661,
+      "total_votes": 38910,
+      "two_party_total": 38249,
+      "margin": 14387,
+      "margin_pct": 37.61,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "DEM": 26318,
+        "CON": 64,
+        "IND": 120,
+        "GRN": 125,
+        "REP": 11931,
+        "AMR": 44,
+        "LIB": 308
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ORANGEBURG",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 24800,
+      "rep_votes": 12256,
+      "other_votes": 1097,
+      "total_votes": 38153,
+      "two_party_total": 37056,
+      "margin": 12544,
+      "margin_pct": 33.85,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "DEM": 24800,
+        "WFM": 470,
+        "CON": 124,
+        "GRN": 114,
+        "REP": 12256,
+        "AMR": 194,
+        "LIB": 168,
+        "NON": 27
+      }
+    }
+  },
+  "PICKENS": {
+    "PRESIDENT": {
+      "county": "PICKENS",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 10354,
+      "rep_votes": 36236,
+      "other_votes": 2459,
+      "total_votes": 49049,
+      "two_party_total": 46590,
+      "margin": 25882,
+      "margin_pct": 55.55,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 10354,
+        "CON": 163,
+        "IND": 549,
+        "GRN": 328,
+        "REP": 36236,
+        "AMR": 225,
+        "LIB": 1194
+      }
+    },
+    "U.S. SENATE": {
+      "county": "PICKENS",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 7681,
+      "rep_votes": 37726,
+      "other_votes": 2621,
+      "total_votes": 48028,
+      "two_party_total": 45407,
+      "margin": 30045,
+      "margin_pct": 66.17,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 7681,
+        "WFM": 823,
+        "CON": 374,
+        "GRN": 354,
+        "REP": 37726,
+        "AMR": 303,
+        "LIB": 714,
+        "NON": 53
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "PICKENS",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": null,
+      "rep_candidate": "Dale M Looper",
+      "dem_votes": 0,
+      "rep_votes": 42537,
+      "other_votes": 151,
+      "total_votes": 42688,
+      "two_party_total": 42537,
+      "margin": 42537,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 42537,
+        "NON": 151
+      }
+    }
+  },
+  "RICHLAND": {
+    "PRESIDENT": {
+      "county": "RICHLAND",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 108000,
+      "rep_votes": 52469,
+      "other_votes": 8253,
+      "total_votes": 168722,
+      "two_party_total": 160469,
+      "margin": 55531,
+      "margin_pct": 34.61,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "DEM": 108000,
+        "CON": 467,
+        "IND": 2233,
+        "GRN": 1383,
+        "REP": 52469,
+        "AMR": 232,
+        "LIB": 3938
+      }
+    },
+    "U.S. SENATE": {
+      "county": "RICHLAND",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 90901,
+      "rep_votes": 66736,
+      "other_votes": 7771,
+      "total_votes": 165408,
+      "two_party_total": 157637,
+      "margin": 24165,
+      "margin_pct": 15.33,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "DEM": 90901,
+        "WFM": 2674,
+        "CON": 720,
+        "GRN": 1470,
+        "REP": 66736,
+        "AMR": 888,
+        "LIB": 1809,
+        "NON": 210
+      }
+    }
+  },
+  "SALUDA": {
+    "PRESIDENT": {
+      "county": "SALUDA",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 2813,
+      "rep_votes": 5526,
+      "other_votes": 225,
+      "total_votes": 8564,
+      "two_party_total": 8339,
+      "margin": 2713,
+      "margin_pct": 32.53,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 2813,
+        "CON": 18,
+        "IND": 48,
+        "GRN": 42,
+        "REP": 5526,
+        "AMR": 12,
+        "LIB": 105
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SALUDA",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 2460,
+      "rep_votes": 5443,
+      "other_votes": 440,
+      "total_votes": 8343,
+      "two_party_total": 7903,
+      "margin": 2983,
+      "margin_pct": 37.75,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 2460,
+        "WFM": 183,
+        "CON": 70,
+        "GRN": 48,
+        "REP": 5443,
+        "AMR": 63,
+        "LIB": 72,
+        "NON": 4
+      }
+    }
+  },
+  "SPARTANBURG": {
+    "PRESIDENT": {
+      "county": "SPARTANBURG",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 39997,
+      "rep_votes": 76277,
+      "other_votes": 4816,
+      "total_votes": 121090,
+      "two_party_total": 116274,
+      "margin": 36280,
+      "margin_pct": 31.2,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 39997,
+        "CON": 357,
+        "IND": 1099,
+        "GRN": 760,
+        "REP": 76277,
+        "AMR": 157,
+        "LIB": 2443
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SPARTANBURG",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 32171,
+      "rep_votes": 79487,
+      "other_votes": 6464,
+      "total_votes": 118122,
+      "two_party_total": 111658,
+      "margin": 47316,
+      "margin_pct": 42.38,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "DEM": 32171,
+        "WFM": 2303,
+        "CON": 1073,
+        "GRN": 765,
+        "REP": 79487,
+        "AMR": 653,
+        "LIB": 1546,
+        "NON": 124
+      }
+    }
+  },
+  "SUMTER": {
+    "PRESIDENT": {
+      "county": "SUMTER",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 24047,
+      "rep_votes": 18745,
+      "other_votes": 1294,
+      "total_votes": 44086,
+      "two_party_total": 42792,
+      "margin": 5302,
+      "margin_pct": 12.39,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "DEM": 24047,
+        "CON": 83,
+        "IND": 301,
+        "GRN": 202,
+        "REP": 18745,
+        "AMR": 64,
+        "LIB": 644
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SUMTER",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 21957,
+      "rep_votes": 19462,
+      "other_votes": 1754,
+      "total_votes": 43173,
+      "two_party_total": 41419,
+      "margin": 2495,
+      "margin_pct": 6.02,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "DEM": 21957,
+        "WFM": 756,
+        "CON": 215,
+        "GRN": 203,
+        "REP": 19462,
+        "AMR": 223,
+        "LIB": 321,
+        "NON": 36
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "SUMTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2016",
+      "dem_candidate": "Carolina B Richardson",
+      "rep_candidate": null,
+      "dem_votes": 35515,
+      "rep_votes": 0,
+      "other_votes": 203,
+      "total_votes": 35718,
+      "two_party_total": 35515,
+      "margin": 35515,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 35515,
+        "NON": 203
+      }
+    }
+  },
+  "UNION": {
+    "PRESIDENT": {
+      "county": "UNION",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 4729,
+      "rep_votes": 7061,
+      "other_votes": 302,
+      "total_votes": 12092,
+      "two_party_total": 11790,
+      "margin": 2332,
+      "margin_pct": 19.78,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "DEM": 4729,
+        "CON": 33,
+        "IND": 63,
+        "GRN": 48,
+        "REP": 7061,
+        "AMR": 21,
+        "LIB": 137
+      }
+    },
+    "U.S. SENATE": {
+      "county": "UNION",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 4013,
+      "rep_votes": 6727,
+      "other_votes": 859,
+      "total_votes": 11599,
+      "two_party_total": 10740,
+      "margin": 2714,
+      "margin_pct": 25.27,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 4013,
+        "WFM": 433,
+        "CON": 112,
+        "GRN": 68,
+        "REP": 6727,
+        "AMR": 134,
+        "LIB": 103,
+        "NON": 9
+      }
+    }
+  },
+  "WILLIAMSBURG": {
+    "PRESIDENT": {
+      "county": "WILLIAMSBURG",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 9953,
+      "rep_votes": 4864,
+      "other_votes": 237,
+      "total_votes": 15054,
+      "two_party_total": 14817,
+      "margin": 5089,
+      "margin_pct": 34.35,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "DEM": 9953,
+        "CON": 31,
+        "IND": 52,
+        "GRN": 50,
+        "REP": 4864,
+        "AMR": 20,
+        "LIB": 84
+      }
+    },
+    "U.S. SENATE": {
+      "county": "WILLIAMSBURG",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 8902,
+      "rep_votes": 5138,
+      "other_votes": 433,
+      "total_votes": 14473,
+      "two_party_total": 14040,
+      "margin": 3764,
+      "margin_pct": 26.81,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "DEM": 8902,
+        "WFM": 216,
+        "CON": 36,
+        "GRN": 61,
+        "REP": 5138,
+        "AMR": 67,
+        "LIB": 47,
+        "NON": 6
+      }
+    }
+  },
+  "YORK": {
+    "PRESIDENT": {
+      "county": "YORK",
+      "contest": "PRESIDENT",
+      "year": "2016",
+      "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine",
+      "rep_candidate": "Donald J Trump / Michael R Pence",
+      "dem_votes": 41593,
+      "rep_votes": 66754,
+      "other_votes": 6010,
+      "total_votes": 114357,
+      "two_party_total": 108347,
+      "margin": 25161,
+      "margin_pct": 23.22,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "DEM": 41593,
+        "CON": 299,
+        "IND": 1339,
+        "GRN": 687,
+        "REP": 66754,
+        "AMC": 181,
+        "LIB": 3504
+      }
+    },
+    "U.S. SENATE": {
+      "county": "YORK",
+      "contest": "U.S. SENATE",
+      "year": "2016",
+      "dem_candidate": "Thomas Dixon",
+      "rep_candidate": "Tim Scott",
+      "dem_votes": 35551,
+      "rep_votes": 68280,
+      "other_votes": 7494,
+      "total_votes": 111325,
+      "two_party_total": 103831,
+      "margin": 32729,
+      "margin_pct": 31.52,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "DEM": 35551,
+        "WFM": 2814,
+        "CON": 876,
+        "GRN": 884,
+        "REP": 68280,
+        "AMC": 813,
+        "LIB": 2005,
+        "NON": 102
+      }
+    }
+  }
+}
