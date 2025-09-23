@@ -1069,7 +1069,7 @@ fetch('workspace_files/all_county_results.json')
             }
             let matchedCount = 0;
             geojson.features.forEach(f => {
-                let countyName = f.properties.NAME20;
+                let countyName = f.properties.NAME20 ? f.properties.NAME20.toUpperCase() : '';
                 let result = contestResults[countyName];
                 if (result) matchedCount++;
                 f.properties.winner = result ? (result.rep_votes > result.dem_votes ? 'REP' : (result.dem_votes > result.rep_votes ? 'DEM' : 'TIE')) : null;
