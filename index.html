@@ -1005,21 +1005,29 @@ fetch('workspace_files/all_county_results.json')
         // Populate contest dropdown grouped by contest name
         const contestSelect = document.getElementById('contest');
         contestSelect.innerHTML = '<option value="">Select a Contest...</option>';
-        // Build contest map: contestName -> [{year, contestKey}] (filter out unopposed/missing)
+        // Build contest map: contestName -> [{year, contestKey}] (must exist for all counties and have valid votes)
         const contestMap = {};
         for (const year of Object.keys(data).sort()) {
-            for (const county of Object.keys(data[year])) {
+            const counties = Object.keys(data[year]);
+            // Find all contestKeys present in every county
+            const contestCount = {};
+            for (const county of counties) {
                 for (const contestKey of Object.keys(data[year][county])) {
                     const contestObj = data[year][county][contestKey];
-                    // Filter: must have both dem_candidate and rep_candidate, and both vote counts > 0
                     const demValid = contestObj.dem_candidate && contestObj.dem_votes > 0;
                     const repValid = contestObj.rep_candidate && contestObj.rep_votes > 0;
                     if (!(demValid && repValid)) continue;
+                    contestCount[contestKey] = (contestCount[contestKey] || 0) + 1;
+                }
+            }
+            // Only keep contests present in every county
+            for (const contestKey of Object.keys(contestCount)) {
+                if (contestCount[contestKey] === counties.length) {
+                    // Use first county's contestObj for name
+                    const contestObj = data[year][counties[0]][contestKey];
                     const contestName = contestObj.contest || contestObj.contest_name || contestKey;
                     if (!contestMap[contestName]) contestMap[contestName] = [];
-                    if (!contestMap[contestName].some(e => e.year === year && e.key === contestKey)) {
-                        contestMap[contestName].push({ year, key: contestKey });
-                    }
+                    contestMap[contestName].push({ year, key: contestKey });
                 }
             }
         }
