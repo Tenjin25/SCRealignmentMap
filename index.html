@@ -1047,17 +1047,16 @@ fetch('workspace_files/all_county_results.json')
 
         // Helper to update map for selected contest
         function updateMapForContest(year, contestKey) {
-            // Find contest results in new structure (use first county with results)
-            let contestResults = null;
+            // Find contest results in new structure (use contest object directly)
+            let contestResults = {};
             if (data[year]) {
                 for (const county of Object.keys(data[year])) {
-                    if (data[year][county][contestKey] && data[year][county][contestKey].results) {
-                        contestResults = data[year][county][contestKey].results;
-                        break;
+                    if (data[year][county][contestKey]) {
+                        contestResults[county] = data[year][county][contestKey];
                     }
                 }
             }
-            if (!contestResults) {
+            if (Object.keys(contestResults).length === 0) {
                 updateStatus('❌ No results for selected contest.');
                 return;
             }
@@ -1070,13 +1069,11 @@ fetch('workspace_files/all_county_results.json')
             }
             let matchedCount = 0;
             geojson.features.forEach(f => {
-                let fips = f.properties.GEOID20;
-                if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
-                else if (typeof fips === 'string') fips = fips.padStart(5, '0');
-                const result = contestResults[fips];
+                let countyName = f.properties.NAME20;
+                let result = contestResults[countyName];
                 if (result) matchedCount++;
                 f.properties.winner = result ? (result.rep_votes > result.dem_votes ? 'REP' : (result.dem_votes > result.rep_votes ? 'DEM' : 'TIE')) : null;
-                f.properties.competitiveness_color = result ? result.competitiveness_color : '#e0e0e0';
+                f.properties.competitiveness_color = result ? (result.competitiveness && result.competitiveness.color ? result.competitiveness.color : '#e0e0e0') : '#e0e0e0';
             });
             console.log(`Matched ${matchedCount} counties for ${year}__${contestKey}`);
             countiesSource.setData(geojson);
