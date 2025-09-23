@@ -1,0 +1,2532 @@
+{
+  "AIKEN": {
+    "PRESIDENT": {
+      "county": "AIKEN",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 50597,
+      "rep_votes": 84572,
+      "other_votes": 2311,
+      "total_votes": 137480,
+      "two_party_total": 135169,
+      "margin": 33975,
+      "margin_pct": 25.14,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 480,
+        "REP": 84572,
+        "ALN": 108,
+        "LIB": 1723,
+        "DEM": 50597
+      }
+    },
+    "U.S. SENATE": {
+      "county": "AIKEN",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 51552,
+      "rep_votes": 83644,
+      "other_votes": 2373,
+      "total_votes": 137569,
+      "two_party_total": 135196,
+      "margin": 32092,
+      "margin_pct": 23.74,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 2238,
+        "REP": 83644,
+        "DEM": 51552,
+        "NON": 135
+      }
+    }
+  },
+  "LAURENS": {
+    "PRESIDENT": {
+      "county": "LAURENS",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 16535,
+      "rep_votes": 35617,
+      "other_votes": 583,
+      "total_votes": 52735,
+      "two_party_total": 52152,
+      "margin": 19082,
+      "margin_pct": 36.59,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "GRN": 118,
+        "REP": 35617,
+        "ALN": 34,
+        "LIB": 431,
+        "DEM": 16535
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LAURENS",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 17136,
+      "rep_votes": 34659,
+      "other_votes": 977,
+      "total_votes": 52772,
+      "two_party_total": 51795,
+      "margin": 17523,
+      "margin_pct": 33.83,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 907,
+        "REP": 34659,
+        "DEM": 17136,
+        "NON": 70
+      }
+    }
+  },
+  "YORK": {
+    "PRESIDENT": {
+      "county": "YORK",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 95066,
+      "rep_votes": 141848,
+      "other_votes": 4173,
+      "total_votes": 241087,
+      "two_party_total": 236914,
+      "margin": 46782,
+      "margin_pct": 19.75,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 696,
+        "REP": 141848,
+        "ALN": 198,
+        "LIB": 3279,
+        "DEM": 95066
+      }
+    },
+    "U.S. SENATE": {
+      "county": "YORK",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 98118,
+      "rep_votes": 138665,
+      "other_votes": 4221,
+      "total_votes": 241004,
+      "two_party_total": 236783,
+      "margin": 40547,
+      "margin_pct": 17.12,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 4017,
+        "REP": 138665,
+        "DEM": 98118,
+        "NON": 204
+      }
+    }
+  },
+  "DORCHESTER": {
+    "PRESIDENT": {
+      "county": "DORCHESTER",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 52511,
+      "rep_votes": 66768,
+      "other_votes": 2639,
+      "total_votes": 121918,
+      "two_party_total": 119279,
+      "margin": 14257,
+      "margin_pct": 11.95,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 417,
+        "REP": 66768,
+        "ALN": 145,
+        "LIB": 2077,
+        "DEM": 52511
+      }
+    },
+    "U.S. SENATE": {
+      "county": "DORCHESTER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 53801,
+      "rep_votes": 65504,
+      "other_votes": 2501,
+      "total_votes": 121806,
+      "two_party_total": 119305,
+      "margin": 11703,
+      "margin_pct": 9.81,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 2329,
+        "REP": 65504,
+        "DEM": 53801,
+        "NON": 172
+      }
+    }
+  },
+  "CHESTER": {
+    "PRESIDENT": {
+      "county": "CHESTER",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 10264,
+      "rep_votes": 14161,
+      "other_votes": 268,
+      "total_votes": 24693,
+      "two_party_total": 24425,
+      "margin": 3897,
+      "margin_pct": 15.95,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 65,
+        "REP": 14161,
+        "ALN": 16,
+        "LIB": 187,
+        "DEM": 10264
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CHESTER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 10736,
+      "rep_votes": 13472,
+      "other_votes": 488,
+      "total_votes": 24696,
+      "two_party_total": 24208,
+      "margin": 2736,
+      "margin_pct": 11.3,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 475,
+        "REP": 13472,
+        "DEM": 10736,
+        "NON": 13
+      }
+    }
+  },
+  "WILLIAMSBURG": {
+    "PRESIDENT": {
+      "county": "WILLIAMSBURG",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 15176,
+      "rep_votes": 9041,
+      "other_votes": 270,
+      "total_votes": 24487,
+      "two_party_total": 24217,
+      "margin": 6135,
+      "margin_pct": 25.33,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "GRN": 103,
+        "REP": 9041,
+        "ALN": 31,
+        "LIB": 136,
+        "DEM": 15176
+      }
+    },
+    "U.S. SENATE": {
+      "county": "WILLIAMSBURG",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 15520,
+      "rep_votes": 8825,
+      "other_votes": 196,
+      "total_votes": 24541,
+      "two_party_total": 24345,
+      "margin": 6695,
+      "margin_pct": 27.5,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 182,
+        "REP": 8825,
+        "DEM": 15520,
+        "NON": 14
+      }
+    }
+  },
+  "BEAUFORT": {
+    "PRESIDENT": {
+      "county": "BEAUFORT",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 70602,
+      "rep_votes": 89584,
+      "other_votes": 2158,
+      "total_votes": 162344,
+      "two_party_total": 160186,
+      "margin": 18982,
+      "margin_pct": 11.85,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 378,
+        "REP": 89584,
+        "ALN": 112,
+        "LIB": 1668,
+        "DEM": 70602
+      }
+    },
+    "U.S. SENATE": {
+      "county": "BEAUFORT",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 70667,
+      "rep_votes": 90290,
+      "other_votes": 1627,
+      "total_votes": 162584,
+      "two_party_total": 160957,
+      "margin": 19623,
+      "margin_pct": 12.19,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 1520,
+        "REP": 90290,
+        "DEM": 70667,
+        "NON": 107
+      }
+    }
+  },
+  "GEORGETOWN": {
+    "PRESIDENT": {
+      "county": "GEORGETOWN",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 25253,
+      "rep_votes": 33407,
+      "other_votes": 621,
+      "total_votes": 59281,
+      "two_party_total": 58660,
+      "margin": 8154,
+      "margin_pct": 13.9,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 157,
+        "REP": 33407,
+        "ALN": 48,
+        "LIB": 416,
+        "DEM": 25253
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GEORGETOWN",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 25318,
+      "rep_votes": 33419,
+      "other_votes": 633,
+      "total_votes": 59370,
+      "two_party_total": 58737,
+      "margin": 8101,
+      "margin_pct": 13.79,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 596,
+        "REP": 33419,
+        "DEM": 25318,
+        "NON": 37
+      }
+    }
+  },
+  "BAMBERG": {
+    "PRESIDENT": {
+      "county": "BAMBERG",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 6260,
+      "rep_votes": 3962,
+      "other_votes": 85,
+      "total_votes": 10307,
+      "two_party_total": 10222,
+      "margin": 2298,
+      "margin_pct": 22.48,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "GRN": 25,
+        "REP": 3962,
+        "ALN": 9,
+        "LIB": 51,
+        "DEM": 6260
+      }
+    },
+    "U.S. SENATE": {
+      "county": "BAMBERG",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6344,
+      "rep_votes": 3879,
+      "other_votes": 80,
+      "total_votes": 10303,
+      "two_party_total": 10223,
+      "margin": 2465,
+      "margin_pct": 24.11,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 77,
+        "REP": 3879,
+        "DEM": 6344,
+        "NON": 3
+      }
+    }
+  },
+  "FAIRFIELD": {
+    "PRESIDENT": {
+      "county": "FAIRFIELD",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 11350,
+      "rep_votes": 7694,
+      "other_votes": 224,
+      "total_votes": 19268,
+      "two_party_total": 19044,
+      "margin": 3656,
+      "margin_pct": 19.2,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "GRN": 69,
+        "REP": 7694,
+        "ALN": 18,
+        "LIB": 137,
+        "DEM": 11350
+      }
+    },
+    "U.S. SENATE": {
+      "county": "FAIRFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11478,
+      "rep_votes": 7589,
+      "other_votes": 201,
+      "total_votes": 19268,
+      "two_party_total": 19067,
+      "margin": 3889,
+      "margin_pct": 20.4,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 191,
+        "REP": 7589,
+        "DEM": 11478,
+        "NON": 10
+      }
+    }
+  },
+  "BERKELEY": {
+    "PRESIDENT": {
+      "county": "BERKELEY",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 72425,
+      "rep_votes": 96481,
+      "other_votes": 3230,
+      "total_votes": 172136,
+      "two_party_total": 168906,
+      "margin": 24056,
+      "margin_pct": 14.24,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 480,
+        "REP": 96481,
+        "ALN": 141,
+        "LIB": 2609,
+        "DEM": 72425
+      }
+    },
+    "U.S. SENATE": {
+      "county": "BERKELEY",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 74135,
+      "rep_votes": 94699,
+      "other_votes": 3346,
+      "total_votes": 172180,
+      "two_party_total": 168834,
+      "margin": 20564,
+      "margin_pct": 12.18,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 3178,
+        "REP": 94699,
+        "DEM": 74135,
+        "NON": 168
+      }
+    }
+  },
+  "FLORENCE": {
+    "PRESIDENT": {
+      "county": "FLORENCE",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 45669,
+      "rep_votes": 52494,
+      "other_votes": 1232,
+      "total_votes": 99395,
+      "two_party_total": 98163,
+      "margin": 6825,
+      "margin_pct": 6.95,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "GRN": 313,
+        "REP": 52494,
+        "ALN": 70,
+        "LIB": 849,
+        "DEM": 45669
+      }
+    },
+    "U.S. SENATE": {
+      "county": "FLORENCE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 46562,
+      "rep_votes": 51876,
+      "other_votes": 1157,
+      "total_votes": 99595,
+      "two_party_total": 98438,
+      "margin": 5314,
+      "margin_pct": 5.4,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "CON": 1097,
+        "REP": 51876,
+        "DEM": 46562,
+        "NON": 60
+      }
+    }
+  },
+  "KERSHAW": {
+    "PRESIDENT": {
+      "county": "KERSHAW",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 19094,
+      "rep_votes": 33278,
+      "other_votes": 752,
+      "total_votes": 53124,
+      "two_party_total": 52372,
+      "margin": 14184,
+      "margin_pct": 27.08,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 153,
+        "REP": 33278,
+        "ALN": 40,
+        "LIB": 559,
+        "DEM": 19094
+      }
+    },
+    "U.S. SENATE": {
+      "county": "KERSHAW",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 19400,
+      "rep_votes": 32645,
+      "other_votes": 1072,
+      "total_votes": 53117,
+      "two_party_total": 52045,
+      "margin": 13245,
+      "margin_pct": 25.45,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 994,
+        "REP": 32645,
+        "DEM": 19400,
+        "NON": 78
+      }
+    }
+  },
+  "ANDERSON": {
+    "PRESIDENT": {
+      "county": "ANDERSON",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 48143,
+      "rep_votes": 129020,
+      "other_votes": 2534,
+      "total_votes": 179697,
+      "two_party_total": 177163,
+      "margin": 80877,
+      "margin_pct": 45.65,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "GRN": 328,
+        "REP": 129020,
+        "ALN": 105,
+        "LIB": 2101,
+        "DEM": 48143
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ANDERSON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 49976,
+      "rep_votes": 127137,
+      "other_votes": 2688,
+      "total_votes": 179801,
+      "two_party_total": 177113,
+      "margin": 77161,
+      "margin_pct": 43.57,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 2507,
+        "REP": 127137,
+        "DEM": 49976,
+        "NON": 181
+      }
+    }
+  },
+  "ALLENDALE": {
+    "PRESIDENT": {
+      "county": "ALLENDALE",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 3848,
+      "rep_votes": 1340,
+      "other_votes": 59,
+      "total_votes": 5247,
+      "two_party_total": 5188,
+      "margin": 2508,
+      "margin_pct": 48.34,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "GRN": 29,
+        "LIB": 27,
+        "ALN": 3,
+        "REP": 1340,
+        "DEM": 3848
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ALLENDALE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 3920,
+      "rep_votes": 1336,
+      "other_votes": 32,
+      "total_votes": 5288,
+      "two_party_total": 5256,
+      "margin": 2584,
+      "margin_pct": 49.16,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "CON": 30,
+        "REP": 1336,
+        "DEM": 3920,
+        "NON": 2
+      }
+    }
+  },
+  "PICKENS": {
+    "PRESIDENT": {
+      "county": "PICKENS",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 21683,
+      "rep_votes": 72917,
+      "other_votes": 1751,
+      "total_votes": 96351,
+      "two_party_total": 94600,
+      "margin": 51234,
+      "margin_pct": 54.16,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "GRN": 285,
+        "REP": 72917,
+        "ALN": 66,
+        "LIB": 1400,
+        "DEM": 21683
+      }
+    },
+    "U.S. SENATE": {
+      "county": "PICKENS",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 22491,
+      "rep_votes": 72141,
+      "other_votes": 1727,
+      "total_votes": 96359,
+      "two_party_total": 94632,
+      "margin": 49650,
+      "margin_pct": 52.47,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 1600,
+        "REP": 72141,
+        "DEM": 22491,
+        "NON": 127
+      }
+    }
+  },
+  "NEWBERRY": {
+    "PRESIDENT": {
+      "county": "NEWBERRY",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 10813,
+      "rep_votes": 18742,
+      "other_votes": 386,
+      "total_votes": 29941,
+      "two_party_total": 29555,
+      "margin": 7929,
+      "margin_pct": 26.83,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 98,
+        "REP": 18742,
+        "ALN": 26,
+        "LIB": 262,
+        "DEM": 10813
+      }
+    },
+    "U.S. SENATE": {
+      "county": "NEWBERRY",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11055,
+      "rep_votes": 18383,
+      "other_votes": 506,
+      "total_votes": 29944,
+      "two_party_total": 29438,
+      "margin": 7328,
+      "margin_pct": 24.89,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 476,
+        "REP": 18383,
+        "DEM": 11055,
+        "NON": 30
+      }
+    }
+  },
+  "DILLON": {
+    "PRESIDENT": {
+      "county": "DILLON",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 10691,
+      "rep_votes": 11431,
+      "other_votes": 145,
+      "total_votes": 22267,
+      "two_party_total": 22122,
+      "margin": 740,
+      "margin_pct": 3.35,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "GRN": 61,
+        "REP": 11431,
+        "ALN": 15,
+        "LIB": 69,
+        "DEM": 10691
+      }
+    },
+    "U.S. SENATE": {
+      "county": "DILLON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11086,
+      "rep_votes": 10946,
+      "other_votes": 236,
+      "total_votes": 22268,
+      "two_party_total": 22032,
+      "margin": 140,
+      "margin_pct": 0.64,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Tilt",
+        "party": "Democratic",
+        "color": "#e1f5fe"
+      },
+      "all_parties": {
+        "CON": 225,
+        "REP": 10946,
+        "DEM": 11086,
+        "NON": 11
+      }
+    }
+  },
+  "DARLINGTON": {
+    "PRESIDENT": {
+      "county": "DARLINGTON",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 22391,
+      "rep_votes": 26837,
+      "other_votes": 609,
+      "total_votes": 49837,
+      "two_party_total": 49228,
+      "margin": 4446,
+      "margin_pct": 9.03,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "GRN": 123,
+        "REP": 26837,
+        "ALN": 51,
+        "LIB": 435,
+        "DEM": 22391
+      }
+    },
+    "U.S. SENATE": {
+      "county": "DARLINGTON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 22946,
+      "rep_votes": 26202,
+      "other_votes": 730,
+      "total_votes": 49878,
+      "two_party_total": 49148,
+      "margin": 3256,
+      "margin_pct": 6.62,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 678,
+        "REP": 26202,
+        "DEM": 22946,
+        "NON": 52
+      }
+    }
+  },
+  "MCCORMICK": {
+    "PRESIDENT": {
+      "county": "MCCORMICK",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 3922,
+      "rep_votes": 4407,
+      "other_votes": 72,
+      "total_votes": 8401,
+      "two_party_total": 8329,
+      "margin": 485,
+      "margin_pct": 5.82,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "GRN": 27,
+        "REP": 4407,
+        "ALN": 5,
+        "LIB": 40,
+        "DEM": 3922
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MCCORMICK",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 4009,
+      "rep_votes": 4369,
+      "other_votes": 68,
+      "total_votes": 8446,
+      "two_party_total": 8378,
+      "margin": 360,
+      "margin_pct": 4.3,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "CON": 61,
+        "REP": 4369,
+        "DEM": 4009,
+        "NON": 7
+      }
+    }
+  },
+  "GREENWOOD": {
+    "PRESIDENT": {
+      "county": "GREENWOOD",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 19188,
+      "rep_votes": 33002,
+      "other_votes": 724,
+      "total_votes": 52914,
+      "two_party_total": 52190,
+      "margin": 13814,
+      "margin_pct": 26.47,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 152,
+        "REP": 33002,
+        "ALN": 26,
+        "LIB": 546,
+        "DEM": 19188
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GREENWOOD",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 19802,
+      "rep_votes": 32237,
+      "other_votes": 911,
+      "total_votes": 52950,
+      "two_party_total": 52039,
+      "margin": 12435,
+      "margin_pct": 23.9,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 828,
+        "REP": 32237,
+        "DEM": 19802,
+        "NON": 83
+      }
+    }
+  },
+  "OCONEE": {
+    "PRESIDENT": {
+      "county": "OCONEE",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 17140,
+      "rep_votes": 50120,
+      "other_votes": 1001,
+      "total_votes": 68261,
+      "two_party_total": 67260,
+      "margin": 32980,
+      "margin_pct": 49.03,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "GRN": 148,
+        "REP": 50120,
+        "ALN": 45,
+        "LIB": 808,
+        "DEM": 17140
+      }
+    },
+    "U.S. SENATE": {
+      "county": "OCONEE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 17451,
+      "rep_votes": 49657,
+      "other_votes": 1189,
+      "total_votes": 68297,
+      "two_party_total": 67108,
+      "margin": 32206,
+      "margin_pct": 47.99,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 1126,
+        "REP": 49657,
+        "DEM": 17451,
+        "NON": 63
+      }
+    }
+  },
+  "GREENVILLE": {
+    "PRESIDENT": {
+      "county": "GREENVILLE",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 179196,
+      "rep_votes": 279363,
+      "other_votes": 9729,
+      "total_votes": 468288,
+      "two_party_total": 458559,
+      "margin": 100167,
+      "margin_pct": 21.84,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 1301,
+        "REP": 279363,
+        "ALN": 435,
+        "LIB": 7993,
+        "DEM": 179196
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GREENVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 182847,
+      "rep_votes": 279396,
+      "other_votes": 6518,
+      "total_votes": 468761,
+      "two_party_total": 462243,
+      "margin": 96549,
+      "margin_pct": 20.89,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 5905,
+        "REP": 279396,
+        "DEM": 182847,
+        "NON": 613
+      }
+    }
+  },
+  "ABBEVILLE": {
+    "PRESIDENT": {
+      "county": "ABBEVILLE",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 6073,
+      "rep_votes": 13110,
+      "other_votes": 191,
+      "total_votes": 19374,
+      "two_party_total": 19183,
+      "margin": 7037,
+      "margin_pct": 36.68,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "GRN": 37,
+        "REP": 13110,
+        "ALN": 8,
+        "LIB": 146,
+        "DEM": 6073
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ABBEVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6287,
+      "rep_votes": 12795,
+      "other_votes": 315,
+      "total_votes": 19397,
+      "two_party_total": 19082,
+      "margin": 6508,
+      "margin_pct": 34.11,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 296,
+        "REP": 12795,
+        "DEM": 6287,
+        "NON": 19
+      }
+    }
+  },
+  "CHEROKEE": {
+    "PRESIDENT": {
+      "county": "CHEROKEE",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 10639,
+      "rep_votes": 30270,
+      "other_votes": 406,
+      "total_votes": 41315,
+      "two_party_total": 40909,
+      "margin": 19631,
+      "margin_pct": 47.99,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "GRN": 76,
+        "REP": 30270,
+        "ALN": 16,
+        "LIB": 314,
+        "DEM": 10639
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CHEROKEE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11120,
+      "rep_votes": 29270,
+      "other_votes": 876,
+      "total_votes": 41266,
+      "two_party_total": 40390,
+      "margin": 18150,
+      "margin_pct": 44.94,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 845,
+        "REP": 29270,
+        "DEM": 11120,
+        "NON": 31
+      }
+    }
+  },
+  "RICHLAND": {
+    "PRESIDENT": {
+      "county": "RICHLAND",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 198168,
+      "rep_votes": 93493,
+      "other_votes": 4939,
+      "total_votes": 296600,
+      "two_party_total": 291661,
+      "margin": 104675,
+      "margin_pct": 35.89,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "GRN": 1206,
+        "REP": 93493,
+        "ALN": 295,
+        "LIB": 3438,
+        "DEM": 198168
+      }
+    },
+    "U.S. SENATE": {
+      "county": "RICHLAND",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 199758,
+      "rep_votes": 94640,
+      "other_votes": 2777,
+      "total_votes": 297175,
+      "two_party_total": 294398,
+      "margin": 105118,
+      "margin_pct": 35.71,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "CON": 2525,
+        "REP": 94640,
+        "DEM": 199758,
+        "NON": 252
+      }
+    }
+  },
+  "MARLBORO": {
+    "PRESIDENT": {
+      "county": "MARLBORO",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 8740,
+      "rep_votes": 7653,
+      "other_votes": 174,
+      "total_votes": 16567,
+      "two_party_total": 16393,
+      "margin": 1087,
+      "margin_pct": 6.63,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "GRN": 47,
+        "REP": 7653,
+        "ALN": 17,
+        "LIB": 110,
+        "DEM": 8740
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MARLBORO",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 9056,
+      "rep_votes": 7221,
+      "other_votes": 294,
+      "total_votes": 16571,
+      "two_party_total": 16277,
+      "margin": 1835,
+      "margin_pct": 11.27,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 273,
+        "REP": 7221,
+        "DEM": 9056,
+        "NON": 21
+      }
+    }
+  },
+  "SPARTANBURG": {
+    "PRESIDENT": {
+      "county": "SPARTANBURG",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 85990,
+      "rep_votes": 163843,
+      "other_votes": 3922,
+      "total_votes": 253755,
+      "two_party_total": 249833,
+      "margin": 77853,
+      "margin_pct": 31.16,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "GRN": 663,
+        "REP": 163843,
+        "ALN": 168,
+        "LIB": 3091,
+        "DEM": 85990
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SPARTANBURG",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 88746,
+      "rep_votes": 160324,
+      "other_votes": 4667,
+      "total_votes": 253737,
+      "two_party_total": 249070,
+      "margin": 71578,
+      "margin_pct": 28.74,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 4315,
+        "REP": 160324,
+        "DEM": 88746,
+        "NON": 352
+      }
+    }
+  },
+  "SUMTER": {
+    "PRESIDENT": {
+      "county": "SUMTER",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 40427,
+      "rep_votes": 32452,
+      "other_votes": 867,
+      "total_votes": 73746,
+      "two_party_total": 72879,
+      "margin": 7975,
+      "margin_pct": 10.94,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "GRN": 239,
+        "REP": 32452,
+        "ALN": 55,
+        "LIB": 573,
+        "DEM": 40427
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SUMTER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 41050,
+      "rep_votes": 31694,
+      "other_votes": 1040,
+      "total_votes": 73784,
+      "two_party_total": 72744,
+      "margin": 9356,
+      "margin_pct": 12.86,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 983,
+        "REP": 31694,
+        "DEM": 41050,
+        "NON": 57
+      }
+    }
+  },
+  "HORRY": {
+    "PRESIDENT": {
+      "county": "HORRY",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 95666,
+      "rep_votes": 193172,
+      "other_votes": 3070,
+      "total_votes": 291908,
+      "two_party_total": 288838,
+      "margin": 97506,
+      "margin_pct": 33.76,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "GRN": 695,
+        "REP": 193172,
+        "ALN": 164,
+        "LIB": 2211,
+        "DEM": 95666
+      }
+    },
+    "U.S. SENATE": {
+      "county": "HORRY",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 97873,
+      "rep_votes": 189270,
+      "other_votes": 4559,
+      "total_votes": 291702,
+      "two_party_total": 287143,
+      "margin": 91397,
+      "margin_pct": 31.83,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 4335,
+        "REP": 189270,
+        "DEM": 97873,
+        "NON": 224
+      }
+    }
+  },
+  "CHESTERFIELD": {
+    "PRESIDENT": {
+      "county": "CHESTERFIELD",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 11375,
+      "rep_votes": 18734,
+      "other_votes": 255,
+      "total_votes": 30364,
+      "two_party_total": 30109,
+      "margin": 7359,
+      "margin_pct": 24.44,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 46,
+        "REP": 18734,
+        "ALN": 22,
+        "LIB": 187,
+        "DEM": 11375
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CHESTERFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11833,
+      "rep_votes": 17998,
+      "other_votes": 516,
+      "total_votes": 30347,
+      "two_party_total": 29831,
+      "margin": 6165,
+      "margin_pct": 20.67,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 492,
+        "REP": 17998,
+        "DEM": 11833,
+        "NON": 24
+      }
+    }
+  },
+  "ORANGEBURG": {
+    "PRESIDENT": {
+      "county": "ORANGEBURG",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 42273,
+      "rep_votes": 22252,
+      "other_votes": 531,
+      "total_votes": 65056,
+      "two_party_total": 64525,
+      "margin": 20021,
+      "margin_pct": 31.03,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "GRN": 180,
+        "REP": 22252,
+        "ALN": 52,
+        "LIB": 299,
+        "DEM": 42273
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ORANGEBURG",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 42972,
+      "rep_votes": 21608,
+      "other_votes": 563,
+      "total_votes": 65143,
+      "two_party_total": 64580,
+      "margin": 21364,
+      "margin_pct": 33.08,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "CON": 528,
+        "REP": 21608,
+        "DEM": 42972,
+        "NON": 35
+      }
+    }
+  },
+  "COLLETON": {
+    "PRESIDENT": {
+      "county": "COLLETON",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 13235,
+      "rep_votes": 17468,
+      "other_votes": 411,
+      "total_votes": 31114,
+      "two_party_total": 30703,
+      "margin": 4233,
+      "margin_pct": 13.79,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 93,
+        "REP": 17468,
+        "ALN": 11,
+        "LIB": 307,
+        "DEM": 13235
+      }
+    },
+    "U.S. SENATE": {
+      "county": "COLLETON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 13629,
+      "rep_votes": 16828,
+      "other_votes": 674,
+      "total_votes": 31131,
+      "two_party_total": 30457,
+      "margin": 3199,
+      "margin_pct": 10.5,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 633,
+        "REP": 16828,
+        "DEM": 13629,
+        "NON": 41
+      }
+    }
+  },
+  "LEXINGTON": {
+    "PRESIDENT": {
+      "county": "LEXINGTON",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 84660,
+      "rep_votes": 167280,
+      "other_votes": 4581,
+      "total_votes": 256521,
+      "two_party_total": 251940,
+      "margin": 82620,
+      "margin_pct": 32.79,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "GRN": 738,
+        "REP": 167280,
+        "ALN": 222,
+        "LIB": 3621,
+        "DEM": 84660
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LEXINGTON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 86468,
+      "rep_votes": 165594,
+      "other_votes": 4632,
+      "total_votes": 256694,
+      "two_party_total": 252062,
+      "margin": 79126,
+      "margin_pct": 31.39,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 4381,
+        "REP": 165594,
+        "DEM": 86468,
+        "NON": 251
+      }
+    }
+  },
+  "MARION": {
+    "PRESIDENT": {
+      "county": "MARION",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 13618,
+      "rep_votes": 9145,
+      "other_votes": 195,
+      "total_votes": 22958,
+      "two_party_total": 22763,
+      "margin": 4473,
+      "margin_pct": 19.65,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "GRN": 65,
+        "REP": 9145,
+        "ALN": 29,
+        "LIB": 101,
+        "DEM": 13618
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MARION",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 13865,
+      "rep_votes": 8915,
+      "other_votes": 217,
+      "total_votes": 22997,
+      "two_party_total": 22780,
+      "margin": 4950,
+      "margin_pct": 21.73,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 198,
+        "REP": 8915,
+        "DEM": 13865,
+        "NON": 19
+      }
+    }
+  },
+  "LEE": {
+    "PRESIDENT": {
+      "county": "LEE",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 8005,
+      "rep_votes": 5044,
+      "other_votes": 150,
+      "total_votes": 13199,
+      "two_party_total": 13049,
+      "margin": 2961,
+      "margin_pct": 22.69,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "GRN": 28,
+        "REP": 5044,
+        "ALN": 7,
+        "LIB": 115,
+        "DEM": 8005
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LEE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8164,
+      "rep_votes": 4930,
+      "other_votes": 125,
+      "total_votes": 13219,
+      "two_party_total": 13094,
+      "margin": 3234,
+      "margin_pct": 24.7,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 119,
+        "REP": 4930,
+        "DEM": 8164,
+        "NON": 6
+      }
+    }
+  },
+  "UNION": {
+    "PRESIDENT": {
+      "county": "UNION",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 7743,
+      "rep_votes": 13559,
+      "other_votes": 239,
+      "total_votes": 21541,
+      "two_party_total": 21302,
+      "margin": 5816,
+      "margin_pct": 27.3,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 60,
+        "REP": 13559,
+        "ALN": 13,
+        "LIB": 166,
+        "DEM": 7743
+      }
+    },
+    "U.S. SENATE": {
+      "county": "UNION",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8027,
+      "rep_votes": 13024,
+      "other_votes": 466,
+      "total_votes": 21517,
+      "two_party_total": 21051,
+      "margin": 4997,
+      "margin_pct": 23.74,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 438,
+        "REP": 13024,
+        "DEM": 8027,
+        "NON": 28
+      }
+    }
+  },
+  "BARNWELL": {
+    "PRESIDENT": {
+      "county": "BARNWELL",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 7183,
+      "rep_votes": 8695,
+      "other_votes": 190,
+      "total_votes": 16068,
+      "two_party_total": 15878,
+      "margin": 1512,
+      "margin_pct": 9.52,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "GRN": 34,
+        "REP": 8695,
+        "ALN": 22,
+        "LIB": 134,
+        "DEM": 7183
+      }
+    },
+    "U.S. SENATE": {
+      "county": "BARNWELL",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 7340,
+      "rep_votes": 8501,
+      "other_votes": 230,
+      "total_votes": 16071,
+      "two_party_total": 15841,
+      "margin": 1161,
+      "margin_pct": 7.33,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 214,
+        "REP": 8501,
+        "DEM": 7340,
+        "NON": 16
+      }
+    }
+  },
+  "SALUDA": {
+    "PRESIDENT": {
+      "county": "SALUDA",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 4641,
+      "rep_votes": 10575,
+      "other_votes": 171,
+      "total_votes": 15387,
+      "two_party_total": 15216,
+      "margin": 5934,
+      "margin_pct": 39.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "GRN": 33,
+        "REP": 10575,
+        "ALN": 8,
+        "LIB": 130,
+        "DEM": 4641
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SALUDA",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 4742,
+      "rep_votes": 10394,
+      "other_votes": 275,
+      "total_votes": 15411,
+      "two_party_total": 15136,
+      "margin": 5652,
+      "margin_pct": 37.34,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 263,
+        "REP": 10394,
+        "DEM": 4742,
+        "NON": 12
+      }
+    }
+  },
+  "HAMPTON": {
+    "PRESIDENT": {
+      "county": "HAMPTON",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 8644,
+      "rep_votes": 6730,
+      "other_votes": 126,
+      "total_votes": 15500,
+      "two_party_total": 15374,
+      "margin": 1914,
+      "margin_pct": 12.45,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "GRN": 36,
+        "REP": 6730,
+        "ALN": 13,
+        "LIB": 77,
+        "DEM": 8644
+      }
+    },
+    "U.S. SENATE": {
+      "county": "HAMPTON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8865,
+      "rep_votes": 6471,
+      "other_votes": 157,
+      "total_votes": 15493,
+      "two_party_total": 15336,
+      "margin": 2394,
+      "margin_pct": 15.61,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 149,
+        "REP": 6471,
+        "DEM": 8865,
+        "NON": 8
+      }
+    }
+  },
+  "CLARENDON": {
+    "PRESIDENT": {
+      "county": "CLARENDON",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 12247,
+      "rep_votes": 13425,
+      "other_votes": 191,
+      "total_votes": 25863,
+      "two_party_total": 25672,
+      "margin": 1178,
+      "margin_pct": 4.59,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "GRN": 65,
+        "REP": 13425,
+        "ALN": 20,
+        "LIB": 106,
+        "DEM": 12247
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CLARENDON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 12460,
+      "rep_votes": 13057,
+      "other_votes": 327,
+      "total_votes": 25844,
+      "two_party_total": 25517,
+      "margin": 597,
+      "margin_pct": 2.34,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "CON": 289,
+        "REP": 13057,
+        "DEM": 12460,
+        "NON": 38
+      }
+    }
+  },
+  "LANCASTER": {
+    "PRESIDENT": {
+      "county": "LANCASTER",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 29191,
+      "rep_votes": 48640,
+      "other_votes": 1068,
+      "total_votes": 78899,
+      "two_party_total": 77831,
+      "margin": 19449,
+      "margin_pct": 24.99,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 160,
+        "REP": 48640,
+        "ALN": 64,
+        "LIB": 844,
+        "DEM": 29191
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LANCASTER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 30121,
+      "rep_votes": 47444,
+      "other_votes": 1283,
+      "total_votes": 78848,
+      "two_party_total": 77565,
+      "margin": 17323,
+      "margin_pct": 22.33,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 1218,
+        "REP": 47444,
+        "DEM": 30121,
+        "NON": 65
+      }
+    }
+  },
+  "CALHOUN": {
+    "PRESIDENT": {
+      "county": "CALHOUN",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 5933,
+      "rep_votes": 7334,
+      "other_votes": 140,
+      "total_votes": 13407,
+      "two_party_total": 13267,
+      "margin": 1401,
+      "margin_pct": 10.56,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 29,
+        "REP": 7334,
+        "ALN": 8,
+        "LIB": 103,
+        "DEM": 5933
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CALHOUN",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6040,
+      "rep_votes": 7158,
+      "other_votes": 222,
+      "total_votes": 13420,
+      "two_party_total": 13198,
+      "margin": 1118,
+      "margin_pct": 8.47,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 213,
+        "REP": 7158,
+        "DEM": 6040,
+        "NON": 9
+      }
+    }
+  },
+  "CHARLESTON": {
+    "PRESIDENT": {
+      "county": "CHARLESTON",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 186954,
+      "rep_votes": 142749,
+      "other_votes": 6572,
+      "total_votes": 336275,
+      "two_party_total": 329703,
+      "margin": 44205,
+      "margin_pct": 13.41,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "GRN": 1224,
+        "REP": 142749,
+        "ALN": 255,
+        "LIB": 5093,
+        "DEM": 186954
+      }
+    },
+    "U.S. SENATE": {
+      "county": "CHARLESTON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 186854,
+      "rep_votes": 146409,
+      "other_votes": 3844,
+      "total_votes": 337107,
+      "two_party_total": 333263,
+      "margin": 40445,
+      "margin_pct": 12.14,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 3543,
+        "REP": 146409,
+        "DEM": 186854,
+        "NON": 301
+      }
+    }
+  },
+  "EDGEFIELD": {
+    "PRESIDENT": {
+      "county": "EDGEFIELD",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 7678,
+      "rep_votes": 13160,
+      "other_votes": 270,
+      "total_votes": 21108,
+      "two_party_total": 20838,
+      "margin": 5482,
+      "margin_pct": 26.31,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 62,
+        "REP": 13160,
+        "ALN": 11,
+        "LIB": 197,
+        "DEM": 7678
+      }
+    },
+    "U.S. SENATE": {
+      "county": "EDGEFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 7935,
+      "rep_votes": 12811,
+      "other_votes": 386,
+      "total_votes": 21132,
+      "two_party_total": 20746,
+      "margin": 4876,
+      "margin_pct": 23.5,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 370,
+        "REP": 12811,
+        "DEM": 7935,
+        "NON": 16
+      }
+    }
+  },
+  "JASPER": {
+    "PRESIDENT": {
+      "county": "JASPER",
+      "contest": "PRESIDENT",
+      "year": "2020",
+      "dem_candidate": "Joseph R Biden | Kamala D Harris",
+      "rep_candidate": "Donald J Trump | Michael R Pence",
+      "dem_votes": 11656,
+      "rep_votes": 11974,
+      "other_votes": 232,
+      "total_votes": 23862,
+      "two_party_total": 23630,
+      "margin": 318,
+      "margin_pct": 1.35,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "GRN": 57,
+        "REP": 11974,
+        "ALN": 12,
+        "LIB": 163,
+        "DEM": 11656
+      }
+    },
+    "U.S. SENATE": {
+      "county": "JASPER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11838,
+      "rep_votes": 11731,
+      "other_votes": 313,
+      "total_votes": 23882,
+      "two_party_total": 23569,
+      "margin": 107,
+      "margin_pct": 0.45,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Tossup",
+        "party": "Tossup",
+        "color": "#f7f7f7"
+      },
+      "all_parties": {
+        "CON": 303,
+        "REP": 11731,
+        "DEM": 11838,
+        "NON": 10
+      }
+    }
+  }
+}

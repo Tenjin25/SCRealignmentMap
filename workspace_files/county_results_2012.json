@@ -1,0 +1,1793 @@
+{
+  "ABBEVILLE": {
+    "PRESIDENT": {
+      "county": "ABBEVILLE",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 4543,
+      "rep_votes": 5981,
+      "other_votes": 147,
+      "total_votes": 10671,
+      "two_party_total": 10524,
+      "margin": 1438,
+      "margin_pct": 13.66,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 5981,
+        "LIB": 71,
+        "DEM": 4543,
+        "CON": 52,
+        "GRN": 24
+      }
+    }
+  },
+  "AIKEN": {
+    "PRESIDENT": {
+      "county": "AIKEN",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 25322,
+      "rep_votes": 44042,
+      "other_votes": 999,
+      "total_votes": 70363,
+      "two_party_total": 69364,
+      "margin": 18720,
+      "margin_pct": 26.99,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 44042,
+        "LIB": 624,
+        "DEM": 25322,
+        "CON": 164,
+        "GRN": 211
+      }
+    }
+  },
+  "ALLENDALE": {
+    "PRESIDENT": {
+      "county": "ALLENDALE",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 3297,
+      "rep_votes": 838,
+      "other_votes": 28,
+      "total_votes": 4163,
+      "two_party_total": 4135,
+      "margin": 2459,
+      "margin_pct": 59.47,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "REP": 838,
+        "LIB": 9,
+        "DEM": 3297,
+        "CON": 10,
+        "GRN": 9
+      }
+    }
+  },
+  "ANDERSON": {
+    "PRESIDENT": {
+      "county": "ANDERSON",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 22405,
+      "rep_votes": 48709,
+      "other_votes": 1098,
+      "total_votes": 72212,
+      "two_party_total": 71114,
+      "margin": 26304,
+      "margin_pct": 36.99,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "REP": 48709,
+        "LIB": 717,
+        "DEM": 22405,
+        "CON": 207,
+        "GRN": 174
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "ANDERSON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Jason P Phillips",
+      "dem_votes": 0,
+      "rep_votes": 56935,
+      "other_votes": 218,
+      "total_votes": 57153,
+      "two_party_total": 56935,
+      "margin": 56935,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 56935,
+        "NON": 218
+      }
+    }
+  },
+  "BAMBERG": {
+    "PRESIDENT": {
+      "county": "BAMBERG",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 4624,
+      "rep_votes": 2194,
+      "other_votes": 64,
+      "total_votes": 6882,
+      "two_party_total": 6818,
+      "margin": 2430,
+      "margin_pct": 35.64,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "REP": 2194,
+        "LIB": 34,
+        "DEM": 4624,
+        "CON": 17,
+        "GRN": 13
+      }
+    }
+  },
+  "BARNWELL": {
+    "PRESIDENT": {
+      "county": "BARNWELL",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 5188,
+      "rep_votes": 4659,
+      "other_votes": 76,
+      "total_votes": 9923,
+      "two_party_total": 9847,
+      "margin": 529,
+      "margin_pct": 5.37,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 4659,
+        "LIB": 43,
+        "DEM": 5188,
+        "CON": 13,
+        "GRN": 20
+      }
+    }
+  },
+  "BEAUFORT": {
+    "PRESIDENT": {
+      "county": "BEAUFORT",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 29848,
+      "rep_votes": 42687,
+      "other_votes": 762,
+      "total_votes": 73297,
+      "two_party_total": 72535,
+      "margin": 12839,
+      "margin_pct": 17.7,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 42687,
+        "LIB": 503,
+        "DEM": 29848,
+        "CON": 90,
+        "GRN": 169
+      }
+    }
+  },
+  "BERKELEY": {
+    "PRESIDENT": {
+      "county": "BERKELEY",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 28542,
+      "rep_votes": 38475,
+      "other_votes": 1178,
+      "total_votes": 68195,
+      "two_party_total": 67017,
+      "margin": 9933,
+      "margin_pct": 14.82,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 38475,
+        "LIB": 757,
+        "DEM": 28542,
+        "CON": 202,
+        "GRN": 219
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "BERKELEY",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Carolyn M Umphlett",
+      "dem_votes": 0,
+      "rep_votes": 49731,
+      "other_votes": 293,
+      "total_votes": 50024,
+      "two_party_total": 49731,
+      "margin": 49731,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 49731,
+        "NON": 293
+      }
+    }
+  },
+  "CALHOUN": {
+    "PRESIDENT": {
+      "county": "CALHOUN",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 4045,
+      "rep_votes": 3707,
+      "other_votes": 82,
+      "total_votes": 7834,
+      "two_party_total": 7752,
+      "margin": 338,
+      "margin_pct": 4.36,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 3707,
+        "LIB": 37,
+        "DEM": 4045,
+        "CON": 25,
+        "GRN": 20
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CALHOUN",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Rebecca C Furtick",
+      "rep_candidate": null,
+      "dem_votes": 6795,
+      "rep_votes": 0,
+      "other_votes": 81,
+      "total_votes": 6876,
+      "two_party_total": 6795,
+      "margin": 6795,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 6795,
+        "NON": 81
+      }
+    }
+  },
+  "CHARLESTON": {
+    "PRESIDENT": {
+      "county": "CHARLESTON",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 81487,
+      "rep_votes": 77629,
+      "other_votes": 2591,
+      "total_votes": 161707,
+      "two_party_total": 159116,
+      "margin": 3858,
+      "margin_pct": 2.42,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 77629,
+        "LIB": 1854,
+        "DEM": 81487,
+        "CON": 227,
+        "GRN": 510
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHARLESTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Andrew C Smith",
+      "dem_votes": 0,
+      "rep_votes": 99572,
+      "other_votes": 604,
+      "total_votes": 100176,
+      "two_party_total": 99572,
+      "margin": 99572,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 99572,
+        "NON": 604
+      }
+    }
+  },
+  "CHEROKEE": {
+    "PRESIDENT": {
+      "county": "CHEROKEE",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 7231,
+      "rep_votes": 13314,
+      "other_votes": 228,
+      "total_votes": 20773,
+      "two_party_total": 20545,
+      "margin": 6083,
+      "margin_pct": 29.61,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 13314,
+        "LIB": 117,
+        "DEM": 7231,
+        "CON": 68,
+        "GRN": 43
+      }
+    }
+  },
+  "CHESTERFIELD": {
+    "PRESIDENT": {
+      "county": "CHESTERFIELD",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 7958,
+      "rep_votes": 8490,
+      "other_votes": 146,
+      "total_votes": 16594,
+      "two_party_total": 16448,
+      "margin": 532,
+      "margin_pct": 3.23,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "REP": 8490,
+        "LIB": 59,
+        "DEM": 7958,
+        "CON": 40,
+        "GRN": 47
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHESTERFIELD",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Kathy B Sheeler",
+      "rep_candidate": null,
+      "dem_votes": 13473,
+      "rep_votes": 0,
+      "other_votes": 37,
+      "total_votes": 13510,
+      "two_party_total": 13473,
+      "margin": 13473,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 13473,
+        "NON": 37
+      }
+    }
+  },
+  "CHESTER": {
+    "PRESIDENT": {
+      "county": "CHESTER",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 7891,
+      "rep_votes": 6367,
+      "other_votes": 149,
+      "total_votes": 14407,
+      "two_party_total": 14258,
+      "margin": 1524,
+      "margin_pct": 10.69,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 6367,
+        "LIB": 81,
+        "DEM": 7891,
+        "CON": 34,
+        "GRN": 34
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Thomas E Darby",
+      "rep_candidate": null,
+      "dem_votes": 12601,
+      "rep_votes": 0,
+      "other_votes": 39,
+      "total_votes": 12640,
+      "two_party_total": 12601,
+      "margin": 12601,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 12601,
+        "NON": 39
+      }
+    }
+  },
+  "CLARENDON": {
+    "PRESIDENT": {
+      "county": "CLARENDON",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 9091,
+      "rep_votes": 7071,
+      "other_votes": 130,
+      "total_votes": 16292,
+      "two_party_total": 16162,
+      "margin": 2020,
+      "margin_pct": 12.5,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 7071,
+        "LIB": 57,
+        "DEM": 9091,
+        "CON": 39,
+        "GRN": 34
+      }
+    }
+  },
+  "COLLETON": {
+    "PRESIDENT": {
+      "county": "COLLETON",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 8475,
+      "rep_votes": 8443,
+      "other_votes": 168,
+      "total_votes": 17086,
+      "two_party_total": 16918,
+      "margin": 32,
+      "margin_pct": 0.19,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Tossup",
+        "party": "Tossup",
+        "color": "#f7f7f7"
+      },
+      "all_parties": {
+        "REP": 8443,
+        "LIB": 84,
+        "DEM": 8475,
+        "CON": 33,
+        "GRN": 51
+      }
+    }
+  },
+  "DARLINGTON": {
+    "PRESIDENT": {
+      "county": "DARLINGTON",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 15457,
+      "rep_votes": 14434,
+      "other_votes": 259,
+      "total_votes": 30150,
+      "two_party_total": 29891,
+      "margin": 1023,
+      "margin_pct": 3.42,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 14434,
+        "LIB": 137,
+        "DEM": 15457,
+        "CON": 50,
+        "GRN": 72
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "DARLINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Belinda D Copeland",
+      "rep_candidate": null,
+      "dem_votes": 23626,
+      "rep_votes": 0,
+      "other_votes": 50,
+      "total_votes": 23676,
+      "two_party_total": 23626,
+      "margin": 23626,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 23626,
+        "NON": 50
+      }
+    }
+  },
+  "DILLON": {
+    "PRESIDENT": {
+      "county": "DILLON",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 7523,
+      "rep_votes": 5427,
+      "other_votes": 85,
+      "total_votes": 13035,
+      "two_party_total": 12950,
+      "margin": 2096,
+      "margin_pct": 16.19,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 5427,
+        "LIB": 23,
+        "DEM": 7523,
+        "CON": 30,
+        "GRN": 32
+      }
+    }
+  },
+  "DORCHESTER": {
+    "PRESIDENT": {
+      "county": "DORCHESTER",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 23445,
+      "rep_votes": 32531,
+      "other_votes": 879,
+      "total_votes": 56855,
+      "two_party_total": 55976,
+      "margin": 9086,
+      "margin_pct": 16.23,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 32531,
+        "LIB": 546,
+        "DEM": 23445,
+        "CON": 138,
+        "GRN": 195
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "DORCHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Mary Pearson",
+      "dem_votes": 0,
+      "rep_votes": 40505,
+      "other_votes": 161,
+      "total_votes": 40666,
+      "two_party_total": 40505,
+      "margin": 40505,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 40505,
+        "NON": 161
+      }
+    }
+  },
+  "EDGEFIELD": {
+    "PRESIDENT": {
+      "county": "EDGEFIELD",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 4967,
+      "rep_votes": 6512,
+      "other_votes": 107,
+      "total_votes": 11586,
+      "two_party_total": 11479,
+      "margin": 1545,
+      "margin_pct": 13.46,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 6512,
+        "LIB": 64,
+        "DEM": 4967,
+        "CON": 22,
+        "GRN": 21
+      }
+    }
+  },
+  "FAIRFIELD": {
+    "PRESIDENT": {
+      "county": "FAIRFIELD",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 7777,
+      "rep_votes": 3999,
+      "other_votes": 119,
+      "total_votes": 11895,
+      "two_party_total": 11776,
+      "margin": 3778,
+      "margin_pct": 32.08,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "REP": 3999,
+        "LIB": 67,
+        "DEM": 7777,
+        "CON": 25,
+        "GRN": 27
+      }
+    }
+  },
+  "FLORENCE": {
+    "PRESIDENT": {
+      "county": "FLORENCE",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 28614,
+      "rep_votes": 28961,
+      "other_votes": 547,
+      "total_votes": 58122,
+      "two_party_total": 57575,
+      "margin": 347,
+      "margin_pct": 0.6,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Tilt",
+        "party": "Republican",
+        "color": "#fee8c8"
+      },
+      "all_parties": {
+        "REP": 28961,
+        "LIB": 290,
+        "DEM": 28614,
+        "CON": 133,
+        "GRN": 124
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "FLORENCE",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Dean Fowler Jr",
+      "dem_votes": 0,
+      "rep_votes": 39227,
+      "other_votes": 269,
+      "total_votes": 39496,
+      "two_party_total": 39227,
+      "margin": 39227,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 39227,
+        "NON": 269
+      }
+    }
+  },
+  "GEORGETOWN": {
+    "PRESIDENT": {
+      "county": "GEORGETOWN",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 14163,
+      "rep_votes": 16526,
+      "other_votes": 276,
+      "total_votes": 30965,
+      "two_party_total": 30689,
+      "margin": 2363,
+      "margin_pct": 7.7,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "REP": 16526,
+        "LIB": 187,
+        "DEM": 14163,
+        "CON": 40,
+        "GRN": 49
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "GEORGETOWN",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Loretta D Washington-Cooper",
+      "rep_candidate": null,
+      "dem_votes": 24116,
+      "rep_votes": 0,
+      "other_votes": 177,
+      "total_votes": 24293,
+      "two_party_total": 24116,
+      "margin": 24116,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 24116,
+        "NON": 177
+      }
+    }
+  },
+  "GREENVILLE": {
+    "PRESIDENT": {
+      "county": "GREENVILLE",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 68070,
+      "rep_votes": 121685,
+      "other_votes": 3434,
+      "total_votes": 193189,
+      "two_party_total": 189755,
+      "margin": 53615,
+      "margin_pct": 28.25,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 121685,
+        "LIB": 2282,
+        "DEM": 68070,
+        "CON": 641,
+        "GRN": 511
+      }
+    }
+  },
+  "GREENWOOD": {
+    "PRESIDENT": {
+      "county": "GREENWOOD",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 11972,
+      "rep_votes": 16348,
+      "other_votes": 352,
+      "total_votes": 28672,
+      "two_party_total": 28320,
+      "margin": 4376,
+      "margin_pct": 15.45,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 16348,
+        "LIB": 207,
+        "DEM": 11972,
+        "CON": 71,
+        "GRN": 74
+      }
+    }
+  },
+  "HAMPTON": {
+    "PRESIDENT": {
+      "county": "HAMPTON",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 5834,
+      "rep_votes": 3312,
+      "other_votes": 60,
+      "total_votes": 9206,
+      "two_party_total": 9146,
+      "margin": 2522,
+      "margin_pct": 27.57,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 3312,
+        "LIB": 35,
+        "DEM": 5834,
+        "CON": 14,
+        "GRN": 11
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "HAMPTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Wilson P Tuten Jr",
+      "rep_candidate": null,
+      "dem_votes": 8239,
+      "rep_votes": 0,
+      "other_votes": 11,
+      "total_votes": 8250,
+      "two_party_total": 8239,
+      "margin": 8239,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 8239,
+        "NON": 11
+      }
+    }
+  },
+  "HORRY": {
+    "PRESIDENT": {
+      "county": "HORRY",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 38885,
+      "rep_votes": 72127,
+      "other_votes": 1381,
+      "total_votes": 112393,
+      "two_party_total": 111012,
+      "margin": 33242,
+      "margin_pct": 29.94,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 72127,
+        "LIB": 907,
+        "DEM": 38885,
+        "CON": 178,
+        "GRN": 296
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "HORRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Roddy Dickinson",
+      "dem_votes": 0,
+      "rep_votes": 86008,
+      "other_votes": 273,
+      "total_votes": 86281,
+      "two_party_total": 86008,
+      "margin": 86008,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 86008,
+        "NON": 273
+      }
+    }
+  },
+  "JASPER": {
+    "PRESIDENT": {
+      "county": "JASPER",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 5757,
+      "rep_votes": 4169,
+      "other_votes": 95,
+      "total_votes": 10021,
+      "two_party_total": 9926,
+      "margin": 1588,
+      "margin_pct": 16.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 4169,
+        "LIB": 43,
+        "DEM": 5757,
+        "CON": 27,
+        "GRN": 25
+      }
+    }
+  },
+  "KERSHAW": {
+    "PRESIDENT": {
+      "county": "KERSHAW",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 11259,
+      "rep_votes": 16324,
+      "other_votes": 363,
+      "total_votes": 27946,
+      "two_party_total": 27583,
+      "margin": 5065,
+      "margin_pct": 18.36,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 16324,
+        "LIB": 214,
+        "DEM": 11259,
+        "CON": 62,
+        "GRN": 87
+      }
+    }
+  },
+  "LANCASTER": {
+    "PRESIDENT": {
+      "county": "LANCASTER",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 13419,
+      "rep_votes": 19333,
+      "other_votes": 392,
+      "total_votes": 33144,
+      "two_party_total": 32752,
+      "margin": 5914,
+      "margin_pct": 18.06,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 19333,
+        "LIB": 261,
+        "DEM": 13419,
+        "CON": 53,
+        "GRN": 78
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "LANCASTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Carrie Williams Helms",
+      "dem_votes": 0,
+      "rep_votes": 24250,
+      "other_votes": 140,
+      "total_votes": 24390,
+      "two_party_total": 24250,
+      "margin": 24250,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 24250,
+        "NON": 140
+      }
+    }
+  },
+  "LAURENS": {
+    "PRESIDENT": {
+      "county": "LAURENS",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 10318,
+      "rep_votes": 14746,
+      "other_votes": 352,
+      "total_votes": 25416,
+      "two_party_total": 25064,
+      "margin": 4428,
+      "margin_pct": 17.67,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 14746,
+        "LIB": 178,
+        "DEM": 10318,
+        "CON": 99,
+        "GRN": 75
+      }
+    }
+  },
+  "LEE": {
+    "PRESIDENT": {
+      "county": "LEE",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 5977,
+      "rep_votes": 2832,
+      "other_votes": 98,
+      "total_votes": 8907,
+      "two_party_total": 8809,
+      "margin": 3145,
+      "margin_pct": 35.7,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "REP": 2832,
+        "LIB": 42,
+        "DEM": 5977,
+        "CON": 28,
+        "GRN": 28
+      }
+    }
+  },
+  "LEXINGTON": {
+    "PRESIDENT": {
+      "county": "LEXINGTON",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 34148,
+      "rep_votes": 76662,
+      "other_votes": 1813,
+      "total_votes": 112623,
+      "two_party_total": 110810,
+      "margin": 42514,
+      "margin_pct": 38.37,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "REP": 76662,
+        "LIB": 1176,
+        "DEM": 34148,
+        "CON": 269,
+        "GRN": 368
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "LEXINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Jim Eckstrom",
+      "dem_votes": 0,
+      "rep_votes": 87142,
+      "other_votes": 523,
+      "total_votes": 87665,
+      "two_party_total": 87142,
+      "margin": 87142,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 87142,
+        "NON": 523
+      }
+    }
+  },
+  "MARION": {
+    "PRESIDENT": {
+      "county": "MARION",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 9688,
+      "rep_votes": 5164,
+      "other_votes": 134,
+      "total_votes": 14986,
+      "two_party_total": 14852,
+      "margin": 4524,
+      "margin_pct": 30.46,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "REP": 5164,
+        "LIB": 35,
+        "DEM": 9688,
+        "CON": 55,
+        "GRN": 44
+      }
+    }
+  },
+  "MARLBORO": {
+    "PRESIDENT": {
+      "county": "MARLBORO",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 6100,
+      "rep_votes": 3676,
+      "other_votes": 77,
+      "total_votes": 9853,
+      "two_party_total": 9776,
+      "margin": 2424,
+      "margin_pct": 24.8,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 3676,
+        "LIB": 45,
+        "DEM": 6100,
+        "CON": 23,
+        "GRN": 9
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "MARLBORO",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Delorice B Barrington",
+      "rep_candidate": null,
+      "dem_votes": 9069,
+      "rep_votes": 0,
+      "other_votes": 15,
+      "total_votes": 9084,
+      "two_party_total": 9069,
+      "margin": 9069,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 9069,
+        "NON": 15
+      }
+    }
+  },
+  "MCCORMICK": {
+    "PRESIDENT": {
+      "county": "MCCORMICK",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 2653,
+      "rep_votes": 2467,
+      "other_votes": 40,
+      "total_votes": 5160,
+      "two_party_total": 5120,
+      "margin": 186,
+      "margin_pct": 3.63,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 2467,
+        "LIB": 21,
+        "DEM": 2653,
+        "CON": 7,
+        "GRN": 12
+      }
+    }
+  },
+  "NEWBERRY": {
+    "PRESIDENT": {
+      "county": "NEWBERRY",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 6913,
+      "rep_votes": 9260,
+      "other_votes": 178,
+      "total_votes": 16351,
+      "two_party_total": 16173,
+      "margin": 2347,
+      "margin_pct": 14.51,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 9260,
+        "LIB": 89,
+        "DEM": 6913,
+        "CON": 30,
+        "GRN": 59
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "NEWBERRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Karen D Lindler",
+      "rep_candidate": "Jackie W Haltiwanger",
+      "dem_votes": 9118,
+      "rep_votes": 6880,
+      "other_votes": 6,
+      "total_votes": 16004,
+      "two_party_total": 15998,
+      "margin": 2238,
+      "margin_pct": 13.99,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 6880,
+        "DEM": 9118,
+        "NON": 6
+      }
+    }
+  },
+  "OCONEE": {
+    "PRESIDENT": {
+      "county": "OCONEE",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 8550,
+      "rep_votes": 21611,
+      "other_votes": 505,
+      "total_votes": 30666,
+      "two_party_total": 30161,
+      "margin": 13061,
+      "margin_pct": 43.3,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 21611,
+        "LIB": 296,
+        "DEM": 8550,
+        "CON": 94,
+        "GRN": 115
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "OCONEE",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Gregorie W Nowell",
+      "dem_votes": 0,
+      "rep_votes": 25810,
+      "other_votes": 96,
+      "total_votes": 25906,
+      "two_party_total": 25810,
+      "margin": 25810,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 25810,
+        "NON": 96
+      }
+    }
+  },
+  "ORANGEBURG": {
+    "PRESIDENT": {
+      "county": "ORANGEBURG",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 30720,
+      "rep_votes": 12022,
+      "other_votes": 299,
+      "total_votes": 43041,
+      "two_party_total": 42742,
+      "margin": 18698,
+      "margin_pct": 43.75,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "REP": 12022,
+        "LIB": 143,
+        "DEM": 30720,
+        "CON": 86,
+        "GRN": 70
+      }
+    }
+  },
+  "PICKENS": {
+    "PRESIDENT": {
+      "county": "PICKENS",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 11156,
+      "rep_votes": 33474,
+      "other_votes": 919,
+      "total_votes": 45549,
+      "two_party_total": 44630,
+      "margin": 22318,
+      "margin_pct": 50.01,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 33474,
+        "LIB": 568,
+        "DEM": 11156,
+        "CON": 186,
+        "GRN": 165
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "PICKENS",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Dale M Looper",
+      "dem_votes": 0,
+      "rep_votes": 38986,
+      "other_votes": 151,
+      "total_votes": 39137,
+      "two_party_total": 38986,
+      "margin": 38986,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 38986,
+        "NON": 151
+      }
+    }
+  },
+  "RICHLAND": {
+    "PRESIDENT": {
+      "county": "RICHLAND",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 103989,
+      "rep_votes": 53105,
+      "other_votes": 2060,
+      "total_votes": 159154,
+      "two_party_total": 157094,
+      "margin": 50884,
+      "margin_pct": 32.39,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "REP": 53105,
+        "LIB": 1001,
+        "DEM": 103989,
+        "CON": 474,
+        "GRN": 585
+      }
+    }
+  },
+  "SALUDA": {
+    "PRESIDENT": {
+      "county": "SALUDA",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 3328,
+      "rep_votes": 5135,
+      "other_votes": 101,
+      "total_votes": 8564,
+      "two_party_total": 8463,
+      "margin": 1807,
+      "margin_pct": 21.35,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 5135,
+        "LIB": 58,
+        "DEM": 3328,
+        "CON": 16,
+        "GRN": 27
+      }
+    }
+  },
+  "SPARTANBURG": {
+    "PRESIDENT": {
+      "county": "SPARTANBURG",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 41461,
+      "rep_votes": 66969,
+      "other_votes": 1476,
+      "total_votes": 109906,
+      "two_party_total": 108430,
+      "margin": 25508,
+      "margin_pct": 23.52,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 66969,
+        "LIB": 915,
+        "DEM": 41461,
+        "CON": 303,
+        "GRN": 258
+      }
+    }
+  },
+  "SUMTER": {
+    "PRESIDENT": {
+      "county": "SUMTER",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 27589,
+      "rep_votes": 19274,
+      "other_votes": 446,
+      "total_votes": 47309,
+      "two_party_total": 46863,
+      "margin": 8315,
+      "margin_pct": 17.74,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 19274,
+        "LIB": 202,
+        "DEM": 27589,
+        "CON": 130,
+        "GRN": 114
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "SUMTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Carolina B Richardson",
+      "rep_candidate": null,
+      "dem_votes": 38517,
+      "rep_votes": 0,
+      "other_votes": 175,
+      "total_votes": 38692,
+      "two_party_total": 38517,
+      "margin": 38517,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 38517,
+        "NON": 175
+      }
+    }
+  },
+  "UNION": {
+    "PRESIDENT": {
+      "county": "UNION",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 5796,
+      "rep_votes": 6584,
+      "other_votes": 161,
+      "total_votes": 12541,
+      "two_party_total": 12380,
+      "margin": 788,
+      "margin_pct": 6.37,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "REP": 6584,
+        "LIB": 71,
+        "DEM": 5796,
+        "CON": 42,
+        "GRN": 48
+      }
+    }
+  },
+  "WILLIAMSBURG": {
+    "PRESIDENT": {
+      "county": "WILLIAMSBURG",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 11335,
+      "rep_votes": 4824,
+      "other_votes": 145,
+      "total_votes": 16304,
+      "two_party_total": 16159,
+      "margin": 6511,
+      "margin_pct": 40.29,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "REP": 4824,
+        "LIB": 41,
+        "DEM": 11335,
+        "CON": 38,
+        "GRN": 66
+      }
+    }
+  },
+  "YORK": {
+    "PRESIDENT": {
+      "county": "YORK",
+      "contest": "PRESIDENT",
+      "year": "2012",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "dem_votes": 39131,
+      "rep_votes": 59546,
+      "other_votes": 1533,
+      "total_votes": 100210,
+      "two_party_total": 98677,
+      "margin": 20415,
+      "margin_pct": 20.69,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 59546,
+        "LIB": 1130,
+        "DEM": 39131,
+        "CON": 180,
+        "GRN": 223
+      }
+    }
+  }
+}

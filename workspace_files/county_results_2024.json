@@ -1,0 +1,1911 @@
+{
+  "YORK": {
+    "PRESIDENT": {
+      "county": "YORK",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "REP Donald J Trump/JD Vance",
+      "dem_votes": 238400,
+      "rep_votes": 352956,
+      "other_votes": 8880,
+      "total_votes": 600236,
+      "two_party_total": 591356,
+      "margin": 114556,
+      "margin_pct": 19.37,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 1352,
+        "UNC": 1296,
+        "GRN": 2088,
+        "REP": 352956,
+        "LIB": 3504,
+        "DEM": 238400,
+        "WRK": 640
+      }
+    }
+  },
+  "BERKELEY": {
+    "PRESIDENT": {
+      "county": "BERKELEY",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/ Tim Walz",
+      "rep_candidate": "Donald J Trump/ JD Vance",
+      "dem_votes": 185664,
+      "rep_votes": 259108,
+      "other_votes": 6564,
+      "total_votes": 451336,
+      "two_party_total": 444772,
+      "margin": 73444,
+      "margin_pct": 16.51,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 816,
+        "UNC": 1324,
+        "GRN": 1348,
+        "REP": 259108,
+        "LIB": 2460,
+        "DEM": 185664,
+        "WRK": 616
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "BERKELEY",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Lori Fiddie Glover",
+      "dem_votes": 0,
+      "rep_votes": 158308,
+      "other_votes": 2016,
+      "total_votes": 160324,
+      "two_party_total": 158308,
+      "margin": 158308,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 158308,
+        "NON": 2016
+      }
+    }
+  },
+  "CHARLESTON": {
+    "PRESIDENT": {
+      "county": "CHARLESTON",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 445708,
+      "rep_votes": 397060,
+      "other_votes": 15316,
+      "total_votes": 858084,
+      "two_party_total": 842768,
+      "margin": 48648,
+      "margin_pct": 5.77,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "CON": 1520,
+        "UNC": 2004,
+        "GRN": 3892,
+        "REP": 397060,
+        "LIB": 6660,
+        "DEM": 445708,
+        "WRK": 1240
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHARLESTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "DEM Mary Tinkler",
+      "rep_candidate": "REP Mike Van Horn Sr",
+      "dem_votes": 219630,
+      "rep_votes": 194604,
+      "other_votes": 188,
+      "total_votes": 414422,
+      "two_party_total": 414234,
+      "margin": 25026,
+      "margin_pct": 6.04,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "REP": 194604,
+        "DEM": 219630,
+        "NON": 188
+      }
+    }
+  },
+  "WILLIAMSBURG": {
+    "PRESIDENT": {
+      "county": "WILLIAMSBURG",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 34536,
+      "rep_votes": 22096,
+      "other_votes": 688,
+      "total_votes": 57320,
+      "two_party_total": 56632,
+      "margin": 12440,
+      "margin_pct": 21.97,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 108,
+        "UNC": 340,
+        "GRN": 60,
+        "REP": 22096,
+        "LIB": 100,
+        "DEM": 34536,
+        "WRK": 80
+      }
+    }
+  },
+  "LEXINGTON": {
+    "PRESIDENT": {
+      "county": "LEXINGTON",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 191260,
+      "rep_votes": 387860,
+      "other_votes": 8492,
+      "total_votes": 587612,
+      "two_party_total": 579120,
+      "margin": 196600,
+      "margin_pct": 33.95,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 1448,
+        "UNC": 1244,
+        "GRN": 1884,
+        "REP": 387860,
+        "LIB": 3240,
+        "DEM": 191260,
+        "WRK": 676
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "LEXINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Jim Eckstrom",
+      "dem_votes": 0,
+      "rep_votes": 231544,
+      "other_votes": 1612,
+      "total_votes": 233156,
+      "two_party_total": 231544,
+      "margin": 231544,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 231544,
+        "NON": 1612
+      }
+    }
+  },
+  "JASPER": {
+    "PRESIDENT": {
+      "county": "JASPER",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 32576,
+      "rep_votes": 39600,
+      "other_votes": 732,
+      "total_votes": 72908,
+      "two_party_total": 72176,
+      "margin": 7024,
+      "margin_pct": 9.73,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 120,
+        "UNC": 148,
+        "GRN": 136,
+        "REP": 39600,
+        "LIB": 252,
+        "DEM": 32576,
+        "WRK": 76
+      }
+    }
+  },
+  "BAMBERG": {
+    "PRESIDENT": {
+      "county": "BAMBERG",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/ Tim Walz",
+      "rep_candidate": "Donald J Trump/ JD Vance",
+      "dem_votes": 12980,
+      "rep_votes": 9504,
+      "other_votes": 292,
+      "total_votes": 22776,
+      "two_party_total": 22484,
+      "margin": 3476,
+      "margin_pct": 15.46,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 52,
+        "UNC": 100,
+        "GRN": 44,
+        "REP": 9504,
+        "LIB": 56,
+        "DEM": 12980,
+        "WRK": 40
+      }
+    }
+  },
+  "LEE": {
+    "PRESIDENT": {
+      "county": "LEE",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 18020,
+      "rep_votes": 12312,
+      "other_votes": 1972,
+      "total_votes": 32304,
+      "two_party_total": 30332,
+      "margin": 5708,
+      "margin_pct": 18.82,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 376,
+        "UNC": 544,
+        "GRN": 348,
+        "REP": 12312,
+        "LIB": 376,
+        "DEM": 18020,
+        "WRK": 328
+      }
+    }
+  },
+  "BEAUFORT": {
+    "PRESIDENT": {
+      "county": "BEAUFORT",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 176008,
+      "rep_votes": 236492,
+      "other_votes": 5112,
+      "total_votes": 417612,
+      "two_party_total": 412500,
+      "margin": 60484,
+      "margin_pct": 14.66,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 720,
+        "UNC": 724,
+        "GRN": 1232,
+        "REP": 236492,
+        "LIB": 2140,
+        "DEM": 176008,
+        "WRK": 296
+      }
+    }
+  },
+  "UNION": {
+    "PRESIDENT": {
+      "county": "UNION",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 16336,
+      "rep_votes": 32408,
+      "other_votes": 412,
+      "total_votes": 49156,
+      "two_party_total": 48744,
+      "margin": 16072,
+      "margin_pct": 32.97,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 84,
+        "UNC": 132,
+        "GRN": 84,
+        "REP": 32408,
+        "LIB": 84,
+        "DEM": 16336,
+        "WRK": 28
+      }
+    }
+  },
+  "CHESTER": {
+    "PRESIDENT": {
+      "county": "CHESTER",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 25412,
+      "rep_votes": 36120,
+      "other_votes": 692,
+      "total_votes": 62224,
+      "two_party_total": 61532,
+      "margin": 10708,
+      "margin_pct": 17.4,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 104,
+        "UNC": 172,
+        "GRN": 88,
+        "REP": 36120,
+        "LIB": 240,
+        "DEM": 25412,
+        "WRK": 88
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Thomas E Darby",
+      "dem_votes": 0,
+      "rep_votes": 21850,
+      "other_votes": 116,
+      "total_votes": 21966,
+      "two_party_total": 21850,
+      "margin": 21850,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 21850,
+        "NON": 116
+      }
+    }
+  },
+  "SALUDA": {
+    "PRESIDENT": {
+      "county": "SALUDA",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 9816,
+      "rep_votes": 25808,
+      "other_votes": 432,
+      "total_votes": 36056,
+      "two_party_total": 35624,
+      "margin": 15992,
+      "margin_pct": 44.89,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 32,
+        "UNC": 80,
+        "GRN": 76,
+        "REP": 25808,
+        "LIB": 136,
+        "DEM": 9816,
+        "WRK": 108
+      }
+    }
+  },
+  "LAURENS": {
+    "PRESIDENT": {
+      "county": "LAURENS",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 35076,
+      "rep_votes": 84440,
+      "other_votes": 1336,
+      "total_votes": 120852,
+      "two_party_total": 119516,
+      "margin": 49364,
+      "margin_pct": 41.3,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 220,
+        "UNC": 364,
+        "REP": 84440,
+        "GRN": 264,
+        "LIB": 348,
+        "DEM": 35076,
+        "WRK": 140
+      }
+    }
+  },
+  "CHEROKEE": {
+    "PRESIDENT": {
+      "county": "CHEROKEE",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 23756,
+      "rep_votes": 74788,
+      "other_votes": 812,
+      "total_votes": 99356,
+      "two_party_total": 98544,
+      "margin": 51032,
+      "margin_pct": 51.79,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 136,
+        "UNC": 164,
+        "GRN": 192,
+        "REP": 74788,
+        "LIB": 244,
+        "DEM": 23756,
+        "WRK": 76
+      }
+    }
+  },
+  "LANCASTER": {
+    "PRESIDENT": {
+      "county": "LANCASTER",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 80584,
+      "rep_votes": 134492,
+      "other_votes": 2632,
+      "total_votes": 217708,
+      "two_party_total": 215076,
+      "margin": 53908,
+      "margin_pct": 25.06,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 376,
+        "UNC": 420,
+        "GRN": 696,
+        "REP": 134492,
+        "LIB": 940,
+        "DEM": 80584,
+        "WRK": 200
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "LANCASTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Carrie Williams Helms",
+      "dem_votes": 0,
+      "rep_votes": 83818,
+      "other_votes": 640,
+      "total_votes": 84458,
+      "two_party_total": 83818,
+      "margin": 83818,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 83818,
+        "NON": 640
+      }
+    }
+  },
+  "EDGEFIELD": {
+    "PRESIDENT": {
+      "county": "EDGEFIELD",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 18636,
+      "rep_votes": 36368,
+      "other_votes": 672,
+      "total_votes": 55676,
+      "two_party_total": 55004,
+      "margin": 17732,
+      "margin_pct": 32.24,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 132,
+        "UNC": 124,
+        "GRN": 96,
+        "REP": 36368,
+        "LIB": 244,
+        "DEM": 18636,
+        "WRK": 76
+      }
+    }
+  },
+  "MARION": {
+    "PRESIDENT": {
+      "county": "MARION",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 29264,
+      "rep_votes": 23624,
+      "other_votes": 664,
+      "total_votes": 53552,
+      "two_party_total": 52888,
+      "margin": 5640,
+      "margin_pct": 10.66,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 88,
+        "UNC": 232,
+        "GRN": 84,
+        "REP": 23624,
+        "LIB": 168,
+        "DEM": 29264,
+        "WRK": 92
+      }
+    }
+  },
+  "ORANGEBURG": {
+    "PRESIDENT": {
+      "county": "ORANGEBURG",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/  Tim Walz",
+      "rep_candidate": "Donald J Trump/ JD Vance",
+      "dem_votes": 91328,
+      "rep_votes": 55000,
+      "other_votes": 1552,
+      "total_votes": 147880,
+      "two_party_total": 146328,
+      "margin": 36328,
+      "margin_pct": 24.83,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 216,
+        "UNC": 600,
+        "GRN": 248,
+        "REP": 55000,
+        "LIB": 296,
+        "DEM": 91328,
+        "WRK": 192
+      }
+    }
+  },
+  "SPARTANBURG": {
+    "PRESIDENT": {
+      "county": "SPARTANBURG",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 202840,
+      "rep_votes": 412128,
+      "other_votes": 7420,
+      "total_votes": 622388,
+      "two_party_total": 614968,
+      "margin": 209288,
+      "margin_pct": 34.03,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 1168,
+        "UNC": 1416,
+        "GRN": 1596,
+        "REP": 412128,
+        "LIB": 2680,
+        "DEM": 202840,
+        "WRK": 560
+      }
+    }
+  },
+  "PICKENS": {
+    "PRESIDENT": {
+      "county": "PICKENS",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 55564,
+      "rep_votes": 182912,
+      "other_votes": 3328,
+      "total_votes": 241804,
+      "two_party_total": 238476,
+      "margin": 127348,
+      "margin_pct": 53.4,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 596,
+        "UNC": 260,
+        "GRN": 848,
+        "REP": 182912,
+        "LIB": 1340,
+        "DEM": 55564,
+        "WRK": 284
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "PICKENS",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Dale M Looper",
+      "dem_votes": 0,
+      "rep_votes": 101660,
+      "other_votes": 610,
+      "total_votes": 102270,
+      "two_party_total": 101660,
+      "margin": 101660,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 101660,
+        "NON": 610
+      }
+    }
+  },
+  "NEWBERRY": {
+    "PRESIDENT": {
+      "county": "NEWBERRY",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 23364,
+      "rep_votes": 48268,
+      "other_votes": 884,
+      "total_votes": 72516,
+      "two_party_total": 71632,
+      "margin": 24904,
+      "margin_pct": 34.77,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 184,
+        "UNC": 240,
+        "GRN": 180,
+        "REP": 48268,
+        "LIB": 224,
+        "DEM": 23364,
+        "WRK": 56
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "NEWBERRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "DEM Karen Lindler Smith",
+      "rep_candidate": null,
+      "dem_votes": 26170,
+      "rep_votes": 0,
+      "other_votes": 380,
+      "total_votes": 26550,
+      "two_party_total": 26170,
+      "margin": 26170,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 26170,
+        "NON": 380
+      }
+    }
+  },
+  "CLARENDON": {
+    "PRESIDENT": {
+      "county": "CLARENDON",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 28256,
+      "rep_votes": 36260,
+      "other_votes": 764,
+      "total_votes": 65280,
+      "two_party_total": 64516,
+      "margin": 8004,
+      "margin_pct": 12.41,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 116,
+        "UNC": 264,
+        "GRN": 108,
+        "REP": 36260,
+        "LIB": 172,
+        "DEM": 28256,
+        "WRK": 104
+      }
+    }
+  },
+  "SUMTER": {
+    "PRESIDENT": {
+      "county": "SUMTER",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 93700,
+      "rep_votes": 84860,
+      "other_votes": 2120,
+      "total_votes": 180680,
+      "two_party_total": 178560,
+      "margin": 8840,
+      "margin_pct": 4.95,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "CON": 268,
+        "UNC": 776,
+        "GRN": 384,
+        "REP": 84860,
+        "LIB": 528,
+        "DEM": 93700,
+        "WRK": 164
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "SUMTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "DEM Carolina B Richardson",
+      "rep_candidate": null,
+      "dem_votes": 66322,
+      "rep_votes": 0,
+      "other_votes": 734,
+      "total_votes": 67056,
+      "two_party_total": 66322,
+      "margin": 66322,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 66322,
+        "NON": 734
+      }
+    }
+  },
+  "FLORENCE": {
+    "PRESIDENT": {
+      "county": "FLORENCE",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 110824,
+      "rep_votes": 130460,
+      "other_votes": 3276,
+      "total_votes": 244560,
+      "two_party_total": 241284,
+      "margin": 19636,
+      "margin_pct": 8.14,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 464,
+        "UNC": 1032,
+        "GRN": 664,
+        "REP": 130460,
+        "LIB": 824,
+        "DEM": 110824,
+        "WRK": 292
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "FLORENCE",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Laurie Walsh Carpenter",
+      "dem_votes": 0,
+      "rep_votes": 84970,
+      "other_votes": 508,
+      "total_votes": 85478,
+      "two_party_total": 84970,
+      "margin": 84970,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 84970,
+        "NON": 508
+      }
+    }
+  },
+  "ANDERSON": {
+    "PRESIDENT": {
+      "county": "ANDERSON",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 101124,
+      "rep_votes": 287312,
+      "other_votes": 4748,
+      "total_votes": 393184,
+      "two_party_total": 388436,
+      "margin": 186188,
+      "margin_pct": 47.93,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 928,
+        "UNC": 860,
+        "GRN": 872,
+        "REP": 287312,
+        "LIB": 1756,
+        "DEM": 101124,
+        "WRK": 332
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "ANDERSON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Jason P Phillips",
+      "dem_votes": 0,
+      "rep_votes": 161624,
+      "other_votes": 646,
+      "total_votes": 162270,
+      "two_party_total": 161624,
+      "margin": 161624,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 161624,
+        "NON": 646
+      }
+    }
+  },
+  "HORRY": {
+    "PRESIDENT": {
+      "county": "HORRY",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 249300,
+      "rep_votes": 566876,
+      "other_votes": 7640,
+      "total_votes": 823816,
+      "two_party_total": 816176,
+      "margin": 317576,
+      "margin_pct": 38.91,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 996,
+        "UNC": 1336,
+        "GRN": 2024,
+        "REP": 566876,
+        "LIB": 2580,
+        "DEM": 249300,
+        "WRK": 704
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "HORRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Angie Jones",
+      "dem_votes": 0,
+      "rep_votes": 319992,
+      "other_votes": 1816,
+      "total_votes": 321808,
+      "two_party_total": 319992,
+      "margin": 319992,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 319992,
+        "NON": 1816
+      }
+    }
+  },
+  "KERSHAW": {
+    "PRESIDENT": {
+      "county": "KERSHAW",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris",
+      "rep_candidate": "Donald J Trump",
+      "dem_votes": 47304,
+      "rep_votes": 85156,
+      "other_votes": 1672,
+      "total_votes": 134132,
+      "two_party_total": 132460,
+      "margin": 37852,
+      "margin_pct": 28.58,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 248,
+        "UNC": 376,
+        "GRN": 364,
+        "REP": 85156,
+        "LIB": 536,
+        "DEM": 47304,
+        "WRK": 148
+      }
+    }
+  },
+  "COLLETON": {
+    "PRESIDENT": {
+      "county": "COLLETON",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/ Tim Walz",
+      "rep_candidate": "Donald J Trump/ JD Vance",
+      "dem_votes": 29504,
+      "rep_votes": 42784,
+      "other_votes": 816,
+      "total_votes": 73104,
+      "two_party_total": 72288,
+      "margin": 13280,
+      "margin_pct": 18.37,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 148,
+        "UNC": 164,
+        "GRN": 160,
+        "REP": 42784,
+        "LIB": 252,
+        "DEM": 29504,
+        "WRK": 92
+      }
+    }
+  },
+  "DILLON": {
+    "PRESIDENT": {
+      "county": "DILLON",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 20964,
+      "rep_votes": 26104,
+      "other_votes": 376,
+      "total_votes": 47444,
+      "two_party_total": 47068,
+      "margin": 5140,
+      "margin_pct": 10.92,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 64,
+        "UNC": 108,
+        "GRN": 48,
+        "REP": 26104,
+        "LIB": 84,
+        "DEM": 20964,
+        "WRK": 72
+      }
+    }
+  },
+  "FAIRFIELD": {
+    "PRESIDENT": {
+      "county": "FAIRFIELD",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 25108,
+      "rep_votes": 19168,
+      "other_votes": 584,
+      "total_votes": 44860,
+      "two_party_total": 44276,
+      "margin": 5940,
+      "margin_pct": 13.42,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 76,
+        "UNC": 216,
+        "GRN": 124,
+        "REP": 19168,
+        "LIB": 116,
+        "DEM": 25108,
+        "WRK": 52
+      }
+    }
+  },
+  "DARLINGTON": {
+    "PRESIDENT": {
+      "county": "DARLINGTON",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 51908,
+      "rep_votes": 68068,
+      "other_votes": 1348,
+      "total_votes": 121324,
+      "two_party_total": 119976,
+      "margin": 16160,
+      "margin_pct": 13.47,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 216,
+        "UNC": 348,
+        "GRN": 236,
+        "REP": 68068,
+        "LIB": 404,
+        "DEM": 51908,
+        "WRK": 144
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "DARLINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Jeff Robinson",
+      "dem_votes": 0,
+      "rep_votes": 42136,
+      "other_votes": 286,
+      "total_votes": 42422,
+      "two_party_total": 42136,
+      "margin": 42136,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 42136,
+        "NON": 286
+      }
+    }
+  },
+  "OCONEE": {
+    "PRESIDENT": {
+      "county": "OCONEE",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 39948,
+      "rep_votes": 127088,
+      "other_votes": 2020,
+      "total_votes": 169056,
+      "two_party_total": 167036,
+      "margin": 87140,
+      "margin_pct": 52.17,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 332,
+        "UNC": 280,
+        "GRN": 440,
+        "REP": 127088,
+        "LIB": 768,
+        "DEM": 39948,
+        "WRK": 200
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "OCONEE",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Gena Acree",
+      "dem_votes": 0,
+      "rep_votes": 70352,
+      "other_votes": 470,
+      "total_votes": 70822,
+      "two_party_total": 70352,
+      "margin": 70352,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 70352,
+        "NON": 470
+      }
+    }
+  },
+  "CHESTERFIELD": {
+    "PRESIDENT": {
+      "county": "CHESTERFIELD",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 26080,
+      "rep_votes": 46728,
+      "other_votes": 756,
+      "total_votes": 73564,
+      "two_party_total": 72808,
+      "margin": 20648,
+      "margin_pct": 28.36,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 152,
+        "UNC": 220,
+        "GRN": 148,
+        "REP": 46728,
+        "LIB": 152,
+        "DEM": 26080,
+        "WRK": 84
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CHESTERFIELD",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Fred Harris",
+      "dem_votes": 0,
+      "rep_votes": 27854,
+      "other_votes": 154,
+      "total_votes": 28008,
+      "two_party_total": 27854,
+      "margin": 27854,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 27854,
+        "NON": 154
+      }
+    }
+  },
+  "GREENVILLE": {
+    "PRESIDENT": {
+      "county": "GREENVILLE",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "DEM Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 400296,
+      "rep_votes": 634164,
+      "other_votes": 18804,
+      "total_votes": 1053264,
+      "two_party_total": 1034460,
+      "margin": 233868,
+      "margin_pct": 22.61,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 3388,
+        "UNC": 2176,
+        "GRN": 4412,
+        "REP": 634164,
+        "LIB": 7636,
+        "DEM": 400296,
+        "WRK": 1192
+      }
+    }
+  },
+  "MARLBORO": {
+    "PRESIDENT": {
+      "county": "MARLBORO",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 20548,
+      "rep_votes": 19584,
+      "other_votes": 476,
+      "total_votes": 40608,
+      "two_party_total": 40132,
+      "margin": 964,
+      "margin_pct": 2.4,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "CON": 60,
+        "UNC": 184,
+        "GRN": 72,
+        "REP": 19584,
+        "LIB": 104,
+        "DEM": 20548,
+        "WRK": 56
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "MARLBORO",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "Sharea Y Bracey",
+      "rep_candidate": "Patricia Patty English",
+      "dem_votes": 10188,
+      "rep_votes": 9678,
+      "other_votes": 30,
+      "total_votes": 19896,
+      "two_party_total": 19866,
+      "margin": 510,
+      "margin_pct": 2.57,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 9678,
+        "DEM": 10188,
+        "NON": 30
+      }
+    }
+  },
+  "RICHLAND": {
+    "PRESIDENT": {
+      "county": "RICHLAND",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 484440,
+      "rep_votes": 232076,
+      "other_votes": 13128,
+      "total_votes": 729644,
+      "two_party_total": 716516,
+      "margin": 252364,
+      "margin_pct": 35.22,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "CON": 1760,
+        "UNC": 3412,
+        "GRN": 2828,
+        "REP": 232076,
+        "LIB": 3832,
+        "DEM": 484440,
+        "WRK": 1296
+      }
+    }
+  },
+  "GREENWOOD": {
+    "PRESIDENT": {
+      "county": "GREENWOOD",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 43064,
+      "rep_votes": 78860,
+      "other_votes": 1628,
+      "total_votes": 123552,
+      "two_party_total": 121924,
+      "margin": 35796,
+      "margin_pct": 29.36,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 280,
+        "UNC": 424,
+        "GRN": 248,
+        "REP": 78860,
+        "LIB": 480,
+        "DEM": 43064,
+        "WRK": 196
+      }
+    }
+  },
+  "MCCORMICK": {
+    "PRESIDENT": {
+      "county": "MCCORMICK",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 10052,
+      "rep_votes": 14260,
+      "other_votes": 300,
+      "total_votes": 24612,
+      "two_party_total": 24312,
+      "margin": 4208,
+      "margin_pct": 17.31,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 60,
+        "UNC": 88,
+        "GRN": 56,
+        "REP": 14260,
+        "LIB": 88,
+        "DEM": 10052,
+        "WRK": 8
+      }
+    }
+  },
+  "ABBEVILLE": {
+    "PRESIDENT": {
+      "county": "ABBEVILLE",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 13596,
+      "rep_votes": 34036,
+      "other_votes": 560,
+      "total_votes": 48192,
+      "two_party_total": 47632,
+      "margin": 20440,
+      "margin_pct": 42.91,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 116,
+        "UNC": 124,
+        "GRN": 104,
+        "REP": 34036,
+        "LIB": 152,
+        "DEM": 13596,
+        "WRK": 64
+      }
+    }
+  },
+  "CALHOUN": {
+    "PRESIDENT": {
+      "county": "CALHOUN",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/ Tim Walz",
+      "rep_candidate": "Donald J Trump/ JD Vance",
+      "dem_votes": 13356,
+      "rep_votes": 17896,
+      "other_votes": 404,
+      "total_votes": 31656,
+      "two_party_total": 31252,
+      "margin": 4540,
+      "margin_pct": 14.53,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 72,
+        "UNC": 100,
+        "GRN": 84,
+        "REP": 17896,
+        "LIB": 116,
+        "DEM": 13356,
+        "WRK": 32
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "CALHOUN",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "Tammi Milligan Green",
+      "rep_candidate": "Alicia Scott",
+      "dem_votes": 6500,
+      "rep_votes": 9068,
+      "other_votes": 8,
+      "total_votes": 15576,
+      "two_party_total": 15568,
+      "margin": 2568,
+      "margin_pct": 16.5,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 9068,
+        "DEM": 6500,
+        "NON": 8
+      }
+    }
+  },
+  "HAMPTON": {
+    "PRESIDENT": {
+      "county": "HAMPTON",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/ Tim Walz",
+      "rep_candidate": "Donald J Trump/ JD Vance",
+      "dem_votes": 17312,
+      "rep_votes": 15204,
+      "other_votes": 416,
+      "total_votes": 32932,
+      "two_party_total": 32516,
+      "margin": 2108,
+      "margin_pct": 6.48,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "CON": 52,
+        "UNC": 192,
+        "GRN": 40,
+        "REP": 15204,
+        "LIB": 72,
+        "DEM": 17312,
+        "WRK": 60
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "HAMPTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "Alice Wright-Gordon",
+      "rep_candidate": null,
+      "dem_votes": 11184,
+      "rep_votes": 0,
+      "other_votes": 102,
+      "total_votes": 11286,
+      "two_party_total": 11184,
+      "margin": 11184,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 11184,
+        "NON": 102
+      }
+    }
+  },
+  "ALLENDALE": {
+    "PRESIDENT": {
+      "county": "ALLENDALE",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/ Tim Walz",
+      "rep_candidate": "Donald J Trump/ JD Vance",
+      "dem_votes": 8660,
+      "rep_votes": 3252,
+      "other_votes": 180,
+      "total_votes": 12092,
+      "two_party_total": 11912,
+      "margin": 5408,
+      "margin_pct": 45.4,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "CON": 20,
+        "UNC": 116,
+        "GRN": 16,
+        "REP": 3252,
+        "LIB": 16,
+        "DEM": 8660,
+        "WRK": 12
+      }
+    }
+  },
+  "AIKEN": {
+    "PRESIDENT": {
+      "county": "AIKEN",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 125192,
+      "rep_votes": 214368,
+      "other_votes": 4804,
+      "total_votes": 344364,
+      "two_party_total": 339560,
+      "margin": 89176,
+      "margin_pct": 26.26,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 724,
+        "UNC": 988,
+        "GRN": 912,
+        "REP": 214368,
+        "LIB": 1748,
+        "DEM": 125192,
+        "WRK": 432
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "AIKEN",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Jason Goings",
+      "dem_votes": 0,
+      "rep_votes": 129984,
+      "other_votes": 962,
+      "total_votes": 130946,
+      "two_party_total": 129984,
+      "margin": 129984,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 129984,
+        "NON": 962
+      }
+    }
+  },
+  "DORCHESTER": {
+    "PRESIDENT": {
+      "county": "DORCHESTER",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/ Tim Walz",
+      "rep_candidate": "Donald J Trump/ JD Vance",
+      "dem_votes": 129956,
+      "rep_votes": 175356,
+      "other_votes": 5744,
+      "total_votes": 311056,
+      "two_party_total": 305312,
+      "margin": 45400,
+      "margin_pct": 14.87,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 732,
+        "UNC": 696,
+        "GRN": 2132,
+        "REP": 175356,
+        "LIB": 1776,
+        "DEM": 129956,
+        "WRK": 408
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "DORCHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Cindy L Chitty",
+      "dem_votes": 0,
+      "rep_votes": 111080,
+      "other_votes": 1234,
+      "total_votes": 112314,
+      "two_party_total": 111080,
+      "margin": 111080,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 111080,
+        "NON": 1234
+      }
+    }
+  },
+  "BARNWELL": {
+    "PRESIDENT": {
+      "county": "BARNWELL",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/ Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 16328,
+      "rep_votes": 22420,
+      "other_votes": 464,
+      "total_votes": 39212,
+      "two_party_total": 38748,
+      "margin": 6092,
+      "margin_pct": 15.72,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 64,
+        "UNC": 144,
+        "GRN": 88,
+        "REP": 22420,
+        "LIB": 112,
+        "DEM": 16328,
+        "WRK": 56
+      }
+    }
+  },
+  "GEORGETOWN": {
+    "PRESIDENT": {
+      "county": "GEORGETOWN",
+      "contest": "PRESIDENT",
+      "year": "2024",
+      "dem_candidate": "Kamala D Harris/Tim Walz",
+      "rep_candidate": "Donald J Trump/JD Vance",
+      "dem_votes": 59860,
+      "rep_votes": 89304,
+      "other_votes": 1852,
+      "total_votes": 151016,
+      "two_party_total": 149164,
+      "margin": 29444,
+      "margin_pct": 19.74,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 224,
+        "UNC": 424,
+        "GRN": 420,
+        "REP": 89304,
+        "LIB": 640,
+        "DEM": 59860,
+        "WRK": 144
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "GEORGETOWN",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Miriam E Mace",
+      "dem_votes": 0,
+      "rep_votes": 52364,
+      "other_votes": 200,
+      "total_votes": 52564,
+      "two_party_total": 52364,
+      "margin": 52364,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 52364,
+        "NON": 200
+      }
+    }
+  }
+}

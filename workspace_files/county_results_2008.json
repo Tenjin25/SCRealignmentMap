@@ -1,0 +1,1861 @@
+{
+  "ABBEVILLE": {
+    "PRESIDENT": {
+      "county": "ABBEVILLE",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 4593,
+      "rep_votes": 6264,
+      "other_votes": 144,
+      "total_votes": 11001,
+      "two_party_total": 10857,
+      "margin": 1671,
+      "margin_pct": 15.39,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 26,
+        "REP": 6264,
+        "LIB": 25,
+        "PET": 38,
+        "DEM": 4593,
+        "CON": 55
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ABBEVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 4558,
+      "rep_votes": 6226,
+      "other_votes": 7,
+      "total_votes": 10791,
+      "two_party_total": 10784,
+      "margin": 1668,
+      "margin_pct": 15.47,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 6226,
+        "DEM": 4558,
+        "NON": 7
+      }
+    }
+  },
+  "AIKEN": {
+    "PRESIDENT": {
+      "county": "AIKEN",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 0,
+      "rep_votes": 42849,
+      "other_votes": 318,
+      "total_votes": 43167,
+      "two_party_total": 42849,
+      "margin": 42849,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "GRN": 160,
+        "REP": 42849,
+        "LIB": 158
+      }
+    }
+  },
+  "LAURENS": {
+    "PRESIDENT": {
+      "county": "LAURENS",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 10578,
+      "rep_votes": 15334,
+      "other_votes": 370,
+      "total_votes": 26282,
+      "two_party_total": 25912,
+      "margin": 4756,
+      "margin_pct": 18.35,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "LIB": 106,
+        "PET": 74,
+        "DEM": 10578,
+        "CON": 129,
+        "GRN": 61,
+        "REP": 15334
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LAURENS",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 10377,
+      "rep_votes": 15448,
+      "other_votes": 48,
+      "total_votes": 25873,
+      "two_party_total": 25825,
+      "margin": 5071,
+      "margin_pct": 19.64,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 15448,
+        "DEM": 10377,
+        "NON": 48
+      }
+    }
+  },
+  "LEE": {
+    "PRESIDENT": {
+      "county": "LEE",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 5960,
+      "rep_votes": 3074,
+      "other_votes": 119,
+      "total_votes": 9153,
+      "two_party_total": 9034,
+      "margin": 2886,
+      "margin_pct": 31.95,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "GRN": 30,
+        "REP": 3074,
+        "LIB": 33,
+        "PET": 21,
+        "DEM": 5960,
+        "CON": 35
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LEE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 5489,
+      "rep_votes": 3418,
+      "other_votes": 5,
+      "total_votes": 8912,
+      "two_party_total": 8907,
+      "margin": 2071,
+      "margin_pct": 23.25,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 3418,
+        "DEM": 5489,
+        "NON": 5
+      }
+    }
+  },
+  "LEXINGTON": {
+    "PRESIDENT": {
+      "county": "LEXINGTON",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 33303,
+      "rep_votes": 74960,
+      "other_votes": 1249,
+      "total_votes": 109512,
+      "two_party_total": 108263,
+      "margin": 41657,
+      "margin_pct": 38.48,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "GRN": 236,
+        "REP": 74960,
+        "LIB": 423,
+        "PET": 286,
+        "DEM": 33303,
+        "CON": 304
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LEXINGTON",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 29255,
+      "rep_votes": 78255,
+      "other_votes": 135,
+      "total_votes": 107645,
+      "two_party_total": 107510,
+      "margin": 49000,
+      "margin_pct": 45.58,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 78255,
+        "DEM": 29255,
+        "NON": 135
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "LEXINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "Jim Eckstrom",
+      "dem_votes": 0,
+      "rep_votes": 88157,
+      "other_votes": 207,
+      "total_votes": 88364,
+      "two_party_total": 88157,
+      "margin": 88157,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 88157,
+        "NON": 207
+      }
+    }
+  },
+  "MARION": {
+    "PRESIDENT": {
+      "county": "MARION",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 9608,
+      "rep_votes": 5416,
+      "other_votes": 150,
+      "total_votes": 15174,
+      "two_party_total": 15024,
+      "margin": 4192,
+      "margin_pct": 27.9,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "GRN": 47,
+        "REP": 5416,
+        "LIB": 48,
+        "PET": 26,
+        "DEM": 9608,
+        "CON": 29
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MARION",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8599,
+      "rep_votes": 5951,
+      "other_votes": 7,
+      "total_votes": 14557,
+      "two_party_total": 14550,
+      "margin": 2648,
+      "margin_pct": 18.2,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 5951,
+        "DEM": 8599,
+        "NON": 7
+      }
+    }
+  },
+  "MARLBORO": {
+    "PRESIDENT": {
+      "county": "MARLBORO",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 6794,
+      "rep_votes": 3996,
+      "other_votes": 86,
+      "total_votes": 10876,
+      "two_party_total": 10790,
+      "margin": 2798,
+      "margin_pct": 25.93,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "GRN": 25,
+        "REP": 3996,
+        "LIB": 24,
+        "PET": 17,
+        "DEM": 6794,
+        "CON": 20
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MARLBORO",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6306,
+      "rep_votes": 4256,
+      "other_votes": 9,
+      "total_votes": 10571,
+      "two_party_total": 10562,
+      "margin": 2050,
+      "margin_pct": 19.41,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 4256,
+        "DEM": 6306,
+        "NON": 9
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "MARLBORO",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Delorice B Barrington",
+      "rep_candidate": null,
+      "dem_votes": 10036,
+      "rep_votes": 0,
+      "other_votes": 15,
+      "total_votes": 10051,
+      "two_party_total": 10036,
+      "margin": 10036,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 10036,
+        "NON": 15
+      }
+    }
+  },
+  "MCCORMICK": {
+    "PRESIDENT": {
+      "county": "MCCORMICK",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 2755,
+      "rep_votes": 2437,
+      "other_votes": 40,
+      "total_votes": 5232,
+      "two_party_total": 5192,
+      "margin": 318,
+      "margin_pct": 6.12,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "GRN": 15,
+        "REP": 2437,
+        "LIB": 9,
+        "PET": 8,
+        "DEM": 2755,
+        "CON": 8
+      }
+    },
+    "U.S. SENATE": {
+      "county": "MCCORMICK",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 2592,
+      "rep_votes": 2521,
+      "other_votes": 5,
+      "total_votes": 5118,
+      "two_party_total": 5113,
+      "margin": 71,
+      "margin_pct": 1.39,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 2521,
+        "DEM": 2592,
+        "NON": 5
+      }
+    }
+  },
+  "NEWBERRY": {
+    "PRESIDENT": {
+      "county": "NEWBERRY",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 6708,
+      "rep_votes": 9616,
+      "other_votes": 200,
+      "total_votes": 16524,
+      "two_party_total": 16324,
+      "margin": 2908,
+      "margin_pct": 17.81,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 43,
+        "REP": 9616,
+        "LIB": 68,
+        "PET": 55,
+        "DEM": 6708,
+        "CON": 34
+      }
+    },
+    "U.S. SENATE": {
+      "county": "NEWBERRY",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6111,
+      "rep_votes": 10064,
+      "other_votes": 8,
+      "total_votes": 16183,
+      "two_party_total": 16175,
+      "margin": 3953,
+      "margin_pct": 24.44,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 10064,
+        "DEM": 6111,
+        "NON": 8
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "NEWBERRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Karen D Lindler",
+      "rep_candidate": "Benjie Chapman",
+      "dem_votes": 9179,
+      "rep_votes": 7093,
+      "other_votes": 8,
+      "total_votes": 16280,
+      "two_party_total": 16272,
+      "margin": 2086,
+      "margin_pct": 12.82,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 7093,
+        "DEM": 9179,
+        "NON": 8
+      }
+    }
+  },
+  "OCONEE": {
+    "PRESIDENT": {
+      "county": "OCONEE",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 9481,
+      "rep_votes": 21164,
+      "other_votes": 487,
+      "total_votes": 31132,
+      "two_party_total": 30645,
+      "margin": 11683,
+      "margin_pct": 38.12,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "GRN": 91,
+        "REP": 21164,
+        "LIB": 146,
+        "PET": 118,
+        "DEM": 9481,
+        "CON": 132
+      }
+    },
+    "U.S. SENATE": {
+      "county": "OCONEE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8236,
+      "rep_votes": 22305,
+      "other_votes": 33,
+      "total_votes": 30574,
+      "two_party_total": 30541,
+      "margin": 14069,
+      "margin_pct": 46.07,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 22305,
+        "DEM": 8236,
+        "NON": 33
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "OCONEE",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "Gregorie W Nowell",
+      "dem_votes": 0,
+      "rep_votes": 20480,
+      "other_votes": 6635,
+      "total_votes": 27115,
+      "two_party_total": 20480,
+      "margin": 20480,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 20480,
+        "CON": 6595,
+        "NON": 40
+      }
+    }
+  },
+  "ORANGEBURG": {
+    "PRESIDENT": {
+      "county": "ORANGEBURG",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 27263,
+      "rep_votes": 12115,
+      "other_votes": 376,
+      "total_votes": 39754,
+      "two_party_total": 39378,
+      "margin": 15148,
+      "margin_pct": 38.47,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "GRN": 126,
+        "REP": 12115,
+        "LIB": 102,
+        "PET": 63,
+        "DEM": 27263,
+        "CON": 85
+      }
+    },
+    "U.S. SENATE": {
+      "county": "ORANGEBURG",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 25129,
+      "rep_votes": 13346,
+      "other_votes": 27,
+      "total_votes": 38502,
+      "two_party_total": 38475,
+      "margin": 11783,
+      "margin_pct": 30.63,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "REP": 13346,
+        "DEM": 25129,
+        "NON": 27
+      }
+    }
+  },
+  "PICKENS": {
+    "PRESIDENT": {
+      "county": "PICKENS",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 11691,
+      "rep_votes": 32552,
+      "other_votes": 885,
+      "total_votes": 45128,
+      "two_party_total": 44243,
+      "margin": 20861,
+      "margin_pct": 47.15,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "GRN": 108,
+        "REP": 32552,
+        "LIB": 243,
+        "PET": 159,
+        "DEM": 11691,
+        "CON": 375
+      }
+    },
+    "U.S. SENATE": {
+      "county": "PICKENS",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 12121,
+      "rep_votes": 32158,
+      "other_votes": 167,
+      "total_votes": 44446,
+      "two_party_total": 44279,
+      "margin": 20037,
+      "margin_pct": 45.25,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 32158,
+        "DEM": 12121,
+        "NON": 167
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "PICKENS",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "Dale M Looper",
+      "dem_votes": 0,
+      "rep_votes": 38267,
+      "other_votes": 88,
+      "total_votes": 38355,
+      "two_party_total": 38267,
+      "margin": 38267,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 38267,
+        "NON": 88
+      }
+    }
+  },
+  "RICHLAND": {
+    "PRESIDENT": {
+      "county": "RICHLAND",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 105656,
+      "rep_votes": 57941,
+      "other_votes": 1440,
+      "total_votes": 165037,
+      "two_party_total": 163597,
+      "margin": 47715,
+      "margin_pct": 29.17,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "GRN": 305,
+        "REP": 57941,
+        "LIB": 516,
+        "PET": 321,
+        "DEM": 105656,
+        "CON": 298
+      }
+    },
+    "U.S. SENATE": {
+      "county": "RICHLAND",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 87891,
+      "rep_votes": 72654,
+      "other_votes": 269,
+      "total_votes": 160814,
+      "two_party_total": 160545,
+      "margin": 15237,
+      "margin_pct": 9.49,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "REP": 72654,
+        "DEM": 87891,
+        "NON": 269
+      }
+    }
+  },
+  "SALUDA": {
+    "PRESIDENT": {
+      "county": "SALUDA",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 3323,
+      "rep_votes": 5191,
+      "other_votes": 89,
+      "total_votes": 8603,
+      "two_party_total": 8514,
+      "margin": 1868,
+      "margin_pct": 21.94,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 28,
+        "REP": 5191,
+        "LIB": 19,
+        "PET": 22,
+        "DEM": 3323,
+        "CON": 20
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SALUDA",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 3163,
+      "rep_votes": 5282,
+      "other_votes": 9,
+      "total_votes": 8454,
+      "two_party_total": 8445,
+      "margin": 2119,
+      "margin_pct": 25.09,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 5282,
+        "DEM": 3163,
+        "NON": 9
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "SALUDA",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Robert C Addy",
+      "rep_candidate": "Tina M Shealy",
+      "dem_votes": 3313,
+      "rep_votes": 5120,
+      "other_votes": 2,
+      "total_votes": 8435,
+      "two_party_total": 8433,
+      "margin": 1807,
+      "margin_pct": 21.43,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 5120,
+        "DEM": 3313,
+        "NON": 2
+      }
+    }
+  },
+  "SPARTANBURG": {
+    "PRESIDENT": {
+      "county": "SPARTANBURG",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 41632,
+      "rep_votes": 65042,
+      "other_votes": 1654,
+      "total_votes": 108328,
+      "two_party_total": 106674,
+      "margin": 23410,
+      "margin_pct": 21.95,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 268,
+        "REP": 65042,
+        "LIB": 380,
+        "PET": 301,
+        "DEM": 41632,
+        "CON": 705
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SPARTANBURG",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 43966,
+      "rep_votes": 61117,
+      "other_votes": 426,
+      "total_votes": 105509,
+      "two_party_total": 105083,
+      "margin": 17151,
+      "margin_pct": 16.32,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 61117,
+        "DEM": 43966,
+        "NON": 426
+      }
+    }
+  },
+  "SUMTER": {
+    "PRESIDENT": {
+      "county": "SUMTER",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 25431,
+      "rep_votes": 18581,
+      "other_votes": 346,
+      "total_votes": 44358,
+      "two_party_total": 44012,
+      "margin": 6850,
+      "margin_pct": 15.56,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "GRN": 74,
+        "REP": 18581,
+        "LIB": 92,
+        "PET": 78,
+        "DEM": 25431,
+        "CON": 102
+      }
+    },
+    "U.S. SENATE": {
+      "county": "SUMTER",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 23625,
+      "rep_votes": 19906,
+      "other_votes": 25,
+      "total_votes": 43556,
+      "two_party_total": 43531,
+      "margin": 3719,
+      "margin_pct": 8.54,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "REP": 19906,
+        "DEM": 23625,
+        "NON": 25
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "SUMTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Carolina B Richardson",
+      "rep_candidate": null,
+      "dem_votes": 37081,
+      "rep_votes": 0,
+      "other_votes": 71,
+      "total_votes": 37152,
+      "two_party_total": 37081,
+      "margin": 37081,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 37081,
+        "NON": 71
+      }
+    }
+  },
+  "UNION": {
+    "PRESIDENT": {
+      "county": "UNION",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 5935,
+      "rep_votes": 7449,
+      "other_votes": 167,
+      "total_votes": 13551,
+      "two_party_total": 13384,
+      "margin": 1514,
+      "margin_pct": 11.31,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 44,
+        "REP": 7449,
+        "LIB": 37,
+        "PET": 36,
+        "DEM": 5935,
+        "CON": 50
+      }
+    },
+    "U.S. SENATE": {
+      "county": "UNION",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6349,
+      "rep_votes": 6881,
+      "other_votes": 21,
+      "total_votes": 13251,
+      "two_party_total": 13230,
+      "margin": 532,
+      "margin_pct": 4.02,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "REP": 6881,
+        "DEM": 6349,
+        "NON": 21
+      }
+    }
+  },
+  "WILLIAMSBURG": {
+    "PRESIDENT": {
+      "county": "WILLIAMSBURG",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 11279,
+      "rep_votes": 5004,
+      "other_votes": 160,
+      "total_votes": 16443,
+      "two_party_total": 16283,
+      "margin": 6275,
+      "margin_pct": 38.54,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "GRN": 50,
+        "REP": 5004,
+        "LIB": 41,
+        "PET": 9,
+        "DEM": 11279,
+        "CON": 60
+      }
+    },
+    "U.S. SENATE": {
+      "county": "WILLIAMSBURG",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 10137,
+      "rep_votes": 5662,
+      "other_votes": 10,
+      "total_votes": 15809,
+      "two_party_total": 15799,
+      "margin": 4475,
+      "margin_pct": 28.32,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 5662,
+        "DEM": 10137,
+        "NON": 10
+      }
+    }
+  },
+  "YORK": {
+    "PRESIDENT": {
+      "county": "YORK",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 37918,
+      "rep_votes": 54500,
+      "other_votes": 1278,
+      "total_votes": 93696,
+      "two_party_total": 92418,
+      "margin": 16582,
+      "margin_pct": 17.94,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 174,
+        "REP": 54500,
+        "LIB": 527,
+        "PET": 319,
+        "DEM": 37918,
+        "CON": 258
+      }
+    },
+    "U.S. SENATE": {
+      "county": "YORK",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 34384,
+      "rep_votes": 55975,
+      "other_votes": 152,
+      "total_votes": 90511,
+      "two_party_total": 90359,
+      "margin": 21591,
+      "margin_pct": 23.89,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 55975,
+        "DEM": 34384,
+        "NON": 152
+      }
+    }
+  },
+  "FAIRFIELD": {
+    "PRESIDENT": {
+      "county": "FAIRFIELD",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 7591,
+      "rep_votes": 3912,
+      "other_votes": 116,
+      "total_votes": 11619,
+      "two_party_total": 11503,
+      "margin": 3679,
+      "margin_pct": 31.98,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "GRN": 32,
+        "REP": 3912,
+        "LIB": 27,
+        "PET": 22,
+        "DEM": 7591,
+        "CON": 35
+      }
+    },
+    "U.S. SENATE": {
+      "county": "FAIRFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6737,
+      "rep_votes": 4472,
+      "other_votes": 7,
+      "total_votes": 11216,
+      "two_party_total": 11209,
+      "margin": 2265,
+      "margin_pct": 20.21,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 4472,
+        "DEM": 6737,
+        "NON": 7
+      }
+    }
+  },
+  "FLORENCE": {
+    "PRESIDENT": {
+      "county": "FLORENCE",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 28012,
+      "rep_votes": 29861,
+      "other_votes": 500,
+      "total_votes": 58373,
+      "two_party_total": 57873,
+      "margin": 1849,
+      "margin_pct": 3.19,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "GRN": 109,
+        "REP": 29861,
+        "LIB": 151,
+        "PET": 115,
+        "DEM": 28012,
+        "CON": 125
+      }
+    },
+    "U.S. SENATE": {
+      "county": "FLORENCE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 24589,
+      "rep_votes": 32680,
+      "other_votes": 60,
+      "total_votes": 57329,
+      "two_party_total": 57269,
+      "margin": 8091,
+      "margin_pct": 14.13,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 32680,
+        "DEM": 24589,
+        "NON": 60
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "FLORENCE",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Leval Williams",
+      "rep_candidate": "Dean Fowler Jr",
+      "dem_votes": 24119,
+      "rep_votes": 33256,
+      "other_votes": 20,
+      "total_votes": 57395,
+      "two_party_total": 57375,
+      "margin": 9137,
+      "margin_pct": 15.93,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 33256,
+        "DEM": 24119,
+        "NON": 20
+      }
+    }
+  },
+  "GEORGETOWN": {
+    "PRESIDENT": {
+      "county": "GEORGETOWN",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 14199,
+      "rep_votes": 15790,
+      "other_votes": 301,
+      "total_votes": 30290,
+      "two_party_total": 29989,
+      "margin": 1591,
+      "margin_pct": 5.31,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "GRN": 83,
+        "REP": 15790,
+        "LIB": 89,
+        "PET": 68,
+        "DEM": 14199,
+        "CON": 61
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GEORGETOWN",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 12753,
+      "rep_votes": 16769,
+      "other_votes": 27,
+      "total_votes": 29549,
+      "two_party_total": 29522,
+      "margin": 4016,
+      "margin_pct": 13.6,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 16769,
+        "DEM": 12753,
+        "NON": 27
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "GEORGETOWN",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Loretta D Washington-Cooper",
+      "rep_candidate": null,
+      "dem_votes": 23147,
+      "rep_votes": 0,
+      "other_votes": 63,
+      "total_votes": 23210,
+      "two_party_total": 23147,
+      "margin": 23147,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 23147,
+        "NON": 63
+      }
+    }
+  },
+  "GREENVILLE": {
+    "PRESIDENT": {
+      "county": "GREENVILLE",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 70886,
+      "rep_votes": 116363,
+      "other_votes": 3408,
+      "total_votes": 190657,
+      "two_party_total": 187249,
+      "margin": 45477,
+      "margin_pct": 24.29,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 423,
+        "REP": 116363,
+        "LIB": 893,
+        "NON": 526,
+        "DEM": 70886,
+        "CON": 1566
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GREENVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 72205,
+      "rep_votes": 112522,
+      "other_votes": 1107,
+      "total_votes": 185834,
+      "two_party_total": 184727,
+      "margin": 40317,
+      "margin_pct": 21.83,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 112522,
+        "DEM": 72205,
+        "NON": 1107
+      }
+    }
+  },
+  "GREENWOOD": {
+    "PRESIDENT": {
+      "county": "GREENWOOD",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 12348,
+      "rep_votes": 16995,
+      "other_votes": 324,
+      "total_votes": 29667,
+      "two_party_total": 29343,
+      "margin": 4647,
+      "margin_pct": 15.84,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 58,
+        "REP": 16995,
+        "LIB": 100,
+        "PET": 69,
+        "DEM": 12348,
+        "CON": 97
+      }
+    },
+    "U.S. SENATE": {
+      "county": "GREENWOOD",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11104,
+      "rep_votes": 17911,
+      "other_votes": 44,
+      "total_votes": 29059,
+      "two_party_total": 29015,
+      "margin": 6807,
+      "margin_pct": 23.46,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 17911,
+        "DEM": 11104,
+        "NON": 44
+      }
+    }
+  },
+  "HAMPTON": {
+    "PRESIDENT": {
+      "county": "HAMPTON",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 5816,
+      "rep_votes": 3439,
+      "other_votes": 95,
+      "total_votes": 9350,
+      "two_party_total": 9255,
+      "margin": 2377,
+      "margin_pct": 25.68,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "GRN": 28,
+        "REP": 3439,
+        "LIB": 34,
+        "PET": 15,
+        "DEM": 5816,
+        "CON": 18
+      }
+    },
+    "U.S. SENATE": {
+      "county": "HAMPTON",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 5225,
+      "rep_votes": 3609,
+      "other_votes": 6,
+      "total_votes": 8840,
+      "two_party_total": 8834,
+      "margin": 1616,
+      "margin_pct": 18.29,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 3609,
+        "DEM": 5225,
+        "NON": 6
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "HAMPTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Wilson Tuten Jr",
+      "rep_candidate": null,
+      "dem_votes": 8086,
+      "rep_votes": 0,
+      "other_votes": 22,
+      "total_votes": 8108,
+      "two_party_total": 8086,
+      "margin": 8086,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 8086,
+        "NON": 22
+      }
+    }
+  },
+  "HORRY": {
+    "PRESIDENT": {
+      "county": "HORRY",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 38879,
+      "rep_votes": 64609,
+      "other_votes": 1310,
+      "total_votes": 104798,
+      "two_party_total": 103488,
+      "margin": 25730,
+      "margin_pct": 24.86,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "GRN": 269,
+        "REP": 64609,
+        "LIB": 367,
+        "PET": 401,
+        "DEM": 38879,
+        "CON": 273
+      }
+    },
+    "U.S. SENATE": {
+      "county": "HORRY",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 34678,
+      "rep_votes": 67215,
+      "other_votes": 126,
+      "total_votes": 102019,
+      "two_party_total": 101893,
+      "margin": 32537,
+      "margin_pct": 31.93,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "REP": 67215,
+        "DEM": 34678,
+        "NON": 126
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "HORRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "Roddy Dickinson",
+      "dem_votes": 0,
+      "rep_votes": 80073,
+      "other_votes": 220,
+      "total_votes": 80293,
+      "two_party_total": 80073,
+      "margin": 80073,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 80073,
+        "NON": 220
+      }
+    }
+  },
+  "JASPER": {
+    "PRESIDENT": {
+      "county": "JASPER",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 5389,
+      "rep_votes": 3365,
+      "other_votes": 100,
+      "total_votes": 8854,
+      "two_party_total": 8754,
+      "margin": 2024,
+      "margin_pct": 23.12,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "GRN": 35,
+        "REP": 3365,
+        "LIB": 32,
+        "PET": 16,
+        "DEM": 5389,
+        "CON": 17
+      }
+    },
+    "U.S. SENATE": {
+      "county": "JASPER",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 5203,
+      "rep_votes": 3367,
+      "other_votes": 3,
+      "total_votes": 8573,
+      "two_party_total": 8570,
+      "margin": 1836,
+      "margin_pct": 21.42,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 3367,
+        "DEM": 5203,
+        "NON": 3
+      }
+    }
+  },
+  "KERSHAW": {
+    "PRESIDENT": {
+      "county": "KERSHAW",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 11226,
+      "rep_votes": 16466,
+      "other_votes": 293,
+      "total_votes": 27985,
+      "two_party_total": 27692,
+      "margin": 5240,
+      "margin_pct": 18.92,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 68,
+        "REP": 16466,
+        "LIB": 105,
+        "PET": 55,
+        "DEM": 11226,
+        "CON": 65
+      }
+    },
+    "U.S. SENATE": {
+      "county": "KERSHAW",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 9999,
+      "rep_votes": 17344,
+      "other_votes": 22,
+      "total_votes": 27365,
+      "two_party_total": 27343,
+      "margin": 7345,
+      "margin_pct": 26.86,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 17344,
+        "DEM": 9999,
+        "NON": 22
+      }
+    }
+  },
+  "LANCASTER": {
+    "PRESIDENT": {
+      "county": "LANCASTER",
+      "contest": "PRESIDENT",
+      "year": "2008",
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "John McCain / Sarah Palin",
+      "dem_votes": 12139,
+      "rep_votes": 16441,
+      "other_votes": 341,
+      "total_votes": 28921,
+      "two_party_total": 28580,
+      "margin": 4302,
+      "margin_pct": 15.05,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "GRN": 79,
+        "REP": 16441,
+        "LIB": 108,
+        "PET": 82,
+        "DEM": 12139,
+        "CON": 72
+      }
+    },
+    "U.S. SENATE": {
+      "county": "LANCASTER",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11585,
+      "rep_votes": 16295,
+      "other_votes": 26,
+      "total_votes": 27906,
+      "two_party_total": 27880,
+      "margin": 4710,
+      "margin_pct": 16.89,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 16295,
+        "DEM": 11585,
+        "NON": 26
+      }
+    },
+    "COUNTY TREASURER": {
+      "county": "LANCASTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "R E Dick Rowell",
+      "rep_candidate": null,
+      "dem_votes": 22724,
+      "rep_votes": 0,
+      "other_votes": 59,
+      "total_votes": 22783,
+      "two_party_total": 22724,
+      "margin": 22724,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 22724,
+        "NON": 59
+      }
+    }
+  }
+}
