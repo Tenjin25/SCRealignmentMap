@@ -1,6 +1,6 @@
 {
-  "AIKEN": {
-    "PRESIDENT": {
+  "PRESIDENT": {
+    "AIKEN": {
       "county": "AIKEN",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -27,35 +27,7 @@
         "DEM": 50597
       }
     },
-    "U.S. SENATE": {
-      "county": "AIKEN",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 51552,
-      "rep_votes": 83644,
-      "other_votes": 2373,
-      "total_votes": 137569,
-      "two_party_total": 135196,
-      "margin": 32092,
-      "margin_pct": 23.74,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 2238,
-        "REP": 83644,
-        "DEM": 51552,
-        "NON": 135
-      }
-    }
-  },
-  "LAURENS": {
-    "PRESIDENT": {
+    "LAURENS": {
       "county": "LAURENS",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -82,35 +54,7 @@
         "DEM": 16535
       }
     },
-    "U.S. SENATE": {
-      "county": "LAURENS",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 17136,
-      "rep_votes": 34659,
-      "other_votes": 977,
-      "total_votes": 52772,
-      "two_party_total": 51795,
-      "margin": 17523,
-      "margin_pct": 33.83,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Republican",
-        "color": "#a50f15"
-      },
-      "all_parties": {
-        "CON": 907,
-        "REP": 34659,
-        "DEM": 17136,
-        "NON": 70
-      }
-    }
-  },
-  "YORK": {
-    "PRESIDENT": {
+    "YORK": {
       "county": "YORK",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -137,35 +81,7 @@
         "DEM": 95066
       }
     },
-    "U.S. SENATE": {
-      "county": "YORK",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 98118,
-      "rep_votes": 138665,
-      "other_votes": 4221,
-      "total_votes": 241004,
-      "two_party_total": 236783,
-      "margin": 40547,
-      "margin_pct": 17.12,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "CON": 4017,
-        "REP": 138665,
-        "DEM": 98118,
-        "NON": 204
-      }
-    }
-  },
-  "DORCHESTER": {
-    "PRESIDENT": {
+    "DORCHESTER": {
       "county": "DORCHESTER",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -192,35 +108,7 @@
         "DEM": 52511
       }
     },
-    "U.S. SENATE": {
-      "county": "DORCHESTER",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 53801,
-      "rep_votes": 65504,
-      "other_votes": 2501,
-      "total_votes": 121806,
-      "two_party_total": 119305,
-      "margin": 11703,
-      "margin_pct": 9.81,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Likely",
-        "party": "Republican",
-        "color": "#fb6a4a"
-      },
-      "all_parties": {
-        "CON": 2329,
-        "REP": 65504,
-        "DEM": 53801,
-        "NON": 172
-      }
-    }
-  },
-  "CHESTER": {
-    "PRESIDENT": {
+    "CHESTER": {
       "county": "CHESTER",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -247,35 +135,7 @@
         "DEM": 10264
       }
     },
-    "U.S. SENATE": {
-      "county": "CHESTER",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 10736,
-      "rep_votes": 13472,
-      "other_votes": 488,
-      "total_votes": 24696,
-      "two_party_total": 24208,
-      "margin": 2736,
-      "margin_pct": 11.3,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "CON": 475,
-        "REP": 13472,
-        "DEM": 10736,
-        "NON": 13
-      }
-    }
-  },
-  "WILLIAMSBURG": {
-    "PRESIDENT": {
+    "WILLIAMSBURG": {
       "county": "WILLIAMSBURG",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -302,35 +162,7 @@
         "DEM": 15176
       }
     },
-    "U.S. SENATE": {
-      "county": "WILLIAMSBURG",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 15520,
-      "rep_votes": 8825,
-      "other_votes": 196,
-      "total_votes": 24541,
-      "two_party_total": 24345,
-      "margin": 6695,
-      "margin_pct": 27.5,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "CON": 182,
-        "REP": 8825,
-        "DEM": 15520,
-        "NON": 14
-      }
-    }
-  },
-  "BEAUFORT": {
-    "PRESIDENT": {
+    "BEAUFORT": {
       "county": "BEAUFORT",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -357,35 +189,7 @@
         "DEM": 70602
       }
     },
-    "U.S. SENATE": {
-      "county": "BEAUFORT",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 70667,
-      "rep_votes": 90290,
-      "other_votes": 1627,
-      "total_votes": 162584,
-      "two_party_total": 160957,
-      "margin": 19623,
-      "margin_pct": 12.19,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "CON": 1520,
-        "REP": 90290,
-        "DEM": 70667,
-        "NON": 107
-      }
-    }
-  },
-  "GEORGETOWN": {
-    "PRESIDENT": {
+    "GEORGETOWN": {
       "county": "GEORGETOWN",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -412,35 +216,7 @@
         "DEM": 25253
       }
     },
-    "U.S. SENATE": {
-      "county": "GEORGETOWN",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 25318,
-      "rep_votes": 33419,
-      "other_votes": 633,
-      "total_votes": 59370,
-      "two_party_total": 58737,
-      "margin": 8101,
-      "margin_pct": 13.79,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "CON": 596,
-        "REP": 33419,
-        "DEM": 25318,
-        "NON": 37
-      }
-    }
-  },
-  "BAMBERG": {
-    "PRESIDENT": {
+    "BAMBERG": {
       "county": "BAMBERG",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -467,35 +243,7 @@
         "DEM": 6260
       }
     },
-    "U.S. SENATE": {
-      "county": "BAMBERG",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 6344,
-      "rep_votes": 3879,
-      "other_votes": 80,
-      "total_votes": 10303,
-      "two_party_total": 10223,
-      "margin": 2465,
-      "margin_pct": 24.11,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "CON": 77,
-        "REP": 3879,
-        "DEM": 6344,
-        "NON": 3
-      }
-    }
-  },
-  "FAIRFIELD": {
-    "PRESIDENT": {
+    "FAIRFIELD": {
       "county": "FAIRFIELD",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -522,35 +270,7 @@
         "DEM": 11350
       }
     },
-    "U.S. SENATE": {
-      "county": "FAIRFIELD",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 11478,
-      "rep_votes": 7589,
-      "other_votes": 201,
-      "total_votes": 19268,
-      "two_party_total": 19067,
-      "margin": 3889,
-      "margin_pct": 20.4,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "CON": 191,
-        "REP": 7589,
-        "DEM": 11478,
-        "NON": 10
-      }
-    }
-  },
-  "BERKELEY": {
-    "PRESIDENT": {
+    "BERKELEY": {
       "county": "BERKELEY",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -577,35 +297,7 @@
         "DEM": 72425
       }
     },
-    "U.S. SENATE": {
-      "county": "BERKELEY",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 74135,
-      "rep_votes": 94699,
-      "other_votes": 3346,
-      "total_votes": 172180,
-      "two_party_total": 168834,
-      "margin": 20564,
-      "margin_pct": 12.18,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "CON": 3178,
-        "REP": 94699,
-        "DEM": 74135,
-        "NON": 168
-      }
-    }
-  },
-  "FLORENCE": {
-    "PRESIDENT": {
+    "FLORENCE": {
       "county": "FLORENCE",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -632,35 +324,7 @@
         "DEM": 45669
       }
     },
-    "U.S. SENATE": {
-      "county": "FLORENCE",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 46562,
-      "rep_votes": 51876,
-      "other_votes": 1157,
-      "total_votes": 99595,
-      "two_party_total": 98438,
-      "margin": 5314,
-      "margin_pct": 5.4,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Lean",
-        "party": "Republican",
-        "color": "#fcae91"
-      },
-      "all_parties": {
-        "CON": 1097,
-        "REP": 51876,
-        "DEM": 46562,
-        "NON": 60
-      }
-    }
-  },
-  "KERSHAW": {
-    "PRESIDENT": {
+    "KERSHAW": {
       "county": "KERSHAW",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -687,35 +351,7 @@
         "DEM": 19094
       }
     },
-    "U.S. SENATE": {
-      "county": "KERSHAW",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 19400,
-      "rep_votes": 32645,
-      "other_votes": 1072,
-      "total_votes": 53117,
-      "two_party_total": 52045,
-      "margin": 13245,
-      "margin_pct": 25.45,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 994,
-        "REP": 32645,
-        "DEM": 19400,
-        "NON": 78
-      }
-    }
-  },
-  "ANDERSON": {
-    "PRESIDENT": {
+    "ANDERSON": {
       "county": "ANDERSON",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -742,35 +378,7 @@
         "DEM": 48143
       }
     },
-    "U.S. SENATE": {
-      "county": "ANDERSON",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 49976,
-      "rep_votes": 127137,
-      "other_votes": 2688,
-      "total_votes": 179801,
-      "two_party_total": 177113,
-      "margin": 77161,
-      "margin_pct": 43.57,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "CON": 2507,
-        "REP": 127137,
-        "DEM": 49976,
-        "NON": 181
-      }
-    }
-  },
-  "ALLENDALE": {
-    "PRESIDENT": {
+    "ALLENDALE": {
       "county": "ALLENDALE",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -797,35 +405,7 @@
         "DEM": 3848
       }
     },
-    "U.S. SENATE": {
-      "county": "ALLENDALE",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 3920,
-      "rep_votes": 1336,
-      "other_votes": 32,
-      "total_votes": 5288,
-      "two_party_total": 5256,
-      "margin": 2584,
-      "margin_pct": 49.16,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "CON": 30,
-        "REP": 1336,
-        "DEM": 3920,
-        "NON": 2
-      }
-    }
-  },
-  "PICKENS": {
-    "PRESIDENT": {
+    "PICKENS": {
       "county": "PICKENS",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -852,35 +432,7 @@
         "DEM": 21683
       }
     },
-    "U.S. SENATE": {
-      "county": "PICKENS",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 22491,
-      "rep_votes": 72141,
-      "other_votes": 1727,
-      "total_votes": 96359,
-      "two_party_total": 94632,
-      "margin": 49650,
-      "margin_pct": 52.47,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "CON": 1600,
-        "REP": 72141,
-        "DEM": 22491,
-        "NON": 127
-      }
-    }
-  },
-  "NEWBERRY": {
-    "PRESIDENT": {
+    "NEWBERRY": {
       "county": "NEWBERRY",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -907,35 +459,7 @@
         "DEM": 10813
       }
     },
-    "U.S. SENATE": {
-      "county": "NEWBERRY",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 11055,
-      "rep_votes": 18383,
-      "other_votes": 506,
-      "total_votes": 29944,
-      "two_party_total": 29438,
-      "margin": 7328,
-      "margin_pct": 24.89,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 476,
-        "REP": 18383,
-        "DEM": 11055,
-        "NON": 30
-      }
-    }
-  },
-  "DILLON": {
-    "PRESIDENT": {
+    "DILLON": {
       "county": "DILLON",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -962,35 +486,7 @@
         "DEM": 10691
       }
     },
-    "U.S. SENATE": {
-      "county": "DILLON",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 11086,
-      "rep_votes": 10946,
-      "other_votes": 236,
-      "total_votes": 22268,
-      "two_party_total": 22032,
-      "margin": 140,
-      "margin_pct": 0.64,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Tilt",
-        "party": "Democratic",
-        "color": "#e1f5fe"
-      },
-      "all_parties": {
-        "CON": 225,
-        "REP": 10946,
-        "DEM": 11086,
-        "NON": 11
-      }
-    }
-  },
-  "DARLINGTON": {
-    "PRESIDENT": {
+    "DARLINGTON": {
       "county": "DARLINGTON",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1017,35 +513,7 @@
         "DEM": 22391
       }
     },
-    "U.S. SENATE": {
-      "county": "DARLINGTON",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 22946,
-      "rep_votes": 26202,
-      "other_votes": 730,
-      "total_votes": 49878,
-      "two_party_total": 49148,
-      "margin": 3256,
-      "margin_pct": 6.62,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Likely",
-        "party": "Republican",
-        "color": "#fb6a4a"
-      },
-      "all_parties": {
-        "CON": 678,
-        "REP": 26202,
-        "DEM": 22946,
-        "NON": 52
-      }
-    }
-  },
-  "MCCORMICK": {
-    "PRESIDENT": {
+    "MCCORMICK": {
       "county": "MCCORMICK",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1072,35 +540,7 @@
         "DEM": 3922
       }
     },
-    "U.S. SENATE": {
-      "county": "MCCORMICK",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 4009,
-      "rep_votes": 4369,
-      "other_votes": 68,
-      "total_votes": 8446,
-      "two_party_total": 8378,
-      "margin": 360,
-      "margin_pct": 4.3,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Lean",
-        "party": "Republican",
-        "color": "#fcae91"
-      },
-      "all_parties": {
-        "CON": 61,
-        "REP": 4369,
-        "DEM": 4009,
-        "NON": 7
-      }
-    }
-  },
-  "GREENWOOD": {
-    "PRESIDENT": {
+    "GREENWOOD": {
       "county": "GREENWOOD",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1127,35 +567,7 @@
         "DEM": 19188
       }
     },
-    "U.S. SENATE": {
-      "county": "GREENWOOD",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 19802,
-      "rep_votes": 32237,
-      "other_votes": 911,
-      "total_votes": 52950,
-      "two_party_total": 52039,
-      "margin": 12435,
-      "margin_pct": 23.9,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 828,
-        "REP": 32237,
-        "DEM": 19802,
-        "NON": 83
-      }
-    }
-  },
-  "OCONEE": {
-    "PRESIDENT": {
+    "OCONEE": {
       "county": "OCONEE",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1182,35 +594,7 @@
         "DEM": 17140
       }
     },
-    "U.S. SENATE": {
-      "county": "OCONEE",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 17451,
-      "rep_votes": 49657,
-      "other_votes": 1189,
-      "total_votes": 68297,
-      "two_party_total": 67108,
-      "margin": 32206,
-      "margin_pct": 47.99,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "CON": 1126,
-        "REP": 49657,
-        "DEM": 17451,
-        "NON": 63
-      }
-    }
-  },
-  "GREENVILLE": {
-    "PRESIDENT": {
+    "GREENVILLE": {
       "county": "GREENVILLE",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1237,35 +621,7 @@
         "DEM": 179196
       }
     },
-    "U.S. SENATE": {
-      "county": "GREENVILLE",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 182847,
-      "rep_votes": 279396,
-      "other_votes": 6518,
-      "total_votes": 468761,
-      "two_party_total": 462243,
-      "margin": 96549,
-      "margin_pct": 20.89,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 5905,
-        "REP": 279396,
-        "DEM": 182847,
-        "NON": 613
-      }
-    }
-  },
-  "ABBEVILLE": {
-    "PRESIDENT": {
+    "ABBEVILLE": {
       "county": "ABBEVILLE",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1292,35 +648,7 @@
         "DEM": 6073
       }
     },
-    "U.S. SENATE": {
-      "county": "ABBEVILLE",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 6287,
-      "rep_votes": 12795,
-      "other_votes": 315,
-      "total_votes": 19397,
-      "two_party_total": 19082,
-      "margin": 6508,
-      "margin_pct": 34.11,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Republican",
-        "color": "#a50f15"
-      },
-      "all_parties": {
-        "CON": 296,
-        "REP": 12795,
-        "DEM": 6287,
-        "NON": 19
-      }
-    }
-  },
-  "CHEROKEE": {
-    "PRESIDENT": {
+    "CHEROKEE": {
       "county": "CHEROKEE",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1347,35 +675,7 @@
         "DEM": 10639
       }
     },
-    "U.S. SENATE": {
-      "county": "CHEROKEE",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 11120,
-      "rep_votes": 29270,
-      "other_votes": 876,
-      "total_votes": 41266,
-      "two_party_total": 40390,
-      "margin": 18150,
-      "margin_pct": 44.94,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "CON": 845,
-        "REP": 29270,
-        "DEM": 11120,
-        "NON": 31
-      }
-    }
-  },
-  "RICHLAND": {
-    "PRESIDENT": {
+    "RICHLAND": {
       "county": "RICHLAND",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1402,35 +702,7 @@
         "DEM": 198168
       }
     },
-    "U.S. SENATE": {
-      "county": "RICHLAND",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 199758,
-      "rep_votes": 94640,
-      "other_votes": 2777,
-      "total_votes": 297175,
-      "two_party_total": 294398,
-      "margin": 105118,
-      "margin_pct": 35.71,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Democratic",
-        "color": "#08519c"
-      },
-      "all_parties": {
-        "CON": 2525,
-        "REP": 94640,
-        "DEM": 199758,
-        "NON": 252
-      }
-    }
-  },
-  "MARLBORO": {
-    "PRESIDENT": {
+    "MARLBORO": {
       "county": "MARLBORO",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1457,35 +729,7 @@
         "DEM": 8740
       }
     },
-    "U.S. SENATE": {
-      "county": "MARLBORO",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 9056,
-      "rep_votes": 7221,
-      "other_votes": 294,
-      "total_votes": 16571,
-      "two_party_total": 16277,
-      "margin": 1835,
-      "margin_pct": 11.27,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "CON": 273,
-        "REP": 7221,
-        "DEM": 9056,
-        "NON": 21
-      }
-    }
-  },
-  "SPARTANBURG": {
-    "PRESIDENT": {
+    "SPARTANBURG": {
       "county": "SPARTANBURG",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1512,35 +756,7 @@
         "DEM": 85990
       }
     },
-    "U.S. SENATE": {
-      "county": "SPARTANBURG",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 88746,
-      "rep_votes": 160324,
-      "other_votes": 4667,
-      "total_votes": 253737,
-      "two_party_total": 249070,
-      "margin": 71578,
-      "margin_pct": 28.74,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 4315,
-        "REP": 160324,
-        "DEM": 88746,
-        "NON": 352
-      }
-    }
-  },
-  "SUMTER": {
-    "PRESIDENT": {
+    "SUMTER": {
       "county": "SUMTER",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1567,35 +783,7 @@
         "DEM": 40427
       }
     },
-    "U.S. SENATE": {
-      "county": "SUMTER",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 41050,
-      "rep_votes": 31694,
-      "other_votes": 1040,
-      "total_votes": 73784,
-      "two_party_total": 72744,
-      "margin": 9356,
-      "margin_pct": 12.86,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "CON": 983,
-        "REP": 31694,
-        "DEM": 41050,
-        "NON": 57
-      }
-    }
-  },
-  "HORRY": {
-    "PRESIDENT": {
+    "HORRY": {
       "county": "HORRY",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1622,35 +810,7 @@
         "DEM": 95666
       }
     },
-    "U.S. SENATE": {
-      "county": "HORRY",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 97873,
-      "rep_votes": 189270,
-      "other_votes": 4559,
-      "total_votes": 291702,
-      "two_party_total": 287143,
-      "margin": 91397,
-      "margin_pct": 31.83,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Republican",
-        "color": "#a50f15"
-      },
-      "all_parties": {
-        "CON": 4335,
-        "REP": 189270,
-        "DEM": 97873,
-        "NON": 224
-      }
-    }
-  },
-  "CHESTERFIELD": {
-    "PRESIDENT": {
+    "CHESTERFIELD": {
       "county": "CHESTERFIELD",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1677,35 +837,7 @@
         "DEM": 11375
       }
     },
-    "U.S. SENATE": {
-      "county": "CHESTERFIELD",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 11833,
-      "rep_votes": 17998,
-      "other_votes": 516,
-      "total_votes": 30347,
-      "two_party_total": 29831,
-      "margin": 6165,
-      "margin_pct": 20.67,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 492,
-        "REP": 17998,
-        "DEM": 11833,
-        "NON": 24
-      }
-    }
-  },
-  "ORANGEBURG": {
-    "PRESIDENT": {
+    "ORANGEBURG": {
       "county": "ORANGEBURG",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1732,35 +864,7 @@
         "DEM": 42273
       }
     },
-    "U.S. SENATE": {
-      "county": "ORANGEBURG",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 42972,
-      "rep_votes": 21608,
-      "other_votes": 563,
-      "total_votes": 65143,
-      "two_party_total": 64580,
-      "margin": 21364,
-      "margin_pct": 33.08,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Democratic",
-        "color": "#08519c"
-      },
-      "all_parties": {
-        "CON": 528,
-        "REP": 21608,
-        "DEM": 42972,
-        "NON": 35
-      }
-    }
-  },
-  "COLLETON": {
-    "PRESIDENT": {
+    "COLLETON": {
       "county": "COLLETON",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1787,35 +891,7 @@
         "DEM": 13235
       }
     },
-    "U.S. SENATE": {
-      "county": "COLLETON",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 13629,
-      "rep_votes": 16828,
-      "other_votes": 674,
-      "total_votes": 31131,
-      "two_party_total": 30457,
-      "margin": 3199,
-      "margin_pct": 10.5,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "CON": 633,
-        "REP": 16828,
-        "DEM": 13629,
-        "NON": 41
-      }
-    }
-  },
-  "LEXINGTON": {
-    "PRESIDENT": {
+    "LEXINGTON": {
       "county": "LEXINGTON",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1842,35 +918,7 @@
         "DEM": 84660
       }
     },
-    "U.S. SENATE": {
-      "county": "LEXINGTON",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 86468,
-      "rep_votes": 165594,
-      "other_votes": 4632,
-      "total_votes": 256694,
-      "two_party_total": 252062,
-      "margin": 79126,
-      "margin_pct": 31.39,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Republican",
-        "color": "#a50f15"
-      },
-      "all_parties": {
-        "CON": 4381,
-        "REP": 165594,
-        "DEM": 86468,
-        "NON": 251
-      }
-    }
-  },
-  "MARION": {
-    "PRESIDENT": {
+    "MARION": {
       "county": "MARION",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1897,35 +945,7 @@
         "DEM": 13618
       }
     },
-    "U.S. SENATE": {
-      "county": "MARION",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 13865,
-      "rep_votes": 8915,
-      "other_votes": 217,
-      "total_votes": 22997,
-      "two_party_total": 22780,
-      "margin": 4950,
-      "margin_pct": 21.73,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "CON": 198,
-        "REP": 8915,
-        "DEM": 13865,
-        "NON": 19
-      }
-    }
-  },
-  "LEE": {
-    "PRESIDENT": {
+    "LEE": {
       "county": "LEE",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -1952,35 +972,7 @@
         "DEM": 8005
       }
     },
-    "U.S. SENATE": {
-      "county": "LEE",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 8164,
-      "rep_votes": 4930,
-      "other_votes": 125,
-      "total_votes": 13219,
-      "two_party_total": 13094,
-      "margin": 3234,
-      "margin_pct": 24.7,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "CON": 119,
-        "REP": 4930,
-        "DEM": 8164,
-        "NON": 6
-      }
-    }
-  },
-  "UNION": {
-    "PRESIDENT": {
+    "UNION": {
       "county": "UNION",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2007,35 +999,7 @@
         "DEM": 7743
       }
     },
-    "U.S. SENATE": {
-      "county": "UNION",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 8027,
-      "rep_votes": 13024,
-      "other_votes": 466,
-      "total_votes": 21517,
-      "two_party_total": 21051,
-      "margin": 4997,
-      "margin_pct": 23.74,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 438,
-        "REP": 13024,
-        "DEM": 8027,
-        "NON": 28
-      }
-    }
-  },
-  "BARNWELL": {
-    "PRESIDENT": {
+    "BARNWELL": {
       "county": "BARNWELL",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2062,35 +1026,7 @@
         "DEM": 7183
       }
     },
-    "U.S. SENATE": {
-      "county": "BARNWELL",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 7340,
-      "rep_votes": 8501,
-      "other_votes": 230,
-      "total_votes": 16071,
-      "two_party_total": 15841,
-      "margin": 1161,
-      "margin_pct": 7.33,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Likely",
-        "party": "Republican",
-        "color": "#fb6a4a"
-      },
-      "all_parties": {
-        "CON": 214,
-        "REP": 8501,
-        "DEM": 7340,
-        "NON": 16
-      }
-    }
-  },
-  "SALUDA": {
-    "PRESIDENT": {
+    "SALUDA": {
       "county": "SALUDA",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2117,35 +1053,7 @@
         "DEM": 4641
       }
     },
-    "U.S. SENATE": {
-      "county": "SALUDA",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 4742,
-      "rep_votes": 10394,
-      "other_votes": 275,
-      "total_votes": 15411,
-      "two_party_total": 15136,
-      "margin": 5652,
-      "margin_pct": 37.34,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Republican",
-        "color": "#a50f15"
-      },
-      "all_parties": {
-        "CON": 263,
-        "REP": 10394,
-        "DEM": 4742,
-        "NON": 12
-      }
-    }
-  },
-  "HAMPTON": {
-    "PRESIDENT": {
+    "HAMPTON": {
       "county": "HAMPTON",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2172,35 +1080,7 @@
         "DEM": 8644
       }
     },
-    "U.S. SENATE": {
-      "county": "HAMPTON",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 8865,
-      "rep_votes": 6471,
-      "other_votes": 157,
-      "total_votes": 15493,
-      "two_party_total": 15336,
-      "margin": 2394,
-      "margin_pct": 15.61,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "CON": 149,
-        "REP": 6471,
-        "DEM": 8865,
-        "NON": 8
-      }
-    }
-  },
-  "CLARENDON": {
-    "PRESIDENT": {
+    "CLARENDON": {
       "county": "CLARENDON",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2227,35 +1107,7 @@
         "DEM": 12247
       }
     },
-    "U.S. SENATE": {
-      "county": "CLARENDON",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 12460,
-      "rep_votes": 13057,
-      "other_votes": 327,
-      "total_votes": 25844,
-      "two_party_total": 25517,
-      "margin": 597,
-      "margin_pct": 2.34,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Lean",
-        "party": "Republican",
-        "color": "#fcae91"
-      },
-      "all_parties": {
-        "CON": 289,
-        "REP": 13057,
-        "DEM": 12460,
-        "NON": 38
-      }
-    }
-  },
-  "LANCASTER": {
-    "PRESIDENT": {
+    "LANCASTER": {
       "county": "LANCASTER",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2282,35 +1134,7 @@
         "DEM": 29191
       }
     },
-    "U.S. SENATE": {
-      "county": "LANCASTER",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 30121,
-      "rep_votes": 47444,
-      "other_votes": 1283,
-      "total_votes": 78848,
-      "two_party_total": 77565,
-      "margin": 17323,
-      "margin_pct": 22.33,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 1218,
-        "REP": 47444,
-        "DEM": 30121,
-        "NON": 65
-      }
-    }
-  },
-  "CALHOUN": {
-    "PRESIDENT": {
+    "CALHOUN": {
       "county": "CALHOUN",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2337,35 +1161,7 @@
         "DEM": 5933
       }
     },
-    "U.S. SENATE": {
-      "county": "CALHOUN",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 6040,
-      "rep_votes": 7158,
-      "other_votes": 222,
-      "total_votes": 13420,
-      "two_party_total": 13198,
-      "margin": 1118,
-      "margin_pct": 8.47,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Likely",
-        "party": "Republican",
-        "color": "#fb6a4a"
-      },
-      "all_parties": {
-        "CON": 213,
-        "REP": 7158,
-        "DEM": 6040,
-        "NON": 9
-      }
-    }
-  },
-  "CHARLESTON": {
-    "PRESIDENT": {
+    "CHARLESTON": {
       "county": "CHARLESTON",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2392,35 +1188,7 @@
         "DEM": 186954
       }
     },
-    "U.S. SENATE": {
-      "county": "CHARLESTON",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 186854,
-      "rep_votes": 146409,
-      "other_votes": 3844,
-      "total_votes": 337107,
-      "two_party_total": 333263,
-      "margin": 40445,
-      "margin_pct": 12.14,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "CON": 3543,
-        "REP": 146409,
-        "DEM": 186854,
-        "NON": 301
-      }
-    }
-  },
-  "EDGEFIELD": {
-    "PRESIDENT": {
+    "EDGEFIELD": {
       "county": "EDGEFIELD",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2447,35 +1215,7 @@
         "DEM": 7678
       }
     },
-    "U.S. SENATE": {
-      "county": "EDGEFIELD",
-      "contest": "U.S. SENATE",
-      "year": "2020",
-      "dem_candidate": "Jaime Harrison",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 7935,
-      "rep_votes": 12811,
-      "other_votes": 386,
-      "total_votes": 21132,
-      "two_party_total": 20746,
-      "margin": 4876,
-      "margin_pct": 23.5,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "CON": 370,
-        "REP": 12811,
-        "DEM": 7935,
-        "NON": 16
-      }
-    }
-  },
-  "JASPER": {
-    "PRESIDENT": {
+    "JASPER": {
       "county": "JASPER",
       "contest": "PRESIDENT",
       "year": "2020",
@@ -2501,8 +1241,1180 @@
         "LIB": 163,
         "DEM": 11656
       }
+    }
+  },
+  "U.S. SENATE": {
+    "AIKEN": {
+      "county": "AIKEN",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 51552,
+      "rep_votes": 83644,
+      "other_votes": 2373,
+      "total_votes": 137569,
+      "two_party_total": 135196,
+      "margin": 32092,
+      "margin_pct": 23.74,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 2238,
+        "REP": 83644,
+        "DEM": 51552,
+        "NON": 135
+      }
     },
-    "U.S. SENATE": {
+    "LAURENS": {
+      "county": "LAURENS",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 17136,
+      "rep_votes": 34659,
+      "other_votes": 977,
+      "total_votes": 52772,
+      "two_party_total": 51795,
+      "margin": 17523,
+      "margin_pct": 33.83,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 907,
+        "REP": 34659,
+        "DEM": 17136,
+        "NON": 70
+      }
+    },
+    "YORK": {
+      "county": "YORK",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 98118,
+      "rep_votes": 138665,
+      "other_votes": 4221,
+      "total_votes": 241004,
+      "two_party_total": 236783,
+      "margin": 40547,
+      "margin_pct": 17.12,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 4017,
+        "REP": 138665,
+        "DEM": 98118,
+        "NON": 204
+      }
+    },
+    "DORCHESTER": {
+      "county": "DORCHESTER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 53801,
+      "rep_votes": 65504,
+      "other_votes": 2501,
+      "total_votes": 121806,
+      "two_party_total": 119305,
+      "margin": 11703,
+      "margin_pct": 9.81,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 2329,
+        "REP": 65504,
+        "DEM": 53801,
+        "NON": 172
+      }
+    },
+    "CHESTER": {
+      "county": "CHESTER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 10736,
+      "rep_votes": 13472,
+      "other_votes": 488,
+      "total_votes": 24696,
+      "two_party_total": 24208,
+      "margin": 2736,
+      "margin_pct": 11.3,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 475,
+        "REP": 13472,
+        "DEM": 10736,
+        "NON": 13
+      }
+    },
+    "WILLIAMSBURG": {
+      "county": "WILLIAMSBURG",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 15520,
+      "rep_votes": 8825,
+      "other_votes": 196,
+      "total_votes": 24541,
+      "two_party_total": 24345,
+      "margin": 6695,
+      "margin_pct": 27.5,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 182,
+        "REP": 8825,
+        "DEM": 15520,
+        "NON": 14
+      }
+    },
+    "BEAUFORT": {
+      "county": "BEAUFORT",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 70667,
+      "rep_votes": 90290,
+      "other_votes": 1627,
+      "total_votes": 162584,
+      "two_party_total": 160957,
+      "margin": 19623,
+      "margin_pct": 12.19,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 1520,
+        "REP": 90290,
+        "DEM": 70667,
+        "NON": 107
+      }
+    },
+    "GEORGETOWN": {
+      "county": "GEORGETOWN",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 25318,
+      "rep_votes": 33419,
+      "other_votes": 633,
+      "total_votes": 59370,
+      "two_party_total": 58737,
+      "margin": 8101,
+      "margin_pct": 13.79,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 596,
+        "REP": 33419,
+        "DEM": 25318,
+        "NON": 37
+      }
+    },
+    "BAMBERG": {
+      "county": "BAMBERG",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6344,
+      "rep_votes": 3879,
+      "other_votes": 80,
+      "total_votes": 10303,
+      "two_party_total": 10223,
+      "margin": 2465,
+      "margin_pct": 24.11,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 77,
+        "REP": 3879,
+        "DEM": 6344,
+        "NON": 3
+      }
+    },
+    "FAIRFIELD": {
+      "county": "FAIRFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11478,
+      "rep_votes": 7589,
+      "other_votes": 201,
+      "total_votes": 19268,
+      "two_party_total": 19067,
+      "margin": 3889,
+      "margin_pct": 20.4,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 191,
+        "REP": 7589,
+        "DEM": 11478,
+        "NON": 10
+      }
+    },
+    "BERKELEY": {
+      "county": "BERKELEY",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 74135,
+      "rep_votes": 94699,
+      "other_votes": 3346,
+      "total_votes": 172180,
+      "two_party_total": 168834,
+      "margin": 20564,
+      "margin_pct": 12.18,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 3178,
+        "REP": 94699,
+        "DEM": 74135,
+        "NON": 168
+      }
+    },
+    "FLORENCE": {
+      "county": "FLORENCE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 46562,
+      "rep_votes": 51876,
+      "other_votes": 1157,
+      "total_votes": 99595,
+      "two_party_total": 98438,
+      "margin": 5314,
+      "margin_pct": 5.4,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "CON": 1097,
+        "REP": 51876,
+        "DEM": 46562,
+        "NON": 60
+      }
+    },
+    "KERSHAW": {
+      "county": "KERSHAW",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 19400,
+      "rep_votes": 32645,
+      "other_votes": 1072,
+      "total_votes": 53117,
+      "two_party_total": 52045,
+      "margin": 13245,
+      "margin_pct": 25.45,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 994,
+        "REP": 32645,
+        "DEM": 19400,
+        "NON": 78
+      }
+    },
+    "ANDERSON": {
+      "county": "ANDERSON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 49976,
+      "rep_votes": 127137,
+      "other_votes": 2688,
+      "total_votes": 179801,
+      "two_party_total": 177113,
+      "margin": 77161,
+      "margin_pct": 43.57,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 2507,
+        "REP": 127137,
+        "DEM": 49976,
+        "NON": 181
+      }
+    },
+    "ALLENDALE": {
+      "county": "ALLENDALE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 3920,
+      "rep_votes": 1336,
+      "other_votes": 32,
+      "total_votes": 5288,
+      "two_party_total": 5256,
+      "margin": 2584,
+      "margin_pct": 49.16,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "CON": 30,
+        "REP": 1336,
+        "DEM": 3920,
+        "NON": 2
+      }
+    },
+    "PICKENS": {
+      "county": "PICKENS",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 22491,
+      "rep_votes": 72141,
+      "other_votes": 1727,
+      "total_votes": 96359,
+      "two_party_total": 94632,
+      "margin": 49650,
+      "margin_pct": 52.47,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 1600,
+        "REP": 72141,
+        "DEM": 22491,
+        "NON": 127
+      }
+    },
+    "NEWBERRY": {
+      "county": "NEWBERRY",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11055,
+      "rep_votes": 18383,
+      "other_votes": 506,
+      "total_votes": 29944,
+      "two_party_total": 29438,
+      "margin": 7328,
+      "margin_pct": 24.89,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 476,
+        "REP": 18383,
+        "DEM": 11055,
+        "NON": 30
+      }
+    },
+    "DILLON": {
+      "county": "DILLON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11086,
+      "rep_votes": 10946,
+      "other_votes": 236,
+      "total_votes": 22268,
+      "two_party_total": 22032,
+      "margin": 140,
+      "margin_pct": 0.64,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Tilt",
+        "party": "Democratic",
+        "color": "#e1f5fe"
+      },
+      "all_parties": {
+        "CON": 225,
+        "REP": 10946,
+        "DEM": 11086,
+        "NON": 11
+      }
+    },
+    "DARLINGTON": {
+      "county": "DARLINGTON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 22946,
+      "rep_votes": 26202,
+      "other_votes": 730,
+      "total_votes": 49878,
+      "two_party_total": 49148,
+      "margin": 3256,
+      "margin_pct": 6.62,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 678,
+        "REP": 26202,
+        "DEM": 22946,
+        "NON": 52
+      }
+    },
+    "MCCORMICK": {
+      "county": "MCCORMICK",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 4009,
+      "rep_votes": 4369,
+      "other_votes": 68,
+      "total_votes": 8446,
+      "two_party_total": 8378,
+      "margin": 360,
+      "margin_pct": 4.3,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "CON": 61,
+        "REP": 4369,
+        "DEM": 4009,
+        "NON": 7
+      }
+    },
+    "GREENWOOD": {
+      "county": "GREENWOOD",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 19802,
+      "rep_votes": 32237,
+      "other_votes": 911,
+      "total_votes": 52950,
+      "two_party_total": 52039,
+      "margin": 12435,
+      "margin_pct": 23.9,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 828,
+        "REP": 32237,
+        "DEM": 19802,
+        "NON": 83
+      }
+    },
+    "OCONEE": {
+      "county": "OCONEE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 17451,
+      "rep_votes": 49657,
+      "other_votes": 1189,
+      "total_votes": 68297,
+      "two_party_total": 67108,
+      "margin": 32206,
+      "margin_pct": 47.99,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 1126,
+        "REP": 49657,
+        "DEM": 17451,
+        "NON": 63
+      }
+    },
+    "GREENVILLE": {
+      "county": "GREENVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 182847,
+      "rep_votes": 279396,
+      "other_votes": 6518,
+      "total_votes": 468761,
+      "two_party_total": 462243,
+      "margin": 96549,
+      "margin_pct": 20.89,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 5905,
+        "REP": 279396,
+        "DEM": 182847,
+        "NON": 613
+      }
+    },
+    "ABBEVILLE": {
+      "county": "ABBEVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6287,
+      "rep_votes": 12795,
+      "other_votes": 315,
+      "total_votes": 19397,
+      "two_party_total": 19082,
+      "margin": 6508,
+      "margin_pct": 34.11,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 296,
+        "REP": 12795,
+        "DEM": 6287,
+        "NON": 19
+      }
+    },
+    "CHEROKEE": {
+      "county": "CHEROKEE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11120,
+      "rep_votes": 29270,
+      "other_votes": 876,
+      "total_votes": 41266,
+      "two_party_total": 40390,
+      "margin": 18150,
+      "margin_pct": 44.94,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "CON": 845,
+        "REP": 29270,
+        "DEM": 11120,
+        "NON": 31
+      }
+    },
+    "RICHLAND": {
+      "county": "RICHLAND",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 199758,
+      "rep_votes": 94640,
+      "other_votes": 2777,
+      "total_votes": 297175,
+      "two_party_total": 294398,
+      "margin": 105118,
+      "margin_pct": 35.71,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "CON": 2525,
+        "REP": 94640,
+        "DEM": 199758,
+        "NON": 252
+      }
+    },
+    "MARLBORO": {
+      "county": "MARLBORO",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 9056,
+      "rep_votes": 7221,
+      "other_votes": 294,
+      "total_votes": 16571,
+      "two_party_total": 16277,
+      "margin": 1835,
+      "margin_pct": 11.27,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 273,
+        "REP": 7221,
+        "DEM": 9056,
+        "NON": 21
+      }
+    },
+    "SPARTANBURG": {
+      "county": "SPARTANBURG",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 88746,
+      "rep_votes": 160324,
+      "other_votes": 4667,
+      "total_votes": 253737,
+      "two_party_total": 249070,
+      "margin": 71578,
+      "margin_pct": 28.74,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 4315,
+        "REP": 160324,
+        "DEM": 88746,
+        "NON": 352
+      }
+    },
+    "SUMTER": {
+      "county": "SUMTER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 41050,
+      "rep_votes": 31694,
+      "other_votes": 1040,
+      "total_votes": 73784,
+      "two_party_total": 72744,
+      "margin": 9356,
+      "margin_pct": 12.86,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 983,
+        "REP": 31694,
+        "DEM": 41050,
+        "NON": 57
+      }
+    },
+    "HORRY": {
+      "county": "HORRY",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 97873,
+      "rep_votes": 189270,
+      "other_votes": 4559,
+      "total_votes": 291702,
+      "two_party_total": 287143,
+      "margin": 91397,
+      "margin_pct": 31.83,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 4335,
+        "REP": 189270,
+        "DEM": 97873,
+        "NON": 224
+      }
+    },
+    "CHESTERFIELD": {
+      "county": "CHESTERFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11833,
+      "rep_votes": 17998,
+      "other_votes": 516,
+      "total_votes": 30347,
+      "two_party_total": 29831,
+      "margin": 6165,
+      "margin_pct": 20.67,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 492,
+        "REP": 17998,
+        "DEM": 11833,
+        "NON": 24
+      }
+    },
+    "ORANGEBURG": {
+      "county": "ORANGEBURG",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 42972,
+      "rep_votes": 21608,
+      "other_votes": 563,
+      "total_votes": 65143,
+      "two_party_total": 64580,
+      "margin": 21364,
+      "margin_pct": 33.08,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "CON": 528,
+        "REP": 21608,
+        "DEM": 42972,
+        "NON": 35
+      }
+    },
+    "COLLETON": {
+      "county": "COLLETON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 13629,
+      "rep_votes": 16828,
+      "other_votes": 674,
+      "total_votes": 31131,
+      "two_party_total": 30457,
+      "margin": 3199,
+      "margin_pct": 10.5,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "CON": 633,
+        "REP": 16828,
+        "DEM": 13629,
+        "NON": 41
+      }
+    },
+    "LEXINGTON": {
+      "county": "LEXINGTON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 86468,
+      "rep_votes": 165594,
+      "other_votes": 4632,
+      "total_votes": 256694,
+      "two_party_total": 252062,
+      "margin": 79126,
+      "margin_pct": 31.39,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 4381,
+        "REP": 165594,
+        "DEM": 86468,
+        "NON": 251
+      }
+    },
+    "MARION": {
+      "county": "MARION",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 13865,
+      "rep_votes": 8915,
+      "other_votes": 217,
+      "total_votes": 22997,
+      "two_party_total": 22780,
+      "margin": 4950,
+      "margin_pct": 21.73,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 198,
+        "REP": 8915,
+        "DEM": 13865,
+        "NON": 19
+      }
+    },
+    "LEE": {
+      "county": "LEE",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8164,
+      "rep_votes": 4930,
+      "other_votes": 125,
+      "total_votes": 13219,
+      "two_party_total": 13094,
+      "margin": 3234,
+      "margin_pct": 24.7,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "CON": 119,
+        "REP": 4930,
+        "DEM": 8164,
+        "NON": 6
+      }
+    },
+    "UNION": {
+      "county": "UNION",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8027,
+      "rep_votes": 13024,
+      "other_votes": 466,
+      "total_votes": 21517,
+      "two_party_total": 21051,
+      "margin": 4997,
+      "margin_pct": 23.74,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 438,
+        "REP": 13024,
+        "DEM": 8027,
+        "NON": 28
+      }
+    },
+    "BARNWELL": {
+      "county": "BARNWELL",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 7340,
+      "rep_votes": 8501,
+      "other_votes": 230,
+      "total_votes": 16071,
+      "two_party_total": 15841,
+      "margin": 1161,
+      "margin_pct": 7.33,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 214,
+        "REP": 8501,
+        "DEM": 7340,
+        "NON": 16
+      }
+    },
+    "SALUDA": {
+      "county": "SALUDA",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 4742,
+      "rep_votes": 10394,
+      "other_votes": 275,
+      "total_votes": 15411,
+      "two_party_total": 15136,
+      "margin": 5652,
+      "margin_pct": 37.34,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "CON": 263,
+        "REP": 10394,
+        "DEM": 4742,
+        "NON": 12
+      }
+    },
+    "HAMPTON": {
+      "county": "HAMPTON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8865,
+      "rep_votes": 6471,
+      "other_votes": 157,
+      "total_votes": 15493,
+      "two_party_total": 15336,
+      "margin": 2394,
+      "margin_pct": 15.61,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 149,
+        "REP": 6471,
+        "DEM": 8865,
+        "NON": 8
+      }
+    },
+    "CLARENDON": {
+      "county": "CLARENDON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 12460,
+      "rep_votes": 13057,
+      "other_votes": 327,
+      "total_votes": 25844,
+      "two_party_total": 25517,
+      "margin": 597,
+      "margin_pct": 2.34,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "CON": 289,
+        "REP": 13057,
+        "DEM": 12460,
+        "NON": 38
+      }
+    },
+    "LANCASTER": {
+      "county": "LANCASTER",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 30121,
+      "rep_votes": 47444,
+      "other_votes": 1283,
+      "total_votes": 78848,
+      "two_party_total": 77565,
+      "margin": 17323,
+      "margin_pct": 22.33,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 1218,
+        "REP": 47444,
+        "DEM": 30121,
+        "NON": 65
+      }
+    },
+    "CALHOUN": {
+      "county": "CALHOUN",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6040,
+      "rep_votes": 7158,
+      "other_votes": 222,
+      "total_votes": 13420,
+      "two_party_total": 13198,
+      "margin": 1118,
+      "margin_pct": 8.47,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Republican",
+        "color": "#fb6a4a"
+      },
+      "all_parties": {
+        "CON": 213,
+        "REP": 7158,
+        "DEM": 6040,
+        "NON": 9
+      }
+    },
+    "CHARLESTON": {
+      "county": "CHARLESTON",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 186854,
+      "rep_votes": 146409,
+      "other_votes": 3844,
+      "total_votes": 337107,
+      "two_party_total": 333263,
+      "margin": 40445,
+      "margin_pct": 12.14,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "CON": 3543,
+        "REP": 146409,
+        "DEM": 186854,
+        "NON": 301
+      }
+    },
+    "EDGEFIELD": {
+      "county": "EDGEFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2020",
+      "dem_candidate": "Jaime Harrison",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 7935,
+      "rep_votes": 12811,
+      "other_votes": 386,
+      "total_votes": 21132,
+      "two_party_total": 20746,
+      "margin": 4876,
+      "margin_pct": 23.5,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "CON": 370,
+        "REP": 12811,
+        "DEM": 7935,
+        "NON": 16
+      }
+    },
+    "JASPER": {
       "county": "JASPER",
       "contest": "U.S. SENATE",
       "year": "2020",

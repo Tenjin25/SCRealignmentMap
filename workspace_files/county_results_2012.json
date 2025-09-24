@@ -1,6 +1,6 @@
 {
-  "ABBEVILLE": {
-    "PRESIDENT": {
+  "PRESIDENT": {
+    "ABBEVILLE": {
       "county": "ABBEVILLE",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -26,10 +26,8 @@
         "CON": 52,
         "GRN": 24
       }
-    }
-  },
-  "AIKEN": {
-    "PRESIDENT": {
+    },
+    "AIKEN": {
       "county": "AIKEN",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -55,10 +53,8 @@
         "CON": 164,
         "GRN": 211
       }
-    }
-  },
-  "ALLENDALE": {
-    "PRESIDENT": {
+    },
+    "ALLENDALE": {
       "county": "ALLENDALE",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -84,10 +80,8 @@
         "CON": 10,
         "GRN": 9
       }
-    }
-  },
-  "ANDERSON": {
-    "PRESIDENT": {
+    },
+    "ANDERSON": {
       "county": "ANDERSON",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -114,33 +108,7 @@
         "GRN": 174
       }
     },
-    "COUNTY TREASURER": {
-      "county": "ANDERSON",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Jason P Phillips",
-      "dem_votes": 0,
-      "rep_votes": 56935,
-      "other_votes": 218,
-      "total_votes": 57153,
-      "two_party_total": 56935,
-      "margin": 56935,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 56935,
-        "NON": 218
-      }
-    }
-  },
-  "BAMBERG": {
-    "PRESIDENT": {
+    "BAMBERG": {
       "county": "BAMBERG",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -166,10 +134,8 @@
         "CON": 17,
         "GRN": 13
       }
-    }
-  },
-  "BARNWELL": {
-    "PRESIDENT": {
+    },
+    "BARNWELL": {
       "county": "BARNWELL",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -195,10 +161,8 @@
         "CON": 13,
         "GRN": 20
       }
-    }
-  },
-  "BEAUFORT": {
-    "PRESIDENT": {
+    },
+    "BEAUFORT": {
       "county": "BEAUFORT",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -224,10 +188,8 @@
         "CON": 90,
         "GRN": 169
       }
-    }
-  },
-  "BERKELEY": {
-    "PRESIDENT": {
+    },
+    "BERKELEY": {
       "county": "BERKELEY",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -254,33 +216,7 @@
         "GRN": 219
       }
     },
-    "COUNTY TREASURER": {
-      "county": "BERKELEY",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Carolyn M Umphlett",
-      "dem_votes": 0,
-      "rep_votes": 49731,
-      "other_votes": 293,
-      "total_votes": 50024,
-      "two_party_total": 49731,
-      "margin": 49731,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 49731,
-        "NON": 293
-      }
-    }
-  },
-  "CALHOUN": {
-    "PRESIDENT": {
+    "CALHOUN": {
       "county": "CALHOUN",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -307,33 +243,7 @@
         "GRN": 20
       }
     },
-    "COUNTY TREASURER": {
-      "county": "CALHOUN",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Rebecca C Furtick",
-      "rep_candidate": null,
-      "dem_votes": 6795,
-      "rep_votes": 0,
-      "other_votes": 81,
-      "total_votes": 6876,
-      "two_party_total": 6795,
-      "margin": 6795,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 6795,
-        "NON": 81
-      }
-    }
-  },
-  "CHARLESTON": {
-    "PRESIDENT": {
+    "CHARLESTON": {
       "county": "CHARLESTON",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -360,33 +270,7 @@
         "GRN": 510
       }
     },
-    "COUNTY TREASURER": {
-      "county": "CHARLESTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Andrew C Smith",
-      "dem_votes": 0,
-      "rep_votes": 99572,
-      "other_votes": 604,
-      "total_votes": 100176,
-      "two_party_total": 99572,
-      "margin": 99572,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 99572,
-        "NON": 604
-      }
-    }
-  },
-  "CHEROKEE": {
-    "PRESIDENT": {
+    "CHEROKEE": {
       "county": "CHEROKEE",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -412,10 +296,8 @@
         "CON": 68,
         "GRN": 43
       }
-    }
-  },
-  "CHESTERFIELD": {
-    "PRESIDENT": {
+    },
+    "CHESTERFIELD": {
       "county": "CHESTERFIELD",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -442,33 +324,7 @@
         "GRN": 47
       }
     },
-    "COUNTY TREASURER": {
-      "county": "CHESTERFIELD",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Kathy B Sheeler",
-      "rep_candidate": null,
-      "dem_votes": 13473,
-      "rep_votes": 0,
-      "other_votes": 37,
-      "total_votes": 13510,
-      "two_party_total": 13473,
-      "margin": 13473,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 13473,
-        "NON": 37
-      }
-    }
-  },
-  "CHESTER": {
-    "PRESIDENT": {
+    "CHESTER": {
       "county": "CHESTER",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -495,33 +351,7 @@
         "GRN": 34
       }
     },
-    "COUNTY TREASURER": {
-      "county": "CHESTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Thomas E Darby",
-      "rep_candidate": null,
-      "dem_votes": 12601,
-      "rep_votes": 0,
-      "other_votes": 39,
-      "total_votes": 12640,
-      "two_party_total": 12601,
-      "margin": 12601,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 12601,
-        "NON": 39
-      }
-    }
-  },
-  "CLARENDON": {
-    "PRESIDENT": {
+    "CLARENDON": {
       "county": "CLARENDON",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -547,10 +377,8 @@
         "CON": 39,
         "GRN": 34
       }
-    }
-  },
-  "COLLETON": {
-    "PRESIDENT": {
+    },
+    "COLLETON": {
       "county": "COLLETON",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -576,10 +404,8 @@
         "CON": 33,
         "GRN": 51
       }
-    }
-  },
-  "DARLINGTON": {
-    "PRESIDENT": {
+    },
+    "DARLINGTON": {
       "county": "DARLINGTON",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -606,33 +432,7 @@
         "GRN": 72
       }
     },
-    "COUNTY TREASURER": {
-      "county": "DARLINGTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Belinda D Copeland",
-      "rep_candidate": null,
-      "dem_votes": 23626,
-      "rep_votes": 0,
-      "other_votes": 50,
-      "total_votes": 23676,
-      "two_party_total": 23626,
-      "margin": 23626,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 23626,
-        "NON": 50
-      }
-    }
-  },
-  "DILLON": {
-    "PRESIDENT": {
+    "DILLON": {
       "county": "DILLON",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -658,10 +458,8 @@
         "CON": 30,
         "GRN": 32
       }
-    }
-  },
-  "DORCHESTER": {
-    "PRESIDENT": {
+    },
+    "DORCHESTER": {
       "county": "DORCHESTER",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -688,33 +486,7 @@
         "GRN": 195
       }
     },
-    "COUNTY TREASURER": {
-      "county": "DORCHESTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Mary Pearson",
-      "dem_votes": 0,
-      "rep_votes": 40505,
-      "other_votes": 161,
-      "total_votes": 40666,
-      "two_party_total": 40505,
-      "margin": 40505,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 40505,
-        "NON": 161
-      }
-    }
-  },
-  "EDGEFIELD": {
-    "PRESIDENT": {
+    "EDGEFIELD": {
       "county": "EDGEFIELD",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -740,10 +512,8 @@
         "CON": 22,
         "GRN": 21
       }
-    }
-  },
-  "FAIRFIELD": {
-    "PRESIDENT": {
+    },
+    "FAIRFIELD": {
       "county": "FAIRFIELD",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -769,10 +539,8 @@
         "CON": 25,
         "GRN": 27
       }
-    }
-  },
-  "FLORENCE": {
-    "PRESIDENT": {
+    },
+    "FLORENCE": {
       "county": "FLORENCE",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -799,33 +567,7 @@
         "GRN": 124
       }
     },
-    "COUNTY TREASURER": {
-      "county": "FLORENCE",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Dean Fowler Jr",
-      "dem_votes": 0,
-      "rep_votes": 39227,
-      "other_votes": 269,
-      "total_votes": 39496,
-      "two_party_total": 39227,
-      "margin": 39227,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 39227,
-        "NON": 269
-      }
-    }
-  },
-  "GEORGETOWN": {
-    "PRESIDENT": {
+    "GEORGETOWN": {
       "county": "GEORGETOWN",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -852,33 +594,7 @@
         "GRN": 49
       }
     },
-    "COUNTY TREASURER": {
-      "county": "GEORGETOWN",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Loretta D Washington-Cooper",
-      "rep_candidate": null,
-      "dem_votes": 24116,
-      "rep_votes": 0,
-      "other_votes": 177,
-      "total_votes": 24293,
-      "two_party_total": 24116,
-      "margin": 24116,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 24116,
-        "NON": 177
-      }
-    }
-  },
-  "GREENVILLE": {
-    "PRESIDENT": {
+    "GREENVILLE": {
       "county": "GREENVILLE",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -904,10 +620,8 @@
         "CON": 641,
         "GRN": 511
       }
-    }
-  },
-  "GREENWOOD": {
-    "PRESIDENT": {
+    },
+    "GREENWOOD": {
       "county": "GREENWOOD",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -933,10 +647,8 @@
         "CON": 71,
         "GRN": 74
       }
-    }
-  },
-  "HAMPTON": {
-    "PRESIDENT": {
+    },
+    "HAMPTON": {
       "county": "HAMPTON",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -963,33 +675,7 @@
         "GRN": 11
       }
     },
-    "COUNTY TREASURER": {
-      "county": "HAMPTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Wilson P Tuten Jr",
-      "rep_candidate": null,
-      "dem_votes": 8239,
-      "rep_votes": 0,
-      "other_votes": 11,
-      "total_votes": 8250,
-      "two_party_total": 8239,
-      "margin": 8239,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 8239,
-        "NON": 11
-      }
-    }
-  },
-  "HORRY": {
-    "PRESIDENT": {
+    "HORRY": {
       "county": "HORRY",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1016,33 +702,7 @@
         "GRN": 296
       }
     },
-    "COUNTY TREASURER": {
-      "county": "HORRY",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Roddy Dickinson",
-      "dem_votes": 0,
-      "rep_votes": 86008,
-      "other_votes": 273,
-      "total_votes": 86281,
-      "two_party_total": 86008,
-      "margin": 86008,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 86008,
-        "NON": 273
-      }
-    }
-  },
-  "JASPER": {
-    "PRESIDENT": {
+    "JASPER": {
       "county": "JASPER",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1068,10 +728,8 @@
         "CON": 27,
         "GRN": 25
       }
-    }
-  },
-  "KERSHAW": {
-    "PRESIDENT": {
+    },
+    "KERSHAW": {
       "county": "KERSHAW",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1097,10 +755,8 @@
         "CON": 62,
         "GRN": 87
       }
-    }
-  },
-  "LANCASTER": {
-    "PRESIDENT": {
+    },
+    "LANCASTER": {
       "county": "LANCASTER",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1127,33 +783,7 @@
         "GRN": 78
       }
     },
-    "COUNTY TREASURER": {
-      "county": "LANCASTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Carrie Williams Helms",
-      "dem_votes": 0,
-      "rep_votes": 24250,
-      "other_votes": 140,
-      "total_votes": 24390,
-      "two_party_total": 24250,
-      "margin": 24250,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 24250,
-        "NON": 140
-      }
-    }
-  },
-  "LAURENS": {
-    "PRESIDENT": {
+    "LAURENS": {
       "county": "LAURENS",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1179,10 +809,8 @@
         "CON": 99,
         "GRN": 75
       }
-    }
-  },
-  "LEE": {
-    "PRESIDENT": {
+    },
+    "LEE": {
       "county": "LEE",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1208,10 +836,8 @@
         "CON": 28,
         "GRN": 28
       }
-    }
-  },
-  "LEXINGTON": {
-    "PRESIDENT": {
+    },
+    "LEXINGTON": {
       "county": "LEXINGTON",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1238,33 +864,7 @@
         "GRN": 368
       }
     },
-    "COUNTY TREASURER": {
-      "county": "LEXINGTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Jim Eckstrom",
-      "dem_votes": 0,
-      "rep_votes": 87142,
-      "other_votes": 523,
-      "total_votes": 87665,
-      "two_party_total": 87142,
-      "margin": 87142,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 87142,
-        "NON": 523
-      }
-    }
-  },
-  "MARION": {
-    "PRESIDENT": {
+    "MARION": {
       "county": "MARION",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1290,10 +890,8 @@
         "CON": 55,
         "GRN": 44
       }
-    }
-  },
-  "MARLBORO": {
-    "PRESIDENT": {
+    },
+    "MARLBORO": {
       "county": "MARLBORO",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1320,33 +918,7 @@
         "GRN": 9
       }
     },
-    "COUNTY TREASURER": {
-      "county": "MARLBORO",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Delorice B Barrington",
-      "rep_candidate": null,
-      "dem_votes": 9069,
-      "rep_votes": 0,
-      "other_votes": 15,
-      "total_votes": 9084,
-      "two_party_total": 9069,
-      "margin": 9069,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 9069,
-        "NON": 15
-      }
-    }
-  },
-  "MCCORMICK": {
-    "PRESIDENT": {
+    "MCCORMICK": {
       "county": "MCCORMICK",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1372,10 +944,8 @@
         "CON": 7,
         "GRN": 12
       }
-    }
-  },
-  "NEWBERRY": {
-    "PRESIDENT": {
+    },
+    "NEWBERRY": {
       "county": "NEWBERRY",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1402,34 +972,7 @@
         "GRN": 59
       }
     },
-    "COUNTY TREASURER": {
-      "county": "NEWBERRY",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Karen D Lindler",
-      "rep_candidate": "Jackie W Haltiwanger",
-      "dem_votes": 9118,
-      "rep_votes": 6880,
-      "other_votes": 6,
-      "total_votes": 16004,
-      "two_party_total": 15998,
-      "margin": 2238,
-      "margin_pct": 13.99,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "REP": 6880,
-        "DEM": 9118,
-        "NON": 6
-      }
-    }
-  },
-  "OCONEE": {
-    "PRESIDENT": {
+    "OCONEE": {
       "county": "OCONEE",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1456,33 +999,7 @@
         "GRN": 115
       }
     },
-    "COUNTY TREASURER": {
-      "county": "OCONEE",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Gregorie W Nowell",
-      "dem_votes": 0,
-      "rep_votes": 25810,
-      "other_votes": 96,
-      "total_votes": 25906,
-      "two_party_total": 25810,
-      "margin": 25810,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 25810,
-        "NON": 96
-      }
-    }
-  },
-  "ORANGEBURG": {
-    "PRESIDENT": {
+    "ORANGEBURG": {
       "county": "ORANGEBURG",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1508,10 +1025,8 @@
         "CON": 86,
         "GRN": 70
       }
-    }
-  },
-  "PICKENS": {
-    "PRESIDENT": {
+    },
+    "PICKENS": {
       "county": "PICKENS",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1538,33 +1053,7 @@
         "GRN": 165
       }
     },
-    "COUNTY TREASURER": {
-      "county": "PICKENS",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": null,
-      "rep_candidate": "Dale M Looper",
-      "dem_votes": 0,
-      "rep_votes": 38986,
-      "other_votes": 151,
-      "total_votes": 39137,
-      "two_party_total": 38986,
-      "margin": 38986,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 38986,
-        "NON": 151
-      }
-    }
-  },
-  "RICHLAND": {
-    "PRESIDENT": {
+    "RICHLAND": {
       "county": "RICHLAND",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1590,10 +1079,8 @@
         "CON": 474,
         "GRN": 585
       }
-    }
-  },
-  "SALUDA": {
-    "PRESIDENT": {
+    },
+    "SALUDA": {
       "county": "SALUDA",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1619,10 +1106,8 @@
         "CON": 16,
         "GRN": 27
       }
-    }
-  },
-  "SPARTANBURG": {
-    "PRESIDENT": {
+    },
+    "SPARTANBURG": {
       "county": "SPARTANBURG",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1648,10 +1133,8 @@
         "CON": 303,
         "GRN": 258
       }
-    }
-  },
-  "SUMTER": {
-    "PRESIDENT": {
+    },
+    "SUMTER": {
       "county": "SUMTER",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1678,33 +1161,7 @@
         "GRN": 114
       }
     },
-    "COUNTY TREASURER": {
-      "county": "SUMTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2012",
-      "dem_candidate": "Carolina B Richardson",
-      "rep_candidate": null,
-      "dem_votes": 38517,
-      "rep_votes": 0,
-      "other_votes": 175,
-      "total_votes": 38692,
-      "two_party_total": 38517,
-      "margin": 38517,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 38517,
-        "NON": 175
-      }
-    }
-  },
-  "UNION": {
-    "PRESIDENT": {
+    "UNION": {
       "county": "UNION",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1730,10 +1187,8 @@
         "CON": 42,
         "GRN": 48
       }
-    }
-  },
-  "WILLIAMSBURG": {
-    "PRESIDENT": {
+    },
+    "WILLIAMSBURG": {
       "county": "WILLIAMSBURG",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1759,10 +1214,8 @@
         "CON": 38,
         "GRN": 66
       }
-    }
-  },
-  "YORK": {
-    "PRESIDENT": {
+    },
+    "YORK": {
       "county": "YORK",
       "contest": "PRESIDENT",
       "year": "2012",
@@ -1787,6 +1240,465 @@
         "DEM": 39131,
         "CON": 180,
         "GRN": 223
+      }
+    }
+  },
+  "COUNTY TREASURER": {
+    "ANDERSON": {
+      "county": "ANDERSON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Jason P Phillips",
+      "dem_votes": 0,
+      "rep_votes": 56935,
+      "other_votes": 218,
+      "total_votes": 57153,
+      "two_party_total": 56935,
+      "margin": 56935,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 56935,
+        "NON": 218
+      }
+    },
+    "BERKELEY": {
+      "county": "BERKELEY",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Carolyn M Umphlett",
+      "dem_votes": 0,
+      "rep_votes": 49731,
+      "other_votes": 293,
+      "total_votes": 50024,
+      "two_party_total": 49731,
+      "margin": 49731,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 49731,
+        "NON": 293
+      }
+    },
+    "CALHOUN": {
+      "county": "CALHOUN",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Rebecca C Furtick",
+      "rep_candidate": null,
+      "dem_votes": 6795,
+      "rep_votes": 0,
+      "other_votes": 81,
+      "total_votes": 6876,
+      "two_party_total": 6795,
+      "margin": 6795,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 6795,
+        "NON": 81
+      }
+    },
+    "CHARLESTON": {
+      "county": "CHARLESTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Andrew C Smith",
+      "dem_votes": 0,
+      "rep_votes": 99572,
+      "other_votes": 604,
+      "total_votes": 100176,
+      "two_party_total": 99572,
+      "margin": 99572,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 99572,
+        "NON": 604
+      }
+    },
+    "CHESTERFIELD": {
+      "county": "CHESTERFIELD",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Kathy B Sheeler",
+      "rep_candidate": null,
+      "dem_votes": 13473,
+      "rep_votes": 0,
+      "other_votes": 37,
+      "total_votes": 13510,
+      "two_party_total": 13473,
+      "margin": 13473,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 13473,
+        "NON": 37
+      }
+    },
+    "CHESTER": {
+      "county": "CHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Thomas E Darby",
+      "rep_candidate": null,
+      "dem_votes": 12601,
+      "rep_votes": 0,
+      "other_votes": 39,
+      "total_votes": 12640,
+      "two_party_total": 12601,
+      "margin": 12601,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 12601,
+        "NON": 39
+      }
+    },
+    "DARLINGTON": {
+      "county": "DARLINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Belinda D Copeland",
+      "rep_candidate": null,
+      "dem_votes": 23626,
+      "rep_votes": 0,
+      "other_votes": 50,
+      "total_votes": 23676,
+      "two_party_total": 23626,
+      "margin": 23626,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 23626,
+        "NON": 50
+      }
+    },
+    "DORCHESTER": {
+      "county": "DORCHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Mary Pearson",
+      "dem_votes": 0,
+      "rep_votes": 40505,
+      "other_votes": 161,
+      "total_votes": 40666,
+      "two_party_total": 40505,
+      "margin": 40505,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 40505,
+        "NON": 161
+      }
+    },
+    "FLORENCE": {
+      "county": "FLORENCE",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Dean Fowler Jr",
+      "dem_votes": 0,
+      "rep_votes": 39227,
+      "other_votes": 269,
+      "total_votes": 39496,
+      "two_party_total": 39227,
+      "margin": 39227,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 39227,
+        "NON": 269
+      }
+    },
+    "GEORGETOWN": {
+      "county": "GEORGETOWN",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Loretta D Washington-Cooper",
+      "rep_candidate": null,
+      "dem_votes": 24116,
+      "rep_votes": 0,
+      "other_votes": 177,
+      "total_votes": 24293,
+      "two_party_total": 24116,
+      "margin": 24116,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 24116,
+        "NON": 177
+      }
+    },
+    "HAMPTON": {
+      "county": "HAMPTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Wilson P Tuten Jr",
+      "rep_candidate": null,
+      "dem_votes": 8239,
+      "rep_votes": 0,
+      "other_votes": 11,
+      "total_votes": 8250,
+      "two_party_total": 8239,
+      "margin": 8239,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 8239,
+        "NON": 11
+      }
+    },
+    "HORRY": {
+      "county": "HORRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Roddy Dickinson",
+      "dem_votes": 0,
+      "rep_votes": 86008,
+      "other_votes": 273,
+      "total_votes": 86281,
+      "two_party_total": 86008,
+      "margin": 86008,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 86008,
+        "NON": 273
+      }
+    },
+    "LANCASTER": {
+      "county": "LANCASTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Carrie Williams Helms",
+      "dem_votes": 0,
+      "rep_votes": 24250,
+      "other_votes": 140,
+      "total_votes": 24390,
+      "two_party_total": 24250,
+      "margin": 24250,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 24250,
+        "NON": 140
+      }
+    },
+    "LEXINGTON": {
+      "county": "LEXINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Jim Eckstrom",
+      "dem_votes": 0,
+      "rep_votes": 87142,
+      "other_votes": 523,
+      "total_votes": 87665,
+      "two_party_total": 87142,
+      "margin": 87142,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 87142,
+        "NON": 523
+      }
+    },
+    "MARLBORO": {
+      "county": "MARLBORO",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Delorice B Barrington",
+      "rep_candidate": null,
+      "dem_votes": 9069,
+      "rep_votes": 0,
+      "other_votes": 15,
+      "total_votes": 9084,
+      "two_party_total": 9069,
+      "margin": 9069,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 9069,
+        "NON": 15
+      }
+    },
+    "NEWBERRY": {
+      "county": "NEWBERRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Karen D Lindler",
+      "rep_candidate": "Jackie W Haltiwanger",
+      "dem_votes": 9118,
+      "rep_votes": 6880,
+      "other_votes": 6,
+      "total_votes": 16004,
+      "two_party_total": 15998,
+      "margin": 2238,
+      "margin_pct": 13.99,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 6880,
+        "DEM": 9118,
+        "NON": 6
+      }
+    },
+    "OCONEE": {
+      "county": "OCONEE",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Gregorie W Nowell",
+      "dem_votes": 0,
+      "rep_votes": 25810,
+      "other_votes": 96,
+      "total_votes": 25906,
+      "two_party_total": 25810,
+      "margin": 25810,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 25810,
+        "NON": 96
+      }
+    },
+    "PICKENS": {
+      "county": "PICKENS",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": null,
+      "rep_candidate": "Dale M Looper",
+      "dem_votes": 0,
+      "rep_votes": 38986,
+      "other_votes": 151,
+      "total_votes": 39137,
+      "two_party_total": 38986,
+      "margin": 38986,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 38986,
+        "NON": 151
+      }
+    },
+    "SUMTER": {
+      "county": "SUMTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2012",
+      "dem_candidate": "Carolina B Richardson",
+      "rep_candidate": null,
+      "dem_votes": 38517,
+      "rep_votes": 0,
+      "other_votes": 175,
+      "total_votes": 38692,
+      "two_party_total": 38517,
+      "margin": 38517,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 38517,
+        "NON": 175
       }
     }
   }

@@ -1,6 +1,6 @@
 {
-  "ABBEVILLE": {
-    "PRESIDENT": {
+  "PRESIDENT": {
+    "ABBEVILLE": {
       "county": "ABBEVILLE",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -28,34 +28,7 @@
         "CON": 55
       }
     },
-    "U.S. SENATE": {
-      "county": "ABBEVILLE",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 4558,
-      "rep_votes": 6226,
-      "other_votes": 7,
-      "total_votes": 10791,
-      "two_party_total": 10784,
-      "margin": 1668,
-      "margin_pct": 15.47,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "REP": 6226,
-        "DEM": 4558,
-        "NON": 7
-      }
-    }
-  },
-  "AIKEN": {
-    "PRESIDENT": {
+    "AIKEN": {
       "county": "AIKEN",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -79,10 +52,8 @@
         "REP": 42849,
         "LIB": 158
       }
-    }
-  },
-  "LAURENS": {
-    "PRESIDENT": {
+    },
+    "LAURENS": {
       "county": "LAURENS",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -110,34 +81,7 @@
         "REP": 15334
       }
     },
-    "U.S. SENATE": {
-      "county": "LAURENS",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 10377,
-      "rep_votes": 15448,
-      "other_votes": 48,
-      "total_votes": 25873,
-      "two_party_total": 25825,
-      "margin": 5071,
-      "margin_pct": 19.64,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "REP": 15448,
-        "DEM": 10377,
-        "NON": 48
-      }
-    }
-  },
-  "LEE": {
-    "PRESIDENT": {
+    "LEE": {
       "county": "LEE",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -165,34 +109,7 @@
         "CON": 35
       }
     },
-    "U.S. SENATE": {
-      "county": "LEE",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 5489,
-      "rep_votes": 3418,
-      "other_votes": 5,
-      "total_votes": 8912,
-      "two_party_total": 8907,
-      "margin": 2071,
-      "margin_pct": 23.25,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "REP": 3418,
-        "DEM": 5489,
-        "NON": 5
-      }
-    }
-  },
-  "LEXINGTON": {
-    "PRESIDENT": {
+    "LEXINGTON": {
       "county": "LEXINGTON",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -220,58 +137,7 @@
         "CON": 304
       }
     },
-    "U.S. SENATE": {
-      "county": "LEXINGTON",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 29255,
-      "rep_votes": 78255,
-      "other_votes": 135,
-      "total_votes": 107645,
-      "two_party_total": 107510,
-      "margin": 49000,
-      "margin_pct": 45.58,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 78255,
-        "DEM": 29255,
-        "NON": 135
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "LEXINGTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": null,
-      "rep_candidate": "Jim Eckstrom",
-      "dem_votes": 0,
-      "rep_votes": 88157,
-      "other_votes": 207,
-      "total_votes": 88364,
-      "two_party_total": 88157,
-      "margin": 88157,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 88157,
-        "NON": 207
-      }
-    }
-  },
-  "MARION": {
-    "PRESIDENT": {
+    "MARION": {
       "county": "MARION",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -299,34 +165,7 @@
         "CON": 29
       }
     },
-    "U.S. SENATE": {
-      "county": "MARION",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 8599,
-      "rep_votes": 5951,
-      "other_votes": 7,
-      "total_votes": 14557,
-      "two_party_total": 14550,
-      "margin": 2648,
-      "margin_pct": 18.2,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "REP": 5951,
-        "DEM": 8599,
-        "NON": 7
-      }
-    }
-  },
-  "MARLBORO": {
-    "PRESIDENT": {
+    "MARLBORO": {
       "county": "MARLBORO",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -354,58 +193,7 @@
         "CON": 20
       }
     },
-    "U.S. SENATE": {
-      "county": "MARLBORO",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 6306,
-      "rep_votes": 4256,
-      "other_votes": 9,
-      "total_votes": 10571,
-      "two_party_total": 10562,
-      "margin": 2050,
-      "margin_pct": 19.41,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "REP": 4256,
-        "DEM": 6306,
-        "NON": 9
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "MARLBORO",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": "Delorice B Barrington",
-      "rep_candidate": null,
-      "dem_votes": 10036,
-      "rep_votes": 0,
-      "other_votes": 15,
-      "total_votes": 10051,
-      "two_party_total": 10036,
-      "margin": 10036,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 10036,
-        "NON": 15
-      }
-    }
-  },
-  "MCCORMICK": {
-    "PRESIDENT": {
+    "MCCORMICK": {
       "county": "MCCORMICK",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -433,34 +221,7 @@
         "CON": 8
       }
     },
-    "U.S. SENATE": {
-      "county": "MCCORMICK",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 2592,
-      "rep_votes": 2521,
-      "other_votes": 5,
-      "total_votes": 5118,
-      "two_party_total": 5113,
-      "margin": 71,
-      "margin_pct": 1.39,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Lean",
-        "party": "Democratic",
-        "color": "#c6dbef"
-      },
-      "all_parties": {
-        "REP": 2521,
-        "DEM": 2592,
-        "NON": 5
-      }
-    }
-  },
-  "NEWBERRY": {
-    "PRESIDENT": {
+    "NEWBERRY": {
       "county": "NEWBERRY",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -488,59 +249,7 @@
         "CON": 34
       }
     },
-    "U.S. SENATE": {
-      "county": "NEWBERRY",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 6111,
-      "rep_votes": 10064,
-      "other_votes": 8,
-      "total_votes": 16183,
-      "two_party_total": 16175,
-      "margin": 3953,
-      "margin_pct": 24.44,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "REP": 10064,
-        "DEM": 6111,
-        "NON": 8
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "NEWBERRY",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": "Karen D Lindler",
-      "rep_candidate": "Benjie Chapman",
-      "dem_votes": 9179,
-      "rep_votes": 7093,
-      "other_votes": 8,
-      "total_votes": 16280,
-      "two_party_total": 16272,
-      "margin": 2086,
-      "margin_pct": 12.82,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "REP": 7093,
-        "DEM": 9179,
-        "NON": 8
-      }
-    }
-  },
-  "OCONEE": {
-    "PRESIDENT": {
+    "OCONEE": {
       "county": "OCONEE",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -568,59 +277,7 @@
         "CON": 132
       }
     },
-    "U.S. SENATE": {
-      "county": "OCONEE",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 8236,
-      "rep_votes": 22305,
-      "other_votes": 33,
-      "total_votes": 30574,
-      "two_party_total": 30541,
-      "margin": 14069,
-      "margin_pct": 46.07,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 22305,
-        "DEM": 8236,
-        "NON": 33
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "OCONEE",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": null,
-      "rep_candidate": "Gregorie W Nowell",
-      "dem_votes": 0,
-      "rep_votes": 20480,
-      "other_votes": 6635,
-      "total_votes": 27115,
-      "two_party_total": 20480,
-      "margin": 20480,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 20480,
-        "CON": 6595,
-        "NON": 40
-      }
-    }
-  },
-  "ORANGEBURG": {
-    "PRESIDENT": {
+    "ORANGEBURG": {
       "county": "ORANGEBURG",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -648,34 +305,7 @@
         "CON": 85
       }
     },
-    "U.S. SENATE": {
-      "county": "ORANGEBURG",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 25129,
-      "rep_votes": 13346,
-      "other_votes": 27,
-      "total_votes": 38502,
-      "two_party_total": 38475,
-      "margin": 11783,
-      "margin_pct": 30.63,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Democratic",
-        "color": "#08519c"
-      },
-      "all_parties": {
-        "REP": 13346,
-        "DEM": 25129,
-        "NON": 27
-      }
-    }
-  },
-  "PICKENS": {
-    "PRESIDENT": {
+    "PICKENS": {
       "county": "PICKENS",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -703,58 +333,7 @@
         "CON": 375
       }
     },
-    "U.S. SENATE": {
-      "county": "PICKENS",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 12121,
-      "rep_votes": 32158,
-      "other_votes": 167,
-      "total_votes": 44446,
-      "two_party_total": 44279,
-      "margin": 20037,
-      "margin_pct": 45.25,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 32158,
-        "DEM": 12121,
-        "NON": 167
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "PICKENS",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": null,
-      "rep_candidate": "Dale M Looper",
-      "dem_votes": 0,
-      "rep_votes": 38267,
-      "other_votes": 88,
-      "total_votes": 38355,
-      "two_party_total": 38267,
-      "margin": 38267,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 38267,
-        "NON": 88
-      }
-    }
-  },
-  "RICHLAND": {
-    "PRESIDENT": {
+    "RICHLAND": {
       "county": "RICHLAND",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -782,34 +361,7 @@
         "CON": 298
       }
     },
-    "U.S. SENATE": {
-      "county": "RICHLAND",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 87891,
-      "rep_votes": 72654,
-      "other_votes": 269,
-      "total_votes": 160814,
-      "two_party_total": 160545,
-      "margin": 15237,
-      "margin_pct": 9.49,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Likely",
-        "party": "Democratic",
-        "color": "#9ecae1"
-      },
-      "all_parties": {
-        "REP": 72654,
-        "DEM": 87891,
-        "NON": 269
-      }
-    }
-  },
-  "SALUDA": {
-    "PRESIDENT": {
+    "SALUDA": {
       "county": "SALUDA",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -837,59 +389,7 @@
         "CON": 20
       }
     },
-    "U.S. SENATE": {
-      "county": "SALUDA",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 3163,
-      "rep_votes": 5282,
-      "other_votes": 9,
-      "total_votes": 8454,
-      "two_party_total": 8445,
-      "margin": 2119,
-      "margin_pct": 25.09,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "REP": 5282,
-        "DEM": 3163,
-        "NON": 9
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "SALUDA",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": "Robert C Addy",
-      "rep_candidate": "Tina M Shealy",
-      "dem_votes": 3313,
-      "rep_votes": 5120,
-      "other_votes": 2,
-      "total_votes": 8435,
-      "two_party_total": 8433,
-      "margin": 1807,
-      "margin_pct": 21.43,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "REP": 5120,
-        "DEM": 3313,
-        "NON": 2
-      }
-    }
-  },
-  "SPARTANBURG": {
-    "PRESIDENT": {
+    "SPARTANBURG": {
       "county": "SPARTANBURG",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -917,34 +417,7 @@
         "CON": 705
       }
     },
-    "U.S. SENATE": {
-      "county": "SPARTANBURG",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 43966,
-      "rep_votes": 61117,
-      "other_votes": 426,
-      "total_votes": 105509,
-      "two_party_total": 105083,
-      "margin": 17151,
-      "margin_pct": 16.32,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "REP": 61117,
-        "DEM": 43966,
-        "NON": 426
-      }
-    }
-  },
-  "SUMTER": {
-    "PRESIDENT": {
+    "SUMTER": {
       "county": "SUMTER",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -972,58 +445,7 @@
         "CON": 102
       }
     },
-    "U.S. SENATE": {
-      "county": "SUMTER",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 23625,
-      "rep_votes": 19906,
-      "other_votes": 25,
-      "total_votes": 43556,
-      "two_party_total": 43531,
-      "margin": 3719,
-      "margin_pct": 8.54,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Likely",
-        "party": "Democratic",
-        "color": "#9ecae1"
-      },
-      "all_parties": {
-        "REP": 19906,
-        "DEM": 23625,
-        "NON": 25
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "SUMTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": "Carolina B Richardson",
-      "rep_candidate": null,
-      "dem_votes": 37081,
-      "rep_votes": 0,
-      "other_votes": 71,
-      "total_votes": 37152,
-      "two_party_total": 37081,
-      "margin": 37081,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 37081,
-        "NON": 71
-      }
-    }
-  },
-  "UNION": {
-    "PRESIDENT": {
+    "UNION": {
       "county": "UNION",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1051,34 +473,7 @@
         "CON": 50
       }
     },
-    "U.S. SENATE": {
-      "county": "UNION",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 6349,
-      "rep_votes": 6881,
-      "other_votes": 21,
-      "total_votes": 13251,
-      "two_party_total": 13230,
-      "margin": 532,
-      "margin_pct": 4.02,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Lean",
-        "party": "Republican",
-        "color": "#fcae91"
-      },
-      "all_parties": {
-        "REP": 6881,
-        "DEM": 6349,
-        "NON": 21
-      }
-    }
-  },
-  "WILLIAMSBURG": {
-    "PRESIDENT": {
+    "WILLIAMSBURG": {
       "county": "WILLIAMSBURG",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1106,34 +501,7 @@
         "CON": 60
       }
     },
-    "U.S. SENATE": {
-      "county": "WILLIAMSBURG",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 10137,
-      "rep_votes": 5662,
-      "other_votes": 10,
-      "total_votes": 15809,
-      "two_party_total": 15799,
-      "margin": 4475,
-      "margin_pct": 28.32,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "REP": 5662,
-        "DEM": 10137,
-        "NON": 10
-      }
-    }
-  },
-  "YORK": {
-    "PRESIDENT": {
+    "YORK": {
       "county": "YORK",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1161,34 +529,7 @@
         "CON": 258
       }
     },
-    "U.S. SENATE": {
-      "county": "YORK",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 34384,
-      "rep_votes": 55975,
-      "other_votes": 152,
-      "total_votes": 90511,
-      "two_party_total": 90359,
-      "margin": 21591,
-      "margin_pct": 23.89,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "REP": 55975,
-        "DEM": 34384,
-        "NON": 152
-      }
-    }
-  },
-  "FAIRFIELD": {
-    "PRESIDENT": {
+    "FAIRFIELD": {
       "county": "FAIRFIELD",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1216,34 +557,7 @@
         "CON": 35
       }
     },
-    "U.S. SENATE": {
-      "county": "FAIRFIELD",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 6737,
-      "rep_votes": 4472,
-      "other_votes": 7,
-      "total_votes": 11216,
-      "two_party_total": 11209,
-      "margin": 2265,
-      "margin_pct": 20.21,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "REP": 4472,
-        "DEM": 6737,
-        "NON": 7
-      }
-    }
-  },
-  "FLORENCE": {
-    "PRESIDENT": {
+    "FLORENCE": {
       "county": "FLORENCE",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1271,59 +585,7 @@
         "CON": 125
       }
     },
-    "U.S. SENATE": {
-      "county": "FLORENCE",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 24589,
-      "rep_votes": 32680,
-      "other_votes": 60,
-      "total_votes": 57329,
-      "two_party_total": 57269,
-      "margin": 8091,
-      "margin_pct": 14.13,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "REP": 32680,
-        "DEM": 24589,
-        "NON": 60
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "FLORENCE",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": "Leval Williams",
-      "rep_candidate": "Dean Fowler Jr",
-      "dem_votes": 24119,
-      "rep_votes": 33256,
-      "other_votes": 20,
-      "total_votes": 57395,
-      "two_party_total": 57375,
-      "margin": 9137,
-      "margin_pct": 15.93,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "REP": 33256,
-        "DEM": 24119,
-        "NON": 20
-      }
-    }
-  },
-  "GEORGETOWN": {
-    "PRESIDENT": {
+    "GEORGETOWN": {
       "county": "GEORGETOWN",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1351,58 +613,7 @@
         "CON": 61
       }
     },
-    "U.S. SENATE": {
-      "county": "GEORGETOWN",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 12753,
-      "rep_votes": 16769,
-      "other_votes": 27,
-      "total_votes": 29549,
-      "two_party_total": 29522,
-      "margin": 4016,
-      "margin_pct": 13.6,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "REP": 16769,
-        "DEM": 12753,
-        "NON": 27
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "GEORGETOWN",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": "Loretta D Washington-Cooper",
-      "rep_candidate": null,
-      "dem_votes": 23147,
-      "rep_votes": 0,
-      "other_votes": 63,
-      "total_votes": 23210,
-      "two_party_total": 23147,
-      "margin": 23147,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 23147,
-        "NON": 63
-      }
-    }
-  },
-  "GREENVILLE": {
-    "PRESIDENT": {
+    "GREENVILLE": {
       "county": "GREENVILLE",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1430,34 +641,7 @@
         "CON": 1566
       }
     },
-    "U.S. SENATE": {
-      "county": "GREENVILLE",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 72205,
-      "rep_votes": 112522,
-      "other_votes": 1107,
-      "total_votes": 185834,
-      "two_party_total": 184727,
-      "margin": 40317,
-      "margin_pct": 21.83,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "REP": 112522,
-        "DEM": 72205,
-        "NON": 1107
-      }
-    }
-  },
-  "GREENWOOD": {
-    "PRESIDENT": {
+    "GREENWOOD": {
       "county": "GREENWOOD",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1485,34 +669,7 @@
         "CON": 97
       }
     },
-    "U.S. SENATE": {
-      "county": "GREENWOOD",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 11104,
-      "rep_votes": 17911,
-      "other_votes": 44,
-      "total_votes": 29059,
-      "two_party_total": 29015,
-      "margin": 6807,
-      "margin_pct": 23.46,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "REP": 17911,
-        "DEM": 11104,
-        "NON": 44
-      }
-    }
-  },
-  "HAMPTON": {
-    "PRESIDENT": {
+    "HAMPTON": {
       "county": "HAMPTON",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1540,58 +697,7 @@
         "CON": 18
       }
     },
-    "U.S. SENATE": {
-      "county": "HAMPTON",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 5225,
-      "rep_votes": 3609,
-      "other_votes": 6,
-      "total_votes": 8840,
-      "two_party_total": 8834,
-      "margin": 1616,
-      "margin_pct": 18.29,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Democratic",
-        "color": "#6baed6"
-      },
-      "all_parties": {
-        "REP": 3609,
-        "DEM": 5225,
-        "NON": 6
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "HAMPTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": "Wilson Tuten Jr",
-      "rep_candidate": null,
-      "dem_votes": 8086,
-      "rep_votes": 0,
-      "other_votes": 22,
-      "total_votes": 8108,
-      "two_party_total": 8086,
-      "margin": 8086,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 8086,
-        "NON": 22
-      }
-    }
-  },
-  "HORRY": {
-    "PRESIDENT": {
+    "HORRY": {
       "county": "HORRY",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1619,58 +725,7 @@
         "CON": 273
       }
     },
-    "U.S. SENATE": {
-      "county": "HORRY",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 34678,
-      "rep_votes": 67215,
-      "other_votes": 126,
-      "total_votes": 102019,
-      "two_party_total": 101893,
-      "margin": 32537,
-      "margin_pct": 31.93,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Dominant",
-        "party": "Republican",
-        "color": "#a50f15"
-      },
-      "all_parties": {
-        "REP": 67215,
-        "DEM": 34678,
-        "NON": 126
-      }
-    },
-    "COUNTY TREASURER": {
-      "county": "HORRY",
-      "contest": "COUNTY TREASURER",
-      "year": "2008",
-      "dem_candidate": null,
-      "rep_candidate": "Roddy Dickinson",
-      "dem_votes": 0,
-      "rep_votes": 80073,
-      "other_votes": 220,
-      "total_votes": 80293,
-      "two_party_total": 80073,
-      "margin": 80073,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 80073,
-        "NON": 220
-      }
-    }
-  },
-  "JASPER": {
-    "PRESIDENT": {
+    "JASPER": {
       "county": "JASPER",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1698,34 +753,7 @@
         "CON": 17
       }
     },
-    "U.S. SENATE": {
-      "county": "JASPER",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 5203,
-      "rep_votes": 3367,
-      "other_votes": 3,
-      "total_votes": 8573,
-      "two_party_total": 8570,
-      "margin": 1836,
-      "margin_pct": 21.42,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Democratic",
-        "color": "#3182bd"
-      },
-      "all_parties": {
-        "REP": 3367,
-        "DEM": 5203,
-        "NON": 3
-      }
-    }
-  },
-  "KERSHAW": {
-    "PRESIDENT": {
+    "KERSHAW": {
       "county": "KERSHAW",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1753,34 +781,7 @@
         "CON": 65
       }
     },
-    "U.S. SENATE": {
-      "county": "KERSHAW",
-      "contest": "U.S. SENATE",
-      "year": "2008",
-      "dem_candidate": "Bob Conley",
-      "rep_candidate": "Lindsey Graham",
-      "dem_votes": 9999,
-      "rep_votes": 17344,
-      "other_votes": 22,
-      "total_votes": 27365,
-      "two_party_total": 27343,
-      "margin": 7345,
-      "margin_pct": 26.86,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Stronghold",
-        "party": "Republican",
-        "color": "#cb181d"
-      },
-      "all_parties": {
-        "REP": 17344,
-        "DEM": 9999,
-        "NON": 22
-      }
-    }
-  },
-  "LANCASTER": {
-    "PRESIDENT": {
+    "LANCASTER": {
       "county": "LANCASTER",
       "contest": "PRESIDENT",
       "year": "2008",
@@ -1807,8 +808,685 @@
         "DEM": 12139,
         "CON": 72
       }
+    }
+  },
+  "U.S. SENATE": {
+    "ABBEVILLE": {
+      "county": "ABBEVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 4558,
+      "rep_votes": 6226,
+      "other_votes": 7,
+      "total_votes": 10791,
+      "two_party_total": 10784,
+      "margin": 1668,
+      "margin_pct": 15.47,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 6226,
+        "DEM": 4558,
+        "NON": 7
+      }
     },
-    "U.S. SENATE": {
+    "LAURENS": {
+      "county": "LAURENS",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 10377,
+      "rep_votes": 15448,
+      "other_votes": 48,
+      "total_votes": 25873,
+      "two_party_total": 25825,
+      "margin": 5071,
+      "margin_pct": 19.64,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 15448,
+        "DEM": 10377,
+        "NON": 48
+      }
+    },
+    "LEE": {
+      "county": "LEE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 5489,
+      "rep_votes": 3418,
+      "other_votes": 5,
+      "total_votes": 8912,
+      "two_party_total": 8907,
+      "margin": 2071,
+      "margin_pct": 23.25,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 3418,
+        "DEM": 5489,
+        "NON": 5
+      }
+    },
+    "LEXINGTON": {
+      "county": "LEXINGTON",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 29255,
+      "rep_votes": 78255,
+      "other_votes": 135,
+      "total_votes": 107645,
+      "two_party_total": 107510,
+      "margin": 49000,
+      "margin_pct": 45.58,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 78255,
+        "DEM": 29255,
+        "NON": 135
+      }
+    },
+    "MARION": {
+      "county": "MARION",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8599,
+      "rep_votes": 5951,
+      "other_votes": 7,
+      "total_votes": 14557,
+      "two_party_total": 14550,
+      "margin": 2648,
+      "margin_pct": 18.2,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 5951,
+        "DEM": 8599,
+        "NON": 7
+      }
+    },
+    "MARLBORO": {
+      "county": "MARLBORO",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6306,
+      "rep_votes": 4256,
+      "other_votes": 9,
+      "total_votes": 10571,
+      "two_party_total": 10562,
+      "margin": 2050,
+      "margin_pct": 19.41,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 4256,
+        "DEM": 6306,
+        "NON": 9
+      }
+    },
+    "MCCORMICK": {
+      "county": "MCCORMICK",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 2592,
+      "rep_votes": 2521,
+      "other_votes": 5,
+      "total_votes": 5118,
+      "two_party_total": 5113,
+      "margin": 71,
+      "margin_pct": 1.39,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 2521,
+        "DEM": 2592,
+        "NON": 5
+      }
+    },
+    "NEWBERRY": {
+      "county": "NEWBERRY",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6111,
+      "rep_votes": 10064,
+      "other_votes": 8,
+      "total_votes": 16183,
+      "two_party_total": 16175,
+      "margin": 3953,
+      "margin_pct": 24.44,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 10064,
+        "DEM": 6111,
+        "NON": 8
+      }
+    },
+    "OCONEE": {
+      "county": "OCONEE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 8236,
+      "rep_votes": 22305,
+      "other_votes": 33,
+      "total_votes": 30574,
+      "two_party_total": 30541,
+      "margin": 14069,
+      "margin_pct": 46.07,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 22305,
+        "DEM": 8236,
+        "NON": 33
+      }
+    },
+    "ORANGEBURG": {
+      "county": "ORANGEBURG",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 25129,
+      "rep_votes": 13346,
+      "other_votes": 27,
+      "total_votes": 38502,
+      "two_party_total": 38475,
+      "margin": 11783,
+      "margin_pct": 30.63,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Democratic",
+        "color": "#08519c"
+      },
+      "all_parties": {
+        "REP": 13346,
+        "DEM": 25129,
+        "NON": 27
+      }
+    },
+    "PICKENS": {
+      "county": "PICKENS",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 12121,
+      "rep_votes": 32158,
+      "other_votes": 167,
+      "total_votes": 44446,
+      "two_party_total": 44279,
+      "margin": 20037,
+      "margin_pct": 45.25,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 32158,
+        "DEM": 12121,
+        "NON": 167
+      }
+    },
+    "RICHLAND": {
+      "county": "RICHLAND",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 87891,
+      "rep_votes": 72654,
+      "other_votes": 269,
+      "total_votes": 160814,
+      "two_party_total": 160545,
+      "margin": 15237,
+      "margin_pct": 9.49,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "REP": 72654,
+        "DEM": 87891,
+        "NON": 269
+      }
+    },
+    "SALUDA": {
+      "county": "SALUDA",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 3163,
+      "rep_votes": 5282,
+      "other_votes": 9,
+      "total_votes": 8454,
+      "two_party_total": 8445,
+      "margin": 2119,
+      "margin_pct": 25.09,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 5282,
+        "DEM": 3163,
+        "NON": 9
+      }
+    },
+    "SPARTANBURG": {
+      "county": "SPARTANBURG",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 43966,
+      "rep_votes": 61117,
+      "other_votes": 426,
+      "total_votes": 105509,
+      "two_party_total": 105083,
+      "margin": 17151,
+      "margin_pct": 16.32,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 61117,
+        "DEM": 43966,
+        "NON": 426
+      }
+    },
+    "SUMTER": {
+      "county": "SUMTER",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 23625,
+      "rep_votes": 19906,
+      "other_votes": 25,
+      "total_votes": 43556,
+      "two_party_total": 43531,
+      "margin": 3719,
+      "margin_pct": 8.54,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "REP": 19906,
+        "DEM": 23625,
+        "NON": 25
+      }
+    },
+    "UNION": {
+      "county": "UNION",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6349,
+      "rep_votes": 6881,
+      "other_votes": 21,
+      "total_votes": 13251,
+      "two_party_total": 13230,
+      "margin": 532,
+      "margin_pct": 4.02,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Republican",
+        "color": "#fcae91"
+      },
+      "all_parties": {
+        "REP": 6881,
+        "DEM": 6349,
+        "NON": 21
+      }
+    },
+    "WILLIAMSBURG": {
+      "county": "WILLIAMSBURG",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 10137,
+      "rep_votes": 5662,
+      "other_votes": 10,
+      "total_votes": 15809,
+      "two_party_total": 15799,
+      "margin": 4475,
+      "margin_pct": 28.32,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 5662,
+        "DEM": 10137,
+        "NON": 10
+      }
+    },
+    "YORK": {
+      "county": "YORK",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 34384,
+      "rep_votes": 55975,
+      "other_votes": 152,
+      "total_votes": 90511,
+      "two_party_total": 90359,
+      "margin": 21591,
+      "margin_pct": 23.89,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 55975,
+        "DEM": 34384,
+        "NON": 152
+      }
+    },
+    "FAIRFIELD": {
+      "county": "FAIRFIELD",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 6737,
+      "rep_votes": 4472,
+      "other_votes": 7,
+      "total_votes": 11216,
+      "two_party_total": 11209,
+      "margin": 2265,
+      "margin_pct": 20.21,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 4472,
+        "DEM": 6737,
+        "NON": 7
+      }
+    },
+    "FLORENCE": {
+      "county": "FLORENCE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 24589,
+      "rep_votes": 32680,
+      "other_votes": 60,
+      "total_votes": 57329,
+      "two_party_total": 57269,
+      "margin": 8091,
+      "margin_pct": 14.13,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 32680,
+        "DEM": 24589,
+        "NON": 60
+      }
+    },
+    "GEORGETOWN": {
+      "county": "GEORGETOWN",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 12753,
+      "rep_votes": 16769,
+      "other_votes": 27,
+      "total_votes": 29549,
+      "two_party_total": 29522,
+      "margin": 4016,
+      "margin_pct": 13.6,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 16769,
+        "DEM": 12753,
+        "NON": 27
+      }
+    },
+    "GREENVILLE": {
+      "county": "GREENVILLE",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 72205,
+      "rep_votes": 112522,
+      "other_votes": 1107,
+      "total_votes": 185834,
+      "two_party_total": 184727,
+      "margin": 40317,
+      "margin_pct": 21.83,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 112522,
+        "DEM": 72205,
+        "NON": 1107
+      }
+    },
+    "GREENWOOD": {
+      "county": "GREENWOOD",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 11104,
+      "rep_votes": 17911,
+      "other_votes": 44,
+      "total_votes": 29059,
+      "two_party_total": 29015,
+      "margin": 6807,
+      "margin_pct": 23.46,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 17911,
+        "DEM": 11104,
+        "NON": 44
+      }
+    },
+    "HAMPTON": {
+      "county": "HAMPTON",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 5225,
+      "rep_votes": 3609,
+      "other_votes": 6,
+      "total_votes": 8840,
+      "two_party_total": 8834,
+      "margin": 1616,
+      "margin_pct": 18.29,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 3609,
+        "DEM": 5225,
+        "NON": 6
+      }
+    },
+    "HORRY": {
+      "county": "HORRY",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 34678,
+      "rep_votes": 67215,
+      "other_votes": 126,
+      "total_votes": 102019,
+      "two_party_total": 101893,
+      "margin": 32537,
+      "margin_pct": 31.93,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Dominant",
+        "party": "Republican",
+        "color": "#a50f15"
+      },
+      "all_parties": {
+        "REP": 67215,
+        "DEM": 34678,
+        "NON": 126
+      }
+    },
+    "JASPER": {
+      "county": "JASPER",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 5203,
+      "rep_votes": 3367,
+      "other_votes": 3,
+      "total_votes": 8573,
+      "two_party_total": 8570,
+      "margin": 1836,
+      "margin_pct": 21.42,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Democratic",
+        "color": "#3182bd"
+      },
+      "all_parties": {
+        "REP": 3367,
+        "DEM": 5203,
+        "NON": 3
+      }
+    },
+    "KERSHAW": {
+      "county": "KERSHAW",
+      "contest": "U.S. SENATE",
+      "year": "2008",
+      "dem_candidate": "Bob Conley",
+      "rep_candidate": "Lindsey Graham",
+      "dem_votes": 9999,
+      "rep_votes": 17344,
+      "other_votes": 22,
+      "total_votes": 27365,
+      "two_party_total": 27343,
+      "margin": 7345,
+      "margin_pct": 26.86,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 17344,
+        "DEM": 9999,
+        "NON": 22
+      }
+    },
+    "LANCASTER": {
       "county": "LANCASTER",
       "contest": "U.S. SENATE",
       "year": "2008",
@@ -1832,8 +1510,278 @@
         "DEM": 11585,
         "NON": 26
       }
+    }
+  },
+  "COUNTY TREASURER": {
+    "LEXINGTON": {
+      "county": "LEXINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "Jim Eckstrom",
+      "dem_votes": 0,
+      "rep_votes": 88157,
+      "other_votes": 207,
+      "total_votes": 88364,
+      "two_party_total": 88157,
+      "margin": 88157,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 88157,
+        "NON": 207
+      }
     },
-    "COUNTY TREASURER": {
+    "MARLBORO": {
+      "county": "MARLBORO",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Delorice B Barrington",
+      "rep_candidate": null,
+      "dem_votes": 10036,
+      "rep_votes": 0,
+      "other_votes": 15,
+      "total_votes": 10051,
+      "two_party_total": 10036,
+      "margin": 10036,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 10036,
+        "NON": 15
+      }
+    },
+    "NEWBERRY": {
+      "county": "NEWBERRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Karen D Lindler",
+      "rep_candidate": "Benjie Chapman",
+      "dem_votes": 9179,
+      "rep_votes": 7093,
+      "other_votes": 8,
+      "total_votes": 16280,
+      "two_party_total": 16272,
+      "margin": 2086,
+      "margin_pct": 12.82,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Democratic",
+        "color": "#6baed6"
+      },
+      "all_parties": {
+        "REP": 7093,
+        "DEM": 9179,
+        "NON": 8
+      }
+    },
+    "OCONEE": {
+      "county": "OCONEE",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "Gregorie W Nowell",
+      "dem_votes": 0,
+      "rep_votes": 20480,
+      "other_votes": 6635,
+      "total_votes": 27115,
+      "two_party_total": 20480,
+      "margin": 20480,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 20480,
+        "CON": 6595,
+        "NON": 40
+      }
+    },
+    "PICKENS": {
+      "county": "PICKENS",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "Dale M Looper",
+      "dem_votes": 0,
+      "rep_votes": 38267,
+      "other_votes": 88,
+      "total_votes": 38355,
+      "two_party_total": 38267,
+      "margin": 38267,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 38267,
+        "NON": 88
+      }
+    },
+    "SALUDA": {
+      "county": "SALUDA",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Robert C Addy",
+      "rep_candidate": "Tina M Shealy",
+      "dem_votes": 3313,
+      "rep_votes": 5120,
+      "other_votes": 2,
+      "total_votes": 8435,
+      "two_party_total": 8433,
+      "margin": 1807,
+      "margin_pct": 21.43,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Stronghold",
+        "party": "Republican",
+        "color": "#cb181d"
+      },
+      "all_parties": {
+        "REP": 5120,
+        "DEM": 3313,
+        "NON": 2
+      }
+    },
+    "SUMTER": {
+      "county": "SUMTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Carolina B Richardson",
+      "rep_candidate": null,
+      "dem_votes": 37081,
+      "rep_votes": 0,
+      "other_votes": 71,
+      "total_votes": 37152,
+      "two_party_total": 37081,
+      "margin": 37081,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 37081,
+        "NON": 71
+      }
+    },
+    "FLORENCE": {
+      "county": "FLORENCE",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Leval Williams",
+      "rep_candidate": "Dean Fowler Jr",
+      "dem_votes": 24119,
+      "rep_votes": 33256,
+      "other_votes": 20,
+      "total_votes": 57395,
+      "two_party_total": 57375,
+      "margin": 9137,
+      "margin_pct": 15.93,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 33256,
+        "DEM": 24119,
+        "NON": 20
+      }
+    },
+    "GEORGETOWN": {
+      "county": "GEORGETOWN",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Loretta D Washington-Cooper",
+      "rep_candidate": null,
+      "dem_votes": 23147,
+      "rep_votes": 0,
+      "other_votes": 63,
+      "total_votes": 23210,
+      "two_party_total": 23147,
+      "margin": 23147,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 23147,
+        "NON": 63
+      }
+    },
+    "HAMPTON": {
+      "county": "HAMPTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": "Wilson Tuten Jr",
+      "rep_candidate": null,
+      "dem_votes": 8086,
+      "rep_votes": 0,
+      "other_votes": 22,
+      "total_votes": 8108,
+      "two_party_total": 8086,
+      "margin": 8086,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 8086,
+        "NON": 22
+      }
+    },
+    "HORRY": {
+      "county": "HORRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2008",
+      "dem_candidate": null,
+      "rep_candidate": "Roddy Dickinson",
+      "dem_votes": 0,
+      "rep_votes": 80073,
+      "other_votes": 220,
+      "total_votes": 80293,
+      "two_party_total": 80073,
+      "margin": 80073,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 80073,
+        "NON": 220
+      }
+    },
+    "LANCASTER": {
       "county": "LANCASTER",
       "contest": "COUNTY TREASURER",
       "year": "2008",
