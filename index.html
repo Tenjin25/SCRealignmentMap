@@ -1002,17 +1002,22 @@ fetch('workspace_files/all_county_results.json')
     .then(res => res.json())
     .then(data => {
         window.electionData = data; // Make available globally
-        // Populate contest dropdown grouped by year (chronological)
+        // Populate contest dropdown grouped by year (chronological) with debug output
         const contestSelect = document.getElementById('contest');
         contestSelect.innerHTML = '<option value="">Select a Contest...</option>';
         // Build year -> [contests] map
         const yearMap = {};
         const resultsByYear = data.results_by_year || data;
         const sortedYears = Object.keys(resultsByYear).sort();
+        console.log('Populating contest dropdown. Years found:', sortedYears);
         for (const year of sortedYears) {
             yearMap[year] = [];
-            for (const contestType of Object.keys(resultsByYear[year])) {
-                for (const contestId of Object.keys(resultsByYear[year][contestType])) {
+            const contestTypes = Object.keys(resultsByYear[year]);
+            console.log(`Year: ${year}, Contest Types:`, contestTypes);
+            for (const contestType of contestTypes) {
+                const contestIds = Object.keys(resultsByYear[year][contestType]);
+                console.log(`  Contest Type: ${contestType}, Contest IDs:`, contestIds);
+                for (const contestId of contestIds) {
                     const contestObj = resultsByYear[year][contestType][contestId];
                     const contestName = contestObj.contest_name || contestId;
                     yearMap[year].push({
@@ -1021,6 +1026,7 @@ fetch('workspace_files/all_county_results.json')
                         contestName,
                         year
                     });
+                    console.log(`    Added contest: ${contestName} (ID: ${contestId})`);
                 }
             }
         }
