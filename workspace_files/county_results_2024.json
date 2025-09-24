@@ -1,6 +1,6 @@
 {
-  "YORK": {
-    "PRESIDENT": {
+  "PRESIDENT": {
+    "YORK": {
       "county": "YORK",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -28,10 +28,8 @@
         "DEM": 238400,
         "WRK": 640
       }
-    }
-  },
-  "BERKELEY": {
-    "PRESIDENT": {
+    },
+    "BERKELEY": {
       "county": "BERKELEY",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -60,33 +58,7 @@
         "WRK": 616
       }
     },
-    "COUNTY TREASURER": {
-      "county": "BERKELEY",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Lori Fiddie Glover",
-      "dem_votes": 0,
-      "rep_votes": 158308,
-      "other_votes": 2016,
-      "total_votes": 160324,
-      "two_party_total": 158308,
-      "margin": 158308,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 158308,
-        "NON": 2016
-      }
-    }
-  },
-  "CHARLESTON": {
-    "PRESIDENT": {
+    "CHARLESTON": {
       "county": "CHARLESTON",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -115,34 +87,7 @@
         "WRK": 1240
       }
     },
-    "COUNTY TREASURER": {
-      "county": "CHARLESTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": "DEM Mary Tinkler",
-      "rep_candidate": "REP Mike Van Horn Sr",
-      "dem_votes": 219630,
-      "rep_votes": 194604,
-      "other_votes": 188,
-      "total_votes": 414422,
-      "two_party_total": 414234,
-      "margin": 25026,
-      "margin_pct": 6.04,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Likely",
-        "party": "Democratic",
-        "color": "#9ecae1"
-      },
-      "all_parties": {
-        "REP": 194604,
-        "DEM": 219630,
-        "NON": 188
-      }
-    }
-  },
-  "WILLIAMSBURG": {
-    "PRESIDENT": {
+    "WILLIAMSBURG": {
       "county": "WILLIAMSBURG",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -170,10 +115,8 @@
         "DEM": 34536,
         "WRK": 80
       }
-    }
-  },
-  "LEXINGTON": {
-    "PRESIDENT": {
+    },
+    "LEXINGTON": {
       "county": "LEXINGTON",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -202,33 +145,7 @@
         "WRK": 676
       }
     },
-    "COUNTY TREASURER": {
-      "county": "LEXINGTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Jim Eckstrom",
-      "dem_votes": 0,
-      "rep_votes": 231544,
-      "other_votes": 1612,
-      "total_votes": 233156,
-      "two_party_total": 231544,
-      "margin": 231544,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 231544,
-        "NON": 1612
-      }
-    }
-  },
-  "JASPER": {
-    "PRESIDENT": {
+    "JASPER": {
       "county": "JASPER",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -256,10 +173,8 @@
         "DEM": 32576,
         "WRK": 76
       }
-    }
-  },
-  "BAMBERG": {
-    "PRESIDENT": {
+    },
+    "BAMBERG": {
       "county": "BAMBERG",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -287,10 +202,8 @@
         "DEM": 12980,
         "WRK": 40
       }
-    }
-  },
-  "LEE": {
-    "PRESIDENT": {
+    },
+    "LEE": {
       "county": "LEE",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -318,10 +231,8 @@
         "DEM": 18020,
         "WRK": 328
       }
-    }
-  },
-  "BEAUFORT": {
-    "PRESIDENT": {
+    },
+    "BEAUFORT": {
       "county": "BEAUFORT",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -349,10 +260,8 @@
         "DEM": 176008,
         "WRK": 296
       }
-    }
-  },
-  "UNION": {
-    "PRESIDENT": {
+    },
+    "UNION": {
       "county": "UNION",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -380,10 +289,8 @@
         "DEM": 16336,
         "WRK": 28
       }
-    }
-  },
-  "CHESTER": {
-    "PRESIDENT": {
+    },
+    "CHESTER": {
       "county": "CHESTER",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -412,33 +319,7 @@
         "WRK": 88
       }
     },
-    "COUNTY TREASURER": {
-      "county": "CHESTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Thomas E Darby",
-      "dem_votes": 0,
-      "rep_votes": 21850,
-      "other_votes": 116,
-      "total_votes": 21966,
-      "two_party_total": 21850,
-      "margin": 21850,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 21850,
-        "NON": 116
-      }
-    }
-  },
-  "SALUDA": {
-    "PRESIDENT": {
+    "SALUDA": {
       "county": "SALUDA",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -466,10 +347,8 @@
         "DEM": 9816,
         "WRK": 108
       }
-    }
-  },
-  "LAURENS": {
-    "PRESIDENT": {
+    },
+    "LAURENS": {
       "county": "LAURENS",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -497,10 +376,8 @@
         "DEM": 35076,
         "WRK": 140
       }
-    }
-  },
-  "CHEROKEE": {
-    "PRESIDENT": {
+    },
+    "CHEROKEE": {
       "county": "CHEROKEE",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -528,10 +405,8 @@
         "DEM": 23756,
         "WRK": 76
       }
-    }
-  },
-  "LANCASTER": {
-    "PRESIDENT": {
+    },
+    "LANCASTER": {
       "county": "LANCASTER",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -560,33 +435,7 @@
         "WRK": 200
       }
     },
-    "COUNTY TREASURER": {
-      "county": "LANCASTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Carrie Williams Helms",
-      "dem_votes": 0,
-      "rep_votes": 83818,
-      "other_votes": 640,
-      "total_votes": 84458,
-      "two_party_total": 83818,
-      "margin": 83818,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 83818,
-        "NON": 640
-      }
-    }
-  },
-  "EDGEFIELD": {
-    "PRESIDENT": {
+    "EDGEFIELD": {
       "county": "EDGEFIELD",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -614,10 +463,8 @@
         "DEM": 18636,
         "WRK": 76
       }
-    }
-  },
-  "MARION": {
-    "PRESIDENT": {
+    },
+    "MARION": {
       "county": "MARION",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -645,10 +492,8 @@
         "DEM": 29264,
         "WRK": 92
       }
-    }
-  },
-  "ORANGEBURG": {
-    "PRESIDENT": {
+    },
+    "ORANGEBURG": {
       "county": "ORANGEBURG",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -676,10 +521,8 @@
         "DEM": 91328,
         "WRK": 192
       }
-    }
-  },
-  "SPARTANBURG": {
-    "PRESIDENT": {
+    },
+    "SPARTANBURG": {
       "county": "SPARTANBURG",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -707,10 +550,8 @@
         "DEM": 202840,
         "WRK": 560
       }
-    }
-  },
-  "PICKENS": {
-    "PRESIDENT": {
+    },
+    "PICKENS": {
       "county": "PICKENS",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -739,33 +580,7 @@
         "WRK": 284
       }
     },
-    "COUNTY TREASURER": {
-      "county": "PICKENS",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Dale M Looper",
-      "dem_votes": 0,
-      "rep_votes": 101660,
-      "other_votes": 610,
-      "total_votes": 102270,
-      "two_party_total": 101660,
-      "margin": 101660,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 101660,
-        "NON": 610
-      }
-    }
-  },
-  "NEWBERRY": {
-    "PRESIDENT": {
+    "NEWBERRY": {
       "county": "NEWBERRY",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -794,33 +609,7 @@
         "WRK": 56
       }
     },
-    "COUNTY TREASURER": {
-      "county": "NEWBERRY",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": "DEM Karen Lindler Smith",
-      "rep_candidate": null,
-      "dem_votes": 26170,
-      "rep_votes": 0,
-      "other_votes": 380,
-      "total_votes": 26550,
-      "two_party_total": 26170,
-      "margin": 26170,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 26170,
-        "NON": 380
-      }
-    }
-  },
-  "CLARENDON": {
-    "PRESIDENT": {
+    "CLARENDON": {
       "county": "CLARENDON",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -848,10 +637,8 @@
         "DEM": 28256,
         "WRK": 104
       }
-    }
-  },
-  "SUMTER": {
-    "PRESIDENT": {
+    },
+    "SUMTER": {
       "county": "SUMTER",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -880,33 +667,7 @@
         "WRK": 164
       }
     },
-    "COUNTY TREASURER": {
-      "county": "SUMTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": "DEM Carolina B Richardson",
-      "rep_candidate": null,
-      "dem_votes": 66322,
-      "rep_votes": 0,
-      "other_votes": 734,
-      "total_votes": 67056,
-      "two_party_total": 66322,
-      "margin": 66322,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 66322,
-        "NON": 734
-      }
-    }
-  },
-  "FLORENCE": {
-    "PRESIDENT": {
+    "FLORENCE": {
       "county": "FLORENCE",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -935,33 +696,7 @@
         "WRK": 292
       }
     },
-    "COUNTY TREASURER": {
-      "county": "FLORENCE",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Laurie Walsh Carpenter",
-      "dem_votes": 0,
-      "rep_votes": 84970,
-      "other_votes": 508,
-      "total_votes": 85478,
-      "two_party_total": 84970,
-      "margin": 84970,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 84970,
-        "NON": 508
-      }
-    }
-  },
-  "ANDERSON": {
-    "PRESIDENT": {
+    "ANDERSON": {
       "county": "ANDERSON",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -990,33 +725,7 @@
         "WRK": 332
       }
     },
-    "COUNTY TREASURER": {
-      "county": "ANDERSON",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Jason P Phillips",
-      "dem_votes": 0,
-      "rep_votes": 161624,
-      "other_votes": 646,
-      "total_votes": 162270,
-      "two_party_total": 161624,
-      "margin": 161624,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 161624,
-        "NON": 646
-      }
-    }
-  },
-  "HORRY": {
-    "PRESIDENT": {
+    "HORRY": {
       "county": "HORRY",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1045,33 +754,7 @@
         "WRK": 704
       }
     },
-    "COUNTY TREASURER": {
-      "county": "HORRY",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Angie Jones",
-      "dem_votes": 0,
-      "rep_votes": 319992,
-      "other_votes": 1816,
-      "total_votes": 321808,
-      "two_party_total": 319992,
-      "margin": 319992,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 319992,
-        "NON": 1816
-      }
-    }
-  },
-  "KERSHAW": {
-    "PRESIDENT": {
+    "KERSHAW": {
       "county": "KERSHAW",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1099,10 +782,8 @@
         "DEM": 47304,
         "WRK": 148
       }
-    }
-  },
-  "COLLETON": {
-    "PRESIDENT": {
+    },
+    "COLLETON": {
       "county": "COLLETON",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1130,10 +811,8 @@
         "DEM": 29504,
         "WRK": 92
       }
-    }
-  },
-  "DILLON": {
-    "PRESIDENT": {
+    },
+    "DILLON": {
       "county": "DILLON",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1161,10 +840,8 @@
         "DEM": 20964,
         "WRK": 72
       }
-    }
-  },
-  "FAIRFIELD": {
-    "PRESIDENT": {
+    },
+    "FAIRFIELD": {
       "county": "FAIRFIELD",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1192,10 +869,8 @@
         "DEM": 25108,
         "WRK": 52
       }
-    }
-  },
-  "DARLINGTON": {
-    "PRESIDENT": {
+    },
+    "DARLINGTON": {
       "county": "DARLINGTON",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1224,33 +899,7 @@
         "WRK": 144
       }
     },
-    "COUNTY TREASURER": {
-      "county": "DARLINGTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Jeff Robinson",
-      "dem_votes": 0,
-      "rep_votes": 42136,
-      "other_votes": 286,
-      "total_votes": 42422,
-      "two_party_total": 42136,
-      "margin": 42136,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 42136,
-        "NON": 286
-      }
-    }
-  },
-  "OCONEE": {
-    "PRESIDENT": {
+    "OCONEE": {
       "county": "OCONEE",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1279,33 +928,7 @@
         "WRK": 200
       }
     },
-    "COUNTY TREASURER": {
-      "county": "OCONEE",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Gena Acree",
-      "dem_votes": 0,
-      "rep_votes": 70352,
-      "other_votes": 470,
-      "total_votes": 70822,
-      "two_party_total": 70352,
-      "margin": 70352,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 70352,
-        "NON": 470
-      }
-    }
-  },
-  "CHESTERFIELD": {
-    "PRESIDENT": {
+    "CHESTERFIELD": {
       "county": "CHESTERFIELD",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1334,33 +957,7 @@
         "WRK": 84
       }
     },
-    "COUNTY TREASURER": {
-      "county": "CHESTERFIELD",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Fred Harris",
-      "dem_votes": 0,
-      "rep_votes": 27854,
-      "other_votes": 154,
-      "total_votes": 28008,
-      "two_party_total": 27854,
-      "margin": 27854,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 27854,
-        "NON": 154
-      }
-    }
-  },
-  "GREENVILLE": {
-    "PRESIDENT": {
+    "GREENVILLE": {
       "county": "GREENVILLE",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1388,10 +985,8 @@
         "DEM": 400296,
         "WRK": 1192
       }
-    }
-  },
-  "MARLBORO": {
-    "PRESIDENT": {
+    },
+    "MARLBORO": {
       "county": "MARLBORO",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1420,34 +1015,7 @@
         "WRK": 56
       }
     },
-    "COUNTY TREASURER": {
-      "county": "MARLBORO",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": "Sharea Y Bracey",
-      "rep_candidate": "Patricia Patty English",
-      "dem_votes": 10188,
-      "rep_votes": 9678,
-      "other_votes": 30,
-      "total_votes": 19896,
-      "two_party_total": 19866,
-      "margin": 510,
-      "margin_pct": 2.57,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Lean",
-        "party": "Democratic",
-        "color": "#c6dbef"
-      },
-      "all_parties": {
-        "REP": 9678,
-        "DEM": 10188,
-        "NON": 30
-      }
-    }
-  },
-  "RICHLAND": {
-    "PRESIDENT": {
+    "RICHLAND": {
       "county": "RICHLAND",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1475,10 +1043,8 @@
         "DEM": 484440,
         "WRK": 1296
       }
-    }
-  },
-  "GREENWOOD": {
-    "PRESIDENT": {
+    },
+    "GREENWOOD": {
       "county": "GREENWOOD",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1506,10 +1072,8 @@
         "DEM": 43064,
         "WRK": 196
       }
-    }
-  },
-  "MCCORMICK": {
-    "PRESIDENT": {
+    },
+    "MCCORMICK": {
       "county": "MCCORMICK",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1537,10 +1101,8 @@
         "DEM": 10052,
         "WRK": 8
       }
-    }
-  },
-  "ABBEVILLE": {
-    "PRESIDENT": {
+    },
+    "ABBEVILLE": {
       "county": "ABBEVILLE",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1568,10 +1130,8 @@
         "DEM": 13596,
         "WRK": 64
       }
-    }
-  },
-  "CALHOUN": {
-    "PRESIDENT": {
+    },
+    "CALHOUN": {
       "county": "CALHOUN",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1600,34 +1160,7 @@
         "WRK": 32
       }
     },
-    "COUNTY TREASURER": {
-      "county": "CALHOUN",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": "Tammi Milligan Green",
-      "rep_candidate": "Alicia Scott",
-      "dem_votes": 6500,
-      "rep_votes": 9068,
-      "other_votes": 8,
-      "total_votes": 15576,
-      "two_party_total": 15568,
-      "margin": 2568,
-      "margin_pct": 16.5,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Safe",
-        "party": "Republican",
-        "color": "#ef3b2c"
-      },
-      "all_parties": {
-        "REP": 9068,
-        "DEM": 6500,
-        "NON": 8
-      }
-    }
-  },
-  "HAMPTON": {
-    "PRESIDENT": {
+    "HAMPTON": {
       "county": "HAMPTON",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1656,33 +1189,7 @@
         "WRK": 60
       }
     },
-    "COUNTY TREASURER": {
-      "county": "HAMPTON",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": "Alice Wright-Gordon",
-      "rep_candidate": null,
-      "dem_votes": 11184,
-      "rep_votes": 0,
-      "other_votes": 102,
-      "total_votes": 11286,
-      "two_party_total": 11184,
-      "margin": 11184,
-      "margin_pct": 100.0,
-      "winner": "DEM",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Democratic",
-        "color": "#08306b"
-      },
-      "all_parties": {
-        "DEM": 11184,
-        "NON": 102
-      }
-    }
-  },
-  "ALLENDALE": {
-    "PRESIDENT": {
+    "ALLENDALE": {
       "county": "ALLENDALE",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1710,10 +1217,8 @@
         "DEM": 8660,
         "WRK": 12
       }
-    }
-  },
-  "AIKEN": {
-    "PRESIDENT": {
+    },
+    "AIKEN": {
       "county": "AIKEN",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1742,33 +1247,7 @@
         "WRK": 432
       }
     },
-    "COUNTY TREASURER": {
-      "county": "AIKEN",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Jason Goings",
-      "dem_votes": 0,
-      "rep_votes": 129984,
-      "other_votes": 962,
-      "total_votes": 130946,
-      "two_party_total": 129984,
-      "margin": 129984,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 129984,
-        "NON": 962
-      }
-    }
-  },
-  "DORCHESTER": {
-    "PRESIDENT": {
+    "DORCHESTER": {
       "county": "DORCHESTER",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1797,33 +1276,7 @@
         "WRK": 408
       }
     },
-    "COUNTY TREASURER": {
-      "county": "DORCHESTER",
-      "contest": "COUNTY TREASURER",
-      "year": "2024",
-      "dem_candidate": null,
-      "rep_candidate": "Cindy L Chitty",
-      "dem_votes": 0,
-      "rep_votes": 111080,
-      "other_votes": 1234,
-      "total_votes": 112314,
-      "two_party_total": 111080,
-      "margin": 111080,
-      "margin_pct": 100.0,
-      "winner": "REP",
-      "competitiveness": {
-        "category": "Annihilation",
-        "party": "Republican",
-        "color": "#67000d"
-      },
-      "all_parties": {
-        "REP": 111080,
-        "NON": 1234
-      }
-    }
-  },
-  "BARNWELL": {
-    "PRESIDENT": {
+    "BARNWELL": {
       "county": "BARNWELL",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1851,10 +1304,8 @@
         "DEM": 16328,
         "WRK": 56
       }
-    }
-  },
-  "GEORGETOWN": {
-    "PRESIDENT": {
+    },
+    "GEORGETOWN": {
       "county": "GEORGETOWN",
       "contest": "PRESIDENT",
       "year": "2024",
@@ -1882,8 +1333,469 @@
         "DEM": 59860,
         "WRK": 144
       }
+    }
+  },
+  "COUNTY TREASURER": {
+    "BERKELEY": {
+      "county": "BERKELEY",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Lori Fiddie Glover",
+      "dem_votes": 0,
+      "rep_votes": 158308,
+      "other_votes": 2016,
+      "total_votes": 160324,
+      "two_party_total": 158308,
+      "margin": 158308,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 158308,
+        "NON": 2016
+      }
     },
-    "COUNTY TREASURER": {
+    "CHARLESTON": {
+      "county": "CHARLESTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "DEM Mary Tinkler",
+      "rep_candidate": "REP Mike Van Horn Sr",
+      "dem_votes": 219630,
+      "rep_votes": 194604,
+      "other_votes": 188,
+      "total_votes": 414422,
+      "two_party_total": 414234,
+      "margin": 25026,
+      "margin_pct": 6.04,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Likely",
+        "party": "Democratic",
+        "color": "#9ecae1"
+      },
+      "all_parties": {
+        "REP": 194604,
+        "DEM": 219630,
+        "NON": 188
+      }
+    },
+    "LEXINGTON": {
+      "county": "LEXINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Jim Eckstrom",
+      "dem_votes": 0,
+      "rep_votes": 231544,
+      "other_votes": 1612,
+      "total_votes": 233156,
+      "two_party_total": 231544,
+      "margin": 231544,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 231544,
+        "NON": 1612
+      }
+    },
+    "CHESTER": {
+      "county": "CHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Thomas E Darby",
+      "dem_votes": 0,
+      "rep_votes": 21850,
+      "other_votes": 116,
+      "total_votes": 21966,
+      "two_party_total": 21850,
+      "margin": 21850,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 21850,
+        "NON": 116
+      }
+    },
+    "LANCASTER": {
+      "county": "LANCASTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Carrie Williams Helms",
+      "dem_votes": 0,
+      "rep_votes": 83818,
+      "other_votes": 640,
+      "total_votes": 84458,
+      "two_party_total": 83818,
+      "margin": 83818,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 83818,
+        "NON": 640
+      }
+    },
+    "PICKENS": {
+      "county": "PICKENS",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Dale M Looper",
+      "dem_votes": 0,
+      "rep_votes": 101660,
+      "other_votes": 610,
+      "total_votes": 102270,
+      "two_party_total": 101660,
+      "margin": 101660,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 101660,
+        "NON": 610
+      }
+    },
+    "NEWBERRY": {
+      "county": "NEWBERRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "DEM Karen Lindler Smith",
+      "rep_candidate": null,
+      "dem_votes": 26170,
+      "rep_votes": 0,
+      "other_votes": 380,
+      "total_votes": 26550,
+      "two_party_total": 26170,
+      "margin": 26170,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 26170,
+        "NON": 380
+      }
+    },
+    "SUMTER": {
+      "county": "SUMTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "DEM Carolina B Richardson",
+      "rep_candidate": null,
+      "dem_votes": 66322,
+      "rep_votes": 0,
+      "other_votes": 734,
+      "total_votes": 67056,
+      "two_party_total": 66322,
+      "margin": 66322,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 66322,
+        "NON": 734
+      }
+    },
+    "FLORENCE": {
+      "county": "FLORENCE",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Laurie Walsh Carpenter",
+      "dem_votes": 0,
+      "rep_votes": 84970,
+      "other_votes": 508,
+      "total_votes": 85478,
+      "two_party_total": 84970,
+      "margin": 84970,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 84970,
+        "NON": 508
+      }
+    },
+    "ANDERSON": {
+      "county": "ANDERSON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Jason P Phillips",
+      "dem_votes": 0,
+      "rep_votes": 161624,
+      "other_votes": 646,
+      "total_votes": 162270,
+      "two_party_total": 161624,
+      "margin": 161624,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 161624,
+        "NON": 646
+      }
+    },
+    "HORRY": {
+      "county": "HORRY",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Angie Jones",
+      "dem_votes": 0,
+      "rep_votes": 319992,
+      "other_votes": 1816,
+      "total_votes": 321808,
+      "two_party_total": 319992,
+      "margin": 319992,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 319992,
+        "NON": 1816
+      }
+    },
+    "DARLINGTON": {
+      "county": "DARLINGTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Jeff Robinson",
+      "dem_votes": 0,
+      "rep_votes": 42136,
+      "other_votes": 286,
+      "total_votes": 42422,
+      "two_party_total": 42136,
+      "margin": 42136,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 42136,
+        "NON": 286
+      }
+    },
+    "OCONEE": {
+      "county": "OCONEE",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Gena Acree",
+      "dem_votes": 0,
+      "rep_votes": 70352,
+      "other_votes": 470,
+      "total_votes": 70822,
+      "two_party_total": 70352,
+      "margin": 70352,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 70352,
+        "NON": 470
+      }
+    },
+    "CHESTERFIELD": {
+      "county": "CHESTERFIELD",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Fred Harris",
+      "dem_votes": 0,
+      "rep_votes": 27854,
+      "other_votes": 154,
+      "total_votes": 28008,
+      "two_party_total": 27854,
+      "margin": 27854,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 27854,
+        "NON": 154
+      }
+    },
+    "MARLBORO": {
+      "county": "MARLBORO",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "Sharea Y Bracey",
+      "rep_candidate": "Patricia Patty English",
+      "dem_votes": 10188,
+      "rep_votes": 9678,
+      "other_votes": 30,
+      "total_votes": 19896,
+      "two_party_total": 19866,
+      "margin": 510,
+      "margin_pct": 2.57,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Lean",
+        "party": "Democratic",
+        "color": "#c6dbef"
+      },
+      "all_parties": {
+        "REP": 9678,
+        "DEM": 10188,
+        "NON": 30
+      }
+    },
+    "CALHOUN": {
+      "county": "CALHOUN",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "Tammi Milligan Green",
+      "rep_candidate": "Alicia Scott",
+      "dem_votes": 6500,
+      "rep_votes": 9068,
+      "other_votes": 8,
+      "total_votes": 15576,
+      "two_party_total": 15568,
+      "margin": 2568,
+      "margin_pct": 16.5,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Safe",
+        "party": "Republican",
+        "color": "#ef3b2c"
+      },
+      "all_parties": {
+        "REP": 9068,
+        "DEM": 6500,
+        "NON": 8
+      }
+    },
+    "HAMPTON": {
+      "county": "HAMPTON",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": "Alice Wright-Gordon",
+      "rep_candidate": null,
+      "dem_votes": 11184,
+      "rep_votes": 0,
+      "other_votes": 102,
+      "total_votes": 11286,
+      "two_party_total": 11184,
+      "margin": 11184,
+      "margin_pct": 100.0,
+      "winner": "DEM",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Democratic",
+        "color": "#08306b"
+      },
+      "all_parties": {
+        "DEM": 11184,
+        "NON": 102
+      }
+    },
+    "AIKEN": {
+      "county": "AIKEN",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Jason Goings",
+      "dem_votes": 0,
+      "rep_votes": 129984,
+      "other_votes": 962,
+      "total_votes": 130946,
+      "two_party_total": 129984,
+      "margin": 129984,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 129984,
+        "NON": 962
+      }
+    },
+    "DORCHESTER": {
+      "county": "DORCHESTER",
+      "contest": "COUNTY TREASURER",
+      "year": "2024",
+      "dem_candidate": null,
+      "rep_candidate": "Cindy L Chitty",
+      "dem_votes": 0,
+      "rep_votes": 111080,
+      "other_votes": 1234,
+      "total_votes": 112314,
+      "two_party_total": 111080,
+      "margin": 111080,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "competitiveness": {
+        "category": "Annihilation",
+        "party": "Republican",
+        "color": "#67000d"
+      },
+      "all_parties": {
+        "REP": 111080,
+        "NON": 1234
+      }
+    },
+    "GEORGETOWN": {
       "county": "GEORGETOWN",
       "contest": "COUNTY TREASURER",
       "year": "2024",
