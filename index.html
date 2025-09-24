@@ -1047,33 +1047,8 @@ fetch('workspace_files/all_county_results.json')
 
         // Helper to update map for selected contest
         function updateMapForContest(year, contestKey) {
-            // Debug: print available contest keys for the first county in results
-            if (data[year]) {
-                const counties = Object.keys(data[year]);
-                if (counties.length > 0) {
-                    const firstCounty = counties[0];
-                    const contests = Object.keys(data[year][firstCounty]);
-                    console.log(`Contest keys in results for county ${firstCounty}, year ${year}:`, contests);
-                }
-            }
-            // Debug: print available county keys in results and GeoJSON
-            if (data[year]) {
-                const contestCounties = Object.keys(data[year]);
-                console.log('County keys in results for year', year, ':', contestCounties);
-            }
-            if (map.getSource('counties') && map.getSource('counties')._data && map.getSource('counties')._data.features) {
-                const geojsonCountyNames = map.getSource('counties')._data.features.map(f => f.properties.NAME20);
-                console.log('County names in GeoJSON:', geojsonCountyNames);
-            }
-            // Find contest results in new structure (use contest object directly)
-            let contestResults = {};
-            if (data[year]) {
-                for (const county of Object.keys(data[year])) {
-                    if (data[year][county][contestKey]) {
-                        contestResults[county] = data[year][county][contestKey];
-                    }
-                }
-            }
+            // Use new structure: data[year][contestKey][county]
+            let contestResults = data[year] && data[year][contestKey] ? data[year][contestKey] : {};
             if (Object.keys(contestResults).length === 0) {
                 updateStatus('❌ No results for selected contest.');
                 return;
