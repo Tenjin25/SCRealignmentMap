@@ -1061,15 +1061,57 @@ fetch('workspace_files/all_county_results.json')
                 updateStatus('❌ County GeoJSON not loaded');
                 return;
             }
+            // Aggregate precinct results by county
+            const countyAggregates = {};
+            Object.values(contestResults).forEach(r => {
+                const county = r.county;
+                if (!countyAggregates[county]) {
+                    countyAggregates[county] = {
+                        rep_votes: 0,
+                        dem_votes: 0,
+                        other_votes: 0,
+                        two_party_total: 0,
+                        total_votes: 0,
+                        margin: 0,
+                        margin_pct: 0,
+                        winner: null,
+                        competitiveness: null,
+                        competitiveness_color: '#e0e0e0',
+                        precincts: 0
+                    };
+                }
+                countyAggregates[county].rep_votes += r.rep_votes || 0;
+                countyAggregates[county].dem_votes += r.dem_votes || 0;
+                countyAggregates[county].other_votes += r.other_votes || 0;
+                countyAggregates[county].two_party_total += r.two_party_total || 0;
+                countyAggregates[county].total_votes += r.total_votes || 0;
+                countyAggregates[county].precincts += 1;
+            });
+            // Calculate margin, winner, competitiveness for each county
+            Object.keys(countyAggregates).forEach(county => {
+                const agg = countyAggregates[county];
+                agg.margin = agg.rep_votes - agg.dem_votes;
+                agg.margin_pct = agg.two_party_total > 0 ? (agg.margin / agg.two_party_total) * 100 : 0;
+                if (agg.rep_votes > agg.dem_votes) {
+                    agg.winner = 'REP';
+                } else if (agg.dem_votes > agg.rep_votes) {
+                    agg.winner = 'DEM';
+                } else {
+                    agg.winner = 'TIE';
+                }
+                // Use competitiveness from largest precinct (by votes) as proxy
+                let precincts = Object.values(contestResults).filter(r => r.county === county);
+                let largestPrecinct = precincts.reduce((max, r) => (r.total_votes > (max.total_votes || 0) ? r : max), {});
+                agg.competitiveness = largestPrecinct.competitiveness || null;
+                agg.competitiveness_color = agg.competitiveness && agg.competitiveness.color ? agg.competitiveness.color : '#e0e0e0';
+            });
             let matchedCount = 0;
             geojson.features.forEach(f => {
                 let countyName = f.properties.NAME20 ? f.properties.NAME20.toUpperCase() : '';
-                // Find all results for this county (aggregate precincts)
-                let countyResults = Object.values(contestResults).filter(r => r.county === countyName);
-                let result = countyResults.length > 0 ? countyResults[0] : null;
-                if (result) matchedCount++;
-                f.properties.winner = result ? (result.rep_votes > result.dem_votes ? 'REP' : (result.dem_votes > result.rep_votes ? 'DEM' : 'TIE')) : null;
-                f.properties.competitiveness_color = result ? (result.competitiveness && result.competitiveness.color ? result.competitiveness.color : '#e0e0e0') : '#e0e0e0';
+                let agg = countyAggregates[countyName];
+                if (agg) matchedCount++;
+                f.properties.winner = agg ? agg.winner : null;
+                f.properties.competitiveness_color = agg ? agg.competitiveness_color : '#e0e0e0';
             });
             console.log(`Matched ${matchedCount} counties for ${year}__${contestType}__${contestId}`);
             countiesSource.setData(geojson);
