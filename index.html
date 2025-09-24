@@ -1002,53 +1002,48 @@ fetch('workspace_files/all_county_results.json')
     .then(res => res.json())
     .then(data => {
         window.electionData = data; // Make available globally
-        // Populate contest dropdown grouped by contest name
+        // Populate contest dropdown grouped by year (chronological)
         const contestSelect = document.getElementById('contest');
         contestSelect.innerHTML = '<option value="">Select a Contest...</option>';
-        // Build contest map: contestName -> [{year, contestKey}] (must exist for all counties and have valid votes)
-        const contestMap = {};
-        for (const year of Object.keys(data).sort()) {
-            const counties = Object.keys(data[year]);
-            // Find all contestKeys present in every county
-            const contestCount = {};
-            for (const county of counties) {
-                for (const contestKey of Object.keys(data[year][county])) {
-                    const contestObj = data[year][county][contestKey];
-                    const demValid = contestObj.dem_candidate && contestObj.dem_votes > 0;
-                    const repValid = contestObj.rep_candidate && contestObj.rep_votes > 0;
-                    if (!(demValid && repValid)) continue;
-                    contestCount[contestKey] = (contestCount[contestKey] || 0) + 1;
-                }
-            }
-            // Only keep contests present in every county
-            for (const contestKey of Object.keys(contestCount)) {
-                if (contestCount[contestKey] === counties.length) {
-                    // Use first county's contestObj for name
-                    const contestObj = data[year][counties[0]][contestKey];
-                    const contestName = contestObj.contest || contestObj.contest_name || contestKey;
-                    if (!contestMap[contestName]) contestMap[contestName] = [];
-                    contestMap[contestName].push({ year, key: contestKey });
+        // Build year -> [contests] map
+        const yearMap = {};
+        const resultsByYear = data.results_by_year || data;
+        const sortedYears = Object.keys(resultsByYear).sort();
+        for (const year of sortedYears) {
+            yearMap[year] = [];
+            for (const contestType of Object.keys(resultsByYear[year])) {
+                for (const contestId of Object.keys(resultsByYear[year][contestType])) {
+                    const contestObj = resultsByYear[year][contestType][contestId];
+                    const contestName = contestObj.contest_name || contestId;
+                    yearMap[year].push({
+                        contestType,
+                        contestId,
+                        contestName,
+                        year
+                    });
                 }
             }
         }
-        // Add optgroups for each contest
-        for (const contestName of Object.keys(contestMap).sort()) {
+        // Add optgroups for each year (chronological)
+        for (const year of sortedYears) {
             const optgroup = document.createElement('optgroup');
-            optgroup.label = contestName;
-            for (const entry of contestMap[contestName]) {
-                const value = `${entry.year}__${entry.key}`;
+            optgroup.label = year;
+            for (const entry of yearMap[year]) {
+                const value = `${year}__${entry.contestType}__${entry.contestId}`;
                 const option = document.createElement('option');
                 option.value = value;
-                option.textContent = `${contestName} (${entry.year})`;
+                option.textContent = `${entry.contestName}`;
                 optgroup.appendChild(option);
             }
             contestSelect.appendChild(optgroup);
         }
 
         // Helper to update map for selected contest
-        function updateMapForContest(year, contestKey) {
-            // Use new structure: data[year][contestKey][county]
-            let contestResults = data[year] && data[year][contestKey] ? data[year][contestKey] : {};
+        function updateMapForContest(year, contestType, contestId) {
+            // Use new structure: results_by_year[year][contestType][contestId].results[county_precinct]
+            const resultsByYear = data.results_by_year || data;
+            let contestObj = resultsByYear[year] && resultsByYear[year][contestType] && resultsByYear[year][contestType][contestId];
+            let contestResults = contestObj && contestObj.results ? contestObj.results : {};
             if (Object.keys(contestResults).length === 0) {
                 updateStatus('❌ No results for selected contest.');
                 return;
@@ -1063,12 +1058,14 @@ fetch('workspace_files/all_county_results.json')
             let matchedCount = 0;
             geojson.features.forEach(f => {
                 let countyName = f.properties.NAME20 ? f.properties.NAME20.toUpperCase() : '';
-                let result = contestResults[countyName];
+                // Find all results for this county (aggregate precincts)
+                let countyResults = Object.values(contestResults).filter(r => r.county === countyName);
+                let result = countyResults.length > 0 ? countyResults[0] : null;
                 if (result) matchedCount++;
                 f.properties.winner = result ? (result.rep_votes > result.dem_votes ? 'REP' : (result.dem_votes > result.rep_votes ? 'DEM' : 'TIE')) : null;
                 f.properties.competitiveness_color = result ? (result.competitiveness && result.competitiveness.color ? result.competitiveness.color : '#e0e0e0') : '#e0e0e0';
             });
-            console.log(`Matched ${matchedCount} counties for ${year}__${contestKey}`);
+            console.log(`Matched ${matchedCount} counties for ${year}__${contestType}__${contestId}`);
             countiesSource.setData(geojson);
             map.setPaintProperty('county-fill', 'fill-color', [
                 'case',
@@ -1077,9 +1074,9 @@ fetch('workspace_files/all_county_results.json')
             ]);
             map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
             if (matchedCount === 0) {
-                updateStatus(`❌ No counties matched for ${year}__${contestKey} ${year}. Please check your data or contest selection.`);
+                updateStatus(`❌ No counties matched for ${year}__${contestType}__${contestId} ${year}. Please check your data or contest selection.`);
             } else {
-                updateStatus(`✅ ${matchedCount} counties matched for ${year}__${contestKey}`);
+                updateStatus(`✅ ${matchedCount} counties matched for ${year}__${contestType}__${contestId}`);
             }
         }
 
@@ -1087,8 +1084,8 @@ fetch('workspace_files/all_county_results.json')
         contestSelect.addEventListener('change', function() {
             const val = contestSelect.value;
             if (!val) return;
-            const [year, contestKey] = val.split('__');
-            updateMapForContest(year, contestKey);
+            const [year, contestType, contestId] = val.split('__');
+            updateMapForContest(year, contestType, contestId);
         });
 
         // Auto-select the most recent contest (last option in last optgroup)
