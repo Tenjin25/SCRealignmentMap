@@ -1148,7 +1148,14 @@ fetch('sc_results_index.json')
             if (!val) return;
             const [year, contestType, contestId, file, aggregation] = val.split('__');
             showLoadingSpinner(true);
-            fetchAndDecompressJSONGZ('workspace_files/' + file)
+            // Always use the FIPS-keyed file for county results
+            let fipsFile = file;
+            if (file.endsWith('.json')) {
+                fipsFile = file.replace('.json', '_fips.json');
+            } else if (file.endsWith('.json.gz')) {
+                fipsFile = file.replace('.json.gz', '_fips.json');
+            }
+            fetchAndDecompressJSONGZ('workspace_files/' + fipsFile)
                 .then(data => {
                     let results = null;
                     if (data.results) {
