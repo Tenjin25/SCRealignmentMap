@@ -1178,10 +1178,12 @@ fetch('sc_results_index.json')
                         results = {};
                         for (const countyName in contestData) {
                             const countyResult = contestData[countyName];
+                            if (!countyResult) continue; // Skip null/undefined results
                             let fips = countyResult.fips || countyResult.FIPS || countyResult.fips_code || null;
                             if (!fips && window.countyNameToFips) {
                                 fips = window.countyNameToFips[countyName.toUpperCase()];
                             }
+                            if (!fips && !countyName) continue; // Skip if no valid key
                             results[fips || countyName] = countyResult;
                         }
                     }
