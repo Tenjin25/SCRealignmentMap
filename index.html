@@ -1105,34 +1105,45 @@ fetch('sc_results_index.json')
     }
 
     contestSelect.addEventListener('change', function() {
-      const val = contestSelect.value;
-      if (!val) return;
-      const [year, contestType, contestId, file, aggregation] = val.split('__');
-      showLoadingSpinner(true);
-      fetchAndDecompressJSONGZ('workspace_files/' + file)
+            const val = contestSelect.value;
+            if (!val) return;
+            const [year, contestType, contestId, file, aggregation] = val.split('__');
+            showLoadingSpinner(true);
+            fetchAndDecompressJSONGZ('workspace_files/' + file)
                 .then(data => {
-                    // Patch: handle both flat and nested contest/county result structures
                     let results = null;
                     if (data.results) {
                         // Flat structure
                         results = data.results;
                     } else {
                         // Nested structure: {CONTEST: {COUNTY: {...}}}
-                        // Find the first contest key
-                        const contestKeys = Object.keys(data);
-                        if (contestKeys.length > 0) {
-                            const contestData = data[contestKeys[0]];
-                            results = {};
-                            for (const countyName in contestData) {
-                                const countyResult = contestData[countyName];
-                                // Try to get FIPS from county name (if available)
-                                // Otherwise use county name as key
-                                let fips = countyResult.fips || countyResult.FIPS || countyResult.fips_code || null;
-                                if (!fips && window.countyNameToFips) {
-                                    fips = window.countyNameToFips[countyName.toUpperCase()];
-                                }
-                                results[fips || countyName] = countyResult;
+                        // Try to find the correct contest key
+                        let contestKey = contestId;
+                        // Remove trailing _1 if present for matching
+                        if (contestKey.endsWith('_1')) contestKey = contestKey.replace(/_1$/, '');
+                        // Try exact match, then normalized match
+                        let contestData = data[contestKey];
+                        if (!contestData) {
+                            // Try normalized uppercase
+                            contestData = data[contestKey.toUpperCase()];
+                        }
+                        if (!contestData) {
+                            // Try searching for a key that includes the contest type
+                            const foundKey = Object.keys(data).find(k => k.toLowerCase().includes(contestType));
+                            if (foundKey) contestData = data[foundKey];
+                        }
+                        if (!contestData) {
+                            // Fallback: use first key
+                            contestData = data[Object.keys(data)[0]];
+                        }
+                        results = {};
+                        for (const countyName in contestData) {
+                            const countyResult = contestData[countyName];
+                            let fips = countyResult.fips || countyResult.FIPS || countyResult.fips_code || null;
+                            if (!fips && window.countyNameToFips) {
+                                fips = window.countyNameToFips[countyName.toUpperCase()];
                             }
+                            results[fips || countyName] = countyResult;
                         }
                     }
                     window.electionData = { results };
