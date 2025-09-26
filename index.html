@@ -606,10 +606,49 @@ html, body {
 </style>
 </head>
 <body>
-    <div id="share-container" style="position: fixed; top: 20px; right: 440px; z-index: 1000;"></div>
-    <button id="sidebar-float-toggle" style="position:fixed;top:20px;right:20px;z-index:10001;width:56px;height:56px;background:#2563eb;color:#fff;border:none;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.15);font-size:32px;display:flex;align-items:center;justify-content:center;cursor:pointer;">
+    <!-- Floating sidebar toggle button, only visible when sidebar is minimized -->
+    <button id="sidebar-float-toggle" style="position:fixed;top:24px;right:24px;z-index:10001;width:56px;height:56px;background:#2563eb;color:#fff;border:none;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.15);font-size:32px;display:none;align-items:center;justify-content:center;cursor:pointer;transition:box-shadow 0.2s,background 0.2s;">
         +
     </button>
+    <script>
+    // Show floating button only when sidebar is minimized
+    function updateSidebarToggleVisibility() {
+        var sidebar = document.getElementById('sidebar');
+        var floatBtn = document.getElementById('sidebar-float-toggle');
+        if (sidebar && floatBtn) {
+            if (sidebar.classList.contains('minimized')) {
+                floatBtn.style.display = 'flex';
+            } else {
+                floatBtn.style.display = 'none';
+            }
+        }
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+        var floatBtn = document.getElementById('sidebar-float-toggle');
+        if (floatBtn) {
+            floatBtn.addEventListener('click', function() {
+                var sidebar = document.getElementById('sidebar');
+                if (sidebar) {
+                    sidebar.classList.remove('minimized');
+                    updateSidebarToggleVisibility();
+                }
+            });
+        }
+        var sidebar = document.getElementById('sidebar');
+        if (sidebar) {
+            var observer = new MutationObserver(updateSidebarToggleVisibility);
+            observer.observe(sidebar, { attributes: true, attributeFilter: ['class'] });
+            updateSidebarToggleVisibility();
+        }
+    });
+    </script>
+        <div id="share-container" style="position: fixed; top: 20px; right: 440px; z-index: 1000;"></div>
+        <!-- Loading spinner -->
+        <div id="loading-spinner" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:20000;">
+            <div style="width:64px;height:64px;border-radius:50%;border:8px solid #2563eb;border-top:8px solid #e5e7eb;animation:spin 1s linear infinite;"></div>
+        </div>
+        <style>@keyframes spin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>
+
     <div id="map" style="position:relative;width:100%;height:100%;">
         <canvas id="swingCanvas" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:1000;"></canvas>
     </div>
@@ -702,6 +741,7 @@ html, body {
             <div style="margin-bottom: 16px;">
                 <label for="county-search" style="font-weight:600;">Search County:</label>
                 <input type="text" id="county-search" placeholder="Type to search..." style="width:100%;padding:8px;border-radius:6px;margin-top:6px;margin-bottom:6px;" />
+                <button id="county-search-btn" class="btn-primary" style="width:100%;margin-bottom:8px;">🔎 Zoom to County</button>
             </div>
             <div class="statewide-results" id="statewide-results">
                 <h4>🏛️ South Carolina Statewide</h4>
@@ -762,6 +802,26 @@ html, body {
             Created by Shamar Davis
         </div>
         <!-- Floating expand button removed: sidebar toggle is only via header +/- button -->
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var countySearchInput = document.getElementById('county-search');
+            var countySearchBtn = document.getElementById('county-search-btn');
+            if (countySearchInput) {
+                countySearchInput.addEventListener('keyup', function(e) {
+                    if (e.key === 'Enter') {
+                        var val = countySearchInput.value.trim();
+                        if (val) zoomToCounty(val);
+                    }
+                });
+            }
+            if (countySearchBtn && countySearchInput) {
+                countySearchBtn.addEventListener('click', function() {
+                    var val = countySearchInput.value.trim();
+                    if (val) zoomToCounty(val);
+                });
+            }
+        });
+        </script>
         <div class="status-panel" id="status" style="display:none;">
             <button id="status-exit" title="Close" style="position:absolute;top:10px;right:10px;padding:4px 10px;border-radius:6px;border:none;background:#eee;cursor:pointer;font-weight:bold;font-size:18px;">×</button>
             <strong>Status:</strong> Loading map and data...
@@ -998,155 +1058,62 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
 // --- Election Results Visualization (Dynamic Contest/Year) ---
-fetch('workspace_files/all_county_results.json')
-    .then(res => res.json())
-    .then(data => {
-        window.electionData = data; // Make available globally
-        // Populate contest dropdown grouped by year (chronological) with debug output
-        const contestSelect = document.getElementById('contest');
-        contestSelect.innerHTML = '<option value="">Select a Contest...</option>';
-        // Build year -> [contests] map
-        const yearMap = {};
-        const resultsByYear = data.results_by_year || data;
-        const sortedYears = Object.keys(resultsByYear).sort();
-        console.log('Populating contest dropdown. Years found:', sortedYears);
-        for (const year of sortedYears) {
-            yearMap[year] = [];
-            const contestTypes = Object.keys(resultsByYear[year]);
-            console.log(`Year: ${year}, Contest Types:`, contestTypes);
-            for (const contestType of contestTypes) {
-                const contestIds = Object.keys(resultsByYear[year][contestType]);
-                console.log(`  Contest Type: ${contestType}, Contest IDs:`, contestIds);
-                for (const contestId of contestIds) {
-                    const contestObj = resultsByYear[year][contestType][contestId];
-                    const contestName = contestObj.contest_name || contestId;
-                    yearMap[year].push({
-                        contestType,
-                        contestId,
-                        contestName,
-                        year
-                    });
-                    console.log(`    Added contest: ${contestName} (ID: ${contestId})`);
-                }
-            }
-        }
-        // Add optgroups for each year (chronological)
-        for (const year of sortedYears) {
-            const optgroup = document.createElement('optgroup');
-            optgroup.label = year;
-            for (const entry of yearMap[year]) {
-                const value = `${year}__${entry.contestType}__${entry.contestId}`;
-                const option = document.createElement('option');
-                option.value = value;
-                option.textContent = `${entry.contestName}`;
-                optgroup.appendChild(option);
-            }
-            contestSelect.appendChild(optgroup);
-        }
+// Utility: decompress gzipped JSON using fflate (browser-compatible)
+function showLoadingSpinner(show) {
+  document.getElementById('loading-spinner').style.display = show ? 'block' : 'none';
+}
 
-        // Helper to update map for selected contest
-        function updateMapForContest(year, contestType, contestId) {
-            // Use new structure: results_by_year[year][contestType][contestId].results[county_precinct]
-            const resultsByYear = data.results_by_year || data;
-            let contestObj = resultsByYear[year] && resultsByYear[year][contestType] && resultsByYear[year][contestType][contestId];
-            let contestResults = contestObj && contestObj.results ? contestObj.results : {};
-            if (Object.keys(contestResults).length === 0) {
-                updateStatus('❌ No results for selected contest.');
-                return;
-            }
-            const countiesSource = map.getSource('counties');
-            if (!countiesSource) return;
-            let geojson = countiesSource._data;
-            if (!geojson || !geojson.features) {
-                updateStatus('❌ County GeoJSON not loaded');
-                return;
-            }
-            // Aggregate precinct results by county
-            const countyAggregates = {};
-            Object.values(contestResults).forEach(r => {
-                const county = r.county;
-                if (!countyAggregates[county]) {
-                    countyAggregates[county] = {
-                        rep_votes: 0,
-                        dem_votes: 0,
-                        other_votes: 0,
-                        two_party_total: 0,
-                        total_votes: 0,
-                        margin: 0,
-                        margin_pct: 0,
-                        winner: null,
-                        competitiveness: null,
-                        competitiveness_color: '#e0e0e0',
-                        precincts: 0
-                    };
-                }
-                countyAggregates[county].rep_votes += r.rep_votes || 0;
-                countyAggregates[county].dem_votes += r.dem_votes || 0;
-                countyAggregates[county].other_votes += r.other_votes || 0;
-                countyAggregates[county].two_party_total += r.two_party_total || 0;
-                countyAggregates[county].total_votes += r.total_votes || 0;
-                countyAggregates[county].precincts += 1;
-            });
-            // Calculate margin, winner, competitiveness for each county
-            Object.keys(countyAggregates).forEach(county => {
-                const agg = countyAggregates[county];
-                agg.margin = agg.rep_votes - agg.dem_votes;
-                agg.margin_pct = agg.two_party_total > 0 ? (agg.margin / agg.two_party_total) * 100 : 0;
-                if (agg.rep_votes > agg.dem_votes) {
-                    agg.winner = 'REP';
-                } else if (agg.dem_votes > agg.rep_votes) {
-                    agg.winner = 'DEM';
-                } else {
-                    agg.winner = 'TIE';
-                }
-                // Use competitiveness from largest precinct (by votes) as proxy
-                let precincts = Object.values(contestResults).filter(r => r.county === county);
-                let largestPrecinct = precincts.reduce((max, r) => (r.total_votes > (max.total_votes || 0) ? r : max), {});
-                agg.competitiveness = largestPrecinct.competitiveness || null;
-                agg.competitiveness_color = agg.competitiveness && agg.competitiveness.color ? agg.competitiveness.color : '#e0e0e0';
-            });
-            let matchedCount = 0;
-            geojson.features.forEach(f => {
-                let countyName = f.properties.NAME20 ? f.properties.NAME20.toUpperCase() : '';
-                let agg = countyAggregates[countyName];
-                if (agg) matchedCount++;
-                f.properties.winner = agg ? agg.winner : null;
-                f.properties.competitiveness_color = agg ? agg.competitiveness_color : '#e0e0e0';
-            });
-            console.log(`Matched ${matchedCount} counties for ${year}__${contestType}__${contestId}`);
-            countiesSource.setData(geojson);
-            map.setPaintProperty('county-fill', 'fill-color', [
-                'case',
-                    ['has', 'competitiveness_color'], ['get', 'competitiveness_color'],
-                    ['match', ['get', 'winner'], 'REP', '#ef3b2c', 'DEM', '#6baed6', 'TIE', '#f7f7f7', '#e0e0e0']
-            ]);
-            map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
-            if (matchedCount === 0) {
-                updateStatus(`❌ No counties matched for ${year}__${contestType}__${contestId} ${year}. Please check your data or contest selection.`);
-            } else {
-                updateStatus(`✅ ${matchedCount} counties matched for ${year}__${contestType}__${contestId}`);
-            }
-        }
+// Load the index file and populate dropdowns
+fetch('sc_results_index.json')
+  .then(res => res.json())
+  .then(indexData => {
+    window.scResultsIndex = indexData;
+    const contestSelect = document.getElementById('contest');
+    contestSelect.innerHTML = '<option value="">Select a Contest...</option>';
+    // Use normalized index structure
+    const years = Object.keys(indexData.county.contests_by_year).sort();
+    for (const year of years) {
+      const optgroup = document.createElement('optgroup');
+      optgroup.label = year;
+      for (const contest of indexData.county.contests_by_year[year]) {
+        const value = `${year}__${contest.type}__${contest.id}__${contest.file}__${contest.aggregation}`;
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = contest.name;
+        optgroup.appendChild(option);
+      }
+      contestSelect.appendChild(optgroup);
+    }
 
-        // Listen for contest selection
-        contestSelect.addEventListener('change', function() {
-            const val = contestSelect.value;
-            if (!val) return;
-            const [year, contestType, contestId] = val.split('__');
-            updateMapForContest(year, contestType, contestId);
+    contestSelect.addEventListener('change', function() {
+      const val = contestSelect.value;
+      if (!val) return;
+      const [year, contestType, contestId, file, aggregation] = val.split('__');
+      showLoadingSpinner(true);
+      fetchAndDecompressJSONGZ('workspace_files/' + file)
+        .then(data => {
+          window.electionData = data;
+          showLoadingSpinner(false);
+          // Call your map update logic here
+          // ...existing code to update map and sidebar using window.electionData...
+        })
+        .catch(err => {
+          showLoadingSpinner(false);
+          updateStatus('❌ Error loading results: ' + err.message);
         });
-
-        // Auto-select the most recent contest (last option in last optgroup)
-        const optgroups = contestSelect.querySelectorAll('optgroup');
-        if (optgroups.length > 0) {
-            const lastOptgroup = optgroups[optgroups.length - 1];
-            const lastOption = lastOptgroup.querySelector('option:last-child');
-            if (lastOption) {
-                lastOption.selected = true;
-                contestSelect.dispatchEvent(new Event('change'));
-            }
-        }
     });
+
+    // Auto-select the most recent contest (last option in last optgroup)
+    const optgroups = contestSelect.querySelectorAll('optgroup');
+    if (optgroups.length > 0) {
+      const lastOptgroup = optgroups[optgroups.length - 1];
+      const lastOption = lastOptgroup.querySelector('option:last-child');
+      if (lastOption) {
+        lastOption.selected = true;
+        contestSelect.dispatchEvent(new Event('change'));
+      }
+    }
+  });
 
 
 let electionData = null;
@@ -1203,10 +1170,7 @@ function updateStatus(message) {
     window.toggleSidebar = toggleSidebar;
 
     // Floating button click toggles sidebar
-    document.addEventListener('DOMContentLoaded', function() {
-        const floatBtn = document.getElementById('sidebar-float-toggle');
-        floatBtn.addEventListener('click', toggleSidebar);
-    });
+
 
     // Toggle legend minimize/expand
     function toggleLegend() {
@@ -1317,44 +1281,33 @@ function applyCategories() {
         updateStatus('❌ Could not determine year/contest from selection!');
         return;
     }
-    if (!window.electionData[year]) {
-        updateStatus(`❌ No data for year ${year}`);
+    // Use flat results structure: window.electionData.results[fips]
+    if (!window.electionData || !window.electionData.results) {
+        updateStatus('❌ Election results not loaded');
         return;
     }
-    // Find contest results in any county
-    let contestResults = null;
-    for (const county of Object.keys(window.electionData[year])) {
-        if (window.electionData[year][county][contestKey] && window.electionData[year][county][contestKey].results) {
-            contestResults = window.electionData[year][county][contestKey].results;
-            break;
-        }
-    }
-    if (!contestResults) {
-        updateStatus(`❌ No data for year ${year} and contest ${contestKey}`);
-        return;
-    }
+    const contestResults = window.electionData.results;
     // Build a color expression for Mapbox
-    const colorExpression = ['match', ['get', 'NAME20']];
+    const colorExpression = ['match', ['get', 'GEOID20']];
     let coloredCount = 0;
     countiesSource._data.features.forEach(f => {
-        const countyName = f.properties.NAME20;
         let fips = f.properties.GEOID20;
         if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
         else if (typeof fips === 'string') fips = fips.padStart(5, '0');
         const foundResult = contestResults[fips];
         if (foundResult && foundResult.competitiveness_color) {
-            colorExpression.push(countyName, foundResult.competitiveness_color);
+            colorExpression.push(fips, foundResult.competitiveness_color);
             coloredCount++;
         }
     });
     colorExpression.push('#e0e0e0'); // Default color
     if (coloredCount === 0) {
-        updateStatus(`❌ No counties matched for ${contestKey} ${year}. Please check your data or contest selection.`);
+        updateStatus('❌ No counties matched for selected contest. Please check your data or contest selection.');
         return;
     }
     map.setPaintProperty('county-fill', 'fill-color', colorExpression);
     map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
-    updateStatus(`✅ ${contestKey} ${year} applied! ${coloredCount} counties colored by competitiveness.`);
+    updateStatus(`✅ Applied! ${coloredCount} counties colored by competitiveness.`);
     if (lastSelectedCounty) {
         showCountyDetails(lastSelectedCounty);
     }
@@ -1382,22 +1335,12 @@ function showCountyDetails(countyFIPS) {
         updateStatus('❌ Could not determine year/contest from selection!');
         return;
     }
-    if (!window.electionData[year]) {
-        updateStatus(`❌ No data for year ${year}`);
+    // Use flat results structure: window.electionData.results[countyFIPS]
+    if (!window.electionData || !window.electionData.results) {
+        updateStatus('❌ Election results not loaded');
         return;
     }
-    // Find contest results in any county
-    let contestResults = null;
-    for (const county of Object.keys(window.electionData[year])) {
-        if (window.electionData[year][county][contestKey] && window.electionData[year][county][contestKey].results) {
-            contestResults = window.electionData[year][county][contestKey].results;
-            break;
-        }
-    }
-    if (!contestResults) {
-        updateStatus(`❌ No data for year ${year} and contest ${contestKey}`);
-        return;
-    }
+    const contestResults = window.electionData.results;
     let foundResult = null;
     if (contestResults && contestResults[countyFIPS]) {
         foundResult = contestResults[countyFIPS];
