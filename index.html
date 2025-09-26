@@ -1356,22 +1356,24 @@ function applyCategories() {
     });
     colorExpression.push('#e0e0e0'); // Default color
     if (coloredCount === 0) {
-        // Try fallback: show first available county result
+        // Fallback: try to color all available counties in contestResults
         const resultKeys = Object.keys(contestResults);
-        if (resultKeys.length > 0) {
-            // Use first available result to color one county
-            const fallbackFips = resultKeys[0];
-            const fallbackResult = contestResults[fallbackFips];
+        let fallbackCount = 0;
+        resultKeys.forEach(fips => {
+            const fallbackResult = contestResults[fips];
             if (fallbackResult && fallbackResult.competitiveness_color) {
-                colorExpression.push(fallbackFips, fallbackResult.competitiveness_color);
-                map.setPaintProperty('county-fill', 'fill-color', colorExpression);
-                map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
-                updateStatus('⚠️ Only one county matched for selected contest. Data may be incomplete.');
-                if (lastSelectedCounty) {
-                    showCountyDetails(lastSelectedCounty);
-                }
-                return;
+                colorExpression.push(fips, fallbackResult.competitiveness_color);
+                fallbackCount++;
             }
+        });
+        if (fallbackCount > 0) {
+            map.setPaintProperty('county-fill', 'fill-color', colorExpression);
+            map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
+            updateStatus(`⚠️ Fallback: ${fallbackCount} counties colored from available contest data.`);
+            if (lastSelectedCounty) {
+                showCountyDetails(lastSelectedCounty);
+            }
+            return;
         }
         updateStatus('❌ No counties matched for selected contest. Please check your data or contest selection.');
         return;
