@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SC Election Results Index</title>
+    <script>
+    async function loadIndex() {
+        const response = await fetch('sc_results_index.json');
+        const index = await response.json();
+        document.getElementById('index').textContent = JSON.stringify(index, null, 2);
+        // Example: populate dropdowns for years and contests
+        for (const type of ['precinct', 'county']) {
+            const years = index[type]?.years || [];
+            const yearSelect = document.getElementById(type + '_years');
+            yearSelect.innerHTML = '';
+            years.forEach(y => {
+                const opt = document.createElement('option');
+                opt.value = y;
+                opt.textContent = y;
+                yearSelect.appendChild(opt);
+            });
+        }
+    }
+    window.onload = loadIndex;
+    </script>
+</head>
+<body>
+    <h1>SC Election Results Index</h1>
+    <h2>Precinct Results</h2>
+    <label for="precinct_years">Year:</label>
+    <select id="precinct_years"></select>
+    <h2>County Results</h2>
+    <label for="county_years">Year:</label>
+    <select id="county_years"></select>
+    <h2>Raw Index Data</h2>
+    <pre id="index"></pre>
+</body>
+</html>
