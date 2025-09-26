@@ -1110,16 +1110,40 @@ fetch('sc_results_index.json')
       const [year, contestType, contestId, file, aggregation] = val.split('__');
       showLoadingSpinner(true);
       fetchAndDecompressJSONGZ('workspace_files/' + file)
-        .then(data => {
-          window.electionData = data;
-          showLoadingSpinner(false);
-          // Call your map update logic here
-          // ...existing code to update map and sidebar using window.electionData...
-        })
-        .catch(err => {
-          showLoadingSpinner(false);
-          updateStatus('❌ Error loading results: ' + err.message);
-        });
+                .then(data => {
+                    // Patch: handle both flat and nested contest/county result structures
+                    let results = null;
+                    if (data.results) {
+                        // Flat structure
+                        results = data.results;
+                    } else {
+                        // Nested structure: {CONTEST: {COUNTY: {...}}}
+                        // Find the first contest key
+                        const contestKeys = Object.keys(data);
+                        if (contestKeys.length > 0) {
+                            const contestData = data[contestKeys[0]];
+                            results = {};
+                            for (const countyName in contestData) {
+                                const countyResult = contestData[countyName];
+                                // Try to get FIPS from county name (if available)
+                                // Otherwise use county name as key
+                                let fips = countyResult.fips || countyResult.FIPS || countyResult.fips_code || null;
+                                if (!fips && window.countyNameToFips) {
+                                    fips = window.countyNameToFips[countyName.toUpperCase()];
+                                }
+                                results[fips || countyName] = countyResult;
+                            }
+                        }
+                    }
+                    window.electionData = { results };
+                    showLoadingSpinner(false);
+                    // Call your map update logic here
+                    // ...existing code to update map and sidebar using window.electionData...
+                })
+                .catch(err => {
+                    showLoadingSpinner(false);
+                    updateStatus('❌ Error loading results: ' + err.message);
+                });
     });
 
     // Auto-select the most recent contest (last option in last optgroup)
