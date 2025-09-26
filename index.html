@@ -1391,7 +1391,8 @@ function applyCategories() {
         if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
         else if (typeof fips === 'string') fips = fips.padStart(5, '0');
         const foundResult = contestResults[fips];
-        if (foundResult && foundResult.contest && foundResult.contest.toLowerCase().includes(selectedContestId.replace(/_\d+$/, '').replace(/_/g, ' ').toLowerCase()) && foundResult.competitiveness_color) {
+        // Loosen filter: color if result exists and has competitiveness_color
+        if (foundResult && foundResult.competitiveness_color) {
             colorExpression.push(fips, foundResult.competitiveness_color);
             coloredCount++;
         }
