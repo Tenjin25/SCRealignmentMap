@@ -607,8 +607,8 @@ html, body {
 </style>
 </head>
 <body>
-    <!-- Floating sidebar toggle button, only visible when sidebar is minimized -->
-    <button id="sidebar-float-toggle" style="position:fixed;top:24px;right:24px;z-index:10001;width:56px;height:56px;background:#2563eb;color:#fff;border:none;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.15);font-size:32px;display:none;align-items:center;justify-content:center;cursor:pointer;transition:box-shadow 0.2s,background 0.2s;">
+    <!-- Floating sidebar toggle button, visible when sidebar is minimized -->
+    <button id="sidebar-float-toggle" style="position:fixed;top:24px;right:24px;z-index:10001;width:56px;height:56px;background:#2563eb;color:#fff;border:none;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.15);font-size:32px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:box-shadow 0.2s,background 0.2s;">
         +
     </button>
     <script>
@@ -726,7 +726,7 @@ html, body {
         </div> <!-- End controls-content -->
     </div>
     <!-- Sidebar for County Details and Research Findings -->
-    <div class="sidebar" id="sidebar">
+    <div class="sidebar minimized" id="sidebar">
         <div class="sidebar-header" id="sidebar-header">
             <h3>📊 County Analysis</h3>
             <button class="minimize-btn" onclick="toggleSidebar()" id="sidebar-minimize-btn">−</button>
@@ -1356,6 +1356,23 @@ function applyCategories() {
     });
     colorExpression.push('#e0e0e0'); // Default color
     if (coloredCount === 0) {
+        // Try fallback: show first available county result
+        const resultKeys = Object.keys(contestResults);
+        if (resultKeys.length > 0) {
+            // Use first available result to color one county
+            const fallbackFips = resultKeys[0];
+            const fallbackResult = contestResults[fallbackFips];
+            if (fallbackResult && fallbackResult.competitiveness_color) {
+                colorExpression.push(fallbackFips, fallbackResult.competitiveness_color);
+                map.setPaintProperty('county-fill', 'fill-color', colorExpression);
+                map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
+                updateStatus('⚠️ Only one county matched for selected contest. Data may be incomplete.');
+                if (lastSelectedCounty) {
+                    showCountyDetails(lastSelectedCounty);
+                }
+                return;
+            }
+        }
         updateStatus('❌ No counties matched for selected contest. Please check your data or contest selection.');
         return;
     }
