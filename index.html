@@ -1059,6 +1059,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- Election Results Visualization (Dynamic Contest/Year) ---
 // Utility: decompress gzipped JSON using fflate (browser-compatible)
+// Browser-compatible fetch and decompress gzipped JSON (.json.gz) using fflate
+function fetchAndDecompressJSONGZ(url) {
+    return fetch(url)
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to fetch ' + url);
+            return response.arrayBuffer();
+        })
+        .then(buffer => {
+            // fflate must be loaded globally
+            if (typeof fflate === 'undefined') {
+                throw new Error('fflate library not loaded');
+            }
+            const uint8 = new Uint8Array(buffer);
+            const decompressed = fflate.decompressSync(uint8);
+            const text = new TextDecoder('utf-8').decode(decompressed);
+            return JSON.parse(text);
+        });
+}
 function showLoadingSpinner(show) {
   document.getElementById('loading-spinner').style.display = show ? 'block' : 'none';
 }
