@@ -7,10 +7,10 @@
     <!-- Ensure these utility scripts are loaded if not already in common.js -->
     <!-- Removed missing external scripts to resolve 404 errors -->
     <meta charset='utf-8'>
-    <title>SC Political Realignment Map (2008-2024)</title>
+    <title>SC Political Realignment Map (2006-2024)</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
-    <meta property="og:title" content="SC Political Realignment Map (2008-2024)">
-    <meta property="og:description" content="Interactive visualization of South Carolina's political trends from 2008 to 2024, showing county-level and precinct-level voting patterns.">
+    <meta property="og:title" content="SC Political Realignment Map (2006-2024)">
+    <meta property="og:description" content="Interactive visualization of South Carolina's political trends from 2006 to 2024, showing county-level and precinct-level voting patterns.">
     <meta property="og:image" content="preview.png">
     <meta name="twitter:card" content="summary_large_image">
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css' rel='stylesheet'>
@@ -671,19 +671,58 @@ html, body {
                 <label>📊 Contest Type:</label>
                 <select id="contest">
                     <option value="">Select a Contest...</option>
-                    <option value="president_2020">US President (2020)</option>
-                    <option value="president_2024">US President (2024)</option>
-                    <option value="us_senate_2020">US Senate (2020)</option>
-                    <option value="us_senate_2022">US Senate (2022)</option>
-                    <option value="governor_2022">SC Governor (2022)</option>
-                    <option value="secretary_of_state_2022">Secretary of State (2022)</option>
-                    <option value="attorney_general_2022">Attorney General (2022)</option>
-                    <option value="treasurer_2022">Treasurer (2022)</option>
-                    <option value="superintendent_education_2022">Superintendent of Education (2022)</option>
-                    <option value="agriculture_commissioner_2022">Agriculture Commissioner (2022)</option>
-                    <option value="comptroller_general_2022">Comptroller General (2022)</option>
-                    <option value="adjutant_general_2022">Adjutant General (2022)</option>
-                    <option value="other_2022">Other Statewide (2022)</option>
+                    <optgroup label="2006">
+                        <option value="gubernatorial_2006_1__gubernatorial__county_results_2006.json.gz__county">Governor (2006)</option>
+                        <option value="lt_governor_2006_1__lt_governor__county_results_2006.json.gz__county">Lt. Governor (2006)</option>
+                        <option value="secretary_of_state_2006_1__secretary_of_state__county_results_2006.json.gz__county">Secretary of State (2006)</option>
+                        <option value="treasurer_2006_1__treasurer__county_results_2006.json.gz__county">Treasurer (2006)</option>
+                        <option value="attorney_general_2006_1__attorney_general__county_results_2006.json.gz__county">Attorney General (2006)</option>
+                        <option value="comptroller_general_2006_1__comptroller_general__county_results_2006.json.gz__county">Comptroller General (2006)</option>
+                        <option value="commissioner_agriculture_2006_1__commissioner_agriculture__county_results_2006.json.gz__county">Commissioner of Agriculture (2006)</option>
+                    </optgroup>
+                    <optgroup label="2008">
+                        <option value="presidential_2008_1__presidential__county_results_2008.json.gz__county">US President (2008)</option>
+                        <option value="senate_2008_1__senate__county_results_2008.json.gz__county">US Senate (2008)</option>
+                    </optgroup>
+                    <optgroup label="2012">
+                        <option value="presidential_2012_1__presidential__county_results_2012.json.gz__county">US President (2012)</option>
+                    </optgroup>
+                    <optgroup label="2014">
+                        <option value="gubernatorial_2014_1__gubernatorial__county_results_2014.json.gz__county">Governor (2014)</option>
+                        <option value="lt_governor_2014_1__lt_governor__county_results_2014.json.gz__county">Lt. Governor (2014)</option>
+                        <option value="secretary_of_state_2014_1__secretary_of_state__county_results_2014.json.gz__county">Secretary of State (2014)</option>
+                        <option value="treasurer_2014_1__treasurer__county_results_2014.json.gz__county">Treasurer (2014)</option>
+                        <option value="attorney_general_2014_1__attorney_general__county_results_2014.json.gz__county">Attorney General (2014)</option>
+                        <option value="comptroller_general_2014_1__comptroller_general__county_results_2014.json.gz__county">Comptroller General (2014)</option>
+                        <option value="commissioner_agriculture_2014_1__commissioner_agriculture__county_results_2014.json.gz__county">Commissioner of Agriculture (2014)</option>
+                        <option value="senate_2014_1__senate__county_results_2014.json.gz__county">US Senate (2014)</option>
+                    </optgroup>
+                    <optgroup label="2016">
+                        <option value="presidential_2016_1__presidential__county_results_2016.json.gz__county">US President (2016)</option>
+                        <option value="senate_2016_1__senate__county_results_2016.json.gz__county">US Senate (2016)</option>
+                    </optgroup>
+                    <optgroup label="2018">
+                        <option value="secretary_of_state_2018_1__secretary_of_state__county_results_2018.json.gz__county">Secretary of State (2018)</option>
+                        <option value="treasurer_2018_1__treasurer__county_results_2018.json.gz__county">Treasurer (2018)</option>
+                        <option value="attorney_general_2018_1__attorney_general__county_results_2018.json.gz__county">Attorney General (2018)</option>
+                        <option value="comptroller_general_2018_1__comptroller_general__county_results_2018.json.gz__county">Comptroller General (2018)</option>
+                        <option value="commissioner_agriculture_2018_1__commissioner_agriculture__county_results_2018.json.gz__county">Commissioner of Agriculture (2018)</option>
+                    </optgroup>
+                    <optgroup label="2020">
+                        <option value="presidential_2020_1__presidential__county_results_2020.json.gz__county">US President (2020)</option>
+                        <option value="senate_2020_1__senate__county_results_2020.json.gz__county">US Senate (2020)</option>
+                    </optgroup>
+                    <optgroup label="2022">
+                        <option value="secretary_of_state_2022_1__secretary_of_state__county_results_2022.json.gz__county">Secretary of State (2022)</option>
+                        <option value="treasurer_2022_1__treasurer__county_results_2022.json.gz__county">Treasurer (2022)</option>
+                        <option value="attorney_general_2022_1__attorney_general__county_results_2022.json.gz__county">Attorney General (2022)</option>
+                        <option value="comptroller_general_2022_1__comptroller_general__county_results_2022.json.gz__county">Comptroller General (2022)</option>
+                        <option value="commissioner_agriculture_2022_1__commissioner_agriculture__county_results_2022.json.gz__county">Commissioner of Agriculture (2022)</option>
+                        <option value="senate_2022_1__senate__county_results_2022.json.gz__county">US Senate (2022)</option>
+                    </optgroup>
+                    <optgroup label="2024">
+                        <option value="presidential_2024_1__presidential__county_results_2024.json.gz__county">US President (2024)</option>
+                    </optgroup>
                 </select>
             </div>
             <button onclick="applyCategories()" class="btn-primary">
