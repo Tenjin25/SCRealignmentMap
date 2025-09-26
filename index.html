@@ -1380,7 +1380,10 @@ function applyCategories() {
         return;
     }
     const contestResults = window.electionData.results;
-    // Build a color expression for Mapbox
+    // Get selected contest id from dropdown value
+    // Use contestVal already declared earlier in the function
+    const selectedContestId = contestVal.split('__')[0];
+    // Build a color expression for Mapbox, filtering by contest field
     const colorExpression = ['match', ['get', 'GEOID20']];
     let coloredCount = 0;
     countiesSource._data.features.forEach(f => {
@@ -1388,7 +1391,7 @@ function applyCategories() {
         if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
         else if (typeof fips === 'string') fips = fips.padStart(5, '0');
         const foundResult = contestResults[fips];
-        if (foundResult && foundResult.competitiveness_color) {
+        if (foundResult && foundResult.contest && foundResult.contest.toLowerCase().includes(selectedContestId.replace(/_\d+$/, '').replace(/_/g, ' ').toLowerCase()) && foundResult.competitiveness_color) {
             colorExpression.push(fips, foundResult.competitiveness_color);
             coloredCount++;
         }

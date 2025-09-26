@@ -1,0 +1,89 @@
+Years found: ['2006', '2008', '2012', '2014', '2016', '2018', '2020', '2022', '2024']
+
+Year: 2006
+  Contest Type: gubernatorial
+    Contest ID: gubernatorial_2006_1 | Name: gubernatorial_2006_1
+  Contest Type: lt_governor
+    Contest ID: lt_governor_2006_1 | Name: lt_governor_2006_1
+  Contest Type: secretary_of_state
+    Contest ID: secretary_of_state_2006_1 | Name: secretary_of_state_2006_1
+  Contest Type: treasurer
+    Contest ID: treasurer_2006_1 | Name: treasurer_2006_1
+  Contest Type: attorney_general
+    Contest ID: attorney_general_2006_1 | Name: attorney_general_2006_1
+  Contest Type: comptroller_general
+    Contest ID: comptroller_general_2006_1 | Name: comptroller_general_2006_1
+  Contest Type: commissioner_agriculture
+    Contest ID: commissioner_agriculture_2006_1 | Name: commissioner_agriculture_2006_1
+
+Year: 2008
+  Contest Type: presidential
+    Contest ID: presidential_2008_1 | Name: presidential_2008_1
+  Contest Type: senate
+    Contest ID: senate_2008_1 | Name: senate_2008_1
+
+Year: 2012
+  Contest Type: presidential
+    Contest ID: presidential_2012_1 | Name: presidential_2012_1
+
+Year: 2014
+  Contest Type: gubernatorial
+    Contest ID: gubernatorial_2014_1 | Name: gubernatorial_2014_1
+  Contest Type: lt_governor
+    Contest ID: lt_governor_2014_1 | Name: lt_governor_2014_1
+  Contest Type: secretary_of_state
+    Contest ID: secretary_of_state_2014_1 | Name: secretary_of_state_2014_1
+  Contest Type: treasurer
+    Contest ID: treasurer_2014_1 | Name: treasurer_2014_1
+  Contest Type: attorney_general
+    Contest ID: attorney_general_2014_1 | Name: attorney_general_2014_1
+  Contest Type: comptroller_general
+    Contest ID: comptroller_general_2014_1 | Name: comptroller_general_2014_1
+  Contest Type: commissioner_agriculture
+    Contest ID: commissioner_agriculture_2014_1 | Name: commissioner_agriculture_2014_1
+  Contest Type: senate
+    Contest ID: senate_2014_1 | Name: senate_2014_1
+
+Year: 2016
+  Contest Type: presidential
+    Contest ID: presidential_2016_1 | Name: presidential_2016_1
+  Contest Type: senate
+    Contest ID: senate_2016_1 | Name: senate_2016_1
+
+Year: 2018
+  Contest Type: secretary_of_state
+    Contest ID: secretary_of_state_2018_1 | Name: secretary_of_state_2018_1
+  Contest Type: treasurer
+    Contest ID: treasurer_2018_1 | Name: treasurer_2018_1
+  Contest Type: attorney_general
+    Contest ID: attorney_general_2018_1 | Name: attorney_general_2018_1
+  Contest Type: comptroller_general
+    Contest ID: comptroller_general_2018_1 | Name: comptroller_general_2018_1
+  Contest Type: commissioner_agriculture
+    Contest ID: commissioner_agriculture_2018_1 | Name: commissioner_agriculture_2018_1
+
+Year: 2020
+  Contest Type: presidential
+    Contest ID: presidential_2020_1 | Name: presidential_2020_1
+  Contest Type: senate
+    Contest ID: senate_2020_1 | Name: senate_2020_1
+
+Year: 2022
+  Contest Type: secretary_of_state
+    Contest ID: secretary_of_state_2022_1 | Name: secretary_of_state_2022_1
+  Contest Type: treasurer
+    Contest ID: treasurer_2022_1 | Name: treasurer_2022_1
+  Contest Type: attorney_general
+    Contest ID: attorney_general_2022_1 | Name: attorney_general_2022_1
+  Contest Type: comptroller_general
+    Contest ID: comptroller_general_2022_1 | Name: comptroller_general_2022_1
+  Contest Type: commissioner_agriculture
+    Contest ID: commissioner_agriculture_2022_1 | Name: commissioner_agriculture_2022_1
+  Contest Type: senate
+    Contest ID: senate_2022_1 | Name: senate_2022_1
+
+Year: 2024
+  Contest Type: presidential
+    Contest ID: presidential_2024_1 | Name: presidential_2024_1
+      Counties present: ['ABBEVILLE', 'AIKEN', 'ALLENDALE', 'ANDERSON', 'BAMBERG', 'BARNWELL', 'BEAUFORT', 'BERKELEY', 'CALHOUN', 'CHARLESTON', 'CHEROKEE', 'CHESTER', 'CHESTERFIELD', 'CLARENDON', 'COLLETON', 'DARLINGTON', 'DILLON', 'DORCHESTER', 'EDGEFIELD', 'FAIRFIELD', 'FLORENCE', 'GEORGETOWN', 'GREENVILLE', 'GREENWOOD', 'HAMPTON', 'HORRY', 'JASPER', 'KERSHAW', 'LANCASTER', 'LAURENS', 'LEE', 'LEXINGTON', 'MARION', 'MARLBORO', 'MCCORMICK', 'NEWBERRY', 'OCONEE', 'ORANGEBURG', 'PICKENS', 'RICHLAND', 'SALUDA', 'SPARTANBURG', 'SUMTER', 'UNION', 'WILLIAMSBURG', 'YORK']
+      All counties present!
