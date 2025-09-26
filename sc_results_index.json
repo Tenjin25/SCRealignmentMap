@@ -16,6 +16,69 @@
   "county": {
     "years": ["2006","2008","2012","2014","2016","2018","2020","2022","2024"],
     "contests_by_year": {
+      "2006": [
+        {
+          "id": "governor_2006",
+          "name": "SC Governor (2006)",
+          "type": "governor",
+          "file": "county_results_2006.json.gz",
+          "aggregation": "county"
+        }
+      ],
+      "2008": [
+        {
+          "id": "president_2008",
+          "name": "US President (2008)",
+          "type": "presidential",
+          "file": "county_results_2008.json.gz",
+          "aggregation": "county"
+        }
+      ],
+      "2012": [
+        {
+          "id": "president_2012",
+          "name": "US President (2012)",
+          "type": "presidential",
+          "file": "county_results_2012.json.gz",
+          "aggregation": "county"
+        }
+      ],
+      "2014": [
+        {
+          "id": "governor_2014",
+          "name": "SC Governor (2014)",
+          "type": "governor",
+          "file": "county_results_2014.json.gz",
+          "aggregation": "county"
+        }
+      ],
+      "2016": [
+        {
+          "id": "president_2016",
+          "name": "US President (2016)",
+          "type": "presidential",
+          "file": "county_results_2016.json.gz",
+          "aggregation": "county"
+        }
+      ],
+      "2018": [
+        {
+          "id": "governor_2018",
+          "name": "SC Governor (2018)",
+          "type": "governor",
+          "file": "county_results_2018.json.gz",
+          "aggregation": "county"
+        }
+      ],
+      "2020": [
+        {
+          "id": "president_2020",
+          "name": "US President (2020)",
+          "type": "presidential",
+          "file": "county_results_2020.json.gz",
+          "aggregation": "county"
+        }
+      ],
       "2024": [
         {
           "id": "president_2024",
