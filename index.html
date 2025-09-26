@@ -1388,6 +1388,16 @@ function applyCategories() {
     // Build a color expression for Mapbox, filtering by contest field
     const colorExpression = ['match', ['get', 'GEOID20']];
     let coloredCount = 0;
+    // Log all FIPS codes from GeoJSON and contestResults for debugging
+    const geojsonFipsList = countiesSource._data.features.map(f => {
+        let fips = f.properties.GEOID20;
+        if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
+        else if (typeof fips === 'string') fips = fips.padStart(5, '0');
+        return fips;
+    });
+    const resultsFipsList = Object.keys(contestResults);
+    console.log('GeoJSON FIPS:', geojsonFipsList);
+    console.log('Contest Results FIPS:', resultsFipsList);
     countiesSource._data.features.forEach(f => {
         let fips = f.properties.GEOID20;
         if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
