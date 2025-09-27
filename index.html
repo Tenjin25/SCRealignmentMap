@@ -1470,6 +1470,8 @@ function applyCategories() {
 window.applyCategories = applyCategories;
 // --- END: UI/Map Functions from NC Map ---
 
+// ...existing code...
+
 function showCountyDetails(countyFIPS) {
     if (!window.electionData) {
         updateStatus('❌ Election data not loaded');
@@ -1483,17 +1485,23 @@ function showCountyDetails(countyFIPS) {
     if (foundResult) {
         const demVotes = foundResult.dem_votes || 0;
         const repVotes = foundResult.rep_votes || 0;
-        const totalVotes = foundResult.total_votes || (demVotes + repVotes);
-        const demPct = totalVotes ? ((demVotes / totalVotes) * 100).toFixed(2) : '0.00';
-        const repPct = totalVotes ? ((repVotes / totalVotes) * 100).toFixed(2) : '0.00';
+        // BUG FIX: Use two_party_total for percentages and margin calculations
+        const twoPartyTotal = foundResult.two_party_total !== undefined
+            ? foundResult.two_party_total
+            : (demVotes + repVotes);
+        const totalVotes = foundResult.total_votes || twoPartyTotal;
+        const demPct = twoPartyTotal ? ((demVotes / twoPartyTotal) * 100).toFixed(2) : '0.00';
+        const repPct = twoPartyTotal ? ((repVotes / twoPartyTotal) * 100).toFixed(2) : '0.00';
         let demCandidate = foundResult.dem_candidate || (foundResult.candidates && foundResult.candidates.DEM) || 'Democratic';
         let repCandidate = foundResult.rep_candidate || (foundResult.candidates && foundResult.candidates.REP) || 'Republican';
         const margin = repVotes - demVotes;
-        const marginPct = foundResult.margin_pct !== undefined ? foundResult.margin_pct : ((Math.abs(margin) / totalVotes) * 100).toFixed(2);
+        const marginPct = twoPartyTotal ? (Math.abs(margin) / twoPartyTotal * 100).toFixed(2) : '0.00';
         const winner = margin > 0 ? 'Republican' : 'Democratic';
         const winnerCandidate = margin > 0 ? repCandidate : demCandidate;
         const winnerColor = winner === 'Republican' ? '#dc2626' : '#2563eb';
         const marginText = margin > 0 ? 'R+' + marginPct + '%' : 'D+' + marginPct + '%';
+        var competitiveness = foundResult.competitiveness_category || (foundResult.competitiveness && foundResult.competitiveness.category) || 'N/A';
+        var compColor = foundResult.competitiveness_color || (foundResult.competitiveness && foundResult.competitiveness.color) || '#6b7280';
         sidebarContent += '<div class="result-summary">';
         sidebarContent += '<h5>📊 Election Results</h5>';
         sidebarContent += `<p><strong>Total Votes:</strong> ${totalVotes.toLocaleString()}</p>`;
@@ -1514,8 +1522,6 @@ function showCountyDetails(countyFIPS) {
         sidebarContent += `</div>`;
         sidebarContent += `<div class="competitiveness-section">`;
         sidebarContent += '<h5>🎯 Competitiveness</h5>';
-        let competitiveness = foundResult.competitiveness_category || (foundResult.competitiveness && foundResult.competitiveness.category) || 'N/A';
-        let compColor = foundResult.competitiveness_color || (foundResult.competitiveness && foundResult.competitiveness.color) || '#6b7280';
         sidebarContent += `<p style="color: ${compColor}; font-weight: bold; font-size: 16px;">${competitiveness}</p>`;
         if (marginText !== 'N/A' && parseFloat(marginPct) <= 0.5) {
             sidebarContent += `<p style="color: #f59e0b; font-style: italic;">(Extremely close!)</p>`;
