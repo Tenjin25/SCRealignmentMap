@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 7130,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 2758,
+    "rep_votes": 4369,
+    "dem_pct": 38.68,
+    "rep_pct": 61.28,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 45216,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 14280,
+    "rep_votes": 30899,
+    "dem_pct": 31.58,
+    "rep_pct": 68.34,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 2271,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 1692,
+    "rep_votes": 579,
+    "dem_pct": 74.5,
+    "rep_pct": 25.5,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 44781,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 11871,
+    "rep_votes": 32848,
+    "dem_pct": 26.51,
+    "rep_pct": 73.35,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 4894,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3293,
+    "rep_votes": 1595,
+    "dem_pct": 67.29,
+    "rep_pct": 32.59,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 6131,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 2926,
+    "rep_votes": 3202,
+    "dem_pct": 47.72,
+    "rep_pct": 52.23,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 47433,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 16565,
+    "rep_votes": 30836,
+    "dem_pct": 34.92,
+    "rep_pct": 65.01,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 42990,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 17436,
+    "rep_votes": 25512,
+    "dem_pct": 40.56,
+    "rep_pct": 59.34,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 5212,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 2752,
+    "rep_votes": 2455,
+    "dem_pct": 52.8,
+    "rep_pct": 47.1,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 98808,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 49126,
+    "rep_votes": 49556,
+    "dem_pct": 49.72,
+    "rep_pct": 50.15,
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 12289,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3496,
+    "rep_votes": 8781,
+    "dem_pct": 28.45,
+    "rep_pct": 71.45,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 10181,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 4463,
+    "rep_votes": 5709,
+    "dem_pct": 43.84,
+    "rep_pct": 56.08,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 7924,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3711,
+    "rep_votes": 4207,
+    "dem_pct": 46.83,
+    "rep_pct": 53.09,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 10336,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 5673,
+    "rep_votes": 4656,
+    "dem_pct": 54.89,
+    "rep_pct": 45.05,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 10777,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 5029,
+    "rep_votes": 5745,
+    "dem_pct": 46.66,
+    "rep_pct": 53.31,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 18574,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 9472,
+    "rep_votes": 9094,
+    "dem_pct": 51.0,
+    "rep_pct": 48.96,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 6380,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3294,
+    "rep_votes": 3081,
+    "dem_pct": 51.63,
+    "rep_pct": 48.29,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 34202,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 13688,
+    "rep_votes": 20474,
+    "dem_pct": 40.02,
+    "rep_pct": 59.86,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 6974,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 2726,
+    "rep_votes": 4240,
+    "dem_pct": 39.09,
+    "rep_pct": 60.8,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 8117,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 4997,
+    "rep_votes": 3115,
+    "dem_pct": 61.56,
+    "rep_pct": 38.38,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 36315,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 17359,
+    "rep_votes": 18929,
+    "dem_pct": 47.8,
+    "rep_pct": 52.12,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 20408,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 8786,
+    "rep_votes": 11611,
+    "dem_pct": 43.05,
+    "rep_pct": 56.89,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 123931,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 38230,
+    "rep_votes": 85386,
+    "dem_pct": 30.85,
+    "rep_pct": 68.9,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 17679,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 6444,
+    "rep_votes": 11211,
+    "dem_pct": 36.45,
+    "rep_pct": 63.41,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 5800,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3624,
+    "rep_votes": 2174,
+    "dem_pct": 62.48,
+    "rep_pct": 37.48,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 68067,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 20786,
+    "rep_votes": 47234,
+    "dem_pct": 30.54,
+    "rep_pct": 69.39,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 6634,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3508,
+    "rep_votes": 3126,
+    "dem_pct": 52.88,
+    "rep_pct": 47.12,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 19358,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 7663,
+    "rep_votes": 11675,
+    "dem_pct": 39.59,
+    "rep_pct": 60.31,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 19966,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 7032,
+    "rep_votes": 12920,
+    "dem_pct": 35.22,
+    "rep_pct": 64.71,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 15140,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 5140,
+    "rep_votes": 9978,
+    "dem_pct": 33.95,
+    "rep_pct": 65.9,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 5761,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3891,
+    "rep_votes": 1868,
+    "dem_pct": 67.54,
+    "rep_pct": 32.42,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 75633,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 21764,
+    "rep_votes": 53737,
+    "dem_pct": 28.78,
+    "rep_pct": 71.05,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 8738,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 5603,
+    "rep_votes": 3129,
+    "dem_pct": 64.12,
+    "rep_pct": 35.81,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 6192,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3814,
+    "rep_votes": 2376,
+    "dem_pct": 61.6,
+    "rep_pct": 38.37,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 3585,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 1604,
+    "rep_votes": 1980,
+    "dem_pct": 44.74,
+    "rep_pct": 55.23,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 10937,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 4117,
+    "rep_votes": 6811,
+    "dem_pct": 37.64,
+    "rep_pct": 62.27,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 20279,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 4815,
+    "rep_votes": 15443,
+    "dem_pct": 23.74,
+    "rep_pct": 76.15,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 28019,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 20200,
+    "rep_votes": 7805,
+    "dem_pct": 72.09,
+    "rep_pct": 27.86,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 27245,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 5846,
+    "rep_votes": 21328,
+    "dem_pct": 21.46,
+    "rep_pct": 78.28,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 110931,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 70736,
+    "rep_votes": 40044,
+    "dem_pct": 63.77,
+    "rep_pct": 36.1,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 5651,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 1934,
+    "rep_votes": 3713,
+    "dem_pct": 34.22,
+    "rep_pct": 65.71,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 64707,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 20436,
+    "rep_votes": 44145,
+    "dem_pct": 31.58,
+    "rep_pct": 68.22,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 29910,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 16692,
+    "rep_votes": 13203,
+    "dem_pct": 55.81,
+    "rep_pct": 44.14,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 7841,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 3158,
+    "rep_votes": 4674,
+    "dem_pct": 40.28,
+    "rep_pct": 59.61,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 10710,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 7315,
+    "rep_votes": 3387,
+    "dem_pct": 68.3,
+    "rep_pct": 31.62,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "total_votes": 57085,
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 19062,
+    "rep_votes": 37981,
+    "dem_pct": 33.39,
+    "rep_pct": 66.53,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

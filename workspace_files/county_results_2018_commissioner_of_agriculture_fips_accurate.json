@@ -1,0 +1,1244 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 5729,
+    "other_votes": 1155,
+    "total_votes": 6884,
+    "all_parties": {
+      "UNC": 504,
+      "GRN": 634,
+      "REP": 5729,
+      "NON": 17
+    },
+    "county_fips": "45001",
+    "two_party_total": 5729,
+    "margin": 5729,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 38534,
+    "other_votes": 10222,
+    "total_votes": 48756,
+    "all_parties": {
+      "UNC": 3664,
+      "GRN": 6316,
+      "REP": 38534,
+      "NON": 242
+    },
+    "county_fips": "45003",
+    "two_party_total": 38534,
+    "margin": 38534,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 669,
+    "other_votes": 722,
+    "total_votes": 1391,
+    "all_parties": {
+      "UNC": 484,
+      "GRN": 232,
+      "REP": 669,
+      "NON": 6
+    },
+    "county_fips": "45005",
+    "two_party_total": 669,
+    "margin": 669,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 46626,
+    "other_votes": 9089,
+    "total_votes": 55715,
+    "all_parties": {
+      "UNC": 3097,
+      "GRN": 5846,
+      "REP": 46626,
+      "NON": 146
+    },
+    "county_fips": "45007",
+    "two_party_total": 46626,
+    "margin": 46626,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 1694,
+    "other_votes": 636,
+    "total_votes": 2330,
+    "all_parties": {
+      "UNC": 401,
+      "GRN": 218,
+      "REP": 1694,
+      "NON": 17
+    },
+    "county_fips": "45009",
+    "two_party_total": 1694,
+    "margin": 1694,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3980,
+    "other_votes": 778,
+    "total_votes": 4758,
+    "all_parties": {
+      "UNC": 383,
+      "GRN": 373,
+      "REP": 3980,
+      "NON": 22
+    },
+    "county_fips": "45011",
+    "two_party_total": 3980,
+    "margin": 3980,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 41219,
+    "other_votes": 13433,
+    "total_votes": 54652,
+    "all_parties": {
+      "UNC": 3487,
+      "GRN": 9769,
+      "REP": 41219,
+      "NON": 177
+    },
+    "county_fips": "45013",
+    "two_party_total": 41219,
+    "margin": 41219,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 38370,
+    "other_votes": 12626,
+    "total_votes": 50996,
+    "all_parties": {
+      "UNC": 4646,
+      "GRN": 7774,
+      "REP": 38370,
+      "NON": 206
+    },
+    "county_fips": "45015",
+    "two_party_total": 38370,
+    "margin": 38370,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3293,
+    "other_votes": 983,
+    "total_votes": 4276,
+    "all_parties": {
+      "UNC": 500,
+      "GRN": 456,
+      "REP": 3293,
+      "NON": 27
+    },
+    "county_fips": "45017",
+    "two_party_total": 3293,
+    "margin": 3293,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 74674,
+    "other_votes": 38566,
+    "total_votes": 113240,
+    "all_parties": {
+      "UNC": 9180,
+      "GRN": 29069,
+      "REP": 74674,
+      "NON": 317
+    },
+    "county_fips": "45019",
+    "two_party_total": 74674,
+    "margin": 74674,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 12054,
+    "other_votes": 1722,
+    "total_votes": 13776,
+    "all_parties": {
+      "UNC": 820,
+      "GRN": 882,
+      "REP": 12054,
+      "NON": 20
+    },
+    "county_fips": "45021",
+    "two_party_total": 12054,
+    "margin": 12054,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 5870,
+    "other_votes": 1916,
+    "total_votes": 7786,
+    "all_parties": {
+      "UNC": 992,
+      "GRN": 895,
+      "REP": 5870,
+      "NON": 29
+    },
+    "county_fips": "45023",
+    "two_party_total": 5870,
+    "margin": 5870,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 7114,
+    "other_votes": 1831,
+    "total_votes": 8945,
+    "all_parties": {
+      "UNC": 1005,
+      "GRN": 786,
+      "REP": 7114,
+      "NON": 40
+    },
+    "county_fips": "45025",
+    "two_party_total": 7114,
+    "margin": 7114,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 6183,
+    "other_votes": 1652,
+    "total_votes": 7835,
+    "all_parties": {
+      "UNC": 956,
+      "GRN": 685,
+      "REP": 6183,
+      "NON": 11
+    },
+    "county_fips": "45027",
+    "two_party_total": 6183,
+    "margin": 6183,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 7455,
+    "other_votes": 1946,
+    "total_votes": 9401,
+    "all_parties": {
+      "UNC": 931,
+      "GRN": 976,
+      "REP": 7455,
+      "NON": 39
+    },
+    "county_fips": "45029",
+    "two_party_total": 7455,
+    "margin": 7455,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 12730,
+    "other_votes": 3471,
+    "total_votes": 16201,
+    "all_parties": {
+      "UNC": 1789,
+      "GRN": 1628,
+      "REP": 12730,
+      "NON": 54
+    },
+    "county_fips": "45031",
+    "two_party_total": 12730,
+    "margin": 12730,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4287,
+    "other_votes": 1179,
+    "total_votes": 5466,
+    "all_parties": {
+      "UNC": 679,
+      "GRN": 483,
+      "REP": 4287,
+      "NON": 17
+    },
+    "county_fips": "45033",
+    "two_party_total": 4287,
+    "margin": 4287,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 30057,
+    "other_votes": 10452,
+    "total_votes": 40509,
+    "all_parties": {
+      "UNC": 3622,
+      "GRN": 6686,
+      "REP": 30057,
+      "NON": 144
+    },
+    "county_fips": "45035",
+    "two_party_total": 30057,
+    "margin": 30057,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 5870,
+    "other_votes": 1298,
+    "total_votes": 7168,
+    "all_parties": {
+      "UNC": 617,
+      "GRN": 662,
+      "REP": 5870,
+      "NON": 19
+    },
+    "county_fips": "45037",
+    "two_party_total": 5870,
+    "margin": 5870,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3796,
+    "other_votes": 2344,
+    "total_votes": 6140,
+    "all_parties": {
+      "UNC": 1505,
+      "GRN": 790,
+      "REP": 3796,
+      "NON": 49
+    },
+    "county_fips": "45039",
+    "two_party_total": 3796,
+    "margin": 3796,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 25133,
+    "other_votes": 7640,
+    "total_votes": 32773,
+    "all_parties": {
+      "UNC": 3771,
+      "GRN": 3739,
+      "REP": 25133,
+      "NON": 130
+    },
+    "county_fips": "45041",
+    "two_party_total": 25133,
+    "margin": 25133,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 15285,
+    "other_votes": 3683,
+    "total_votes": 18968,
+    "all_parties": {
+      "UNC": 1350,
+      "GRN": 2283,
+      "REP": 15285,
+      "NON": 50
+    },
+    "county_fips": "45043",
+    "two_party_total": 15285,
+    "margin": 15285,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 113884,
+    "other_votes": 33252,
+    "total_votes": 147136,
+    "all_parties": {
+      "UNC": 8857,
+      "GRN": 23706,
+      "REP": 113884,
+      "NON": 689
+    },
+    "county_fips": "45045",
+    "two_party_total": 113884,
+    "margin": 113884,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 14996,
+    "other_votes": 3967,
+    "total_votes": 18963,
+    "all_parties": {
+      "UNC": 1774,
+      "GRN": 2131,
+      "REP": 14996,
+      "NON": 62
+    },
+    "county_fips": "45047",
+    "two_party_total": 14996,
+    "margin": 14996,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 2760,
+    "other_votes": 1189,
+    "total_votes": 3949,
+    "all_parties": {
+      "UNC": 747,
+      "GRN": 432,
+      "REP": 2760,
+      "NON": 10
+    },
+    "county_fips": "45049",
+    "two_party_total": 2760,
+    "margin": 2760,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 76164,
+    "other_votes": 14845,
+    "total_votes": 91009,
+    "all_parties": {
+      "UNC": 4507,
+      "GRN": 10071,
+      "REP": 76164,
+      "NON": 267
+    },
+    "county_fips": "45051",
+    "two_party_total": 76164,
+    "margin": 76164,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4509,
+    "other_votes": 1721,
+    "total_votes": 6230,
+    "all_parties": {
+      "UNC": 776,
+      "GRN": 924,
+      "REP": 4509,
+      "NON": 21
+    },
+    "county_fips": "45053",
+    "two_party_total": 4509,
+    "margin": 4509,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 15435,
+    "other_votes": 3693,
+    "total_votes": 19128,
+    "all_parties": {
+      "UNC": 1539,
+      "GRN": 2104,
+      "REP": 15435,
+      "NON": 50
+    },
+    "county_fips": "45055",
+    "two_party_total": 15435,
+    "margin": 15435,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 20882,
+    "other_votes": 6145,
+    "total_votes": 27027,
+    "all_parties": {
+      "UNC": 2344,
+      "GRN": 3711,
+      "REP": 20882,
+      "NON": 90
+    },
+    "county_fips": "45057",
+    "two_party_total": 20882,
+    "margin": 20882,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 13831,
+    "other_votes": 2856,
+    "total_votes": 16687,
+    "all_parties": {
+      "UNC": 1256,
+      "GRN": 1523,
+      "REP": 13831,
+      "NON": 77
+    },
+    "county_fips": "45059",
+    "two_party_total": 13831,
+    "margin": 13831,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 2335,
+    "other_votes": 1048,
+    "total_votes": 3383,
+    "all_parties": {
+      "UNC": 637,
+      "GRN": 398,
+      "REP": 2335,
+      "NON": 13
+    },
+    "county_fips": "45061",
+    "two_party_total": 2335,
+    "margin": 2335,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 71048,
+    "other_votes": 16508,
+    "total_votes": 87556,
+    "all_parties": {
+      "UNC": 5395,
+      "GRN": 10891,
+      "REP": 71048,
+      "NON": 222
+    },
+    "county_fips": "45063",
+    "two_party_total": 71048,
+    "margin": 71048,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4247,
+    "other_votes": 1690,
+    "total_votes": 5937,
+    "all_parties": {
+      "UNC": 932,
+      "GRN": 720,
+      "REP": 4247,
+      "NON": 38
+    },
+    "county_fips": "45065",
+    "two_party_total": 4247,
+    "margin": 4247,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3420,
+    "other_votes": 1653,
+    "total_votes": 5073,
+    "all_parties": {
+      "UNC": 990,
+      "GRN": 651,
+      "REP": 3420,
+      "NON": 12
+    },
+    "county_fips": "45067",
+    "two_party_total": 3420,
+    "margin": 3420,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 2397,
+    "other_votes": 768,
+    "total_votes": 3165,
+    "all_parties": {
+      "UNC": 351,
+      "GRN": 412,
+      "REP": 2397,
+      "NON": 5
+    },
+    "county_fips": "45069",
+    "two_party_total": 2397,
+    "margin": 2397,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 8593,
+    "other_votes": 1684,
+    "total_votes": 10277,
+    "all_parties": {
+      "UNC": 841,
+      "GRN": 817,
+      "REP": 8593,
+      "NON": 26
+    },
+    "county_fips": "45071",
+    "two_party_total": 8593,
+    "margin": 8593,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 21254,
+    "other_votes": 3598,
+    "total_votes": 24852,
+    "all_parties": {
+      "UNC": 965,
+      "GRN": 2576,
+      "REP": 21254,
+      "NON": 57
+    },
+    "county_fips": "45073",
+    "two_party_total": 21254,
+    "margin": 21254,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 11116,
+    "other_votes": 6260,
+    "total_votes": 17376,
+    "all_parties": {
+      "UNC": 3410,
+      "GRN": 2754,
+      "REP": 11116,
+      "NON": 96
+    },
+    "county_fips": "45075",
+    "two_party_total": 11116,
+    "margin": 11116,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 30392,
+    "other_votes": 4849,
+    "total_votes": 35241,
+    "all_parties": {
+      "UNC": 1137,
+      "GRN": 3580,
+      "REP": 30392,
+      "NON": 132
+    },
+    "county_fips": "45077",
+    "two_party_total": 30392,
+    "margin": 30392,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 55607,
+    "other_votes": 45375,
+    "total_votes": 100982,
+    "all_parties": {
+      "UNC": 19774,
+      "GRN": 25004,
+      "REP": 55607,
+      "NON": 597
+    },
+    "county_fips": "45079",
+    "two_party_total": 55607,
+    "margin": 55607,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4880,
+    "other_votes": 659,
+    "total_votes": 5539,
+    "all_parties": {
+      "UNC": 299,
+      "GRN": 346,
+      "REP": 4880,
+      "NON": 14
+    },
+    "county_fips": "45081",
+    "two_party_total": 4880,
+    "margin": 4880,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 62932,
+    "other_votes": 14171,
+    "total_votes": 77103,
+    "all_parties": {
+      "UNC": 4823,
+      "GRN": 9060,
+      "REP": 62932,
+      "NON": 288
+    },
+    "county_fips": "45083",
+    "two_party_total": 62932,
+    "margin": 62932,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 15903,
+    "other_votes": 6934,
+    "total_votes": 22837,
+    "all_parties": {
+      "UNC": 3580,
+      "GRN": 3243,
+      "REP": 15903,
+      "NON": 111
+    },
+    "county_fips": "45085",
+    "two_party_total": 15903,
+    "margin": 15903,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 5403,
+    "other_votes": 1348,
+    "total_votes": 6751,
+    "all_parties": {
+      "UNC": 766,
+      "GRN": 562,
+      "REP": 5403,
+      "NON": 20
+    },
+    "county_fips": "45087",
+    "two_party_total": 5403,
+    "margin": 5403,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4119,
+    "other_votes": 2522,
+    "total_votes": 6641,
+    "all_parties": {
+      "UNC": 1608,
+      "GRN": 878,
+      "REP": 4119,
+      "NON": 36
+    },
+    "county_fips": "45089",
+    "two_party_total": 4119,
+    "margin": 4119,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 58637,
+    "other_votes": 21855,
+    "total_votes": 80492,
+    "all_parties": {
+      "UNC": 6980,
+      "GRN": 14562,
+      "REP": 58637,
+      "NON": 313
+    },
+    "county_fips": "45091",
+    "two_party_total": 58637,
+    "margin": 58637,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  }
+}

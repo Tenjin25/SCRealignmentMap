@@ -366,6 +366,23 @@ body {
     .swing-arrow.democratic {
         background-color: rgba(0, 0, 255, 0.9);
     }
+    .swing-arrow {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 1001;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.5));
+        clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+        transform-origin: center center;
+    }
+    .swing-arrow.republican {
+        background-color: rgba(255, 0, 0, 0.9);
+    }
+    .swing-arrow.democratic {
+        background-color: rgba(0, 0, 255, 0.9);
+    }
 
     .control-group {
         margin-bottom: 15px;
@@ -571,14 +588,18 @@ body {
         color: #fff;
         background: #2563eb;
         border: none;
-        font-size: 32px;
-        width: 48px;
-        height: 48px;
-        border-radius: 8px;
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border-radius: 6px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.10);
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: background-color 0.2s;
+    }
+    .sidebar-header .minimize-btn:hover {
+        background: #1d4ed8;
     }
 
     /* Show floating expand button when sidebar is minimized */
@@ -608,8 +629,8 @@ html, body {
 </head>
 <body>
     <!-- Floating sidebar toggle button, visible when sidebar is minimized -->
-    <button id="sidebar-float-toggle" style="position:fixed;top:24px;right:24px;z-index:10001;width:56px;height:56px;background:#2563eb;color:#fff;border:none;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.15);font-size:32px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:box-shadow 0.2s,background 0.2s;">
-        +
+    <button id="sidebar-float-toggle" style="position:fixed;top:24px;right:24px;z-index:10001;width:56px;height:56px;background:#2563eb;color:#fff;border:none;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.15);font-size:18px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:box-shadow 0.2s,background 0.2s;" onmouseover="this.style.background='#1d4ed8'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.2)'" onmouseout="this.style.background='#2563eb'; this.style.boxShadow='0 4px 16px rgba(0,0,0,0.15)'">
+        ☰
     </button>
     <script>
     // Show floating button only when sidebar is minimized
@@ -671,58 +692,6 @@ html, body {
                 <label>📊 Contest Type:</label>
                 <select id="contest">
                     <option value="">Select a Contest...</option>
-                    <optgroup label="2006">
-                        <option value="gubernatorial_2006_1__gubernatorial__county_results_2006_fips.json.gz__county">Governor (2006)</option>
-                        <option value="lt_governor_2006_1__lt_governor__county_results_2006_fips.json.gz__county">Lt. Governor (2006)</option>
-                        <option value="secretary_of_state_2006_1__secretary_of_state__county_results_2006_fips.json.gz__county">Secretary of State (2006)</option>
-                        <option value="treasurer_2006_1__treasurer__county_results_2006_fips.json.gz__county">Treasurer (2006)</option>
-                        <option value="attorney_general_2006_1__attorney_general__county_results_2006_fips.json.gz__county">Attorney General (2006)</option>
-                        <option value="comptroller_general_2006_1__comptroller_general__county_results_2006_fips.json.gz__county">Comptroller General (2006)</option>
-                        <option value="commissioner_agriculture_2006_1__commissioner_agriculture__county_results_2006_fips.json.gz__county">Commissioner of Agriculture (2006)</option>
-                    </optgroup>
-                    <optgroup label="2008">
-                        <option value="presidential_2008_1__presidential__county_results_2008_fips.json.gz__county">US President (2008)</option>
-                        <option value="senate_2008_1__senate__county_results_2008_fips.json.gz__county">US Senate (2008)</option>
-                    </optgroup>
-                    <optgroup label="2012">
-                        <option value="presidential_2012_1__presidential__county_results_2012_fips.json.gz__county">US President (2012)</option>
-                    </optgroup>
-                    <optgroup label="2014">
-                        <option value="gubernatorial_2014_1__gubernatorial__county_results_2014_fips.json.gz__county">Governor (2014)</option>
-                        <option value="lt_governor_2014_1__lt_governor__county_results_2014_fips.json.gz__county">Lt. Governor (2014)</option>
-                        <option value="secretary_of_state_2014_1__secretary_of_state__county_results_2014_fips.json.gz__county">Secretary of State (2014)</option>
-                        <option value="treasurer_2014_1__treasurer__county_results_2014_fips.json.gz__county">Treasurer (2014)</option>
-                        <option value="attorney_general_2014_1__attorney_general__county_results_2014_fips.json.gz__county">Attorney General (2014)</option>
-                        <option value="comptroller_general_2014_1__comptroller_general__county_results_2014_fips.json.gz__county">Comptroller General (2014)</option>
-                        <option value="commissioner_agriculture_2014_1__commissioner_agriculture__county_results_2014_fips.json.gz__county">Commissioner of Agriculture (2014)</option>
-                        <option value="senate_2014_1__senate__county_results_2014_fips.json.gz__county">US Senate (2014)</option>
-                    </optgroup>
-                    <optgroup label="2016">
-                        <option value="presidential_2016_1__presidential__county_results_2016_fips.json.gz__county">US President (2016)</option>
-                        <option value="senate_2016_1__senate__county_results_2016_fips.json.gz__county">US Senate (2016)</option>
-                    </optgroup>
-                    <optgroup label="2018">
-                        <option value="secretary_of_state_2018_1__secretary_of_state__county_results_2018_fips.json.gz__county">Secretary of State (2018)</option>
-                        <option value="treasurer_2018_1__treasurer__county_results_2018_fips.json.gz__county">Treasurer (2018)</option>
-                        <option value="attorney_general_2018_1__attorney_general__county_results_2018_fips.json.gz__county">Attorney General (2018)</option>
-                        <option value="comptroller_general_2018_1__comptroller_general__county_results_2018_fips.json.gz__county">Comptroller General (2018)</option>
-                        <option value="commissioner_agriculture_2018_1__commissioner_agriculture__county_results_2018_fips.json.gz__county">Commissioner of Agriculture (2018)</option>
-                    </optgroup>
-                    <optgroup label="2020">
-                        <option value="presidential_2020_1__presidential__county_results_2020_fips.json.gz__county">US President (2020)</option>
-                        <option value="senate_2020_1__senate__county_results_2020_fips.json.gz__county">US Senate (2020)</option>
-                    </optgroup>
-                    <optgroup label="2022">
-                        <option value="secretary_of_state_2022_1__secretary_of_state__county_results_2022_fips.json.gz__county">Secretary of State (2022)</option>
-                        <option value="treasurer_2022_1__treasurer__county_results_2022_fips.json.gz__county">Treasurer (2022)</option>
-                        <option value="attorney_general_2022_1__attorney_general__county_results_2022_fips.json.gz__county">Attorney General (2022)</option>
-                        <option value="comptroller_general_2022_1__comptroller_general__county_results_2022_fips.json.gz__county">Comptroller General (2022)</option>
-                        <option value="commissioner_agriculture_2022_1__commissioner_agriculture__county_results_2022_fips.json.gz__county">Commissioner of Agriculture (2022)</option>
-                        <option value="senate_2022_1__senate__county_results_2022.json.gz__county">US Senate (2022)</option>
-                    </optgroup>
-                    <optgroup label="2024">
-                        <option value="presidential_2024_1__presidential__county_results_2024_fips.json__county">US President (2024)</option>
-                    </optgroup>
                 </select>
             </div>
             <button onclick="applyCategories()" class="btn-primary">
@@ -1060,7 +1029,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         source: 'counties',
                         paint: {
                             'fill-color': '#e0e0e0',
-                            'fill-opacity': 0.6
+                            'fill-opacity': 0.38
                         }
                     });
                     map.addLayer({
@@ -1136,20 +1105,21 @@ function showLoadingSpinner(show) {
   document.getElementById('loading-spinner').style.display = show ? 'block' : 'none';
 }
 
-// Load the index file and populate dropdowns
-fetch('sc_results_index.json')
+// Load the corrected index file with accurate data
+fetch('sc_results_index_corrected.json')
   .then(res => res.json())
   .then(indexData => {
     window.scResultsIndex = indexData;
     const contestSelect = document.getElementById('contest');
     contestSelect.innerHTML = '<option value="">Select a Contest...</option>';
+    
     // Use normalized index structure
     const years = Object.keys(indexData.county.contests_by_year).sort();
     for (const year of years) {
       const optgroup = document.createElement('optgroup');
       optgroup.label = year;
       for (const contest of indexData.county.contests_by_year[year]) {
-        const value = `${year}__${contest.type}__${contest.id}__${contest.file}__${contest.aggregation}`;
+        const value = `${contest.id}__${contest.type}__${contest.file}`;
         const option = document.createElement('option');
         option.value = value;
         option.textContent = contest.name;
@@ -1159,54 +1129,41 @@ fetch('sc_results_index.json')
     }
 
     contestSelect.addEventListener('change', function() {
-            const val = contestSelect.value;
-            if (!val) return;
-            const [year, contestType, contestId, file, aggregation] = val.split('__');
-            showLoadingSpinner(true);
-            // Always use the FIPS-keyed file for county results
-            // Guarantee only FIPS-keyed file for county results
-            let fipsFile = file;
-            if (file.endsWith('_fips.json.gz')) {
-                // Use as is
-            } else if (file.endsWith('_fips.json')) {
-                // Use as is
-            } else if (file.endsWith('.json.gz')) {
-                fipsFile = file.replace('.json.gz', '_fips.json.gz');
-            } else if (file.endsWith('.json')) {
-                fipsFile = file.replace('.json', '_fips.json');
-            }
-            let fetchPromise;
-            if (fipsFile.endsWith('.json.gz')) {
-                fetchPromise = fetchAndDecompressJSONGZ('workspace_files/' + fipsFile);
-            } else {
-                fetchPromise = fetch('workspace_files/' + fipsFile)
-                    .then(response => {
-                        if (!response.ok) throw new Error('Failed to fetch ' + fipsFile);
-                        return response.json();
-                    });
-            }
-            fetchPromise
-                .then(data => {
-                    // Always use top-level keys as FIPS codes for contest results
-                    let results = data;
-                    // If the file has a 'results' field, use it
-                    if (data && typeof data === 'object' && data.results) {
-                        results = data.results;
-                    }
-                    window.electionData = { results };
-                    // Debug: Log all FIPS keys found in results
-                    if (results) {
-                        const fipsKeys = Object.keys(results);
-                        console.log('Loaded contestResults FIPS keys:', fipsKeys);
-                    }
-                    showLoadingSpinner(false);
-                    // ...existing code to update map and sidebar using window.electionData...
-                })
-                .catch(err => {
-                    showLoadingSpinner(false);
-                    updateStatus('❌ Error loading results: ' + err.message);
-                    console.error('Error loading contest results:', err);
-                });
+        const val = contestSelect.value;
+        if (!val) return;
+        
+        const [contestId, contestType, file] = val.split('__');
+        showLoadingSpinner(true);
+        updateStatus(`Loading ${contestType} contest data...`);
+        
+        // Load the data file (JSON format)
+        fetch('workspace_files/' + file)
+            .then(response => {
+                if (!response.ok) throw new Error('Failed to fetch ' + file);
+                return response.json();
+            })
+            .then(data => {
+                // Store the contest data globally
+                window.electionData = { 
+                    results: data,
+                    selectedContest: contestId,
+                    selectedType: contestType,
+                    selectedFile: file
+                };
+                
+                console.log('Loaded contest data:', Object.keys(data).length, 'counties');
+                showLoadingSpinner(false);
+                updateStatus(`✅ Loaded ${Object.keys(data).length} counties for ${contestType}`);
+                
+                // Auto-apply categories after loading
+                applyCategories();
+                updateStatewideResults();
+            })
+            .catch(err => {
+                showLoadingSpinner(false);
+                updateStatus('❌ Error loading results: ' + err.message);
+                console.error('Error loading contest results:', err);
+            });
     });
 
     // Auto-select the most recent contest (last option in last optgroup)
@@ -1219,6 +1176,10 @@ fetch('sc_results_index.json')
         contestSelect.dispatchEvent(new Event('change'));
       }
     }
+  })
+  .catch(err => {
+    console.error('Error loading index:', err);
+    updateStatus('❌ Error loading contest index');
   });
 
 
@@ -1300,7 +1261,7 @@ function resetView() {
     if (typeof precinctsLoaded !== 'undefined' && precinctsLoaded && map.getLayer('precinct-fill')) {
         map.setPaintProperty('precinct-fill', 'fill-color', '#e0e0e0');
     }
-    map.fitBounds([[-84.5, 33.8], [-75.5, 36.6]], { padding: 50 });
+    map.fitBounds([[-83.5, 32.0], [-78.5, 35.5]], { padding: 50 });
     updateStatus('🔄 View reset to default');
     if (typeof analyticsManager !== 'undefined') analyticsManager.trackEvent('map', 'reset_view');
 }
@@ -1368,38 +1329,18 @@ function applyCategories() {
         updateStatus('❌ County GeoJSON not loaded. Please wait for the map to finish loading.');
         return;
     }
-    if (!window.electionData) {
+    if (!window.electionData || !window.electionData.results) {
         updateStatus('❌ Election data not loaded');
         return;
     }
-    const contestElement = document.getElementById('contest');
-    if (!contestElement) {
-        updateStatus('❌ Contest dropdown not found!');
-        return;
-    }
-    const contestVal = contestElement.value;
-    if (!contestVal) {
-        updateStatus('❌ Please select a contest!');
-        return;
-    }
-    const [year, contestKey] = contestVal.split('__');
-    if (!year || !contestKey) {
-        updateStatus('❌ Could not determine year/contest from selection!');
-        return;
-    }
-    // Use flat results structure: window.electionData.results[fips]
-    if (!window.electionData || !window.electionData.results) {
-        updateStatus('❌ Election results not loaded');
-        return;
-    }
+    
     const contestResults = window.electionData.results;
-    // Get selected contest id from dropdown value
-    // Use contestVal already declared earlier in the function
-    const selectedContestId = contestVal.split('__')[0];
-    // Build a color expression for Mapbox, filtering by contest field
+    
+    // Build a color expression for Mapbox using FIPS codes
     const colorExpression = ['match', ['get', 'GEOID20']];
     let coloredCount = 0;
-    // Log all FIPS codes from GeoJSON and contestResults for debugging
+    
+    // Debug logging
     const geojsonFipsList = countiesSource._data.features.map(f => {
         let fips = f.properties.GEOID20;
         if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
@@ -1409,131 +1350,270 @@ function applyCategories() {
     const resultsFipsList = Object.keys(contestResults);
     console.log('GeoJSON FIPS:', geojsonFipsList);
     console.log('Contest Results FIPS:', resultsFipsList);
+    
+    // Match counties with results
     countiesSource._data.features.forEach(f => {
         let fips = f.properties.GEOID20;
         if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
         else if (typeof fips === 'string') fips = fips.padStart(5, '0');
+        
         const foundResult = contestResults[fips];
-        // Support both competitiveness_color and competitiveness.color
-        let color = null;
-        if (foundResult) {
-            if (foundResult.competitiveness_color) {
-                color = foundResult.competitiveness_color;
-            } else if (foundResult.competitiveness && foundResult.competitiveness.color) {
-                color = foundResult.competitiveness.color;
-            }
-        }
-        if (color) {
-            colorExpression.push(fips, color);
+        if (foundResult && foundResult.competitiveness && foundResult.competitiveness.color) {
+            colorExpression.push(fips, foundResult.competitiveness.color);
             coloredCount++;
+            
+            // Debug logging for Greenwood County
+            if (fips === '45047') {
+                console.log('Greenwood County (45047) color mapping:');
+                console.log('  Found result:', foundResult);
+                console.log('  Competitiveness:', foundResult.competitiveness);
+                console.log('  Color being applied:', foundResult.competitiveness.color);
+            }
         }
     });
+    
     colorExpression.push('#e0e0e0'); // Default color
+    
     if (coloredCount === 0) {
-        // Fallback: try to color all available counties in contestResults
-        const resultKeys = Object.keys(contestResults);
-        let fallbackCount = 0;
-        resultKeys.forEach(fips => {
-            const fallbackResult = contestResults[fips];
-            let color = null;
-            if (fallbackResult) {
-                if (fallbackResult.competitiveness_color) {
-                    color = fallbackResult.competitiveness_color;
-                } else if (fallbackResult.competitiveness && fallbackResult.competitiveness.color) {
-                    color = fallbackResult.competitiveness.color;
-                }
-            }
-            if (color) {
-                colorExpression.push(fips, color);
-                fallbackCount++;
-            }
-        });
-        if (fallbackCount > 0) {
-            map.setPaintProperty('county-fill', 'fill-color', colorExpression);
-            map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
-            updateStatus(`⚠️ Fallback: ${fallbackCount} counties colored from available contest data.`);
-            if (lastSelectedCounty) {
-                showCountyDetails(lastSelectedCounty);
-            }
-            return;
-        }
-        updateStatus('❌ No counties matched for selected contest. Please check your data or contest selection.');
+        updateStatus('❌ No counties matched for selected contest. Please check your data.');
         return;
     }
+    
     map.setPaintProperty('county-fill', 'fill-color', colorExpression);
     map.setPaintProperty('county-fill', 'fill-opacity', 0.38);
     updateStatus(`✅ Applied! ${coloredCount} counties colored by competitiveness.`);
+    
     if (lastSelectedCounty) {
         showCountyDetails(lastSelectedCounty);
     }
 }
 window.applyCategories = applyCategories;
+
+// Update statewide results display
+function updateStatewideResults() {
+    const statewideContent = document.getElementById('statewide-content');
+    if (!statewideContent) return;
+    
+    if (!window.electionData || !window.electionData.results) {
+        statewideContent.innerHTML = '<p>Select a contest to see statewide results.</p>';
+        return;
+    }
+    
+    const results = window.electionData.results;
+    const contestType = window.electionData.selectedType || 'Unknown';
+    
+    // Calculate statewide totals
+    let totalDemVotes = 0;
+    let totalRepVotes = 0;
+    let totalOtherVotes = 0;
+    let totalVotes = 0;
+    let demCandidate = '';
+    let repCandidate = '';
+    
+    Object.values(results).forEach(county => {
+        totalDemVotes += county.dem_votes || 0;
+        totalRepVotes += county.rep_votes || 0;
+        totalOtherVotes += county.other_votes || 0;
+        totalVotes += county.total_votes || 0;
+        
+        if (!demCandidate && county.dem_candidate) {
+            demCandidate = county.dem_candidate;
+        }
+        if (!repCandidate && county.rep_candidate) {
+            repCandidate = county.rep_candidate;
+        }
+    });
+    
+    const twoPartyTotal = totalDemVotes + totalRepVotes;
+    const demPct = twoPartyTotal ? ((totalDemVotes / twoPartyTotal) * 100).toFixed(2) : '0.00';
+    const repPct = twoPartyTotal ? ((totalRepVotes / twoPartyTotal) * 100).toFixed(2) : '0.00';
+    const margin = totalRepVotes - totalDemVotes;
+    const marginPct = twoPartyTotal ? (Math.abs(margin) / twoPartyTotal * 100).toFixed(2) : '0.00';
+    const winner = margin > 0 ? 'Republican' : 'Democratic';
+    const winnerCandidate = margin > 0 ? repCandidate : demCandidate;
+    const winnerColor = winner === 'Republican' ? '#dc2626' : '#2563eb';
+    const marginText = margin > 0 ? 'R+' + marginPct + '%' : 'D+' + marginPct + '%';
+    
+    let html = `<div class="statewide-margin">`;
+    html += `<div class="margin-text" style="color: ${winnerColor};">${marginText}</div>`;
+    html += `<div class="margin-details">(${Math.abs(margin).toLocaleString()} vote margin)</div>`;
+    html += `</div>`;
+    
+    html += `<p><strong>Winner:</strong> <span style="color: ${winnerColor};">${winnerCandidate} (${winner.charAt(0)})</span></p>`;
+    html += `<p><strong>Total Votes:</strong> ${totalVotes.toLocaleString()}</p>`;
+    html += `<p><span style="color: #2563eb;">${demCandidate} (D):</span> ${demPct}% (${totalDemVotes.toLocaleString()})</p>`;
+    html += `<p><span style="color: #dc2626;">${repCandidate} (R):</span> ${repPct}% (${totalRepVotes.toLocaleString()})</p>`;
+    if (totalOtherVotes > 0) {
+        const otherPct = totalVotes ? ((totalOtherVotes / totalVotes) * 100).toFixed(2) : '0.00';
+        html += `<p><span style="color: #6b7280;">Other:</span> ${otherPct}% (${totalOtherVotes.toLocaleString()})</p>`;
+    }
+    
+    statewideContent.innerHTML = html;
+}
+// Set analysis mode (county vs precinct)
+function setMode(mode) {
+    currentMode = mode;
+    document.getElementById('county-mode').classList.toggle('active', mode === 'county');
+    document.getElementById('precinct-mode').classList.toggle('active', mode === 'precinct');
+    
+    if (typeof analyticsManager !== 'undefined') {
+        analyticsManager.trackEvent('visualization', 'change_mode', mode);
+    }
+    
+    if (mode === 'county') {
+        // Show county layer, hide precinct layer
+        if (map.getLayer('county-fill')) {
+            map.setLayoutProperty('county-fill', 'visibility', 'visible');
+        }
+        if (map.getLayer('precinct-fill')) {
+            map.setLayoutProperty('precinct-fill', 'visibility', 'none');
+        }
+        updateStatus('📊 Switched to county-level analysis');
+    } else {
+        // Show precinct layer, hide county layer  
+        if (map.getLayer('precinct-fill')) {
+            map.setLayoutProperty('precinct-fill', 'visibility', 'visible');
+        }
+        if (map.getLayer('county-fill')) {
+            map.setLayoutProperty('county-fill', 'visibility', 'none');
+        }
+        updateStatus('📍 Switched to precinct-level analysis');
+    }
+}
+window.setMode = setMode;
 // --- END: UI/Map Functions from NC Map ---
 
 // ...existing code...
 
 function showCountyDetails(countyFIPS) {
-    if (!window.electionData) {
+    if (!window.electionData || !window.electionData.results) {
         updateStatus('❌ Election data not loaded');
         return;
     }
+    
     const contestResults = window.electionData.results;
     const foundResult = contestResults[countyFIPS];
     const countyDetails = document.getElementById('county-details');
     const countyInfoContent = document.getElementById('county-info-content');
+    const countyNameElem = document.getElementById('county-name');
     let sidebarContent = '';
+    
+    // Get county name from result or GeoJSON
+    let countyName = null;
+    if (foundResult && foundResult.county) {
+        countyName = foundResult.county;
+    }
+    // Try GeoJSON if no name in result
+    if (!countyName) {
+        const countiesSource = map.getSource('counties');
+        if (countiesSource && countiesSource._data && countiesSource._data.features) {
+            const geoFeature = countiesSource._data.features.find(f => {
+                let fips = f.properties.GEOID20;
+                if (typeof fips === 'number') fips = fips.toString().padStart(5, '0');
+                else if (typeof fips === 'string') fips = fips.padStart(5, '0');
+                return fips === countyFIPS;
+            });
+            if (geoFeature && geoFeature.properties && geoFeature.properties.NAME20) {
+                countyName = geoFeature.properties.NAME20;
+            }
+        }
+    }
+    
+    // Fallback to FIPS if no name found
+    if (!countyName) {
+        countyName = countyFIPS;
+    }
+    
+    // Clean up formatting
+    countyName = countyName.replace(/_/g, ' ');
+    countyName = countyName.replace(/\b\w/g, c => c.toUpperCase());
+    
+    if (countyNameElem) {
+        countyNameElem.textContent = countyName + ' County';
+    }
+    
     if (foundResult) {
         const demVotes = foundResult.dem_votes || 0;
         const repVotes = foundResult.rep_votes || 0;
-        // BUG FIX: Use two_party_total for percentages and margin calculations
-        const twoPartyTotal = foundResult.two_party_total !== undefined
-            ? foundResult.two_party_total
-            : (demVotes + repVotes);
-        const totalVotes = foundResult.total_votes || twoPartyTotal;
+        const otherVotes = foundResult.other_votes || 0;
+        const totalVotes = foundResult.total_votes || (demVotes + repVotes + otherVotes);
+        const twoPartyTotal = foundResult.two_party_total || (demVotes + repVotes);
+        
         const demPct = twoPartyTotal ? ((demVotes / twoPartyTotal) * 100).toFixed(2) : '0.00';
         const repPct = twoPartyTotal ? ((repVotes / twoPartyTotal) * 100).toFixed(2) : '0.00';
-        let demCandidate = foundResult.dem_candidate || (foundResult.candidates && foundResult.candidates.DEM) || 'Democratic';
-        let repCandidate = foundResult.rep_candidate || (foundResult.candidates && foundResult.candidates.REP) || 'Republican';
-        const margin = repVotes - demVotes;
-        const marginPct = twoPartyTotal ? (Math.abs(margin) / twoPartyTotal * 100).toFixed(2) : '0.00';
-        const winner = margin > 0 ? 'Republican' : 'Democratic';
-        const winnerCandidate = margin > 0 ? repCandidate : demCandidate;
-        const winnerColor = winner === 'Republican' ? '#dc2626' : '#2563eb';
-        const marginText = margin > 0 ? 'R+' + marginPct + '%' : 'D+' + marginPct + '%';
-        var competitiveness = foundResult.competitiveness_category || (foundResult.competitiveness && foundResult.competitiveness.category) || 'N/A';
-        var compColor = foundResult.competitiveness_color || (foundResult.competitiveness && foundResult.competitiveness.color) || '#6b7280';
+        
+        const demCandidate = foundResult.dem_candidate || 'Democratic';
+        const repCandidate = foundResult.rep_candidate || 'Republican';
+        
+        const margin = foundResult.margin || (repVotes - demVotes);
+        const marginPct = foundResult.margin_pct || (twoPartyTotal ? (Math.abs(margin) / twoPartyTotal * 100) : 0);
+        const winner = foundResult.winner || (margin > 0 ? 'REP' : 'DEM');
+        const winnerCandidate = winner === 'REP' ? repCandidate : demCandidate;
+        const winnerColor = winner === 'REP' ? '#dc2626' : '#2563eb';
+        const marginText = winner === 'REP' ? 'R+' + marginPct.toFixed(2) + '%' : 'D+' + marginPct.toFixed(2) + '%';
+        
+        const competitiveness = foundResult.competitiveness ? foundResult.competitiveness.category : 'N/A';
+        const competitivenessParty = foundResult.competitiveness ? foundResult.competitiveness.party : '';
+        const compColor = foundResult.competitiveness ? foundResult.competitiveness.color : '#6b7280';
+        
+        // Combine category and party for full display
+        let fullCompetitiveness;
+        if (competitiveness === 'Tossup') {
+            const winText = competitivenessParty === 'Democratic' ? 'Democratic Win' : 'Republican Win';
+            fullCompetitiveness = `Tossup (${winText})`;
+        } else {
+            fullCompetitiveness = `${competitiveness} ${competitivenessParty}`;
+        }
+        
         sidebarContent += '<div class="result-summary">';
         sidebarContent += '<h5>📊 Election Results</h5>';
         sidebarContent += `<p><strong>Total Votes:</strong> ${totalVotes.toLocaleString()}</p>`;
         sidebarContent += `</div>`;
+        
         sidebarContent += `<div class="winner-section">`;
         sidebarContent += '<h5>🏆 Winner</h5>';
-        sidebarContent += `<p style="color: ${winnerColor}; font-weight: bold; font-size: 16px;">${winnerCandidate} (${winner.charAt(0)})</p>`;
+        sidebarContent += `<p style="color: ${winnerColor}; font-weight: bold; font-size: 16px;">${winnerCandidate} (${winner})</p>`;
         sidebarContent += `</div>`;
+        
         sidebarContent += `<div class="margin-section">`;
         sidebarContent += '<h5>📈 Margin</h5>';
         sidebarContent += `<p style="color: ${winnerColor}; font-weight: bold; font-size: 18px;">${marginText}</p>`;
         sidebarContent += `<p style="color: #6b7280; font-size: 14px;">(${Math.abs(margin).toLocaleString()} vote margin)</p>`;
         sidebarContent += `</div>`;
+        
         sidebarContent += `<div class="vote-breakdown">`;
         sidebarContent += '<h5>🗳️ Vote Breakdown</h5>';
-        sidebarContent += `<p><span style="color: #2563eb; font-weight: bold;">${demCandidate} (D) :</span> ${demPct}% (${demVotes.toLocaleString()})</p>`;
-        sidebarContent += `<p><span style="color: #dc2626; font-weight: bold;">${repCandidate} (R) :</span> ${repPct}% (${repVotes.toLocaleString()})</p>`;
+        sidebarContent += `<p><span style="color: #2563eb; font-weight: bold;">${demCandidate} (D):</span> ${demPct}% (${demVotes.toLocaleString()})</p>`;
+        sidebarContent += `<p><span style="color: #dc2626; font-weight: bold;">${repCandidate} (R):</span> ${repPct}% (${repVotes.toLocaleString()})</p>`;
+        if (otherVotes > 0) {
+            const otherPct = totalVotes ? ((otherVotes / totalVotes) * 100).toFixed(2) : '0.00';
+            sidebarContent += `<p><span style="color: #6b7280; font-weight: bold;">Other:</span> ${otherPct}% (${otherVotes.toLocaleString()})</p>`;
+        }
         sidebarContent += `</div>`;
+        
         sidebarContent += `<div class="competitiveness-section">`;
         sidebarContent += '<h5>🎯 Competitiveness</h5>';
-        sidebarContent += `<p style="color: ${compColor}; font-weight: bold; font-size: 16px;">${competitiveness}</p>`;
-        if (marginText !== 'N/A' && parseFloat(marginPct) <= 0.5) {
+        sidebarContent += `<p style="color: ${compColor}; font-weight: bold; font-size: 16px;">${fullCompetitiveness}</p>`;
+        if (marginPct <= 0.5) {
             sidebarContent += `<p style="color: #f59e0b; font-style: italic;">(Extremely close!)</p>`;
-        } else if (marginText !== 'N/A' && parseFloat(marginPct) <= 1) {
+        } else if (marginPct <= 1) {
             sidebarContent += `<p style="color: #f59e0b; font-style: italic;">(Very close!)</p>`;
         }
         sidebarContent += `</div>`;
     } else {
         sidebarContent += `<p><em>No detailed election data available for this county.</em></p>`;
     }
+    
     countyInfoContent.innerHTML = sidebarContent;
     countyDetails.style.display = 'block';
+    
+    // Open sidebar if it's minimized
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar && sidebar.classList.contains('minimized')) {
+        sidebar.classList.remove('minimized');
+        const btn = document.getElementById('sidebar-minimize-btn');
+        if (btn) btn.textContent = '−';
+    }
 }
 window.showCountyDetails = showCountyDetails;
 

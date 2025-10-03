@@ -1,0 +1,1152 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 6754,
+    "other_votes": 58,
+    "total_votes": 6812,
+    "all_parties": {
+      "REP": 6754,
+      "": 58
+    },
+    "county_fips": "45001",
+    "two_party_total": 6754,
+    "margin": 6754,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 41518,
+    "other_votes": 1051,
+    "total_votes": 42569,
+    "all_parties": {
+      "REP": 41518,
+      "NON": 1051
+    },
+    "county_fips": "45003",
+    "two_party_total": 41518,
+    "margin": 41518,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 749,
+    "other_votes": 17,
+    "total_votes": 766,
+    "all_parties": {
+      "REP": 749,
+      "NON": 17
+    },
+    "county_fips": "45005",
+    "two_party_total": 749,
+    "margin": 749,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 52762,
+    "other_votes": 886,
+    "total_votes": 53648,
+    "all_parties": {
+      "REP": 52762,
+      "NON": 886
+    },
+    "county_fips": "45007",
+    "two_party_total": 52762,
+    "margin": 52762,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 2180,
+    "other_votes": 37,
+    "total_votes": 2217,
+    "all_parties": {
+      "REP": 2180,
+      "NON": 37
+    },
+    "county_fips": "45009",
+    "two_party_total": 2180,
+    "margin": 2180,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 4220,
+    "other_votes": 58,
+    "total_votes": 4278,
+    "all_parties": {
+      "REP": 4220,
+      "NON": 58
+    },
+    "county_fips": "45011",
+    "two_party_total": 4220,
+    "margin": 4220,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 51437,
+    "other_votes": 1103,
+    "total_votes": 52540,
+    "all_parties": {
+      "REP": 51437,
+      "NON": 1103
+    },
+    "county_fips": "45013",
+    "two_party_total": 51437,
+    "margin": 51437,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 51591,
+    "other_votes": 1302,
+    "total_votes": 52893,
+    "all_parties": {
+      "REP": 51591,
+      "NON": 1302
+    },
+    "county_fips": "45015",
+    "two_party_total": 51591,
+    "margin": 51591,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 3944,
+    "other_votes": 87,
+    "total_votes": 4031,
+    "all_parties": {
+      "REP": 3944,
+      "NON": 87
+    },
+    "county_fips": "45017",
+    "two_party_total": 3944,
+    "margin": 3944,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 96064,
+    "other_votes": 4521,
+    "total_votes": 100585,
+    "all_parties": {
+      "REP": 96064,
+      "NON": 4521
+    },
+    "county_fips": "45019",
+    "two_party_total": 96064,
+    "margin": 96064,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 13651,
+    "other_votes": 125,
+    "total_votes": 13776,
+    "all_parties": {
+      "REP": 13651,
+      "NON": 125
+    },
+    "county_fips": "45021",
+    "two_party_total": 13651,
+    "margin": 13651,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 9347,
+    "other_votes": 106,
+    "total_votes": 9453,
+    "all_parties": {
+      "REP": 9347,
+      "NON": 106
+    },
+    "county_fips": "45025",
+    "two_party_total": 9347,
+    "margin": 9347,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 6852,
+    "other_votes": 95,
+    "total_votes": 6947,
+    "all_parties": {
+      "REP": 6852,
+      "NON": 95
+    },
+    "county_fips": "45023",
+    "two_party_total": 6852,
+    "margin": 6852,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 7504,
+    "other_votes": 89,
+    "total_votes": 7593,
+    "all_parties": {
+      "REP": 7504,
+      "": 89
+    },
+    "county_fips": "45027",
+    "two_party_total": 7504,
+    "margin": 7504,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 8736,
+    "other_votes": 174,
+    "total_votes": 8910,
+    "all_parties": {
+      "REP": 8736,
+      "NON": 174
+    },
+    "county_fips": "45029",
+    "two_party_total": 8736,
+    "margin": 8736,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 13580,
+    "other_votes": 205,
+    "total_votes": 13785,
+    "all_parties": {
+      "REP": 13580,
+      "NON": 205
+    },
+    "county_fips": "45031",
+    "two_party_total": 13580,
+    "margin": 13580,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 5054,
+    "other_votes": 87,
+    "total_votes": 5141,
+    "all_parties": {
+      "REP": 5054,
+      "NON": 87
+    },
+    "county_fips": "45033",
+    "two_party_total": 5054,
+    "margin": 5054,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 35712,
+    "other_votes": 1100,
+    "total_votes": 36812,
+    "all_parties": {
+      "REP": 35712,
+      "NON": 1100
+    },
+    "county_fips": "45035",
+    "two_party_total": 35712,
+    "margin": 35712,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 6660,
+    "other_votes": 81,
+    "total_votes": 6741,
+    "all_parties": {
+      "REP": 6660,
+      "NON": 81
+    },
+    "county_fips": "45037",
+    "two_party_total": 6660,
+    "margin": 6660,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 5002,
+    "other_votes": 163,
+    "total_votes": 5165,
+    "all_parties": {
+      "REP": 5002,
+      "NON": 163
+    },
+    "county_fips": "45039",
+    "two_party_total": 5002,
+    "margin": 5002,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 28486,
+    "other_votes": 678,
+    "total_votes": 29164,
+    "all_parties": {
+      "REP": 28486,
+      "NON": 678
+    },
+    "county_fips": "45041",
+    "two_party_total": 28486,
+    "margin": 28486,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 19367,
+    "other_votes": 280,
+    "total_votes": 19647,
+    "all_parties": {
+      "REP": 19367,
+      "NON": 280
+    },
+    "county_fips": "45043",
+    "two_party_total": 19367,
+    "margin": 19367,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 133051,
+    "other_votes": 4204,
+    "total_votes": 137255,
+    "all_parties": {
+      "REP": 133051,
+      "NON": 4204
+    },
+    "county_fips": "45045",
+    "two_party_total": 133051,
+    "margin": 133051,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 16638,
+    "other_votes": 334,
+    "total_votes": 16972,
+    "all_parties": {
+      "REP": 16638,
+      "NON": 334
+    },
+    "county_fips": "45047",
+    "two_party_total": 16638,
+    "margin": 16638,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 3319,
+    "other_votes": 40,
+    "total_votes": 3359,
+    "all_parties": {
+      "REP": 3319,
+      "NON": 40
+    },
+    "county_fips": "45049",
+    "two_party_total": 3319,
+    "margin": 3319,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 106375,
+    "other_votes": 1345,
+    "total_votes": 107720,
+    "all_parties": {
+      "REP": 106375,
+      "NON": 1345
+    },
+    "county_fips": "45051",
+    "two_party_total": 106375,
+    "margin": 106375,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 7544,
+    "other_votes": 121,
+    "total_votes": 7665,
+    "all_parties": {
+      "REP": 7544,
+      "NON": 121
+    },
+    "county_fips": "45053",
+    "two_party_total": 7544,
+    "margin": 7544,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 17051,
+    "other_votes": 358,
+    "total_votes": 17409,
+    "all_parties": {
+      "REP": 17051,
+      "NON": 358
+    },
+    "county_fips": "45055",
+    "two_party_total": 17051,
+    "margin": 17051,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 26342,
+    "other_votes": 462,
+    "total_votes": 26804,
+    "all_parties": {
+      "REP": 26342,
+      "NON": 462
+    },
+    "county_fips": "45057",
+    "two_party_total": 26342,
+    "margin": 26342,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 15818,
+    "other_votes": 297,
+    "total_votes": 16115,
+    "all_parties": {
+      "REP": 15818,
+      "NON": 297
+    },
+    "county_fips": "45059",
+    "two_party_total": 15818,
+    "margin": 15818,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 2612,
+    "other_votes": 38,
+    "total_votes": 2650,
+    "all_parties": {
+      "REP": 2612,
+      "NON": 38
+    },
+    "county_fips": "45061",
+    "two_party_total": 2612,
+    "margin": 2612,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 78506,
+    "other_votes": 2409,
+    "total_votes": 80915,
+    "all_parties": {
+      "REP": 78506,
+      "NON": 2409
+    },
+    "county_fips": "45063",
+    "two_party_total": 78506,
+    "margin": 78506,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 4913,
+    "other_votes": 101,
+    "total_votes": 5014,
+    "all_parties": {
+      "REP": 4913,
+      "NON": 101
+    },
+    "county_fips": "45065",
+    "two_party_total": 4913,
+    "margin": 4913,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 3961,
+    "other_votes": 51,
+    "total_votes": 4012,
+    "all_parties": {
+      "REP": 3961,
+      "NON": 51
+    },
+    "county_fips": "45067",
+    "two_party_total": 3961,
+    "margin": 3961,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 3106,
+    "other_votes": 41,
+    "total_votes": 3147,
+    "all_parties": {
+      "REP": 3106,
+      "NON": 41
+    },
+    "county_fips": "45069",
+    "two_party_total": 3106,
+    "margin": 3106,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 9892,
+    "other_votes": 152,
+    "total_votes": 10044,
+    "all_parties": {
+      "REP": 9892,
+      "": 152
+    },
+    "county_fips": "45071",
+    "two_party_total": 9892,
+    "margin": 9892,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 24523,
+    "other_votes": 398,
+    "total_votes": 24921,
+    "all_parties": {
+      "REP": 24523,
+      "NON": 398
+    },
+    "county_fips": "45073",
+    "two_party_total": 24523,
+    "margin": 24523,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 12829,
+    "other_votes": 447,
+    "total_votes": 13276,
+    "all_parties": {
+      "REP": 12829,
+      "NON": 447
+    },
+    "county_fips": "45075",
+    "two_party_total": 12829,
+    "margin": 12829,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 34338,
+    "other_votes": 650,
+    "total_votes": 34988,
+    "all_parties": {
+      "REP": 34338,
+      "NON": 650
+    },
+    "county_fips": "45077",
+    "two_party_total": 34338,
+    "margin": 34338,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 67824,
+    "other_votes": 5480,
+    "total_votes": 73304,
+    "all_parties": {
+      "REP": 67824,
+      "NON": 5480
+    },
+    "county_fips": "45079",
+    "two_party_total": 67824,
+    "margin": 67824,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 5324,
+    "other_votes": 56,
+    "total_votes": 5380,
+    "all_parties": {
+      "REP": 5324,
+      "NON": 56
+    },
+    "county_fips": "45081",
+    "two_party_total": 5324,
+    "margin": 5324,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 75290,
+    "other_votes": 1737,
+    "total_votes": 77027,
+    "all_parties": {
+      "REP": 75290,
+      "NON": 1737
+    },
+    "county_fips": "45083",
+    "two_party_total": 75290,
+    "margin": 75290,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 18735,
+    "other_votes": 533,
+    "total_votes": 19268,
+    "all_parties": {
+      "REP": 18735,
+      "NON": 533
+    },
+    "county_fips": "45085",
+    "two_party_total": 18735,
+    "margin": 18735,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 6667,
+    "other_votes": 115,
+    "total_votes": 6782,
+    "all_parties": {
+      "REP": 6667,
+      "NON": 115
+    },
+    "county_fips": "45087",
+    "two_party_total": 6667,
+    "margin": 6667,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 5208,
+    "other_votes": 138,
+    "total_votes": 5346,
+    "all_parties": {
+      "REP": 5208,
+      "NON": 138
+    },
+    "county_fips": "45089",
+    "two_party_total": 5208,
+    "margin": 5208,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Alan Wilson (R)",
+    "dem_votes": 0,
+    "rep_votes": 72044,
+    "other_votes": 1899,
+    "total_votes": 73943,
+    "all_parties": {
+      "REP": 72044,
+      "NON": 1899
+    },
+    "county_fips": "45091",
+    "two_party_total": 72044,
+    "margin": 72044,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  }
+}

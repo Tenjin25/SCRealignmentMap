@@ -19,8 +19,8 @@ def check_fips_alignment(geojson_path, results_dir):
             geojson_fips.add(pad_fips(fips))
     print(f"GeoJSON counties: {len(geojson_fips)} FIPS codes")
     for fname in os.listdir(results_dir):
-        if fname.startswith('county_results_') and fname.endswith('.json.gz'):
-            with gzip.open(os.path.join(results_dir, fname), 'rt', encoding='utf-8') as fh:
+        if fname.startswith('county_results_') and fname.endswith('_fips.json'):
+            with open(os.path.join(results_dir, fname), 'r', encoding='utf-8') as fh:
                 data = json.load(fh)
             result_fips = set(pad_fips(fips) for fips in data.keys())
             missing_in_results = geojson_fips - result_fips

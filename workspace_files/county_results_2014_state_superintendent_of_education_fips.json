@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 7114,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 2704,
+    "rep_votes": 4156,
+    "dem_pct": 38.01,
+    "rep_pct": 58.42,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 45074,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 13707,
+    "rep_votes": 29735,
+    "dem_pct": 30.41,
+    "rep_pct": 65.97,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 2273,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 1665,
+    "rep_votes": 566,
+    "dem_pct": 73.25,
+    "rep_pct": 24.9,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 44453,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 11259,
+    "rep_votes": 30896,
+    "dem_pct": 25.33,
+    "rep_pct": 69.5,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 4875,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3199,
+    "rep_votes": 1598,
+    "dem_pct": 65.62,
+    "rep_pct": 32.78,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 6119,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 2891,
+    "rep_votes": 3098,
+    "dem_pct": 47.25,
+    "rep_pct": 50.63,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 47100,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 15748,
+    "rep_votes": 29669,
+    "dem_pct": 33.44,
+    "rep_pct": 62.99,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 42592,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 16284,
+    "rep_votes": 24455,
+    "dem_pct": 38.23,
+    "rep_pct": 57.42,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 5197,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 2670,
+    "rep_votes": 2399,
+    "dem_pct": 51.38,
+    "rep_pct": 46.16,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 96736,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 44003,
+    "rep_votes": 49262,
+    "dem_pct": 45.49,
+    "rep_pct": 50.92,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 12203,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3514,
+    "rep_votes": 8118,
+    "dem_pct": 28.8,
+    "rep_pct": 66.52,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 10127,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 4659,
+    "rep_votes": 5109,
+    "dem_pct": 46.01,
+    "rep_pct": 50.45,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 7931,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3768,
+    "rep_votes": 3759,
+    "dem_pct": 47.51,
+    "rep_pct": 47.4,
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 10231,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 5532,
+    "rep_votes": 4514,
+    "dem_pct": 54.07,
+    "rep_pct": 44.12,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 10727,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 4924,
+    "rep_votes": 5442,
+    "dem_pct": 45.9,
+    "rep_pct": 50.73,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 18507,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 9256,
+    "rep_votes": 8848,
+    "dem_pct": 50.01,
+    "rep_pct": 47.81,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 6356,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3392,
+    "rep_votes": 2808,
+    "dem_pct": 53.37,
+    "rep_pct": 44.18,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 33691,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 12384,
+    "rep_votes": 19691,
+    "dem_pct": 36.76,
+    "rep_pct": 58.45,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 6975,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 2657,
+    "rep_votes": 4128,
+    "dem_pct": 38.09,
+    "rep_pct": 59.18,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 8072,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 4853,
+    "rep_votes": 2966,
+    "dem_pct": 60.12,
+    "rep_pct": 36.74,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 36156,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 16959,
+    "rep_votes": 18309,
+    "dem_pct": 46.91,
+    "rep_pct": 50.64,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 20226,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 8421,
+    "rep_votes": 11244,
+    "dem_pct": 41.63,
+    "rep_pct": 55.59,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 122343,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 35669,
+    "rep_votes": 77735,
+    "dem_pct": 29.15,
+    "rep_pct": 63.54,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 17633,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 6072,
+    "rep_votes": 10945,
+    "dem_pct": 34.44,
+    "rep_pct": 62.07,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 5800,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3670,
+    "rep_votes": 1971,
+    "dem_pct": 63.28,
+    "rep_pct": 33.98,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 67452,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 19063,
+    "rep_votes": 45678,
+    "dem_pct": 28.26,
+    "rep_pct": 67.72,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 6631,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3540,
+    "rep_votes": 2904,
+    "dem_pct": 53.39,
+    "rep_pct": 43.79,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 19280,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 6871,
+    "rep_votes": 11653,
+    "dem_pct": 35.64,
+    "rep_pct": 60.44,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 19913,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 7016,
+    "rep_votes": 12107,
+    "dem_pct": 35.23,
+    "rep_pct": 60.8,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 15035,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 4907,
+    "rep_votes": 9245,
+    "dem_pct": 32.64,
+    "rep_pct": 61.49,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 5753,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3882,
+    "rep_votes": 1760,
+    "dem_pct": 67.48,
+    "rep_pct": 30.59,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 74986,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 17149,
+    "rep_votes": 54297,
+    "dem_pct": 22.87,
+    "rep_pct": 72.41,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 8690,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 5514,
+    "rep_votes": 2984,
+    "dem_pct": 63.45,
+    "rep_pct": 34.34,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 6171,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3912,
+    "rep_votes": 2108,
+    "dem_pct": 63.39,
+    "rep_pct": 34.16,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 3576,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 1578,
+    "rep_votes": 1905,
+    "dem_pct": 44.13,
+    "rep_pct": 53.27,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 10929,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3535,
+    "rep_votes": 7007,
+    "dem_pct": 32.35,
+    "rep_pct": 64.11,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 20070,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 4411,
+    "rep_votes": 14693,
+    "dem_pct": 21.98,
+    "rep_pct": 73.21,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 27920,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 19808,
+    "rep_votes": 7655,
+    "dem_pct": 70.95,
+    "rep_pct": 27.42,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 26988,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 5105,
+    "rep_votes": 20058,
+    "dem_pct": 18.92,
+    "rep_pct": 74.32,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 110184,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 64244,
+    "rep_votes": 42656,
+    "dem_pct": 58.31,
+    "rep_pct": 38.71,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 5659,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 1631,
+    "rep_votes": 3910,
+    "dem_pct": 28.82,
+    "rep_pct": 69.09,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 64150,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 19496,
+    "rep_votes": 40684,
+    "dem_pct": 30.39,
+    "rep_pct": 63.42,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 29781,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 16129,
+    "rep_votes": 12907,
+    "dem_pct": 54.16,
+    "rep_pct": 43.34,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 7811,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3301,
+    "rep_votes": 4134,
+    "dem_pct": 42.26,
+    "rep_pct": 52.93,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 10708,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 7345,
+    "rep_votes": 3178,
+    "dem_pct": 68.59,
+    "rep_pct": 29.68,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "total_votes": 56991,
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 18061,
+    "rep_votes": 36137,
+    "dem_pct": 31.69,
+    "rep_pct": 63.41,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

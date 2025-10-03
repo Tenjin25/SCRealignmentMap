@@ -1,0 +1,1242 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 2943,
+    "rep_votes": 5544,
+    "other_votes": 89,
+    "total_votes": 8576,
+    "all_parties": {
+      "DEM": 2943,
+      "REP": 5544,
+      "AMR": 83,
+      "NON": 6
+    },
+    "county_fips": "45001",
+    "two_party_total": 8487,
+    "margin": 2601,
+    "margin_pct": 30.646871686108167,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Sean Carrigan (D)",
+    "rep_candidate": "Joe Wilson (R)",
+    "dem_votes": 21760,
+    "rep_votes": 37338,
+    "other_votes": 610,
+    "total_votes": 59708,
+    "all_parties": {
+      "DEM": 21760,
+      "REP": 37338,
+      "AMR": 572,
+      "NON": 38
+    },
+    "county_fips": "45003",
+    "two_party_total": 59098,
+    "margin": 15578,
+    "margin_pct": 26.359606078039867,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "James E Jim Clyburn (D)",
+    "rep_candidate": "Gerhard R Gressmann (R)",
+    "dem_votes": 2306,
+    "rep_votes": 544,
+    "other_votes": 24,
+    "total_votes": 2874,
+    "all_parties": {
+      "DEM": 2306,
+      "GRN": 23,
+      "REP": 544,
+      "NON": 1
+    },
+    "county_fips": "45005",
+    "two_party_total": 2850,
+    "margin": 1762,
+    "margin_pct": 61.824561403508774,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 18019,
+    "rep_votes": 44144,
+    "other_votes": 756,
+    "total_votes": 62919,
+    "all_parties": {
+      "DEM": 18019,
+      "REP": 44144,
+      "AMR": 718,
+      "NON": 38
+    },
+    "county_fips": "45007",
+    "two_party_total": 62163,
+    "margin": 26125,
+    "margin_pct": 42.026607467464565,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "James E Jim Clyburn (D)",
+    "rep_candidate": "Gerhard R Gressmann (R)",
+    "dem_votes": 2848,
+    "rep_votes": 1484,
+    "other_votes": 44,
+    "total_votes": 4376,
+    "all_parties": {
+      "DEM": 2848,
+      "GRN": 41,
+      "REP": 1484,
+      "NON": 3
+    },
+    "county_fips": "45009",
+    "two_party_total": 4332,
+    "margin": 1364,
+    "margin_pct": 31.486611265004615,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Sean Carrigan (D)",
+    "rep_candidate": "Joe Wilson (R)",
+    "dem_votes": 3400,
+    "rep_votes": 3900,
+    "other_votes": 48,
+    "total_votes": 7348,
+    "all_parties": {
+      "DEM": 3400,
+      "REP": 3900,
+      "AMR": 47,
+      "NON": 1
+    },
+    "county_fips": "45011",
+    "two_party_total": 7300,
+    "margin": 500,
+    "margin_pct": 6.8493150684931505,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Joe Cunningham (D)",
+    "rep_candidate": "Katie Arrington (R)",
+    "dem_votes": 33095,
+    "rep_votes": 37552,
+    "other_votes": 85,
+    "total_votes": 70732,
+    "all_parties": {
+      "DEM": 33095,
+      "REP": 37552,
+      "NON": 38,
+      "GRN": 47
+    },
+    "county_fips": "45013",
+    "two_party_total": 70647,
+    "margin": 4457,
+    "margin_pct": 6.308831231333248,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Joe Cunningham (D)",
+    "rep_candidate": "Katie Arrington (R)",
+    "dem_votes": 31698,
+    "rep_votes": 33963,
+    "other_votes": 262,
+    "total_votes": 65923,
+    "all_parties": {
+      "DEM": 31698,
+      "REP": 33963,
+      "NON": 143,
+      "GRN": 119
+    },
+    "county_fips": "45015",
+    "two_party_total": 65661,
+    "margin": 2265,
+    "margin_pct": 3.449536254397587,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "James E Jim Clyburn (D)",
+    "rep_candidate": "Gerhard R Gressmann (R)",
+    "dem_votes": 2998,
+    "rep_votes": 2880,
+    "other_votes": 88,
+    "total_votes": 5966,
+    "all_parties": {
+      "DEM": 2998,
+      "GRN": 85,
+      "REP": 2880,
+      "NON": 3
+    },
+    "county_fips": "45017",
+    "two_party_total": 5878,
+    "margin": 118,
+    "margin_pct": 2.0074855392990814,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Joe Cunningham (D)",
+    "rep_candidate": "Katie Arrington (R)",
+    "dem_votes": 89131,
+    "rep_votes": 57704,
+    "other_votes": 1088,
+    "total_votes": 147923,
+    "all_parties": {
+      "DEM": 89131,
+      "REP": 57704,
+      "NON": 284,
+      "GRN": 804
+    },
+    "county_fips": "45019",
+    "two_party_total": 146835,
+    "margin": 31427,
+    "margin_pct": 21.4029352674771,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 4804,
+    "rep_votes": 11736,
+    "other_votes": 183,
+    "total_votes": 16723,
+    "all_parties": {
+      "DEM": 4804,
+      "CON": 178,
+      "REP": 11736,
+      "NON": 5
+    },
+    "county_fips": "45021",
+    "two_party_total": 16540,
+    "margin": 6932,
+    "margin_pct": 41.91051995163241,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 5141,
+    "rep_votes": 5655,
+    "other_votes": 106,
+    "total_votes": 10902,
+    "all_parties": {
+      "DEM": 5141,
+      "CON": 96,
+      "REP": 5655,
+      "NON": 10
+    },
+    "county_fips": "45023",
+    "two_party_total": 10796,
+    "margin": 514,
+    "margin_pct": 4.76102260096332,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 5099,
+    "rep_votes": 6903,
+    "other_votes": 9,
+    "total_votes": 12011,
+    "all_parties": {
+      "DEM": 5099,
+      "REP": 6903,
+      "NON": 9
+    },
+    "county_fips": "45025",
+    "two_party_total": 12002,
+    "margin": 1804,
+    "margin_pct": 15.030828195300783,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "James E Jim Clyburn (D)",
+    "rep_candidate": "Gerhard R Gressmann (R)",
+    "dem_votes": 6442,
+    "rep_votes": 5547,
+    "other_votes": 123,
+    "total_votes": 12112,
+    "all_parties": {
+      "DEM": 6442,
+      "GRN": 117,
+      "REP": 5547,
+      "NON": 6
+    },
+    "county_fips": "45027",
+    "two_party_total": 11989,
+    "margin": 895,
+    "margin_pct": 7.465176411710734,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Joe Cunningham (D)",
+    "rep_candidate": "Katie Arrington (R)",
+    "dem_votes": 6399,
+    "rep_votes": 6651,
+    "other_votes": 186,
+    "total_votes": 13236,
+    "all_parties": {
+      "DEM": 6399,
+      "REP": 6651,
+      "NON": 10,
+      "GRN": 176
+    },
+    "county_fips": "45029",
+    "two_party_total": 13050,
+    "margin": 252,
+    "margin_pct": 1.9310344827586208,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 10976,
+    "rep_votes": 12301,
+    "other_votes": 34,
+    "total_votes": 23311,
+    "all_parties": {
+      "DEM": 10976,
+      "REP": 12301,
+      "NON": 34
+    },
+    "county_fips": "45031",
+    "two_party_total": 23277,
+    "margin": 1325,
+    "margin_pct": 5.6923143016711775,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 4008,
+    "rep_votes": 4206,
+    "other_votes": 2,
+    "total_votes": 8216,
+    "all_parties": {
+      "DEM": 4008,
+      "REP": 4206,
+      "NON": 2
+    },
+    "county_fips": "45033",
+    "two_party_total": 8214,
+    "margin": 198,
+    "margin_pct": 2.410518626734843,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Joe Cunningham (D)",
+    "rep_candidate": "Katie Arrington (R)",
+    "dem_votes": 24520,
+    "rep_votes": 26353,
+    "other_votes": 176,
+    "total_votes": 51049,
+    "all_parties": {
+      "DEM": 24520,
+      "REP": 26353,
+      "NON": 78,
+      "GRN": 98
+    },
+    "county_fips": "45035",
+    "two_party_total": 50873,
+    "margin": 1833,
+    "margin_pct": 3.6030900477660053,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 3611,
+    "rep_votes": 5702,
+    "other_votes": 109,
+    "total_votes": 9422,
+    "all_parties": {
+      "DEM": 3611,
+      "REP": 5702,
+      "AMR": 108,
+      "NON": 1
+    },
+    "county_fips": "45037",
+    "two_party_total": 9313,
+    "margin": 2091,
+    "margin_pct": 22.45248577257597,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 5732,
+    "rep_votes": 3456,
+    "other_votes": 87,
+    "total_votes": 9275,
+    "all_parties": {
+      "DEM": 5732,
+      "CON": 82,
+      "REP": 3456,
+      "NON": 5
+    },
+    "county_fips": "45039",
+    "two_party_total": 9188,
+    "margin": 2276,
+    "margin_pct": 24.77144101001306,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "James E Jim Clyburn (D)",
+    "rep_candidate": "Gerhard R Gressmann (R)",
+    "dem_votes": 21731,
+    "rep_votes": 23745,
+    "other_votes": 83,
+    "total_votes": 45559,
+    "all_parties": {
+      "DEM": 21731,
+      "GRN": 46,
+      "REP": 23745,
+      "NON": 37
+    },
+    "county_fips": "45041",
+    "two_party_total": 45476,
+    "margin": 2014,
+    "margin_pct": 4.428709649045651,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 11057,
+    "rep_votes": 14759,
+    "other_votes": 43,
+    "total_votes": 25859,
+    "all_parties": {
+      "DEM": 11057,
+      "REP": 14759,
+      "NON": 43
+    },
+    "county_fips": "45043",
+    "two_party_total": 25816,
+    "margin": 3702,
+    "margin_pct": 14.339944220638365,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 65446,
+    "rep_votes": 104049,
+    "other_votes": 7140,
+    "total_votes": 176635,
+    "all_parties": {
+      "DEM": 65446,
+      "REP": 104049,
+      "AMR": 6971,
+      "NON": 169
+    },
+    "county_fips": "45045",
+    "two_party_total": 169495,
+    "margin": 38603,
+    "margin_pct": 22.77530310628632,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 8641,
+    "rep_votes": 14301,
+    "other_votes": 280,
+    "total_votes": 23222,
+    "all_parties": {
+      "DEM": 8641,
+      "REP": 14301,
+      "AMR": 271,
+      "NON": 9
+    },
+    "county_fips": "45047",
+    "two_party_total": 22942,
+    "margin": 5660,
+    "margin_pct": 24.67090924941156,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "James E Jim Clyburn (D)",
+    "rep_candidate": "Gerhard R Gressmann (R)",
+    "dem_votes": 4236,
+    "rep_votes": 2268,
+    "other_votes": 74,
+    "total_votes": 6578,
+    "all_parties": {
+      "DEM": 4236,
+      "GRN": 46,
+      "REP": 2268,
+      "NON": 28
+    },
+    "county_fips": "45049",
+    "two_party_total": 6504,
+    "margin": 1968,
+    "margin_pct": 30.25830258302583,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 35659,
+    "rep_votes": 74987,
+    "other_votes": 183,
+    "total_votes": 110829,
+    "all_parties": {
+      "DEM": 35659,
+      "REP": 74987,
+      "NON": 183
+    },
+    "county_fips": "45051",
+    "two_party_total": 110646,
+    "margin": 39328,
+    "margin_pct": 35.54398713012671,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "James E Jim Clyburn (D)",
+    "rep_candidate": "Gerhard R Gressmann (R)",
+    "dem_votes": 4976,
+    "rep_votes": 4222,
+    "other_votes": 136,
+    "total_votes": 9334,
+    "all_parties": {
+      "DEM": 4976,
+      "GRN": 122,
+      "REP": 4222,
+      "NON": 14
+    },
+    "county_fips": "45053",
+    "two_party_total": 9198,
+    "margin": 754,
+    "margin_pct": 8.197434224831484,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 8856,
+    "rep_votes": 14232,
+    "other_votes": 384,
+    "total_votes": 23472,
+    "all_parties": {
+      "DEM": 8856,
+      "CON": 362,
+      "REP": 14232,
+      "NON": 22
+    },
+    "county_fips": "45055",
+    "two_party_total": 23088,
+    "margin": 5376,
+    "margin_pct": 23.284823284823286,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 12696,
+    "rep_votes": 19915,
+    "other_votes": 441,
+    "total_votes": 33052,
+    "all_parties": {
+      "DEM": 12696,
+      "CON": 423,
+      "REP": 19915,
+      "NON": 18
+    },
+    "county_fips": "45057",
+    "two_party_total": 32611,
+    "margin": 7219,
+    "margin_pct": 22.136702339701326,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 6901,
+    "rep_votes": 13278,
+    "other_votes": 227,
+    "total_votes": 20406,
+    "all_parties": {
+      "DEM": 6901,
+      "REP": 13278,
+      "AMR": 211,
+      "NON": 16
+    },
+    "county_fips": "45059",
+    "two_party_total": 20179,
+    "margin": 6377,
+    "margin_pct": 31.602160662074436,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 4179,
+    "rep_votes": 2162,
+    "other_votes": 31,
+    "total_votes": 6372,
+    "all_parties": {
+      "DEM": 4179,
+      "CON": 30,
+      "REP": 2162,
+      "NON": 1
+    },
+    "county_fips": "45061",
+    "two_party_total": 6341,
+    "margin": 2017,
+    "margin_pct": 31.808862955369815,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Sean Carrigan (D)",
+    "rep_candidate": "Joe Wilson (R)",
+    "dem_votes": 33072,
+    "rep_votes": 64673,
+    "other_votes": 1641,
+    "total_votes": 99386,
+    "all_parties": {
+      "DEM": 33072,
+      "REP": 64673,
+      "AMR": 1550,
+      "NON": 91
+    },
+    "county_fips": "45063",
+    "two_party_total": 97745,
+    "margin": 31601,
+    "margin_pct": 32.330042457414706,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 6279,
+    "rep_votes": 4194,
+    "other_votes": 3,
+    "total_votes": 10476,
+    "all_parties": {
+      "DEM": 6279,
+      "REP": 4194,
+      "NON": 3
+    },
+    "county_fips": "45065",
+    "two_party_total": 10473,
+    "margin": 2085,
+    "margin_pct": 19.90833572042395,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 4363,
+    "rep_votes": 3340,
+    "other_votes": 2,
+    "total_votes": 7705,
+    "all_parties": {
+      "DEM": 4363,
+      "REP": 3340,
+      "NON": 2
+    },
+    "county_fips": "45067",
+    "two_party_total": 7703,
+    "margin": 1023,
+    "margin_pct": 13.28054004933143,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 2057,
+    "rep_votes": 2328,
+    "other_votes": 33,
+    "total_votes": 4418,
+    "all_parties": {
+      "DEM": 2057,
+      "REP": 2328,
+      "AMR": 33,
+      "NON": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 4385,
+    "margin": 271,
+    "margin_pct": 6.180159635119726,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 4909,
+    "rep_votes": 7956,
+    "other_votes": 163,
+    "total_votes": 13028,
+    "all_parties": {
+      "DEM": 4909,
+      "REP": 7956,
+      "AMR": 35,
+      "NON": 12,
+      "CON": 116
+    },
+    "county_fips": "45071",
+    "two_party_total": 12865,
+    "margin": 3047,
+    "margin_pct": 23.68441507967353,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 7316,
+    "rep_votes": 19966,
+    "other_votes": 361,
+    "total_votes": 27643,
+    "all_parties": {
+      "DEM": 7316,
+      "REP": 19966,
+      "AMR": 343,
+      "NON": 18
+    },
+    "county_fips": "45073",
+    "two_party_total": 27282,
+    "margin": 12650,
+    "margin_pct": 46.36756836009091,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Sean Carrigan (D)",
+    "rep_candidate": "Joe Wilson (R)",
+    "dem_votes": 21393,
+    "rep_votes": 8991,
+    "other_votes": 280,
+    "total_votes": 30664,
+    "all_parties": {
+      "DEM": 21393,
+      "REP": 8991,
+      "AMR": 39,
+      "NON": 16,
+      "GRN": 225
+    },
+    "county_fips": "45075",
+    "two_party_total": 30384,
+    "margin": 12402,
+    "margin_pct": 40.817535545023695,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 9333,
+    "rep_votes": 28814,
+    "other_votes": 565,
+    "total_votes": 38712,
+    "all_parties": {
+      "DEM": 9333,
+      "REP": 28814,
+      "AMR": 540,
+      "NON": 25
+    },
+    "county_fips": "45077",
+    "two_party_total": 38147,
+    "margin": 19481,
+    "margin_pct": 51.068236034288404,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Sean Carrigan (D)",
+    "rep_candidate": "Joe Wilson (R)",
+    "dem_votes": 95380,
+    "rep_votes": 43768,
+    "other_votes": 2117,
+    "total_votes": 141265,
+    "all_parties": {
+      "DEM": 95380,
+      "REP": 43768,
+      "AMR": 903,
+      "NON": 95,
+      "GRN": 1119
+    },
+    "county_fips": "45079",
+    "two_party_total": 139148,
+    "margin": 51612,
+    "margin_pct": 37.091442205421565,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 2163,
+    "rep_votes": 4633,
+    "other_votes": 78,
+    "total_votes": 6874,
+    "all_parties": {
+      "DEM": 2163,
+      "REP": 4633,
+      "AMR": 78,
+      "NON": 0
+    },
+    "county_fips": "45081",
+    "two_party_total": 6796,
+    "margin": 2470,
+    "margin_pct": 36.344908769864624,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Brandon P Brown (D)",
+    "rep_candidate": "William Timmons (R)",
+    "dem_votes": 33309,
+    "rep_votes": 58861,
+    "other_votes": 2695,
+    "total_votes": 94865,
+    "all_parties": {
+      "DEM": 33309,
+      "REP": 58861,
+      "AMR": 2509,
+      "NON": 87,
+      "CON": 99
+    },
+    "county_fips": "45083",
+    "two_party_total": 92170,
+    "margin": 25552,
+    "margin_pct": 27.722686340457848,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 19600,
+    "rep_votes": 14463,
+    "other_votes": 358,
+    "total_votes": 34421,
+    "all_parties": {
+      "DEM": 19600,
+      "CON": 282,
+      "REP": 14463,
+      "NON": 19,
+      "GRN": 57
+    },
+    "county_fips": "45085",
+    "two_party_total": 34063,
+    "margin": 5137,
+    "margin_pct": 15.080879546722251,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 3612,
+    "rep_votes": 5256,
+    "other_votes": 74,
+    "total_votes": 8942,
+    "all_parties": {
+      "DEM": 3612,
+      "CON": 71,
+      "REP": 5256,
+      "NON": 3
+    },
+    "county_fips": "45087",
+    "two_party_total": 8868,
+    "margin": 1644,
+    "margin_pct": 18.538565629228685,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "James E Jim Clyburn (D)",
+    "rep_candidate": "Gerhard R Gressmann (R)",
+    "dem_votes": 7956,
+    "rep_votes": 3558,
+    "other_votes": 98,
+    "total_votes": 11612,
+    "all_parties": {
+      "DEM": 7956,
+      "GRN": 89,
+      "REP": 3558,
+      "NON": 9
+    },
+    "county_fips": "45089",
+    "two_party_total": 11514,
+    "margin": 4398,
+    "margin_pct": 38.19697759249609,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Archie Parnell (D)",
+    "rep_candidate": "Ralph W Norman (R)",
+    "dem_votes": 38290,
+    "rep_votes": 55212,
+    "other_votes": 1859,
+    "total_votes": 95361,
+    "all_parties": {
+      "DEM": 38290,
+      "CON": 1704,
+      "REP": 55212,
+      "NON": 155
+    },
+    "county_fips": "45091",
+    "two_party_total": 93502,
+    "margin": 16922,
+    "margin_pct": 18.098008598746553,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  }
+}

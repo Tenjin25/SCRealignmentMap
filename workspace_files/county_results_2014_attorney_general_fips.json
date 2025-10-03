@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 7028,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2725,
+    "rep_votes": 4298,
+    "dem_pct": 38.77,
+    "rep_pct": 61.16,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 45013,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 13967,
+    "rep_votes": 31024,
+    "dem_pct": 31.03,
+    "rep_pct": 68.92,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 2265,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 1652,
+    "rep_votes": 612,
+    "dem_pct": 72.94,
+    "rep_pct": 27.02,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 44302,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 11304,
+    "rep_votes": 32972,
+    "dem_pct": 25.52,
+    "rep_pct": 74.43,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 4855,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3143,
+    "rep_votes": 1709,
+    "dem_pct": 64.74,
+    "rep_pct": 35.2,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 6103,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2879,
+    "rep_votes": 3222,
+    "dem_pct": 47.17,
+    "rep_pct": 52.79,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 47185,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 16356,
+    "rep_votes": 30806,
+    "dem_pct": 34.66,
+    "rep_pct": 65.29,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 42568,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 16690,
+    "rep_votes": 25854,
+    "dem_pct": 39.21,
+    "rep_pct": 60.74,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 5191,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2650,
+    "rep_votes": 2536,
+    "dem_pct": 51.05,
+    "rep_pct": 48.85,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 97057,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 46044,
+    "rep_votes": 50917,
+    "dem_pct": 47.44,
+    "rep_pct": 52.46,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 12179,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3439,
+    "rep_votes": 8734,
+    "dem_pct": 28.24,
+    "rep_pct": 71.71,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 10109,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4519,
+    "rep_votes": 5586,
+    "dem_pct": 44.7,
+    "rep_pct": 55.26,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 7887,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3785,
+    "rep_votes": 4095,
+    "dem_pct": 47.99,
+    "rep_pct": 51.92,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 10227,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 5586,
+    "rep_votes": 4619,
+    "dem_pct": 54.62,
+    "rep_pct": 45.16,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 10693,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4904,
+    "rep_votes": 5785,
+    "dem_pct": 45.86,
+    "rep_pct": 54.1,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 18448,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 9300,
+    "rep_votes": 9143,
+    "dem_pct": 50.41,
+    "rep_pct": 49.56,
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 6325,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3283,
+    "rep_votes": 3039,
+    "dem_pct": 51.91,
+    "rep_pct": 48.05,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 33743,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 12847,
+    "rep_votes": 20867,
+    "dem_pct": 38.07,
+    "rep_pct": 61.84,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 6946,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2705,
+    "rep_votes": 4238,
+    "dem_pct": 38.94,
+    "rep_pct": 61.01,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 8038,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4822,
+    "rep_votes": 3213,
+    "dem_pct": 59.99,
+    "rep_pct": 39.97,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 36097,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 16863,
+    "rep_votes": 19216,
+    "dem_pct": 46.72,
+    "rep_pct": 53.23,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 20203,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 8411,
+    "rep_votes": 11786,
+    "dem_pct": 41.63,
+    "rep_pct": 58.34,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 122369,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 35995,
+    "rep_votes": 86254,
+    "dem_pct": 29.42,
+    "rep_pct": 70.49,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 17530,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 6249,
+    "rep_votes": 11272,
+    "dem_pct": 35.65,
+    "rep_pct": 64.3,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 5771,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3586,
+    "rep_votes": 2183,
+    "dem_pct": 62.14,
+    "rep_pct": 37.83,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 67433,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 19629,
+    "rep_votes": 47765,
+    "dem_pct": 29.11,
+    "rep_pct": 70.83,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 6601,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3493,
+    "rep_votes": 3108,
+    "dem_pct": 52.92,
+    "rep_pct": 47.08,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 19174,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 7026,
+    "rep_votes": 12136,
+    "dem_pct": 36.64,
+    "rep_pct": 63.29,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 19849,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 7008,
+    "rep_votes": 12834,
+    "dem_pct": 35.31,
+    "rep_pct": 64.66,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 15018,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4935,
+    "rep_votes": 10069,
+    "dem_pct": 32.86,
+    "rep_pct": 67.05,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 5736,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3877,
+    "rep_votes": 1857,
+    "dem_pct": 67.59,
+    "rep_pct": 32.37,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 75145,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 18561,
+    "rep_votes": 56501,
+    "dem_pct": 24.7,
+    "rep_pct": 75.19,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 8672,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 5497,
+    "rep_votes": 3171,
+    "dem_pct": 63.39,
+    "rep_pct": 36.57,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 6129,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3765,
+    "rep_votes": 2358,
+    "dem_pct": 61.43,
+    "rep_pct": 38.47,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 3569,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 1610,
+    "rep_votes": 1958,
+    "dem_pct": 45.11,
+    "rep_pct": 54.86,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 10851,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3829,
+    "rep_votes": 7019,
+    "dem_pct": 35.29,
+    "rep_pct": 64.69,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 20017,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4500,
+    "rep_votes": 15510,
+    "dem_pct": 22.48,
+    "rep_pct": 77.48,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 27897,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 19790,
+    "rep_votes": 8100,
+    "dem_pct": 70.94,
+    "rep_pct": 29.04,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 26992,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 5262,
+    "rep_votes": 21707,
+    "dem_pct": 19.49,
+    "rep_pct": 80.42,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 109680,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 66005,
+    "rep_votes": 43569,
+    "dem_pct": 60.18,
+    "rep_pct": 39.72,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 5624,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 1818,
+    "rep_votes": 3800,
+    "dem_pct": 32.33,
+    "rep_pct": 67.57,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 64011,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 19796,
+    "rep_votes": 44152,
+    "dem_pct": 30.93,
+    "rep_pct": 68.98,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 29754,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 16310,
+    "rep_votes": 13437,
+    "dem_pct": 54.82,
+    "rep_pct": 45.16,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 7778,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3258,
+    "rep_votes": 4514,
+    "dem_pct": 41.89,
+    "rep_pct": 58.04,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 10632,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 7247,
+    "rep_votes": 3379,
+    "dem_pct": 68.16,
+    "rep_pct": 31.78,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "ATTORNEY GENERAL",
+    "total_votes": 56677,
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 19138,
+    "rep_votes": 37510,
+    "dem_pct": 33.77,
+    "rep_pct": 66.18,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

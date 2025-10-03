@@ -1,0 +1,1196 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Tombo Hite (D)",
+    "rep_candidate": "Michael Gambrell (R)",
+    "dem_votes": 3555,
+    "rep_votes": 3646,
+    "other_votes": 1,
+    "total_votes": 7202,
+    "all_parties": {
+      "REP": 3646,
+      "NON": 1,
+      "DEM": 3555
+    },
+    "county_fips": "45001",
+    "two_party_total": 7201,
+    "margin": 91,
+    "margin_pct": 1.2637133731426191,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "William Bill Clyburn (D)",
+    "rep_candidate": "Don Wells (R)",
+    "dem_votes": 5945,
+    "rep_votes": 31696,
+    "other_votes": 500,
+    "total_votes": 38141,
+    "all_parties": {
+      "REP": 31696,
+      "NON": 500,
+      "DEM": 5945
+    },
+    "county_fips": "45003",
+    "two_party_total": 37641,
+    "margin": 25751,
+    "margin_pct": 68.412103822959,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Lonnie Hosey (D)",
+    "rep_candidate": "",
+    "dem_votes": 2020,
+    "rep_votes": 0,
+    "other_votes": 11,
+    "total_votes": 2031,
+    "all_parties": {
+      "DEM": 2020,
+      "NON": 11
+    },
+    "county_fips": "45005",
+    "two_party_total": 2020,
+    "margin": 2020,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Tombo Hite (D)",
+    "rep_candidate": "Brian White (R)",
+    "dem_votes": 662,
+    "rep_votes": 36591,
+    "other_votes": 307,
+    "total_votes": 37560,
+    "all_parties": {
+      "REP": 36591,
+      "NON": 307,
+      "DEM": 662
+    },
+    "county_fips": "45007",
+    "two_party_total": 37253,
+    "margin": 35929,
+    "margin_pct": 96.44592381821599,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Justin Bamberg (D)",
+    "rep_candidate": "Travis Lee Avant (R)",
+    "dem_votes": 3353,
+    "rep_votes": 1558,
+    "other_votes": 3,
+    "total_votes": 4914,
+    "all_parties": {
+      "DEM": 3353,
+      "REP": 1558,
+      "NON": 3
+    },
+    "county_fips": "45009",
+    "two_party_total": 4911,
+    "margin": 1795,
+    "margin_pct": 36.55060069232336,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Justin Bamberg (D)",
+    "rep_candidate": "Travis Lee Avant (R)",
+    "dem_votes": 4210,
+    "rep_votes": 668,
+    "other_votes": 54,
+    "total_votes": 4932,
+    "all_parties": {
+      "DEM": 4210,
+      "REP": 668,
+      "NON": 54
+    },
+    "county_fips": "45011",
+    "two_party_total": 4878,
+    "margin": 3542,
+    "margin_pct": 72.61172611726117,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Kenneth F Hodges (D)",
+    "rep_candidate": "Bill Herbkersman (R)",
+    "dem_votes": 4736,
+    "rep_votes": 32075,
+    "other_votes": 372,
+    "total_votes": 37183,
+    "all_parties": {
+      "REP": 32075,
+      "NON": 372,
+      "DEM": 4736
+    },
+    "county_fips": "45013",
+    "two_party_total": 36811,
+    "margin": 27339,
+    "margin_pct": 74.26856102795361,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Marian Redish (D)",
+    "rep_candidate": "Samuel Rivers Jr (R)",
+    "dem_votes": 7366,
+    "rep_votes": 28071,
+    "other_votes": 271,
+    "total_votes": 35708,
+    "all_parties": {
+      "DEM": 7366,
+      "REP": 28071,
+      "NON": 271
+    },
+    "county_fips": "45015",
+    "two_party_total": 35437,
+    "margin": 20705,
+    "margin_pct": 58.42763213590315,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Russell L Ott (D)",
+    "rep_candidate": "",
+    "dem_votes": 4249,
+    "rep_votes": 0,
+    "other_votes": 76,
+    "total_votes": 4325,
+    "all_parties": {
+      "DEM": 4249,
+      "NON": 76
+    },
+    "county_fips": "45017",
+    "two_party_total": 4249,
+    "margin": 4249,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Marian Redish (D)",
+    "rep_candidate": "Samuel Rivers Jr (R)",
+    "dem_votes": 37104,
+    "rep_votes": 40828,
+    "other_votes": 2711,
+    "total_votes": 80643,
+    "all_parties": {
+      "DEM": 37104,
+      "REP": 40828,
+      "NON": 964,
+      "LIB": 1041,
+      "GRN": 706
+    },
+    "county_fips": "45019",
+    "two_party_total": 77932,
+    "margin": 3724,
+    "margin_pct": 4.778524867833496,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Dennis Carroll Moss (R)",
+    "dem_votes": 0,
+    "rep_votes": 9900,
+    "other_votes": 76,
+    "total_votes": 9976,
+    "all_parties": {
+      "REP": 9900,
+      "NON": 76
+    },
+    "county_fips": "45021",
+    "two_party_total": 9900,
+    "margin": 9900,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Amy M Brown (D)",
+    "rep_candidate": "Richie Yow (R)",
+    "dem_votes": 4177,
+    "rep_votes": 5188,
+    "other_votes": 56,
+    "total_votes": 9421,
+    "all_parties": {
+      "DEM": 4177,
+      "REP": 5188,
+      "NON": 56
+    },
+    "county_fips": "45025",
+    "two_party_total": 9365,
+    "margin": 1011,
+    "margin_pct": 10.795515216230646,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "MaryGail Douglas (D)",
+    "rep_candidate": "Dennis Carroll Moss (R)",
+    "dem_votes": 1852,
+    "rep_votes": 4473,
+    "other_votes": 75,
+    "total_votes": 6400,
+    "all_parties": {
+      "REP": 4473,
+      "NON": 75,
+      "DEM": 1852
+    },
+    "county_fips": "45023",
+    "two_party_total": 6325,
+    "margin": 2621,
+    "margin_pct": 41.43873517786561,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Robert L Ridgeway III (D)",
+    "rep_candidate": "Robert A McFadden Sr (R)",
+    "dem_votes": 7203,
+    "rep_votes": 3089,
+    "other_votes": 9,
+    "total_votes": 10301,
+    "all_parties": {
+      "DEM": 7203,
+      "REP": 3089,
+      "NON": 9
+    },
+    "county_fips": "45027",
+    "two_party_total": 10292,
+    "margin": 4114,
+    "margin_pct": 39.97279440342013,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Justin Bamberg (D)",
+    "rep_candidate": "Travis Lee Avant (R)",
+    "dem_votes": 5734,
+    "rep_votes": 3757,
+    "other_votes": 54,
+    "total_votes": 9545,
+    "all_parties": {
+      "DEM": 5734,
+      "REP": 3757,
+      "NON": 54
+    },
+    "county_fips": "45029",
+    "two_party_total": 9491,
+    "margin": 1977,
+    "margin_pct": 20.83026024654936,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Patricia M Pat Henegan (D)",
+    "rep_candidate": "Phillip Lowe (R)",
+    "dem_votes": 7676,
+    "rep_votes": 8560,
+    "other_votes": 58,
+    "total_votes": 16294,
+    "all_parties": {
+      "DEM": 7676,
+      "NON": 58,
+      "REP": 8560
+    },
+    "county_fips": "45031",
+    "two_party_total": 16236,
+    "margin": 884,
+    "margin_pct": 5.444690810544469,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "J Wayne George (D)",
+    "rep_candidate": "",
+    "dem_votes": 5047,
+    "rep_votes": 0,
+    "other_votes": 166,
+    "total_votes": 5213,
+    "all_parties": {
+      "DEM": 5047,
+      "NON": 166
+    },
+    "county_fips": "45033",
+    "two_party_total": 5047,
+    "margin": 5047,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Damian Daly (D)",
+    "rep_candidate": "Jenny Horne (R)",
+    "dem_votes": 16218,
+    "rep_votes": 12183,
+    "other_votes": 1126,
+    "total_votes": 29527,
+    "all_parties": {
+      "DEM": 16218,
+      "REP": 12183,
+      "NON": 301,
+      "LIB": 543,
+      "GRN": 282
+    },
+    "county_fips": "45035",
+    "two_party_total": 28401,
+    "margin": 4035,
+    "margin_pct": 14.207246223724518,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "William Bill Clyburn (D)",
+    "rep_candidate": "Bill Hixon (R)",
+    "dem_votes": 3675,
+    "rep_votes": 1864,
+    "other_votes": 128,
+    "total_votes": 5667,
+    "all_parties": {
+      "DEM": 3675,
+      "NON": 128,
+      "REP": 1864
+    },
+    "county_fips": "45037",
+    "two_party_total": 5539,
+    "margin": 1811,
+    "margin_pct": 32.69543238851778,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "MaryGail Douglas (D)",
+    "rep_candidate": "",
+    "dem_votes": 7138,
+    "rep_votes": 0,
+    "other_votes": 57,
+    "total_votes": 7195,
+    "all_parties": {
+      "DEM": 7138,
+      "NON": 57
+    },
+    "county_fips": "45039",
+    "two_party_total": 7138,
+    "margin": 7138,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Terry Alexander (D)",
+    "rep_candidate": "Phillip Lowe (R)",
+    "dem_votes": 13343,
+    "rep_votes": 16955,
+    "other_votes": 233,
+    "total_votes": 30531,
+    "all_parties": {
+      "DEM": 13343,
+      "NON": 233,
+      "REP": 16955
+    },
+    "county_fips": "45041",
+    "two_party_total": 30298,
+    "margin": 3612,
+    "margin_pct": 11.921578982111031,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Carl L Anderson (D)",
+    "rep_candidate": "Stephen L Goldfinch Jr (R)",
+    "dem_votes": 11530,
+    "rep_votes": 6898,
+    "other_votes": 80,
+    "total_votes": 18508,
+    "all_parties": {
+      "DEM": 11530,
+      "NON": 80,
+      "REP": 6898
+    },
+    "county_fips": "45043",
+    "two_party_total": 18428,
+    "margin": 4632,
+    "margin_pct": 25.1356631213371,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Jon Eames (D)",
+    "rep_candidate": "Joshua A Putnam (R)",
+    "dem_votes": 15822,
+    "rep_votes": 90113,
+    "other_votes": 2780,
+    "total_votes": 108715,
+    "all_parties": {
+      "REP": 90113,
+      "NON": 915,
+      "DEM": 15822,
+      "GRN": 237,
+      "IND": 1628
+    },
+    "county_fips": "45045",
+    "two_party_total": 105935,
+    "margin": 74291,
+    "margin_pct": 70.1288525982914,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Anne Parks (D)",
+    "rep_candidate": "Tony Wideman (R)",
+    "dem_votes": 3226,
+    "rep_votes": 12220,
+    "other_votes": 93,
+    "total_votes": 15539,
+    "all_parties": {
+      "DEM": 3226,
+      "REP": 12220,
+      "NON": 93
+    },
+    "county_fips": "45047",
+    "two_party_total": 15446,
+    "margin": 8994,
+    "margin_pct": 58.22866761621132,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Bill Bowers (D)",
+    "rep_candidate": "",
+    "dem_votes": 5395,
+    "rep_votes": 0,
+    "other_votes": 20,
+    "total_votes": 5415,
+    "all_parties": {
+      "DEM": 5395,
+      "NON": 20
+    },
+    "county_fips": "45049",
+    "two_party_total": 5395,
+    "margin": 5395,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Jackie E Hayes (D)",
+    "rep_candidate": "Mike Ryhal (R)",
+    "dem_votes": 1209,
+    "rep_votes": 52228,
+    "other_votes": 606,
+    "total_votes": 54043,
+    "all_parties": {
+      "DEM": 1209,
+      "NON": 606,
+      "REP": 52228
+    },
+    "county_fips": "45051",
+    "two_party_total": 53437,
+    "margin": 51019,
+    "margin_pct": 95.47504538054157,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Bill Bowers (D)",
+    "rep_candidate": "Bill Herbkersman (R)",
+    "dem_votes": 3181,
+    "rep_votes": 1689,
+    "other_votes": 39,
+    "total_votes": 4909,
+    "all_parties": {
+      "REP": 1689,
+      "NON": 39,
+      "DEM": 3181
+    },
+    "county_fips": "45053",
+    "two_party_total": 4870,
+    "margin": 1492,
+    "margin_pct": 30.636550308008214,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Grady Brown (D)",
+    "rep_candidate": "Jay Lucas (R)",
+    "dem_votes": 13267,
+    "rep_votes": 872,
+    "other_votes": 214,
+    "total_votes": 14353,
+    "all_parties": {
+      "DEM": 13267,
+      "NON": 214,
+      "REP": 872
+    },
+    "county_fips": "45055",
+    "two_party_total": 14139,
+    "margin": 12395,
+    "margin_pct": 87.6653228658321,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Mandy Powers Norrell (D)",
+    "rep_candidate": "Deborah Long (R)",
+    "dem_votes": 6833,
+    "rep_votes": 9360,
+    "other_votes": 221,
+    "total_votes": 16414,
+    "all_parties": {
+      "DEM": 6833,
+      "NON": 221,
+      "REP": 9360
+    },
+    "county_fips": "45057",
+    "two_party_total": 16193,
+    "margin": 2527,
+    "margin_pct": 15.60550855307849,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Mike Anthony (D)",
+    "rep_candidate": "Mike Pitts (R)",
+    "dem_votes": 575,
+    "rep_votes": 11538,
+    "other_votes": 106,
+    "total_votes": 12219,
+    "all_parties": {
+      "REP": 11538,
+      "NON": 106,
+      "DEM": 575
+    },
+    "county_fips": "45059",
+    "two_party_total": 12113,
+    "margin": 10963,
+    "margin_pct": 90.50606786097582,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Grady Brown (D)",
+    "rep_candidate": "",
+    "dem_votes": 4940,
+    "rep_votes": 0,
+    "other_votes": 83,
+    "total_votes": 5023,
+    "all_parties": {
+      "DEM": 4940,
+      "NON": 83
+    },
+    "county_fips": "45061",
+    "two_party_total": 4940,
+    "margin": 4940,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Robert Louis Vanlue (D)",
+    "rep_candidate": "Ralph Shealy Kennedy (R)",
+    "dem_votes": 7386,
+    "rep_votes": 58748,
+    "other_votes": 489,
+    "total_votes": 66623,
+    "all_parties": {
+      "REP": 58748,
+      "NON": 489,
+      "DEM": 7386
+    },
+    "county_fips": "45063",
+    "two_party_total": 66134,
+    "margin": 51362,
+    "margin_pct": 77.66353161762483,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "J Wayne George (D)",
+    "rep_candidate": "Raleigh O Ward Jr (R)",
+    "dem_votes": 7637,
+    "rep_votes": 229,
+    "other_votes": 32,
+    "total_votes": 7898,
+    "all_parties": {
+      "DEM": 7637,
+      "NON": 32,
+      "REP": 229
+    },
+    "county_fips": "45065",
+    "two_party_total": 7866,
+    "margin": 7408,
+    "margin_pct": 94.1774726671752,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Patricia M Pat Henegan (D)",
+    "rep_candidate": "",
+    "dem_votes": 5287,
+    "rep_votes": 0,
+    "other_votes": 69,
+    "total_votes": 5356,
+    "all_parties": {
+      "DEM": 5287,
+      "NON": 69
+    },
+    "county_fips": "45067",
+    "two_party_total": 5287,
+    "margin": 5287,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Anne Parks (D)",
+    "rep_candidate": "Tony Wideman (R)",
+    "dem_votes": 1677,
+    "rep_votes": 1919,
+    "other_votes": 1,
+    "total_votes": 3597,
+    "all_parties": {
+      "DEM": 1677,
+      "REP": 1919,
+      "NON": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 3596,
+    "margin": 242,
+    "margin_pct": 6.7296996662958835,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Walt McLeod (D)",
+    "rep_candidate": "Richard Martin (R)",
+    "dem_votes": 6623,
+    "rep_votes": 4388,
+    "other_votes": 3,
+    "total_votes": 11014,
+    "all_parties": {
+      "DEM": 6623,
+      "REP": 4388,
+      "NON": 3
+    },
+    "county_fips": "45071",
+    "two_party_total": 11011,
+    "margin": 2235,
+    "margin_pct": 20.297883934247572,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Bill Whitmire (R)",
+    "dem_votes": 0,
+    "rep_votes": 17397,
+    "other_votes": 196,
+    "total_votes": 17593,
+    "all_parties": {
+      "REP": 17397,
+      "NON": 196
+    },
+    "county_fips": "45073",
+    "two_party_total": 17397,
+    "margin": 17397,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Gilda CobbHunter (D)",
+    "rep_candidate": "",
+    "dem_votes": 23354,
+    "rep_votes": 0,
+    "other_votes": 306,
+    "total_votes": 23660,
+    "all_parties": {
+      "DEM": 23354,
+      "NON": 306
+    },
+    "county_fips": "45075",
+    "two_party_total": 23354,
+    "margin": 23354,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Gary E Clary (R)",
+    "dem_votes": 0,
+    "rep_votes": 23436,
+    "other_votes": 1225,
+    "total_votes": 24661,
+    "all_parties": {
+      "LIB": 983,
+      "REP": 23436,
+      "NON": 242
+    },
+    "county_fips": "45077",
+    "two_party_total": 23436,
+    "margin": 23436,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "MaryGail Douglas (D)",
+    "rep_candidate": "Nathan Ballentine (R)",
+    "dem_votes": 75792,
+    "rep_votes": 19711,
+    "other_votes": 2039,
+    "total_votes": 97542,
+    "all_parties": {
+      "DEM": 75792,
+      "NON": 832,
+      "REP": 19711,
+      "AMR": 1207
+    },
+    "county_fips": "45079",
+    "two_party_total": 95503,
+    "margin": 56081,
+    "margin_pct": 58.72171554820268,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "William Bill Clyburn (D)",
+    "rep_candidate": "Ralph Shealy Kennedy (R)",
+    "dem_votes": 668,
+    "rep_votes": 3768,
+    "other_votes": 57,
+    "total_votes": 4493,
+    "all_parties": {
+      "REP": 3768,
+      "NON": 57,
+      "DEM": 668
+    },
+    "county_fips": "45081",
+    "two_party_total": 4436,
+    "margin": 3100,
+    "margin_pct": 69.88277727682598,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Harold Mitchell Jr (D)",
+    "rep_candidate": "Derham Cole (R)",
+    "dem_votes": 12720,
+    "rep_votes": 45658,
+    "other_votes": 458,
+    "total_votes": 58836,
+    "all_parties": {
+      "DEM": 12720,
+      "NON": 458,
+      "REP": 45658
+    },
+    "county_fips": "45083",
+    "two_party_total": 58378,
+    "margin": 32938,
+    "margin_pct": 56.42193977183185,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Grady Brown (D)",
+    "rep_candidate": "Robert A McFadden Sr (R)",
+    "dem_votes": 15435,
+    "rep_votes": 8798,
+    "other_votes": 211,
+    "total_votes": 24444,
+    "all_parties": {
+      "DEM": 15435,
+      "NON": 211,
+      "REP": 8798
+    },
+    "county_fips": "45085",
+    "two_party_total": 24233,
+    "margin": 6637,
+    "margin_pct": 27.388272190814178,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Mike Anthony (D)",
+    "rep_candidate": "David Tribble (R)",
+    "dem_votes": 5500,
+    "rep_votes": 2412,
+    "other_votes": 12,
+    "total_votes": 7924,
+    "all_parties": {
+      "DEM": 5500,
+      "REP": 2412,
+      "NON": 12
+    },
+    "county_fips": "45087",
+    "two_party_total": 7912,
+    "margin": 3088,
+    "margin_pct": 39.02932254802831,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Cezar McKnight (D)",
+    "rep_candidate": "Al Smith (R)",
+    "dem_votes": 7313,
+    "rep_votes": 3402,
+    "other_votes": 30,
+    "total_votes": 10745,
+    "all_parties": {
+      "DEM": 7313,
+      "REP": 3402,
+      "NON": 30
+    },
+    "county_fips": "45089",
+    "two_party_total": 10715,
+    "margin": 3911,
+    "margin_pct": 36.500233317778815,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Barry McGrew (D)",
+    "rep_candidate": "Raye Felder (R)",
+    "dem_votes": 8184,
+    "rep_votes": 40863,
+    "other_votes": 2103,
+    "total_votes": 51150,
+    "all_parties": {
+      "LIB": 1814,
+      "REP": 40863,
+      "NON": 289,
+      "DEM": 8184
+    },
+    "county_fips": "45091",
+    "two_party_total": 49047,
+    "margin": 32679,
+    "margin_pct": 66.62792831365833,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  }
+}

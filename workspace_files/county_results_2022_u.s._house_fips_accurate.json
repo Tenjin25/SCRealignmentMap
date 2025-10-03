@@ -1,0 +1,1203 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 6685,
+    "other_votes": 66,
+    "total_votes": 6751,
+    "all_parties": {
+      "REP": 6685,
+      "": 66
+    },
+    "county_fips": "45001",
+    "two_party_total": 6685,
+    "margin": 6685,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Judd Larkins (D)",
+    "rep_candidate": "REP Joe Wilson (R)",
+    "dem_votes": 17646,
+    "rep_votes": 37075,
+    "other_votes": 59,
+    "total_votes": 54780,
+    "all_parties": {
+      "REP": 37075,
+      "DEM": 17646,
+      "NON": 59
+    },
+    "county_fips": "45003",
+    "two_party_total": 54721,
+    "margin": 19429,
+    "margin_pct": 35.50556459129036,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 1288,
+    "rep_votes": 533,
+    "other_votes": 2,
+    "total_votes": 1823,
+    "all_parties": {
+      "REP": 533,
+      "DEM": 1288,
+      "NON": 2
+    },
+    "county_fips": "45005",
+    "two_party_total": 1821,
+    "margin": 755,
+    "margin_pct": 41.4607358594179,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 51996,
+    "other_votes": 1320,
+    "total_votes": 53316,
+    "all_parties": {
+      "REP": 51996,
+      "NON": 1320
+    },
+    "county_fips": "45007",
+    "two_party_total": 51996,
+    "margin": 51996,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 2222,
+    "rep_votes": 1752,
+    "other_votes": 3,
+    "total_votes": 3977,
+    "all_parties": {
+      "REP": 1752,
+      "DEM": 2222,
+      "NON": 3
+    },
+    "county_fips": "45009",
+    "two_party_total": 3974,
+    "margin": 470,
+    "margin_pct": 11.82687468545546,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Judd Larkins (D)",
+    "rep_candidate": "REP Joe Wilson (R)",
+    "dem_votes": 2468,
+    "rep_votes": 3795,
+    "other_votes": 6,
+    "total_votes": 6269,
+    "all_parties": {
+      "REP": 3795,
+      "DEM": 2468,
+      "NON": 6
+    },
+    "county_fips": "45011",
+    "two_party_total": 6263,
+    "margin": 1327,
+    "margin_pct": 21.18792910745649,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Annie Andrews (D)",
+    "rep_candidate": "REP Nancy Mace (R)",
+    "dem_votes": 28280,
+    "rep_votes": 42524,
+    "other_votes": 674,
+    "total_votes": 71478,
+    "all_parties": {
+      "REP": 42524,
+      "ALN": 530,
+      "DEM": 28280,
+      "NON": 144
+    },
+    "county_fips": "45013",
+    "two_party_total": 70804,
+    "margin": 14244,
+    "margin_pct": 20.117507485452798,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Annie Andrews (D)",
+    "rep_candidate": "REP Nancy Mace (R)",
+    "dem_votes": 29235,
+    "rep_votes": 40829,
+    "other_votes": 1070,
+    "total_votes": 71134,
+    "all_parties": {
+      "REP": 40829,
+      "ALN": 936,
+      "DEM": 29235,
+      "NON": 134
+    },
+    "county_fips": "45015",
+    "two_party_total": 70064,
+    "margin": 11594,
+    "margin_pct": 16.547727791733273,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 2290,
+    "rep_votes": 3335,
+    "other_votes": 8,
+    "total_votes": 5633,
+    "all_parties": {
+      "REP": 3335,
+      "DEM": 2290,
+      "NON": 8
+    },
+    "county_fips": "45017",
+    "two_party_total": 5625,
+    "margin": 1045,
+    "margin_pct": 18.577777777777776,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 81167,
+    "rep_votes": 70433,
+    "other_votes": 833,
+    "total_votes": 152433,
+    "all_parties": {
+      "REP": 70433,
+      "DEM": 81167,
+      "NON": 195,
+      "ALN": 638
+    },
+    "county_fips": "45019",
+    "two_party_total": 151600,
+    "margin": 10734,
+    "margin_pct": 7.08047493403694,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 3337,
+    "rep_votes": 12633,
+    "other_votes": 160,
+    "total_votes": 16130,
+    "all_parties": {
+      "GRN": 157,
+      "REP": 12633,
+      "DEM": 3337,
+      "NON": 3
+    },
+    "county_fips": "45021",
+    "two_party_total": 15970,
+    "margin": 9296,
+    "margin_pct": 58.20914214151534,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 4402,
+    "rep_votes": 8115,
+    "other_votes": 18,
+    "total_votes": 12535,
+    "all_parties": {
+      "REP": 8115,
+      "DEM": 4402,
+      "NON": 18
+    },
+    "county_fips": "45025",
+    "two_party_total": 12517,
+    "margin": 3713,
+    "margin_pct": 29.663657425900773,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 3508,
+    "rep_votes": 5930,
+    "other_votes": 161,
+    "total_votes": 9599,
+    "all_parties": {
+      "GRN": 157,
+      "REP": 5930,
+      "DEM": 3508,
+      "NON": 4
+    },
+    "county_fips": "45023",
+    "two_party_total": 9438,
+    "margin": 2422,
+    "margin_pct": 25.66221657130748,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 4991,
+    "rep_votes": 6444,
+    "other_votes": 4,
+    "total_votes": 11439,
+    "all_parties": {
+      "REP": 6444,
+      "DEM": 4991,
+      "": 4
+    },
+    "county_fips": "45027",
+    "two_party_total": 11435,
+    "margin": 1453,
+    "margin_pct": 12.706602536073458,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 4984,
+    "rep_votes": 7550,
+    "other_votes": 19,
+    "total_votes": 12553,
+    "all_parties": {
+      "REP": 7550,
+      "DEM": 4984,
+      "NON": 12,
+      "ALN": 7
+    },
+    "county_fips": "45029",
+    "two_party_total": 12534,
+    "margin": 2566,
+    "margin_pct": 20.472315302377535,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 8177,
+    "rep_votes": 11804,
+    "other_votes": 19,
+    "total_votes": 20000,
+    "all_parties": {
+      "REP": 11804,
+      "DEM": 8177,
+      "NON": 19
+    },
+    "county_fips": "45031",
+    "two_party_total": 19981,
+    "margin": 3627,
+    "margin_pct": 18.15224463240078,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 3531,
+    "rep_votes": 4283,
+    "other_votes": 5,
+    "total_votes": 7819,
+    "all_parties": {
+      "REP": 4283,
+      "DEM": 3531,
+      "NON": 5
+    },
+    "county_fips": "45033",
+    "two_party_total": 7814,
+    "margin": 752,
+    "margin_pct": 9.623752239570003,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 20575,
+    "rep_votes": 28305,
+    "other_votes": 593,
+    "total_votes": 49473,
+    "all_parties": {
+      "REP": 28305,
+      "DEM": 20575,
+      "NON": 85,
+      "ALN": 508
+    },
+    "county_fips": "45035",
+    "two_party_total": 48880,
+    "margin": 7730,
+    "margin_pct": 15.814238952536824,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 6613,
+    "other_votes": 78,
+    "total_votes": 6691,
+    "all_parties": {
+      "REP": 6613,
+      "NON": 78
+    },
+    "county_fips": "45037",
+    "two_party_total": 6613,
+    "margin": 6613,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 4167,
+    "rep_votes": 3795,
+    "other_votes": 394,
+    "total_votes": 8356,
+    "all_parties": {
+      "GRN": 383,
+      "REP": 3795,
+      "DEM": 4167,
+      "NON": 11
+    },
+    "county_fips": "45039",
+    "two_party_total": 7962,
+    "margin": 372,
+    "margin_pct": 4.672192916352675,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 17950,
+    "rep_votes": 23252,
+    "other_votes": 66,
+    "total_votes": 41268,
+    "all_parties": {
+      "REP": 23252,
+      "DEM": 17950,
+      "NON": 66
+    },
+    "county_fips": "45041",
+    "two_party_total": 41202,
+    "margin": 5302,
+    "margin_pct": 12.868307363720207,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 10485,
+    "rep_votes": 16753,
+    "other_votes": 38,
+    "total_votes": 27276,
+    "all_parties": {
+      "REP": 16753,
+      "DEM": 10485,
+      "NON": 38
+    },
+    "county_fips": "45043",
+    "two_party_total": 27238,
+    "margin": 6268,
+    "margin_pct": 23.01196857331669,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 124852,
+    "other_votes": 14116,
+    "total_votes": 138968,
+    "all_parties": {
+      "REP": 124852,
+      "NON": 14116
+    },
+    "county_fips": "45045",
+    "two_party_total": 124852,
+    "margin": 124852,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 16229,
+    "other_votes": 386,
+    "total_votes": 16615,
+    "all_parties": {
+      "REP": 16229,
+      "NON": 386
+    },
+    "county_fips": "45047",
+    "two_party_total": 16229,
+    "margin": 16229,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 3047,
+    "rep_votes": 2572,
+    "other_votes": 2,
+    "total_votes": 5621,
+    "all_parties": {
+      "REP": 2572,
+      "DEM": 3047,
+      "NON": 2
+    },
+    "county_fips": "45049",
+    "two_party_total": 5619,
+    "margin": 475,
+    "margin_pct": 8.453461470012458,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 38481,
+    "rep_votes": 94322,
+    "other_votes": 239,
+    "total_votes": 133042,
+    "all_parties": {
+      "REP": 94322,
+      "DEM": 38481,
+      "NON": 239
+    },
+    "county_fips": "45051",
+    "two_party_total": 132803,
+    "margin": 55841,
+    "margin_pct": 42.047995903707,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 4748,
+    "rep_votes": 6309,
+    "other_votes": 32,
+    "total_votes": 11089,
+    "all_parties": {
+      "REP": 6309,
+      "DEM": 4748,
+      "NON": 17,
+      "ALN": 15
+    },
+    "county_fips": "45053",
+    "two_party_total": 11057,
+    "margin": 1561,
+    "margin_pct": 14.117753459347021,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 7193,
+    "rep_votes": 14728,
+    "other_votes": 368,
+    "total_votes": 22289,
+    "all_parties": {
+      "GRN": 357,
+      "REP": 14728,
+      "DEM": 7193,
+      "NON": 11
+    },
+    "county_fips": "45055",
+    "two_party_total": 21921,
+    "margin": 7535,
+    "margin_pct": 34.37343186898408,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 11172,
+    "rep_votes": 22937,
+    "other_votes": 463,
+    "total_votes": 34572,
+    "all_parties": {
+      "GRN": 452,
+      "REP": 22937,
+      "DEM": 11172,
+      "NON": 11
+    },
+    "county_fips": "45057",
+    "two_party_total": 34109,
+    "margin": 11765,
+    "margin_pct": 34.49236271951685,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 15578,
+    "other_votes": 348,
+    "total_votes": 15926,
+    "all_parties": {
+      "REP": 15578,
+      "NON": 348
+    },
+    "county_fips": "45059",
+    "two_party_total": 15578,
+    "margin": 15578,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 3014,
+    "rep_votes": 2170,
+    "other_votes": 56,
+    "total_votes": 5240,
+    "all_parties": {
+      "GRN": 53,
+      "REP": 2170,
+      "DEM": 3014,
+      "NON": 3
+    },
+    "county_fips": "45061",
+    "two_party_total": 5184,
+    "margin": 844,
+    "margin_pct": 16.280864197530864,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Judd Larkins (D)",
+    "rep_candidate": "REP Joe Wilson (R)",
+    "dem_votes": 30509,
+    "rep_votes": 68151,
+    "other_votes": 182,
+    "total_votes": 98842,
+    "all_parties": {
+      "REP": 68151,
+      "DEM": 30509,
+      "NON": 182
+    },
+    "county_fips": "45063",
+    "two_party_total": 98660,
+    "margin": 37642,
+    "margin_pct": 38.1532535982161,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 4509,
+    "rep_votes": 3875,
+    "other_votes": 10,
+    "total_votes": 8394,
+    "all_parties": {
+      "REP": 3875,
+      "DEM": 4509,
+      "NON": 10
+    },
+    "county_fips": "45065",
+    "two_party_total": 8384,
+    "margin": 634,
+    "margin_pct": 7.562022900763359,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 3270,
+    "rep_votes": 3199,
+    "other_votes": 8,
+    "total_votes": 6477,
+    "all_parties": {
+      "REP": 3199,
+      "DEM": 3270,
+      "NON": 8
+    },
+    "county_fips": "45067",
+    "two_party_total": 6469,
+    "margin": 71,
+    "margin_pct": 1.0975421239758851,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 3062,
+    "other_votes": 41,
+    "total_votes": 3103,
+    "all_parties": {
+      "REP": 3062,
+      "NON": 41
+    },
+    "county_fips": "45069",
+    "two_party_total": 3062,
+    "margin": 3062,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 9803,
+    "other_votes": 127,
+    "total_votes": 9930,
+    "all_parties": {
+      "REP": 9803,
+      "": 127
+    },
+    "county_fips": "45071",
+    "two_party_total": 9803,
+    "margin": 9803,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 24038,
+    "other_votes": 679,
+    "total_votes": 24717,
+    "all_parties": {
+      "REP": 24038,
+      "NON": 679
+    },
+    "county_fips": "45073",
+    "two_party_total": 24038,
+    "margin": 24038,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Judd Larkins (D)",
+    "rep_candidate": "REP Joe Wilson (R)",
+    "dem_votes": 16466,
+    "rep_votes": 9657,
+    "other_votes": 25,
+    "total_votes": 26148,
+    "all_parties": {
+      "REP": 9657,
+      "DEM": 16466,
+      "NON": 25
+    },
+    "county_fips": "45075",
+    "two_party_total": 26123,
+    "margin": 6809,
+    "margin_pct": 26.065153313172303,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 33561,
+    "other_votes": 1039,
+    "total_votes": 34600,
+    "all_parties": {
+      "REP": 33561,
+      "NON": 1039
+    },
+    "county_fips": "45077",
+    "two_party_total": 33561,
+    "margin": 33561,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Judd Larkins (D)",
+    "rep_candidate": "REP Joe Wilson (R)",
+    "dem_votes": 82185,
+    "rep_votes": 44106,
+    "other_votes": 160,
+    "total_votes": 126451,
+    "all_parties": {
+      "REP": 44106,
+      "DEM": 82185,
+      "NON": 160
+    },
+    "county_fips": "45079",
+    "two_party_total": 126291,
+    "margin": 38079,
+    "margin_pct": 30.151792289236763,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 5316,
+    "other_votes": 44,
+    "total_votes": 5360,
+    "all_parties": {
+      "REP": 5316,
+      "NON": 44
+    },
+    "county_fips": "45081",
+    "two_party_total": 5316,
+    "margin": 5316,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 3633,
+    "rep_votes": 72379,
+    "other_votes": 3325,
+    "total_votes": 79337,
+    "all_parties": {
+      "GRN": 200,
+      "REP": 72379,
+      "DEM": 3633,
+      "NON": 3125
+    },
+    "county_fips": "45083",
+    "two_party_total": 76012,
+    "margin": 68746,
+    "margin_pct": 90.44098300268378,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 15503,
+    "rep_votes": 14794,
+    "other_votes": 314,
+    "total_votes": 30611,
+    "all_parties": {
+      "REP": 14794,
+      "DEM": 15503,
+      "NON": 20,
+      "GRN": 294
+    },
+    "county_fips": "45085",
+    "two_party_total": 30297,
+    "margin": 709,
+    "margin_pct": 2.3401656929729016,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 2617,
+    "rep_votes": 5902,
+    "other_votes": 103,
+    "total_votes": 8622,
+    "all_parties": {
+      "GRN": 91,
+      "REP": 5902,
+      "DEM": 2617,
+      "NON": 12
+    },
+    "county_fips": "45087",
+    "two_party_total": 8519,
+    "margin": 3285,
+    "margin_pct": 38.56086395116798,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM James E Jim Clyburn (D)",
+    "rep_candidate": "REP Duke Buckner (R)",
+    "dem_votes": 5895,
+    "rep_votes": 3864,
+    "other_votes": 12,
+    "total_votes": 9771,
+    "all_parties": {
+      "REP": 3864,
+      "DEM": 5895,
+      "NON": 12
+    },
+    "county_fips": "45089",
+    "two_party_total": 9759,
+    "margin": 2031,
+    "margin_pct": 20.811558561328006,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Evangeline Hundley (D)",
+    "rep_candidate": "REP Ralph Norman (R)",
+    "dem_votes": 34184,
+    "rep_votes": 60240,
+    "other_votes": 1459,
+    "total_votes": 95883,
+    "all_parties": {
+      "GRN": 1403,
+      "REP": 60240,
+      "DEM": 34184,
+      "NON": 56
+    },
+    "county_fips": "45091",
+    "two_party_total": 94424,
+    "margin": 26056,
+    "margin_pct": 27.59467931881725,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

@@ -1,0 +1,1290 @@
+{
+  "45003": {
+    "county": "AIKEN",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 32275,
+    "rep_votes": 51589,
+    "other_votes": 1321,
+    "total_votes": 85185,
+    "all_parties": {
+      "GRN": 274,
+      "REP": 51589,
+      "ALN": 65,
+      "LIB": 982,
+      "DEM": 32275
+    },
+    "county_fips": "45003",
+    "two_party_total": 83864,
+    "margin": 19314,
+    "margin_pct": 23.03014404273586,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 10159,
+    "rep_votes": 20004,
+    "other_votes": 325,
+    "total_votes": 30488,
+    "all_parties": {
+      "GRN": 67,
+      "REP": 20004,
+      "ALN": 20,
+      "LIB": 238,
+      "DEM": 10159
+    },
+    "county_fips": "45059",
+    "two_party_total": 30163,
+    "margin": 9845,
+    "margin_pct": 32.63932632695687,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 59008,
+    "rep_votes": 82727,
+    "other_votes": 2315,
+    "total_votes": 144050,
+    "all_parties": {
+      "GRN": 398,
+      "REP": 82727,
+      "ALN": 110,
+      "LIB": 1807,
+      "DEM": 59008
+    },
+    "county_fips": "45091",
+    "two_party_total": 141735,
+    "margin": 23719,
+    "margin_pct": 16.734751472818992,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 33824,
+    "rep_votes": 41913,
+    "other_votes": 1541,
+    "total_votes": 77278,
+    "all_parties": {
+      "GRN": 239,
+      "REP": 41913,
+      "ALN": 83,
+      "LIB": 1219,
+      "DEM": 33824
+    },
+    "county_fips": "45035",
+    "two_party_total": 75737,
+    "margin": 8089,
+    "margin_pct": 10.68038079142295,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 6941,
+    "rep_votes": 8660,
+    "other_votes": 156,
+    "total_votes": 15757,
+    "all_parties": {
+      "GRN": 37,
+      "REP": 8660,
+      "ALN": 11,
+      "LIB": 108,
+      "DEM": 6941
+    },
+    "county_fips": "45023",
+    "two_party_total": 15601,
+    "margin": 1719,
+    "margin_pct": 11.01852445356067,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 10289,
+    "rep_votes": 5532,
+    "other_votes": 164,
+    "total_votes": 15985,
+    "all_parties": {
+      "GRN": 62,
+      "REP": 5532,
+      "ALN": 21,
+      "LIB": 81,
+      "DEM": 10289
+    },
+    "county_fips": "45089",
+    "two_party_total": 15821,
+    "margin": 4757,
+    "margin_pct": 30.067631628847735,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 43419,
+    "rep_votes": 53194,
+    "other_votes": 1222,
+    "total_votes": 97835,
+    "all_parties": {
+      "GRN": 214,
+      "REP": 53194,
+      "ALN": 67,
+      "LIB": 941,
+      "DEM": 43419
+    },
+    "county_fips": "45013",
+    "two_party_total": 96613,
+    "margin": 9775,
+    "margin_pct": 10.117686025690125,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 15822,
+    "rep_votes": 20487,
+    "other_votes": 359,
+    "total_votes": 36668,
+    "all_parties": {
+      "GRN": 93,
+      "REP": 20487,
+      "ALN": 29,
+      "LIB": 237,
+      "DEM": 15822
+    },
+    "county_fips": "45043",
+    "two_party_total": 36309,
+    "margin": 4665,
+    "margin_pct": 12.84805420143766,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 4010,
+    "rep_votes": 2417,
+    "other_votes": 55,
+    "total_votes": 6482,
+    "all_parties": {
+      "GRN": 17,
+      "REP": 2417,
+      "ALN": 7,
+      "LIB": 31,
+      "DEM": 4010
+    },
+    "county_fips": "45009",
+    "two_party_total": 6427,
+    "margin": 1593,
+    "margin_pct": 24.786058814376847,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 7382,
+    "rep_votes": 4625,
+    "other_votes": 129,
+    "total_votes": 12136,
+    "all_parties": {
+      "GRN": 41,
+      "REP": 4625,
+      "ALN": 10,
+      "LIB": 78,
+      "DEM": 7382
+    },
+    "county_fips": "45039",
+    "two_party_total": 12007,
+    "margin": 2757,
+    "margin_pct": 22.96160572999084,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 45223,
+    "rep_votes": 57397,
+    "other_votes": 1838,
+    "total_votes": 104458,
+    "all_parties": {
+      "GRN": 276,
+      "REP": 57397,
+      "ALN": 77,
+      "LIB": 1485,
+      "DEM": 45223
+    },
+    "county_fips": "45015",
+    "two_party_total": 102620,
+    "margin": 12174,
+    "margin_pct": 11.863184564412395,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 31153,
+    "rep_votes": 32615,
+    "other_votes": 742,
+    "total_votes": 64510,
+    "all_parties": {
+      "GRN": 194,
+      "REP": 32615,
+      "ALN": 45,
+      "LIB": 503,
+      "DEM": 31153
+    },
+    "county_fips": "45041",
+    "two_party_total": 63768,
+    "margin": 1462,
+    "margin_pct": 2.292685986701794,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 12699,
+    "rep_votes": 20471,
+    "other_votes": 459,
+    "total_votes": 33629,
+    "all_parties": {
+      "GRN": 90,
+      "REP": 20471,
+      "ALN": 25,
+      "LIB": 344,
+      "DEM": 12699
+    },
+    "county_fips": "45055",
+    "two_party_total": 33170,
+    "margin": 7772,
+    "margin_pct": 23.43081097377148,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 27169,
+    "rep_votes": 67565,
+    "other_votes": 1359,
+    "total_votes": 96093,
+    "all_parties": {
+      "GRN": 178,
+      "REP": 67565,
+      "ALN": 58,
+      "LIB": 1123,
+      "DEM": 27169
+    },
+    "county_fips": "45007",
+    "two_party_total": 94734,
+    "margin": 40396,
+    "margin_pct": 42.64150146726624,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 2718,
+    "rep_votes": 835,
+    "other_votes": 40,
+    "total_votes": 3593,
+    "all_parties": {
+      "GRN": 19,
+      "LIB": 19,
+      "ALN": 2,
+      "REP": 835,
+      "DEM": 2718
+    },
+    "county_fips": "45005",
+    "two_party_total": 3553,
+    "margin": 1883,
+    "margin_pct": 52.997466929355475,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 13645,
+    "rep_votes": 42907,
+    "other_votes": 994,
+    "total_votes": 57546,
+    "all_parties": {
+      "GRN": 162,
+      "REP": 42907,
+      "ALN": 39,
+      "LIB": 793,
+      "DEM": 13645
+    },
+    "county_fips": "45077",
+    "two_party_total": 56552,
+    "margin": 29262,
+    "margin_pct": 51.74352808035083,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 6958,
+    "rep_votes": 11443,
+    "other_votes": 230,
+    "total_votes": 18631,
+    "all_parties": {
+      "GRN": 60,
+      "REP": 11443,
+      "ALN": 18,
+      "LIB": 152,
+      "DEM": 6958
+    },
+    "county_fips": "45071",
+    "two_party_total": 18401,
+    "margin": 4485,
+    "margin_pct": 24.373675343731318,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 6436,
+    "rep_votes": 6582,
+    "other_votes": 83,
+    "total_votes": 13101,
+    "all_parties": {
+      "GRN": 36,
+      "REP": 6582,
+      "ALN": 9,
+      "LIB": 38,
+      "DEM": 6436
+    },
+    "county_fips": "45033",
+    "two_party_total": 13018,
+    "margin": 146,
+    "margin_pct": 1.1215240436318943,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 15220,
+    "rep_votes": 16832,
+    "other_votes": 365,
+    "total_votes": 32417,
+    "all_parties": {
+      "GRN": 77,
+      "REP": 16832,
+      "ALN": 28,
+      "LIB": 260,
+      "DEM": 15220
+    },
+    "county_fips": "45031",
+    "two_party_total": 32052,
+    "margin": 1612,
+    "margin_pct": 5.029327343067515,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 2687,
+    "rep_votes": 2958,
+    "other_votes": 52,
+    "total_votes": 5697,
+    "all_parties": {
+      "GRN": 20,
+      "REP": 2958,
+      "ALN": 4,
+      "LIB": 28,
+      "DEM": 2687
+    },
+    "county_fips": "45069",
+    "two_party_total": 5645,
+    "margin": 271,
+    "margin_pct": 4.800708591674048,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 12145,
+    "rep_votes": 19431,
+    "other_votes": 430,
+    "total_votes": 32006,
+    "all_parties": {
+      "GRN": 95,
+      "REP": 19431,
+      "ALN": 17,
+      "LIB": 318,
+      "DEM": 12145
+    },
+    "county_fips": "45047",
+    "two_party_total": 31576,
+    "margin": 7286,
+    "margin_pct": 23.07448695211553,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 10414,
+    "rep_votes": 29698,
+    "other_votes": 556,
+    "total_votes": 40668,
+    "all_parties": {
+      "GRN": 88,
+      "REP": 29698,
+      "ALN": 25,
+      "LIB": 443,
+      "DEM": 10414
+    },
+    "county_fips": "45073",
+    "two_party_total": 40112,
+    "margin": 19284,
+    "margin_pct": 48.07538891104906,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 103030,
+    "rep_votes": 150021,
+    "other_votes": 5104,
+    "total_votes": 258155,
+    "all_parties": {
+      "GRN": 698,
+      "REP": 150021,
+      "ALN": 227,
+      "LIB": 4179,
+      "DEM": 103030
+    },
+    "county_fips": "45045",
+    "two_party_total": 253051,
+    "margin": 46991,
+    "margin_pct": 18.569774472339567,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 4101,
+    "rep_votes": 8215,
+    "other_votes": 117,
+    "total_votes": 12433,
+    "all_parties": {
+      "GRN": 23,
+      "REP": 8215,
+      "ALN": 6,
+      "LIB": 88,
+      "DEM": 4101
+    },
+    "county_fips": "45001",
+    "two_party_total": 12316,
+    "margin": 4114,
+    "margin_pct": 33.403702500811946,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 6983,
+    "rep_votes": 18043,
+    "other_votes": 244,
+    "total_votes": 25270,
+    "all_parties": {
+      "GRN": 48,
+      "REP": 18043,
+      "ALN": 10,
+      "LIB": 186,
+      "DEM": 6983
+    },
+    "county_fips": "45021",
+    "two_party_total": 25026,
+    "margin": 11060,
+    "margin_pct": 44.19403820027172,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 132570,
+    "rep_votes": 58313,
+    "other_votes": 2939,
+    "total_votes": 193822,
+    "all_parties": {
+      "GRN": 732,
+      "REP": 58313,
+      "ALN": 180,
+      "LIB": 2027,
+      "DEM": 132570
+    },
+    "county_fips": "45079",
+    "two_party_total": 190883,
+    "margin": 74257,
+    "margin_pct": 38.90184039437771,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 6290,
+    "rep_votes": 5044,
+    "other_votes": 112,
+    "total_votes": 11446,
+    "all_parties": {
+      "GRN": 33,
+      "REP": 5044,
+      "ALN": 10,
+      "LIB": 69,
+      "DEM": 6290
+    },
+    "county_fips": "45067",
+    "two_party_total": 11334,
+    "margin": 1246,
+    "margin_pct": 10.993470972295748,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 52926,
+    "rep_votes": 93560,
+    "other_votes": 2169,
+    "total_votes": 148655,
+    "all_parties": {
+      "GRN": 377,
+      "REP": 93560,
+      "ALN": 90,
+      "LIB": 1702,
+      "DEM": 52926
+    },
+    "county_fips": "45083",
+    "two_party_total": 146486,
+    "margin": 40634,
+    "margin_pct": 27.73916961347842,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 27379,
+    "rep_votes": 21000,
+    "other_votes": 541,
+    "total_votes": 48920,
+    "all_parties": {
+      "GRN": 152,
+      "REP": 21000,
+      "ALN": 34,
+      "LIB": 355,
+      "DEM": 27379
+    },
+    "county_fips": "45085",
+    "two_party_total": 48379,
+    "margin": 6379,
+    "margin_pct": 13.185473035821326,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 59180,
+    "rep_votes": 118821,
+    "other_votes": 1743,
+    "total_votes": 179744,
+    "all_parties": {
+      "GRN": 397,
+      "REP": 118821,
+      "ALN": 91,
+      "LIB": 1255,
+      "DEM": 59180
+    },
+    "county_fips": "45051",
+    "two_party_total": 178001,
+    "margin": 59641,
+    "margin_pct": 33.505991539373376,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 7431,
+    "rep_votes": 11297,
+    "other_votes": 148,
+    "total_votes": 18876,
+    "all_parties": {
+      "GRN": 28,
+      "REP": 11297,
+      "ALN": 11,
+      "LIB": 109,
+      "DEM": 7431
+    },
+    "county_fips": "45025",
+    "two_party_total": 18728,
+    "margin": 3866,
+    "margin_pct": 20.642887654848355,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 27295,
+    "rep_votes": 13603,
+    "other_votes": 307,
+    "total_votes": 41205,
+    "all_parties": {
+      "GRN": 106,
+      "REP": 13603,
+      "ALN": 29,
+      "LIB": 172,
+      "DEM": 27295
+    },
+    "county_fips": "45075",
+    "two_party_total": 40898,
+    "margin": 13692,
+    "margin_pct": 33.47840970218592,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 8602,
+    "rep_votes": 10440,
+    "other_votes": 241,
+    "total_votes": 19283,
+    "all_parties": {
+      "GRN": 56,
+      "REP": 10440,
+      "ALN": 7,
+      "LIB": 178,
+      "DEM": 8602
+    },
+    "county_fips": "45029",
+    "two_party_total": 19042,
+    "margin": 1838,
+    "margin_pct": 9.652347442495536,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 49301,
+    "rep_votes": 92817,
+    "other_votes": 2450,
+    "total_votes": 144568,
+    "all_parties": {
+      "GRN": 397,
+      "REP": 92817,
+      "ALN": 118,
+      "LIB": 1935,
+      "DEM": 49301
+    },
+    "county_fips": "45063",
+    "two_party_total": 142118,
+    "margin": 43516,
+    "margin_pct": 30.61962594463756,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 8872,
+    "rep_votes": 5711,
+    "other_votes": 121,
+    "total_votes": 14704,
+    "all_parties": {
+      "GRN": 40,
+      "REP": 5711,
+      "ALN": 18,
+      "LIB": 63,
+      "DEM": 8872
+    },
+    "county_fips": "45065",
+    "two_party_total": 14583,
+    "margin": 3161,
+    "margin_pct": 21.675924021120483,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 5329,
+    "rep_votes": 3008,
+    "other_votes": 94,
+    "total_votes": 8431,
+    "all_parties": {
+      "GRN": 18,
+      "REP": 3008,
+      "ALN": 5,
+      "LIB": 71,
+      "DEM": 5329
+    },
+    "county_fips": "45061",
+    "two_party_total": 8337,
+    "margin": 2321,
+    "margin_pct": 27.8397505097757,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 4935,
+    "rep_votes": 8183,
+    "other_votes": 139,
+    "total_votes": 13257,
+    "all_parties": {
+      "GRN": 36,
+      "REP": 8183,
+      "ALN": 7,
+      "LIB": 96,
+      "DEM": 4935
+    },
+    "county_fips": "45087",
+    "two_party_total": 13118,
+    "margin": 3248,
+    "margin_pct": 24.759871931696907,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 4720,
+    "rep_votes": 5492,
+    "other_votes": 109,
+    "total_votes": 10321,
+    "all_parties": {
+      "GRN": 19,
+      "REP": 5492,
+      "ALN": 12,
+      "LIB": 78,
+      "DEM": 4720
+    },
+    "county_fips": "45011",
+    "two_party_total": 10212,
+    "margin": 772,
+    "margin_pct": 7.559733646690169,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 2963,
+    "rep_votes": 6210,
+    "other_votes": 101,
+    "total_votes": 9274,
+    "all_parties": {
+      "GRN": 21,
+      "REP": 6210,
+      "ALN": 5,
+      "LIB": 75,
+      "DEM": 2963
+    },
+    "county_fips": "45081",
+    "two_party_total": 9173,
+    "margin": 3247,
+    "margin_pct": 35.397361822740656,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 5323,
+    "rep_votes": 3906,
+    "other_votes": 76,
+    "total_votes": 9305,
+    "all_parties": {
+      "GRN": 22,
+      "REP": 3906,
+      "ALN": 10,
+      "LIB": 44,
+      "DEM": 5323
+    },
+    "county_fips": "45049",
+    "two_party_total": 9229,
+    "margin": 1417,
+    "margin_pct": 15.353776140426914,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 8250,
+    "rep_votes": 8361,
+    "other_votes": 122,
+    "total_votes": 16733,
+    "all_parties": {
+      "GRN": 42,
+      "REP": 8361,
+      "ALN": 13,
+      "LIB": 67,
+      "DEM": 8250
+    },
+    "county_fips": "45027",
+    "two_party_total": 16611,
+    "margin": 111,
+    "margin_pct": 0.6682318945277226,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Republican",
+      "color": "#fcbba1"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 18937,
+    "rep_votes": 30312,
+    "other_votes": 619,
+    "total_votes": 49868,
+    "all_parties": {
+      "GRN": 93,
+      "REP": 30312,
+      "ALN": 34,
+      "LIB": 492,
+      "DEM": 18937
+    },
+    "county_fips": "45057",
+    "two_party_total": 49249,
+    "margin": 11375,
+    "margin_pct": 23.09691567341469,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 3905,
+    "rep_votes": 4305,
+    "other_votes": 81,
+    "total_votes": 8291,
+    "all_parties": {
+      "GRN": 18,
+      "REP": 4305,
+      "ALN": 5,
+      "LIB": 58,
+      "DEM": 3905
+    },
+    "county_fips": "45017",
+    "two_party_total": 8210,
+    "margin": 400,
+    "margin_pct": 4.872107186358099,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 121485,
+    "rep_votes": 93297,
+    "other_votes": 4075,
+    "total_votes": 218857,
+    "all_parties": {
+      "GRN": 743,
+      "REP": 93297,
+      "ALN": 155,
+      "LIB": 3177,
+      "DEM": 121485
+    },
+    "county_fips": "45019",
+    "two_party_total": 214782,
+    "margin": 28188,
+    "margin_pct": 13.124004804871916,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 4953,
+    "rep_votes": 8184,
+    "other_votes": 167,
+    "total_votes": 13304,
+    "all_parties": {
+      "GRN": 39,
+      "REP": 8184,
+      "ALN": 8,
+      "LIB": 120,
+      "DEM": 4953
+    },
+    "county_fips": "45037",
+    "two_party_total": 13137,
+    "margin": 3231,
+    "margin_pct": 24.59465631422699,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 7185,
+    "rep_votes": 7078,
+    "other_votes": 131,
+    "total_votes": 14394,
+    "all_parties": {
+      "GRN": 32,
+      "REP": 7078,
+      "ALN": 7,
+      "LIB": 92,
+      "DEM": 7185
+    },
+    "county_fips": "45053",
+    "two_party_total": 14263,
+    "margin": 107,
+    "margin_pct": 0.7501928065624343,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#deebf7"
+    }
+  }
+}

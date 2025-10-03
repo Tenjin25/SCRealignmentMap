@@ -1,0 +1,1198 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3519,
+    "rep_votes": 3090,
+    "other_votes": 3,
+    "total_votes": 6612,
+    "all_parties": {
+      "REPUBLICAN": 3090,
+      "DEMOCRAT": 3519,
+      "": 3
+    },
+    "county_fips": "45001",
+    "two_party_total": 6609,
+    "margin": 429,
+    "margin_pct": 6.4911484339537004,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 14566,
+    "rep_votes": 25211,
+    "other_votes": 7,
+    "total_votes": 39784,
+    "all_parties": {
+      "REPUBLICAN": 25211,
+      "DEMOCRAT": 14566,
+      "": 7
+    },
+    "county_fips": "45003",
+    "two_party_total": 39777,
+    "margin": 10645,
+    "margin_pct": 26.761696457751967,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 1513,
+    "rep_votes": 708,
+    "other_votes": 1,
+    "total_votes": 2222,
+    "all_parties": {
+      "REPUBLICAN": 708,
+      "DEMOCRAT": 1513,
+      "": 1
+    },
+    "county_fips": "45005",
+    "two_party_total": 2221,
+    "margin": 805,
+    "margin_pct": 36.24493471409275,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 18684,
+    "rep_votes": 25456,
+    "other_votes": 22,
+    "total_votes": 44162,
+    "all_parties": {
+      "REPUBLICAN": 25456,
+      "DEMOCRAT": 18684,
+      "": 22
+    },
+    "county_fips": "45007",
+    "two_party_total": 44140,
+    "margin": 6772,
+    "margin_pct": 15.342093339374715,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2489,
+    "rep_votes": 1356,
+    "other_votes": 1,
+    "total_votes": 3846,
+    "all_parties": {
+      "REPUBLICAN": 1356,
+      "DEMOCRAT": 2489,
+      "": 1
+    },
+    "county_fips": "45009",
+    "two_party_total": 3845,
+    "margin": 1133,
+    "margin_pct": 29.466840052015602,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2841,
+    "rep_votes": 2884,
+    "other_votes": 0,
+    "total_votes": 5725,
+    "all_parties": {
+      "REPUBLICAN": 2884,
+      "DEMOCRAT": 2841,
+      "": 0
+    },
+    "county_fips": "45011",
+    "two_party_total": 5725,
+    "margin": 43,
+    "margin_pct": 0.7510917030567685,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Republican",
+      "color": "#fcbba1"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 15159,
+    "rep_votes": 23429,
+    "other_votes": 14,
+    "total_votes": 38602,
+    "all_parties": {
+      "REPUBLICAN": 23429,
+      "DEMOCRAT": 15159,
+      "": 14
+    },
+    "county_fips": "45013",
+    "two_party_total": 38588,
+    "margin": 8270,
+    "margin_pct": 21.431533119104383,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 13838,
+    "rep_votes": 19179,
+    "other_votes": 8,
+    "total_votes": 33025,
+    "all_parties": {
+      "REPUBLICAN": 19179,
+      "DEMOCRAT": 13838,
+      "": 8
+    },
+    "county_fips": "45015",
+    "two_party_total": 33017,
+    "margin": 5341,
+    "margin_pct": 16.17651512857013,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2269,
+    "rep_votes": 2112,
+    "other_votes": 4,
+    "total_votes": 4385,
+    "all_parties": {
+      "REPUBLICAN": 2112,
+      "DEMOCRAT": 2269,
+      "": 4
+    },
+    "county_fips": "45017",
+    "two_party_total": 4381,
+    "margin": 157,
+    "margin_pct": 3.5836566993837025,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 43421,
+    "rep_votes": 46016,
+    "other_votes": 38,
+    "total_votes": 89475,
+    "all_parties": {
+      "REPUBLICAN": 46016,
+      "DEMOCRAT": 43421,
+      "": 38
+    },
+    "county_fips": "45019",
+    "two_party_total": 89437,
+    "margin": 2595,
+    "margin_pct": 2.901483725974708,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 5733,
+    "rep_votes": 7484,
+    "other_votes": 1,
+    "total_votes": 13218,
+    "all_parties": {
+      "REPUBLICAN": 7484,
+      "DEMOCRAT": 5733,
+      "": 1
+    },
+    "county_fips": "45021",
+    "two_party_total": 13217,
+    "margin": 1751,
+    "margin_pct": 13.248089581599457,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3999,
+    "rep_votes": 3466,
+    "other_votes": 1,
+    "total_votes": 7466,
+    "all_parties": {
+      "REPUBLICAN": 3466,
+      "DEMOCRAT": 3999,
+      "": 1
+    },
+    "county_fips": "45023",
+    "two_party_total": 7465,
+    "margin": 533,
+    "margin_pct": 7.139986604152712,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4646,
+    "rep_votes": 3739,
+    "other_votes": 0,
+    "total_votes": 8385,
+    "all_parties": {
+      "REPUBLICAN": 3739,
+      "DEMOCRAT": 4646,
+      "": 0
+    },
+    "county_fips": "45025",
+    "two_party_total": 8385,
+    "margin": 907,
+    "margin_pct": 10.816935002981515,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 5097,
+    "rep_votes": 3631,
+    "other_votes": 4,
+    "total_votes": 8732,
+    "all_parties": {
+      "REPUBLICAN": 3631,
+      "DEMOCRAT": 5097,
+      "": 4
+    },
+    "county_fips": "45027",
+    "two_party_total": 8728,
+    "margin": 1466,
+    "margin_pct": 16.796516956920257,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4539,
+    "rep_votes": 5153,
+    "other_votes": 6,
+    "total_votes": 9698,
+    "all_parties": {
+      "REPUBLICAN": 5153,
+      "DEMOCRAT": 4539,
+      "": 6
+    },
+    "county_fips": "45029",
+    "two_party_total": 9692,
+    "margin": 614,
+    "margin_pct": 6.335121749896821,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 7861,
+    "rep_votes": 7529,
+    "other_votes": 7,
+    "total_votes": 15397,
+    "all_parties": {
+      "REPUBLICAN": 7529,
+      "DEMOCRAT": 7861,
+      "": 7
+    },
+    "county_fips": "45031",
+    "two_party_total": 15390,
+    "margin": 332,
+    "margin_pct": 2.157244964262508,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3638,
+    "rep_votes": 2425,
+    "other_votes": 0,
+    "total_votes": 6063,
+    "all_parties": {
+      "REPUBLICAN": 2425,
+      "DEMOCRAT": 3638,
+      "": 0
+    },
+    "county_fips": "45033",
+    "two_party_total": 6063,
+    "margin": 1213,
+    "margin_pct": 20.006597394029356,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 11129,
+    "rep_votes": 16871,
+    "other_votes": 10,
+    "total_votes": 28010,
+    "all_parties": {
+      "REPUBLICAN": 16871,
+      "DEMOCRAT": 11129,
+      "": 10
+    },
+    "county_fips": "45035",
+    "two_party_total": 28000,
+    "margin": 5742,
+    "margin_pct": 20.507142857142856,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3046,
+    "rep_votes": 3610,
+    "other_votes": 1,
+    "total_votes": 6657,
+    "all_parties": {
+      "REPUBLICAN": 3610,
+      "DEMOCRAT": 3046,
+      "": 1
+    },
+    "county_fips": "45037",
+    "two_party_total": 6656,
+    "margin": 564,
+    "margin_pct": 8.473557692307693,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4201,
+    "rep_votes": 2269,
+    "other_votes": 1,
+    "total_votes": 6471,
+    "all_parties": {
+      "REPUBLICAN": 2269,
+      "DEMOCRAT": 4201,
+      "": 1
+    },
+    "county_fips": "45039",
+    "two_party_total": 6470,
+    "margin": 1932,
+    "margin_pct": 29.860896445131374,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 14314,
+    "rep_votes": 16731,
+    "other_votes": 17,
+    "total_votes": 31062,
+    "all_parties": {
+      "REPUBLICAN": 16731,
+      "DEMOCRAT": 14314,
+      "": 17
+    },
+    "county_fips": "45041",
+    "two_party_total": 31045,
+    "margin": 2417,
+    "margin_pct": 7.785472700918023,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 7606,
+    "rep_votes": 8681,
+    "other_votes": 1,
+    "total_votes": 16288,
+    "all_parties": {
+      "REPUBLICAN": 8681,
+      "DEMOCRAT": 7606,
+      "": 1
+    },
+    "county_fips": "45043",
+    "two_party_total": 16287,
+    "margin": 1075,
+    "margin_pct": 6.600356112236754,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 45135,
+    "rep_votes": 62944,
+    "other_votes": 45,
+    "total_votes": 108124,
+    "all_parties": {
+      "REPUBLICAN": 62944,
+      "DEMOCRAT": 45135,
+      "": 45
+    },
+    "county_fips": "45045",
+    "two_party_total": 108079,
+    "margin": 17809,
+    "margin_pct": 16.47776163732085,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 7707,
+    "rep_votes": 8842,
+    "other_votes": 10,
+    "total_votes": 16559,
+    "all_parties": {
+      "REPUBLICAN": 8842,
+      "DEMOCRAT": 7707,
+      "": 10
+    },
+    "county_fips": "45047",
+    "two_party_total": 16549,
+    "margin": 1135,
+    "margin_pct": 6.85842044836546,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3577,
+    "rep_votes": 2052,
+    "other_votes": 4,
+    "total_votes": 5633,
+    "all_parties": {
+      "REPUBLICAN": 2052,
+      "DEMOCRAT": 3577,
+      "": 4
+    },
+    "county_fips": "45049",
+    "two_party_total": 5629,
+    "margin": 1525,
+    "margin_pct": 27.091845798543257,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 21117,
+    "rep_votes": 32662,
+    "other_votes": 12,
+    "total_votes": 53791,
+    "all_parties": {
+      "REPUBLICAN": 32662,
+      "DEMOCRAT": 21117,
+      "": 12
+    },
+    "county_fips": "45051",
+    "two_party_total": 53779,
+    "margin": 11545,
+    "margin_pct": 21.467487309172725,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2527,
+    "rep_votes": 1631,
+    "other_votes": 1,
+    "total_votes": 4159,
+    "all_parties": {
+      "REPUBLICAN": 1631,
+      "DEMOCRAT": 2527,
+      "": 1
+    },
+    "county_fips": "45053",
+    "two_party_total": 4158,
+    "margin": 896,
+    "margin_pct": 21.548821548821547,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 8085,
+    "rep_votes": 9370,
+    "other_votes": 5,
+    "total_votes": 17460,
+    "all_parties": {
+      "REPUBLICAN": 9370,
+      "DEMOCRAT": 8085,
+      "": 5
+    },
+    "county_fips": "45055",
+    "two_party_total": 17455,
+    "margin": 1285,
+    "margin_pct": 7.361787453451734,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 7112,
+    "rep_votes": 8110,
+    "other_votes": 3,
+    "total_votes": 15225,
+    "all_parties": {
+      "REPUBLICAN": 8110,
+      "DEMOCRAT": 7112,
+      "": 3
+    },
+    "county_fips": "45057",
+    "two_party_total": 15222,
+    "margin": 998,
+    "margin_pct": 6.556300091972147,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 7221,
+    "rep_votes": 7838,
+    "other_votes": 4,
+    "total_votes": 15063,
+    "all_parties": {
+      "REPUBLICAN": 7838,
+      "DEMOCRAT": 7221,
+      "": 4
+    },
+    "county_fips": "45059",
+    "two_party_total": 15059,
+    "margin": 617,
+    "margin_pct": 4.097217610731124,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3107,
+    "rep_votes": 1634,
+    "other_votes": 2,
+    "total_votes": 4743,
+    "all_parties": {
+      "REPUBLICAN": 1634,
+      "DEMOCRAT": 3107,
+      "": 2
+    },
+    "county_fips": "45061",
+    "two_party_total": 4741,
+    "margin": 1473,
+    "margin_pct": 31.069394642480493,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 26614,
+    "rep_votes": 40017,
+    "other_votes": 28,
+    "total_votes": 66659,
+    "all_parties": {
+      "REPUBLICAN": 40017,
+      "DEMOCRAT": 26614,
+      "": 28
+    },
+    "county_fips": "45063",
+    "two_party_total": 66631,
+    "margin": 13403,
+    "margin_pct": 20.11526166499077,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 1708,
+    "rep_votes": 1518,
+    "other_votes": 0,
+    "total_votes": 3226,
+    "all_parties": {
+      "REPUBLICAN": 1518,
+      "DEMOCRAT": 1708,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3226,
+    "margin": 190,
+    "margin_pct": 5.889646621202728,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4530,
+    "rep_votes": 2752,
+    "other_votes": 3,
+    "total_votes": 7285,
+    "all_parties": {
+      "REPUBLICAN": 2752,
+      "DEMOCRAT": 4530,
+      "": 3
+    },
+    "county_fips": "45065",
+    "two_party_total": 7282,
+    "margin": 1778,
+    "margin_pct": 24.416369129360067,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3536,
+    "rep_votes": 1755,
+    "other_votes": 1,
+    "total_votes": 5292,
+    "all_parties": {
+      "REPUBLICAN": 1755,
+      "DEMOCRAT": 3536,
+      "": 1
+    },
+    "county_fips": "45067",
+    "two_party_total": 5291,
+    "margin": 1781,
+    "margin_pct": 33.660933660933665,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4947,
+    "rep_votes": 4932,
+    "other_votes": 1,
+    "total_votes": 9880,
+    "all_parties": {
+      "REPUBLICAN": 4932,
+      "DEMOCRAT": 4947,
+      "": 1
+    },
+    "county_fips": "45071",
+    "two_party_total": 9879,
+    "margin": 15,
+    "margin_pct": 0.1518372304889159,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Democratic",
+      "color": "#f7fbff"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 8085,
+    "rep_votes": 11173,
+    "other_votes": 1,
+    "total_votes": 19259,
+    "all_parties": {
+      "REPUBLICAN": 11173,
+      "DEMOCRAT": 8085,
+      "": 1
+    },
+    "county_fips": "45073",
+    "two_party_total": 19258,
+    "margin": 3088,
+    "margin_pct": 16.034894589261604,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 15665,
+    "rep_votes": 7713,
+    "other_votes": 7,
+    "total_votes": 23385,
+    "all_parties": {
+      "REPUBLICAN": 7713,
+      "DEMOCRAT": 15665,
+      "": 7
+    },
+    "county_fips": "45075",
+    "two_party_total": 23378,
+    "margin": 7952,
+    "margin_pct": 34.01488579005903,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 9633,
+    "rep_votes": 17699,
+    "other_votes": 9,
+    "total_votes": 27341,
+    "all_parties": {
+      "REPUBLICAN": 17699,
+      "DEMOCRAT": 9633,
+      "": 9
+    },
+    "county_fips": "45077",
+    "two_party_total": 27332,
+    "margin": 8066,
+    "margin_pct": 29.51119566808137,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 56440,
+    "rep_votes": 32025,
+    "other_votes": 38,
+    "total_votes": 88503,
+    "all_parties": {
+      "REPUBLICAN": 32025,
+      "DEMOCRAT": 56440,
+      "": 38
+    },
+    "county_fips": "45079",
+    "two_party_total": 88465,
+    "margin": 24415,
+    "margin_pct": 27.598485276663087,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2555,
+    "rep_votes": 2975,
+    "other_votes": 1,
+    "total_votes": 5531,
+    "all_parties": {
+      "REPUBLICAN": 2975,
+      "DEMOCRAT": 2555,
+      "": 1
+    },
+    "county_fips": "45081",
+    "two_party_total": 5530,
+    "margin": 420,
+    "margin_pct": 7.59493670886076,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 25559,
+    "rep_votes": 35842,
+    "other_votes": 25,
+    "total_votes": 61426,
+    "all_parties": {
+      "REPUBLICAN": 35842,
+      "DEMOCRAT": 25559,
+      "": 25
+    },
+    "county_fips": "45083",
+    "two_party_total": 61401,
+    "margin": 10283,
+    "margin_pct": 16.747284246184915,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 12128,
+    "rep_votes": 10384,
+    "other_votes": 4,
+    "total_votes": 22516,
+    "all_parties": {
+      "REPUBLICAN": 10384,
+      "DEMOCRAT": 12128,
+      "": 4
+    },
+    "county_fips": "45085",
+    "two_party_total": 22512,
+    "margin": 1744,
+    "margin_pct": 7.746979388770433,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4275,
+    "rep_votes": 3504,
+    "other_votes": 2,
+    "total_votes": 7781,
+    "all_parties": {
+      "REPUBLICAN": 3504,
+      "DEMOCRAT": 4275,
+      "": 2
+    },
+    "county_fips": "45087",
+    "two_party_total": 7779,
+    "margin": 771,
+    "margin_pct": 9.911299652911685,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 5890,
+    "rep_votes": 2858,
+    "other_votes": 3,
+    "total_votes": 8751,
+    "all_parties": {
+      "REPUBLICAN": 2858,
+      "DEMOCRAT": 5890,
+      "": 3
+    },
+    "county_fips": "45089",
+    "two_party_total": 8748,
+    "margin": 3032,
+    "margin_pct": 34.65935070873343,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 19861,
+    "rep_votes": 30194,
+    "other_votes": 17,
+    "total_votes": 50072,
+    "all_parties": {
+      "REPUBLICAN": 30194,
+      "DEMOCRAT": 19861,
+      "": 17
+    },
+    "county_fips": "45091",
+    "two_party_total": 50055,
+    "margin": 10333,
+    "margin_pct": 20.64329237838378,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

@@ -1,89 +1,27 @@
-Years found: ['2006', '2008', '2012', '2014', '2016', '2018', '2020', '2022', '2024']
+county_results_2006_fips.json: 45 counties
+FIPS codes: ['45001', '45003', '45005', '45007', '45009', '45011', '45013', '45015', '45017', '45019', '45021', '45023', '45025', '45027', '45029', '45031', '45033', '45035', '45037', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2006
-  Contest Type: gubernatorial
-    Contest ID: gubernatorial_2006_1 | Name: gubernatorial_2006_1
-  Contest Type: lt_governor
-    Contest ID: lt_governor_2006_1 | Name: lt_governor_2006_1
-  Contest Type: secretary_of_state
-    Contest ID: secretary_of_state_2006_1 | Name: secretary_of_state_2006_1
-  Contest Type: treasurer
-    Contest ID: treasurer_2006_1 | Name: treasurer_2006_1
-  Contest Type: attorney_general
-    Contest ID: attorney_general_2006_1 | Name: attorney_general_2006_1
-  Contest Type: comptroller_general
-    Contest ID: comptroller_general_2006_1 | Name: comptroller_general_2006_1
-  Contest Type: commissioner_agriculture
-    Contest ID: commissioner_agriculture_2006_1 | Name: commissioner_agriculture_2006_1
+county_results_2008_fips.json: 28 counties
+FIPS codes: ['45001', '45003', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2008
-  Contest Type: presidential
-    Contest ID: presidential_2008_1 | Name: presidential_2008_1
-  Contest Type: senate
-    Contest ID: senate_2008_1 | Name: senate_2008_1
+county_results_2012_fips.json: 45 counties
+FIPS codes: ['45001', '45003', '45005', '45007', '45009', '45011', '45013', '45015', '45017', '45019', '45021', '45023', '45025', '45027', '45029', '45031', '45033', '45035', '45037', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2012
-  Contest Type: presidential
-    Contest ID: presidential_2012_1 | Name: presidential_2012_1
+county_results_2014_fips.json: 45 counties
+FIPS codes: ['45001', '45003', '45005', '45007', '45009', '45011', '45013', '45015', '45017', '45019', '45021', '45023', '45025', '45027', '45029', '45031', '45033', '45035', '45037', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2014
-  Contest Type: gubernatorial
-    Contest ID: gubernatorial_2014_1 | Name: gubernatorial_2014_1
-  Contest Type: lt_governor
-    Contest ID: lt_governor_2014_1 | Name: lt_governor_2014_1
-  Contest Type: secretary_of_state
-    Contest ID: secretary_of_state_2014_1 | Name: secretary_of_state_2014_1
-  Contest Type: treasurer
-    Contest ID: treasurer_2014_1 | Name: treasurer_2014_1
-  Contest Type: attorney_general
-    Contest ID: attorney_general_2014_1 | Name: attorney_general_2014_1
-  Contest Type: comptroller_general
-    Contest ID: comptroller_general_2014_1 | Name: comptroller_general_2014_1
-  Contest Type: commissioner_agriculture
-    Contest ID: commissioner_agriculture_2014_1 | Name: commissioner_agriculture_2014_1
-  Contest Type: senate
-    Contest ID: senate_2014_1 | Name: senate_2014_1
+county_results_2016_fips.json: 45 counties
+FIPS codes: ['45001', '45003', '45005', '45007', '45009', '45011', '45013', '45015', '45017', '45019', '45021', '45023', '45025', '45027', '45029', '45031', '45033', '45035', '45037', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2016
-  Contest Type: presidential
-    Contest ID: presidential_2016_1 | Name: presidential_2016_1
-  Contest Type: senate
-    Contest ID: senate_2016_1 | Name: senate_2016_1
+county_results_2018_fips.json: 45 counties
+FIPS codes: ['45001', '45003', '45005', '45007', '45009', '45011', '45013', '45015', '45017', '45019', '45021', '45023', '45025', '45027', '45029', '45031', '45033', '45035', '45037', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2018
-  Contest Type: secretary_of_state
-    Contest ID: secretary_of_state_2018_1 | Name: secretary_of_state_2018_1
-  Contest Type: treasurer
-    Contest ID: treasurer_2018_1 | Name: treasurer_2018_1
-  Contest Type: attorney_general
-    Contest ID: attorney_general_2018_1 | Name: attorney_general_2018_1
-  Contest Type: comptroller_general
-    Contest ID: comptroller_general_2018_1 | Name: comptroller_general_2018_1
-  Contest Type: commissioner_agriculture
-    Contest ID: commissioner_agriculture_2018_1 | Name: commissioner_agriculture_2018_1
+county_results_2020_fips.json: 45 counties
+FIPS codes: ['45001', '45003', '45005', '45007', '45009', '45011', '45013', '45015', '45017', '45019', '45021', '45023', '45025', '45027', '45029', '45031', '45033', '45035', '45037', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2020
-  Contest Type: presidential
-    Contest ID: presidential_2020_1 | Name: presidential_2020_1
-  Contest Type: senate
-    Contest ID: senate_2020_1 | Name: senate_2020_1
+county_results_2022_fips.json: 45 counties
+FIPS codes: ['45001', '45003', '45005', '45007', '45009', '45011', '45013', '45015', '45017', '45019', '45021', '45023', '45025', '45027', '45029', '45031', '45033', '45035', '45037', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2022
-  Contest Type: secretary_of_state
-    Contest ID: secretary_of_state_2022_1 | Name: secretary_of_state_2022_1
-  Contest Type: treasurer
-    Contest ID: treasurer_2022_1 | Name: treasurer_2022_1
-  Contest Type: attorney_general
-    Contest ID: attorney_general_2022_1 | Name: attorney_general_2022_1
-  Contest Type: comptroller_general
-    Contest ID: comptroller_general_2022_1 | Name: comptroller_general_2022_1
-  Contest Type: commissioner_agriculture
-    Contest ID: commissioner_agriculture_2022_1 | Name: commissioner_agriculture_2022_1
-  Contest Type: senate
-    Contest ID: senate_2022_1 | Name: senate_2022_1
+county_results_2024_fips.json: 45 counties
+FIPS codes: ['45001', '45003', '45005', '45007', '45009', '45011', '45013', '45015', '45017', '45019', '45021', '45023', '45025', '45027', '45029', '45031', '45033', '45035', '45037', '45039', '45041', '45043', '45045', '45047', '45051', '45053', '45055', '45057', '45059', '45061', '45063', '45065', '45067', '45069', '45071', '45073', '45075', '45077', '45079', '45081', '45083', '45085', '45087', '45089', '45091']
 
-Year: 2024
-  Contest Type: presidential
-    Contest ID: presidential_2024_1 | Name: presidential_2024_1
-      Counties present: ['ABBEVILLE', 'AIKEN', 'ALLENDALE', 'ANDERSON', 'BAMBERG', 'BARNWELL', 'BEAUFORT', 'BERKELEY', 'CALHOUN', 'CHARLESTON', 'CHEROKEE', 'CHESTER', 'CHESTERFIELD', 'CLARENDON', 'COLLETON', 'DARLINGTON', 'DILLON', 'DORCHESTER', 'EDGEFIELD', 'FAIRFIELD', 'FLORENCE', 'GEORGETOWN', 'GREENVILLE', 'GREENWOOD', 'HAMPTON', 'HORRY', 'JASPER', 'KERSHAW', 'LANCASTER', 'LAURENS', 'LEE', 'LEXINGTON', 'MARION', 'MARLBORO', 'MCCORMICK', 'NEWBERRY', 'OCONEE', 'ORANGEBURG', 'PICKENS', 'RICHLAND', 'SALUDA', 'SPARTANBURG', 'SUMTER', 'UNION', 'WILLIAMSBURG', 'YORK']
-      All counties present!

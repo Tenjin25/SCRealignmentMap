@@ -1,0 +1,1198 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3441,
+    "rep_votes": 3240,
+    "other_votes": 5,
+    "total_votes": 6686,
+    "all_parties": {
+      "REPUBLICAN": 3240,
+      "DEMOCRAT": 3441,
+      "": 5
+    },
+    "county_fips": "45001",
+    "two_party_total": 6681,
+    "margin": 201,
+    "margin_pct": 3.0085316569375844,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 19551,
+    "rep_votes": 20695,
+    "other_votes": 22,
+    "total_votes": 40268,
+    "all_parties": {
+      "REPUBLICAN": 20695,
+      "DEMOCRAT": 19551,
+      "": 22
+    },
+    "county_fips": "45003",
+    "two_party_total": 40246,
+    "margin": 1144,
+    "margin_pct": 2.842518511156388,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 1684,
+    "rep_votes": 589,
+    "other_votes": 1,
+    "total_votes": 2274,
+    "all_parties": {
+      "REPUBLICAN": 589,
+      "DEMOCRAT": 1684,
+      "": 1
+    },
+    "county_fips": "45005",
+    "two_party_total": 2273,
+    "margin": 1095,
+    "margin_pct": 48.17421909370875,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 17850,
+    "rep_votes": 26785,
+    "other_votes": 43,
+    "total_votes": 44678,
+    "all_parties": {
+      "REPUBLICAN": 26785,
+      "DEMOCRAT": 17850,
+      "": 43
+    },
+    "county_fips": "45007",
+    "two_party_total": 44635,
+    "margin": 8935,
+    "margin_pct": 20.017923154475188,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 2624,
+    "rep_votes": 1245,
+    "other_votes": 1,
+    "total_votes": 3870,
+    "all_parties": {
+      "REPUBLICAN": 1245,
+      "DEMOCRAT": 2624,
+      "": 1
+    },
+    "county_fips": "45009",
+    "two_party_total": 3869,
+    "margin": 1379,
+    "margin_pct": 35.642284828120964,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3305,
+    "rep_votes": 2459,
+    "other_votes": 7,
+    "total_votes": 5771,
+    "all_parties": {
+      "REPUBLICAN": 2459,
+      "DEMOCRAT": 3305,
+      "": 7
+    },
+    "county_fips": "45011",
+    "two_party_total": 5764,
+    "margin": 846,
+    "margin_pct": 14.677307425399027,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 17520,
+    "rep_votes": 21612,
+    "other_votes": 37,
+    "total_votes": 39169,
+    "all_parties": {
+      "REPUBLICAN": 21612,
+      "DEMOCRAT": 17520,
+      "": 37
+    },
+    "county_fips": "45013",
+    "two_party_total": 39132,
+    "margin": 4092,
+    "margin_pct": 10.456915056731065,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 16411,
+    "rep_votes": 17111,
+    "other_votes": 39,
+    "total_votes": 33561,
+    "all_parties": {
+      "REPUBLICAN": 17111,
+      "DEMOCRAT": 16411,
+      "": 39
+    },
+    "county_fips": "45015",
+    "two_party_total": 33522,
+    "margin": 700,
+    "margin_pct": 2.088180896127916,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 2423,
+    "rep_votes": 1987,
+    "other_votes": 5,
+    "total_votes": 4415,
+    "all_parties": {
+      "REPUBLICAN": 1987,
+      "DEMOCRAT": 2423,
+      "": 5
+    },
+    "county_fips": "45017",
+    "two_party_total": 4410,
+    "margin": 436,
+    "margin_pct": 9.886621315192743,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 55671,
+    "rep_votes": 35707,
+    "other_votes": 144,
+    "total_votes": 91522,
+    "all_parties": {
+      "REPUBLICAN": 35707,
+      "DEMOCRAT": 55671,
+      "": 144
+    },
+    "county_fips": "45019",
+    "two_party_total": 91378,
+    "margin": 19964,
+    "margin_pct": 21.84770951432511,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 4993,
+    "rep_votes": 8489,
+    "other_votes": 5,
+    "total_votes": 13487,
+    "all_parties": {
+      "REPUBLICAN": 8489,
+      "DEMOCRAT": 4993,
+      "": 5
+    },
+    "county_fips": "45021",
+    "two_party_total": 13482,
+    "margin": 3496,
+    "margin_pct": 25.930870790683873,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 4220,
+    "rep_votes": 3321,
+    "other_votes": 0,
+    "total_votes": 7541,
+    "all_parties": {
+      "REPUBLICAN": 3321,
+      "DEMOCRAT": 4220,
+      "": 0
+    },
+    "county_fips": "45023",
+    "two_party_total": 7541,
+    "margin": 899,
+    "margin_pct": 11.921495822835167,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 4773,
+    "rep_votes": 3659,
+    "other_votes": 4,
+    "total_votes": 8436,
+    "all_parties": {
+      "REPUBLICAN": 3659,
+      "DEMOCRAT": 4773,
+      "": 4
+    },
+    "county_fips": "45025",
+    "two_party_total": 8432,
+    "margin": 1114,
+    "margin_pct": 13.21157495256167,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 5325,
+    "rep_votes": 3456,
+    "other_votes": 0,
+    "total_votes": 8781,
+    "all_parties": {
+      "REPUBLICAN": 3456,
+      "DEMOCRAT": 5325,
+      "": 0
+    },
+    "county_fips": "45027",
+    "two_party_total": 8781,
+    "margin": 1869,
+    "margin_pct": 21.284591732148957,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 5014,
+    "rep_votes": 4756,
+    "other_votes": 1,
+    "total_votes": 9771,
+    "all_parties": {
+      "REPUBLICAN": 4756,
+      "DEMOCRAT": 5014,
+      "": 1
+    },
+    "county_fips": "45029",
+    "two_party_total": 9770,
+    "margin": 258,
+    "margin_pct": 2.6407369498464686,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 8423,
+    "rep_votes": 7045,
+    "other_votes": 21,
+    "total_votes": 15489,
+    "all_parties": {
+      "REPUBLICAN": 7045,
+      "DEMOCRAT": 8423,
+      "": 21
+    },
+    "county_fips": "45031",
+    "two_party_total": 15468,
+    "margin": 1378,
+    "margin_pct": 8.908714765968451,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3636,
+    "rep_votes": 2490,
+    "other_votes": 1,
+    "total_votes": 6127,
+    "all_parties": {
+      "REPUBLICAN": 2490,
+      "DEMOCRAT": 3636,
+      "": 1
+    },
+    "county_fips": "45033",
+    "two_party_total": 6126,
+    "margin": 1146,
+    "margin_pct": 18.707149853085212,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 13672,
+    "rep_votes": 14871,
+    "other_votes": 34,
+    "total_votes": 28577,
+    "all_parties": {
+      "REPUBLICAN": 14871,
+      "DEMOCRAT": 13672,
+      "": 34
+    },
+    "county_fips": "45035",
+    "two_party_total": 28543,
+    "margin": 1199,
+    "margin_pct": 4.200679676277897,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3760,
+    "rep_votes": 3003,
+    "other_votes": 4,
+    "total_votes": 6767,
+    "all_parties": {
+      "REPUBLICAN": 3003,
+      "DEMOCRAT": 3760,
+      "": 4
+    },
+    "county_fips": "45037",
+    "two_party_total": 6763,
+    "margin": 757,
+    "margin_pct": 11.193257430134555,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 4261,
+    "rep_votes": 2296,
+    "other_votes": 5,
+    "total_votes": 6562,
+    "all_parties": {
+      "REPUBLICAN": 2296,
+      "DEMOCRAT": 4261,
+      "": 5
+    },
+    "county_fips": "45039",
+    "two_party_total": 6557,
+    "margin": 1965,
+    "margin_pct": 29.967973158456612,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 15594,
+    "rep_votes": 15557,
+    "other_votes": 46,
+    "total_votes": 31197,
+    "all_parties": {
+      "REPUBLICAN": 15557,
+      "DEMOCRAT": 15594,
+      "": 46
+    },
+    "county_fips": "45041",
+    "two_party_total": 31151,
+    "margin": 37,
+    "margin_pct": 0.11877628326538474,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Democratic",
+      "color": "#f7fbff"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 8765,
+    "rep_votes": 7690,
+    "other_votes": 12,
+    "total_votes": 16467,
+    "all_parties": {
+      "REPUBLICAN": 7690,
+      "DEMOCRAT": 8765,
+      "": 12
+    },
+    "county_fips": "45043",
+    "two_party_total": 16455,
+    "margin": 1075,
+    "margin_pct": 6.532968702522029,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 43775,
+    "rep_votes": 64664,
+    "other_votes": 210,
+    "total_votes": 108649,
+    "all_parties": {
+      "REPUBLICAN": 64664,
+      "DEMOCRAT": 43775,
+      "": 210
+    },
+    "county_fips": "45045",
+    "two_party_total": 108439,
+    "margin": 20889,
+    "margin_pct": 19.26336465662723,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 7826,
+    "rep_votes": 8897,
+    "other_votes": 25,
+    "total_votes": 16748,
+    "all_parties": {
+      "REPUBLICAN": 8897,
+      "DEMOCRAT": 7826,
+      "": 25
+    },
+    "county_fips": "45047",
+    "two_party_total": 16723,
+    "margin": 1071,
+    "margin_pct": 6.40435328589368,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3867,
+    "rep_votes": 1904,
+    "other_votes": 3,
+    "total_votes": 5774,
+    "all_parties": {
+      "REPUBLICAN": 1904,
+      "DEMOCRAT": 3867,
+      "": 3
+    },
+    "county_fips": "45049",
+    "two_party_total": 5771,
+    "margin": 1963,
+    "margin_pct": 34.01490209669035,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 24713,
+    "rep_votes": 29445,
+    "other_votes": 47,
+    "total_votes": 54205,
+    "all_parties": {
+      "REPUBLICAN": 29445,
+      "DEMOCRAT": 24713,
+      "": 47
+    },
+    "county_fips": "45051",
+    "two_party_total": 54158,
+    "margin": 4732,
+    "margin_pct": 8.73739798367739,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 2589,
+    "rep_votes": 1589,
+    "other_votes": 2,
+    "total_votes": 4180,
+    "all_parties": {
+      "REPUBLICAN": 1589,
+      "DEMOCRAT": 2589,
+      "": 2
+    },
+    "county_fips": "45053",
+    "two_party_total": 4178,
+    "margin": 1000,
+    "margin_pct": 23.93489707994256,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 8956,
+    "rep_votes": 8742,
+    "other_votes": 18,
+    "total_votes": 17716,
+    "all_parties": {
+      "REPUBLICAN": 8742,
+      "DEMOCRAT": 8956,
+      "": 18
+    },
+    "county_fips": "45055",
+    "two_party_total": 17698,
+    "margin": 214,
+    "margin_pct": 1.2091761780992203,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 7935,
+    "rep_votes": 7442,
+    "other_votes": 4,
+    "total_votes": 15381,
+    "all_parties": {
+      "REPUBLICAN": 7442,
+      "DEMOCRAT": 7935,
+      "": 4
+    },
+    "county_fips": "45057",
+    "two_party_total": 15377,
+    "margin": 493,
+    "margin_pct": 3.2060870130714703,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 6900,
+    "rep_votes": 8294,
+    "other_votes": 13,
+    "total_votes": 15207,
+    "all_parties": {
+      "REPUBLICAN": 8294,
+      "DEMOCRAT": 6900,
+      "": 13
+    },
+    "county_fips": "45059",
+    "two_party_total": 15194,
+    "margin": 1394,
+    "margin_pct": 9.17467421350533,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3175,
+    "rep_votes": 1574,
+    "other_votes": 3,
+    "total_votes": 4752,
+    "all_parties": {
+      "REPUBLICAN": 1574,
+      "DEMOCRAT": 3175,
+      "": 3
+    },
+    "county_fips": "45061",
+    "two_party_total": 4749,
+    "margin": 1601,
+    "margin_pct": 33.71236049694672,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 28362,
+    "rep_votes": 38657,
+    "other_votes": 235,
+    "total_votes": 67254,
+    "all_parties": {
+      "REPUBLICAN": 38657,
+      "DEMOCRAT": 28362,
+      "": 235
+    },
+    "county_fips": "45063",
+    "two_party_total": 67019,
+    "margin": 10295,
+    "margin_pct": 15.36131544785807,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 1915,
+    "rep_votes": 1353,
+    "other_votes": 0,
+    "total_votes": 3268,
+    "all_parties": {
+      "REPUBLICAN": 1353,
+      "DEMOCRAT": 1915,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3268,
+    "margin": 562,
+    "margin_pct": 17.19706242350061,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 4587,
+    "rep_votes": 2739,
+    "other_votes": 4,
+    "total_votes": 7330,
+    "all_parties": {
+      "REPUBLICAN": 2739,
+      "DEMOCRAT": 4587,
+      "": 4
+    },
+    "county_fips": "45065",
+    "two_party_total": 7326,
+    "margin": 1848,
+    "margin_pct": 25.225225225225223,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3618,
+    "rep_votes": 1733,
+    "other_votes": 8,
+    "total_votes": 5359,
+    "all_parties": {
+      "REPUBLICAN": 1733,
+      "DEMOCRAT": 3618,
+      "": 8
+    },
+    "county_fips": "45067",
+    "two_party_total": 5351,
+    "margin": 1885,
+    "margin_pct": 35.227060362549054,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 5930,
+    "rep_votes": 4019,
+    "other_votes": 15,
+    "total_votes": 9964,
+    "all_parties": {
+      "REPUBLICAN": 4019,
+      "DEMOCRAT": 5930,
+      "": 15
+    },
+    "county_fips": "45071",
+    "two_party_total": 9949,
+    "margin": 1911,
+    "margin_pct": 19.20796059905518,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 7902,
+    "rep_votes": 11623,
+    "other_votes": 12,
+    "total_votes": 19537,
+    "all_parties": {
+      "REPUBLICAN": 11623,
+      "DEMOCRAT": 7902,
+      "": 12
+    },
+    "county_fips": "45073",
+    "two_party_total": 19525,
+    "margin": 3721,
+    "margin_pct": 19.05761843790013,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 16287,
+    "rep_votes": 7202,
+    "other_votes": 12,
+    "total_votes": 23501,
+    "all_parties": {
+      "REPUBLICAN": 7202,
+      "DEMOCRAT": 16287,
+      "": 12
+    },
+    "county_fips": "45075",
+    "two_party_total": 23489,
+    "margin": 9085,
+    "margin_pct": 38.677678913533995,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 9315,
+    "rep_votes": 18232,
+    "other_votes": 60,
+    "total_votes": 27607,
+    "all_parties": {
+      "REPUBLICAN": 18232,
+      "DEMOCRAT": 9315,
+      "": 60
+    },
+    "county_fips": "45077",
+    "two_party_total": 27547,
+    "margin": 8917,
+    "margin_pct": 32.370131048753045,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 56890,
+    "rep_votes": 32634,
+    "other_votes": 138,
+    "total_votes": 89662,
+    "all_parties": {
+      "REPUBLICAN": 32634,
+      "DEMOCRAT": 56890,
+      "": 138
+    },
+    "county_fips": "45079",
+    "two_party_total": 89524,
+    "margin": 24256,
+    "margin_pct": 27.0944104374246,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 2728,
+    "rep_votes": 2864,
+    "other_votes": 4,
+    "total_votes": 5596,
+    "all_parties": {
+      "REPUBLICAN": 2864,
+      "DEMOCRAT": 2728,
+      "": 4
+    },
+    "county_fips": "45081",
+    "two_party_total": 5592,
+    "margin": 136,
+    "margin_pct": 2.432045779685265,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 25720,
+    "rep_votes": 36408,
+    "other_votes": 65,
+    "total_votes": 62193,
+    "all_parties": {
+      "REPUBLICAN": 36408,
+      "DEMOCRAT": 25720,
+      "": 65
+    },
+    "county_fips": "45083",
+    "two_party_total": 62128,
+    "margin": 10688,
+    "margin_pct": 17.20319340715941,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 13154,
+    "rep_votes": 9018,
+    "other_votes": 16,
+    "total_votes": 22188,
+    "all_parties": {
+      "REPUBLICAN": 9018,
+      "DEMOCRAT": 13154,
+      "": 16
+    },
+    "county_fips": "45085",
+    "two_party_total": 22172,
+    "margin": 4136,
+    "margin_pct": 18.654158397979433,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3850,
+    "rep_votes": 4021,
+    "other_votes": 8,
+    "total_votes": 7879,
+    "all_parties": {
+      "REPUBLICAN": 4021,
+      "DEMOCRAT": 3850,
+      "": 8
+    },
+    "county_fips": "45087",
+    "two_party_total": 7871,
+    "margin": 171,
+    "margin_pct": 2.172532079786558,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 6049,
+    "rep_votes": 2704,
+    "other_votes": 2,
+    "total_votes": 8755,
+    "all_parties": {
+      "REPUBLICAN": 2704,
+      "DEMOCRAT": 6049,
+      "": 2
+    },
+    "county_fips": "45089",
+    "two_party_total": 8753,
+    "margin": 3345,
+    "margin_pct": 38.21546898206329,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 21347,
+    "rep_votes": 29593,
+    "other_votes": 26,
+    "total_votes": 50966,
+    "all_parties": {
+      "REPUBLICAN": 29593,
+      "DEMOCRAT": 21347,
+      "": 26
+    },
+    "county_fips": "45091",
+    "two_party_total": 50940,
+    "margin": 8246,
+    "margin_pct": 16.18767177071064,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  }
+}

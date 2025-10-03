@@ -1,3 +1,58 @@
+# Add missing counties to 2008 precinct results JSON
+def add_missing_counties_to_precinct_json(json_path, county_fips_csv, year="2008"):
+    import csv, json
+    # Load county FIPS mapping
+    county_fips_map = {}
+    with open(county_fips_csv, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            fips = str(row.get('county_fips', '') or row.get('FIPS', '') or row.get('COUNTYFP', '')).strip()
+            name = str(row.get('county_name', '') or row.get('County', '') or row.get('NAME', '')).strip().upper()
+            if name and fips:
+                county_fips_map[name] = fips
+
+    # Load existing JSON
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Find present counties
+    present_counties = set()
+    for precinct in data:
+        for contest in data[precinct]:
+            county = data[precinct][contest].get('county', '').upper()
+            if county:
+                present_counties.add(county)
+
+    # Add missing counties as placeholder precincts
+    for county_name, fips in county_fips_map.items():
+        if county_name not in present_counties:
+            placeholder_precinct = f"{county_name}_MISSING"
+            data[placeholder_precinct] = {
+                "PRESIDENT": {
+                    'precinct': placeholder_precinct,
+                    'county': county_name,
+                    'contest': "PRESIDENT",
+                    'year': year,
+                    'dem_candidate': None,
+                    'rep_candidate': None,
+                    'dem_votes': 0,
+                    'rep_votes': 0,
+                    'other_votes': 0,
+                    'total_votes': 0,
+                    'two_party_total': 0,
+                    'margin': 0,
+                    'margin_pct': 0.0,
+                    'winner': None,
+                    'competitiveness': {},
+                    'all_parties': {},
+                    'county_fips': fips
+                }
+            }
+
+    # Save updated JSON
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+    print(f"Added missing counties to {json_path}")
 import os
 import csv
 import json
@@ -243,3 +298,9 @@ def aggregate_precinct_votes():
 
 if __name__ == "__main__":
     aggregate_precinct_votes()
+    # Add missing counties for 2008
+    add_missing_counties_to_precinct_json(
+        r"C:\Users\Shama\OneDrive\Documents\Course_Materials\CPT-236\Side_Projects\SCRealignments\workspace_files\precinct_results_2008.json",
+        r"C:\Users\Shama\OneDrive\Documents\Course_Materials\CPT-236\Side_Projects\SCRealignments\sc_county_fips.csv",
+        year="2008"
+    )

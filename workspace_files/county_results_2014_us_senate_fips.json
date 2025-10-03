@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "U.S. SENATE",
+    "total_votes": 7182,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2464,
+    "rep_votes": 4057,
+    "dem_pct": 34.31,
+    "rep_pct": 56.49,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "U.S. SENATE",
+    "total_votes": 45431,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 13321,
+    "rep_votes": 28344,
+    "dem_pct": 29.32,
+    "rep_pct": 62.39,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "U.S. SENATE",
+    "total_votes": 2305,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 1664,
+    "rep_votes": 533,
+    "dem_pct": 72.19,
+    "rep_pct": 23.12,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "U.S. SENATE",
+    "total_votes": 45015,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 9630,
+    "rep_votes": 30056,
+    "dem_pct": 21.39,
+    "rep_pct": 66.77,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "U.S. SENATE",
+    "total_votes": 4922,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3236,
+    "rep_votes": 1474,
+    "dem_pct": 65.75,
+    "rep_pct": 29.95,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "U.S. SENATE",
+    "total_votes": 6170,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2997,
+    "rep_votes": 2847,
+    "dem_pct": 48.57,
+    "rep_pct": 46.14,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "U.S. SENATE",
+    "total_votes": 47682,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 15266,
+    "rep_votes": 29732,
+    "dem_pct": 32.02,
+    "rep_pct": 62.35,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "U.S. SENATE",
+    "total_votes": 43043,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 15527,
+    "rep_votes": 23133,
+    "dem_pct": 36.07,
+    "rep_pct": 53.74,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "U.S. SENATE",
+    "total_votes": 5222,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2735,
+    "rep_votes": 2194,
+    "dem_pct": 52.37,
+    "rep_pct": 42.01,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "U.S. SENATE",
+    "total_votes": 99184,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 42404,
+    "rep_votes": 48265,
+    "dem_pct": 42.75,
+    "rep_pct": 48.66,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "U.S. SENATE",
+    "total_votes": 12325,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3073,
+    "rep_votes": 7803,
+    "dem_pct": 24.93,
+    "rep_pct": 63.31,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "U.S. SENATE",
+    "total_votes": 10270,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4109,
+    "rep_votes": 5447,
+    "dem_pct": 40.01,
+    "rep_pct": 53.04,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "U.S. SENATE",
+    "total_votes": 8009,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3436,
+    "rep_votes": 3836,
+    "dem_pct": 42.9,
+    "rep_pct": 47.9,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "U.S. SENATE",
+    "total_votes": 10295,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5404,
+    "rep_votes": 4396,
+    "dem_pct": 52.49,
+    "rep_pct": 42.7,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "U.S. SENATE",
+    "total_votes": 10841,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4692,
+    "rep_votes": 5358,
+    "dem_pct": 43.28,
+    "rep_pct": 49.42,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "U.S. SENATE",
+    "total_votes": 18617,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 8970,
+    "rep_votes": 8648,
+    "dem_pct": 48.18,
+    "rep_pct": 46.45,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "U.S. SENATE",
+    "total_votes": 6415,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3066,
+    "rep_votes": 2957,
+    "dem_pct": 47.79,
+    "rep_pct": 46.1,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "U.S. SENATE",
+    "total_votes": 34175,
+    "dem_candidate": "Brad Hutto. (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 12158,
+    "rep_votes": 18437,
+    "dem_pct": 35.58,
+    "rep_pct": 53.95,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "U.S. SENATE",
+    "total_votes": 6985,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2618,
+    "rep_votes": 3812,
+    "dem_pct": 37.48,
+    "rep_pct": 54.57,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "U.S. SENATE",
+    "total_votes": 8135,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4681,
+    "rep_votes": 2943,
+    "dem_pct": 57.54,
+    "rep_pct": 36.18,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "U.S. SENATE",
+    "total_votes": 36354,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 16226,
+    "rep_votes": 17727,
+    "dem_pct": 44.63,
+    "rep_pct": 48.76,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "U.S. SENATE",
+    "total_votes": 20487,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 8062,
+    "rep_votes": 11190,
+    "dem_pct": 39.35,
+    "rep_pct": 54.62,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "U.S. SENATE",
+    "total_votes": 123664,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 31458,
+    "rep_votes": 74628,
+    "dem_pct": 25.44,
+    "rep_pct": 60.35,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "U.S. SENATE",
+    "total_votes": 17751,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5839,
+    "rep_votes": 10594,
+    "dem_pct": 32.89,
+    "rep_pct": 59.68,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "U.S. SENATE",
+    "total_votes": 5872,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3578,
+    "rep_votes": 1952,
+    "dem_pct": 60.93,
+    "rep_pct": 33.24,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "U.S. SENATE",
+    "total_votes": 68443,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 18251,
+    "rep_votes": 44978,
+    "dem_pct": 26.67,
+    "rep_pct": 65.72,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "U.S. SENATE",
+    "total_votes": 6660,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3390,
+    "rep_votes": 2893,
+    "dem_pct": 50.9,
+    "rep_pct": 43.44,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "U.S. SENATE",
+    "total_votes": 19470,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6766,
+    "rep_votes": 11200,
+    "dem_pct": 34.75,
+    "rep_pct": 57.52,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "U.S. SENATE",
+    "total_votes": 20158,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6485,
+    "rep_votes": 12272,
+    "dem_pct": 32.17,
+    "rep_pct": 60.88,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "U.S. SENATE",
+    "total_votes": 15127,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4420,
+    "rep_votes": 8684,
+    "dem_pct": 29.22,
+    "rep_pct": 57.41,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "U.S. SENATE",
+    "total_votes": 5784,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3806,
+    "rep_votes": 1750,
+    "dem_pct": 65.8,
+    "rep_pct": 30.26,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "U.S. SENATE",
+    "total_votes": 75792,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 18076,
+    "rep_votes": 50001,
+    "dem_pct": 23.85,
+    "rep_pct": 65.97,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "U.S. SENATE",
+    "total_votes": 8760,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5314,
+    "rep_votes": 3054,
+    "dem_pct": 60.66,
+    "rep_pct": 34.86,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "U.S. SENATE",
+    "total_votes": 6236,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3538,
+    "rep_votes": 2354,
+    "dem_pct": 56.74,
+    "rep_pct": 37.75,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "U.S. SENATE",
+    "total_votes": 3599,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 1579,
+    "rep_votes": 1881,
+    "dem_pct": 43.87,
+    "rep_pct": 52.26,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "U.S. SENATE",
+    "total_votes": 10990,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3579,
+    "rep_votes": 6580,
+    "dem_pct": 32.57,
+    "rep_pct": 59.87,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "U.S. SENATE",
+    "total_votes": 20366,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3551,
+    "rep_votes": 14909,
+    "dem_pct": 17.44,
+    "rep_pct": 73.21,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "U.S. SENATE",
+    "total_votes": 28078,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 20156,
+    "rep_votes": 7116,
+    "dem_pct": 71.79,
+    "rep_pct": 25.34,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "U.S. SENATE",
+    "total_votes": 27291,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4422,
+    "rep_votes": 19208,
+    "dem_pct": 16.2,
+    "rep_pct": 70.38,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "U.S. SENATE",
+    "total_votes": 110750,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 64369,
+    "rep_votes": 39692,
+    "dem_pct": 58.12,
+    "rep_pct": 35.84,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "U.S. SENATE",
+    "total_votes": 5663,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 1768,
+    "rep_votes": 3493,
+    "dem_pct": 31.22,
+    "rep_pct": 61.68,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "U.S. SENATE",
+    "total_votes": 64574,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 17587,
+    "rep_votes": 38016,
+    "dem_pct": 27.24,
+    "rep_pct": 58.87,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "U.S. SENATE",
+    "total_votes": 29942,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 15841,
+    "rep_votes": 12487,
+    "dem_pct": 52.91,
+    "rep_pct": 41.7,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "U.S. SENATE",
+    "total_votes": 7874,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2830,
+    "rep_votes": 4081,
+    "dem_pct": 35.94,
+    "rep_pct": 51.83,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "U.S. SENATE",
+    "total_votes": 10744,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6995,
+    "rep_votes": 3344,
+    "dem_pct": 65.11,
+    "rep_pct": 31.12,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "U.S. SENATE",
+    "total_votes": 57423,
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 17389,
+    "rep_votes": 34585,
+    "dem_pct": 30.28,
+    "rep_pct": 60.23,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

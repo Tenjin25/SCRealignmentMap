@@ -22,8 +22,8 @@ county_fips,county_name
 45041,Florence
 45043,Georgetown
 45045,Greenville
-45045,Greenwood
-45047,Hampton
+45047,Greenwood
+45049,Hampton
 45051,Horry
 45053,Jasper
 45055,Kershaw
@@ -31,9 +31,9 @@ county_fips,county_name
 45059,Laurens
 45061,Lee
 45063,Lexington
-45065,McCormick
-45067,Marion
-45069,Marlboro
+45065,Marion
+45067,Marlboro
+45069,McCormick
 45071,Newberry
 45073,Oconee
 45075,Orangeburg

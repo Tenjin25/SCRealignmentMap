@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6254,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 6192,
+    "dem_pct": 0.0,
+    "rep_pct": 99.01,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 43669,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 42637,
+    "dem_pct": 0.0,
+    "rep_pct": 97.64,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 948,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 925,
+    "dem_pct": 0.0,
+    "rep_pct": 97.57,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 50739,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 49957,
+    "dem_pct": 0.0,
+    "rep_pct": 98.46,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 1916,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 1877,
+    "dem_pct": 0.0,
+    "rep_pct": 97.96,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 4311,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 4262,
+    "dem_pct": 0.0,
+    "rep_pct": 98.86,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 48000,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 47229,
+    "dem_pct": 0.0,
+    "rep_pct": 98.39,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 44700,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 43740,
+    "dem_pct": 0.0,
+    "rep_pct": 97.85,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 3699,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 3611,
+    "dem_pct": 0.0,
+    "rep_pct": 97.62,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 89882,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 86954,
+    "dem_pct": 0.0,
+    "rep_pct": 96.74,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 13017,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 12907,
+    "dem_pct": 0.0,
+    "rep_pct": 99.15,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 7950,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 7819,
+    "dem_pct": 0.0,
+    "rep_pct": 98.35,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6726,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 6621,
+    "dem_pct": 0.0,
+    "rep_pct": 98.44,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6837,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 6770,
+    "dem_pct": 0.0,
+    "rep_pct": 99.02,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 8298,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 8174,
+    "dem_pct": 0.0,
+    "rep_pct": 98.51,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 14270,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 14044,
+    "dem_pct": 0.0,
+    "rep_pct": 98.42,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 4723,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 4650,
+    "dem_pct": 0.0,
+    "rep_pct": 98.45,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 34970,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 34087,
+    "dem_pct": 0.0,
+    "rep_pct": 97.47,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6549,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 6481,
+    "dem_pct": 0.0,
+    "rep_pct": 98.96,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 4636,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 4501,
+    "dem_pct": 0.0,
+    "rep_pct": 97.09,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 28691,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 28171,
+    "dem_pct": 0.0,
+    "rep_pct": 98.19,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 16720,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 16495,
+    "dem_pct": 0.0,
+    "rep_pct": 98.65,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 129317,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 126010,
+    "dem_pct": 0.0,
+    "rep_pct": 97.44,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 16943,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 16704,
+    "dem_pct": 0.0,
+    "rep_pct": 98.59,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 3140,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 3106,
+    "dem_pct": 0.0,
+    "rep_pct": 98.92,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 82740,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 81335,
+    "dem_pct": 0.0,
+    "rep_pct": 98.3,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 5285,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 5192,
+    "dem_pct": 0.0,
+    "rep_pct": 98.24,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 17255,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 17027,
+    "dem_pct": 0.0,
+    "rep_pct": 98.68,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 24155,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 23711,
+    "dem_pct": 0.0,
+    "rep_pct": 98.16,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 15375,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 15123,
+    "dem_pct": 0.0,
+    "rep_pct": 98.36,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 2761,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 2694,
+    "dem_pct": 0.0,
+    "rep_pct": 97.57,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 78908,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 77543,
+    "dem_pct": 0.0,
+    "rep_pct": 98.27,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 4888,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 4790,
+    "dem_pct": 0.0,
+    "rep_pct": 98.0,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 4057,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 3996,
+    "dem_pct": 0.0,
+    "rep_pct": 98.5,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 2728,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 2701,
+    "dem_pct": 0.0,
+    "rep_pct": 99.01,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 9271,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 9170,
+    "dem_pct": 0.0,
+    "rep_pct": 98.91,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 22874,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 22623,
+    "dem_pct": 0.0,
+    "rep_pct": 98.9,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 13007,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 12573,
+    "dem_pct": 0.0,
+    "rep_pct": 96.66,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 32590,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 32105,
+    "dem_pct": 0.0,
+    "rep_pct": 98.51,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 75153,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 71225,
+    "dem_pct": 0.0,
+    "rep_pct": 94.77,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 5149,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 5111,
+    "dem_pct": 0.0,
+    "rep_pct": 99.26,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 69964,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 68743,
+    "dem_pct": 0.0,
+    "rep_pct": 98.25,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 18965,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 18540,
+    "dem_pct": 0.0,
+    "rep_pct": 97.76,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6030,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 5951,
+    "dem_pct": 0.0,
+    "rep_pct": 98.69,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 5026,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 4866,
+    "dem_pct": 0.0,
+    "rep_pct": 96.82,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 69874,
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 67989,
+    "dem_pct": 0.0,
+    "rep_pct": 97.3,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

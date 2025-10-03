@@ -1,0 +1,353 @@
+{
+  "precinct": {
+    "years": [
+      "2006",
+      "2008",
+      "2012",
+      "2014",
+      "2016",
+      "2018",
+      "2020",
+      "2022",
+      "2024"
+    ],
+    "contests_by_year": {
+      "2024": [
+        {
+          "id": "president_2024",
+          "name": "US President (2024)",
+          "type": "presidential",
+          "file": "precinct_results_2024.json.gz",
+          "aggregation": "precinct"
+        }
+      ]
+    }
+  },
+  "county": {
+    "years": [
+      "2006",
+      "2008",
+      "2012",
+      "2014",
+      "2016",
+      "2018",
+      "2020",
+      "2022",
+      "2024"
+    ],
+    "contests_by_year": {
+      "2006": [
+        {
+          "id": "gubernatorial_2006_1",
+          "name": "Governor (2006)",
+          "type": "gubernatorial",
+          "file": "county_results_2006_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "lieutenant_governor_2006_1",
+          "name": "Lieutenant Governor (2006)",
+          "type": "lieutenant_governor",
+          "file": "county_results_2006_governor_and_lieutenant_governor_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "secretary_of_state_2006_1",
+          "name": "Secretary of State (2006)",
+          "type": "secretary_of_state",
+          "file": "county_results_2006_secretary_of_state_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "treasurer_2006_1",
+          "name": "State Treasurer (2006)",
+          "type": "treasurer",
+          "file": "county_results_2006_state_treasurer_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "attorney_general_2006_1",
+          "name": "Attorney General (2006)",
+          "type": "attorney_general",
+          "file": "county_results_2006_attorney_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "comptroller_general_2006_1",
+          "name": "Comptroller General (2006)",
+          "type": "comptroller_general",
+          "file": "county_results_2006_comptroller_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "education_superintendent_2006_1",
+          "name": "State Superintendent of Education (2006)",
+          "type": "education_superintendent",
+          "file": "county_results_2006_state_superintendent_of_education_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "adjutant_general_2006_1",
+          "name": "Adjutant General (2006)",
+          "type": "adjutant_general",
+          "file": "county_results_2006_adjutant_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "agriculture_commissioner_2006_1",
+          "name": "Commissioner of Agriculture (2006)",
+          "type": "agriculture_commissioner",
+          "file": "county_results_2006_commissioner_of_agriculture_fips.json",
+          "aggregation": "county"
+        }
+      ],
+      "2008": [
+        {
+          "id": "presidential_2008_1",
+          "name": "US President (2008)",
+          "type": "presidential",
+          "file": "county_results_2008_fips_accurate.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "senate_2008_1",
+          "name": "US Senate (2008)",
+          "type": "senate",
+          "file": "county_results_2008_us_senate_fips.json",
+          "aggregation": "county"
+        }
+      ],
+      "2012": [
+        {
+          "id": "presidential_2012_1",
+          "name": "US President (2012)",
+          "type": "presidential",
+          "file": "county_results_2012_fips_accurate.json",
+          "aggregation": "county"
+        }
+      ],
+      "2014": [
+        {
+          "id": "gubernatorial_2014_1",
+          "name": "Governor (2014)",
+          "type": "gubernatorial",
+          "file": "county_results_2014_fips_accurate.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "lieutenant_governor_2014_1",
+          "name": "Lieutenant Governor (2014)",
+          "type": "lieutenant_governor",
+          "file": "county_results_2014_governor_and_lieutenant_governor_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "secretary_of_state_2014_1",
+          "name": "Secretary of State (2014)",
+          "type": "secretary_of_state",
+          "file": "county_results_2014_secretary_of_state_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "treasurer_2014_1",
+          "name": "State Treasurer (2014)",
+          "type": "treasurer",
+          "file": "county_results_2014_state_treasurer_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "attorney_general_2014_1",
+          "name": "Attorney General (2014)",
+          "type": "attorney_general",
+          "file": "county_results_2014_attorney_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "comptroller_general_2014_1",
+          "name": "Comptroller General (2014)",
+          "type": "comptroller_general",
+          "file": "county_results_2014_comptroller_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "education_superintendent_2014_1",
+          "name": "State Superintendent of Education (2014)",
+          "type": "education_superintendent",
+          "file": "county_results_2014_state_superintendent_of_education_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "adjutant_general_2014_1",
+          "name": "Adjutant General (2014)",
+          "type": "adjutant_general",
+          "file": "county_results_2014_adjutant_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "agriculture_commissioner_2014_1",
+          "name": "Commissioner of Agriculture (2014)",
+          "type": "agriculture_commissioner",
+          "file": "county_results_2014_commissioner_of_agriculture_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "senate_2014_1",
+          "name": "US Senate (2014)",
+          "type": "senate",
+          "file": "county_results_2014_us_senate_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "senate_unexpired_2014_1",
+          "name": "US Senate - Unexpired Term (2014)",
+          "type": "senate",
+          "file": "county_results_2014_us_senate_unexpired_term_fips.json",
+          "aggregation": "county"
+        }
+      ],
+      "2016": [
+        {
+          "id": "presidential_2016_1",
+          "name": "US President (2016)",
+          "type": "presidential",
+          "file": "county_results_2016_fips_accurate.json",
+          "aggregation": "county"
+        }
+      ],
+      "2018": [
+        {
+          "id": "gubernatorial_2018_1",
+          "name": "Governor and Lt. Governor (2018)",
+          "type": "gubernatorial",
+          "file": "county_results_2018_fips_accurate.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "secretary_of_state_2018_1",
+          "name": "Secretary of State (2018)",
+          "type": "secretary_of_state",
+          "file": "county_results_2018_secretary_of_state_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "treasurer_2018_1",
+          "name": "State Treasurer (2018)",
+          "type": "treasurer",
+          "file": "county_results_2018_state_treasurer_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "attorney_general_2018_1",
+          "name": "Attorney General (2018)",
+          "type": "attorney_general",
+          "file": "county_results_2018_attorney_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "comptroller_general_2018_1",
+          "name": "Comptroller General (2018)",
+          "type": "comptroller_general",
+          "file": "county_results_2018_comptroller_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "education_superintendent_2018_1",
+          "name": "State Superintendent of Education (2018)",
+          "type": "education_superintendent",
+          "file": "county_results_2018_state_superintendent_of_education_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "agriculture_commissioner_2018_1",
+          "name": "Commissioner of Agriculture (2018)",
+          "type": "agriculture_commissioner",
+          "file": "county_results_2018_commissioner_of_agriculture_fips.json",
+          "aggregation": "county"
+        }
+      ],
+      "2020": [
+        {
+          "id": "presidential_2020_1",
+          "name": "US President (2020)",
+          "type": "presidential",
+          "file": "county_results_2020_fips_accurate.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "senate_2020_1",
+          "name": "US Senate (2020)",
+          "type": "senate",
+          "file": "county_results_2020_us_senate_fips.json",
+          "aggregation": "county"
+        }
+      ],
+      "2022": [
+        {
+          "id": "gubernatorial_2022_1",
+          "name": "Governor and Lt. Governor (2022)",
+          "type": "gubernatorial",
+          "file": "county_results_2022_fips_accurate.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "secretary_of_state_2022_1",
+          "name": "Secretary of State (2022)",
+          "type": "secretary_of_state",
+          "file": "county_results_2022_secretary_of_state_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "treasurer_2022_1",
+          "name": "State Treasurer (2022)",
+          "type": "treasurer",
+          "file": "county_results_2022_state_treasurer_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "attorney_general_2022_1",
+          "name": "Attorney General (2022)",
+          "type": "attorney_general",
+          "file": "county_results_2022_attorney_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "comptroller_general_2022_1",
+          "name": "Comptroller General (2022)",
+          "type": "comptroller_general",
+          "file": "county_results_2022_comptroller_general_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "education_superintendent_2022_1",
+          "name": "State Superintendent of Education (2022)",
+          "type": "education_superintendent",
+          "file": "county_results_2022_state_superintendent_of_education_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "agriculture_commissioner_2022_1",
+          "name": "Commissioner of Agriculture (2022)",
+          "type": "agriculture_commissioner",
+          "file": "county_results_2022_commissioner_of_agriculture_fips.json",
+          "aggregation": "county"
+        },
+        {
+          "id": "senate_2022_1",
+          "name": "US Senate (2022)",
+          "type": "senate",
+          "file": "county_results_2022_us_senate_fips.json",
+          "aggregation": "county"
+        }
+      ],
+      "2024": [
+        {
+          "id": "presidential_2024_1",
+          "name": "US President (2024)",
+          "type": "presidential",
+          "file": "county_results_2024_fips_accurate.json",
+          "aggregation": "county"
+        }
+      ]
+    }
+  }
+}
