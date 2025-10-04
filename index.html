@@ -745,10 +745,10 @@ body {
       mapboxToken: 'pk.eyJ1Ijoic2hhbWFyZGF2aXMiLCJhIjoiY21kcW8yeDB2MDhvbTJzb29qeGp1aDZmZCJ9.Zw_i6U-dL7_bEKRHTUh7yg',
       paths: {
         counties: './Data/sc_counties.geojson',
+        election: './Data/county_results_2024_fips_accurate.json',
         districts: './Data/sc_congressional_districts.geojson',
         state_house: './Data/sc_state_house_districts.geojson',
         state_senate: './Data/sc_state_senate_districts.geojson',
-        election: './Data/sc_county_election_results.csv',
         congressional: './Data/sc_congressional_election_results.csv',
         districts_info: './Data/sc_congressional_districts.csv',
         state_house_info: './Data/sc_state_house_districts.csv',
@@ -2180,8 +2180,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
         setStatus('Loading election data...');
         console.log('Loading election data from:', CONFIG.paths.election);
-        const electionCSV = await loadCSV(CONFIG.paths.election);
-        electionData = parseCSV(electionCSV);
+        const electionJSON = await loadJSON(CONFIG.paths.election);
+        // Convert JSON object to array format for compatibility
+        electionData = Object.keys(electionJSON).map(fips => {
+            const county = electionJSON[fips];
+            return {
+                county_fips: fips,
+                county: county.county,
+                year: county.year,
+                contest: county.contest,
+                dem_candidate: county.dem_candidate,
+                rep_candidate: county.rep_candidate,
+                dem_votes: county.dem_votes,
+                rep_votes: county.rep_votes,
+                other_votes: county.other_votes,
+                total_votes: county.total_votes,
+                margin: county.margin,
+                margin_pct: county.margin_pct,
+                winner: county.winner,
+                two_party_total: county.two_party_total,
+                competitiveness_category: county.competitiveness?.category || '',
+                competitiveness_party: county.competitiveness?.party || '',
+                competitiveness_color: county.competitiveness?.color || ''
+            };
+        });
+        console.log('Election data loaded:', electionData.length, 'counties');
         setStatus('Election data loaded');
 
         setStatus('Loading congressional data...');
