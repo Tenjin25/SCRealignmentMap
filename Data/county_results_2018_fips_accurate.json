@@ -1,0 +1,1198 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 3113,
+    "rep_votes": 5451,
+    "other_votes": 8,
+    "total_votes": 8572,
+    "all_parties": {
+      "DEM": 3113,
+      "REP": 5451,
+      "NON": 8
+    },
+    "county_fips": "45001",
+    "two_party_total": 8564,
+    "margin": 2338,
+    "margin_pct": 27.30032695002335,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 22754,
+    "rep_votes": 36801,
+    "other_votes": 57,
+    "total_votes": 59612,
+    "all_parties": {
+      "DEM": 22754,
+      "REP": 36801,
+      "NON": 57
+    },
+    "county_fips": "45003",
+    "two_party_total": 59555,
+    "margin": 14047,
+    "margin_pct": 23.586600621274453,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 2289,
+    "rep_votes": 608,
+    "other_votes": 1,
+    "total_votes": 2898,
+    "all_parties": {
+      "DEM": 2289,
+      "REP": 608,
+      "NON": 1
+    },
+    "county_fips": "45005",
+    "two_party_total": 2897,
+    "margin": 1681,
+    "margin_pct": 58.025543665861235,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 19386,
+    "rep_votes": 43412,
+    "other_votes": 95,
+    "total_votes": 62893,
+    "all_parties": {
+      "DEM": 19386,
+      "REP": 43412,
+      "NON": 95
+    },
+    "county_fips": "45007",
+    "two_party_total": 62798,
+    "margin": 24026,
+    "margin_pct": 38.259180228669706,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 2828,
+    "rep_votes": 1552,
+    "other_votes": 2,
+    "total_votes": 4382,
+    "all_parties": {
+      "DEM": 2828,
+      "REP": 1552,
+      "NON": 2
+    },
+    "county_fips": "45009",
+    "two_party_total": 4380,
+    "margin": 1276,
+    "margin_pct": 29.132420091324203,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 3549,
+    "rep_votes": 3734,
+    "other_votes": 6,
+    "total_votes": 7289,
+    "all_parties": {
+      "DEM": 3549,
+      "REP": 3734,
+      "NON": 6
+    },
+    "county_fips": "45011",
+    "two_party_total": 7283,
+    "margin": 185,
+    "margin_pct": 2.5401620211451323,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 31971,
+    "rep_votes": 38399,
+    "other_votes": 63,
+    "total_votes": 70433,
+    "all_parties": {
+      "DEM": 31971,
+      "REP": 38399,
+      "NON": 63
+    },
+    "county_fips": "45013",
+    "two_party_total": 70370,
+    "margin": 6428,
+    "margin_pct": 9.134574392496802,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 30452,
+    "rep_votes": 35107,
+    "other_votes": 110,
+    "total_votes": 65669,
+    "all_parties": {
+      "DEM": 30452,
+      "REP": 35107,
+      "NON": 110
+    },
+    "county_fips": "45015",
+    "two_party_total": 65559,
+    "margin": 4655,
+    "margin_pct": 7.100474381854513,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 2990,
+    "rep_votes": 2952,
+    "other_votes": 6,
+    "total_votes": 5948,
+    "all_parties": {
+      "DEM": 2990,
+      "REP": 2952,
+      "NON": 6
+    },
+    "county_fips": "45017",
+    "two_party_total": 5942,
+    "margin": 38,
+    "margin_pct": 0.6395153147088523,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#deebf7"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 84634,
+    "rep_votes": 62642,
+    "other_votes": 175,
+    "total_votes": 147451,
+    "all_parties": {
+      "DEM": 84634,
+      "REP": 62642,
+      "NON": 175
+    },
+    "county_fips": "45019",
+    "two_party_total": 147276,
+    "margin": 21992,
+    "margin_pct": 14.932507672669,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 4964,
+    "rep_votes": 11730,
+    "other_votes": 17,
+    "total_votes": 16711,
+    "all_parties": {
+      "DEM": 4964,
+      "REP": 11730,
+      "NON": 17
+    },
+    "county_fips": "45021",
+    "two_party_total": 16694,
+    "margin": 6766,
+    "margin_pct": 40.52953156822811,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 5195,
+    "rep_votes": 5665,
+    "other_votes": 3,
+    "total_votes": 10863,
+    "all_parties": {
+      "DEM": 5195,
+      "REP": 5665,
+      "NON": 3
+    },
+    "county_fips": "45023",
+    "two_party_total": 10860,
+    "margin": 470,
+    "margin_pct": 4.327808471454881,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 5241,
+    "rep_votes": 6730,
+    "other_votes": 6,
+    "total_votes": 11977,
+    "all_parties": {
+      "DEM": 5241,
+      "REP": 6730,
+      "NON": 6
+    },
+    "county_fips": "45025",
+    "two_party_total": 11971,
+    "margin": 1489,
+    "margin_pct": 12.438392782557848,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 6365,
+    "rep_votes": 5722,
+    "other_votes": 3,
+    "total_votes": 12090,
+    "all_parties": {
+      "DEM": 6365,
+      "REP": 5722,
+      "NON": 3
+    },
+    "county_fips": "45027",
+    "two_party_total": 12087,
+    "margin": 643,
+    "margin_pct": 5.319765036816414,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 6321,
+    "rep_votes": 6891,
+    "other_votes": 14,
+    "total_votes": 13226,
+    "all_parties": {
+      "DEM": 6321,
+      "REP": 6891,
+      "NON": 14
+    },
+    "county_fips": "45029",
+    "two_party_total": 13212,
+    "margin": 570,
+    "margin_pct": 4.3142597638510445,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 11436,
+    "rep_votes": 11871,
+    "other_votes": 8,
+    "total_votes": 23315,
+    "all_parties": {
+      "DEM": 11436,
+      "REP": 11871,
+      "NON": 8
+    },
+    "county_fips": "45031",
+    "two_party_total": 23307,
+    "margin": 435,
+    "margin_pct": 1.8663920710516153,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 4141,
+    "rep_votes": 4052,
+    "other_votes": 1,
+    "total_votes": 8194,
+    "all_parties": {
+      "DEM": 4141,
+      "REP": 4052,
+      "NON": 1
+    },
+    "county_fips": "45033",
+    "two_party_total": 8193,
+    "margin": 89,
+    "margin_pct": 1.0862931771024045,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 23275,
+    "rep_votes": 27563,
+    "other_votes": 58,
+    "total_votes": 50896,
+    "all_parties": {
+      "DEM": 23275,
+      "REP": 27563,
+      "NON": 58
+    },
+    "county_fips": "45035",
+    "two_party_total": 50838,
+    "margin": 4288,
+    "margin_pct": 8.434635508871317,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 3747,
+    "rep_votes": 5636,
+    "other_votes": 9,
+    "total_votes": 9392,
+    "all_parties": {
+      "DEM": 3747,
+      "REP": 5636,
+      "NON": 9
+    },
+    "county_fips": "45037",
+    "two_party_total": 9383,
+    "margin": 1889,
+    "margin_pct": 20.13215389534264,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 5865,
+    "rep_votes": 3409,
+    "other_votes": 5,
+    "total_votes": 9279,
+    "all_parties": {
+      "DEM": 5865,
+      "REP": 3409,
+      "NON": 5
+    },
+    "county_fips": "45039",
+    "two_party_total": 9274,
+    "margin": 2456,
+    "margin_pct": 26.482639637696785,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 22533,
+    "rep_votes": 22947,
+    "other_votes": 36,
+    "total_votes": 45516,
+    "all_parties": {
+      "DEM": 22533,
+      "REP": 22947,
+      "NON": 36
+    },
+    "county_fips": "45041",
+    "two_party_total": 45480,
+    "margin": 414,
+    "margin_pct": 0.9102902374670185,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Republican",
+      "color": "#fcbba1"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 11760,
+    "rep_votes": 14083,
+    "other_votes": 15,
+    "total_votes": 25858,
+    "all_parties": {
+      "DEM": 11760,
+      "REP": 14083,
+      "NON": 15
+    },
+    "county_fips": "45043",
+    "two_party_total": 25843,
+    "margin": 2323,
+    "margin_pct": 8.988894478195256,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 74007,
+    "rep_votes": 102195,
+    "other_votes": 369,
+    "total_votes": 176571,
+    "all_parties": {
+      "DEM": 74007,
+      "REP": 102195,
+      "NON": 369
+    },
+    "county_fips": "45045",
+    "two_party_total": 176202,
+    "margin": 28188,
+    "margin_pct": 15.997548268464604,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 9140,
+    "rep_votes": 13973,
+    "other_votes": 34,
+    "total_votes": 23147,
+    "all_parties": {
+      "DEM": 9140,
+      "REP": 13973,
+      "NON": 34
+    },
+    "county_fips": "45047",
+    "two_party_total": 23113,
+    "margin": 4833,
+    "margin_pct": 20.910310215030503,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 4051,
+    "rep_votes": 2558,
+    "other_votes": 15,
+    "total_votes": 6624,
+    "all_parties": {
+      "DEM": 4051,
+      "REP": 2558,
+      "NON": 15
+    },
+    "county_fips": "45049",
+    "two_party_total": 6609,
+    "margin": 1493,
+    "margin_pct": 22.59040702072931,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 38574,
+    "rep_votes": 71985,
+    "other_votes": 79,
+    "total_votes": 110638,
+    "all_parties": {
+      "DEM": 38574,
+      "REP": 71985,
+      "NON": 79
+    },
+    "county_fips": "45051",
+    "two_party_total": 110559,
+    "margin": 33411,
+    "margin_pct": 30.220063495509187,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 5002,
+    "rep_votes": 4346,
+    "other_votes": 12,
+    "total_votes": 9360,
+    "all_parties": {
+      "DEM": 5002,
+      "REP": 4346,
+      "NON": 12
+    },
+    "county_fips": "45053",
+    "two_party_total": 9348,
+    "margin": 656,
+    "margin_pct": 7.017543859649122,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 9588,
+    "rep_votes": 13881,
+    "other_votes": 28,
+    "total_votes": 23497,
+    "all_parties": {
+      "DEM": 9588,
+      "REP": 13881,
+      "NON": 28
+    },
+    "county_fips": "45055",
+    "two_party_total": 23469,
+    "margin": 4293,
+    "margin_pct": 18.29221526268695,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 13297,
+    "rep_votes": 19554,
+    "other_votes": 21,
+    "total_votes": 32872,
+    "all_parties": {
+      "DEM": 13297,
+      "REP": 19554,
+      "NON": 21
+    },
+    "county_fips": "45057",
+    "two_party_total": 32851,
+    "margin": 6257,
+    "margin_pct": 19.046604365163923,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 7415,
+    "rep_votes": 12899,
+    "other_votes": 34,
+    "total_votes": 20348,
+    "all_parties": {
+      "DEM": 7415,
+      "REP": 12899,
+      "NON": 34
+    },
+    "county_fips": "45059",
+    "two_party_total": 20314,
+    "margin": 5484,
+    "margin_pct": 26.996160283548292,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 4190,
+    "rep_votes": 2174,
+    "other_votes": 4,
+    "total_votes": 6368,
+    "all_parties": {
+      "DEM": 4190,
+      "REP": 2174,
+      "NON": 4
+    },
+    "county_fips": "45061",
+    "two_party_total": 6364,
+    "margin": 2016,
+    "margin_pct": 31.6781898177247,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 36854,
+    "rep_votes": 62544,
+    "other_votes": 153,
+    "total_votes": 99551,
+    "all_parties": {
+      "DEM": 36854,
+      "REP": 62544,
+      "NON": 153
+    },
+    "county_fips": "45063",
+    "two_party_total": 99398,
+    "margin": 25690,
+    "margin_pct": 25.84559045453631,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 6450,
+    "rep_votes": 3963,
+    "other_votes": 8,
+    "total_votes": 10421,
+    "all_parties": {
+      "DEM": 6450,
+      "REP": 3963,
+      "NON": 8
+    },
+    "county_fips": "45065",
+    "two_party_total": 10413,
+    "margin": 2487,
+    "margin_pct": 23.883607029674444,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 4594,
+    "rep_votes": 3166,
+    "other_votes": 7,
+    "total_votes": 7767,
+    "all_parties": {
+      "DEM": 4594,
+      "REP": 3166,
+      "NON": 7
+    },
+    "county_fips": "45067",
+    "two_party_total": 7760,
+    "margin": 1428,
+    "margin_pct": 18.402061855670105,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 2103,
+    "rep_votes": 2327,
+    "other_votes": 1,
+    "total_votes": 4431,
+    "all_parties": {
+      "DEM": 2103,
+      "REP": 2327,
+      "NON": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 4430,
+    "margin": 224,
+    "margin_pct": 5.056433408577878,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 5374,
+    "rep_votes": 7644,
+    "other_votes": 12,
+    "total_votes": 13030,
+    "all_parties": {
+      "DEM": 5374,
+      "REP": 7644,
+      "NON": 12
+    },
+    "county_fips": "45071",
+    "two_party_total": 13018,
+    "margin": 2270,
+    "margin_pct": 17.43739437701644,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 7945,
+    "rep_votes": 19599,
+    "other_votes": 38,
+    "total_votes": 27582,
+    "all_parties": {
+      "DEM": 7945,
+      "REP": 19599,
+      "NON": 38
+    },
+    "county_fips": "45073",
+    "two_party_total": 27544,
+    "margin": 11654,
+    "margin_pct": 42.310485042114436,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 21402,
+    "rep_votes": 9222,
+    "other_votes": 19,
+    "total_votes": 30643,
+    "all_parties": {
+      "DEM": 21402,
+      "REP": 9222,
+      "NON": 19
+    },
+    "county_fips": "45075",
+    "two_party_total": 30624,
+    "margin": 12180,
+    "margin_pct": 39.77272727272727,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 10393,
+    "rep_votes": 28139,
+    "other_votes": 82,
+    "total_votes": 38614,
+    "all_parties": {
+      "DEM": 10393,
+      "REP": 28139,
+      "NON": 82
+    },
+    "county_fips": "45077",
+    "two_party_total": 38532,
+    "margin": 17746,
+    "margin_pct": 46.0552268244576,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 99476,
+    "rep_votes": 41793,
+    "other_votes": 169,
+    "total_votes": 141438,
+    "all_parties": {
+      "DEM": 99476,
+      "REP": 41793,
+      "NON": 169
+    },
+    "county_fips": "45079",
+    "two_party_total": 141269,
+    "margin": 57683,
+    "margin_pct": 40.83202967388458,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 2356,
+    "rep_votes": 4516,
+    "other_votes": 4,
+    "total_votes": 6876,
+    "all_parties": {
+      "DEM": 2356,
+      "REP": 4516,
+      "NON": 4
+    },
+    "county_fips": "45081",
+    "two_party_total": 6872,
+    "margin": 2160,
+    "margin_pct": 31.431897555296857,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 36264,
+    "rep_votes": 58442,
+    "other_votes": 168,
+    "total_votes": 94874,
+    "all_parties": {
+      "DEM": 36264,
+      "REP": 58442,
+      "NON": 168
+    },
+    "county_fips": "45083",
+    "two_party_total": 94706,
+    "margin": 22178,
+    "margin_pct": 23.417734884801387,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 19830,
+    "rep_votes": 14578,
+    "other_votes": 18,
+    "total_votes": 34426,
+    "all_parties": {
+      "DEM": 19830,
+      "REP": 14578,
+      "NON": 18
+    },
+    "county_fips": "45085",
+    "two_party_total": 34408,
+    "margin": 5252,
+    "margin_pct": 15.263892118112066,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 3728,
+    "rep_votes": 5208,
+    "other_votes": 7,
+    "total_votes": 8943,
+    "all_parties": {
+      "DEM": 3728,
+      "REP": 5208,
+      "NON": 7
+    },
+    "county_fips": "45087",
+    "two_party_total": 8936,
+    "margin": 1480,
+    "margin_pct": 16.56222023276634,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 7769,
+    "rep_votes": 3774,
+    "other_votes": 11,
+    "total_votes": 11554,
+    "all_parties": {
+      "DEM": 7769,
+      "REP": 3774,
+      "NON": 11
+    },
+    "county_fips": "45089",
+    "two_party_total": 11543,
+    "margin": 3995,
+    "margin_pct": 34.609720176730484,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 39571,
+    "rep_votes": 55905,
+    "other_votes": 54,
+    "total_votes": 95530,
+    "all_parties": {
+      "DEM": 39571,
+      "REP": 55905,
+      "NON": 54
+    },
+    "county_fips": "45091",
+    "two_party_total": 95476,
+    "margin": 16334,
+    "margin_pct": 17.107964305165694,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  }
+}

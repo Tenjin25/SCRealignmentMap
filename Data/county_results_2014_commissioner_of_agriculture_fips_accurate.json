@@ -1,0 +1,1244 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4401,
+    "other_votes": 1119,
+    "total_votes": 5520,
+    "all_parties": {
+      "UNC": 735,
+      "REP": 4401,
+      "AMR": 367,
+      "NON": 17
+    },
+    "county_fips": "45001",
+    "two_party_total": 4401,
+    "margin": 4401,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 31025,
+    "other_votes": 5896,
+    "total_votes": 36921,
+    "all_parties": {
+      "UNC": 3019,
+      "REP": 31025,
+      "AMR": 2722,
+      "NON": 155
+    },
+    "county_fips": "45003",
+    "two_party_total": 31025,
+    "margin": 31025,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 630,
+    "other_votes": 445,
+    "total_votes": 1075,
+    "all_parties": {
+      "UNC": 317,
+      "REP": 630,
+      "AMR": 128,
+      "NON": 0
+    },
+    "county_fips": "45005",
+    "two_party_total": 630,
+    "margin": 630,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 33693,
+    "other_votes": 5555,
+    "total_votes": 39248,
+    "all_parties": {
+      "UNC": 3049,
+      "REP": 33693,
+      "AMR": 2435,
+      "NON": 71
+    },
+    "county_fips": "45007",
+    "two_party_total": 33693,
+    "margin": 33693,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 1833,
+    "other_votes": 637,
+    "total_votes": 2470,
+    "all_parties": {
+      "UNC": 444,
+      "REP": 1833,
+      "AMR": 188,
+      "NON": 5
+    },
+    "county_fips": "45009",
+    "two_party_total": 1833,
+    "margin": 1833,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3272,
+    "other_votes": 766,
+    "total_votes": 4038,
+    "all_parties": {
+      "UNC": 487,
+      "REP": 3272,
+      "AMC": 270,
+      "NON": 9
+    },
+    "county_fips": "45011",
+    "two_party_total": 3272,
+    "margin": 3272,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 31340,
+    "other_votes": 5961,
+    "total_votes": 37301,
+    "all_parties": {
+      "UNC": 3086,
+      "REP": 31340,
+      "AMC": 2751,
+      "NON": 124
+    },
+    "county_fips": "45013",
+    "two_party_total": 31340,
+    "margin": 31340,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 26327,
+    "other_votes": 6496,
+    "total_votes": 32823,
+    "all_parties": {
+      "UNC": 3611,
+      "REP": 26327,
+      "AMR": 2786,
+      "NON": 99
+    },
+    "county_fips": "45015",
+    "two_party_total": 26327,
+    "margin": 26327,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 2697,
+    "other_votes": 771,
+    "total_votes": 3468,
+    "all_parties": {
+      "UNC": 501,
+      "REP": 2697,
+      "AMR": 261,
+      "NON": 9
+    },
+    "county_fips": "45017",
+    "two_party_total": 2697,
+    "margin": 2697,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 53214,
+    "other_votes": 16376,
+    "total_votes": 69590,
+    "all_parties": {
+      "UNC": 8487,
+      "REP": 53214,
+      "AMR": 7614,
+      "NON": 275
+    },
+    "county_fips": "45019",
+    "two_party_total": 53214,
+    "margin": 53214,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 8812,
+    "other_votes": 1479,
+    "total_votes": 10291,
+    "all_parties": {
+      "UNC": 910,
+      "REP": 8812,
+      "AMR": 547,
+      "NON": 22
+    },
+    "county_fips": "45021",
+    "two_party_total": 8812,
+    "margin": 8812,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 5907,
+    "other_votes": 1635,
+    "total_votes": 7542,
+    "all_parties": {
+      "UNC": 1084,
+      "REP": 5907,
+      "AMR": 528,
+      "NON": 23
+    },
+    "county_fips": "45025",
+    "two_party_total": 5907,
+    "margin": 5907,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4175,
+    "other_votes": 1916,
+    "total_votes": 6091,
+    "all_parties": {
+      "UNC": 1236,
+      "REP": 4175,
+      "AMR": 661,
+      "NON": 19
+    },
+    "county_fips": "45023",
+    "two_party_total": 4175,
+    "margin": 4175,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4930,
+    "other_votes": 1406,
+    "total_votes": 6336,
+    "all_parties": {
+      "UNC": 944,
+      "REP": 4930,
+      "AMR": 454,
+      "NON": 8
+    },
+    "county_fips": "45027",
+    "two_party_total": 4930,
+    "margin": 4930,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 5985,
+    "other_votes": 1517,
+    "total_votes": 7502,
+    "all_parties": {
+      "UNC": 941,
+      "REP": 5985,
+      "AMR": 556,
+      "NON": 20
+    },
+    "county_fips": "45029",
+    "two_party_total": 5985,
+    "margin": 5985,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 9657,
+    "other_votes": 2349,
+    "total_votes": 12006,
+    "all_parties": {
+      "UNC": 1443,
+      "REP": 9657,
+      "AMR": 873,
+      "NON": 33
+    },
+    "county_fips": "45031",
+    "two_party_total": 9657,
+    "margin": 9657,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3310,
+    "other_votes": 1023,
+    "total_votes": 4333,
+    "all_parties": {
+      "UNC": 695,
+      "REP": 3310,
+      "AMR": 306,
+      "NON": 22
+    },
+    "county_fips": "45033",
+    "two_party_total": 3310,
+    "margin": 3310,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 21216,
+    "other_votes": 5452,
+    "total_votes": 26668,
+    "all_parties": {
+      "UNC": 2834,
+      "REP": 21216,
+      "AMR": 2530,
+      "NON": 88
+    },
+    "county_fips": "45035",
+    "two_party_total": 21216,
+    "margin": 21216,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4338,
+    "other_votes": 776,
+    "total_votes": 5114,
+    "all_parties": {
+      "UNC": 463,
+      "REP": 4338,
+      "AMR": 305,
+      "NON": 8
+    },
+    "county_fips": "45037",
+    "two_party_total": 4338,
+    "margin": 4338,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3347,
+    "other_votes": 1887,
+    "total_votes": 5234,
+    "all_parties": {
+      "UNC": 1282,
+      "REP": 3347,
+      "AMR": 588,
+      "NON": 17
+    },
+    "county_fips": "45039",
+    "two_party_total": 3347,
+    "margin": 3347,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 20289,
+    "other_votes": 5131,
+    "total_votes": 25420,
+    "all_parties": {
+      "UNC": 3189,
+      "REP": 20289,
+      "AMR": 1881,
+      "NON": 61
+    },
+    "county_fips": "45041",
+    "two_party_total": 20289,
+    "margin": 20289,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 12130,
+    "other_votes": 2254,
+    "total_votes": 14384,
+    "all_parties": {
+      "UNC": 1276,
+      "REP": 12130,
+      "AMR": 957,
+      "NON": 21
+    },
+    "county_fips": "45043",
+    "two_party_total": 12130,
+    "margin": 12130,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 88370,
+    "other_votes": 18403,
+    "total_votes": 106773,
+    "all_parties": {
+      "UNC": 9499,
+      "REP": 88370,
+      "AMR": 8529,
+      "NON": 375
+    },
+    "county_fips": "45045",
+    "two_party_total": 88370,
+    "margin": 88370,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 11366,
+    "other_votes": 2521,
+    "total_votes": 13887,
+    "all_parties": {
+      "Unc": 1482,
+      "REP": 11366,
+      "AME": 1001,
+      "NON": 38
+    },
+    "county_fips": "45047",
+    "two_party_total": 11366,
+    "margin": 11366,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 2325,
+    "other_votes": 911,
+    "total_votes": 3236,
+    "all_parties": {
+      "UNC": 596,
+      "REP": 2325,
+      "AMR": 308,
+      "NON": 7
+    },
+    "county_fips": "45049",
+    "two_party_total": 2325,
+    "margin": 2325,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 48655,
+    "other_votes": 8011,
+    "total_votes": 56666,
+    "all_parties": {
+      "UNC": 4075,
+      "REP": 48655,
+      "AMR": 3821,
+      "NON": 115
+    },
+    "county_fips": "45051",
+    "two_party_total": 48655,
+    "margin": 48655,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3181,
+    "other_votes": 1075,
+    "total_votes": 4256,
+    "all_parties": {
+      "UNC": 671,
+      "REP": 3181,
+      "AMR": 392,
+      "NON": 12
+    },
+    "county_fips": "45053",
+    "two_party_total": 3181,
+    "margin": 3181,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 12509,
+    "other_votes": 2894,
+    "total_votes": 15403,
+    "all_parties": {
+      "UNC": 1602,
+      "REP": 12509,
+      "AMR": 1273,
+      "NON": 19
+    },
+    "county_fips": "45055",
+    "two_party_total": 12509,
+    "margin": 12509,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 13252,
+    "other_votes": 3078,
+    "total_votes": 16330,
+    "all_parties": {
+      "UNC": 1667,
+      "REP": 13252,
+      "AMR": 1364,
+      "NON": 47
+    },
+    "county_fips": "45057",
+    "two_party_total": 13252,
+    "margin": 13252,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 10253,
+    "other_votes": 2278,
+    "total_votes": 12531,
+    "all_parties": {
+      "UNC": 1323,
+      "REP": 10253,
+      "AMR": 911,
+      "NON": 44
+    },
+    "county_fips": "45059",
+    "two_party_total": 10253,
+    "margin": 10253,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 1964,
+    "other_votes": 874,
+    "total_votes": 2838,
+    "all_parties": {
+      "UNC": 577,
+      "REP": 1964,
+      "AMR": 283,
+      "NON": 14
+    },
+    "county_fips": "45061",
+    "two_party_total": 1964,
+    "margin": 1964,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 56209,
+    "other_votes": 10954,
+    "total_votes": 67163,
+    "all_parties": {
+      "UNC": 5059,
+      "REP": 56209,
+      "AMR": 5760,
+      "NON": 135
+    },
+    "county_fips": "45063",
+    "two_party_total": 56209,
+    "margin": 56209,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3420,
+    "other_votes": 1303,
+    "total_votes": 4723,
+    "all_parties": {
+      "UNC": 888,
+      "REP": 3420,
+      "AMR": 397,
+      "NON": 18
+    },
+    "county_fips": "45065",
+    "two_party_total": 3420,
+    "margin": 3420,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 2623,
+    "other_votes": 1238,
+    "total_votes": 3861,
+    "all_parties": {
+      "UNC": 907,
+      "REP": 2623,
+      "AMR": 316,
+      "NON": 15
+    },
+    "county_fips": "45067",
+    "two_party_total": 2623,
+    "margin": 2623,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 1983,
+    "other_votes": 492,
+    "total_votes": 2475,
+    "all_parties": {
+      "UNC": 320,
+      "REP": 1983,
+      "AMR": 168,
+      "NON": 4
+    },
+    "county_fips": "45069",
+    "two_party_total": 1983,
+    "margin": 1983,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 7282,
+    "other_votes": 1485,
+    "total_votes": 8767,
+    "all_parties": {
+      "UNC": 879,
+      "REP": 7282,
+      "AMR": 595,
+      "NON": 11
+    },
+    "county_fips": "45071",
+    "two_party_total": 7282,
+    "margin": 7282,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 15860,
+    "other_votes": 2396,
+    "total_votes": 18256,
+    "all_parties": {
+      "UNC": 1241,
+      "REP": 15860,
+      "AMR": 1119,
+      "NON": 36
+    },
+    "county_fips": "45073",
+    "two_party_total": 15860,
+    "margin": 15860,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 9407,
+    "other_votes": 3566,
+    "total_votes": 12973,
+    "all_parties": {
+      "UNC": 2402,
+      "REP": 9407,
+      "AMR": 1076,
+      "NON": 88
+    },
+    "county_fips": "45075",
+    "two_party_total": 9407,
+    "margin": 9407,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 21943,
+    "other_votes": 3048,
+    "total_votes": 24991,
+    "all_parties": {
+      "UNC": 1466,
+      "REP": 21943,
+      "AMR": 1512,
+      "NON": 70
+    },
+    "county_fips": "45077",
+    "two_party_total": 21943,
+    "margin": 21943,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 46471,
+    "other_votes": 31715,
+    "total_votes": 78186,
+    "all_parties": {
+      "UNC": 16429,
+      "REP": 46471,
+      "AMR": 14887,
+      "NON": 399
+    },
+    "county_fips": "45079",
+    "two_party_total": 46471,
+    "margin": 46471,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3863,
+    "other_votes": 564,
+    "total_votes": 4427,
+    "all_parties": {
+      "UNC": 346,
+      "REP": 3863,
+      "AMR": 208,
+      "NON": 10
+    },
+    "county_fips": "45081",
+    "two_party_total": 3863,
+    "margin": 3863,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 45357,
+    "other_votes": 8302,
+    "total_votes": 53659,
+    "all_parties": {
+      "UNC": 4413,
+      "REP": 45357,
+      "AMR": 3768,
+      "NON": 121
+    },
+    "county_fips": "45083",
+    "two_party_total": 45357,
+    "margin": 45357,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 14141,
+    "other_votes": 5305,
+    "total_votes": 19446,
+    "all_parties": {
+      "UNC": 3369,
+      "REP": 14141,
+      "AMR": 1885,
+      "NON": 51
+    },
+    "county_fips": "45085",
+    "two_party_total": 14141,
+    "margin": 14141,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4602,
+    "other_votes": 1523,
+    "total_votes": 6125,
+    "all_parties": {
+      "UNC": 978,
+      "REP": 4602,
+      "AMR": 523,
+      "NON": 22
+    },
+    "county_fips": "45087",
+    "two_party_total": 4602,
+    "margin": 4602,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3687,
+    "other_votes": 2005,
+    "total_votes": 5692,
+    "all_parties": {
+      "UNC": 1451,
+      "REP": 3687,
+      "AMR": 523,
+      "NON": 31
+    },
+    "county_fips": "45089",
+    "two_party_total": 3687,
+    "margin": 3687,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh E Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 38389,
+    "other_votes": 9188,
+    "total_votes": 47577,
+    "all_parties": {
+      "UNC": 4550,
+      "REP": 38389,
+      "AMR": 4504,
+      "NON": 134
+    },
+    "county_fips": "45091",
+    "two_party_total": 38389,
+    "margin": 38389,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  }
+}

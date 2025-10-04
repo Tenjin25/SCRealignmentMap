@@ -1,0 +1,14 @@
+{
+  "results_by_year": {
+    "2006": {
+      "governor_2006": {
+        "contest_name": "GOVERNOR",
+        "results": {
+          "45001": {"county": "ABBEVILLE", "contest": "GOVERNOR", "year": "2006", "dem_candidate": "Tommy Moore", "rep_candidate": "Mark Sanford", "dem_votes": 10683, "rep_votes": 9336, "other_votes": 6, "total_votes": 20025, "two_party_total": 20019, "margin": 1347, "margin_pct": 6.73, "winner": "DEM", "competitiveness": {"category": "Likely", "party": "Democratic", "color": "#9ecae1"}, "all_parties": {"REPUBLICAN": 9336, "DEMOCRAT": 10683}, "county_fips": "45001"},
+          // ...existing counties...
+          "45049": {"county": "HAMPTON", "contest": "GOVERNOR", "year": "2006", "dem_candidate": null, "rep_candidate": null, "dem_votes": 0, "rep_votes": 0, "other_votes": 0, "total_votes": 0, "two_party_total": 0, "margin": 0, "margin_pct": null, "winner": null, "competitiveness": null, "all_parties": {}, "county_fips": "45049"}
+        }
+      }
+    }
+  }
+}

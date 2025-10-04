@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 5078,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 5038,
+    "dem_pct": 0.0,
+    "rep_pct": 99.21,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 34375,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 34042,
+    "dem_pct": 0.0,
+    "rep_pct": 99.03,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 852,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 842,
+    "dem_pct": 0.0,
+    "rep_pct": 98.83,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 37196,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 36942,
+    "dem_pct": 0.0,
+    "rep_pct": 99.32,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 2159,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 2140,
+    "dem_pct": 0.0,
+    "rep_pct": 99.12,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 3629,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 3606,
+    "dem_pct": 0.0,
+    "rep_pct": 99.37,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 34463,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 34175,
+    "dem_pct": 0.0,
+    "rep_pct": 99.16,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 30078,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 29754,
+    "dem_pct": 0.0,
+    "rep_pct": 98.92,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 3043,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 3014,
+    "dem_pct": 0.0,
+    "rep_pct": 99.05,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 60276,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 59331,
+    "dem_pct": 0.0,
+    "rep_pct": 98.43,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 9724,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 9666,
+    "dem_pct": 0.0,
+    "rep_pct": 99.4,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 6852,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 6795,
+    "dem_pct": 0.0,
+    "rep_pct": 99.17,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 5300,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 5235,
+    "dem_pct": 0.0,
+    "rep_pct": 98.77,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 5520,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 5483,
+    "dem_pct": 0.0,
+    "rep_pct": 99.33,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 6703,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 6651,
+    "dem_pct": 0.0,
+    "rep_pct": 99.22,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 10839,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 10757,
+    "dem_pct": 0.0,
+    "rep_pct": 99.24,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 3799,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 3752,
+    "dem_pct": 0.0,
+    "rep_pct": 98.76,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 24003,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 23717,
+    "dem_pct": 0.0,
+    "rep_pct": 98.81,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 4773,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 4739,
+    "dem_pct": 0.0,
+    "rep_pct": 99.29,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 4331,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 4280,
+    "dem_pct": 0.0,
+    "rep_pct": 98.82,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 22944,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 22753,
+    "dem_pct": 0.0,
+    "rep_pct": 99.17,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 13301,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 13222,
+    "dem_pct": 0.0,
+    "rep_pct": 99.41,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 100439,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 99480,
+    "dem_pct": 0.0,
+    "rep_pct": 99.05,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 12903,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 12801,
+    "dem_pct": 0.0,
+    "rep_pct": 99.21,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 2727,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 2713,
+    "dem_pct": 0.0,
+    "rep_pct": 99.49,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 53579,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 53254,
+    "dem_pct": 0.0,
+    "rep_pct": 99.39,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 3663,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 3637,
+    "dem_pct": 0.0,
+    "rep_pct": 99.29,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 14284,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 14209,
+    "dem_pct": 0.0,
+    "rep_pct": 99.47,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 15158,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 15022,
+    "dem_pct": 0.0,
+    "rep_pct": 99.1,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 11727,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 11627,
+    "dem_pct": 0.0,
+    "rep_pct": 99.15,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 2351,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 2319,
+    "dem_pct": 0.0,
+    "rep_pct": 98.64,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 62836,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 62306,
+    "dem_pct": 0.0,
+    "rep_pct": 99.16,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 4071,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 4027,
+    "dem_pct": 0.0,
+    "rep_pct": 98.92,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 3166,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 3124,
+    "dem_pct": 0.0,
+    "rep_pct": 98.67,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 2244,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 2233,
+    "dem_pct": 0.0,
+    "rep_pct": 99.51,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 8229,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 8177,
+    "dem_pct": 0.0,
+    "rep_pct": 99.37,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 17375,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 17281,
+    "dem_pct": 0.0,
+    "rep_pct": 99.46,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 10890,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 10667,
+    "dem_pct": 0.0,
+    "rep_pct": 97.95,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 23932,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 23775,
+    "dem_pct": 0.0,
+    "rep_pct": 99.34,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 62852,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 61327,
+    "dem_pct": 0.0,
+    "rep_pct": 97.57,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 4181,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 4165,
+    "dem_pct": 0.0,
+    "rep_pct": 99.62,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 50294,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 49906,
+    "dem_pct": 0.0,
+    "rep_pct": 99.23,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 16758,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 16576,
+    "dem_pct": 0.0,
+    "rep_pct": 98.91,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 5631,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 5563,
+    "dem_pct": 0.0,
+    "rep_pct": 98.79,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 4556,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 4476,
+    "dem_pct": 0.0,
+    "rep_pct": 98.24,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 43918,
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 43507,
+    "dem_pct": 0.0,
+    "rep_pct": 99.06,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

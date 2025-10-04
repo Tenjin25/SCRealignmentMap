@@ -1,0 +1,1198 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 3561,
+    "rep_votes": 3112,
+    "other_votes": 2,
+    "total_votes": 6675,
+    "all_parties": {
+      "REPUBLICAN": 3112,
+      "DEMOCRAT": 3561,
+      "": 2
+    },
+    "county_fips": "45001",
+    "two_party_total": 6673,
+    "margin": 449,
+    "margin_pct": 6.728607822568559,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 18827,
+    "rep_votes": 21992,
+    "other_votes": 16,
+    "total_votes": 40835,
+    "all_parties": {
+      "REPUBLICAN": 21992,
+      "DEMOCRAT": 18827,
+      "": 16
+    },
+    "county_fips": "45003",
+    "two_party_total": 40819,
+    "margin": 3165,
+    "margin_pct": 7.753742129890492,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 1726,
+    "rep_votes": 605,
+    "other_votes": 2,
+    "total_votes": 2333,
+    "all_parties": {
+      "REPUBLICAN": 605,
+      "DEMOCRAT": 1726,
+      "": 2
+    },
+    "county_fips": "45005",
+    "two_party_total": 2331,
+    "margin": 1121,
+    "margin_pct": 48.090948090948096,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 18011,
+    "rep_votes": 26629,
+    "other_votes": 38,
+    "total_votes": 44678,
+    "all_parties": {
+      "REPUBLICAN": 26629,
+      "DEMOCRAT": 18011,
+      "": 38
+    },
+    "county_fips": "45007",
+    "two_party_total": 44640,
+    "margin": 8618,
+    "margin_pct": 19.305555555555557,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 2685,
+    "rep_votes": 1221,
+    "other_votes": 2,
+    "total_votes": 3908,
+    "all_parties": {
+      "REPUBLICAN": 1221,
+      "DEMOCRAT": 2685,
+      "": 2
+    },
+    "county_fips": "45009",
+    "two_party_total": 3906,
+    "margin": 1464,
+    "margin_pct": 37.48079877112136,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 3367,
+    "rep_votes": 2474,
+    "other_votes": 4,
+    "total_votes": 5845,
+    "all_parties": {
+      "REPUBLICAN": 2474,
+      "DEMOCRAT": 3367,
+      "": 4
+    },
+    "county_fips": "45011",
+    "two_party_total": 5841,
+    "margin": 893,
+    "margin_pct": 15.288478000342407,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 15374,
+    "rep_votes": 24120,
+    "other_votes": 28,
+    "total_votes": 39522,
+    "all_parties": {
+      "REPUBLICAN": 24120,
+      "DEMOCRAT": 15374,
+      "": 28
+    },
+    "county_fips": "45013",
+    "two_party_total": 39494,
+    "margin": 8746,
+    "margin_pct": 22.145135970020764,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 13025,
+    "rep_votes": 20422,
+    "other_votes": 27,
+    "total_votes": 33474,
+    "all_parties": {
+      "REPUBLICAN": 20422,
+      "DEMOCRAT": 13025,
+      "": 27
+    },
+    "county_fips": "45015",
+    "two_party_total": 33447,
+    "margin": 7397,
+    "margin_pct": 22.11558585224385,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 2275,
+    "rep_votes": 2156,
+    "other_votes": 5,
+    "total_votes": 4436,
+    "all_parties": {
+      "REPUBLICAN": 2156,
+      "DEMOCRAT": 2275,
+      "": 5
+    },
+    "county_fips": "45017",
+    "two_party_total": 4431,
+    "margin": 119,
+    "margin_pct": 2.6856240126382307,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 39388,
+    "rep_votes": 52304,
+    "other_votes": 128,
+    "total_votes": 91820,
+    "all_parties": {
+      "REPUBLICAN": 52304,
+      "DEMOCRAT": 39388,
+      "": 128
+    },
+    "county_fips": "45019",
+    "two_party_total": 91692,
+    "margin": 12916,
+    "margin_pct": 14.086288880164027,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 5587,
+    "rep_votes": 7948,
+    "other_votes": 5,
+    "total_votes": 13540,
+    "all_parties": {
+      "REPUBLICAN": 7948,
+      "DEMOCRAT": 5587,
+      "": 5
+    },
+    "county_fips": "45021",
+    "two_party_total": 13535,
+    "margin": 2361,
+    "margin_pct": 17.44366457332841,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 4031,
+    "rep_votes": 3591,
+    "other_votes": 5,
+    "total_votes": 7627,
+    "all_parties": {
+      "REPUBLICAN": 3591,
+      "DEMOCRAT": 4031,
+      "": 5
+    },
+    "county_fips": "45023",
+    "two_party_total": 7622,
+    "margin": 440,
+    "margin_pct": 5.772763054316452,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 4708,
+    "rep_votes": 3811,
+    "other_votes": 2,
+    "total_votes": 8521,
+    "all_parties": {
+      "REPUBLICAN": 3811,
+      "DEMOCRAT": 4708,
+      "": 2
+    },
+    "county_fips": "45025",
+    "two_party_total": 8519,
+    "margin": 897,
+    "margin_pct": 10.52940485972532,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 5176,
+    "rep_votes": 3655,
+    "other_votes": 1,
+    "total_votes": 8832,
+    "all_parties": {
+      "REPUBLICAN": 3655,
+      "DEMOCRAT": 5176,
+      "": 1
+    },
+    "county_fips": "45027",
+    "two_party_total": 8831,
+    "margin": 1521,
+    "margin_pct": 17.223417506511154,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 4700,
+    "rep_votes": 5134,
+    "other_votes": 7,
+    "total_votes": 9841,
+    "all_parties": {
+      "REPUBLICAN": 5134,
+      "DEMOCRAT": 4700,
+      "": 7
+    },
+    "county_fips": "45029",
+    "two_party_total": 9834,
+    "margin": 434,
+    "margin_pct": 4.413260117958105,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 7579,
+    "rep_votes": 7990,
+    "other_votes": 14,
+    "total_votes": 15583,
+    "all_parties": {
+      "REPUBLICAN": 7990,
+      "DEMOCRAT": 7579,
+      "": 14
+    },
+    "county_fips": "45031",
+    "two_party_total": 15569,
+    "margin": 411,
+    "margin_pct": 2.6398612627657525,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 3515,
+    "rep_votes": 2617,
+    "other_votes": 4,
+    "total_votes": 6136,
+    "all_parties": {
+      "REPUBLICAN": 2617,
+      "DEMOCRAT": 3515,
+      "": 4
+    },
+    "county_fips": "45033",
+    "two_party_total": 6132,
+    "margin": 898,
+    "margin_pct": 14.644487932159164,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 9863,
+    "rep_votes": 18635,
+    "other_votes": 19,
+    "total_votes": 28517,
+    "all_parties": {
+      "REPUBLICAN": 18635,
+      "DEMOCRAT": 9863,
+      "": 19
+    },
+    "county_fips": "45035",
+    "two_party_total": 28498,
+    "margin": 8772,
+    "margin_pct": 30.78110744613657,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 4095,
+    "rep_votes": 2723,
+    "other_votes": 6,
+    "total_votes": 6824,
+    "all_parties": {
+      "REPUBLICAN": 2723,
+      "DEMOCRAT": 4095,
+      "": 6
+    },
+    "county_fips": "45037",
+    "two_party_total": 6818,
+    "margin": 1372,
+    "margin_pct": 20.123203285420946,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 4073,
+    "rep_votes": 2529,
+    "other_votes": 8,
+    "total_votes": 6610,
+    "all_parties": {
+      "REPUBLICAN": 2529,
+      "DEMOCRAT": 4073,
+      "": 8
+    },
+    "county_fips": "45039",
+    "two_party_total": 6602,
+    "margin": 1544,
+    "margin_pct": 23.386852468948803,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 13930,
+    "rep_votes": 17548,
+    "other_votes": 22,
+    "total_votes": 31500,
+    "all_parties": {
+      "REPUBLICAN": 17548,
+      "DEMOCRAT": 13930,
+      "": 22
+    },
+    "county_fips": "45041",
+    "two_party_total": 31478,
+    "margin": 3618,
+    "margin_pct": 11.493741660842494,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 7359,
+    "rep_votes": 9167,
+    "other_votes": 7,
+    "total_votes": 16533,
+    "all_parties": {
+      "REPUBLICAN": 9167,
+      "DEMOCRAT": 7359,
+      "": 7
+    },
+    "county_fips": "45043",
+    "two_party_total": 16526,
+    "margin": 1808,
+    "margin_pct": 10.9403364395498,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 37777,
+    "rep_votes": 71854,
+    "other_votes": 83,
+    "total_votes": 109714,
+    "all_parties": {
+      "REPUBLICAN": 71854,
+      "DEMOCRAT": 37777,
+      "": 83
+    },
+    "county_fips": "45045",
+    "two_party_total": 109631,
+    "margin": 34077,
+    "margin_pct": 31.083361457981773,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 7616,
+    "rep_votes": 9191,
+    "other_votes": 20,
+    "total_votes": 16827,
+    "all_parties": {
+      "REPUBLICAN": 9191,
+      "DEMOCRAT": 7616,
+      "": 20
+    },
+    "county_fips": "45047",
+    "two_party_total": 16807,
+    "margin": 1575,
+    "margin_pct": 9.37109537692628,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 3970,
+    "rep_votes": 2028,
+    "other_votes": 5,
+    "total_votes": 6003,
+    "all_parties": {
+      "REPUBLICAN": 2028,
+      "DEMOCRAT": 3970,
+      "": 5
+    },
+    "county_fips": "45049",
+    "two_party_total": 5998,
+    "margin": 1942,
+    "margin_pct": 32.37745915305102,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 20253,
+    "rep_votes": 34599,
+    "other_votes": 59,
+    "total_votes": 54911,
+    "all_parties": {
+      "REPUBLICAN": 34599,
+      "DEMOCRAT": 20253,
+      "": 59
+    },
+    "county_fips": "45051",
+    "two_party_total": 54852,
+    "margin": 14346,
+    "margin_pct": 26.15401443885364,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 2673,
+    "rep_votes": 1531,
+    "other_votes": 3,
+    "total_votes": 4207,
+    "all_parties": {
+      "REPUBLICAN": 1531,
+      "DEMOCRAT": 2673,
+      "": 3
+    },
+    "county_fips": "45053",
+    "two_party_total": 4204,
+    "margin": 1142,
+    "margin_pct": 27.164605137963843,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 7983,
+    "rep_votes": 9678,
+    "other_votes": 11,
+    "total_votes": 17672,
+    "all_parties": {
+      "REPUBLICAN": 9678,
+      "DEMOCRAT": 7983,
+      "": 11
+    },
+    "county_fips": "45055",
+    "two_party_total": 17661,
+    "margin": 1695,
+    "margin_pct": 9.597418039748598,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 7534,
+    "rep_votes": 8012,
+    "other_votes": 1,
+    "total_votes": 15547,
+    "all_parties": {
+      "REPUBLICAN": 8012,
+      "DEMOCRAT": 7534,
+      "": 1
+    },
+    "county_fips": "45057",
+    "two_party_total": 15546,
+    "margin": 478,
+    "margin_pct": 3.0747459153479992,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 6752,
+    "rep_votes": 8407,
+    "other_votes": 13,
+    "total_votes": 15172,
+    "all_parties": {
+      "REPUBLICAN": 8407,
+      "DEMOCRAT": 6752,
+      "": 13
+    },
+    "county_fips": "45059",
+    "two_party_total": 15159,
+    "margin": 1655,
+    "margin_pct": 10.917606702289069,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 3069,
+    "rep_votes": 1698,
+    "other_votes": 2,
+    "total_votes": 4769,
+    "all_parties": {
+      "REPUBLICAN": 1698,
+      "DEMOCRAT": 3069,
+      "": 2
+    },
+    "county_fips": "45061",
+    "two_party_total": 4767,
+    "margin": 1371,
+    "margin_pct": 28.760226557583383,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 27480,
+    "rep_votes": 40016,
+    "other_votes": 221,
+    "total_votes": 67717,
+    "all_parties": {
+      "REPUBLICAN": 40016,
+      "DEMOCRAT": 27480,
+      "": 221
+    },
+    "county_fips": "45063",
+    "two_party_total": 67496,
+    "margin": 12536,
+    "margin_pct": 18.572952471257555,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 1876,
+    "rep_votes": 1432,
+    "other_votes": 0,
+    "total_votes": 3308,
+    "all_parties": {
+      "REPUBLICAN": 1432,
+      "DEMOCRAT": 1876,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3308,
+    "margin": 444,
+    "margin_pct": 13.422007255139057,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 4496,
+    "rep_votes": 2902,
+    "other_votes": 2,
+    "total_votes": 7400,
+    "all_parties": {
+      "REPUBLICAN": 2902,
+      "DEMOCRAT": 4496,
+      "": 2
+    },
+    "county_fips": "45065",
+    "two_party_total": 7398,
+    "margin": 1594,
+    "margin_pct": 21.546363882130308,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 3405,
+    "rep_votes": 1996,
+    "other_votes": 4,
+    "total_votes": 5405,
+    "all_parties": {
+      "REPUBLICAN": 1996,
+      "DEMOCRAT": 3405,
+      "": 4
+    },
+    "county_fips": "45067",
+    "two_party_total": 5401,
+    "margin": 1409,
+    "margin_pct": 26.087761525643398,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 5214,
+    "rep_votes": 4789,
+    "other_votes": 6,
+    "total_votes": 10009,
+    "all_parties": {
+      "REPUBLICAN": 4789,
+      "DEMOCRAT": 5214,
+      "": 6
+    },
+    "county_fips": "45071",
+    "two_party_total": 10003,
+    "margin": 425,
+    "margin_pct": 4.248725382385285,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 7607,
+    "rep_votes": 11980,
+    "other_votes": 7,
+    "total_votes": 19594,
+    "all_parties": {
+      "REPUBLICAN": 11980,
+      "DEMOCRAT": 7607,
+      "": 7
+    },
+    "county_fips": "45073",
+    "two_party_total": 19587,
+    "margin": 4373,
+    "margin_pct": 22.326032572624698,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 15553,
+    "rep_votes": 8014,
+    "other_votes": 12,
+    "total_votes": 23579,
+    "all_parties": {
+      "REPUBLICAN": 8014,
+      "DEMOCRAT": 15553,
+      "": 12
+    },
+    "county_fips": "45075",
+    "two_party_total": 23567,
+    "margin": 7539,
+    "margin_pct": 31.989646539652906,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 8712,
+    "rep_votes": 18922,
+    "other_votes": 29,
+    "total_votes": 27663,
+    "all_parties": {
+      "REPUBLICAN": 18922,
+      "DEMOCRAT": 8712,
+      "": 29
+    },
+    "county_fips": "45077",
+    "two_party_total": 27634,
+    "margin": 10210,
+    "margin_pct": 36.94723890859087,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 53363,
+    "rep_votes": 36044,
+    "other_votes": 97,
+    "total_votes": 89504,
+    "all_parties": {
+      "REPUBLICAN": 36044,
+      "DEMOCRAT": 53363,
+      "": 97
+    },
+    "county_fips": "45079",
+    "two_party_total": 89407,
+    "margin": 17319,
+    "margin_pct": 19.370966479134744,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 2902,
+    "rep_votes": 2658,
+    "other_votes": 1,
+    "total_votes": 5561,
+    "all_parties": {
+      "REPUBLICAN": 2658,
+      "DEMOCRAT": 2902,
+      "": 1
+    },
+    "county_fips": "45081",
+    "two_party_total": 5560,
+    "margin": 244,
+    "margin_pct": 4.388489208633094,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 24681,
+    "rep_votes": 37986,
+    "other_votes": 39,
+    "total_votes": 62706,
+    "all_parties": {
+      "REPUBLICAN": 37986,
+      "DEMOCRAT": 24681,
+      "": 39
+    },
+    "county_fips": "45083",
+    "two_party_total": 62667,
+    "margin": 13305,
+    "margin_pct": 21.231270046435924,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 12510,
+    "rep_votes": 10196,
+    "other_votes": 6,
+    "total_votes": 22712,
+    "all_parties": {
+      "REPUBLICAN": 10196,
+      "DEMOCRAT": 12510,
+      "": 6
+    },
+    "county_fips": "45085",
+    "two_party_total": 22706,
+    "margin": 2314,
+    "margin_pct": 10.19113890601603,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 4650,
+    "rep_votes": 3249,
+    "other_votes": 6,
+    "total_votes": 7905,
+    "all_parties": {
+      "REPUBLICAN": 3249,
+      "DEMOCRAT": 4650,
+      "": 6
+    },
+    "county_fips": "45087",
+    "two_party_total": 7899,
+    "margin": 1401,
+    "margin_pct": 17.73642233194075,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 5949,
+    "rep_votes": 2869,
+    "other_votes": 7,
+    "total_votes": 8825,
+    "all_parties": {
+      "REPUBLICAN": 2869,
+      "DEMOCRAT": 5949,
+      "": 7
+    },
+    "county_fips": "45089",
+    "two_party_total": 8818,
+    "margin": 3080,
+    "margin_pct": 34.928555227942844,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 20196,
+    "rep_votes": 31434,
+    "other_votes": 26,
+    "total_votes": 51656,
+    "all_parties": {
+      "REPUBLICAN": 31434,
+      "DEMOCRAT": 20196,
+      "": 26
+    },
+    "county_fips": "45091",
+    "two_party_total": 51630,
+    "margin": 11238,
+    "margin_pct": 21.76641487507263,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

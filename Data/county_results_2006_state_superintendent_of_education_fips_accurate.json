@@ -1,0 +1,1382 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 3674,
+    "rep_votes": 2696,
+    "other_votes": 308,
+    "total_votes": 6678,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 104,
+      "GREEN": 48,
+      "REPUBLICAN": 2696,
+      "LIBERTARIAN": 102,
+      "DEMOCRAT": 3674,
+      "CONSTITUTION": 53,
+      "": 1
+    },
+    "county_fips": "45001",
+    "two_party_total": 6370,
+    "margin": 978,
+    "margin_pct": 15.353218210361067,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 14947,
+    "rep_votes": 22745,
+    "other_votes": 2519,
+    "total_votes": 40211,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 781,
+      "GREEN": 477,
+      "REPUBLICAN": 22745,
+      "LIBERTARIAN": 984,
+      "DEMOCRAT": 14947,
+      "CONSTITUTION": 255,
+      "": 22
+    },
+    "county_fips": "45003",
+    "two_party_total": 37692,
+    "margin": 7798,
+    "margin_pct": 20.688740316247483,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 1520,
+    "rep_votes": 627,
+    "other_votes": 116,
+    "total_votes": 2263,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 40,
+      "GREEN": 21,
+      "REPUBLICAN": 627,
+      "LIBERTARIAN": 37,
+      "DEMOCRAT": 1520,
+      "CONSTITUTION": 16,
+      "": 2
+    },
+    "county_fips": "45005",
+    "two_party_total": 2147,
+    "margin": 893,
+    "margin_pct": 41.5929203539823,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 18114,
+    "rep_votes": 23937,
+    "other_votes": 2527,
+    "total_votes": 44578,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 811,
+      "GREEN": 355,
+      "REPUBLICAN": 23937,
+      "LIBERTARIAN": 1048,
+      "DEMOCRAT": 18114,
+      "CONSTITUTION": 296,
+      "": 17
+    },
+    "county_fips": "45007",
+    "two_party_total": 42051,
+    "margin": 5823,
+    "margin_pct": 13.847470928158664,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 2611,
+    "rep_votes": 1125,
+    "other_votes": 113,
+    "total_votes": 3849,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 43,
+      "GREEN": 18,
+      "REPUBLICAN": 1125,
+      "LIBERTARIAN": 37,
+      "DEMOCRAT": 2611,
+      "CONSTITUTION": 14,
+      "": 1
+    },
+    "county_fips": "45009",
+    "two_party_total": 3736,
+    "margin": 1486,
+    "margin_pct": 39.775160599571734,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 3012,
+    "rep_votes": 2534,
+    "other_votes": 211,
+    "total_votes": 5757,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 74,
+      "GREEN": 35,
+      "REPUBLICAN": 2534,
+      "LIBERTARIAN": 62,
+      "DEMOCRAT": 3012,
+      "CONSTITUTION": 39,
+      "": 1
+    },
+    "county_fips": "45011",
+    "two_party_total": 5546,
+    "margin": 478,
+    "margin_pct": 8.61882437793004,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 14312,
+    "rep_votes": 22123,
+    "other_votes": 2326,
+    "total_votes": 38761,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 926,
+      "GREEN": 379,
+      "REPUBLICAN": 22123,
+      "LIBERTARIAN": 827,
+      "DEMOCRAT": 14312,
+      "CONSTITUTION": 182,
+      "": 12
+    },
+    "county_fips": "45013",
+    "two_party_total": 36435,
+    "margin": 7811,
+    "margin_pct": 21.438177576506106,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 13653,
+    "rep_votes": 17565,
+    "other_votes": 2185,
+    "total_votes": 33403,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 826,
+      "GREEN": 329,
+      "REPUBLICAN": 17565,
+      "LIBERTARIAN": 757,
+      "DEMOCRAT": 13653,
+      "CONSTITUTION": 250,
+      "": 23
+    },
+    "county_fips": "45015",
+    "two_party_total": 31218,
+    "margin": 3912,
+    "margin_pct": 12.531231981549107,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 2373,
+    "rep_votes": 1875,
+    "other_votes": 161,
+    "total_votes": 4409,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 48,
+      "GREEN": 27,
+      "REPUBLICAN": 1875,
+      "LIBERTARIAN": 57,
+      "DEMOCRAT": 2373,
+      "CONSTITUTION": 22,
+      "": 7
+    },
+    "county_fips": "45017",
+    "two_party_total": 4248,
+    "margin": 498,
+    "margin_pct": 11.72316384180791,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 42895,
+    "rep_votes": 42321,
+    "other_votes": 5708,
+    "total_votes": 90924,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 1795,
+      "GREEN": 1339,
+      "REPUBLICAN": 42321,
+      "LIBERTARIAN": 2142,
+      "DEMOCRAT": 42895,
+      "CONSTITUTION": 343,
+      "": 89
+    },
+    "county_fips": "45019",
+    "two_party_total": 85216,
+    "margin": 574,
+    "margin_pct": 0.6735824258355239,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#deebf7"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 5938,
+    "rep_votes": 6629,
+    "other_votes": 793,
+    "total_votes": 13360,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 306,
+      "GREEN": 154,
+      "REPUBLICAN": 6629,
+      "LIBERTARIAN": 194,
+      "DEMOCRAT": 5938,
+      "CONSTITUTION": 137,
+      "": 2
+    },
+    "county_fips": "45021",
+    "two_party_total": 12567,
+    "margin": 691,
+    "margin_pct": 5.4985278905068835,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 4159,
+    "rep_votes": 2908,
+    "other_votes": 424,
+    "total_votes": 7491,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 147,
+      "GREEN": 85,
+      "REPUBLICAN": 2908,
+      "LIBERTARIAN": 121,
+      "DEMOCRAT": 4159,
+      "CONSTITUTION": 71,
+      "": 0
+    },
+    "county_fips": "45023",
+    "two_party_total": 7067,
+    "margin": 1251,
+    "margin_pct": 17.70199518890618,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 4731,
+    "rep_votes": 3267,
+    "other_votes": 386,
+    "total_votes": 8384,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 156,
+      "GREEN": 67,
+      "REPUBLICAN": 3267,
+      "LIBERTARIAN": 87,
+      "DEMOCRAT": 4731,
+      "CONSTITUTION": 73,
+      "": 3
+    },
+    "county_fips": "45025",
+    "two_party_total": 7998,
+    "margin": 1464,
+    "margin_pct": 18.30457614403601,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 5329,
+    "rep_votes": 3222,
+    "other_votes": 225,
+    "total_votes": 8776,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 73,
+      "GREEN": 49,
+      "REPUBLICAN": 3222,
+      "LIBERTARIAN": 65,
+      "DEMOCRAT": 5329,
+      "CONSTITUTION": 38,
+      "": 0
+    },
+    "county_fips": "45027",
+    "two_party_total": 8551,
+    "margin": 2107,
+    "margin_pct": 24.640392936498657,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 4577,
+    "rep_votes": 4745,
+    "other_votes": 406,
+    "total_votes": 9728,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 146,
+      "GREEN": 68,
+      "REPUBLICAN": 4745,
+      "LIBERTARIAN": 139,
+      "DEMOCRAT": 4577,
+      "CONSTITUTION": 49,
+      "": 4
+    },
+    "county_fips": "45029",
+    "two_party_total": 9322,
+    "margin": 168,
+    "margin_pct": 1.8021883715940785,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 8028,
+    "rep_votes": 6791,
+    "other_votes": 585,
+    "total_votes": 15404,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 192,
+      "GREEN": 111,
+      "REPUBLICAN": 6791,
+      "LIBERTARIAN": 181,
+      "DEMOCRAT": 8028,
+      "CONSTITUTION": 101,
+      "": 0
+    },
+    "county_fips": "45031",
+    "two_party_total": 14819,
+    "margin": 1237,
+    "margin_pct": 8.347391861799041,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 3684,
+    "rep_votes": 2152,
+    "other_votes": 246,
+    "total_votes": 6082,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 77,
+      "GREEN": 44,
+      "REPUBLICAN": 2152,
+      "LIBERTARIAN": 91,
+      "DEMOCRAT": 3684,
+      "CONSTITUTION": 33,
+      "": 1
+    },
+    "county_fips": "45033",
+    "two_party_total": 5836,
+    "margin": 1532,
+    "margin_pct": 26.250856751199453,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 10832,
+    "rep_votes": 15708,
+    "other_votes": 1833,
+    "total_votes": 28373,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 734,
+      "GREEN": 274,
+      "REPUBLICAN": 15708,
+      "LIBERTARIAN": 635,
+      "DEMOCRAT": 10832,
+      "CONSTITUTION": 167,
+      "": 23
+    },
+    "county_fips": "45035",
+    "two_party_total": 26540,
+    "margin": 4876,
+    "margin_pct": 18.37226827430294,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 3408,
+    "rep_votes": 3001,
+    "other_votes": 330,
+    "total_votes": 6739,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 120,
+      "GREEN": 38,
+      "REPUBLICAN": 3001,
+      "LIBERTARIAN": 118,
+      "DEMOCRAT": 3408,
+      "CONSTITUTION": 47,
+      "": 7
+    },
+    "county_fips": "45037",
+    "two_party_total": 6409,
+    "margin": 407,
+    "margin_pct": 6.350444687158683,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 4417,
+    "rep_votes": 1841,
+    "other_votes": 215,
+    "total_votes": 6473,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 80,
+      "GREEN": 38,
+      "REPUBLICAN": 1841,
+      "LIBERTARIAN": 67,
+      "DEMOCRAT": 4417,
+      "CONSTITUTION": 29,
+      "": 1
+    },
+    "county_fips": "45039",
+    "two_party_total": 6258,
+    "margin": 2576,
+    "margin_pct": 41.163310961968676,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 14958,
+    "rep_votes": 15114,
+    "other_votes": 1094,
+    "total_votes": 31166,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 411,
+      "GREEN": 175,
+      "REPUBLICAN": 15114,
+      "LIBERTARIAN": 356,
+      "DEMOCRAT": 14958,
+      "CONSTITUTION": 141,
+      "": 11
+    },
+    "county_fips": "45041",
+    "two_party_total": 30072,
+    "margin": 156,
+    "margin_pct": 0.5187549880287311,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Republican",
+      "color": "#fcbba1"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 8189,
+    "rep_votes": 7623,
+    "other_votes": 665,
+    "total_votes": 16477,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 230,
+      "GREEN": 123,
+      "REPUBLICAN": 7623,
+      "LIBERTARIAN": 241,
+      "DEMOCRAT": 8189,
+      "CONSTITUTION": 69,
+      "": 2
+    },
+    "county_fips": "45043",
+    "two_party_total": 15812,
+    "margin": 566,
+    "margin_pct": 3.57955982797875,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 42110,
+    "rep_votes": 61161,
+    "other_votes": 5383,
+    "total_votes": 108654,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 1777,
+      "GREEN": 822,
+      "REPUBLICAN": 61161,
+      "LIBERTARIAN": 1808,
+      "DEMOCRAT": 42110,
+      "CONSTITUTION": 928,
+      "": 48
+    },
+    "county_fips": "45045",
+    "two_party_total": 103271,
+    "margin": 19051,
+    "margin_pct": 18.447579669026155,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 8021,
+    "rep_votes": 8092,
+    "other_votes": 624,
+    "total_votes": 16737,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 253,
+      "GREEN": 99,
+      "REPUBLICAN": 8092,
+      "LIBERTARIAN": 165,
+      "DEMOCRAT": 8021,
+      "CONSTITUTION": 99,
+      "": 8
+    },
+    "county_fips": "45047",
+    "two_party_total": 16113,
+    "margin": 71,
+    "margin_pct": 0.44063799416620125,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 3680,
+    "rep_votes": 1735,
+    "other_votes": 259,
+    "total_votes": 5674,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 96,
+      "GREEN": 49,
+      "REPUBLICAN": 1735,
+      "LIBERTARIAN": 65,
+      "DEMOCRAT": 3680,
+      "CONSTITUTION": 42,
+      "": 7
+    },
+    "county_fips": "45049",
+    "two_party_total": 5415,
+    "margin": 1945,
+    "margin_pct": 35.91874422899354,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 22042,
+    "rep_votes": 28556,
+    "other_votes": 3285,
+    "total_votes": 53883,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 1431,
+      "GREEN": 461,
+      "REPUBLICAN": 28556,
+      "LIBERTARIAN": 1088,
+      "DEMOCRAT": 22042,
+      "CONSTITUTION": 291,
+      "": 14
+    },
+    "county_fips": "45051",
+    "two_party_total": 50598,
+    "margin": 6514,
+    "margin_pct": 12.874026641369223,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 2437,
+    "rep_votes": 1533,
+    "other_votes": 172,
+    "total_votes": 4142,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 62,
+      "GREEN": 29,
+      "REPUBLICAN": 1533,
+      "LIBERTARIAN": 59,
+      "DEMOCRAT": 2437,
+      "CONSTITUTION": 16,
+      "": 6
+    },
+    "county_fips": "45053",
+    "two_party_total": 3970,
+    "margin": 904,
+    "margin_pct": 22.770780856423173,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 8389,
+    "rep_votes": 8311,
+    "other_votes": 892,
+    "total_votes": 17592,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 304,
+      "GREEN": 111,
+      "REPUBLICAN": 8311,
+      "LIBERTARIAN": 358,
+      "DEMOCRAT": 8389,
+      "CONSTITUTION": 110,
+      "": 9
+    },
+    "county_fips": "45055",
+    "two_party_total": 16700,
+    "margin": 78,
+    "margin_pct": 0.467065868263473,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Democratic",
+      "color": "#f7fbff"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 7601,
+    "rep_votes": 6767,
+    "other_votes": 881,
+    "total_votes": 15249,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 338,
+      "GREEN": 162,
+      "REPUBLICAN": 6767,
+      "LIBERTARIAN": 258,
+      "DEMOCRAT": 7601,
+      "CONSTITUTION": 117,
+      "": 6
+    },
+    "county_fips": "45057",
+    "two_party_total": 14368,
+    "margin": 834,
+    "margin_pct": 5.80456570155902,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 7115,
+    "rep_votes": 7357,
+    "other_votes": 695,
+    "total_votes": 15167,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 244,
+      "GREEN": 110,
+      "REPUBLICAN": 7357,
+      "LIBERTARIAN": 207,
+      "DEMOCRAT": 7115,
+      "CONSTITUTION": 133,
+      "": 1
+    },
+    "county_fips": "45059",
+    "two_party_total": 14472,
+    "margin": 242,
+    "margin_pct": 1.6721945826423439,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 3128,
+    "rep_votes": 1468,
+    "other_votes": 139,
+    "total_votes": 4735,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 53,
+      "GREEN": 20,
+      "REPUBLICAN": 1468,
+      "LIBERTARIAN": 34,
+      "DEMOCRAT": 3128,
+      "CONSTITUTION": 32,
+      "": 0
+    },
+    "county_fips": "45061",
+    "two_party_total": 4596,
+    "margin": 1660,
+    "margin_pct": 36.118363794604,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 30305,
+    "rep_votes": 33234,
+    "other_votes": 3542,
+    "total_votes": 67081,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 990,
+      "GREEN": 431,
+      "REPUBLICAN": 33234,
+      "LIBERTARIAN": 1668,
+      "DEMOCRAT": 30305,
+      "CONSTITUTION": 408,
+      "": 45
+    },
+    "county_fips": "45063",
+    "two_party_total": 63539,
+    "margin": 2929,
+    "margin_pct": 4.609767229575536,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 1717,
+    "rep_votes": 1415,
+    "other_votes": 135,
+    "total_votes": 3267,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 58,
+      "GREEN": 24,
+      "REPUBLICAN": 1415,
+      "LIBERTARIAN": 42,
+      "DEMOCRAT": 1717,
+      "CONSTITUTION": 11,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3132,
+    "margin": 302,
+    "margin_pct": 9.642401021711366,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 4634,
+    "rep_votes": 2400,
+    "other_votes": 244,
+    "total_votes": 7278,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 89,
+      "GREEN": 34,
+      "REPUBLICAN": 2400,
+      "LIBERTARIAN": 79,
+      "DEMOCRAT": 4634,
+      "CONSTITUTION": 41,
+      "": 1
+    },
+    "county_fips": "45065",
+    "two_party_total": 7034,
+    "margin": 2234,
+    "margin_pct": 31.760022746659082,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 3381,
+    "rep_votes": 1682,
+    "other_votes": 230,
+    "total_votes": 5293,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 92,
+      "GREEN": 31,
+      "REPUBLICAN": 1682,
+      "LIBERTARIAN": 60,
+      "DEMOCRAT": 3381,
+      "CONSTITUTION": 45,
+      "": 2
+    },
+    "county_fips": "45067",
+    "two_party_total": 5063,
+    "margin": 1699,
+    "margin_pct": 33.55717953782342,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 5532,
+    "rep_votes": 4019,
+    "other_votes": 398,
+    "total_votes": 9949,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 119,
+      "GREEN": 65,
+      "REPUBLICAN": 4019,
+      "LIBERTARIAN": 156,
+      "DEMOCRAT": 5532,
+      "CONSTITUTION": 55,
+      "": 3
+    },
+    "county_fips": "45071",
+    "two_party_total": 9551,
+    "margin": 1513,
+    "margin_pct": 15.8412731651136,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 7984,
+    "rep_votes": 10427,
+    "other_votes": 1098,
+    "total_votes": 19509,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 383,
+      "GREEN": 172,
+      "REPUBLICAN": 10427,
+      "LIBERTARIAN": 405,
+      "DEMOCRAT": 7984,
+      "CONSTITUTION": 128,
+      "": 10
+    },
+    "county_fips": "45073",
+    "two_party_total": 18411,
+    "margin": 2443,
+    "margin_pct": 13.269241214491338,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 15777,
+    "rep_votes": 7095,
+    "other_votes": 555,
+    "total_votes": 23427,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 174,
+      "GREEN": 92,
+      "REPUBLICAN": 7095,
+      "LIBERTARIAN": 193,
+      "DEMOCRAT": 15777,
+      "CONSTITUTION": 93,
+      "": 3
+    },
+    "county_fips": "45075",
+    "two_party_total": 22872,
+    "margin": 8682,
+    "margin_pct": 37.95907660020986,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 9290,
+    "rep_votes": 16562,
+    "other_votes": 1679,
+    "total_votes": 27531,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 527,
+      "GREEN": 273,
+      "REPUBLICAN": 16562,
+      "LIBERTARIAN": 602,
+      "DEMOCRAT": 9290,
+      "CONSTITUTION": 268,
+      "": 9
+    },
+    "county_fips": "45077",
+    "two_party_total": 25852,
+    "margin": 7272,
+    "margin_pct": 28.12935169425963,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 58923,
+    "rep_votes": 28096,
+    "other_votes": 3631,
+    "total_votes": 90650,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 897,
+      "GREEN": 654,
+      "REPUBLICAN": 28096,
+      "LIBERTARIAN": 1738,
+      "DEMOCRAT": 58923,
+      "CONSTITUTION": 296,
+      "": 46
+    },
+    "county_fips": "45079",
+    "two_party_total": 87019,
+    "margin": 30827,
+    "margin_pct": 35.42559670876475,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 2940,
+    "rep_votes": 2370,
+    "other_votes": 240,
+    "total_votes": 5550,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 76,
+      "GREEN": 36,
+      "REPUBLICAN": 2370,
+      "LIBERTARIAN": 90,
+      "DEMOCRAT": 2940,
+      "CONSTITUTION": 36,
+      "": 2
+    },
+    "county_fips": "45081",
+    "two_party_total": 5310,
+    "margin": 570,
+    "margin_pct": 10.734463276836157,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 29562,
+    "rep_votes": 29753,
+    "other_votes": 2952,
+    "total_votes": 62267,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 1319,
+      "GREEN": 405,
+      "REPUBLICAN": 29753,
+      "LIBERTARIAN": 818,
+      "DEMOCRAT": 29562,
+      "CONSTITUTION": 388,
+      "": 22
+    },
+    "county_fips": "45083",
+    "two_party_total": 59315,
+    "margin": 191,
+    "margin_pct": 0.32200960971086573,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 12425,
+    "rep_votes": 8869,
+    "other_votes": 784,
+    "total_votes": 22078,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 284,
+      "GREEN": 149,
+      "REPUBLICAN": 8869,
+      "LIBERTARIAN": 210,
+      "DEMOCRAT": 12425,
+      "CONSTITUTION": 135,
+      "": 6
+    },
+    "county_fips": "45085",
+    "two_party_total": 21294,
+    "margin": 3556,
+    "margin_pct": 16.699539776462853,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 4398,
+    "rep_votes": 3097,
+    "other_votes": 320,
+    "total_votes": 7815,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 125,
+      "GREEN": 80,
+      "REPUBLICAN": 3097,
+      "LIBERTARIAN": 64,
+      "DEMOCRAT": 4398,
+      "CONSTITUTION": 49,
+      "": 2
+    },
+    "county_fips": "45087",
+    "two_party_total": 7495,
+    "margin": 1301,
+    "margin_pct": 17.358238825883923,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 5978,
+    "rep_votes": 2557,
+    "other_votes": 179,
+    "total_votes": 8714,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 56,
+      "GREEN": 34,
+      "REPUBLICAN": 2557,
+      "LIBERTARIAN": 57,
+      "DEMOCRAT": 5978,
+      "CONSTITUTION": 32,
+      "": 0
+    },
+    "county_fips": "45089",
+    "two_party_total": 8535,
+    "margin": 3421,
+    "margin_pct": 40.08201523140012,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 21182,
+    "rep_votes": 26352,
+    "other_votes": 2948,
+    "total_votes": 50482,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 1038,
+      "GREEN": 398,
+      "REPUBLICAN": 26352,
+      "LIBERTARIAN": 1132,
+      "DEMOCRAT": 21182,
+      "CONSTITUTION": 365,
+      "": 15
+    },
+    "county_fips": "45091",
+    "two_party_total": 47534,
+    "margin": 5170,
+    "margin_pct": 10.876425295577901,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  }
+}

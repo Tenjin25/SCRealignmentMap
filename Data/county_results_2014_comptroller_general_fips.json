@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 7036,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2761,
+    "rep_votes": 4274,
+    "dem_pct": 39.24,
+    "rep_pct": 60.74,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 44752,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 14138,
+    "rep_votes": 30600,
+    "dem_pct": 31.59,
+    "rep_pct": 68.38,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 2263,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 1657,
+    "rep_votes": 606,
+    "dem_pct": 73.22,
+    "rep_pct": 26.78,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 44090,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 11560,
+    "rep_votes": 32496,
+    "dem_pct": 26.22,
+    "rep_pct": 73.7,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 4854,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3155,
+    "rep_votes": 1699,
+    "dem_pct": 65.0,
+    "rep_pct": 35.0,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6083,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2901,
+    "rep_votes": 3182,
+    "dem_pct": 47.69,
+    "rep_pct": 52.31,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 46731,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 16566,
+    "rep_votes": 30153,
+    "dem_pct": 35.45,
+    "rep_pct": 64.52,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 42294,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 16659,
+    "rep_votes": 25614,
+    "dem_pct": 39.39,
+    "rep_pct": 60.56,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 5175,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2656,
+    "rep_votes": 2515,
+    "dem_pct": 51.32,
+    "rep_pct": 48.6,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 95714,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 45201,
+    "rep_votes": 50460,
+    "dem_pct": 47.23,
+    "rep_pct": 52.72,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 12176,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3471,
+    "rep_votes": 8701,
+    "dem_pct": 28.51,
+    "rep_pct": 71.46,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 10038,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4524,
+    "rep_votes": 5510,
+    "dem_pct": 45.07,
+    "rep_pct": 54.89,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 7878,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3837,
+    "rep_votes": 4038,
+    "dem_pct": 48.71,
+    "rep_pct": 51.26,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 10177,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 5525,
+    "rep_votes": 4649,
+    "dem_pct": 54.29,
+    "rep_pct": 45.68,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 10672,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4902,
+    "rep_votes": 5767,
+    "dem_pct": 45.93,
+    "rep_pct": 54.04,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 18456,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 9299,
+    "rep_votes": 9150,
+    "dem_pct": 50.38,
+    "rep_pct": 49.58,
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6330,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3293,
+    "rep_votes": 3034,
+    "dem_pct": 52.02,
+    "rep_pct": 47.93,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 33454,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 12785,
+    "rep_votes": 20650,
+    "dem_pct": 38.22,
+    "rep_pct": 61.73,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6946,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 2731,
+    "rep_votes": 4215,
+    "dem_pct": 39.32,
+    "rep_pct": 60.68,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 8014,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4860,
+    "rep_votes": 3151,
+    "dem_pct": 60.64,
+    "rep_pct": 39.32,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 36022,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 16969,
+    "rep_votes": 19037,
+    "dem_pct": 47.11,
+    "rep_pct": 52.85,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 20134,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 8481,
+    "rep_votes": 11652,
+    "dem_pct": 42.12,
+    "rep_pct": 57.87,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 121751,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 35796,
+    "rep_votes": 85846,
+    "dem_pct": 29.4,
+    "rep_pct": 70.51,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 17470,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 6290,
+    "rep_votes": 11176,
+    "dem_pct": 36.0,
+    "rep_pct": 63.97,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 5736,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3631,
+    "rep_votes": 2103,
+    "dem_pct": 63.3,
+    "rep_pct": 36.66,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 66993,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 19867,
+    "rep_votes": 47098,
+    "dem_pct": 29.66,
+    "rep_pct": 70.3,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6586,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3550,
+    "rep_votes": 3035,
+    "dem_pct": 53.9,
+    "rep_pct": 46.08,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 19119,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 7047,
+    "rep_votes": 12066,
+    "dem_pct": 36.86,
+    "rep_pct": 63.11,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 19837,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 7030,
+    "rep_votes": 12800,
+    "dem_pct": 35.44,
+    "rep_pct": 64.53,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 14994,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4941,
+    "rep_votes": 10045,
+    "dem_pct": 32.95,
+    "rep_pct": 66.99,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 5730,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3862,
+    "rep_votes": 1866,
+    "dem_pct": 67.4,
+    "rep_pct": 32.57,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 74583,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 19714,
+    "rep_votes": 54792,
+    "dem_pct": 26.43,
+    "rep_pct": 73.46,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 8633,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 5479,
+    "rep_votes": 3151,
+    "dem_pct": 63.47,
+    "rep_pct": 36.5,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 6116,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3781,
+    "rep_votes": 2332,
+    "dem_pct": 61.82,
+    "rep_pct": 38.13,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 3556,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 1607,
+    "rep_votes": 1948,
+    "dem_pct": 45.19,
+    "rep_pct": 54.78,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 10830,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3851,
+    "rep_votes": 6974,
+    "dem_pct": 35.56,
+    "rep_pct": 64.4,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 19862,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4630,
+    "rep_votes": 15227,
+    "dem_pct": 23.31,
+    "rep_pct": 76.66,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 27859,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 19793,
+    "rep_votes": 8057,
+    "dem_pct": 71.05,
+    "rep_pct": 28.92,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 26844,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 5350,
+    "rep_votes": 21472,
+    "dem_pct": 19.93,
+    "rep_pct": 79.99,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 108874,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 67382,
+    "rep_votes": 41387,
+    "dem_pct": 61.89,
+    "rep_pct": 38.01,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 5596,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 1836,
+    "rep_votes": 3756,
+    "dem_pct": 32.81,
+    "rep_pct": 67.12,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 63676,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 19608,
+    "rep_votes": 44018,
+    "dem_pct": 30.79,
+    "rep_pct": 69.13,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 29617,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 16269,
+    "rep_votes": 13341,
+    "dem_pct": 54.93,
+    "rep_pct": 45.05,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 7766,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3268,
+    "rep_votes": 4493,
+    "dem_pct": 42.08,
+    "rep_pct": 57.85,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 10630,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 7268,
+    "rep_votes": 3360,
+    "dem_pct": 68.37,
+    "rep_pct": 31.61,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "COMPTROLLER GENERAL",
+    "total_votes": 56361,
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 19285,
+    "rep_votes": 37053,
+    "dem_pct": 34.22,
+    "rep_pct": 65.74,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

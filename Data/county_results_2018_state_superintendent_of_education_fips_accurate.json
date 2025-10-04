@@ -1,0 +1,1152 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 5738,
+    "other_votes": 19,
+    "total_votes": 5757,
+    "all_parties": {
+      "REP": 5738,
+      "NON": 19
+    },
+    "county_fips": "45001",
+    "two_party_total": 5738,
+    "margin": 5738,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 38479,
+    "other_votes": 447,
+    "total_votes": 38926,
+    "all_parties": {
+      "REP": 38479,
+      "NON": 447
+    },
+    "county_fips": "45003",
+    "two_party_total": 38479,
+    "margin": 38479,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 693,
+    "other_votes": 3,
+    "total_votes": 696,
+    "all_parties": {
+      "REP": 693,
+      "NON": 3
+    },
+    "county_fips": "45005",
+    "two_party_total": 693,
+    "margin": 693,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 46047,
+    "other_votes": 546,
+    "total_votes": 46593,
+    "all_parties": {
+      "REP": 46047,
+      "NON": 546
+    },
+    "county_fips": "45007",
+    "two_party_total": 46047,
+    "margin": 46047,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 1647,
+    "other_votes": 20,
+    "total_votes": 1667,
+    "all_parties": {
+      "REP": 1647,
+      "NON": 20
+    },
+    "county_fips": "45009",
+    "two_party_total": 1647,
+    "margin": 1647,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 3930,
+    "other_votes": 35,
+    "total_votes": 3965,
+    "all_parties": {
+      "REP": 3930,
+      "NON": 35
+    },
+    "county_fips": "45011",
+    "two_party_total": 3930,
+    "margin": 3930,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 41225,
+    "other_votes": 533,
+    "total_votes": 41758,
+    "all_parties": {
+      "REP": 41225,
+      "NON": 533
+    },
+    "county_fips": "45013",
+    "two_party_total": 41225,
+    "margin": 41225,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 37499,
+    "other_votes": 834,
+    "total_votes": 38333,
+    "all_parties": {
+      "REP": 37499,
+      "NON": 834
+    },
+    "county_fips": "45015",
+    "two_party_total": 37499,
+    "margin": 37499,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 3176,
+    "other_votes": 22,
+    "total_votes": 3198,
+    "all_parties": {
+      "REP": 3176,
+      "NON": 22
+    },
+    "county_fips": "45017",
+    "two_party_total": 3176,
+    "margin": 3176,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 70228,
+    "other_votes": 3825,
+    "total_votes": 74053,
+    "all_parties": {
+      "REP": 70228,
+      "NON": 3825
+    },
+    "county_fips": "45019",
+    "two_party_total": 70228,
+    "margin": 70228,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 12020,
+    "other_votes": 59,
+    "total_votes": 12079,
+    "all_parties": {
+      "REP": 12020,
+      "NON": 59
+    },
+    "county_fips": "45021",
+    "two_party_total": 12020,
+    "margin": 12020,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 5859,
+    "other_votes": 38,
+    "total_votes": 5897,
+    "all_parties": {
+      "REP": 5859,
+      "NON": 38
+    },
+    "county_fips": "45023",
+    "two_party_total": 5859,
+    "margin": 5859,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 7000,
+    "other_votes": 92,
+    "total_votes": 7092,
+    "all_parties": {
+      "REP": 7000,
+      "NON": 92
+    },
+    "county_fips": "45025",
+    "two_party_total": 7000,
+    "margin": 7000,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 6060,
+    "other_votes": 11,
+    "total_votes": 6071,
+    "all_parties": {
+      "REP": 6060,
+      "NON": 11
+    },
+    "county_fips": "45027",
+    "two_party_total": 6060,
+    "margin": 6060,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 7353,
+    "other_votes": 54,
+    "total_votes": 7407,
+    "all_parties": {
+      "REP": 7353,
+      "NON": 54
+    },
+    "county_fips": "45029",
+    "two_party_total": 7353,
+    "margin": 7353,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 12405,
+    "other_votes": 96,
+    "total_votes": 12501,
+    "all_parties": {
+      "REP": 12405,
+      "NON": 96
+    },
+    "county_fips": "45031",
+    "two_party_total": 12405,
+    "margin": 12405,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 4137,
+    "other_votes": 16,
+    "total_votes": 4153,
+    "all_parties": {
+      "REP": 4137,
+      "NON": 16
+    },
+    "county_fips": "45033",
+    "two_party_total": 4137,
+    "margin": 4137,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 29280,
+    "other_votes": 750,
+    "total_votes": 30030,
+    "all_parties": {
+      "REP": 29280,
+      "NON": 750
+    },
+    "county_fips": "45035",
+    "two_party_total": 29280,
+    "margin": 29280,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 5837,
+    "other_votes": 29,
+    "total_votes": 5866,
+    "all_parties": {
+      "REP": 5837,
+      "NON": 29
+    },
+    "county_fips": "45037",
+    "two_party_total": 5837,
+    "margin": 5837,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 3717,
+    "other_votes": 43,
+    "total_votes": 3760,
+    "all_parties": {
+      "REP": 3717,
+      "NON": 43
+    },
+    "county_fips": "45039",
+    "two_party_total": 3717,
+    "margin": 3717,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 24219,
+    "other_votes": 404,
+    "total_votes": 24623,
+    "all_parties": {
+      "REP": 24219,
+      "NON": 404
+    },
+    "county_fips": "45041",
+    "two_party_total": 24219,
+    "margin": 24219,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 14906,
+    "other_votes": 111,
+    "total_votes": 15017,
+    "all_parties": {
+      "REP": 14906,
+      "NON": 111
+    },
+    "county_fips": "45043",
+    "two_party_total": 14906,
+    "margin": 14906,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 111014,
+    "other_votes": 3148,
+    "total_votes": 114162,
+    "all_parties": {
+      "REP": 111014,
+      "NON": 3148
+    },
+    "county_fips": "45045",
+    "two_party_total": 111014,
+    "margin": 111014,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 15037,
+    "other_votes": 80,
+    "total_votes": 15117,
+    "all_parties": {
+      "REP": 15037,
+      "NON": 80
+    },
+    "county_fips": "45047",
+    "two_party_total": 15037,
+    "margin": 15037,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 2689,
+    "other_votes": 11,
+    "total_votes": 2700,
+    "all_parties": {
+      "REP": 2689,
+      "NON": 11
+    },
+    "county_fips": "45049",
+    "two_party_total": 2689,
+    "margin": 2689,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 75002,
+    "other_votes": 657,
+    "total_votes": 75659,
+    "all_parties": {
+      "REP": 75002,
+      "NON": 657
+    },
+    "county_fips": "45051",
+    "two_party_total": 75002,
+    "margin": 75002,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 4526,
+    "other_votes": 93,
+    "total_votes": 4619,
+    "all_parties": {
+      "REP": 4526,
+      "NON": 93
+    },
+    "county_fips": "45053",
+    "two_party_total": 4526,
+    "margin": 4526,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 15203,
+    "other_votes": 145,
+    "total_votes": 15348,
+    "all_parties": {
+      "REP": 15203,
+      "NON": 145
+    },
+    "county_fips": "45055",
+    "two_party_total": 15203,
+    "margin": 15203,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 20983,
+    "other_votes": 154,
+    "total_votes": 21137,
+    "all_parties": {
+      "REP": 20983,
+      "NON": 154
+    },
+    "county_fips": "45057",
+    "two_party_total": 20983,
+    "margin": 20983,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 13689,
+    "other_votes": 126,
+    "total_votes": 13815,
+    "all_parties": {
+      "REP": 13689,
+      "NON": 126
+    },
+    "county_fips": "45059",
+    "two_party_total": 13689,
+    "margin": 13689,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 2259,
+    "other_votes": 22,
+    "total_votes": 2281,
+    "all_parties": {
+      "REP": 2259,
+      "NON": 22
+    },
+    "county_fips": "45061",
+    "two_party_total": 2259,
+    "margin": 2259,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 72636,
+    "other_votes": 1380,
+    "total_votes": 74016,
+    "all_parties": {
+      "REP": 72636,
+      "NON": 1380
+    },
+    "county_fips": "45063",
+    "two_party_total": 72636,
+    "margin": 72636,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 4104,
+    "other_votes": 16,
+    "total_votes": 4120,
+    "all_parties": {
+      "REP": 4104,
+      "NON": 16
+    },
+    "county_fips": "45065",
+    "two_party_total": 4104,
+    "margin": 4104,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 3277,
+    "other_votes": 7,
+    "total_votes": 3284,
+    "all_parties": {
+      "REP": 3277,
+      "NON": 7
+    },
+    "county_fips": "45067",
+    "two_party_total": 3277,
+    "margin": 3277,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 2415,
+    "other_votes": 2,
+    "total_votes": 2417,
+    "all_parties": {
+      "REP": 2415,
+      "NON": 2
+    },
+    "county_fips": "45069",
+    "two_party_total": 2415,
+    "margin": 2415,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 8510,
+    "other_votes": 108,
+    "total_votes": 8618,
+    "all_parties": {
+      "REP": 8510,
+      "NON": 108
+    },
+    "county_fips": "45071",
+    "two_party_total": 8510,
+    "margin": 8510,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 21107,
+    "other_votes": 237,
+    "total_votes": 21344,
+    "all_parties": {
+      "REP": 21107,
+      "NON": 237
+    },
+    "county_fips": "45073",
+    "two_party_total": 21107,
+    "margin": 21107,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 9949,
+    "other_votes": 64,
+    "total_votes": 10013,
+    "all_parties": {
+      "REP": 9949,
+      "NON": 64
+    },
+    "county_fips": "45075",
+    "two_party_total": 9949,
+    "margin": 9949,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 29983,
+    "other_votes": 592,
+    "total_votes": 30575,
+    "all_parties": {
+      "REP": 29983,
+      "NON": 592
+    },
+    "county_fips": "45077",
+    "two_party_total": 29983,
+    "margin": 29983,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 53144,
+    "other_votes": 2185,
+    "total_votes": 55329,
+    "all_parties": {
+      "REP": 53144,
+      "NON": 2185
+    },
+    "county_fips": "45079",
+    "two_party_total": 53144,
+    "margin": 53144,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 4955,
+    "other_votes": 17,
+    "total_votes": 4972,
+    "all_parties": {
+      "REP": 4955,
+      "NON": 17
+    },
+    "county_fips": "45081",
+    "two_party_total": 4955,
+    "margin": 4955,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 61929,
+    "other_votes": 894,
+    "total_votes": 62823,
+    "all_parties": {
+      "REP": 61929,
+      "NON": 894
+    },
+    "county_fips": "45083",
+    "two_party_total": 61929,
+    "margin": 61929,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 15421,
+    "other_votes": 125,
+    "total_votes": 15546,
+    "all_parties": {
+      "REP": 15421,
+      "NON": 125
+    },
+    "county_fips": "45085",
+    "two_party_total": 15421,
+    "margin": 15421,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 5388,
+    "other_votes": 32,
+    "total_votes": 5420,
+    "all_parties": {
+      "REP": 5388,
+      "NON": 32
+    },
+    "county_fips": "45087",
+    "two_party_total": 5388,
+    "margin": 5388,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 4085,
+    "other_votes": 25,
+    "total_votes": 4110,
+    "all_parties": {
+      "REP": 4085,
+      "NON": 25
+    },
+    "county_fips": "45089",
+    "two_party_total": 4085,
+    "margin": 4085,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 59297,
+    "other_votes": 759,
+    "total_votes": 60056,
+    "all_parties": {
+      "REP": 59297,
+      "NON": 759
+    },
+    "county_fips": "45091",
+    "two_party_total": 59297,
+    "margin": 59297,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  }
+}

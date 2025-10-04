@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "STATE TREASURER",
+    "total_votes": 8548,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 2809,
+    "rep_votes": 5520,
+    "dem_pct": 32.86,
+    "rep_pct": 64.58,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "STATE TREASURER",
+    "total_votes": 59469,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 20683,
+    "rep_votes": 36818,
+    "dem_pct": 34.78,
+    "rep_pct": 61.91,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "STATE TREASURER",
+    "total_votes": 2748,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 2067,
+    "rep_votes": 601,
+    "dem_pct": 75.22,
+    "rep_pct": 21.87,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "STATE TREASURER",
+    "total_votes": 62711,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 16222,
+    "rep_votes": 44573,
+    "dem_pct": 25.87,
+    "rep_pct": 71.08,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "STATE TREASURER",
+    "total_votes": 4367,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 2710,
+    "rep_votes": 1565,
+    "dem_pct": 62.06,
+    "rep_pct": 35.84,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "STATE TREASURER",
+    "total_votes": 7298,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 3337,
+    "rep_votes": 3791,
+    "dem_pct": 45.72,
+    "rep_pct": 51.95,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "STATE TREASURER",
+    "total_votes": 70068,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 28846,
+    "rep_votes": 39102,
+    "dem_pct": 41.17,
+    "rep_pct": 55.81,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "STATE TREASURER",
+    "total_votes": 65558,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 26784,
+    "rep_votes": 36184,
+    "dem_pct": 40.86,
+    "rep_pct": 55.19,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "STATE TREASURER",
+    "total_votes": 5945,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 2741,
+    "rep_votes": 3068,
+    "dem_pct": 46.11,
+    "rep_pct": 51.61,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "STATE TREASURER",
+    "total_votes": 146109,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 72682,
+    "rep_votes": 67455,
+    "dem_pct": 49.75,
+    "rep_pct": 46.17,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "STATE TREASURER",
+    "total_votes": 16656,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4577,
+    "rep_votes": 11717,
+    "dem_pct": 27.48,
+    "rep_pct": 70.35,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "STATE TREASURER",
+    "total_votes": 11978,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4982,
+    "rep_votes": 6657,
+    "dem_pct": 41.59,
+    "rep_pct": 55.58,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "STATE TREASURER",
+    "total_votes": 10865,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4978,
+    "rep_votes": 5556,
+    "dem_pct": 45.82,
+    "rep_pct": 51.14,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "STATE TREASURER",
+    "total_votes": 12092,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 6012,
+    "rep_votes": 5821,
+    "dem_pct": 49.72,
+    "rep_pct": 48.14,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "STATE TREASURER",
+    "total_votes": 13199,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 5761,
+    "rep_votes": 7061,
+    "dem_pct": 43.65,
+    "rep_pct": 53.5,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "STATE TREASURER",
+    "total_votes": 23256,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 10791,
+    "rep_votes": 11890,
+    "dem_pct": 46.4,
+    "rep_pct": 51.13,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "STATE TREASURER",
+    "total_votes": 8150,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4001,
+    "rep_votes": 3978,
+    "dem_pct": 49.09,
+    "rep_pct": 48.81,
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "STATE TREASURER",
+    "total_votes": 50634,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 20421,
+    "rep_votes": 28092,
+    "dem_pct": 40.33,
+    "rep_pct": 55.48,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "STATE TREASURER",
+    "total_votes": 9393,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 3517,
+    "rep_votes": 5612,
+    "dem_pct": 37.44,
+    "rep_pct": 59.75,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "STATE TREASURER",
+    "total_votes": 9249,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 5479,
+    "rep_votes": 3499,
+    "dem_pct": 59.24,
+    "rep_pct": 37.83,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "STATE TREASURER",
+    "total_votes": 45453,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 21095,
+    "rep_votes": 23257,
+    "dem_pct": 46.41,
+    "rep_pct": 51.17,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "STATE TREASURER",
+    "total_votes": 25823,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 10731,
+    "rep_votes": 14516,
+    "dem_pct": 41.56,
+    "rep_pct": 56.21,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "STATE TREASURER",
+    "total_votes": 176242,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 62279,
+    "rep_votes": 108026,
+    "dem_pct": 35.34,
+    "rep_pct": 61.29,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "STATE TREASURER",
+    "total_votes": 23092,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 8124,
+    "rep_votes": 14217,
+    "dem_pct": 35.18,
+    "rep_pct": 61.57,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "STATE TREASURER",
+    "total_votes": 6561,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 3878,
+    "rep_votes": 2476,
+    "dem_pct": 59.11,
+    "rep_pct": 37.74,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "STATE TREASURER",
+    "total_votes": 110545,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 34839,
+    "rep_votes": 72713,
+    "dem_pct": 31.52,
+    "rep_pct": 65.78,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "STATE TREASURER",
+    "total_votes": 9324,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4790,
+    "rep_votes": 4289,
+    "dem_pct": 51.37,
+    "rep_pct": 46.0,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "STATE TREASURER",
+    "total_votes": 23341,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 8190,
+    "rep_votes": 14368,
+    "dem_pct": 35.09,
+    "rep_pct": 61.56,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "STATE TREASURER",
+    "total_votes": 32851,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 11928,
+    "rep_votes": 19760,
+    "dem_pct": 36.31,
+    "rep_pct": 60.15,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "STATE TREASURER",
+    "total_votes": 20327,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 6529,
+    "rep_votes": 13216,
+    "dem_pct": 32.12,
+    "rep_pct": 65.02,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "STATE TREASURER",
+    "total_votes": 6364,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4076,
+    "rep_votes": 2193,
+    "dem_pct": 64.05,
+    "rep_pct": 34.46,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "STATE TREASURER",
+    "total_votes": 98951,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 28267,
+    "rep_votes": 66832,
+    "dem_pct": 28.57,
+    "rep_pct": 67.54,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "STATE TREASURER",
+    "total_votes": 10439,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 6274,
+    "rep_votes": 3920,
+    "dem_pct": 60.1,
+    "rep_pct": 37.55,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "STATE TREASURER",
+    "total_votes": 7681,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4373,
+    "rep_votes": 3018,
+    "dem_pct": 56.93,
+    "rep_pct": 39.29,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "STATE TREASURER",
+    "total_votes": 4407,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 2024,
+    "rep_votes": 2300,
+    "dem_pct": 45.93,
+    "rep_pct": 52.19,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "STATE TREASURER",
+    "total_votes": 12988,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4590,
+    "rep_votes": 8048,
+    "dem_pct": 35.34,
+    "rep_pct": 61.96,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "STATE TREASURER",
+    "total_votes": 27516,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 6431,
+    "rep_votes": 20188,
+    "dem_pct": 23.37,
+    "rep_pct": 73.37,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "STATE TREASURER",
+    "total_votes": 30650,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 20735,
+    "rep_votes": 9403,
+    "dem_pct": 67.65,
+    "rep_pct": 30.68,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "STATE TREASURER",
+    "total_votes": 38582,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 8265,
+    "rep_votes": 29067,
+    "dem_pct": 21.42,
+    "rep_pct": 75.34,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "STATE TREASURER",
+    "total_votes": 140868,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 87931,
+    "rep_votes": 47962,
+    "dem_pct": 62.42,
+    "rep_pct": 34.05,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "STATE TREASURER",
+    "total_votes": 6852,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 2042,
+    "rep_votes": 4631,
+    "dem_pct": 29.8,
+    "rep_pct": 67.59,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "STATE TREASURER",
+    "total_votes": 94748,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 31846,
+    "rep_votes": 60206,
+    "dem_pct": 33.61,
+    "rep_pct": 63.54,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "STATE TREASURER",
+    "total_votes": 34367,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 18722,
+    "rep_votes": 14835,
+    "dem_pct": 54.48,
+    "rep_pct": 43.17,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "STATE TREASURER",
+    "total_votes": 8923,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 3465,
+    "rep_votes": 5232,
+    "dem_pct": 38.83,
+    "rep_pct": 58.63,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "STATE TREASURER",
+    "total_votes": 11575,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 7546,
+    "rep_votes": 3782,
+    "dem_pct": 65.19,
+    "rep_pct": 32.67,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "STATE TREASURER",
+    "total_votes": 95137,
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 35830,
+    "rep_votes": 55218,
+    "dem_pct": 37.66,
+    "rep_pct": 58.04,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

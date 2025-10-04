@@ -1,0 +1,784 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "STATE TREASURER",
+    "total_votes": 7177,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 6446,
+    "dem_pct": 0.0,
+    "rep_pct": 89.81,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "fips": "45003",
+    "contest": "STATE TREASURER",
+    "total_votes": 46805,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 38893,
+    "dem_pct": 0.0,
+    "rep_pct": 83.1,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "fips": "45005",
+    "contest": "STATE TREASURER",
+    "total_votes": 955,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 632,
+    "dem_pct": 0.0,
+    "rep_pct": 66.18,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "fips": "45007",
+    "contest": "STATE TREASURER",
+    "total_votes": 57530,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 50263,
+    "dem_pct": 0.0,
+    "rep_pct": 87.37,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "fips": "45009",
+    "contest": "STATE TREASURER",
+    "total_votes": 2529,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 1902,
+    "dem_pct": 0.0,
+    "rep_pct": 75.21,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "fips": "45011",
+    "contest": "STATE TREASURER",
+    "total_votes": 4655,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 3908,
+    "dem_pct": 0.0,
+    "rep_pct": 83.95,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "fips": "45013",
+    "contest": "STATE TREASURER",
+    "total_votes": 59223,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 47430,
+    "dem_pct": 0.0,
+    "rep_pct": 80.09,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "fips": "45015",
+    "contest": "STATE TREASURER",
+    "total_votes": 59568,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 46562,
+    "dem_pct": 0.0,
+    "rep_pct": 78.17,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "fips": "45017",
+    "contest": "STATE TREASURER",
+    "total_votes": 4433,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 3659,
+    "dem_pct": 0.0,
+    "rep_pct": 82.54,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "fips": "45019",
+    "contest": "STATE TREASURER",
+    "total_votes": 123756,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 87046,
+    "dem_pct": 0.0,
+    "rep_pct": 70.34,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "fips": "45021",
+    "contest": "STATE TREASURER",
+    "total_votes": 14354,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 12978,
+    "dem_pct": 0.0,
+    "rep_pct": 90.41,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "fips": "45025",
+    "contest": "STATE TREASURER",
+    "total_votes": 10171,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 8580,
+    "dem_pct": 0.0,
+    "rep_pct": 84.36,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "fips": "45023",
+    "contest": "STATE TREASURER",
+    "total_votes": 7714,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 6225,
+    "dem_pct": 0.0,
+    "rep_pct": 80.7,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "fips": "45027",
+    "contest": "STATE TREASURER",
+    "total_votes": 8329,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 6945,
+    "dem_pct": 0.0,
+    "rep_pct": 83.38,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "fips": "45029",
+    "contest": "STATE TREASURER",
+    "total_votes": 9933,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 8056,
+    "dem_pct": 0.0,
+    "rep_pct": 81.1,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "fips": "45031",
+    "contest": "STATE TREASURER",
+    "total_votes": 15007,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 12631,
+    "dem_pct": 0.0,
+    "rep_pct": 84.17,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "fips": "45033",
+    "contest": "STATE TREASURER",
+    "total_votes": 5560,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 4557,
+    "dem_pct": 0.0,
+    "rep_pct": 81.96,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "fips": "45035",
+    "contest": "STATE TREASURER",
+    "total_votes": 42215,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 32173,
+    "dem_pct": 0.0,
+    "rep_pct": 76.21,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "fips": "45037",
+    "contest": "STATE TREASURER",
+    "total_votes": 7194,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 6240,
+    "dem_pct": 0.0,
+    "rep_pct": 86.74,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "STATE TREASURER",
+    "total_votes": 6415,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 4365,
+    "dem_pct": 0.0,
+    "rep_pct": 68.04,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "STATE TREASURER",
+    "total_votes": 32387,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 25716,
+    "dem_pct": 0.0,
+    "rep_pct": 79.4,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "STATE TREASURER",
+    "total_votes": 21820,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 18320,
+    "dem_pct": 0.0,
+    "rep_pct": 83.96,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "STATE TREASURER",
+    "total_votes": 154249,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 125118,
+    "dem_pct": 0.0,
+    "rep_pct": 81.11,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "STATE TREASURER",
+    "total_votes": 18514,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 15659,
+    "dem_pct": 0.0,
+    "rep_pct": 84.58,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "STATE TREASURER",
+    "total_votes": 3842,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 2903,
+    "dem_pct": 0.0,
+    "rep_pct": 75.56,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "STATE TREASURER",
+    "total_votes": 116038,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 100836,
+    "dem_pct": 0.0,
+    "rep_pct": 86.9,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "STATE TREASURER",
+    "total_votes": 8770,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 6821,
+    "dem_pct": 0.0,
+    "rep_pct": 77.78,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "STATE TREASURER",
+    "total_votes": 19093,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 15904,
+    "dem_pct": 0.0,
+    "rep_pct": 83.3,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "STATE TREASURER",
+    "total_votes": 29627,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 24315,
+    "dem_pct": 0.0,
+    "rep_pct": 82.07,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "STATE TREASURER",
+    "total_votes": 17149,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 15060,
+    "dem_pct": 0.0,
+    "rep_pct": 87.82,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "STATE TREASURER",
+    "total_votes": 2996,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 2353,
+    "dem_pct": 0.0,
+    "rep_pct": 78.54,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "STATE TREASURER",
+    "total_votes": 89744,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 74407,
+    "dem_pct": 0.0,
+    "rep_pct": 82.91,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "STATE TREASURER",
+    "total_votes": 5735,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 4293,
+    "dem_pct": 0.0,
+    "rep_pct": 74.86,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "STATE TREASURER",
+    "total_votes": 4631,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 3499,
+    "dem_pct": 0.0,
+    "rep_pct": 75.56,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "STATE TREASURER",
+    "total_votes": 3474,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 2901,
+    "dem_pct": 0.0,
+    "rep_pct": 83.51,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "STATE TREASURER",
+    "total_votes": 10840,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 9405,
+    "dem_pct": 0.0,
+    "rep_pct": 86.76,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "STATE TREASURER",
+    "total_votes": 26724,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 23658,
+    "dem_pct": 0.0,
+    "rep_pct": 88.53,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "STATE TREASURER",
+    "total_votes": 16078,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 11124,
+    "dem_pct": 0.0,
+    "rep_pct": 69.19,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "STATE TREASURER",
+    "total_votes": 37431,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 32928,
+    "dem_pct": 0.0,
+    "rep_pct": 87.97,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "STATE TREASURER",
+    "total_votes": 96304,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 57400,
+    "dem_pct": 0.0,
+    "rep_pct": 59.6,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "STATE TREASURER",
+    "total_votes": 5726,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 5096,
+    "dem_pct": 0.0,
+    "rep_pct": 89.0,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "STATE TREASURER",
+    "total_votes": 83760,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 71043,
+    "dem_pct": 0.0,
+    "rep_pct": 84.82,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "STATE TREASURER",
+    "total_votes": 22598,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 16491,
+    "dem_pct": 0.0,
+    "rep_pct": 72.98,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "STATE TREASURER",
+    "total_votes": 7340,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 6196,
+    "dem_pct": 0.0,
+    "rep_pct": 84.41,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "STATE TREASURER",
+    "total_votes": 6301,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 4460,
+    "dem_pct": 0.0,
+    "rep_pct": 70.78,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "STATE TREASURER",
+    "total_votes": 83529,
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 64564,
+    "dem_pct": 0.0,
+    "rep_pct": 77.3,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

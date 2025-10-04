@@ -1,0 +1,19 @@
+{
+  "45047": {
+    "county": "YORK",
+    "fips": "45047",
+    "contest": "ADJUTANT GENERAL",
+    "total_votes": 49746,
+    "dem_candidate": "",
+    "rep_candidate": "",
+    "dem_votes": 0,
+    "rep_votes": 0,
+    "dem_pct": 0.0,
+    "rep_pct": 0.0,
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  }
+}

@@ -1,0 +1,1307 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 2756,
+    "rep_votes": 4256,
+    "other_votes": 190,
+    "total_votes": 7202,
+    "two_party_total": 7012,
+    "margin": 1500,
+    "margin_pct": 21.39,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "LIB": 70,
+      "PET": 85,
+      "DEM": 2756,
+      "UNC": 29,
+      "REP": 4256,
+      "NON": 6
+    },
+    "county_fips": "45001"
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 14126,
+    "rep_votes": 30491,
+    "other_votes": 901,
+    "total_votes": 45518,
+    "two_party_total": 44617,
+    "margin": 16365,
+    "margin_pct": 36.68,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "LIB": 465,
+      "PET": 229,
+      "DEM": 14126,
+      "UNC": 185,
+      "REP": 30491,
+      "NON": 22
+    },
+    "county_fips": "45003"
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 1671,
+    "rep_votes": 581,
+    "other_votes": 53,
+    "total_votes": 2305,
+    "two_party_total": 2252,
+    "margin": 1090,
+    "margin_pct": 48.4,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08306b"
+    },
+    "all_parties": {
+      "LIB": 21,
+      "PET": 12,
+      "DEM": 1671,
+      "UNC": 20,
+      "REP": 581,
+      "NON": 0
+    },
+    "county_fips": "45005"
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 12051,
+    "rep_votes": 31855,
+    "other_votes": 1334,
+    "total_votes": 45240,
+    "two_party_total": 43906,
+    "margin": 19804,
+    "margin_pct": 45.11,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "LIB": 528,
+      "PET": 550,
+      "DEM": 12051,
+      "UNC": 213,
+      "REP": 31855,
+      "NON": 43
+    },
+    "county_fips": "45007"
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3133,
+    "rep_votes": 1700,
+    "other_votes": 73,
+    "total_votes": 4906,
+    "two_party_total": 4833,
+    "margin": 1433,
+    "margin_pct": 29.65,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#3182bd"
+    },
+    "all_parties": {
+      "LIB": 38,
+      "PET": 18,
+      "DEM": 3133,
+      "UNC": 17,
+      "REP": 1700,
+      "NON": 0
+    },
+    "county_fips": "45009"
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 2940,
+    "rep_votes": 3114,
+    "other_votes": 108,
+    "total_votes": 6162,
+    "two_party_total": 6054,
+    "margin": 174,
+    "margin_pct": 2.87,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fcae91"
+    },
+    "all_parties": {
+      "LIB": 47,
+      "PET": 29,
+      "DEM": 2940,
+      "UNC": 30,
+      "REP": 3114,
+      "NON": 2
+    },
+    "county_fips": "45011"
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 16849,
+    "rep_votes": 30241,
+    "other_votes": 715,
+    "total_votes": 47805,
+    "two_party_total": 47090,
+    "margin": 13392,
+    "margin_pct": 28.44,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "LIB": 411,
+      "PET": 152,
+      "DEM": 16849,
+      "UNC": 127,
+      "REP": 30241,
+      "NON": 25
+    },
+    "county_fips": "45013"
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 17008,
+    "rep_votes": 24639,
+    "other_votes": 1536,
+    "total_votes": 43183,
+    "two_party_total": 41647,
+    "margin": 7631,
+    "margin_pct": 18.32,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "LIB": 747,
+      "PET": 436,
+      "DEM": 17008,
+      "UNC": 315,
+      "REP": 24639,
+      "NON": 38
+    },
+    "county_fips": "45015"
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 2773,
+    "rep_votes": 2335,
+    "other_votes": 109,
+    "total_votes": 5217,
+    "two_party_total": 5108,
+    "margin": 438,
+    "margin_pct": 8.57,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    },
+    "all_parties": {
+      "LIB": 47,
+      "PET": 37,
+      "DEM": 2773,
+      "UNC": 23,
+      "REP": 2335,
+      "NON": 2
+    },
+    "county_fips": "45017"
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 48447,
+    "rep_votes": 47735,
+    "other_votes": 3640,
+    "total_votes": 99822,
+    "two_party_total": 96182,
+    "margin": 712,
+    "margin_pct": 0.74,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#e1f5fe"
+    },
+    "all_parties": {
+      "LIB": 2070,
+      "PET": 1066,
+      "DEM": 48447,
+      "UNC": 383,
+      "REP": 47735,
+      "NON": 121
+    },
+    "county_fips": "45019"
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3603,
+    "rep_votes": 8377,
+    "other_votes": 368,
+    "total_votes": 12348,
+    "two_party_total": 11980,
+    "margin": 4774,
+    "margin_pct": 39.85,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "LIB": 146,
+      "PET": 151,
+      "DEM": 3603,
+      "UNC": 62,
+      "REP": 8377,
+      "NON": 9
+    },
+    "county_fips": "45021"
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 4942,
+    "rep_votes": 5159,
+    "other_votes": 204,
+    "total_votes": 10305,
+    "two_party_total": 10101,
+    "margin": 217,
+    "margin_pct": 2.15,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fcae91"
+    },
+    "all_parties": {
+      "LIB": 61,
+      "PET": 96,
+      "DEM": 4942,
+      "UNC": 44,
+      "REP": 5159,
+      "NON": 3
+    },
+    "county_fips": "45025"
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3695,
+    "rep_votes": 4058,
+    "other_votes": 271,
+    "total_votes": 8024,
+    "two_party_total": 7753,
+    "margin": 363,
+    "margin_pct": 4.68,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fcae91"
+    },
+    "all_parties": {
+      "LIB": 95,
+      "PET": 75,
+      "DEM": 3695,
+      "UNC": 97,
+      "REP": 4058,
+      "NON": 4
+    },
+    "county_fips": "45023"
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 5691,
+    "rep_votes": 4526,
+    "other_votes": 148,
+    "total_votes": 10365,
+    "two_party_total": 10217,
+    "margin": 1165,
+    "margin_pct": 11.4,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    },
+    "all_parties": {
+      "LIB": 40,
+      "PET": 66,
+      "DEM": 5691,
+      "UNC": 42,
+      "REP": 4526,
+      "NON": 0
+    },
+    "county_fips": "45027"
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 5044,
+    "rep_votes": 5507,
+    "other_votes": 251,
+    "total_votes": 10802,
+    "two_party_total": 10551,
+    "margin": 463,
+    "margin_pct": 4.39,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fcae91"
+    },
+    "all_parties": {
+      "LIB": 96,
+      "PET": 82,
+      "DEM": 5044,
+      "UNC": 70,
+      "REP": 5507,
+      "NON": 3
+    },
+    "county_fips": "45029"
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 9477,
+    "rep_votes": 8772,
+    "other_votes": 416,
+    "total_votes": 18665,
+    "two_party_total": 18249,
+    "margin": 705,
+    "margin_pct": 3.86,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    },
+    "all_parties": {
+      "LIB": 140,
+      "PET": 216,
+      "DEM": 9477,
+      "UNC": 53,
+      "REP": 8772,
+      "NON": 7
+    },
+    "county_fips": "45031"
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3232,
+    "rep_votes": 3001,
+    "other_votes": 186,
+    "total_votes": 6419,
+    "two_party_total": 6233,
+    "margin": 231,
+    "margin_pct": 3.71,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    },
+    "all_parties": {
+      "LIB": 47,
+      "PET": 101,
+      "DEM": 3232,
+      "UNC": 38,
+      "REP": 3001,
+      "NON": 0
+    },
+    "county_fips": "45033"
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 13193,
+    "rep_votes": 20027,
+    "other_votes": 1193,
+    "total_votes": 34413,
+    "two_party_total": 33220,
+    "margin": 6834,
+    "margin_pct": 20.57,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "LIB": 637,
+      "PET": 339,
+      "DEM": 13193,
+      "UNC": 185,
+      "REP": 20027,
+      "NON": 32
+    },
+    "county_fips": "45035"
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 2722,
+    "rep_votes": 4190,
+    "other_votes": 116,
+    "total_votes": 7028,
+    "two_party_total": 6912,
+    "margin": 1468,
+    "margin_pct": 21.24,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "LIB": 53,
+      "PET": 40,
+      "DEM": 2722,
+      "UNC": 22,
+      "REP": 4190,
+      "NON": 1
+    },
+    "county_fips": "45037"
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 5057,
+    "rep_votes": 2896,
+    "other_votes": 243,
+    "total_votes": 8196,
+    "two_party_total": 7953,
+    "margin": 2161,
+    "margin_pct": 27.17,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#3182bd"
+    },
+    "all_parties": {
+      "LIB": 55,
+      "PET": 64,
+      "DEM": 5057,
+      "UNC": 122,
+      "REP": 2896,
+      "NON": 2
+    },
+    "county_fips": "45039"
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 17538,
+    "rep_votes": 18027,
+    "other_votes": 881,
+    "total_votes": 36446,
+    "two_party_total": 35565,
+    "margin": 489,
+    "margin_pct": 1.37,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fcae91"
+    },
+    "all_parties": {
+      "LIB": 305,
+      "PET": 420,
+      "DEM": 17538,
+      "UNC": 135,
+      "REP": 18027,
+      "NON": 21
+    },
+    "county_fips": "45041"
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 8619,
+    "rep_votes": 11445,
+    "other_votes": 466,
+    "total_votes": 20530,
+    "two_party_total": 20064,
+    "margin": 2826,
+    "margin_pct": 14.08,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "LIB": 198,
+      "PET": 176,
+      "DEM": 8619,
+      "UNC": 89,
+      "REP": 11445,
+      "NON": 3
+    },
+    "county_fips": "45043"
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 6578,
+    "rep_votes": 10852,
+    "other_votes": 355,
+    "total_votes": 17785,
+    "two_party_total": 17430,
+    "margin": 4274,
+    "margin_pct": 24.52,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "LIB": 146,
+      "PET": 131,
+      "DEM": 6578,
+      "UNC": 68,
+      "REP": 10852,
+      "NON": 10
+    },
+    "county_fips": "45045"
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3657,
+    "rep_votes": 2124,
+    "other_votes": 113,
+    "total_votes": 5894,
+    "two_party_total": 5781,
+    "margin": 1533,
+    "margin_pct": 26.52,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#3182bd"
+    },
+    "all_parties": {
+      "LIB": 32,
+      "PET": 43,
+      "DEM": 3657,
+      "UNC": 37,
+      "REP": 2124,
+      "NON": 1
+    },
+    "county_fips": "45047"
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 19252,
+    "rep_votes": 47302,
+    "other_votes": 2023,
+    "total_votes": 68577,
+    "two_party_total": 66554,
+    "margin": 28050,
+    "margin_pct": 42.15,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "LIB": 841,
+      "PET": 886,
+      "DEM": 19252,
+      "UNC": 261,
+      "REP": 47302,
+      "NON": 35
+    },
+    "county_fips": "45051"
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3519,
+    "rep_votes": 3027,
+    "other_votes": 156,
+    "total_votes": 6702,
+    "two_party_total": 6546,
+    "margin": 492,
+    "margin_pct": 7.52,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    },
+    "all_parties": {
+      "LIB": 73,
+      "PET": 37,
+      "DEM": 3519,
+      "UNC": 42,
+      "REP": 3027,
+      "NON": 4
+    },
+    "county_fips": "45053"
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 9430,
+    "rep_votes": 9744,
+    "other_votes": 403,
+    "total_votes": 19577,
+    "two_party_total": 19174,
+    "margin": 314,
+    "margin_pct": 1.64,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fcae91"
+    },
+    "all_parties": {
+      "LIB": 162,
+      "PET": 150,
+      "DEM": 9430,
+      "UNC": 85,
+      "REP": 9744,
+      "NON": 6
+    },
+    "county_fips": "45055"
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 7695,
+    "rep_votes": 12103,
+    "other_votes": 360,
+    "total_votes": 20158,
+    "two_party_total": 19798,
+    "margin": 4408,
+    "margin_pct": 22.26,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "LIB": 207,
+      "PET": 65,
+      "DEM": 7695,
+      "UNC": 81,
+      "REP": 12103,
+      "NON": 7
+    },
+    "county_fips": "45057"
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 5169,
+    "rep_votes": 9665,
+    "other_votes": 342,
+    "total_votes": 15176,
+    "two_party_total": 14834,
+    "margin": 4496,
+    "margin_pct": 30.31,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "LIB": 148,
+      "PET": 119,
+      "DEM": 5169,
+      "UNC": 60,
+      "REP": 9665,
+      "NON": 15
+    },
+    "county_fips": "45059"
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 4008,
+    "rep_votes": 1718,
+    "other_votes": 71,
+    "total_votes": 5797,
+    "two_party_total": 5726,
+    "margin": 2290,
+    "margin_pct": 39.99,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    },
+    "all_parties": {
+      "LIB": 20,
+      "PET": 31,
+      "DEM": 4008,
+      "UNC": 17,
+      "REP": 1718,
+      "NON": 3
+    },
+    "county_fips": "45061"
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 24179,
+    "rep_votes": 48453,
+    "other_votes": 3380,
+    "total_votes": 76012,
+    "two_party_total": 72632,
+    "margin": 24274,
+    "margin_pct": 33.42,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "LIB": 1411,
+      "PET": 1466,
+      "DEM": 24179,
+      "UNC": 399,
+      "REP": 48453,
+      "NON": 104
+    },
+    "county_fips": "45063"
+  },
+  "45067": {
+    "county": "MARION",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 5589,
+    "rep_votes": 2985,
+    "other_votes": 168,
+    "total_votes": 8742,
+    "two_party_total": 8574,
+    "margin": 2604,
+    "margin_pct": 30.37,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    },
+    "all_parties": {
+      "LIB": 43,
+      "PET": 86,
+      "DEM": 5589,
+      "UNC": 34,
+      "REP": 2985,
+      "NON": 5
+    },
+    "county_fips": "45067"
+  },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3826,
+    "rep_votes": 2244,
+    "other_votes": 179,
+    "total_votes": 6249,
+    "two_party_total": 6070,
+    "margin": 1582,
+    "margin_pct": 26.06,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#3182bd"
+    },
+    "all_parties": {
+      "LIB": 41,
+      "PET": 100,
+      "DEM": 3826,
+      "UNC": 37,
+      "REP": 2244,
+      "NON": 1
+    },
+    "county_fips": "45069"
+  },
+  "45065": {
+    "county": "MCCORMICK",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 1578,
+    "rep_votes": 1985,
+    "other_votes": 56,
+    "total_votes": 3619,
+    "two_party_total": 3563,
+    "margin": 407,
+    "margin_pct": 11.42,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "LIB": 23,
+      "PET": 22,
+      "DEM": 1578,
+      "UNC": 10,
+      "REP": 1985,
+      "NON": 1
+    },
+    "county_fips": "45065"
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 4346,
+    "rep_votes": 6247,
+    "other_votes": 376,
+    "total_votes": 10969,
+    "two_party_total": 10593,
+    "margin": 1901,
+    "margin_pct": 17.95,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "LIB": 121,
+      "PET": 150,
+      "DEM": 4346,
+      "UNC": 101,
+      "REP": 6247,
+      "NON": 4
+    },
+    "county_fips": "45071"
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 4999,
+    "rep_votes": 14819,
+    "other_votes": 606,
+    "total_votes": 20424,
+    "two_party_total": 19818,
+    "margin": 9820,
+    "margin_pct": 49.55,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "LIB": 216,
+      "PET": 262,
+      "DEM": 4999,
+      "UNC": 109,
+      "REP": 14819,
+      "NON": 19
+    },
+    "county_fips": "45073"
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 20111,
+    "rep_votes": 7630,
+    "other_votes": 327,
+    "total_votes": 28068,
+    "two_party_total": 27741,
+    "margin": 12481,
+    "margin_pct": 44.99,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08306b"
+    },
+    "all_parties": {
+      "LIB": 120,
+      "PET": 110,
+      "DEM": 20111,
+      "UNC": 88,
+      "REP": 7630,
+      "NON": 9
+    },
+    "county_fips": "45075"
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 5849,
+    "rep_votes": 20822,
+    "other_votes": 728,
+    "total_votes": 27399,
+    "two_party_total": 26671,
+    "margin": 14973,
+    "margin_pct": 56.14,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "LIB": 378,
+      "PET": 235,
+      "DEM": 5849,
+      "UNC": 88,
+      "REP": 20822,
+      "NON": 27
+    },
+    "county_fips": "45077"
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 73904,
+    "rep_votes": 34902,
+    "other_votes": 2884,
+    "total_votes": 111690,
+    "two_party_total": 108806,
+    "margin": 39002,
+    "margin_pct": 35.85,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    },
+    "all_parties": {
+      "LIB": 1122,
+      "PET": 1025,
+      "DEM": 73904,
+      "UNC": 639,
+      "REP": 34902,
+      "NON": 98
+    },
+    "county_fips": "45079"
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 2020,
+    "rep_votes": 3496,
+    "other_votes": 135,
+    "total_votes": 5651,
+    "two_party_total": 5516,
+    "margin": 1476,
+    "margin_pct": 26.76,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "LIB": 55,
+      "PET": 47,
+      "DEM": 2020,
+      "UNC": 28,
+      "REP": 3496,
+      "NON": 5
+    },
+    "county_fips": "45081"
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 20906,
+    "rep_votes": 42447,
+    "other_votes": 1700,
+    "total_votes": 65053,
+    "two_party_total": 63353,
+    "margin": 21541,
+    "margin_pct": 34.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "LIB": 860,
+      "PET": 529,
+      "DEM": 20906,
+      "UNC": 246,
+      "REP": 42447,
+      "NON": 65
+    },
+    "county_fips": "45083"
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 16674,
+    "rep_votes": 12822,
+    "other_votes": 528,
+    "total_votes": 30024,
+    "two_party_total": 29496,
+    "margin": 3852,
+    "margin_pct": 13.06,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    },
+    "all_parties": {
+      "LIB": 191,
+      "PET": 212,
+      "DEM": 16674,
+      "UNC": 119,
+      "REP": 12822,
+      "NON": 6
+    },
+    "county_fips": "45085"
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3156,
+    "rep_votes": 4506,
+    "other_votes": 247,
+    "total_votes": 7909,
+    "two_party_total": 7662,
+    "margin": 1350,
+    "margin_pct": 17.62,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "LIB": 70,
+      "PET": 78,
+      "DEM": 3156,
+      "UNC": 90,
+      "REP": 4506,
+      "NON": 9
+    },
+    "county_fips": "45087"
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 7307,
+    "rep_votes": 3278,
+    "other_votes": 204,
+    "total_votes": 10789,
+    "two_party_total": 10585,
+    "margin": 4029,
+    "margin_pct": 38.06,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    },
+    "all_parties": {
+      "LIB": 66,
+      "PET": 69,
+      "DEM": 7307,
+      "UNC": 67,
+      "REP": 3278,
+      "NON": 2
+    },
+    "county_fips": "45089"
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 19433,
+    "rep_votes": 36758,
+    "other_votes": 1500,
+    "total_votes": 57691,
+    "two_party_total": 56191,
+    "margin": 17325,
+    "margin_pct": 30.83,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "LIB": 967,
+      "PET": 269,
+      "DEM": 19433,
+      "UNC": 230,
+      "REP": 36758,
+      "NON": 34
+    },
+    "county_fips": "45091"
+  }
+}

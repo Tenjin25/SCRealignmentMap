@@ -1,0 +1,1290 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "Lisa Ellis (D)",
+    "rep_candidate": "Ellen Weaver (R)",
+    "dem_votes": 2675,
+    "rep_votes": 5510,
+    "other_votes": 363,
+    "total_votes": 8548,
+    "all_parties": {
+      "GRN": 114,
+      "REP": 5510,
+      "ALN": 244,
+      "DEM": 2675,
+      "": 5
+    },
+    "county_fips": "45001",
+    "two_party_total": 8185,
+    "margin": 2835,
+    "margin_pct": 34.63653023824068,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 18220,
+    "rep_votes": 34156,
+    "other_votes": 2203,
+    "total_votes": 54579,
+    "all_parties": {
+      "GRN": 708,
+      "REP": 34156,
+      "ALN": 1422,
+      "DEM": 18220,
+      "NON": 73
+    },
+    "county_fips": "45003",
+    "two_party_total": 52376,
+    "margin": 15936,
+    "margin_pct": 30.426149381396062,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 1208,
+    "rep_votes": 506,
+    "other_votes": 91,
+    "total_votes": 1805,
+    "all_parties": {
+      "GRN": 45,
+      "REP": 506,
+      "ALN": 46,
+      "DEM": 1208,
+      "NON": 0
+    },
+    "county_fips": "45005",
+    "two_party_total": 1714,
+    "margin": 702,
+    "margin_pct": 40.95682613768962,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 17065,
+    "rep_votes": 42993,
+    "other_votes": 2973,
+    "total_votes": 63031,
+    "all_parties": {
+      "GRN": 782,
+      "REP": 42993,
+      "ALN": 2108,
+      "DEM": 17065,
+      "NON": 83
+    },
+    "county_fips": "45007",
+    "two_party_total": 60058,
+    "margin": 25928,
+    "margin_pct": 43.17160078590695,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 2241,
+    "rep_votes": 1528,
+    "other_votes": 183,
+    "total_votes": 3952,
+    "all_parties": {
+      "GRN": 61,
+      "REP": 1528,
+      "ALN": 122,
+      "DEM": 2241,
+      "NON": 0
+    },
+    "county_fips": "45009",
+    "two_party_total": 3769,
+    "margin": 713,
+    "margin_pct": 18.917484743963918,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 2734,
+    "rep_votes": 3180,
+    "other_votes": 328,
+    "total_votes": 6242,
+    "all_parties": {
+      "GRN": 79,
+      "REP": 3180,
+      "ALN": 243,
+      "DEM": 2734,
+      "NON": 6
+    },
+    "county_fips": "45011",
+    "two_party_total": 5914,
+    "margin": 446,
+    "margin_pct": 7.541427122083193,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 26367,
+    "rep_votes": 41902,
+    "other_votes": 2591,
+    "total_votes": 70860,
+    "all_parties": {
+      "GRN": 1103,
+      "REP": 41902,
+      "ALN": 1428,
+      "DEM": 26367,
+      "NON": 60
+    },
+    "county_fips": "45013",
+    "two_party_total": 68269,
+    "margin": 15535,
+    "margin_pct": 22.755569877982687,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 27660,
+    "rep_votes": 39728,
+    "other_votes": 3342,
+    "total_votes": 70730,
+    "all_parties": {
+      "GRN": 1308,
+      "REP": 39728,
+      "ALN": 1990,
+      "DEM": 27660,
+      "NON": 44
+    },
+    "county_fips": "45015",
+    "two_party_total": 67388,
+    "margin": 12068,
+    "margin_pct": 17.90823291980768,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 2283,
+    "rep_votes": 3040,
+    "other_votes": 259,
+    "total_votes": 5582,
+    "all_parties": {
+      "GRN": 103,
+      "REP": 3040,
+      "ALN": 147,
+      "DEM": 2283,
+      "NON": 9
+    },
+    "county_fips": "45017",
+    "two_party_total": 5323,
+    "margin": 757,
+    "margin_pct": 14.221303776066128,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 74150,
+    "rep_votes": 67569,
+    "other_votes": 8507,
+    "total_votes": 150226,
+    "all_parties": {
+      "GRN": 3075,
+      "REP": 67569,
+      "ALN": 5339,
+      "DEM": 74150,
+      "NON": 93
+    },
+    "county_fips": "45019",
+    "two_party_total": 141719,
+    "margin": 6581,
+    "margin_pct": 4.643696328650358,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 3850,
+    "rep_votes": 11696,
+    "other_votes": 550,
+    "total_votes": 16096,
+    "all_parties": {
+      "GRN": 168,
+      "REP": 11696,
+      "ALN": 366,
+      "DEM": 3850,
+      "NON": 16
+    },
+    "county_fips": "45021",
+    "two_party_total": 15546,
+    "margin": 7846,
+    "margin_pct": 50.469574166988295,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 4953,
+    "rep_votes": 6831,
+    "other_votes": 718,
+    "total_votes": 12502,
+    "all_parties": {
+      "GRN": 184,
+      "REP": 6831,
+      "ALN": 520,
+      "DEM": 4953,
+      "NON": 14
+    },
+    "county_fips": "45025",
+    "two_party_total": 11784,
+    "margin": 1878,
+    "margin_pct": 15.936863543788188,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 3640,
+    "rep_votes": 5304,
+    "other_votes": 627,
+    "total_votes": 9571,
+    "all_parties": {
+      "GRN": 315,
+      "REP": 5304,
+      "ALN": 305,
+      "DEM": 3640,
+      "NON": 7
+    },
+    "county_fips": "45023",
+    "two_party_total": 8944,
+    "margin": 1664,
+    "margin_pct": 18.6046511627907,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 5189,
+    "rep_votes": 5701,
+    "other_votes": 496,
+    "total_votes": 11386,
+    "all_parties": {
+      "GRN": 128,
+      "REP": 5701,
+      "ALN": 358,
+      "DEM": 5189,
+      "": 10
+    },
+    "county_fips": "45027",
+    "two_party_total": 10890,
+    "margin": 512,
+    "margin_pct": 4.701561065197429,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 4983,
+    "rep_votes": 6977,
+    "other_votes": 542,
+    "total_votes": 12502,
+    "all_parties": {
+      "GRN": 225,
+      "REP": 6977,
+      "ALN": 312,
+      "DEM": 4983,
+      "NON": 5
+    },
+    "county_fips": "45029",
+    "two_party_total": 11960,
+    "margin": 1994,
+    "margin_pct": 16.672240802675585,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 8485,
+    "rep_votes": 10667,
+    "other_votes": 822,
+    "total_votes": 19974,
+    "all_parties": {
+      "GRN": 270,
+      "REP": 10667,
+      "ALN": 534,
+      "DEM": 8485,
+      "NON": 18
+    },
+    "county_fips": "45031",
+    "two_party_total": 19152,
+    "margin": 2182,
+    "margin_pct": 11.393065998329156,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 3681,
+    "rep_votes": 3784,
+    "other_votes": 344,
+    "total_votes": 7809,
+    "all_parties": {
+      "GRN": 111,
+      "REP": 3784,
+      "ALN": 229,
+      "DEM": 3681,
+      "NON": 4
+    },
+    "county_fips": "45033",
+    "two_party_total": 7465,
+    "margin": 103,
+    "margin_pct": 1.3797722705961153,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 19522,
+    "rep_votes": 26865,
+    "other_votes": 2743,
+    "total_votes": 49130,
+    "all_parties": {
+      "GRN": 934,
+      "REP": 26865,
+      "ALN": 1762,
+      "DEM": 19522,
+      "NON": 47
+    },
+    "county_fips": "45035",
+    "two_party_total": 46387,
+    "margin": 7343,
+    "margin_pct": 15.829866126285383,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 2947,
+    "rep_votes": 5503,
+    "other_votes": 332,
+    "total_votes": 8782,
+    "all_parties": {
+      "GRN": 118,
+      "REP": 5503,
+      "ALN": 210,
+      "DEM": 2947,
+      "NON": 4
+    },
+    "county_fips": "45037",
+    "two_party_total": 8450,
+    "margin": 2556,
+    "margin_pct": 30.248520710059175,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 4454,
+    "rep_votes": 3309,
+    "other_votes": 559,
+    "total_votes": 8322,
+    "all_parties": {
+      "GRN": 271,
+      "REP": 3309,
+      "ALN": 280,
+      "DEM": 4454,
+      "NON": 8
+    },
+    "county_fips": "45039",
+    "two_party_total": 7763,
+    "margin": 1145,
+    "margin_pct": 14.749452531237923,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 18316,
+    "rep_votes": 21219,
+    "other_votes": 1672,
+    "total_votes": 41207,
+    "all_parties": {
+      "GRN": 620,
+      "REP": 21219,
+      "ALN": 1014,
+      "DEM": 18316,
+      "NON": 38
+    },
+    "county_fips": "45041",
+    "two_party_total": 39535,
+    "margin": 2903,
+    "margin_pct": 7.342860756291893,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 10236,
+    "rep_votes": 16065,
+    "other_votes": 909,
+    "total_votes": 27210,
+    "all_parties": {
+      "GRN": 337,
+      "REP": 16065,
+      "ALN": 561,
+      "DEM": 10236,
+      "NON": 11
+    },
+    "county_fips": "45043",
+    "two_party_total": 26301,
+    "margin": 5829,
+    "margin_pct": 22.162655412341735,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 65070,
+    "rep_votes": 103372,
+    "other_votes": 8467,
+    "total_votes": 176909,
+    "all_parties": {
+      "GRN": 2698,
+      "REP": 103372,
+      "ALN": 5511,
+      "DEM": 65070,
+      "NON": 258
+    },
+    "county_fips": "45045",
+    "two_party_total": 168442,
+    "margin": 38302,
+    "margin_pct": 22.73898433882286,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 7734,
+    "rep_votes": 12860,
+    "other_votes": 1085,
+    "total_votes": 21679,
+    "all_parties": {
+      "GRN": 297,
+      "REP": 12860,
+      "ALN": 763,
+      "DEM": 7734,
+      "NON": 25
+    },
+    "county_fips": "45047",
+    "two_party_total": 20594,
+    "margin": 5126,
+    "margin_pct": 24.890744877148684,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 2889,
+    "rep_votes": 2361,
+    "other_votes": 287,
+    "total_votes": 5537,
+    "all_parties": {
+      "GRN": 109,
+      "REP": 2361,
+      "ALN": 176,
+      "DEM": 2889,
+      "NON": 2
+    },
+    "county_fips": "45049",
+    "two_party_total": 5250,
+    "margin": 528,
+    "margin_pct": 10.057142857142857,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 37070,
+    "rep_votes": 91586,
+    "other_votes": 3929,
+    "total_votes": 132585,
+    "all_parties": {
+      "GRN": 1640,
+      "REP": 91586,
+      "ALN": 2249,
+      "DEM": 37070,
+      "NON": 40
+    },
+    "county_fips": "45051",
+    "two_party_total": 128656,
+    "margin": 54516,
+    "margin_pct": 42.3734610123119,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 4449,
+    "rep_votes": 6166,
+    "other_votes": 397,
+    "total_votes": 11012,
+    "all_parties": {
+      "GRN": 202,
+      "REP": 6166,
+      "ALN": 181,
+      "DEM": 4449,
+      "NON": 14
+    },
+    "county_fips": "45053",
+    "two_party_total": 10615,
+    "margin": 1717,
+    "margin_pct": 16.175223739990578,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 8401,
+    "rep_votes": 12452,
+    "other_votes": 1382,
+    "total_votes": 22235,
+    "all_parties": {
+      "GRN": 399,
+      "REP": 12452,
+      "ALN": 926,
+      "DEM": 8401,
+      "NON": 57
+    },
+    "county_fips": "45055",
+    "two_party_total": 20853,
+    "margin": 4051,
+    "margin_pct": 19.426461420419123,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 12035,
+    "rep_votes": 20944,
+    "other_votes": 1446,
+    "total_votes": 34425,
+    "all_parties": {
+      "GRN": 524,
+      "REP": 20944,
+      "ALN": 883,
+      "DEM": 12035,
+      "NON": 39
+    },
+    "county_fips": "45057",
+    "two_party_total": 32979,
+    "margin": 8909,
+    "margin_pct": 27.014160526395585,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 6044,
+    "rep_votes": 12726,
+    "other_votes": 960,
+    "total_votes": 19730,
+    "all_parties": {
+      "GRN": 287,
+      "REP": 12726,
+      "ALN": 620,
+      "DEM": 6044,
+      "NON": 53
+    },
+    "county_fips": "45059",
+    "two_party_total": 18770,
+    "margin": 6682,
+    "margin_pct": 35.59936068193926,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 3120,
+    "rep_votes": 1886,
+    "other_votes": 225,
+    "total_votes": 5231,
+    "all_parties": {
+      "GRN": 91,
+      "REP": 1886,
+      "ALN": 128,
+      "DEM": 3120,
+      "NON": 6
+    },
+    "county_fips": "45061",
+    "two_party_total": 5006,
+    "margin": 1234,
+    "margin_pct": 24.650419496604076,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 33423,
+    "rep_votes": 58957,
+    "other_votes": 6410,
+    "total_votes": 98790,
+    "all_parties": {
+      "GRN": 1581,
+      "REP": 58957,
+      "ALN": 4658,
+      "DEM": 33423,
+      "NON": 171
+    },
+    "county_fips": "45063",
+    "two_party_total": 92380,
+    "margin": 25534,
+    "margin_pct": 27.64018185754492,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 4434,
+    "rep_votes": 3592,
+    "other_votes": 315,
+    "total_votes": 8341,
+    "all_parties": {
+      "GRN": 137,
+      "REP": 3592,
+      "ALN": 168,
+      "DEM": 4434,
+      "NON": 10
+    },
+    "county_fips": "45065",
+    "two_party_total": 8026,
+    "margin": 842,
+    "margin_pct": 10.490904560179416,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 3203,
+    "rep_votes": 3020,
+    "other_votes": 247,
+    "total_votes": 6470,
+    "all_parties": {
+      "GRN": 126,
+      "REP": 3020,
+      "ALN": 116,
+      "DEM": 3203,
+      "NON": 5
+    },
+    "county_fips": "45067",
+    "two_party_total": 6223,
+    "margin": 183,
+    "margin_pct": 2.9407038405913544,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 1748,
+    "rep_votes": 2644,
+    "other_votes": 129,
+    "total_votes": 4521,
+    "all_parties": {
+      "GRN": 53,
+      "REP": 2644,
+      "ALN": 75,
+      "DEM": 1748,
+      "NON": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 4392,
+    "margin": 896,
+    "margin_pct": 20.40072859744991,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 4712,
+    "rep_votes": 7139,
+    "other_votes": 872,
+    "total_votes": 12723,
+    "all_parties": {
+      "GRN": 176,
+      "REP": 7139,
+      "ALN": 663,
+      "DEM": 4712,
+      "": 33
+    },
+    "county_fips": "45071",
+    "two_party_total": 11851,
+    "margin": 2427,
+    "margin_pct": 20.47928444856974,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 7050,
+    "rep_votes": 20290,
+    "other_votes": 1432,
+    "total_votes": 28772,
+    "all_parties": {
+      "GRN": 381,
+      "REP": 20290,
+      "ALN": 1022,
+      "DEM": 7050,
+      "NON": 29
+    },
+    "county_fips": "45073",
+    "two_party_total": 27340,
+    "margin": 13240,
+    "margin_pct": 48.42721287490856,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 16294,
+    "rep_votes": 8925,
+    "other_votes": 837,
+    "total_votes": 26056,
+    "all_parties": {
+      "GRN": 375,
+      "REP": 8925,
+      "ALN": 435,
+      "DEM": 16294,
+      "NON": 27
+    },
+    "county_fips": "45075",
+    "two_party_total": 25219,
+    "margin": 7369,
+    "margin_pct": 29.220032515167137,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 9766,
+    "rep_votes": 28193,
+    "other_votes": 1999,
+    "total_votes": 39958,
+    "all_parties": {
+      "GRN": 582,
+      "REP": 28193,
+      "ALN": 1359,
+      "DEM": 9766,
+      "NON": 58
+    },
+    "county_fips": "45077",
+    "two_party_total": 37959,
+    "margin": 18427,
+    "margin_pct": 48.544482204483785,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 81269,
+    "rep_votes": 36689,
+    "other_votes": 8374,
+    "total_votes": 126332,
+    "all_parties": {
+      "GRN": 2807,
+      "REP": 36689,
+      "ALN": 5434,
+      "DEM": 81269,
+      "NON": 133
+    },
+    "county_fips": "45079",
+    "two_party_total": 117958,
+    "margin": 44580,
+    "margin_pct": 37.793112802862034,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 2051,
+    "rep_votes": 4042,
+    "other_votes": 421,
+    "total_votes": 6514,
+    "all_parties": {
+      "GRN": 118,
+      "REP": 4042,
+      "ALN": 290,
+      "DEM": 2051,
+      "NON": 13
+    },
+    "county_fips": "45081",
+    "two_party_total": 6093,
+    "margin": 1991,
+    "margin_pct": 32.67684227802396,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 33098,
+    "rep_votes": 59169,
+    "other_votes": 4326,
+    "total_votes": 96593,
+    "all_parties": {
+      "GRN": 1206,
+      "REP": 59169,
+      "ALN": 3010,
+      "DEM": 33098,
+      "NON": 110
+    },
+    "county_fips": "45083",
+    "two_party_total": 92267,
+    "margin": 26071,
+    "margin_pct": 28.256039537429416,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 15707,
+    "rep_votes": 13444,
+    "other_votes": 1384,
+    "total_votes": 30535,
+    "all_parties": {
+      "GRN": 604,
+      "REP": 13444,
+      "ALN": 764,
+      "DEM": 15707,
+      "NON": 16
+    },
+    "county_fips": "45085",
+    "two_party_total": 29151,
+    "margin": 2263,
+    "margin_pct": 7.7630269973585815,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 2969,
+    "rep_votes": 5173,
+    "other_votes": 455,
+    "total_votes": 8597,
+    "all_parties": {
+      "GRN": 158,
+      "REP": 5173,
+      "ALN": 282,
+      "DEM": 2969,
+      "NON": 15
+    },
+    "county_fips": "45087",
+    "two_party_total": 8142,
+    "margin": 2204,
+    "margin_pct": 27.06951608941292,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 5689,
+    "rep_votes": 3593,
+    "other_votes": 403,
+    "total_votes": 9685,
+    "all_parties": {
+      "GRN": 161,
+      "REP": 3593,
+      "ALN": 232,
+      "DEM": 5689,
+      "NON": 10
+    },
+    "county_fips": "45089",
+    "two_party_total": 9282,
+    "margin": 2096,
+    "margin_pct": 22.581340228399053,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 35934,
+    "rep_votes": 54237,
+    "other_votes": 5271,
+    "total_votes": 95442,
+    "all_parties": {
+      "GRN": 1697,
+      "REP": 54237,
+      "ALN": 3510,
+      "DEM": 35934,
+      "NON": 64
+    },
+    "county_fips": "45091",
+    "two_party_total": 90171,
+    "margin": 18303,
+    "margin_pct": 20.298100276141998,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

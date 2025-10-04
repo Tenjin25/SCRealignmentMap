@@ -1,0 +1,1214 @@
+{
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 338164,
+    "rep_votes": 164032,
+    "other_votes": 7276,
+    "total_votes": 509472,
+    "two_party_total": 502196,
+    "margin": 174132,
+    "margin_pct": 34.67,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    },
+    "all_parties": {
+      "REP": 164032,
+      "LIB": 6824,
+      "DEM": 338164,
+      "NON": 452
+    },
+    "county_fips": "45079"
+  },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 12988,
+    "rep_votes": 12836,
+    "other_votes": 324,
+    "total_votes": 26148,
+    "two_party_total": 25824,
+    "margin": 152,
+    "margin_pct": 0.59,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#e1f5fe"
+    },
+    "all_parties": {
+      "REP": 12836,
+      "LIB": 304,
+      "DEM": 12988,
+      "NON": 20
+    },
+    "county_fips": "45069"
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 11628,
+    "rep_votes": 10660,
+    "other_votes": 232,
+    "total_votes": 22520,
+    "two_party_total": 22288,
+    "margin": 968,
+    "margin_pct": 4.34,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    },
+    "all_parties": {
+      "REP": 10660,
+      "LIB": 224,
+      "DEM": 11628,
+      "NON": 8
+    },
+    "county_fips": "45047"
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 18996,
+    "rep_votes": 25036,
+    "other_votes": 480,
+    "total_votes": 44512,
+    "two_party_total": 44032,
+    "margin": 6040,
+    "margin_pct": 13.72,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 25036,
+      "LIB": 476,
+      "DEM": 18996,
+      "NON": 4
+    },
+    "county_fips": "45053"
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 11436,
+    "rep_votes": 22888,
+    "other_votes": 336,
+    "total_votes": 34660,
+    "two_party_total": 34324,
+    "margin": 11452,
+    "margin_pct": 33.36,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "REP": 22888,
+      "LIB": 296,
+      "DEM": 11436,
+      "NON": 40
+    },
+    "county_fips": "45087"
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 9204,
+    "rep_votes": 12952,
+    "other_votes": 332,
+    "total_votes": 22488,
+    "two_party_total": 22156,
+    "margin": 3748,
+    "margin_pct": 16.92,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 12952,
+      "LIB": 308,
+      "DEM": 9204,
+      "NON": 24
+    },
+    "county_fips": "45017"
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 23356,
+    "rep_votes": 15432,
+    "other_votes": 380,
+    "total_votes": 39168,
+    "two_party_total": 38788,
+    "margin": 7924,
+    "margin_pct": 20.43,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#3182bd"
+    },
+    "all_parties": {
+      "REP": 15432,
+      "LIB": 356,
+      "DEM": 23356,
+      "NON": 24
+    },
+    "county_fips": "45089"
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 65924,
+    "rep_votes": 38004,
+    "other_votes": 836,
+    "total_votes": 104764,
+    "two_party_total": 103928,
+    "margin": 27920,
+    "margin_pct": 26.86,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#3182bd"
+    },
+    "all_parties": {
+      "REP": 38004,
+      "LIB": 780,
+      "DEM": 65924,
+      "NON": 56
+    },
+    "county_fips": "45075"
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 18476,
+    "rep_votes": 14632,
+    "other_votes": 544,
+    "total_votes": 33652,
+    "two_party_total": 33108,
+    "margin": 3844,
+    "margin_pct": 11.61,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    },
+    "all_parties": {
+      "REP": 14632,
+      "LIB": 500,
+      "DEM": 18476,
+      "NON": 44
+    },
+    "county_fips": "45039"
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 127756,
+    "rep_votes": 255224,
+    "other_votes": 5224,
+    "total_votes": 388204,
+    "two_party_total": 382980,
+    "margin": 127468,
+    "margin_pct": 33.28,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "REP": 255224,
+      "LIB": 4944,
+      "DEM": 127756,
+      "NON": 280
+    },
+    "county_fips": "45083"
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 7132,
+    "rep_votes": 18780,
+    "other_votes": 328,
+    "total_votes": 26240,
+    "two_party_total": 25912,
+    "margin": 11648,
+    "margin_pct": 44.95,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "REP": 18780,
+      "LIB": 316,
+      "DEM": 7132,
+      "NON": 12
+    },
+    "county_fips": "45081"
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 20956,
+    "rep_votes": 28636,
+    "other_votes": 588,
+    "total_votes": 50180,
+    "two_party_total": 49592,
+    "margin": 7680,
+    "margin_pct": 15.49,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 28636,
+      "LIB": 568,
+      "DEM": 20956,
+      "NON": 20
+    },
+    "county_fips": "45029"
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 10172,
+    "rep_votes": 14572,
+    "other_votes": 284,
+    "total_votes": 25028,
+    "two_party_total": 24744,
+    "margin": 4400,
+    "margin_pct": 17.78,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 14572,
+      "LIB": 272,
+      "DEM": 10172,
+      "NON": 12
+    },
+    "county_fips": "45011"
+  },
+  "45067": {
+    "county": "MARION",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 17936,
+    "rep_votes": 15384,
+    "other_votes": 344,
+    "total_votes": 33664,
+    "two_party_total": 33320,
+    "margin": 2552,
+    "margin_pct": 7.66,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    },
+    "all_parties": {
+      "REP": 15384,
+      "LIB": 320,
+      "DEM": 17936,
+      "NON": 24
+    },
+    "county_fips": "45067"
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 12328,
+    "rep_votes": 8464,
+    "other_votes": 228,
+    "total_votes": 21020,
+    "two_party_total": 20792,
+    "margin": 3864,
+    "margin_pct": 18.58,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    },
+    "all_parties": {
+      "REP": 8464,
+      "LIB": 208,
+      "DEM": 12328,
+      "NON": 20
+    },
+    "county_fips": "45061"
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 4936,
+    "rep_votes": 2248,
+    "other_votes": 96,
+    "total_votes": 7280,
+    "two_party_total": 7184,
+    "margin": 2688,
+    "margin_pct": 37.42,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    },
+    "all_parties": {
+      "REP": 2248,
+      "LIB": 96,
+      "DEM": 4936,
+      "NON": 0
+    },
+    "county_fips": "45005"
+  },
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 9992,
+    "rep_votes": 24040,
+    "other_votes": 372,
+    "total_votes": 34404,
+    "two_party_total": 34032,
+    "margin": 14048,
+    "margin_pct": 41.28,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "REP": 24040,
+      "LIB": 356,
+      "DEM": 9992
+    },
+    "county_fips": "45001"
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 159252,
+    "rep_votes": 370832,
+    "other_votes": 4560,
+    "total_votes": 534644,
+    "two_party_total": 530084,
+    "margin": 211580,
+    "margin_pct": 39.91,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "REP": 370832,
+      "LIB": 4372,
+      "DEM": 159252,
+      "NON": 188
+    },
+    "county_fips": "45051"
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 341732,
+    "rep_votes": 265900,
+    "other_votes": 6320,
+    "total_votes": 613952,
+    "two_party_total": 607632,
+    "margin": 75832,
+    "margin_pct": 12.48,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    },
+    "all_parties": {
+      "REP": 265900,
+      "LIB": 6020,
+      "DEM": 341732,
+      "NON": 300
+    },
+    "county_fips": "45019"
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 267772,
+    "rep_votes": 432888,
+    "other_votes": 11876,
+    "total_votes": 712536,
+    "two_party_total": 700660,
+    "margin": 165116,
+    "margin_pct": 23.57,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "REP": 432888,
+      "LIB": 11088,
+      "DEM": 267772,
+      "NON": 788
+    },
+    "county_fips": "45045"
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 64204,
+    "rep_votes": 57168,
+    "other_votes": 1336,
+    "total_votes": 122708,
+    "two_party_total": 121372,
+    "margin": 7036,
+    "margin_pct": 5.8,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    },
+    "all_parties": {
+      "REP": 57168,
+      "LIB": 1268,
+      "DEM": 64204,
+      "NON": 68
+    },
+    "county_fips": "45085"
+  },
+  "45065": {
+    "county": "MCCORMICK",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 7036,
+    "rep_votes": 11028,
+    "other_votes": 204,
+    "total_votes": 18268,
+    "two_party_total": 18064,
+    "margin": 3992,
+    "margin_pct": 22.1,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "REP": 11028,
+      "LIB": 196,
+      "DEM": 7036,
+      "NON": 8
+    },
+    "county_fips": "45065"
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 32288,
+    "rep_votes": 56096,
+    "other_votes": 1224,
+    "total_votes": 89608,
+    "two_party_total": 88384,
+    "margin": 23808,
+    "margin_pct": 26.94,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "REP": 56096,
+      "LIB": 1172,
+      "DEM": 32288,
+      "NON": 52
+    },
+    "county_fips": "45055"
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 43556,
+    "rep_votes": 65492,
+    "other_votes": 956,
+    "total_votes": 110004,
+    "two_party_total": 109048,
+    "margin": 21936,
+    "margin_pct": 20.12,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "REP": 65492,
+      "LIB": 916,
+      "DEM": 43556,
+      "NON": 40
+    },
+    "county_fips": "45043"
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 14032,
+    "rep_votes": 17364,
+    "other_votes": 264,
+    "total_votes": 31660,
+    "two_party_total": 31396,
+    "margin": 3332,
+    "margin_pct": 10.61,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 17364,
+      "LIB": 252,
+      "DEM": 14032,
+      "NON": 12
+    },
+    "county_fips": "45033"
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 86964,
+    "rep_votes": 109432,
+    "other_votes": 2780,
+    "total_votes": 199176,
+    "two_party_total": 196396,
+    "margin": 22468,
+    "margin_pct": 11.44,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 109432,
+      "LIB": 2680,
+      "DEM": 86964,
+      "NON": 100
+    },
+    "county_fips": "45035"
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tlly Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 38184,
+    "rep_votes": 120080,
+    "other_votes": 2556,
+    "total_votes": 160820,
+    "two_party_total": 158264,
+    "margin": 81896,
+    "margin_pct": 51.75,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "REP": 120080,
+      "LIB": 2432,
+      "DEM": 38184,
+      "NON": 124
+    },
+    "county_fips": "45077"
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 27952,
+    "rep_votes": 86488,
+    "other_votes": 1420,
+    "total_votes": 115860,
+    "two_party_total": 114440,
+    "margin": 58536,
+    "margin_pct": 51.15,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "REP": 86488,
+      "LIB": 1324,
+      "DEM": 27952,
+      "NON": 96
+    },
+    "county_fips": "45073"
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 117060,
+    "rep_votes": 167356,
+    "other_votes": 2408,
+    "total_votes": 286824,
+    "two_party_total": 284416,
+    "margin": 50296,
+    "margin_pct": 17.68,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 167356,
+      "LIB": 2268,
+      "DEM": 117060,
+      "NON": 140
+    },
+    "county_fips": "45013"
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 134980,
+    "rep_votes": 257312,
+    "other_votes": 6332,
+    "total_votes": 398624,
+    "two_party_total": 392292,
+    "margin": 122332,
+    "margin_pct": 31.18,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "REP": 257312,
+      "LIB": 5912,
+      "DEM": 134980,
+      "NON": 420
+    },
+    "county_fips": "45063"
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Dem Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 17740,
+    "rep_votes": 31932,
+    "other_votes": 556,
+    "total_votes": 50228,
+    "two_party_total": 49672,
+    "margin": 14192,
+    "margin_pct": 28.57,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "REP": 31932,
+      "LIB": 532,
+      "DEM": 17740,
+      "NON": 24
+    },
+    "county_fips": "45025"
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 144564,
+    "rep_votes": 232616,
+    "other_votes": 6732,
+    "total_votes": 383912,
+    "two_party_total": 377180,
+    "margin": 88052,
+    "margin_pct": 23.34,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "REP": 232616,
+      "LIB": 6536,
+      "DEM": 144564,
+      "NON": 196
+    },
+    "county_fips": "45091"
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 122368,
+    "rep_votes": 159316,
+    "other_votes": 3916,
+    "total_votes": 285600,
+    "two_party_total": 281684,
+    "margin": 36948,
+    "margin_pct": 13.12,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 159316,
+      "LIB": 3760,
+      "DEM": 122368,
+      "NON": 156
+    },
+    "county_fips": "45015"
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 23084,
+    "rep_votes": 55064,
+    "other_votes": 1136,
+    "total_votes": 79284,
+    "two_party_total": 78148,
+    "margin": 31980,
+    "margin_pct": 40.92,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "REP": 55064,
+      "LIB": 1000,
+      "DEM": 23084,
+      "NON": 136
+    },
+    "county_fips": "45059"
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 66164,
+    "rep_votes": 184576,
+    "other_votes": 2936,
+    "total_votes": 253676,
+    "two_party_total": 250740,
+    "margin": 118412,
+    "margin_pct": 47.23,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "REP": 184576,
+      "LIB": 2804,
+      "DEM": 66164,
+      "NON": 132
+    },
+    "county_fips": "45007"
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 19932,
+    "rep_votes": 25496,
+    "other_votes": 400,
+    "total_votes": 45828,
+    "two_party_total": 45428,
+    "margin": 5564,
+    "margin_pct": 12.25,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 25496,
+      "LIB": 356,
+      "DEM": 19932
+    },
+    "county_fips": "45027"
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 72756,
+    "rep_votes": 90964,
+    "other_votes": 2036,
+    "total_votes": 165756,
+    "two_party_total": 163720,
+    "margin": 18208,
+    "margin_pct": 11.12,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 90964,
+      "LIB": 1888,
+      "DEM": 72756,
+      "NON": 148
+    },
+    "county_fips": "45041"
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 16992,
+    "rep_votes": 33652,
+    "other_votes": 696,
+    "total_votes": 51340,
+    "two_party_total": 50644,
+    "margin": 16660,
+    "margin_pct": 32.9,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "REP": 33652,
+      "LIB": 660,
+      "DEM": 16992
+    },
+    "county_fips": "45071"
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 14780,
+    "rep_votes": 23048,
+    "other_votes": 504,
+    "total_votes": 38332,
+    "two_party_total": 37828,
+    "margin": 8268,
+    "margin_pct": 21.86,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "REP": 23048,
+      "LIB": 480,
+      "DEM": 14780,
+      "NON": 24
+    },
+    "county_fips": "45023"
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 72056,
+    "rep_votes": 143792,
+    "other_votes": 3592,
+    "total_votes": 219440,
+    "two_party_total": 215848,
+    "margin": 71736,
+    "margin_pct": 33.23,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "REP": 143792,
+      "LIB": 3412,
+      "DEM": 72056,
+      "NON": 180
+    },
+    "county_fips": "45003"
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 11160,
+    "rep_votes": 23628,
+    "other_votes": 436,
+    "total_votes": 35224,
+    "two_party_total": 34788,
+    "margin": 12468,
+    "margin_pct": 35.84,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "REP": 23628,
+      "LIB": 392,
+      "DEM": 11160,
+      "NON": 44
+    },
+    "county_fips": "45037"
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 8768,
+    "rep_votes": 6944,
+    "other_votes": 220,
+    "total_votes": 15932,
+    "two_party_total": 15712,
+    "margin": 1824,
+    "margin_pct": 11.61,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    },
+    "all_parties": {
+      "REP": 6944,
+      "LIB": 220,
+      "DEM": 8768,
+      "NON": 0
+    },
+    "county_fips": "45009"
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 46612,
+    "rep_votes": 89596,
+    "other_votes": 1996,
+    "total_votes": 138204,
+    "two_party_total": 136208,
+    "margin": 42984,
+    "margin_pct": 31.56,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "REP": 89596,
+      "LIB": 1936,
+      "DEM": 46612,
+      "NON": 60
+    },
+    "county_fips": "45057"
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 14740,
+    "rep_votes": 49200,
+    "other_votes": 628,
+    "total_votes": 64568,
+    "two_party_total": 63940,
+    "margin": 34460,
+    "margin_pct": 53.89,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    },
+    "all_parties": {
+      "REP": 49200,
+      "LIB": 580,
+      "DEM": 14740,
+      "NON": 48
+    },
+    "county_fips": "45021"
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
+    "year": "2022",
+    "dem_candidate": "Dem Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 33336,
+    "rep_votes": 46140,
+    "other_votes": 676,
+    "total_votes": 80152,
+    "two_party_total": 79476,
+    "margin": 12804,
+    "margin_pct": 16.11,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "REP": 46140,
+      "LIB": 652,
+      "DEM": 33336,
+      "NON": 24
+    },
+    "county_fips": "45031"
+  }
+}

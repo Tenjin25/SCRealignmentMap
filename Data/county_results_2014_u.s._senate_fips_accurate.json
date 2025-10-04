@@ -1,0 +1,1336 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2464,
+    "rep_votes": 4057,
+    "other_votes": 661,
+    "total_votes": 7182,
+    "all_parties": {
+      "LIB": 150,
+      "PET": 336,
+      "DEM": 2464,
+      "WFM": 159,
+      "REP": 4057,
+      "NON": 16
+    },
+    "county_fips": "45001",
+    "two_party_total": 6521,
+    "margin": 1593,
+    "margin_pct": 24.42876859377396,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 13321,
+    "rep_votes": 28344,
+    "other_votes": 3766,
+    "total_votes": 45431,
+    "all_parties": {
+      "LIB": 1428,
+      "PET": 1309,
+      "DEM": 13321,
+      "WFM": 933,
+      "REP": 28344,
+      "NON": 96
+    },
+    "county_fips": "45003",
+    "two_party_total": 41665,
+    "margin": 15023,
+    "margin_pct": 36.05664226569063,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 1664,
+    "rep_votes": 533,
+    "other_votes": 108,
+    "total_votes": 2305,
+    "all_parties": {
+      "LIB": 22,
+      "PET": 23,
+      "DEM": 1664,
+      "WFM": 63,
+      "REP": 533,
+      "NON": 0
+    },
+    "county_fips": "45005",
+    "two_party_total": 2197,
+    "margin": 1131,
+    "margin_pct": 51.4792899408284,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 9630,
+    "rep_votes": 30056,
+    "other_votes": 5329,
+    "total_votes": 45015,
+    "all_parties": {
+      "LIB": 1384,
+      "PET": 2699,
+      "DEM": 9630,
+      "WFM": 988,
+      "REP": 30056,
+      "NON": 258
+    },
+    "county_fips": "45007",
+    "two_party_total": 39686,
+    "margin": 20426,
+    "margin_pct": 51.46903190041828,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3236,
+    "rep_votes": 1474,
+    "other_votes": 212,
+    "total_votes": 4922,
+    "all_parties": {
+      "LIB": 40,
+      "PET": 66,
+      "DEM": 3236,
+      "WFM": 102,
+      "REP": 1474,
+      "NON": 4
+    },
+    "county_fips": "45009",
+    "two_party_total": 4710,
+    "margin": 1762,
+    "margin_pct": 37.409766454352436,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2997,
+    "rep_votes": 2847,
+    "other_votes": 326,
+    "total_votes": 6170,
+    "all_parties": {
+      "LIB": 68,
+      "PET": 92,
+      "DEM": 2997,
+      "WFM": 165,
+      "REP": 2847,
+      "NON": 1
+    },
+    "county_fips": "45011",
+    "two_party_total": 5844,
+    "margin": 150,
+    "margin_pct": 2.5667351129363447,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 15266,
+    "rep_votes": 29732,
+    "other_votes": 2684,
+    "total_votes": 47682,
+    "all_parties": {
+      "LIB": 1057,
+      "PET": 1006,
+      "DEM": 15266,
+      "WFM": 571,
+      "REP": 29732,
+      "NON": 50
+    },
+    "county_fips": "45013",
+    "two_party_total": 44998,
+    "margin": 14466,
+    "margin_pct": 32.148095470909816,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 15527,
+    "rep_votes": 23133,
+    "other_votes": 4383,
+    "total_votes": 43043,
+    "all_parties": {
+      "LIB": 1423,
+      "PET": 1858,
+      "DEM": 15527,
+      "WFM": 975,
+      "REP": 23133,
+      "NON": 127
+    },
+    "county_fips": "45015",
+    "two_party_total": 38660,
+    "margin": 7606,
+    "margin_pct": 19.67408173823073,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2735,
+    "rep_votes": 2194,
+    "other_votes": 293,
+    "total_votes": 5222,
+    "all_parties": {
+      "LIB": 74,
+      "PET": 111,
+      "DEM": 2735,
+      "WFM": 107,
+      "REP": 2194,
+      "NON": 1
+    },
+    "county_fips": "45017",
+    "two_party_total": 4929,
+    "margin": 541,
+    "margin_pct": 10.97585717184013,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 42404,
+    "rep_votes": 48265,
+    "other_votes": 8515,
+    "total_votes": 99184,
+    "all_parties": {
+      "LIB": 3080,
+      "PET": 3442,
+      "DEM": 42404,
+      "WFM": 1715,
+      "REP": 48265,
+      "NON": 278
+    },
+    "county_fips": "45019",
+    "two_party_total": 90669,
+    "margin": 5861,
+    "margin_pct": 6.464171877929611,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3073,
+    "rep_votes": 7803,
+    "other_votes": 1449,
+    "total_votes": 12325,
+    "all_parties": {
+      "LIB": 342,
+      "PET": 751,
+      "DEM": 3073,
+      "WFM": 280,
+      "REP": 7803,
+      "NON": 76
+    },
+    "county_fips": "45021",
+    "two_party_total": 10876,
+    "margin": 4730,
+    "margin_pct": 43.490253769768294,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4109,
+    "rep_votes": 5447,
+    "other_votes": 714,
+    "total_votes": 10270,
+    "all_parties": {
+      "LIB": 138,
+      "PET": 298,
+      "DEM": 4109,
+      "WFM": 270,
+      "REP": 5447,
+      "NON": 8
+    },
+    "county_fips": "45025",
+    "two_party_total": 9556,
+    "margin": 1338,
+    "margin_pct": 14.001674340728337,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3436,
+    "rep_votes": 3836,
+    "other_votes": 737,
+    "total_votes": 8009,
+    "all_parties": {
+      "LIB": 146,
+      "PET": 295,
+      "DEM": 3436,
+      "WFM": 286,
+      "REP": 3836,
+      "NON": 10
+    },
+    "county_fips": "45023",
+    "two_party_total": 7272,
+    "margin": 400,
+    "margin_pct": 5.500550055005501,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5404,
+    "rep_votes": 4396,
+    "other_votes": 495,
+    "total_votes": 10295,
+    "all_parties": {
+      "LIB": 92,
+      "PET": 236,
+      "DEM": 5404,
+      "WFM": 160,
+      "REP": 4396,
+      "NON": 7
+    },
+    "county_fips": "45027",
+    "two_party_total": 9800,
+    "margin": 1008,
+    "margin_pct": 10.285714285714285,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4692,
+    "rep_votes": 5358,
+    "other_votes": 791,
+    "total_votes": 10841,
+    "all_parties": {
+      "LIB": 160,
+      "PET": 412,
+      "DEM": 4692,
+      "WFM": 214,
+      "REP": 5358,
+      "NON": 5
+    },
+    "county_fips": "45029",
+    "two_party_total": 10050,
+    "margin": 666,
+    "margin_pct": 6.626865671641791,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 8970,
+    "rep_votes": 8648,
+    "other_votes": 999,
+    "total_votes": 18617,
+    "all_parties": {
+      "LIB": 250,
+      "PET": 493,
+      "DEM": 8970,
+      "WFM": 247,
+      "REP": 8648,
+      "NON": 9
+    },
+    "county_fips": "45031",
+    "two_party_total": 17618,
+    "margin": 322,
+    "margin_pct": 1.8276762402088773,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3066,
+    "rep_votes": 2957,
+    "other_votes": 392,
+    "total_votes": 6415,
+    "all_parties": {
+      "LIB": 58,
+      "PET": 198,
+      "DEM": 3066,
+      "WFM": 130,
+      "REP": 2957,
+      "NON": 6
+    },
+    "county_fips": "45033",
+    "two_party_total": 6023,
+    "margin": 109,
+    "margin_pct": 1.8097293707454758,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto. (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 12158,
+    "rep_votes": 18437,
+    "other_votes": 3580,
+    "total_votes": 34175,
+    "all_parties": {
+      "LIB": 1234,
+      "PET": 1460,
+      "DEM": 12158,
+      "WF": 793,
+      "REP": 18437,
+      "NON": 93
+    },
+    "county_fips": "45035",
+    "two_party_total": 30595,
+    "margin": 6279,
+    "margin_pct": 20.522961268181074,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2618,
+    "rep_votes": 3812,
+    "other_votes": 555,
+    "total_votes": 6985,
+    "all_parties": {
+      "LIB": 196,
+      "PET": 193,
+      "DEM": 2618,
+      "WFM": 155,
+      "REP": 3812,
+      "NON": 11
+    },
+    "county_fips": "45037",
+    "two_party_total": 6430,
+    "margin": 1194,
+    "margin_pct": 18.569206842923794,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4681,
+    "rep_votes": 2943,
+    "other_votes": 511,
+    "total_votes": 8135,
+    "all_parties": {
+      "LIB": 119,
+      "PET": 232,
+      "DEM": 4681,
+      "WFM": 156,
+      "REP": 2943,
+      "NON": 4
+    },
+    "county_fips": "45039",
+    "two_party_total": 7624,
+    "margin": 1738,
+    "margin_pct": 22.796432318992654,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 16226,
+    "rep_votes": 17727,
+    "other_votes": 2401,
+    "total_votes": 36354,
+    "all_parties": {
+      "LIB": 623,
+      "PET": 1171,
+      "DEM": 16226,
+      "WFW": 561,
+      "REP": 17727,
+      "NON": 46
+    },
+    "county_fips": "45041",
+    "two_party_total": 33953,
+    "margin": 1501,
+    "margin_pct": 4.420817011751539,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 8062,
+    "rep_votes": 11190,
+    "other_votes": 1235,
+    "total_votes": 20487,
+    "all_parties": {
+      "LIB": 348,
+      "PET": 596,
+      "DEM": 8062,
+      "WFM": 270,
+      "REP": 11190,
+      "NON": 21
+    },
+    "county_fips": "45043",
+    "two_party_total": 19252,
+    "margin": 3128,
+    "margin_pct": 16.247662580511115,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 31458,
+    "rep_votes": 74628,
+    "other_votes": 17578,
+    "total_votes": 123664,
+    "all_parties": {
+      "LIB": 5969,
+      "PET": 7439,
+      "DEM": 31458,
+      "WFM": 2602,
+      "REP": 74628,
+      "NON": 1568
+    },
+    "county_fips": "45045",
+    "two_party_total": 106086,
+    "margin": 43170,
+    "margin_pct": 40.69339969458741,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5839,
+    "rep_votes": 10594,
+    "other_votes": 1318,
+    "total_votes": 17751,
+    "all_parties": {
+      "LIB": 364,
+      "PET": 588,
+      "DEM": 5839,
+      "WFM": 317,
+      "REP": 10594,
+      "NON": 49
+    },
+    "county_fips": "45047",
+    "two_party_total": 16433,
+    "margin": 4755,
+    "margin_pct": 28.93567820848293,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3578,
+    "rep_votes": 1952,
+    "other_votes": 342,
+    "total_votes": 5872,
+    "all_parties": {
+      "LIB": 45,
+      "PET": 123,
+      "DEM": 3578,
+      "WFM": 172,
+      "REP": 1952,
+      "NON": 2
+    },
+    "county_fips": "45049",
+    "two_party_total": 5530,
+    "margin": 1626,
+    "margin_pct": 29.403254972875224,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 18251,
+    "rep_votes": 44978,
+    "other_votes": 5214,
+    "total_votes": 68443,
+    "all_parties": {
+      "LIB": 1521,
+      "PET": 2372,
+      "DEM": 18251,
+      "WFM": 1206,
+      "REP": 44978,
+      "NON": 115
+    },
+    "county_fips": "45051",
+    "two_party_total": 63229,
+    "margin": 26727,
+    "margin_pct": 42.27016084391656,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3390,
+    "rep_votes": 2893,
+    "other_votes": 377,
+    "total_votes": 6660,
+    "all_parties": {
+      "LIB": 98,
+      "PET": 143,
+      "DEM": 3390,
+      "WFM": 128,
+      "REP": 2893,
+      "NON": 8
+    },
+    "county_fips": "45053",
+    "two_party_total": 6283,
+    "margin": 497,
+    "margin_pct": 7.910233964666561,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6766,
+    "rep_votes": 11200,
+    "other_votes": 1504,
+    "total_votes": 19470,
+    "all_parties": {
+      "LIB": 382,
+      "PET": 620,
+      "DEM": 6766,
+      "WFM": 475,
+      "REP": 11200,
+      "NON": 27
+    },
+    "county_fips": "45055",
+    "two_party_total": 17966,
+    "margin": 4434,
+    "margin_pct": 24.67995101859067,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6485,
+    "rep_votes": 12272,
+    "other_votes": 1401,
+    "total_votes": 20158,
+    "all_parties": {
+      "LIB": 474,
+      "PET": 457,
+      "DEM": 6485,
+      "WFM": 445,
+      "REP": 12272,
+      "NON": 25
+    },
+    "county_fips": "45057",
+    "two_party_total": 18757,
+    "margin": 5787,
+    "margin_pct": 30.852481740150346,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4420,
+    "rep_votes": 8684,
+    "other_votes": 2023,
+    "total_votes": 15127,
+    "all_parties": {
+      "LIB": 443,
+      "PET": 1064,
+      "DEM": 4420,
+      "WFM": 368,
+      "REP": 8684,
+      "NON": 148
+    },
+    "county_fips": "45059",
+    "two_party_total": 13104,
+    "margin": 4264,
+    "margin_pct": 32.53968253968254,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3806,
+    "rep_votes": 1750,
+    "other_votes": 228,
+    "total_votes": 5784,
+    "all_parties": {
+      "LIB": 30,
+      "PET": 121,
+      "DEM": 3806,
+      "WFW": 75,
+      "REP": 1750,
+      "NON": 2
+    },
+    "county_fips": "45061",
+    "two_party_total": 5556,
+    "margin": 2056,
+    "margin_pct": 37.00503959683225,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 18076,
+    "rep_votes": 50001,
+    "other_votes": 7715,
+    "total_votes": 75792,
+    "all_parties": {
+      "LIB": 2505,
+      "PET": 3267,
+      "DEM": 18076,
+      "WFM": 1790,
+      "REP": 50001,
+      "NON": 153
+    },
+    "county_fips": "45063",
+    "two_party_total": 68077,
+    "margin": 31925,
+    "margin_pct": 46.89542723680538,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5314,
+    "rep_votes": 3054,
+    "other_votes": 392,
+    "total_votes": 8760,
+    "all_parties": {
+      "LIB": 62,
+      "PET": 185,
+      "DEM": 5314,
+      "WFM": 140,
+      "REP": 3054,
+      "NON": 5
+    },
+    "county_fips": "45065",
+    "two_party_total": 8368,
+    "margin": 2260,
+    "margin_pct": 27.007648183556405,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3538,
+    "rep_votes": 2354,
+    "other_votes": 344,
+    "total_votes": 6236,
+    "all_parties": {
+      "LIB": 57,
+      "PET": 150,
+      "DEM": 3538,
+      "WFM": 135,
+      "REP": 2354,
+      "NON": 2
+    },
+    "county_fips": "45067",
+    "two_party_total": 5892,
+    "margin": 1184,
+    "margin_pct": 20.095044127630686,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 1579,
+    "rep_votes": 1881,
+    "other_votes": 139,
+    "total_votes": 3599,
+    "all_parties": {
+      "LIB": 49,
+      "PET": 50,
+      "DEM": 1579,
+      "WFM": 35,
+      "REP": 1881,
+      "NON": 5
+    },
+    "county_fips": "45069",
+    "two_party_total": 3460,
+    "margin": 302,
+    "margin_pct": 8.728323699421965,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3579,
+    "rep_votes": 6580,
+    "other_votes": 831,
+    "total_votes": 10990,
+    "all_parties": {
+      "LIB": 202,
+      "PET": 408,
+      "DEM": 3579,
+      "WFM": 213,
+      "REP": 6580,
+      "NON": 8
+    },
+    "county_fips": "45071",
+    "two_party_total": 10159,
+    "margin": 3001,
+    "margin_pct": 29.540309085539917,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3551,
+    "rep_votes": 14909,
+    "other_votes": 1906,
+    "total_votes": 20366,
+    "all_parties": {
+      "LIB": 459,
+      "PET": 1052,
+      "DEM": 3551,
+      "WFM": 351,
+      "REP": 14909,
+      "NON": 44
+    },
+    "county_fips": "45073",
+    "two_party_total": 18460,
+    "margin": 11358,
+    "margin_pct": 61.52762730227519,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 20156,
+    "rep_votes": 7116,
+    "other_votes": 806,
+    "total_votes": 28078,
+    "all_parties": {
+      "LIB": 155,
+      "PET": 254,
+      "DEM": 20156,
+      "WFM": 381,
+      "REP": 7116,
+      "NON": 16
+    },
+    "county_fips": "45075",
+    "two_party_total": 27272,
+    "margin": 13040,
+    "margin_pct": 47.81460838955706,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4422,
+    "rep_votes": 19208,
+    "other_votes": 3661,
+    "total_votes": 27291,
+    "all_parties": {
+      "LIB": 1043,
+      "PET": 1688,
+      "DEM": 4422,
+      "WFM": 657,
+      "REP": 19208,
+      "NON": 273
+    },
+    "county_fips": "45077",
+    "two_party_total": 23630,
+    "margin": 14786,
+    "margin_pct": 62.57300042319086,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 64369,
+    "rep_votes": 39692,
+    "other_votes": 6689,
+    "total_votes": 110750,
+    "all_parties": {
+      "LIB": 1926,
+      "PET": 2773,
+      "DEM": 64369,
+      "WFM": 1862,
+      "REP": 39692,
+      "NON": 128
+    },
+    "county_fips": "45079",
+    "two_party_total": 104061,
+    "margin": 24677,
+    "margin_pct": 23.713975456703277,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 1768,
+    "rep_votes": 3493,
+    "other_votes": 402,
+    "total_votes": 5663,
+    "all_parties": {
+      "LIB": 86,
+      "PET": 176,
+      "DEM": 1768,
+      "WFM": 134,
+      "REP": 3493,
+      "NON": 6
+    },
+    "county_fips": "45081",
+    "two_party_total": 5261,
+    "margin": 1725,
+    "margin_pct": 32.788443261737314,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 17587,
+    "rep_votes": 38016,
+    "other_votes": 8971,
+    "total_votes": 64574,
+    "all_parties": {
+      "LIB": 2498,
+      "PET": 4171,
+      "DEM": 17587,
+      "WFM": 1402,
+      "REP": 38016,
+      "NON": 900
+    },
+    "county_fips": "45083",
+    "two_party_total": 55603,
+    "margin": 20429,
+    "margin_pct": 36.740823336870314,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 15841,
+    "rep_votes": 12487,
+    "other_votes": 1614,
+    "total_votes": 29942,
+    "all_parties": {
+      "LIB": 416,
+      "PET": 711,
+      "DEM": 15841,
+      "WFM": 466,
+      "REP": 12487,
+      "NON": 21
+    },
+    "county_fips": "45085",
+    "two_party_total": 28328,
+    "margin": 3354,
+    "margin_pct": 11.839875741316012,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2830,
+    "rep_votes": 4081,
+    "other_votes": 963,
+    "total_votes": 7874,
+    "all_parties": {
+      "LIB": 144,
+      "PET": 565,
+      "DEM": 2830,
+      "WFM": 210,
+      "REP": 4081,
+      "NON": 44
+    },
+    "county_fips": "45087",
+    "two_party_total": 6911,
+    "margin": 1251,
+    "margin_pct": 18.10157719577485,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6995,
+    "rep_votes": 3344,
+    "other_votes": 405,
+    "total_votes": 10744,
+    "all_parties": {
+      "LIB": 73,
+      "PET": 188,
+      "DEM": 6995,
+      "WFM": 128,
+      "REP": 3344,
+      "NON": 16
+    },
+    "county_fips": "45089",
+    "two_party_total": 10339,
+    "margin": 3651,
+    "margin_pct": 35.31289292968372,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 17389,
+    "rep_votes": 34585,
+    "other_votes": 5449,
+    "total_votes": 57423,
+    "all_parties": {
+      "LIB": 2406,
+      "PET": 1746,
+      "DEM": 17389,
+      "WFM": 1215,
+      "REP": 34585,
+      "NON": 82
+    },
+    "county_fips": "45091",
+    "two_party_total": 51974,
+    "margin": 17196,
+    "margin_pct": 33.0857736560588,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  }
+}

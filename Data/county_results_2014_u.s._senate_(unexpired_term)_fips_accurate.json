@@ -1,0 +1,1244 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 2577,
+    "rep_votes": 4472,
+    "other_votes": 108,
+    "total_votes": 7157,
+    "all_parties": {
+      "DEM": 2577,
+      "REP": 4472,
+      "AMR": 105,
+      "NON": 3
+    },
+    "county_fips": "45001",
+    "two_party_total": 7049,
+    "margin": 1895,
+    "margin_pct": 26.883245850475245,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 13557,
+    "rep_votes": 31063,
+    "other_votes": 768,
+    "total_votes": 45388,
+    "all_parties": {
+      "DEM": 13557,
+      "REP": 31063,
+      "AMR": 747,
+      "NON": 21
+    },
+    "county_fips": "45003",
+    "two_party_total": 44620,
+    "margin": 17506,
+    "margin_pct": 39.23352756611385,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 1647,
+    "rep_votes": 596,
+    "other_votes": 24,
+    "total_votes": 2267,
+    "all_parties": {
+      "DEM": 1647,
+      "REP": 596,
+      "AMR": 24,
+      "NON": 0
+    },
+    "county_fips": "45005",
+    "two_party_total": 2243,
+    "margin": 1051,
+    "margin_pct": 46.8568880962996,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 9927,
+    "rep_votes": 34160,
+    "other_votes": 860,
+    "total_votes": 44947,
+    "all_parties": {
+      "DEM": 9927,
+      "REP": 34160,
+      "AMR": 841,
+      "NON": 19
+    },
+    "county_fips": "45007",
+    "two_party_total": 44087,
+    "margin": 24233,
+    "margin_pct": 54.966316601265675,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3147,
+    "rep_votes": 1668,
+    "other_votes": 51,
+    "total_votes": 4866,
+    "all_parties": {
+      "DEM": 3147,
+      "REP": 1668,
+      "AMR": 51,
+      "NON": 0
+    },
+    "county_fips": "45009",
+    "two_party_total": 4815,
+    "margin": 1479,
+    "margin_pct": 30.71651090342679,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 2874,
+    "rep_votes": 3166,
+    "other_votes": 92,
+    "total_votes": 6132,
+    "all_parties": {
+      "DEM": 2874,
+      "REP": 3166,
+      "AMC": 91,
+      "NON": 1
+    },
+    "county_fips": "45011",
+    "two_party_total": 6040,
+    "margin": 292,
+    "margin_pct": 4.8344370860927155,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 15685,
+    "rep_votes": 31283,
+    "other_votes": 763,
+    "total_votes": 47731,
+    "all_parties": {
+      "DEM": 15685,
+      "REP": 31283,
+      "AMC": 741,
+      "NON": 22
+    },
+    "county_fips": "45013",
+    "two_party_total": 46968,
+    "margin": 15598,
+    "margin_pct": 33.209845000851644,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 14970,
+    "rep_votes": 27573,
+    "other_votes": 616,
+    "total_votes": 43159,
+    "all_parties": {
+      "DEM": 14970,
+      "REP": 27573,
+      "AMR": 598,
+      "NON": 18
+    },
+    "county_fips": "45015",
+    "two_party_total": 42543,
+    "margin": 12603,
+    "margin_pct": 29.62414498272336,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 2629,
+    "rep_votes": 2501,
+    "other_votes": 70,
+    "total_votes": 5200,
+    "all_parties": {
+      "DEM": 2629,
+      "REP": 2501,
+      "AMR": 69,
+      "NON": 1
+    },
+    "county_fips": "45017",
+    "two_party_total": 5130,
+    "margin": 128,
+    "margin_pct": 2.4951267056530213,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 41687,
+    "rep_votes": 55747,
+    "other_votes": 1723,
+    "total_votes": 99157,
+    "all_parties": {
+      "DEM": 41687,
+      "REP": 55747,
+      "AMR": 1669,
+      "NON": 54
+    },
+    "county_fips": "45019",
+    "two_party_total": 97434,
+    "margin": 14060,
+    "margin_pct": 14.430281010735472,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3183,
+    "rep_votes": 8857,
+    "other_votes": 261,
+    "total_votes": 12301,
+    "all_parties": {
+      "DEM": 3183,
+      "REP": 8857,
+      "AMR": 257,
+      "NON": 4
+    },
+    "county_fips": "45021",
+    "two_party_total": 12040,
+    "margin": 5674,
+    "margin_pct": 47.12624584717608,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 4352,
+    "rep_votes": 5697,
+    "other_votes": 159,
+    "total_votes": 10208,
+    "all_parties": {
+      "DEM": 4352,
+      "REP": 5697,
+      "AMR": 155,
+      "NON": 4
+    },
+    "county_fips": "45025",
+    "two_party_total": 10049,
+    "margin": 1345,
+    "margin_pct": 13.3844163598368,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3773,
+    "rep_votes": 3935,
+    "other_votes": 231,
+    "total_votes": 7939,
+    "all_parties": {
+      "DEM": 3773,
+      "REP": 3935,
+      "AMR": 228,
+      "NON": 3
+    },
+    "county_fips": "45023",
+    "two_party_total": 7708,
+    "margin": 162,
+    "margin_pct": 2.101712506486767,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 5413,
+    "rep_votes": 4741,
+    "other_votes": 107,
+    "total_votes": 10261,
+    "all_parties": {
+      "DEM": 5413,
+      "REP": 4741,
+      "AMR": 106,
+      "NON": 1
+    },
+    "county_fips": "45027",
+    "two_party_total": 10154,
+    "margin": 672,
+    "margin_pct": 6.618081544219027,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 4655,
+    "rep_votes": 6006,
+    "other_votes": 156,
+    "total_votes": 10817,
+    "all_parties": {
+      "DEM": 4655,
+      "REP": 6006,
+      "AMR": 155,
+      "NON": 1
+    },
+    "county_fips": "45029",
+    "two_party_total": 10661,
+    "margin": 1351,
+    "margin_pct": 12.672357189757058,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 9029,
+    "rep_votes": 9365,
+    "other_votes": 192,
+    "total_votes": 18586,
+    "all_parties": {
+      "DEM": 9029,
+      "REP": 9365,
+      "AMR": 191,
+      "NON": 1
+    },
+    "county_fips": "45031",
+    "two_party_total": 18394,
+    "margin": 336,
+    "margin_pct": 1.8266826138958354,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3131,
+    "rep_votes": 3170,
+    "other_votes": 84,
+    "total_votes": 6385,
+    "all_parties": {
+      "DEM": 3131,
+      "REP": 3170,
+      "AMR": 81,
+      "NON": 3
+    },
+    "county_fips": "45033",
+    "two_party_total": 6301,
+    "margin": 39,
+    "margin_pct": 0.6189493731153785,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Republican",
+      "color": "#fcbba1"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 11593,
+    "rep_votes": 22234,
+    "other_votes": 514,
+    "total_votes": 34341,
+    "all_parties": {
+      "DEM": 11593,
+      "REP": 22234,
+      "AMR": 504,
+      "NON": 10
+    },
+    "county_fips": "45035",
+    "two_party_total": 33827,
+    "margin": 10641,
+    "margin_pct": 31.457120052029442,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 2643,
+    "rep_votes": 4261,
+    "other_votes": 87,
+    "total_votes": 6991,
+    "all_parties": {
+      "DEM": 2643,
+      "REP": 4261,
+      "AMR": 87,
+      "NON": 0
+    },
+    "county_fips": "45037",
+    "two_party_total": 6904,
+    "margin": 1618,
+    "margin_pct": 23.435689455388182,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 4777,
+    "rep_votes": 3151,
+    "other_votes": 155,
+    "total_votes": 8083,
+    "all_parties": {
+      "DEM": 4777,
+      "REP": 3151,
+      "AMR": 154,
+      "NON": 1
+    },
+    "county_fips": "45039",
+    "two_party_total": 7928,
+    "margin": 1626,
+    "margin_pct": 20.509586276488395,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 16243,
+    "rep_votes": 19659,
+    "other_votes": 414,
+    "total_votes": 36316,
+    "all_parties": {
+      "DEM": 16243,
+      "REP": 19659,
+      "AMR": 403,
+      "NON": 11
+    },
+    "county_fips": "45041",
+    "two_party_total": 35902,
+    "margin": 3416,
+    "margin_pct": 9.514790262380926,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 7974,
+    "rep_votes": 12229,
+    "other_votes": 278,
+    "total_votes": 20481,
+    "all_parties": {
+      "DEM": 7974,
+      "REP": 12229,
+      "AMR": 273,
+      "NON": 5
+    },
+    "county_fips": "45043",
+    "two_party_total": 20203,
+    "margin": 4255,
+    "margin_pct": 21.061228530416276,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 31926,
+    "rep_votes": 90248,
+    "other_votes": 2245,
+    "total_votes": 124419,
+    "all_parties": {
+      "DEM": 31926,
+      "REP": 90248,
+      "AMR": 2169,
+      "NON": 76
+    },
+    "county_fips": "45045",
+    "two_party_total": 122174,
+    "margin": 58322,
+    "margin_pct": 47.73683435100758,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 5949,
+    "rep_votes": 11496,
+    "other_votes": 254,
+    "total_votes": 17699,
+    "all_parties": {
+      "DEM": 5949,
+      "REP": 11496,
+      "AME": 250,
+      "NON": 4
+    },
+    "county_fips": "45047",
+    "two_party_total": 17445,
+    "margin": 5547,
+    "margin_pct": 31.797076526225283,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3622,
+    "rep_votes": 2080,
+    "other_votes": 84,
+    "total_votes": 5786,
+    "all_parties": {
+      "DEM": 3622,
+      "REP": 2080,
+      "AMR": 84,
+      "NON": 0
+    },
+    "county_fips": "45049",
+    "two_party_total": 5702,
+    "margin": 1542,
+    "margin_pct": 27.043142756927395,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 17743,
+    "rep_votes": 49390,
+    "other_votes": 1251,
+    "total_votes": 68384,
+    "all_parties": {
+      "DEM": 17743,
+      "REP": 49390,
+      "AMR": 1222,
+      "NON": 29
+    },
+    "county_fips": "45051",
+    "two_party_total": 67133,
+    "margin": 31647,
+    "margin_pct": 47.14075045059807,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3463,
+    "rep_votes": 3084,
+    "other_votes": 95,
+    "total_votes": 6642,
+    "all_parties": {
+      "DEM": 3463,
+      "REP": 3084,
+      "AMR": 92,
+      "NON": 3
+    },
+    "county_fips": "45053",
+    "two_party_total": 6547,
+    "margin": 379,
+    "margin_pct": 5.788910951580877,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 6820,
+    "rep_votes": 12098,
+    "other_votes": 417,
+    "total_votes": 19335,
+    "all_parties": {
+      "DEM": 6820,
+      "REP": 12098,
+      "AMR": 411,
+      "NON": 6
+    },
+    "county_fips": "45055",
+    "two_party_total": 18918,
+    "margin": 5278,
+    "margin_pct": 27.899355111533993,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 6938,
+    "rep_votes": 12671,
+    "other_votes": 412,
+    "total_votes": 20021,
+    "all_parties": {
+      "DEM": 6938,
+      "REP": 12671,
+      "AMR": 403,
+      "NON": 9
+    },
+    "county_fips": "45057",
+    "two_party_total": 19609,
+    "margin": 5733,
+    "margin_pct": 29.236575042072516,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 4522,
+    "rep_votes": 10339,
+    "other_votes": 287,
+    "total_votes": 15148,
+    "all_parties": {
+      "DEM": 4522,
+      "REP": 10339,
+      "AMR": 285,
+      "NON": 2
+    },
+    "county_fips": "45059",
+    "two_party_total": 14861,
+    "margin": 5817,
+    "margin_pct": 39.14272256241168,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3841,
+    "rep_votes": 1863,
+    "other_votes": 53,
+    "total_votes": 5757,
+    "all_parties": {
+      "DEM": 3841,
+      "REP": 1863,
+      "AMR": 53,
+      "NON": 0
+    },
+    "county_fips": "45061",
+    "two_party_total": 5704,
+    "margin": 1978,
+    "margin_pct": 34.67741935483871,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 17992,
+    "rep_votes": 55615,
+    "other_votes": 1917,
+    "total_votes": 75524,
+    "all_parties": {
+      "DEM": 17992,
+      "REP": 55615,
+      "AMR": 1869,
+      "NON": 48
+    },
+    "county_fips": "45063",
+    "two_party_total": 73607,
+    "margin": 37623,
+    "margin_pct": 51.11334519814692,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 5344,
+    "rep_votes": 3302,
+    "other_votes": 83,
+    "total_votes": 8729,
+    "all_parties": {
+      "DEM": 5344,
+      "REP": 3302,
+      "AMR": 81,
+      "NON": 2
+    },
+    "county_fips": "45065",
+    "two_party_total": 8646,
+    "margin": 2042,
+    "margin_pct": 23.617857969003005,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3637,
+    "rep_votes": 2474,
+    "other_votes": 92,
+    "total_votes": 6203,
+    "all_parties": {
+      "DEM": 3637,
+      "REP": 2474,
+      "AMR": 89,
+      "NON": 3
+    },
+    "county_fips": "45067",
+    "two_party_total": 6111,
+    "margin": 1163,
+    "margin_pct": 19.03125511372934,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 1580,
+    "rep_votes": 1960,
+    "other_votes": 48,
+    "total_votes": 3588,
+    "all_parties": {
+      "DEM": 1580,
+      "REP": 1960,
+      "AMR": 48,
+      "NON": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3540,
+    "margin": 380,
+    "margin_pct": 10.734463276836157,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3777,
+    "rep_votes": 6907,
+    "other_votes": 236,
+    "total_votes": 10920,
+    "all_parties": {
+      "DEM": 3777,
+      "REP": 6907,
+      "AMR": 235,
+      "NON": 1
+    },
+    "county_fips": "45071",
+    "two_party_total": 10684,
+    "margin": 3130,
+    "margin_pct": 29.296143766379636,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3927,
+    "rep_votes": 15919,
+    "other_votes": 468,
+    "total_votes": 20314,
+    "all_parties": {
+      "DEM": 3927,
+      "REP": 15919,
+      "AMR": 458,
+      "NON": 10
+    },
+    "county_fips": "45073",
+    "two_party_total": 19846,
+    "margin": 11992,
+    "margin_pct": 60.4252746145319,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 19625,
+    "rep_votes": 8137,
+    "other_votes": 214,
+    "total_votes": 27976,
+    "all_parties": {
+      "DEM": 19625,
+      "REP": 8137,
+      "AMR": 204,
+      "NON": 10
+    },
+    "county_fips": "45075",
+    "two_party_total": 27762,
+    "margin": 11488,
+    "margin_pct": 41.380304012679204,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 4551,
+    "rep_votes": 22249,
+    "other_votes": 539,
+    "total_votes": 27339,
+    "all_parties": {
+      "DEM": 4551,
+      "REP": 22249,
+      "AMR": 522,
+      "NON": 17
+    },
+    "county_fips": "45077",
+    "two_party_total": 26800,
+    "margin": 17698,
+    "margin_pct": 66.03731343283582,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 64867,
+    "rep_votes": 43453,
+    "other_votes": 2132,
+    "total_votes": 110452,
+    "all_parties": {
+      "DEM": 64867,
+      "REP": 43453,
+      "AMR": 2071,
+      "NON": 61
+    },
+    "county_fips": "45079",
+    "two_party_total": 108320,
+    "margin": 21414,
+    "margin_pct": 19.7692023633678,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 1804,
+    "rep_votes": 3748,
+    "other_votes": 98,
+    "total_votes": 5650,
+    "all_parties": {
+      "DEM": 1804,
+      "REP": 3748,
+      "AMR": 96,
+      "NON": 2
+    },
+    "county_fips": "45081",
+    "two_party_total": 5552,
+    "margin": 1944,
+    "margin_pct": 35.014409221902014,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 17570,
+    "rep_votes": 45981,
+    "other_votes": 1246,
+    "total_votes": 64797,
+    "all_parties": {
+      "DEM": 17570,
+      "REP": 45981,
+      "AMR": 1210,
+      "NON": 36
+    },
+    "county_fips": "45083",
+    "two_party_total": 63551,
+    "margin": 28411,
+    "margin_pct": 44.70582681625781,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 15891,
+    "rep_votes": 13573,
+    "other_votes": 377,
+    "total_votes": 29841,
+    "all_parties": {
+      "DEM": 15891,
+      "REP": 13573,
+      "AMR": 373,
+      "NON": 4
+    },
+    "county_fips": "45085",
+    "two_party_total": 29464,
+    "margin": 2318,
+    "margin_pct": 7.867227803421124,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3070,
+    "rep_votes": 4591,
+    "other_votes": 198,
+    "total_votes": 7859,
+    "all_parties": {
+      "DEM": 3070,
+      "REP": 4591,
+      "AMR": 195,
+      "NON": 3
+    },
+    "county_fips": "45087",
+    "two_party_total": 7661,
+    "margin": 1521,
+    "margin_pct": 19.853804986294218,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 7125,
+    "rep_votes": 3536,
+    "other_votes": 85,
+    "total_votes": 10746,
+    "all_parties": {
+      "DEM": 7125,
+      "REP": 3536,
+      "AMR": 79,
+      "NON": 6
+    },
+    "county_fips": "45089",
+    "two_party_total": 10661,
+    "margin": 3589,
+    "margin_pct": 33.664759403433074,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 18533,
+    "rep_votes": 36967,
+    "other_votes": 1640,
+    "total_votes": 57140,
+    "all_parties": {
+      "DEM": 18533,
+      "REP": 36967,
+      "AMR": 1623,
+      "NON": 17
+    },
+    "county_fips": "45091",
+    "two_party_total": 55500,
+    "margin": 18434,
+    "margin_pct": 33.21441441441442,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  }
+}

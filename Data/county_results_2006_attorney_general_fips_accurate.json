@@ -1,0 +1,1152 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 4543,
+    "other_votes": 26,
+    "total_votes": 4569,
+    "all_parties": {
+      "REPUBLICAN": 4543,
+      "": 26
+    },
+    "county_fips": "45001",
+    "two_party_total": 4543,
+    "margin": 4543,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 30665,
+    "other_votes": 190,
+    "total_votes": 30855,
+    "all_parties": {
+      "REPUBLICAN": 30665,
+      "": 190
+    },
+    "county_fips": "45003",
+    "two_party_total": 30665,
+    "margin": 30665,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 1055,
+    "other_votes": 7,
+    "total_votes": 1062,
+    "all_parties": {
+      "REPUBLICAN": 1055,
+      "": 7
+    },
+    "county_fips": "45005",
+    "two_party_total": 1055,
+    "margin": 1055,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 35708,
+    "other_votes": 232,
+    "total_votes": 35940,
+    "all_parties": {
+      "REPUBLICAN": 35708,
+      "": 232
+    },
+    "county_fips": "45007",
+    "two_party_total": 35708,
+    "margin": 35708,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 1846,
+    "other_votes": 9,
+    "total_votes": 1855,
+    "all_parties": {
+      "REPUBLICAN": 1846,
+      "": 9
+    },
+    "county_fips": "45009",
+    "two_party_total": 1846,
+    "margin": 1846,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 3616,
+    "other_votes": 16,
+    "total_votes": 3632,
+    "all_parties": {
+      "REPUBLICAN": 3616,
+      "": 16
+    },
+    "county_fips": "45011",
+    "two_party_total": 3616,
+    "margin": 3616,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 28481,
+    "other_votes": 209,
+    "total_votes": 28690,
+    "all_parties": {
+      "REPUBLICAN": 28481,
+      "": 209
+    },
+    "county_fips": "45013",
+    "two_party_total": 28481,
+    "margin": 28481,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 24799,
+    "other_votes": 126,
+    "total_votes": 24925,
+    "all_parties": {
+      "REPUBLICAN": 24799,
+      "": 126
+    },
+    "county_fips": "45015",
+    "two_party_total": 24799,
+    "margin": 24799,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 2824,
+    "other_votes": 19,
+    "total_votes": 2843,
+    "all_parties": {
+      "REPUBLICAN": 2824,
+      "": 19
+    },
+    "county_fips": "45017",
+    "two_party_total": 2824,
+    "margin": 2824,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 61452,
+    "other_votes": 792,
+    "total_votes": 62244,
+    "all_parties": {
+      "REPUBLICAN": 61452,
+      "": 792
+    },
+    "county_fips": "45019",
+    "two_party_total": 61452,
+    "margin": 61452,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 10784,
+    "other_votes": 34,
+    "total_votes": 10818,
+    "all_parties": {
+      "REPUBLICAN": 10784,
+      "": 34
+    },
+    "county_fips": "45021",
+    "two_party_total": 10784,
+    "margin": 10784,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 4810,
+    "other_votes": 32,
+    "total_votes": 4842,
+    "all_parties": {
+      "REPUBLICAN": 4810,
+      "": 32
+    },
+    "county_fips": "45023",
+    "two_party_total": 4810,
+    "margin": 4810,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 5226,
+    "other_votes": 38,
+    "total_votes": 5264,
+    "all_parties": {
+      "REPUBLICAN": 5226,
+      "": 38
+    },
+    "county_fips": "45025",
+    "two_party_total": 5226,
+    "margin": 5226,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 4693,
+    "other_votes": 19,
+    "total_votes": 4712,
+    "all_parties": {
+      "REPUBLICAN": 4693,
+      "": 19
+    },
+    "county_fips": "45027",
+    "two_party_total": 4693,
+    "margin": 4693,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 6583,
+    "other_votes": 41,
+    "total_votes": 6624,
+    "all_parties": {
+      "REPUBLICAN": 6583,
+      "": 41
+    },
+    "county_fips": "45029",
+    "two_party_total": 6583,
+    "margin": 6583,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 9722,
+    "other_votes": 45,
+    "total_votes": 9767,
+    "all_parties": {
+      "REPUBLICAN": 9722,
+      "": 45
+    },
+    "county_fips": "45031",
+    "two_party_total": 9722,
+    "margin": 9722,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 3496,
+    "other_votes": 11,
+    "total_votes": 3507,
+    "all_parties": {
+      "REPUBLICAN": 3496,
+      "": 11
+    },
+    "county_fips": "45033",
+    "two_party_total": 3496,
+    "margin": 3496,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 21737,
+    "other_votes": 126,
+    "total_votes": 21863,
+    "all_parties": {
+      "REPUBLICAN": 21737,
+      "": 126
+    },
+    "county_fips": "45035",
+    "two_party_total": 21737,
+    "margin": 21737,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 4481,
+    "other_votes": 25,
+    "total_votes": 4506,
+    "all_parties": {
+      "REPUBLICAN": 4481,
+      "": 25
+    },
+    "county_fips": "45037",
+    "two_party_total": 4481,
+    "margin": 4481,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 3686,
+    "other_votes": 24,
+    "total_votes": 3710,
+    "all_parties": {
+      "REPUBLICAN": 3686,
+      "": 24
+    },
+    "county_fips": "45039",
+    "two_party_total": 3686,
+    "margin": 3686,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 21524,
+    "other_votes": 134,
+    "total_votes": 21658,
+    "all_parties": {
+      "REPUBLICAN": 21524,
+      "": 134
+    },
+    "county_fips": "45041",
+    "two_party_total": 21524,
+    "margin": 21524,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 10961,
+    "other_votes": 60,
+    "total_votes": 11021,
+    "all_parties": {
+      "REPUBLICAN": 10961,
+      "": 60
+    },
+    "county_fips": "45043",
+    "two_party_total": 10961,
+    "margin": 10961,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 84726,
+    "other_votes": 812,
+    "total_votes": 85538,
+    "all_parties": {
+      "REPUBLICAN": 84726,
+      "": 812
+    },
+    "county_fips": "45045",
+    "two_party_total": 84726,
+    "margin": 84726,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 12178,
+    "other_votes": 84,
+    "total_votes": 12262,
+    "all_parties": {
+      "REPUBLICAN": 12178,
+      "": 84
+    },
+    "county_fips": "45047",
+    "two_party_total": 12178,
+    "margin": 12178,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 3125,
+    "other_votes": 28,
+    "total_votes": 3153,
+    "all_parties": {
+      "REPUBLICAN": 3125,
+      "": 28
+    },
+    "county_fips": "45049",
+    "two_party_total": 3125,
+    "margin": 3125,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 41534,
+    "other_votes": 235,
+    "total_votes": 41769,
+    "all_parties": {
+      "REPUBLICAN": 41534,
+      "": 235
+    },
+    "county_fips": "45051",
+    "two_party_total": 41534,
+    "margin": 41534,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 1984,
+    "other_votes": 15,
+    "total_votes": 1999,
+    "all_parties": {
+      "REPUBLICAN": 1984,
+      "": 15
+    },
+    "county_fips": "45053",
+    "two_party_total": 1984,
+    "margin": 1984,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 13582,
+    "other_votes": 69,
+    "total_votes": 13651,
+    "all_parties": {
+      "REPUBLICAN": 13582,
+      "": 69
+    },
+    "county_fips": "45055",
+    "two_party_total": 13582,
+    "margin": 13582,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 10988,
+    "other_votes": 56,
+    "total_votes": 11044,
+    "all_parties": {
+      "REPUBLICAN": 10988,
+      "": 56
+    },
+    "county_fips": "45057",
+    "two_party_total": 10988,
+    "margin": 10988,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 11465,
+    "other_votes": 72,
+    "total_votes": 11537,
+    "all_parties": {
+      "REPUBLICAN": 11465,
+      "": 72
+    },
+    "county_fips": "45059",
+    "two_party_total": 11465,
+    "margin": 11465,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 2260,
+    "other_votes": 21,
+    "total_votes": 2281,
+    "all_parties": {
+      "REPUBLICAN": 2260,
+      "": 21
+    },
+    "county_fips": "45061",
+    "two_party_total": 2260,
+    "margin": 2260,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 57091,
+    "other_votes": 386,
+    "total_votes": 57477,
+    "all_parties": {
+      "REPUBLICAN": 57091,
+      "": 386
+    },
+    "county_fips": "45063",
+    "two_party_total": 57091,
+    "margin": 57091,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 1932,
+    "other_votes": 10,
+    "total_votes": 1942,
+    "all_parties": {
+      "REPUBLICAN": 1932,
+      "": 10
+    },
+    "county_fips": "45069",
+    "two_party_total": 1932,
+    "margin": 1932,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 3937,
+    "other_votes": 28,
+    "total_votes": 3965,
+    "all_parties": {
+      "REPUBLICAN": 3937,
+      "": 28
+    },
+    "county_fips": "45065",
+    "two_party_total": 3937,
+    "margin": 3937,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 2864,
+    "other_votes": 14,
+    "total_votes": 2878,
+    "all_parties": {
+      "REPUBLICAN": 2864,
+      "": 14
+    },
+    "county_fips": "45067",
+    "two_party_total": 2864,
+    "margin": 2864,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 7439,
+    "other_votes": 35,
+    "total_votes": 7474,
+    "all_parties": {
+      "REPUBLICAN": 7439,
+      "": 35
+    },
+    "county_fips": "45071",
+    "two_party_total": 7439,
+    "margin": 7439,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 15726,
+    "other_votes": 81,
+    "total_votes": 15807,
+    "all_parties": {
+      "REPUBLICAN": 15726,
+      "": 81
+    },
+    "county_fips": "45073",
+    "two_party_total": 15726,
+    "margin": 15726,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 10790,
+    "other_votes": 95,
+    "total_votes": 10885,
+    "all_parties": {
+      "REPUBLICAN": 10790,
+      "": 95
+    },
+    "county_fips": "45075",
+    "two_party_total": 10790,
+    "margin": 10790,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 23354,
+    "other_votes": 170,
+    "total_votes": 23524,
+    "all_parties": {
+      "REPUBLICAN": 23354,
+      "": 170
+    },
+    "county_fips": "45077",
+    "two_party_total": 23354,
+    "margin": 23354,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 58375,
+    "other_votes": 964,
+    "total_votes": 59339,
+    "all_parties": {
+      "REPUBLICAN": 58375,
+      "": 964
+    },
+    "county_fips": "45079",
+    "two_party_total": 58375,
+    "margin": 58375,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 4127,
+    "other_votes": 27,
+    "total_votes": 4154,
+    "all_parties": {
+      "REPUBLICAN": 4127,
+      "": 27
+    },
+    "county_fips": "45081",
+    "two_party_total": 4127,
+    "margin": 4127,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 47622,
+    "other_votes": 293,
+    "total_votes": 47915,
+    "all_parties": {
+      "REPUBLICAN": 47622,
+      "": 293
+    },
+    "county_fips": "45083",
+    "two_party_total": 47622,
+    "margin": 47622,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 13730,
+    "other_votes": 78,
+    "total_votes": 13808,
+    "all_parties": {
+      "REPUBLICAN": 13730,
+      "": 78
+    },
+    "county_fips": "45085",
+    "two_party_total": 13730,
+    "margin": 13730,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 5441,
+    "other_votes": 28,
+    "total_votes": 5469,
+    "all_parties": {
+      "REPUBLICAN": 5441,
+      "": 28
+    },
+    "county_fips": "45087",
+    "two_party_total": 5441,
+    "margin": 5441,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 3752,
+    "other_votes": 51,
+    "total_votes": 3803,
+    "all_parties": {
+      "REPUBLICAN": 3752,
+      "": 51
+    },
+    "county_fips": "45089",
+    "two_party_total": 3752,
+    "margin": 3752,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 38739,
+    "other_votes": 240,
+    "total_votes": 38979,
+    "all_parties": {
+      "REPUBLICAN": 38739,
+      "": 240
+    },
+    "county_fips": "45091",
+    "two_party_total": 38739,
+    "margin": 38739,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  }
+}
