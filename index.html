@@ -67,56 +67,19 @@
     }
   /* Colorblind mode styles removed for SC version */
   </style>
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-  <script src="data/candidateNameOverride.js"></script>
-  <script src="data/candidateLookup.js"></script>
   <script>
-    // Option 2: Load candidate_lookup.csv dynamically
-    window.candidateLookupCSV = {};
-    Papa.parse('data/candidate_lookup.csv', {
-      download: true,
-      header: true,
-      complete: function(results) {
-        results.data.forEach(row => {
-          const key = `${row.Year}|${row.Office}|${row.Party}`;
-          window.candidateLookupCSV[key] = row.CandidateName;
-        });
-      }
-    });
-
-    // Helper: get candidate name from static JS or dynamic CSV, then apply override
+    // SC map doesn't need candidate lookup files - functionality removed
+    
+    // Helper function for SC map (simplified)
     function getCandidateName(year, office, party) {
-      const key = `${year}|${office}|${party}`;
-      let name = null;
-      // Try static JS first
-      if (window.candidateLookup && window.candidateLookup[key]) {
-        name = window.candidateLookup[key];
-      }
-      // Fallback to dynamic CSV
-      else if (window.candidateLookupCSV && window.candidateLookupCSV[key]) {
-        name = window.candidateLookupCSV[key];
-      }
-      // Fallback to party name
-      else {
-        name = party;
-      }
-      // Apply override if available (using year, office, party)
-      if (window.candidateNameOverride) {
-        const overrideKey = `${year}|${office}|${party}`;
-        if (window.candidateNameOverride[window.normalizeCandidateNameKey(overrideKey)]) {
-          return window.candidateNameOverride[window.normalizeCandidateNameKey(overrideKey)];
-        }
-      }
-      // For President and Governor, enforce first+last name only if running mate present
-      if ((office === 'President of the United States' || office === 'Governor') && typeof name === 'string' && name.includes(' / ')) {
-        // Always return everything before ' / ' (full string, not just last word)
-        let mainCandidate = name.split(' / ')[0].trim();
-        mainCandidate = mainCandidate.replace(/\s+/g, ' ').trim();
-        console.log('DEBUG getCandidateName:', { key, raw: name, mainCandidate });
-        return mainCandidate;
-      }
-      return name;
+      // For SC map, just return the party name as candidate name
+      return party || 'Unknown';
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // SC map initialization starts here
+      console.log('SC Political Map loaded');
+    });
   </script>
   <script>
     // Zoom to county by name using turf.js
