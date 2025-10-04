@@ -123,13 +123,9 @@
   <script>
     // Zoom to county by name using turf.js
     function zoomToCounty(countyName) {
-      try {
-        const countiesSource = map.getSource('counties');
-        if (!countiesSource || !countiesSource._data || !countiesSource._data.features) {
-          console.warn('zoomToCounty: counties source not ready');
-          return;
-        }
-        const counties = countiesSource._data.features;
+      const countiesSource = map.getSource('counties');
+      if (!countiesSource || !countiesSource._data || !countiesSource._data.features) return;
+      const counties = countiesSource._data.features;
       // Normalize county names for matching
       function normalizeCountyName(name) {
         return (name || '')
@@ -146,23 +142,9 @@
         const name = normalizeCountyName(props.County || props.COUNTYNAME || props.NAME || '');
         return name === normTarget;
       });
-      if (!countyFeature) {
-        console.warn('zoomToCounty: county not found for', countyName);
-        return;
-      }
-      if (typeof turf === 'undefined' || !turf.bbox) {
-        console.warn('zoomToCounty: turf not available');
-        return;
-      }
-      const bbox = turf.bbox(countyFeature); // [minX, minY, maxX, maxY]
-      // Convert to [[minLng,minLat],[maxLng,maxLat]] which map.fitBounds expects
-      const fitBoundsBox = [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
-      map.fitBounds(fitBoundsBox, { padding: 40, maxZoom: 10 });
-      console.log('zoomToCounty: zoomed to', countyName, fitBoundsBox);
-      return;
-      } catch (err) {
-        console.error('zoomToCounty error:', err);
-      }
+      if (!countyFeature) return;
+      const bbox = turf.bbox(countyFeature);
+      map.fitBounds(bbox, { padding: 40, maxZoom: 10 });
     }
   </script>
   
