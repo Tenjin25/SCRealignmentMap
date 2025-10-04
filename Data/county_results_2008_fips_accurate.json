@@ -1192,7 +1192,7 @@
       "color": "#ef3b2c"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "PRESIDENT",
     "year": "2008",
@@ -1210,7 +1210,7 @@
       "DEM": 9608,
       "CON": 29
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 15024,
     "margin": 4192,
     "margin_pct": 27.902023429179977,
@@ -1221,7 +1221,7 @@
       "color": "#4292c6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",
     "year": "2008",
@@ -1239,7 +1239,7 @@
       "DEM": 2755,
       "CON": 8
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 5192,
     "margin": 318,
     "margin_pct": 6.1248073959938365,

@@ -1,0 +1,1152 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 6746,
+    "other_votes": 40,
+    "total_votes": 6786,
+    "all_parties": {
+      "REP": 6746,
+      "": 40
+    },
+    "county_fips": "45001",
+    "two_party_total": 6746,
+    "margin": 6746,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 41643,
+    "other_votes": 794,
+    "total_votes": 42437,
+    "all_parties": {
+      "REP": 41643,
+      "NON": 794
+    },
+    "county_fips": "45003",
+    "two_party_total": 41643,
+    "margin": 41643,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 737,
+    "other_votes": 10,
+    "total_votes": 747,
+    "all_parties": {
+      "REP": 737,
+      "NON": 10
+    },
+    "county_fips": "45005",
+    "two_party_total": 737,
+    "margin": 737,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 52763,
+    "other_votes": 640,
+    "total_votes": 53403,
+    "all_parties": {
+      "REP": 52763,
+      "NON": 640
+    },
+    "county_fips": "45007",
+    "two_party_total": 52763,
+    "margin": 52763,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 2168,
+    "other_votes": 22,
+    "total_votes": 2190,
+    "all_parties": {
+      "REP": 2168,
+      "NON": 22
+    },
+    "county_fips": "45009",
+    "two_party_total": 2168,
+    "margin": 2168,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 4210,
+    "other_votes": 39,
+    "total_votes": 4249,
+    "all_parties": {
+      "REP": 4210,
+      "NON": 39
+    },
+    "county_fips": "45011",
+    "two_party_total": 4210,
+    "margin": 4210,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 51501,
+    "other_votes": 734,
+    "total_votes": 52235,
+    "all_parties": {
+      "REP": 51501,
+      "NON": 734
+    },
+    "county_fips": "45013",
+    "two_party_total": 51501,
+    "margin": 51501,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 51646,
+    "other_votes": 928,
+    "total_votes": 52574,
+    "all_parties": {
+      "REP": 51646,
+      "NON": 928
+    },
+    "county_fips": "45015",
+    "two_party_total": 51646,
+    "margin": 51646,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 3935,
+    "other_votes": 60,
+    "total_votes": 3995,
+    "all_parties": {
+      "REP": 3935,
+      "NON": 60
+    },
+    "county_fips": "45017",
+    "two_party_total": 3935,
+    "margin": 3935,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 97302,
+    "other_votes": 2563,
+    "total_votes": 99865,
+    "all_parties": {
+      "REP": 97302,
+      "NON": 2563
+    },
+    "county_fips": "45019",
+    "two_party_total": 97302,
+    "margin": 97302,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 13634,
+    "other_votes": 95,
+    "total_votes": 13729,
+    "all_parties": {
+      "REP": 13634,
+      "NON": 95
+    },
+    "county_fips": "45021",
+    "two_party_total": 13634,
+    "margin": 13634,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 9324,
+    "other_votes": 89,
+    "total_votes": 9413,
+    "all_parties": {
+      "REP": 9324,
+      "NON": 89
+    },
+    "county_fips": "45025",
+    "two_party_total": 9324,
+    "margin": 9324,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 6840,
+    "other_votes": 72,
+    "total_votes": 6912,
+    "all_parties": {
+      "REP": 6840,
+      "NON": 72
+    },
+    "county_fips": "45023",
+    "two_party_total": 6840,
+    "margin": 6840,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 7514,
+    "other_votes": 64,
+    "total_votes": 7578,
+    "all_parties": {
+      "REP": 7514,
+      "": 64
+    },
+    "county_fips": "45027",
+    "two_party_total": 7514,
+    "margin": 7514,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 8720,
+    "other_votes": 117,
+    "total_votes": 8837,
+    "all_parties": {
+      "REP": 8720,
+      "NON": 117
+    },
+    "county_fips": "45029",
+    "two_party_total": 8720,
+    "margin": 8720,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 13600,
+    "other_votes": 145,
+    "total_votes": 13745,
+    "all_parties": {
+      "REP": 13600,
+      "NON": 145
+    },
+    "county_fips": "45031",
+    "two_party_total": 13600,
+    "margin": 13600,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 4990,
+    "other_votes": 67,
+    "total_votes": 5057,
+    "all_parties": {
+      "REP": 4990,
+      "NON": 67
+    },
+    "county_fips": "45033",
+    "two_party_total": 4990,
+    "margin": 4990,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 35859,
+    "other_votes": 788,
+    "total_votes": 36647,
+    "all_parties": {
+      "REP": 35859,
+      "NON": 788
+    },
+    "county_fips": "45035",
+    "two_party_total": 35859,
+    "margin": 35859,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 6692,
+    "other_votes": 59,
+    "total_votes": 6751,
+    "all_parties": {
+      "REP": 6692,
+      "NON": 59
+    },
+    "county_fips": "45037",
+    "two_party_total": 6692,
+    "margin": 6692,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 5022,
+    "other_votes": 101,
+    "total_votes": 5123,
+    "all_parties": {
+      "REP": 5022,
+      "NON": 101
+    },
+    "county_fips": "45039",
+    "two_party_total": 5022,
+    "margin": 5022,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 28529,
+    "other_votes": 469,
+    "total_votes": 28998,
+    "all_parties": {
+      "REP": 28529,
+      "NON": 469
+    },
+    "county_fips": "45041",
+    "two_party_total": 28529,
+    "margin": 28529,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 19306,
+    "other_votes": 185,
+    "total_votes": 19491,
+    "all_parties": {
+      "REP": 19306,
+      "NON": 185
+    },
+    "county_fips": "45043",
+    "two_party_total": 19306,
+    "margin": 19306,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 133812,
+    "other_votes": 2828,
+    "total_votes": 136640,
+    "all_parties": {
+      "REP": 133812,
+      "NON": 2828
+    },
+    "county_fips": "45045",
+    "two_party_total": 133812,
+    "margin": 133812,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 16668,
+    "other_votes": 224,
+    "total_votes": 16892,
+    "all_parties": {
+      "REP": 16668,
+      "NON": 224
+    },
+    "county_fips": "45047",
+    "two_party_total": 16668,
+    "margin": 16668,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 3250,
+    "other_votes": 24,
+    "total_votes": 3274,
+    "all_parties": {
+      "REP": 3250,
+      "NON": 24
+    },
+    "county_fips": "45049",
+    "two_party_total": 3250,
+    "margin": 3250,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 106170,
+    "other_votes": 1035,
+    "total_votes": 107205,
+    "all_parties": {
+      "REP": 106170,
+      "NON": 1035
+    },
+    "county_fips": "45051",
+    "two_party_total": 106170,
+    "margin": 106170,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 7501,
+    "other_votes": 94,
+    "total_votes": 7595,
+    "all_parties": {
+      "REP": 7501,
+      "NON": 94
+    },
+    "county_fips": "45053",
+    "two_party_total": 7501,
+    "margin": 7501,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 17184,
+    "other_votes": 254,
+    "total_votes": 17438,
+    "all_parties": {
+      "REP": 17184,
+      "NON": 254
+    },
+    "county_fips": "45055",
+    "two_party_total": 17184,
+    "margin": 17184,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 26329,
+    "other_votes": 355,
+    "total_votes": 26684,
+    "all_parties": {
+      "REP": 26329,
+      "NON": 355
+    },
+    "county_fips": "45057",
+    "two_party_total": 26329,
+    "margin": 26329,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 15840,
+    "other_votes": 205,
+    "total_votes": 16045,
+    "all_parties": {
+      "REP": 15840,
+      "NON": 205
+    },
+    "county_fips": "45059",
+    "two_party_total": 15840,
+    "margin": 15840,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 2584,
+    "other_votes": 24,
+    "total_votes": 2608,
+    "all_parties": {
+      "REP": 2584,
+      "NON": 24
+    },
+    "county_fips": "45061",
+    "two_party_total": 2584,
+    "margin": 2584,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 80010,
+    "other_votes": 1400,
+    "total_votes": 81410,
+    "all_parties": {
+      "REP": 80010,
+      "NON": 1400
+    },
+    "county_fips": "45063",
+    "two_party_total": 80010,
+    "margin": 80010,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 4895,
+    "other_votes": 75,
+    "total_votes": 4970,
+    "all_parties": {
+      "REP": 4895,
+      "NON": 75
+    },
+    "county_fips": "45065",
+    "two_party_total": 4895,
+    "margin": 4895,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 3945,
+    "other_votes": 35,
+    "total_votes": 3980,
+    "all_parties": {
+      "REP": 3945,
+      "NON": 35
+    },
+    "county_fips": "45067",
+    "two_party_total": 3945,
+    "margin": 3945,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 3091,
+    "other_votes": 32,
+    "total_votes": 3123,
+    "all_parties": {
+      "REP": 3091,
+      "NON": 32
+    },
+    "county_fips": "45069",
+    "two_party_total": 3091,
+    "margin": 3091,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 9980,
+    "other_votes": 89,
+    "total_votes": 10069,
+    "all_parties": {
+      "REP": 9980,
+      "": 89
+    },
+    "county_fips": "45071",
+    "two_party_total": 9980,
+    "margin": 9980,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 24576,
+    "other_votes": 260,
+    "total_votes": 24836,
+    "all_parties": {
+      "REP": 24576,
+      "NON": 260
+    },
+    "county_fips": "45073",
+    "two_party_total": 24576,
+    "margin": 24576,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 12858,
+    "other_votes": 310,
+    "total_votes": 13168,
+    "all_parties": {
+      "REP": 12858,
+      "NON": 310
+    },
+    "county_fips": "45075",
+    "two_party_total": 12858,
+    "margin": 12858,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 34439,
+    "other_votes": 441,
+    "total_votes": 34880,
+    "all_parties": {
+      "REP": 34439,
+      "NON": 441
+    },
+    "county_fips": "45077",
+    "two_party_total": 34439,
+    "margin": 34439,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 70572,
+    "other_votes": 3307,
+    "total_votes": 73879,
+    "all_parties": {
+      "REP": 70572,
+      "NON": 3307
+    },
+    "county_fips": "45079",
+    "two_party_total": 70572,
+    "margin": 70572,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 5335,
+    "other_votes": 32,
+    "total_votes": 5367,
+    "all_parties": {
+      "REP": 5335,
+      "NON": 32
+    },
+    "county_fips": "45081",
+    "two_party_total": 5335,
+    "margin": 5335,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 75464,
+    "other_votes": 1251,
+    "total_votes": 76715,
+    "all_parties": {
+      "REP": 75464,
+      "NON": 1251
+    },
+    "county_fips": "45083",
+    "two_party_total": 75464,
+    "margin": 75464,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 18755,
+    "other_votes": 394,
+    "total_votes": 19149,
+    "all_parties": {
+      "REP": 18755,
+      "NON": 394
+    },
+    "county_fips": "45085",
+    "two_party_total": 18755,
+    "margin": 18755,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 6643,
+    "other_votes": 79,
+    "total_votes": 6722,
+    "all_parties": {
+      "REP": 6643,
+      "NON": 79
+    },
+    "county_fips": "45087",
+    "two_party_total": 6643,
+    "margin": 6643,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 5129,
+    "other_votes": 104,
+    "total_votes": 5233,
+    "all_parties": {
+      "REP": 5129,
+      "NON": 104
+    },
+    "county_fips": "45089",
+    "two_party_total": 5129,
+    "margin": 5129,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 72168,
+    "other_votes": 1474,
+    "total_votes": 73642,
+    "all_parties": {
+      "REP": 72168,
+      "NON": 1474
+    },
+    "county_fips": "45091",
+    "two_party_total": 72168,
+    "margin": 72168,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  }
+}

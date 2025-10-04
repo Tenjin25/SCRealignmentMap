@@ -898,7 +898,7 @@
     },
     "county_fips": "45063"
   },
-  "45067": {
+  "45069": {
     "county": "MARION",
     "contest": "GOVERNOR",
     "year": "2014",
@@ -925,9 +925,9 @@
       "REP": 2985,
       "NON": 5
     },
-    "county_fips": "45067"
+    "county_fips": "45069"
   },
-  "45069": {
+  "45065": {
     "county": "MARLBORO",
     "contest": "GOVERNOR",
     "year": "2014",
@@ -954,9 +954,9 @@
       "REP": 2244,
       "NON": 1
     },
-    "county_fips": "45069"
+    "county_fips": "45065"
   },
-  "45065": {
+  "45067": {
     "county": "MCCORMICK",
     "contest": "GOVERNOR",
     "year": "2014",
@@ -983,7 +983,7 @@
       "REP": 1985,
       "NON": 1
     },
-    "county_fips": "45065"
+    "county_fips": "45067"
   },
   "45071": {
     "county": "NEWBERRY",

@@ -1117,7 +1117,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "ADJUTANT GENERAL",
     "year": "2006",
@@ -1132,7 +1132,7 @@
       "DEMOCRAT": 4118,
       "": 3
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 7228,
     "margin": 1008,
     "margin_pct": 13.945766463752074,
@@ -1143,7 +1143,7 @@
       "color": "#6baed6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "ADJUTANT GENERAL",
     "year": "2006",
@@ -1158,7 +1158,7 @@
       "DEMOCRAT": 1701,
       "": 0
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 3218,
     "margin": 184,
     "margin_pct": 5.717837165941578,

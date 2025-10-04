@@ -1117,7 +1117,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "GOVERNOR",
     "year": "2006",
@@ -1132,7 +1132,7 @@
       "DEMOCRAT": 4496,
       "": 2
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 7398,
     "margin": 1594,
     "margin_pct": 21.546363882130308,
@@ -1143,7 +1143,7 @@
       "color": "#4292c6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "GOVERNOR",
     "year": "2006",
@@ -1158,7 +1158,7 @@
       "DEMOCRAT": 1876,
       "": 0
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 3308,
     "margin": 444,
     "margin_pct": 13.422007255139057,

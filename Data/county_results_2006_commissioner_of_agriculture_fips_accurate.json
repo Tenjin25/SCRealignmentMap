@@ -1117,7 +1117,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "COMMISSIONER OF AGRICULTURE",
     "year": "2006",
@@ -1132,7 +1132,7 @@
       "DEMOCRAT": 3984,
       "": 0
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 7240,
     "margin": 728,
     "margin_pct": 10.05524861878453,
@@ -1143,7 +1143,7 @@
       "color": "#6baed6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "COMMISSIONER OF AGRICULTURE",
     "year": "2006",
@@ -1158,7 +1158,7 @@
       "DEMOCRAT": 1647,
       "": 1
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 3204,
     "margin": 90,
     "margin_pct": 2.8089887640449436,

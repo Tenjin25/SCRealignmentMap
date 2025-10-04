@@ -237,7 +237,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "Marion",
     "fips": "45065",
     "contest": "U.S. SENATE",
@@ -252,9 +252,10 @@
       "category": "Safe",
       "party": "Democratic",
       "color": "#3182bd"
-    }
+    },
+    "county_fips": "45067"
   },
-  "45067": {
+  "45069": {
     "county": "Marlboro",
     "fips": "45067",
     "contest": "U.S. SENATE",
@@ -269,9 +270,10 @@
       "category": "Safe",
       "party": "Democratic",
       "color": "#3182bd"
-    }
+    },
+    "county_fips": "45069"
   },
-  "45069": {
+  "45065": {
     "county": "McCormick",
     "fips": "45069",
     "contest": "U.S. SENATE",
@@ -286,7 +288,8 @@
       "category": "Lean",
       "party": "Democratic",
       "color": "#c6dbef"
-    }
+    },
+    "county_fips": "45065"
   },
   "45071": {
     "county": "Newberry",

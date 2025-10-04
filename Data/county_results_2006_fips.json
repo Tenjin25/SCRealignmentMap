@@ -774,7 +774,7 @@
     },
     "county_fips": "45063"
   },
-  "45065": {
+  "45067": {
     "county": "MCCORMICK",
     "contest": "GOVERNOR",
     "year": "2006",
@@ -797,9 +797,9 @@
       "REPUBLICAN": 4296,
       "DEMOCRAT": 5628
     },
-    "county_fips": "45065"
+    "county_fips": "45067"
   },
-  "45067": {
+  "45069": {
     "county": "MARION",
     "contest": "GOVERNOR",
     "year": "2006",
@@ -822,9 +822,9 @@
       "REPUBLICAN": 8706,
       "DEMOCRAT": 13488
     },
-    "county_fips": "45067"
+    "county_fips": "45069"
   },
-  "45069": {
+  "45065": {
     "county": "MARLBORO",
     "contest": "GOVERNOR",
     "year": "2006",
@@ -847,7 +847,7 @@
       "REPUBLICAN": 5988,
       "DEMOCRAT": 10215
     },
-    "county_fips": "45069"
+    "county_fips": "45065"
   },
   "45071": {
     "county": "NEWBERRY",

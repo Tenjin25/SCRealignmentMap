@@ -1203,7 +1203,7 @@
       "color": "#ef3b2c"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "PRESIDENT",
     "year": "2020",
@@ -1220,7 +1220,7 @@
       "LIB": 63,
       "DEM": 8872
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 14583,
     "margin": 3161,
     "margin_pct": 21.675924021120483,
@@ -1231,7 +1231,7 @@
       "color": "#4292c6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",
     "year": "2020",
@@ -1248,7 +1248,7 @@
       "LIB": 28,
       "DEM": 2687
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 5645,
     "margin": 271,
     "margin_pct": 4.800708591674048,

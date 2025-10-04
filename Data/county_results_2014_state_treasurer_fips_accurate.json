@@ -1074,7 +1074,7 @@
       "color": "#67000d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "STATE TREASURER",
     "year": "2014",
@@ -1088,7 +1088,7 @@
       "REP": 3970,
       "NON": 47
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 3970,
     "margin": 3970,
     "margin_pct": 100.0,
@@ -1099,7 +1099,7 @@
       "color": "#67000d"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "STATE TREASURER",
     "year": "2014",
@@ -1113,7 +1113,7 @@
       "REP": 2219,
       "NON": 10
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 2219,
     "margin": 2219,
     "margin_pct": 100.0,

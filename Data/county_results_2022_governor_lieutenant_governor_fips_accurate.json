@@ -1160,7 +1160,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
     "year": "2022",
@@ -1176,7 +1176,7 @@
       "DEM": 4484,
       "NON": 6
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 8330,
     "margin": 638,
     "margin_pct": 7.65906362545018,
@@ -1187,7 +1187,7 @@
       "color": "#9ecae1"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
     "year": "2022",
@@ -1203,7 +1203,7 @@
       "DEM": 1759,
       "NON": 2
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 4516,
     "margin": 998,
     "margin_pct": 22.099202834366697,

@@ -867,7 +867,7 @@
     },
     "county_fips": "45063"
   },
-  "45067": {
+  "45069": {
     "county": "MARION",
     "contest": "PRESIDENT",
     "year": "2012",
@@ -893,9 +893,9 @@
       "CON": 55,
       "GRN": 44
     },
-    "county_fips": "45067"
+    "county_fips": "45069"
   },
-  "45069": {
+  "45065": {
     "county": "MARLBORO",
     "contest": "PRESIDENT",
     "year": "2012",
@@ -921,9 +921,9 @@
       "CON": 23,
       "GRN": 9
     },
-    "county_fips": "45069"
+    "county_fips": "45065"
   },
-  "45065": {
+  "45067": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",
     "year": "2012",
@@ -949,7 +949,7 @@
       "CON": 7,
       "GRN": 12
     },
-    "county_fips": "45065"
+    "county_fips": "45067"
   },
   "45071": {
     "county": "NEWBERRY",

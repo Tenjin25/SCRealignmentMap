@@ -543,7 +543,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "Marion",
     "fips": "45065",
     "contest": "ATTORNEY GENERAL",
@@ -558,9 +558,10 @@
       "category": "Stronghold",
       "party": "Democratic",
       "color": "#08519c"
-    }
+    },
+    "county_fips": "45067"
   },
-  "45067": {
+  "45069": {
     "county": "Marlboro",
     "fips": "45067",
     "contest": "ATTORNEY GENERAL",
@@ -575,9 +576,10 @@
       "category": "Safe",
       "party": "Democratic",
       "color": "#3182bd"
-    }
+    },
+    "county_fips": "45069"
   },
-  "45069": {
+  "45065": {
     "county": "McCormick",
     "fips": "45069",
     "contest": "ATTORNEY GENERAL",
@@ -592,7 +594,8 @@
       "category": "Likely",
       "party": "Republican",
       "color": "#fc9272"
-    }
+    },
+    "county_fips": "45065"
   },
   "45071": {
     "county": "Newberry",

@@ -805,7 +805,7 @@
     },
     "county_fips": "45063"
   },
-  "45067": {
+  "45069": {
     "county": "MARION",
     "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
     "year": "2018",
@@ -829,9 +829,9 @@
       "REP": 7926,
       "NON": 16
     },
-    "county_fips": "45067"
+    "county_fips": "45069"
   },
-  "45069": {
+  "45065": {
     "county": "MARLBORO",
     "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
     "year": "2018",
@@ -855,9 +855,9 @@
       "REP": 6332,
       "NON": 14
     },
-    "county_fips": "45069"
+    "county_fips": "45065"
   },
-  "45065": {
+  "45067": {
     "county": "MCCORMICK",
     "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
     "year": "2018",
@@ -881,7 +881,7 @@
       "REP": 4654,
       "NON": 2
     },
-    "county_fips": "45065"
+    "county_fips": "45067"
   },
   "45071": {
     "county": "NEWBERRY",

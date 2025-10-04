@@ -531,7 +531,7 @@
     },
     "county_fips": "45031"
   },
-  "45065": {
+  "45067": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",
     "year": "2020",
@@ -557,7 +557,7 @@
       "LIB": 40,
       "DEM": 3922
     },
-    "county_fips": "45065"
+    "county_fips": "45067"
   },
   "45045": {
     "county": "GREENVILLE",
@@ -699,7 +699,7 @@
     },
     "county_fips": "45079"
   },
-  "45069": {
+  "45065": {
     "county": "MARLBORO",
     "contest": "PRESIDENT",
     "year": "2020",
@@ -725,7 +725,7 @@
       "LIB": 110,
       "DEM": 8740
     },
-    "county_fips": "45069"
+    "county_fips": "45065"
   },
   "45083": {
     "county": "SPARTANBURG",
@@ -923,7 +923,7 @@
     },
     "county_fips": "45063"
   },
-  "45067": {
+  "45069": {
     "county": "MARION",
     "contest": "PRESIDENT",
     "year": "2020",
@@ -949,7 +949,7 @@
       "LIB": 101,
       "DEM": 13618
     },
-    "county_fips": "45067"
+    "county_fips": "45069"
   },
   "45061": {
     "county": "LEE",

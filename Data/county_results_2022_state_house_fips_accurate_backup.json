@@ -1,0 +1,1200 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "Chris Salley (D)",
+    "rep_candidate": "Jay West (R)",
+    "dem_votes": 13,
+    "rep_votes": 6756,
+    "other_votes": 46,
+    "total_votes": 6815,
+    "all_parties": {
+      "REP": 6756,
+      "DEM": 13,
+      "": 46
+    },
+    "county_fips": "45001",
+    "two_party_total": 6769,
+    "margin": 6743,
+    "margin_pct": 99.61589599645443,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM William Bill Clyburn (D)",
+    "rep_candidate": "REP Bart Blackwell (R)",
+    "dem_votes": 5573,
+    "rep_votes": 37852,
+    "other_votes": 871,
+    "total_votes": 44296,
+    "all_parties": {
+      "REP": 37852,
+      "NON": 871,
+      "DEM": 5573
+    },
+    "county_fips": "45003",
+    "two_party_total": 43425,
+    "margin": 32279,
+    "margin_pct": 74.33275762809441,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Lonnie Hosey (D)",
+    "rep_candidate": "",
+    "dem_votes": 1469,
+    "rep_votes": 0,
+    "other_votes": 15,
+    "total_votes": 1484,
+    "all_parties": {
+      "DEM": 1469,
+      "NON": 15
+    },
+    "county_fips": "45005",
+    "two_party_total": 1469,
+    "margin": 1469,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Chris Salley (D)",
+    "rep_candidate": "REP Jay West (R)",
+    "dem_votes": 8628,
+    "rep_votes": 49502,
+    "other_votes": 844,
+    "total_votes": 58974,
+    "all_parties": {
+      "REP": 49502,
+      "DEM": 8628,
+      "NON": 584,
+      "ALN": 260
+    },
+    "county_fips": "45007",
+    "two_party_total": 58130,
+    "margin": 40874,
+    "margin_pct": 70.31481162910718,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Justin Bamberg (D)",
+    "rep_candidate": "REP Sharon Carter (R)",
+    "dem_votes": 2351,
+    "rep_votes": 1638,
+    "other_votes": 3,
+    "total_votes": 3992,
+    "all_parties": {
+      "REP": 1638,
+      "DEM": 2351,
+      "NON": 3
+    },
+    "county_fips": "45009",
+    "two_party_total": 3989,
+    "margin": 713,
+    "margin_pct": 17.874153923289047,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Lonnie Hosey (D)",
+    "rep_candidate": "",
+    "dem_votes": 3552,
+    "rep_votes": 0,
+    "other_votes": 122,
+    "total_votes": 3674,
+    "all_parties": {
+      "DEM": 3552,
+      "NON": 122
+    },
+    "county_fips": "45011",
+    "two_party_total": 3552,
+    "margin": 3552,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Michael F Rivers Sr (D)",
+    "rep_candidate": "REP Bill Herbkersman (R)",
+    "dem_votes": 9531,
+    "rep_votes": 48878,
+    "other_votes": 1719,
+    "total_votes": 60128,
+    "all_parties": {
+      "REP": 48878,
+      "NON": 1719,
+      "DEM": 9531
+    },
+    "county_fips": "45013",
+    "two_party_total": 58409,
+    "margin": 39347,
+    "margin_pct": 67.36461846633223,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Carl Anderson (D)",
+    "rep_candidate": "REP Latrecia Pond (R)",
+    "dem_votes": 13967,
+    "rep_votes": 44621,
+    "other_votes": 723,
+    "total_votes": 59311,
+    "all_parties": {
+      "DEM": 13967,
+      "NON": 723,
+      "REP": 44621
+    },
+    "county_fips": "45015",
+    "two_party_total": 58588,
+    "margin": 30654,
+    "margin_pct": 52.32129446302998,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Russell L Ott (D)",
+    "rep_candidate": "REP Jim Ulmer (R)",
+    "dem_votes": 2946,
+    "rep_votes": 2651,
+    "other_votes": 7,
+    "total_votes": 5604,
+    "all_parties": {
+      "REP": 2651,
+      "DEM": 2946,
+      "NON": 7
+    },
+    "county_fips": "45017",
+    "two_party_total": 5597,
+    "margin": 295,
+    "margin_pct": 5.270680721815258,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM JA Moore (D)",
+    "rep_candidate": "REP Latrecia Pond (R)",
+    "dem_votes": 78854,
+    "rep_votes": 66159,
+    "other_votes": 1263,
+    "total_votes": 146276,
+    "all_parties": {
+      "REP": 66159,
+      "DEM": 78854,
+      "NON": 449,
+      "LIB": 814
+    },
+    "county_fips": "45019",
+    "two_party_total": 145013,
+    "margin": 12695,
+    "margin_pct": 8.754387537669036,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Dennis Moss (R)",
+    "dem_votes": 0,
+    "rep_votes": 13631,
+    "other_votes": 138,
+    "total_votes": 13769,
+    "all_parties": {
+      "REP": 13631,
+      "NON": 138
+    },
+    "county_fips": "45021",
+    "two_party_total": 13631,
+    "margin": 13631,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Patricia Pat Moore Henegan (D)",
+    "rep_candidate": "REP Richie Yow (R)",
+    "dem_votes": 1871,
+    "rep_votes": 8881,
+    "other_votes": 53,
+    "total_votes": 10805,
+    "all_parties": {
+      "REP": 8881,
+      "NON": 53,
+      "DEM": 1871
+    },
+    "county_fips": "45025",
+    "two_party_total": 10752,
+    "margin": 7010,
+    "margin_pct": 65.19717261904762,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Annie E McDaniel (D)",
+    "rep_candidate": "REP Jennifer Brecheisen (R)",
+    "dem_votes": 2038,
+    "rep_votes": 6340,
+    "other_votes": 46,
+    "total_votes": 8424,
+    "all_parties": {
+      "REP": 6340,
+      "DEM": 2038,
+      "NON": 46
+    },
+    "county_fips": "45023",
+    "two_party_total": 8378,
+    "margin": 4302,
+    "margin_pct": 51.348770589639535,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Kimberly O Johnson (D)",
+    "rep_candidate": "REP Fawn Pedalino (R)",
+    "dem_votes": 4749,
+    "rep_votes": 6667,
+    "other_votes": 14,
+    "total_votes": 11430,
+    "all_parties": {
+      "REP": 6667,
+      "DEM": 4749,
+      "": 14
+    },
+    "county_fips": "45027",
+    "two_party_total": 11416,
+    "margin": 1918,
+    "margin_pct": 16.800981079187103,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Michael F Rivers Sr (D)",
+    "rep_candidate": "REP Eric J Erickson (R)",
+    "dem_votes": 4817,
+    "rep_votes": 7654,
+    "other_votes": 4,
+    "total_votes": 12475,
+    "all_parties": {
+      "REP": 7654,
+      "DEM": 4817,
+      "NON": 4
+    },
+    "county_fips": "45029",
+    "two_party_total": 12471,
+    "margin": 2837,
+    "margin_pct": 22.748777163018204,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Patricia Pat Moore Henegan (D)",
+    "rep_candidate": "REP Richie Yow (R)",
+    "dem_votes": 6877,
+    "rep_votes": 7180,
+    "other_votes": 293,
+    "total_votes": 14350,
+    "all_parties": {
+      "REP": 7180,
+      "NON": 293,
+      "DEM": 6877
+    },
+    "county_fips": "45031",
+    "two_party_total": 14057,
+    "margin": 303,
+    "margin_pct": 2.1555097104645373,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Jackie  E Hayes (D)",
+    "rep_candidate": "REP Robert Norton (R)",
+    "dem_votes": 4635,
+    "rep_votes": 2953,
+    "other_votes": 351,
+    "total_votes": 7939,
+    "all_parties": {
+      "IND": 334,
+      "REP": 2953,
+      "DEM": 4635,
+      "NON": 17
+    },
+    "county_fips": "45033",
+    "two_party_total": 7588,
+    "margin": 1682,
+    "margin_pct": 22.16657880864523,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM ReZsaun Lewis (D)",
+    "rep_candidate": "REP Robby Robbins (R)",
+    "dem_votes": 19549,
+    "rep_votes": 27899,
+    "other_votes": 1030,
+    "total_votes": 48478,
+    "all_parties": {
+      "REP": 27899,
+      "DEM": 19549,
+      "NON": 80,
+      "LIB": 950
+    },
+    "county_fips": "45035",
+    "two_party_total": 47448,
+    "margin": 8350,
+    "margin_pct": 17.598212780306863,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM William Bill Clyburn (D)",
+    "rep_candidate": "REP Bill Hixon (R)",
+    "dem_votes": 3464,
+    "rep_votes": 3339,
+    "other_votes": 227,
+    "total_votes": 7030,
+    "all_parties": {
+      "DEM": 3464,
+      "NON": 227,
+      "REP": 3339
+    },
+    "county_fips": "45037",
+    "two_party_total": 6803,
+    "margin": 125,
+    "margin_pct": 1.837424665588711,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Annie E McDaniel (D)",
+    "rep_candidate": "REP Jennifer Brecheisen (R)",
+    "dem_votes": 4641,
+    "rep_votes": 3689,
+    "other_votes": 10,
+    "total_votes": 8340,
+    "all_parties": {
+      "REP": 3689,
+      "DEM": 4641,
+      "NON": 10
+    },
+    "county_fips": "45039",
+    "two_party_total": 8330,
+    "margin": 952,
+    "margin_pct": 11.428571428571429,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Roger K Kirby (D)",
+    "rep_candidate": "REP Phillip Lowe (R)",
+    "dem_votes": 14823,
+    "rep_votes": 18982,
+    "other_votes": 375,
+    "total_votes": 34180,
+    "all_parties": {
+      "DEM": 14823,
+      "NON": 375,
+      "REP": 18982
+    },
+    "county_fips": "45041",
+    "two_party_total": 33805,
+    "margin": 4159,
+    "margin_pct": 12.302913770152344,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Carl Anderson (D)",
+    "rep_candidate": "REP Lee Hewitt (R)",
+    "dem_votes": 5475,
+    "rep_votes": 15031,
+    "other_votes": 283,
+    "total_votes": 20789,
+    "all_parties": {
+      "DEM": 5475,
+      "NON": 283,
+      "REP": 15031
+    },
+    "county_fips": "45043",
+    "two_party_total": 20506,
+    "margin": 9556,
+    "margin_pct": 46.60099483078123,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Chris Salley (D)",
+    "rep_candidate": "REP Patrick Haddon (R)",
+    "dem_votes": 19912,
+    "rep_votes": 123360,
+    "other_votes": 3224,
+    "total_votes": 146496,
+    "all_parties": {
+      "REP": 123360,
+      "NON": 2833,
+      "DEM": 19912,
+      "IND": 391
+    },
+    "county_fips": "45045",
+    "two_party_total": 143272,
+    "margin": 103448,
+    "margin_pct": 72.20391981685185,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Anne Parks (D)",
+    "rep_candidate": "REP Daniel Gibson (R)",
+    "dem_votes": 7383,
+    "rep_votes": 14275,
+    "other_votes": 13,
+    "total_votes": 21671,
+    "all_parties": {
+      "REP": 14275,
+      "DEM": 7383,
+      "NON": 13
+    },
+    "county_fips": "45047",
+    "two_party_total": 21658,
+    "margin": 6892,
+    "margin_pct": 31.821959553051993,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Shedron Hook Williams (D)",
+    "rep_candidate": "REP Bill Hager (R)",
+    "dem_votes": 2922,
+    "rep_votes": 2721,
+    "other_votes": 5,
+    "total_votes": 5648,
+    "all_parties": {
+      "REP": 2721,
+      "DEM": 2922,
+      "NON": 5
+    },
+    "county_fips": "45049",
+    "two_party_total": 5643,
+    "margin": 201,
+    "margin_pct": 3.5619351408825093,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Carl Anderson (D)",
+    "rep_candidate": "REP Robert Norton (R)",
+    "dem_votes": 14713,
+    "rep_votes": 99847,
+    "other_votes": 1111,
+    "total_votes": 115671,
+    "all_parties": {
+      "DEM": 14713,
+      "NON": 768,
+      "IND": 39,
+      "REP": 99847,
+      "ALN": 304
+    },
+    "county_fips": "45051",
+    "two_party_total": 114560,
+    "margin": 85134,
+    "margin_pct": 74.3138966480447,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Shedron Hook Williams (D)",
+    "rep_candidate": "REP Weston Newton (R)",
+    "dem_votes": 3130,
+    "rep_votes": 6757,
+    "other_votes": 44,
+    "total_votes": 9931,
+    "all_parties": {
+      "REP": 6757,
+      "NON": 44,
+      "DEM": 3130
+    },
+    "county_fips": "45053",
+    "two_party_total": 9887,
+    "margin": 3627,
+    "margin_pct": 36.684535248305856,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Will Wheeler (D)",
+    "rep_candidate": "REP Cody T Mitchell (R)",
+    "dem_votes": 6831,
+    "rep_votes": 14981,
+    "other_votes": 70,
+    "total_votes": 21882,
+    "all_parties": {
+      "REP": 14981,
+      "NON": 70,
+      "DEM": 6831
+    },
+    "county_fips": "45055",
+    "two_party_total": 21812,
+    "margin": 8150,
+    "margin_pct": 37.36475334678159,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Katie Crosby (D)",
+    "rep_candidate": "REP Richie Yow (R)",
+    "dem_votes": 10002,
+    "rep_votes": 23363,
+    "other_votes": 373,
+    "total_votes": 33738,
+    "all_parties": {
+      "REP": 23363,
+      "NON": 67,
+      "IND": 306,
+      "DEM": 10002
+    },
+    "county_fips": "45057",
+    "two_party_total": 33365,
+    "margin": 13361,
+    "margin_pct": 40.044957290573954,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daniel A Duncan (D)",
+    "rep_candidate": "REP Stewart O Jones (R)",
+    "dem_votes": 3788,
+    "rep_votes": 14582,
+    "other_votes": 155,
+    "total_votes": 18525,
+    "all_parties": {
+      "REP": 14582,
+      "DEM": 3788,
+      "NON": 155
+    },
+    "county_fips": "45059",
+    "two_party_total": 18370,
+    "margin": 10794,
+    "margin_pct": 58.75884594447469,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Will Wheeler (D)",
+    "rep_candidate": "REP Marvin Jones (R)",
+    "dem_votes": 3823,
+    "rep_votes": 1419,
+    "other_votes": 7,
+    "total_votes": 5249,
+    "all_parties": {
+      "REP": 1419,
+      "DEM": 3823,
+      "NON": 7
+    },
+    "county_fips": "45061",
+    "two_party_total": 5242,
+    "margin": 2404,
+    "margin_pct": 45.86035864173979,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Russell L Ott (D)",
+    "rep_candidate": "REP Bill Taylor (R)",
+    "dem_votes": 4983,
+    "rep_votes": 75112,
+    "other_votes": 4764,
+    "total_votes": 84859,
+    "all_parties": {
+      "REP": 75112,
+      "NON": 1153,
+      "DEM": 4983,
+      "LIB": 3611
+    },
+    "county_fips": "45063",
+    "two_party_total": 80095,
+    "margin": 70129,
+    "margin_pct": 87.55727573506461,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Lucas Atkinson (D)",
+    "rep_candidate": "",
+    "dem_votes": 6580,
+    "rep_votes": 0,
+    "other_votes": 83,
+    "total_votes": 6663,
+    "all_parties": {
+      "DEM": 6580,
+      "NON": 83
+    },
+    "county_fips": "45065",
+    "two_party_total": 6580,
+    "margin": 6580,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Patricia Pat Moore Henegan (D)",
+    "rep_candidate": "REP Sterling McDiarmid (R)",
+    "dem_votes": 3372,
+    "rep_votes": 3133,
+    "other_votes": 18,
+    "total_votes": 6523,
+    "all_parties": {
+      "REP": 3133,
+      "DEM": 3372,
+      "NON": 8,
+      "IND": 10
+    },
+    "county_fips": "45067",
+    "two_party_total": 6505,
+    "margin": 239,
+    "margin_pct": 3.674096848578017,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Anne Parks (D)",
+    "rep_candidate": "REP Daniel Gibson (R)",
+    "dem_votes": 1807,
+    "rep_votes": 2745,
+    "other_votes": 4,
+    "total_votes": 4556,
+    "all_parties": {
+      "REP": 2745,
+      "DEM": 1807,
+      "NON": 4
+    },
+    "county_fips": "45069",
+    "two_party_total": 4552,
+    "margin": 938,
+    "margin_pct": 20.60632688927944,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Joe White (R)",
+    "dem_votes": 0,
+    "rep_votes": 9681,
+    "other_votes": 185,
+    "total_votes": 9866,
+    "all_parties": {
+      "REP": 9681,
+      "": 185
+    },
+    "county_fips": "45071",
+    "two_party_total": 9681,
+    "margin": 9681,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Bill Whitmire (R)",
+    "dem_votes": 0,
+    "rep_votes": 22991,
+    "other_votes": 1885,
+    "total_votes": 24876,
+    "all_parties": {
+      "REP": 22991,
+      "NON": 1885
+    },
+    "county_fips": "45073",
+    "two_party_total": 22991,
+    "margin": 22991,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Lonnie Hosey (D)",
+    "rep_candidate": "REP Sharon Carter (R)",
+    "dem_votes": 17150,
+    "rep_votes": 7752,
+    "other_votes": 108,
+    "total_votes": 25010,
+    "all_parties": {
+      "DEM": 17150,
+      "NON": 108,
+      "REP": 7752
+    },
+    "county_fips": "45075",
+    "two_party_total": 24902,
+    "margin": 9398,
+    "margin_pct": 37.73994056702273,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Thomas Beach (R)",
+    "dem_votes": 0,
+    "rep_votes": 33842,
+    "other_votes": 833,
+    "total_votes": 34675,
+    "all_parties": {
+      "REP": 33842,
+      "NON": 833
+    },
+    "county_fips": "45077",
+    "two_party_total": 33842,
+    "margin": 33842,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Annie E McDaniel (D)",
+    "rep_candidate": "REP Jennifer Brecheisen (R)",
+    "dem_votes": 81321,
+    "rep_votes": 31269,
+    "other_votes": 1444,
+    "total_votes": 114034,
+    "all_parties": {
+      "REP": 31269,
+      "DEM": 81321,
+      "NON": 988,
+      "GRN": 456
+    },
+    "county_fips": "45079",
+    "two_party_total": 112590,
+    "margin": 50052,
+    "margin_pct": 44.45510258459899,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM William Bill Clyburn (D)",
+    "rep_candidate": "REP Cal Forrest (R)",
+    "dem_votes": 760,
+    "rep_votes": 4771,
+    "other_votes": 77,
+    "total_votes": 5608,
+    "all_parties": {
+      "DEM": 760,
+      "NON": 77,
+      "REP": 4771
+    },
+    "county_fips": "45081",
+    "two_party_total": 5531,
+    "margin": 4011,
+    "margin_pct": 72.51853191104682,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Rosalyn Henderson-Myers (D)",
+    "rep_candidate": "REP Dennis Moss (R)",
+    "dem_votes": 5536,
+    "rep_votes": 71297,
+    "other_votes": 1536,
+    "total_votes": 78369,
+    "all_parties": {
+      "REP": 71297,
+      "NON": 1536,
+      "DEM": 5536
+    },
+    "county_fips": "45083",
+    "two_party_total": 76833,
+    "margin": 65761,
+    "margin_pct": 85.58952533416631,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Kimberly O Johnson (D)",
+    "rep_candidate": "REP Fawn Pedalino (R)",
+    "dem_votes": 12242,
+    "rep_votes": 12484,
+    "other_votes": 284,
+    "total_votes": 25010,
+    "all_parties": {
+      "REP": 12484,
+      "DEM": 12242,
+      "NON": 284
+    },
+    "county_fips": "45085",
+    "two_party_total": 24726,
+    "margin": 242,
+    "margin_pct": 0.9787268462347327,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Republican",
+      "color": "#fcbba1"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Doug Gilliam (R)",
+    "dem_votes": 0,
+    "rep_votes": 6607,
+    "other_votes": 431,
+    "total_votes": 7038,
+    "all_parties": {
+      "REP": 6607,
+      "NON": 431
+    },
+    "county_fips": "45087",
+    "two_party_total": 6607,
+    "margin": 6607,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Roger K Kirby (D)",
+    "rep_candidate": "",
+    "dem_votes": 7159,
+    "rep_votes": 0,
+    "other_votes": 137,
+    "total_votes": 7296,
+    "all_parties": {
+      "DEM": 7159,
+      "NON": 137
+    },
+    "county_fips": "45089",
+    "two_party_total": 7159,
+    "margin": 7159,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Carla Litrenta (D)",
+    "rep_candidate": "REP David L O'Neal (R)",
+    "dem_votes": 23329,
+    "rep_votes": 63984,
+    "other_votes": 649,
+    "total_votes": 87962,
+    "all_parties": {
+      "REP": 63984,
+      "DEM": 23329,
+      "NON": 649
+    },
+    "county_fips": "45091",
+    "two_party_total": 87313,
+    "margin": 40655,
+    "margin_pct": 46.56236757412985,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  }
+}

@@ -1289,7 +1289,7 @@
       "color": "#ef3b2c"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",
     "year": "2006",
@@ -1308,7 +1308,7 @@
       "CONSTITUTION": 41,
       "": 1
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 7034,
     "margin": 2234,
     "margin_pct": 31.760022746659082,
@@ -1319,7 +1319,7 @@
       "color": "#2171b5"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",
     "year": "2006",
@@ -1338,7 +1338,7 @@
       "CONSTITUTION": 11,
       "": 0
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 3132,
     "margin": 302,
     "margin_pct": 9.642401021711366,

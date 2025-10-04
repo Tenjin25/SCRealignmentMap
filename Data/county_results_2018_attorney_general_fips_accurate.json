@@ -1160,7 +1160,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "ATTORNEY GENERAL",
     "year": "2018",
@@ -1176,7 +1176,7 @@
       "REP": 3906,
       "NON": 3
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 10235,
     "margin": 2423,
     "margin_pct": 23.673668783585736,
@@ -1187,7 +1187,7 @@
       "color": "#4292c6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "ATTORNEY GENERAL",
     "year": "2018",
@@ -1203,7 +1203,7 @@
       "REP": 2310,
       "NON": 0
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 4351,
     "margin": 269,
     "margin_pct": 6.182486784647208,

@@ -1117,7 +1117,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "U.S. SENATE",
     "year": "2022",
@@ -1132,7 +1132,7 @@
       "DEM": 4421,
       "NON": 4
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 8373,
     "margin": 469,
     "margin_pct": 5.60133763286755,
@@ -1143,7 +1143,7 @@
       "color": "#9ecae1"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. SENATE",
     "year": "2022",
@@ -1158,7 +1158,7 @@
       "DEM": 1748,
       "NON": 0
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 4566,
     "margin": 1070,
     "margin_pct": 23.434077967586507,

@@ -1,0 +1,1208 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Devon D Smith (D)",
+    "rep_candidate": "Jay West (R)",
+    "dem_votes": 2993,
+    "rep_votes": 5529,
+    "other_votes": 6,
+    "total_votes": 8528,
+    "all_parties": {
+      "REP": 5529,
+      "NON": 6,
+      "DEM": 2993
+    },
+    "county_fips": "45001",
+    "two_party_total": 8522,
+    "margin": 2536,
+    "margin_pct": 29.75827270593757,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Elise Fox (D)",
+    "rep_candidate": "Bart Blackwell (R)",
+    "dem_votes": 13945,
+    "rep_votes": 37199,
+    "other_votes": 2871,
+    "total_votes": 54015,
+    "all_parties": {
+      "DEM": 13945,
+      "WFM": 350,
+      "REP": 37199,
+      "NON": 428,
+      "LIB": 2093
+    },
+    "county_fips": "45003",
+    "two_party_total": 51144,
+    "margin": 23254,
+    "margin_pct": 45.46769904583138,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Lonnie Hosey (D)",
+    "rep_candidate": "",
+    "dem_votes": 2527,
+    "rep_votes": 0,
+    "other_votes": 17,
+    "total_votes": 2544,
+    "all_parties": {
+      "DEM": 2527,
+      "NON": 17
+    },
+    "county_fips": "45005",
+    "two_party_total": 2527,
+    "margin": 2527,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Lucy Hoffman (D)",
+    "rep_candidate": "Brian White (R)",
+    "dem_votes": 3243,
+    "rep_votes": 47948,
+    "other_votes": 2685,
+    "total_votes": 53876,
+    "all_parties": {
+      "REP": 47948,
+      "AMR": 2095,
+      "NON": 590,
+      "DEM": 3243
+    },
+    "county_fips": "45007",
+    "two_party_total": 51191,
+    "margin": 44705,
+    "margin_pct": 87.32980406712117,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Justin Bamberg (D)",
+    "rep_candidate": "",
+    "dem_votes": 3427,
+    "rep_votes": 0,
+    "other_votes": 81,
+    "total_votes": 3508,
+    "all_parties": {
+      "DEM": 3427,
+      "NON": 81
+    },
+    "county_fips": "45009",
+    "two_party_total": 3427,
+    "margin": 3427,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Justin Bamberg (D)",
+    "rep_candidate": "",
+    "dem_votes": 4876,
+    "rep_votes": 0,
+    "other_votes": 83,
+    "total_votes": 4959,
+    "all_parties": {
+      "DEM": 4876,
+      "NON": 83
+    },
+    "county_fips": "45011",
+    "two_party_total": 4876,
+    "margin": 4876,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Ryan Martz (D)",
+    "rep_candidate": "Bill Herbkersman (R)",
+    "dem_votes": 17741,
+    "rep_votes": 41608,
+    "other_votes": 631,
+    "total_votes": 59980,
+    "all_parties": {
+      "REP": 41608,
+      "NON": 631,
+      "DEM": 17741
+    },
+    "county_fips": "45013",
+    "two_party_total": 59349,
+    "margin": 23867,
+    "margin_pct": 40.21466242059681,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "JA Moore (D)",
+    "rep_candidate": "Samuel Rivers Jr (R)",
+    "dem_votes": 23791,
+    "rep_votes": 37588,
+    "other_votes": 820,
+    "total_votes": 62199,
+    "all_parties": {
+      "DEM": 23791,
+      "WFM": 382,
+      "REP": 37588,
+      "NON": 438
+    },
+    "county_fips": "45015",
+    "two_party_total": 61379,
+    "margin": 13797,
+    "margin_pct": 22.47837208165659,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Russell L Ott (D)",
+    "rep_candidate": "Terry L Kiser Sr (R)",
+    "dem_votes": 3822,
+    "rep_votes": 2151,
+    "other_votes": 3,
+    "total_votes": 5976,
+    "all_parties": {
+      "DEM": 3822,
+      "REP": 2151,
+      "NON": 3
+    },
+    "county_fips": "45017",
+    "two_party_total": 5973,
+    "margin": 1671,
+    "margin_pct": 27.975891511803113,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "JA Moore (D)",
+    "rep_candidate": "Samuel Rivers Jr (R)",
+    "dem_votes": 78973,
+    "rep_votes": 58658,
+    "other_votes": 3104,
+    "total_votes": 140735,
+    "all_parties": {
+      "DEM": 78973,
+      "WFM": 1639,
+      "REP": 58658,
+      "NON": 394,
+      "LIB": 1071
+    },
+    "county_fips": "45019",
+    "two_party_total": 137631,
+    "margin": 20315,
+    "margin_pct": 14.760482740080361,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Dennis Moss (R)",
+    "dem_votes": 0,
+    "rep_votes": 13062,
+    "other_votes": 170,
+    "total_votes": 13232,
+    "all_parties": {
+      "REP": 13062,
+      "NON": 170
+    },
+    "county_fips": "45021",
+    "two_party_total": 13062,
+    "margin": 13062,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Annie E McDaniel (D)",
+    "rep_candidate": "Dennis Moss (R)",
+    "dem_votes": 4998,
+    "rep_votes": 5158,
+    "other_votes": 292,
+    "total_votes": 10448,
+    "all_parties": {
+      "REP": 5158,
+      "NON": 19,
+      "DEM": 4998,
+      "UNC": 273
+    },
+    "county_fips": "45023",
+    "two_party_total": 10156,
+    "margin": 160,
+    "margin_pct": 1.5754233950374164,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Patricia Pat Moore Henegan (D)",
+    "rep_candidate": "Richie Yow (R)",
+    "dem_votes": 857,
+    "rep_votes": 6673,
+    "other_votes": 169,
+    "total_votes": 7699,
+    "all_parties": {
+      "REP": 6673,
+      "NON": 169,
+      "DEM": 857
+    },
+    "county_fips": "45025",
+    "two_party_total": 7530,
+    "margin": 5816,
+    "margin_pct": 77.23771580345286,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert L Ridgeway III (D)",
+    "rep_candidate": "",
+    "dem_votes": 8850,
+    "rep_votes": 0,
+    "other_votes": 118,
+    "total_votes": 8968,
+    "all_parties": {
+      "DEM": 8850,
+      "NON": 118
+    },
+    "county_fips": "45027",
+    "two_party_total": 8850,
+    "margin": 8850,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Justin Bamberg (D)",
+    "rep_candidate": "Mandy W Kimmons (R)",
+    "dem_votes": 7643,
+    "rep_votes": 1484,
+    "other_votes": 276,
+    "total_votes": 9403,
+    "all_parties": {
+      "DEM": 7643,
+      "NON": 243,
+      "REP": 1484,
+      "WFM": 33
+    },
+    "county_fips": "45029",
+    "two_party_total": 9127,
+    "margin": 6159,
+    "margin_pct": 67.4811000328695,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Patricia Pat Moore Henegan (D)",
+    "rep_candidate": "Phillip Lowe (R)",
+    "dem_votes": 9736,
+    "rep_votes": 11376,
+    "other_votes": 128,
+    "total_votes": 21240,
+    "all_parties": {
+      "DEM": 9736,
+      "NON": 128,
+      "REP": 11376
+    },
+    "county_fips": "45031",
+    "two_party_total": 21112,
+    "margin": 1640,
+    "margin_pct": 7.768093974990527,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Lucas Atkinson (D)",
+    "rep_candidate": "",
+    "dem_votes": 5965,
+    "rep_votes": 0,
+    "other_votes": 189,
+    "total_votes": 6154,
+    "all_parties": {
+      "DEM": 5965,
+      "NON": 189
+    },
+    "county_fips": "45033",
+    "two_party_total": 5965,
+    "margin": 5965,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Damian Daly (D)",
+    "rep_candidate": "Con Chellis (R)",
+    "dem_votes": 16196,
+    "rep_votes": 28009,
+    "other_votes": 1374,
+    "total_votes": 45579,
+    "all_parties": {
+      "DEM": 16196,
+      "REP": 28009,
+      "NON": 437,
+      "WFM": 246,
+      "LIB": 691
+    },
+    "county_fips": "45035",
+    "two_party_total": 44205,
+    "margin": 11813,
+    "margin_pct": 26.723221355050335,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "William Bill Clyburn (D)",
+    "rep_candidate": "Bill Hixon (R)",
+    "dem_votes": 4183,
+    "rep_votes": 2530,
+    "other_votes": 516,
+    "total_votes": 7229,
+    "all_parties": {
+      "DEM": 4183,
+      "NON": 178,
+      "REP": 2530,
+      "LIB": 338
+    },
+    "county_fips": "45037",
+    "two_party_total": 6713,
+    "margin": 1653,
+    "margin_pct": 24.623864144197825,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Annie E McDaniel (D)",
+    "rep_candidate": "",
+    "dem_votes": 5934,
+    "rep_votes": 0,
+    "other_votes": 2016,
+    "total_votes": 7950,
+    "all_parties": {
+      "DEM": 5934,
+      "UNC": 1943,
+      "NON": 73
+    },
+    "county_fips": "45039",
+    "two_party_total": 5934,
+    "margin": 5934,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Terry Alexander (D)",
+    "rep_candidate": "Phillip Lowe (R)",
+    "dem_votes": 24920,
+    "rep_votes": 15456,
+    "other_votes": 261,
+    "total_votes": 40637,
+    "all_parties": {
+      "DEM": 24920,
+      "NON": 261,
+      "REP": 15456
+    },
+    "county_fips": "45041",
+    "two_party_total": 40376,
+    "margin": 9464,
+    "margin_pct": 23.43966712898752,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Carl L Anderson (D)",
+    "rep_candidate": "Lee Hewitt (R)",
+    "dem_votes": 8036,
+    "rep_votes": 11511,
+    "other_votes": 287,
+    "total_votes": 19834,
+    "all_parties": {
+      "DEM": 8036,
+      "NON": 287,
+      "REP": 11511
+    },
+    "county_fips": "45043",
+    "two_party_total": 19547,
+    "margin": 3475,
+    "margin_pct": 17.777664091676474,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Lucy Hoffman (D)",
+    "rep_candidate": "West Cox (R)",
+    "dem_votes": 31668,
+    "rep_votes": 112737,
+    "other_votes": 4356,
+    "total_votes": 148761,
+    "all_parties": {
+      "DEM": 31668,
+      "REP": 112737,
+      "NON": 2474,
+      "WFM": 234,
+      "IND": 1648
+    },
+    "county_fips": "45045",
+    "two_party_total": 144405,
+    "margin": 81069,
+    "margin_pct": 56.14002285239431,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Anne Parks (D)",
+    "rep_candidate": "John McCravy (R)",
+    "dem_votes": 8847,
+    "rep_votes": 12396,
+    "other_votes": 190,
+    "total_votes": 21433,
+    "all_parties": {
+      "DEM": 8847,
+      "NON": 190,
+      "REP": 12396
+    },
+    "county_fips": "45047",
+    "two_party_total": 21243,
+    "margin": 3549,
+    "margin_pct": 16.70667984747917,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Shedron Williams (D)",
+    "rep_candidate": "",
+    "dem_votes": 4309,
+    "rep_votes": 0,
+    "other_votes": 1448,
+    "total_votes": 5757,
+    "all_parties": {
+      "DEM": 4309,
+      "NON": 1448
+    },
+    "county_fips": "45049",
+    "two_party_total": 4309,
+    "margin": 4309,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Jackie E Hayes (D)",
+    "rep_candidate": "Tim McGinnis (R)",
+    "dem_votes": 7128,
+    "rep_votes": 77660,
+    "other_votes": 3947,
+    "total_votes": 88735,
+    "all_parties": {
+      "DEM": 7128,
+      "NON": 1230,
+      "REP": 77660,
+      "LIB": 2408,
+      "WFM": 182,
+      "AMR": 127
+    },
+    "county_fips": "45051",
+    "two_party_total": 84788,
+    "margin": 70532,
+    "margin_pct": 83.18629994810587,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Ryan Martz (D)",
+    "rep_candidate": "Bill Herbkersman (R)",
+    "dem_votes": 4187,
+    "rep_votes": 2555,
+    "other_votes": 379,
+    "total_votes": 7121,
+    "all_parties": {
+      "REP": 2555,
+      "NON": 379,
+      "DEM": 4187
+    },
+    "county_fips": "45053",
+    "two_party_total": 6742,
+    "margin": 1632,
+    "margin_pct": 24.206466923761493,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Will Wheeler (D)",
+    "rep_candidate": "Penry Gustafson (R)",
+    "dem_votes": 12612,
+    "rep_votes": 7736,
+    "other_votes": 208,
+    "total_votes": 20556,
+    "all_parties": {
+      "DEM": 12612,
+      "NON": 208,
+      "REP": 7736
+    },
+    "county_fips": "45055",
+    "two_party_total": 20348,
+    "margin": 4876,
+    "margin_pct": 23.963043050914095,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mandy Powers Norrell (D)",
+    "rep_candidate": "Brandon Newton (R)",
+    "dem_votes": 13893,
+    "rep_votes": 14101,
+    "other_votes": 782,
+    "total_votes": 28776,
+    "all_parties": {
+      "DEM": 13893,
+      "NON": 527,
+      "WFM": 255,
+      "REP": 14101
+    },
+    "county_fips": "45057",
+    "two_party_total": 27994,
+    "margin": 208,
+    "margin_pct": 0.7430163606487105,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Republican",
+      "color": "#fcbba1"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Mike Pitts (R)",
+    "dem_votes": 0,
+    "rep_votes": 15054,
+    "other_votes": 367,
+    "total_votes": 15421,
+    "all_parties": {
+      "REP": 15054,
+      "NON": 367
+    },
+    "county_fips": "45059",
+    "two_party_total": 15054,
+    "margin": 15054,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Will Wheeler (D)",
+    "rep_candidate": "",
+    "dem_votes": 5302,
+    "rep_votes": 0,
+    "other_votes": 43,
+    "total_votes": 5345,
+    "all_parties": {
+      "DEM": 5302,
+      "NON": 43
+    },
+    "county_fips": "45061",
+    "two_party_total": 5302,
+    "margin": 5302,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Beth Ann Rocheleau (D)",
+    "rep_candidate": "Cal Forrest (R)",
+    "dem_votes": 20371,
+    "rep_votes": 69991,
+    "other_votes": 1604,
+    "total_votes": 91966,
+    "all_parties": {
+      "REP": 69991,
+      "NON": 576,
+      "DEM": 20371,
+      "WFM": 603,
+      "LIB": 425
+    },
+    "county_fips": "45063",
+    "two_party_total": 90362,
+    "margin": 49620,
+    "margin_pct": 54.912463203559014,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Lucas Atkinson (D)",
+    "rep_candidate": "",
+    "dem_votes": 8479,
+    "rep_votes": 0,
+    "other_votes": 74,
+    "total_votes": 8553,
+    "all_parties": {
+      "DEM": 8479,
+      "NON": 74
+    },
+    "county_fips": "45065",
+    "two_party_total": 8479,
+    "margin": 8479,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Patricia Pat Moore Henegan (D)",
+    "rep_candidate": "",
+    "dem_votes": 6153,
+    "rep_votes": 0,
+    "other_votes": 94,
+    "total_votes": 6247,
+    "all_parties": {
+      "DEM": 6153,
+      "NON": 94
+    },
+    "county_fips": "45067",
+    "two_party_total": 6153,
+    "margin": 6153,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Anne Parks (D)",
+    "rep_candidate": "",
+    "dem_votes": 2518,
+    "rep_votes": 0,
+    "other_votes": 85,
+    "total_votes": 2603,
+    "all_parties": {
+      "DEM": 2518,
+      "NON": 85
+    },
+    "county_fips": "45069",
+    "two_party_total": 2518,
+    "margin": 2518,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Richard Rick Martin (R)",
+    "dem_votes": 0,
+    "rep_votes": 9212,
+    "other_votes": 172,
+    "total_votes": 9384,
+    "all_parties": {
+      "REP": 9212,
+      "NON": 172
+    },
+    "county_fips": "45071",
+    "two_party_total": 9212,
+    "margin": 9212,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Jody G Gaulin (D)",
+    "rep_candidate": "Bill Whitmire (R)",
+    "dem_votes": 5178,
+    "rep_votes": 20563,
+    "other_votes": 172,
+    "total_votes": 25913,
+    "all_parties": {
+      "REP": 20563,
+      "NON": 172,
+      "DEM": 5178
+    },
+    "county_fips": "45073",
+    "two_party_total": 25741,
+    "margin": 15385,
+    "margin_pct": 59.7684627636844,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Gilda Cobb-Hunter (D)",
+    "rep_candidate": "Tom Connor (R)",
+    "dem_votes": 22094,
+    "rep_votes": 7732,
+    "other_votes": 46,
+    "total_votes": 29872,
+    "all_parties": {
+      "DEM": 22094,
+      "REP": 7732,
+      "NON": 46
+    },
+    "county_fips": "45075",
+    "two_party_total": 29826,
+    "margin": 14362,
+    "margin_pct": 48.152618520753705,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Lucy Hoffman (D)",
+    "rep_candidate": "Gary Clary (R)",
+    "dem_votes": 314,
+    "rep_votes": 32254,
+    "other_votes": 707,
+    "total_votes": 33275,
+    "all_parties": {
+      "REP": 32254,
+      "NON": 707,
+      "DEM": 314
+    },
+    "county_fips": "45077",
+    "two_party_total": 32568,
+    "margin": 31940,
+    "margin_pct": 98.07172684844019,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Annie E McDaniel (D)",
+    "rep_candidate": "Nathan Ballentine (R)",
+    "dem_votes": 74580,
+    "rep_votes": 23358,
+    "other_votes": 5057,
+    "total_votes": 102995,
+    "all_parties": {
+      "DEM": 74580,
+      "UNC": 1395,
+      "NON": 1031,
+      "REP": 23358,
+      "AMR": 186,
+      "LIB": 2445
+    },
+    "county_fips": "45079",
+    "two_party_total": 97938,
+    "margin": 51222,
+    "margin_pct": 52.30043496906206,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "William Bill Clyburn (D)",
+    "rep_candidate": "Cal Forrest (R)",
+    "dem_votes": 717,
+    "rep_votes": 4710,
+    "other_votes": 70,
+    "total_votes": 5497,
+    "all_parties": {
+      "REP": 4710,
+      "NON": 70,
+      "DEM": 717
+    },
+    "county_fips": "45081",
+    "two_party_total": 5427,
+    "margin": 3993,
+    "margin_pct": 73.57656163626312,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Rosalyn Henderson-Myers (D)",
+    "rep_candidate": "Max Hyde (R)",
+    "dem_votes": 10176,
+    "rep_votes": 65232,
+    "other_votes": 1378,
+    "total_votes": 76786,
+    "all_parties": {
+      "DEM": 10176,
+      "NON": 1378,
+      "REP": 65232
+    },
+    "county_fips": "45083",
+    "two_party_total": 75408,
+    "margin": 55056,
+    "margin_pct": 73.01082113303629,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Will Wheeler (D)",
+    "rep_candidate": "Murrell Smith (R)",
+    "dem_votes": 16405,
+    "rep_votes": 8640,
+    "other_votes": 2146,
+    "total_votes": 27191,
+    "all_parties": {
+      "DEM": 16405,
+      "NON": 335,
+      "REP": 8640,
+      "LIB": 1811
+    },
+    "county_fips": "45085",
+    "two_party_total": 25045,
+    "margin": 7765,
+    "margin_pct": 31.004192453583553,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Doug Gilliam (R)",
+    "dem_votes": 0,
+    "rep_votes": 6134,
+    "other_votes": 119,
+    "total_votes": 6253,
+    "all_parties": {
+      "REP": 6134,
+      "NON": 119
+    },
+    "county_fips": "45087",
+    "two_party_total": 6134,
+    "margin": 6134,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Cezar McKnight (D)",
+    "rep_candidate": "",
+    "dem_votes": 8598,
+    "rep_votes": 0,
+    "other_votes": 305,
+    "total_votes": 8903,
+    "all_parties": {
+      "DEM": 8598,
+      "NON": 305
+    },
+    "county_fips": "45089",
+    "two_party_total": 8598,
+    "margin": 8598,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "John Kraljevich (D)",
+    "rep_candidate": "Raye Felder (R)",
+    "dem_votes": 36319,
+    "rep_votes": 53233,
+    "other_votes": 2737,
+    "total_votes": 92289,
+    "all_parties": {
+      "DEM": 36319,
+      "REP": 53233,
+      "NON": 163,
+      "WFM": 688,
+      "AMR": 1886
+    },
+    "county_fips": "45091",
+    "two_party_total": 89552,
+    "margin": 16914,
+    "margin_pct": 18.887350366267643,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  }
+}

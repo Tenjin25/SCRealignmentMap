@@ -1074,7 +1074,7 @@
       "color": "#67000d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "ATTORNEY GENERAL",
     "year": "2006",
@@ -1088,7 +1088,7 @@
       "REPUBLICAN": 3937,
       "": 28
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 3937,
     "margin": 3937,
     "margin_pct": 100.0,
@@ -1099,7 +1099,7 @@
       "color": "#67000d"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "ATTORNEY GENERAL",
     "year": "2006",
@@ -1113,7 +1113,7 @@
       "REPUBLICAN": 1932,
       "": 10
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 1932,
     "margin": 1932,
     "margin_pct": 100.0,

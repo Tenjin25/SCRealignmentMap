@@ -1160,7 +1160,7 @@
       "color": "#ef3b2c"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "U.S. HOUSE",
     "year": "2018",
@@ -1175,7 +1175,7 @@
       "REP": 4194,
       "NON": 3
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 10473,
     "margin": 2085,
     "margin_pct": 19.90833572042395,
@@ -1186,7 +1186,7 @@
       "color": "#6baed6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. HOUSE",
     "year": "2018",
@@ -1202,7 +1202,7 @@
       "AMR": 33,
       "NON": 0
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 4385,
     "margin": 271,
     "margin_pct": 6.180159635119726,

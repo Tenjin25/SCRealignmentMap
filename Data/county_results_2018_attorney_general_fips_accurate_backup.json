@@ -1,0 +1,1244 @@
+{
+  "45001": {
+    "county": "ABBEVILLE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2873,
+    "rep_votes": 5553,
+    "other_votes": 127,
+    "total_votes": 8553,
+    "all_parties": {
+      "DEM": 2873,
+      "WFM": 124,
+      "REP": 5553,
+      "NON": 3
+    },
+    "county_fips": "45001",
+    "two_party_total": 8426,
+    "margin": 2680,
+    "margin_pct": 31.806313790647994,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45003": {
+    "county": "AIKEN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 21049,
+    "rep_votes": 37513,
+    "other_votes": 986,
+    "total_votes": 59548,
+    "all_parties": {
+      "DEM": 21049,
+      "WFM": 953,
+      "REP": 37513,
+      "NON": 33
+    },
+    "county_fips": "45003",
+    "two_party_total": 58562,
+    "margin": 16464,
+    "margin_pct": 28.11379392780301,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "ALLENDALE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2077,
+    "rep_votes": 619,
+    "other_votes": 54,
+    "total_votes": 2750,
+    "all_parties": {
+      "DEM": 2077,
+      "WFM": 54,
+      "REP": 619,
+      "NON": 0
+    },
+    "county_fips": "45005",
+    "two_party_total": 2696,
+    "margin": 1458,
+    "margin_pct": 54.08011869436202,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 17183,
+    "rep_votes": 44335,
+    "other_votes": 1202,
+    "total_votes": 62720,
+    "all_parties": {
+      "DEM": 17183,
+      "WFM": 1169,
+      "REP": 44335,
+      "NON": 33
+    },
+    "county_fips": "45007",
+    "two_party_total": 61518,
+    "margin": 27152,
+    "margin_pct": 44.13667544458533,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2734,
+    "rep_votes": 1580,
+    "other_votes": 48,
+    "total_votes": 4362,
+    "all_parties": {
+      "DEM": 2734,
+      "WFM": 46,
+      "REP": 1580,
+      "NON": 2
+    },
+    "county_fips": "45009",
+    "two_party_total": 4314,
+    "margin": 1154,
+    "margin_pct": 26.750115901715343,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3332,
+    "rep_votes": 3877,
+    "other_votes": 85,
+    "total_votes": 7294,
+    "all_parties": {
+      "DEM": 3332,
+      "WFM": 82,
+      "REP": 3877,
+      "NON": 3
+    },
+    "county_fips": "45011",
+    "two_party_total": 7209,
+    "margin": 545,
+    "margin_pct": 7.55999445138022,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 29390,
+    "rep_votes": 39511,
+    "other_votes": 1211,
+    "total_votes": 70112,
+    "all_parties": {
+      "DEM": 29390,
+      "WFM": 1186,
+      "REP": 39511,
+      "NON": 25
+    },
+    "county_fips": "45013",
+    "two_party_total": 68901,
+    "margin": 10121,
+    "margin_pct": 14.689191738871715,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 28435,
+    "rep_votes": 35406,
+    "other_votes": 1832,
+    "total_votes": 65673,
+    "all_parties": {
+      "DEM": 28435,
+      "WFM": 1793,
+      "REP": 35406,
+      "NON": 39
+    },
+    "county_fips": "45015",
+    "two_party_total": 63841,
+    "margin": 6971,
+    "margin_pct": 10.919315173634498,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2887,
+    "rep_votes": 2956,
+    "other_votes": 109,
+    "total_votes": 5952,
+    "all_parties": {
+      "DEM": 2887,
+      "WFM": 107,
+      "REP": 2956,
+      "NON": 2
+    },
+    "county_fips": "45017",
+    "two_party_total": 5843,
+    "margin": 69,
+    "margin_pct": 1.1809002224884477,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 79851,
+    "rep_votes": 62516,
+    "other_votes": 4270,
+    "total_votes": 146637,
+    "all_parties": {
+      "DEM": 79851,
+      "WFM": 4177,
+      "REP": 62516,
+      "NON": 93
+    },
+    "county_fips": "45019",
+    "two_party_total": 142367,
+    "margin": 17335,
+    "margin_pct": 12.176276805720427,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4669,
+    "rep_votes": 11797,
+    "other_votes": 243,
+    "total_votes": 16709,
+    "all_parties": {
+      "DEM": 4669,
+      "WFM": 238,
+      "REP": 11797,
+      "NON": 5
+    },
+    "county_fips": "45021",
+    "two_party_total": 16466,
+    "margin": 7128,
+    "margin_pct": 43.28920199198348,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4968,
+    "rep_votes": 5692,
+    "other_votes": 203,
+    "total_votes": 10863,
+    "all_parties": {
+      "DEM": 4968,
+      "WFM": 199,
+      "REP": 5692,
+      "NON": 4
+    },
+    "county_fips": "45023",
+    "two_party_total": 10660,
+    "margin": 724,
+    "margin_pct": 6.791744840525328,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 5052,
+    "rep_votes": 6733,
+    "other_votes": 200,
+    "total_votes": 11985,
+    "all_parties": {
+      "DEM": 5052,
+      "WFM": 196,
+      "REP": 6733,
+      "NON": 4
+    },
+    "county_fips": "45025",
+    "two_party_total": 11785,
+    "margin": 1681,
+    "margin_pct": 14.263894781501909,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 6175,
+    "rep_votes": 5733,
+    "other_votes": 198,
+    "total_votes": 12106,
+    "all_parties": {
+      "DEM": 6175,
+      "WFM": 193,
+      "REP": 5733,
+      "NON": 5
+    },
+    "county_fips": "45027",
+    "two_party_total": 11908,
+    "margin": 442,
+    "margin_pct": 3.711790393013101,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 5998,
+    "rep_votes": 6917,
+    "other_votes": 296,
+    "total_votes": 13211,
+    "all_parties": {
+      "DEM": 5998,
+      "WFM": 288,
+      "REP": 6917,
+      "NON": 8
+    },
+    "county_fips": "45029",
+    "two_party_total": 12915,
+    "margin": 919,
+    "margin_pct": 7.115756871854432,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 10973,
+    "rep_votes": 11888,
+    "other_votes": 375,
+    "total_votes": 23236,
+    "all_parties": {
+      "DEM": 10973,
+      "WFM": 371,
+      "REP": 11888,
+      "NON": 4
+    },
+    "county_fips": "45031",
+    "two_party_total": 22861,
+    "margin": 915,
+    "margin_pct": 4.002449586632255,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4030,
+    "rep_votes": 4010,
+    "other_votes": 135,
+    "total_votes": 8175,
+    "all_parties": {
+      "DEM": 4030,
+      "WFM": 134,
+      "REP": 4010,
+      "NON": 1
+    },
+    "county_fips": "45033",
+    "two_party_total": 8040,
+    "margin": 20,
+    "margin_pct": 0.24875621890547264,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Democratic",
+      "color": "#f7fbff"
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 21873,
+    "rep_votes": 27373,
+    "other_votes": 1487,
+    "total_votes": 50733,
+    "all_parties": {
+      "DEM": 21873,
+      "WFM": 1459,
+      "REP": 27373,
+      "NON": 28
+    },
+    "county_fips": "45035",
+    "two_party_total": 49246,
+    "margin": 5500,
+    "margin_pct": 11.168419770133616,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3529,
+    "rep_votes": 5719,
+    "other_votes": 147,
+    "total_votes": 9395,
+    "all_parties": {
+      "DEM": 3529,
+      "WFM": 145,
+      "REP": 5719,
+      "NON": 2
+    },
+    "county_fips": "45037",
+    "two_party_total": 9248,
+    "margin": 2190,
+    "margin_pct": 23.680795847750865,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 5620,
+    "rep_votes": 3430,
+    "other_votes": 224,
+    "total_votes": 9274,
+    "all_parties": {
+      "DEM": 5620,
+      "WFM": 222,
+      "REP": 3430,
+      "NON": 2
+    },
+    "county_fips": "45039",
+    "two_party_total": 9050,
+    "margin": 2190,
+    "margin_pct": 24.19889502762431,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 21481,
+    "rep_votes": 23172,
+    "other_votes": 787,
+    "total_votes": 45440,
+    "all_parties": {
+      "DEM": 21481,
+      "WFM": 759,
+      "REP": 23172,
+      "NON": 28
+    },
+    "county_fips": "45041",
+    "two_party_total": 44653,
+    "margin": 1691,
+    "margin_pct": 3.786979598235281,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 11174,
+    "rep_votes": 14283,
+    "other_votes": 350,
+    "total_votes": 25807,
+    "all_parties": {
+      "DEM": 11174,
+      "WFM": 339,
+      "REP": 14283,
+      "NON": 11
+    },
+    "county_fips": "45043",
+    "two_party_total": 25457,
+    "margin": 3109,
+    "margin_pct": 12.212750913304788,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 66450,
+    "rep_votes": 106409,
+    "other_votes": 3375,
+    "total_votes": 176234,
+    "all_parties": {
+      "DEM": 66450,
+      "WFM": 3219,
+      "REP": 106409,
+      "NON": 156
+    },
+    "county_fips": "45045",
+    "two_party_total": 172859,
+    "margin": 39959,
+    "margin_pct": 23.116528500107023,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 8428,
+    "rep_votes": 14222,
+    "other_votes": 467,
+    "total_votes": 23117,
+    "all_parties": {
+      "DEM": 8428,
+      "WFM": 460,
+      "REP": 14222,
+      "NON": 7
+    },
+    "county_fips": "45047",
+    "two_party_total": 22650,
+    "margin": 5794,
+    "margin_pct": 25.580573951434875,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3885,
+    "rep_votes": 2575,
+    "other_votes": 104,
+    "total_votes": 6564,
+    "all_parties": {
+      "DEM": 3885,
+      "WFM": 102,
+      "REP": 2575,
+      "NON": 2
+    },
+    "county_fips": "45049",
+    "two_party_total": 6460,
+    "margin": 1310,
+    "margin_pct": 20.278637770897834,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 36397,
+    "rep_votes": 72186,
+    "other_votes": 2018,
+    "total_votes": 110601,
+    "all_parties": {
+      "DEM": 36397,
+      "WFM": 1972,
+      "REP": 72186,
+      "NON": 46
+    },
+    "county_fips": "45051",
+    "two_party_total": 108583,
+    "margin": 35789,
+    "margin_pct": 32.96003978523341,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4808,
+    "rep_votes": 4400,
+    "other_votes": 127,
+    "total_votes": 9335,
+    "all_parties": {
+      "DEM": 4808,
+      "WFM": 122,
+      "REP": 4400,
+      "NON": 5
+    },
+    "county_fips": "45053",
+    "two_party_total": 9208,
+    "margin": 408,
+    "margin_pct": 4.430929626411816,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 8749,
+    "rep_votes": 14107,
+    "other_votes": 598,
+    "total_votes": 23454,
+    "all_parties": {
+      "DEM": 8749,
+      "WFM": 581,
+      "REP": 14107,
+      "NON": 17
+    },
+    "county_fips": "45055",
+    "two_party_total": 22856,
+    "margin": 5358,
+    "margin_pct": 23.442422121106055,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 12070,
+    "rep_votes": 20179,
+    "other_votes": 600,
+    "total_votes": 32849,
+    "all_parties": {
+      "DEM": 12070,
+      "WFM": 591,
+      "REP": 20179,
+      "NON": 9
+    },
+    "county_fips": "45057",
+    "two_party_total": 32249,
+    "margin": 8109,
+    "margin_pct": 25.14496573537164,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45059": {
+    "county": "LAURENS",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 6793,
+    "rep_votes": 13154,
+    "other_votes": 378,
+    "total_votes": 20325,
+    "all_parties": {
+      "DEM": 6793,
+      "WFM": 367,
+      "REP": 13154,
+      "NON": 11
+    },
+    "county_fips": "45059",
+    "two_party_total": 19947,
+    "margin": 6361,
+    "margin_pct": 31.889507194064272,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45061": {
+    "county": "LEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4118,
+    "rep_votes": 2172,
+    "other_votes": 73,
+    "total_votes": 6363,
+    "all_parties": {
+      "DEM": 4118,
+      "WFM": 70,
+      "REP": 2172,
+      "NON": 3
+    },
+    "county_fips": "45061",
+    "two_party_total": 6290,
+    "margin": 1946,
+    "margin_pct": 30.93799682034976,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45063": {
+    "county": "LEXINGTON",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 32089,
+    "rep_votes": 64326,
+    "other_votes": 2838,
+    "total_votes": 99253,
+    "all_parties": {
+      "DEM": 32089,
+      "WFM": 2730,
+      "REP": 64326,
+      "NON": 108
+    },
+    "county_fips": "45063",
+    "two_party_total": 96415,
+    "margin": 32237,
+    "margin_pct": 33.4356687237463,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 6329,
+    "rep_votes": 3906,
+    "other_votes": 194,
+    "total_votes": 10429,
+    "all_parties": {
+      "DEM": 6329,
+      "WFM": 191,
+      "REP": 3906,
+      "NON": 3
+    },
+    "county_fips": "45065",
+    "two_party_total": 10235,
+    "margin": 2423,
+    "margin_pct": 23.673668783585736,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45067": {
+    "county": "MARLBORO",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4410,
+    "rep_votes": 3061,
+    "other_votes": 225,
+    "total_votes": 7696,
+    "all_parties": {
+      "DEM": 4410,
+      "WFM": 222,
+      "REP": 3061,
+      "NON": 3
+    },
+    "county_fips": "45067",
+    "two_party_total": 7471,
+    "margin": 1349,
+    "margin_pct": 18.05648507562575,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2041,
+    "rep_votes": 2310,
+    "other_votes": 48,
+    "total_votes": 4399,
+    "all_parties": {
+      "DEM": 2041,
+      "WFM": 48,
+      "REP": 2310,
+      "NON": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 4351,
+    "margin": 269,
+    "margin_pct": 6.182486784647208,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45071": {
+    "county": "NEWBERRY",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4937,
+    "rep_votes": 7823,
+    "other_votes": 255,
+    "total_votes": 13015,
+    "all_parties": {
+      "DEM": 4937,
+      "WFM": 247,
+      "REP": 7823,
+      "NON": 8
+    },
+    "county_fips": "45071",
+    "two_party_total": 12760,
+    "margin": 2886,
+    "margin_pct": 22.61755485893417,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "OCONEE",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 6923,
+    "rep_votes": 20106,
+    "other_votes": 519,
+    "total_votes": 27548,
+    "all_parties": {
+      "DEM": 6923,
+      "WFM": 506,
+      "REP": 20106,
+      "NON": 13
+    },
+    "county_fips": "45073",
+    "two_party_total": 27029,
+    "margin": 13183,
+    "margin_pct": 48.77353953161419,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45075": {
+    "county": "ORANGEBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 21054,
+    "rep_votes": 9153,
+    "other_votes": 441,
+    "total_votes": 30648,
+    "all_parties": {
+      "DEM": 21054,
+      "WFM": 427,
+      "REP": 9153,
+      "NON": 14
+    },
+    "county_fips": "45075",
+    "two_party_total": 30207,
+    "margin": 11901,
+    "margin_pct": 39.39815274605224,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45077": {
+    "county": "PICKENS",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 8895,
+    "rep_votes": 28958,
+    "other_votes": 722,
+    "total_votes": 38575,
+    "all_parties": {
+      "DEM": 8895,
+      "WFM": 700,
+      "REP": 28958,
+      "NON": 22
+    },
+    "county_fips": "45077",
+    "two_party_total": 37853,
+    "margin": 20063,
+    "margin_pct": 53.00240403666816,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45079": {
+    "county": "RICHLAND",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 93071,
+    "rep_votes": 44356,
+    "other_votes": 3697,
+    "total_votes": 141124,
+    "all_parties": {
+      "DEM": 93071,
+      "WFM": 3576,
+      "REP": 44356,
+      "NON": 121
+    },
+    "county_fips": "45079",
+    "two_party_total": 137427,
+    "margin": 48715,
+    "margin_pct": 35.44791052704345,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45081": {
+    "county": "SALUDA",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2212,
+    "rep_votes": 4530,
+    "other_votes": 125,
+    "total_votes": 6867,
+    "all_parties": {
+      "DEM": 2212,
+      "WFM": 120,
+      "REP": 4530,
+      "NON": 5
+    },
+    "county_fips": "45081",
+    "two_party_total": 6742,
+    "margin": 2318,
+    "margin_pct": 34.38148917235242,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45083": {
+    "county": "SPARTANBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 33245,
+    "rep_votes": 59842,
+    "other_votes": 1715,
+    "total_votes": 94802,
+    "all_parties": {
+      "DEM": 33245,
+      "WFM": 1658,
+      "REP": 59842,
+      "NON": 57
+    },
+    "county_fips": "45083",
+    "two_party_total": 93087,
+    "margin": 26597,
+    "margin_pct": 28.572195902757635,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45085": {
+    "county": "SUMTER",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 19122,
+    "rep_votes": 14650,
+    "other_votes": 631,
+    "total_votes": 34403,
+    "all_parties": {
+      "DEM": 19122,
+      "WFM": 620,
+      "REP": 14650,
+      "NON": 11
+    },
+    "county_fips": "45085",
+    "two_party_total": 33772,
+    "margin": 4472,
+    "margin_pct": 13.241738718465001,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "UNION",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3559,
+    "rep_votes": 5210,
+    "other_votes": 171,
+    "total_votes": 8940,
+    "all_parties": {
+      "DEM": 3559,
+      "WFM": 170,
+      "REP": 5210,
+      "NON": 1
+    },
+    "county_fips": "45087",
+    "two_party_total": 8769,
+    "margin": 1651,
+    "margin_pct": 18.82768844794161,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45089": {
+    "county": "WILLIAMSBURG",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 7619,
+    "rep_votes": 3781,
+    "other_votes": 173,
+    "total_votes": 11573,
+    "all_parties": {
+      "DEM": 7619,
+      "WFM": 169,
+      "REP": 3781,
+      "NON": 4
+    },
+    "county_fips": "45089",
+    "two_party_total": 11400,
+    "margin": 3838,
+    "margin_pct": 33.666666666666664,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45091": {
+    "county": "YORK",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 37137,
+    "rep_votes": 56003,
+    "other_votes": 2045,
+    "total_votes": 95185,
+    "all_parties": {
+      "DEM": 37137,
+      "WFM": 2010,
+      "REP": 56003,
+      "NON": 35
+    },
+    "county_fips": "45091",
+    "two_party_total": 93140,
+    "margin": 18866,
+    "margin_pct": 20.255529310715055,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

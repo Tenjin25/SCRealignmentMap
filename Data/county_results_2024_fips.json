@@ -479,7 +479,7 @@
     },
     "county_fips": "45037"
   },
-  "45067": {
+  "45069": {
     "county": "MARION",
     "contest": "PRESIDENT",
     "year": "2024",
@@ -507,7 +507,7 @@
       "DEM": 29264,
       "WRK": 92
     },
-    "county_fips": "45067"
+    "county_fips": "45069"
   },
   "45075": {
     "county": "ORANGEBURG",
@@ -1019,7 +1019,7 @@
     },
     "county_fips": "45045"
   },
-  "45069": {
+  "45065": {
     "county": "MARLBORO",
     "contest": "PRESIDENT",
     "year": "2024",
@@ -1047,7 +1047,7 @@
       "DEM": 20548,
       "WRK": 56
     },
-    "county_fips": "45069"
+    "county_fips": "45065"
   },
   "45079": {
     "county": "RICHLAND",
@@ -1079,7 +1079,7 @@
     },
     "county_fips": "45079"
   },
-  "45065": {
+  "45067": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",
     "year": "2024",
@@ -1107,7 +1107,7 @@
       "DEM": 10052,
       "WRK": 8
     },
-    "county_fips": "45065"
+    "county_fips": "45067"
   },
   "45001": {
     "county": "ABBEVILLE",

@@ -1074,7 +1074,7 @@
       "color": "#67000d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "COMPTROLLER GENERAL",
     "year": "2018",
@@ -1088,7 +1088,7 @@
       "REP": 4790,
       "NON": 98
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 4790,
     "margin": 4790,
     "margin_pct": 100.0,
@@ -1099,7 +1099,7 @@
       "color": "#67000d"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "COMPTROLLER GENERAL",
     "year": "2018",
@@ -1113,7 +1113,7 @@
       "REP": 2701,
       "NON": 27
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 2701,
     "margin": 2701,
     "margin_pct": 100.0,

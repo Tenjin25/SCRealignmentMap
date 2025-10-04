@@ -1246,7 +1246,7 @@
       "color": "#a50f15"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "Governor",
     "year": "2014",
@@ -1264,7 +1264,7 @@
       "REP": 2985,
       "NON": 5
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 8574,
     "margin": 2604,
     "margin_pct": 30.370888733379985,
@@ -1275,7 +1275,7 @@
       "color": "#2171b5"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "Governor",
     "year": "2014",
@@ -1293,7 +1293,7 @@
       "REP": 1985,
       "NON": 1
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 3563,
     "margin": 407,
     "margin_pct": 11.422958181307887,

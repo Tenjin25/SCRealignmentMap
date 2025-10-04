@@ -26,7 +26,7 @@
     },
     "county_fips": "45079"
   },
-  "45069": {
+  "45065": {
     "county": "MARLBORO",
     "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
     "year": "2022",
@@ -51,7 +51,7 @@
       "DEM": 12988,
       "NON": 20
     },
-    "county_fips": "45069"
+    "county_fips": "45065"
   },
   "45047": {
     "county": "GREENWOOD",
@@ -350,7 +350,7 @@
     },
     "county_fips": "45011"
   },
-  "45067": {
+  "45069": {
     "county": "MARION",
     "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
     "year": "2022",
@@ -375,7 +375,7 @@
       "DEM": 17936,
       "NON": 24
     },
-    "county_fips": "45067"
+    "county_fips": "45069"
   },
   "45061": {
     "county": "LEE",
@@ -565,7 +565,7 @@
     },
     "county_fips": "45085"
   },
-  "45065": {
+  "45067": {
     "county": "MCCORMICK",
     "contest": "GOVERNOR AND LIEUTENANT GOVERNOR",
     "year": "2022",
@@ -590,7 +590,7 @@
       "DEM": 7036,
       "NON": 8
     },
-    "county_fips": "45065"
+    "county_fips": "45067"
   },
   "45055": {
     "county": "KERSHAW",

@@ -1246,7 +1246,7 @@
       "color": "#a50f15"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "U.S. SENATE",
     "year": "2014",
@@ -1264,7 +1264,7 @@
       "REP": 3054,
       "NON": 5
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 8368,
     "margin": 2260,
     "margin_pct": 27.007648183556405,
@@ -1275,7 +1275,7 @@
       "color": "#4292c6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. SENATE",
     "year": "2014",
@@ -1293,7 +1293,7 @@
       "REP": 1881,
       "NON": 5
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 3460,
     "margin": 302,
     "margin_pct": 8.728323699421965,

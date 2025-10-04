@@ -1123,7 +1123,7 @@
       "color": "#cb181d"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "U.S. HOUSE",
     "year": "2022",
@@ -1138,7 +1138,7 @@
       "DEM": 4509,
       "NON": 10
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 8384,
     "margin": 634,
     "margin_pct": 7.562022900763359,
@@ -1149,7 +1149,7 @@
       "color": "#9ecae1"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. HOUSE",
     "year": "2022",
@@ -1163,7 +1163,7 @@
       "REP": 3062,
       "NON": 41
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 3062,
     "margin": 3062,
     "margin_pct": 100.0,

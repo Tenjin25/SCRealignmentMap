@@ -1289,7 +1289,7 @@
       "color": "#ef3b2c"
     }
   },
-  "45065": {
+  "45067": {
     "county": "MARION",
     "contest": "PRESIDENT",
     "year": "2024",
@@ -1308,7 +1308,7 @@
       "DEM": 7316,
       "WRK": 23
     },
-    "county_fips": "45065",
+    "county_fips": "45067",
     "two_party_total": 13222,
     "margin": 1410,
     "margin_pct": 10.664044773861745,
@@ -1319,7 +1319,7 @@
       "color": "#6baed6"
     }
   },
-  "45069": {
+  "45065": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",
     "year": "2024",
@@ -1338,7 +1338,7 @@
       "DEM": 2513,
       "WRK": 2
     },
-    "county_fips": "45069",
+    "county_fips": "45065",
     "two_party_total": 6078,
     "margin": 1052,
     "margin_pct": 17.308325106943073,
@@ -1349,7 +1349,7 @@
       "color": "#ef3b2c"
     }
   },
-  "45067": {
+  "45069": {
     "county": "MARLBORO",
     "contest": "PRESIDENT",
     "year": "2024",
@@ -1368,7 +1368,7 @@
       "DEM": 5137,
       "WRK": 14
     },
-    "county_fips": "45067",
+    "county_fips": "45069",
     "two_party_total": 10033,
     "margin": 241,
     "margin_pct": 2.402073158576697,
