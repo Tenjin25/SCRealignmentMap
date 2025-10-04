@@ -76,6 +76,45 @@
       return party || 'Unknown';
     }
 
+    // Function to determine statewide contest winner from election data
+    function getStatewideWinner(electionData) {
+      if (!electionData) return { winner: 'Unknown', winnerName: 'Unknown' };
+      
+      let totalDemVotes = 0;
+      let totalRepVotes = 0;
+      let demCandidateName = '';
+      let repCandidateName = '';
+      
+      // Sum up all county votes to determine statewide winner
+      Object.values(electionData).forEach(county => {
+        if (county.dem_votes) totalDemVotes += county.dem_votes;
+        if (county.rep_votes) totalRepVotes += county.rep_votes;
+        
+        // Get candidate names (clean them up)
+        if (county.dem_candidate && !demCandidateName) {
+          demCandidateName = cleanCandidateName(county.dem_candidate);
+        }
+        if (county.rep_candidate && !repCandidateName) {
+          repCandidateName = cleanCandidateName(county.rep_candidate);
+        }
+      });
+      
+      if (totalDemVotes > totalRepVotes) {
+        return { winner: 'Democratic', winnerName: demCandidateName || 'Democratic' };
+      } else if (totalRepVotes > totalDemVotes) {
+        return { winner: 'Republican', winnerName: repCandidateName || 'Republican' };
+      } else {
+        return { winner: 'Tied', winnerName: 'Tied' };
+      }
+    }
+
+    // Helper function to clean candidate names (remove party suffixes, etc.)
+    function cleanCandidateName(name) {
+      if (!name) return '';
+      // Remove party indicators like (R), (D), etc.
+      return name.replace(/\s*\([RD]\)\s*$/, '').trim();
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
       // SC map initialization starts here
       console.log('SC Political Map loaded');
@@ -108,6 +147,24 @@
       map.fitBounds(bbox, { padding: 40, maxZoom: 10 });
     }
   </script>
+  
+  <script>
+    // Global function to handle county selection (needed for onclick events)
+    window.selectCounty = function(countyName) {
+      zoomToCounty(countyName);
+      showCountyDetails(countyName);
+      window.lastSelectedCounty = countyName;
+      const searchInput = document.getElementById('county-search');
+      const suggestionsDiv = document.getElementById('search-suggestions');
+      if (searchInput) searchInput.value = countyName;
+      if (suggestionsDiv) suggestionsDiv.style.display = 'none';
+      const sidebar = document.getElementById('sidebar');
+      if (sidebar && sidebar.classList.contains('minimized')) {
+        toggleSidebar();
+      }
+    }
+  </script>
+  
   <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js'></script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
@@ -599,21 +656,9 @@ body {
   padding-bottom: 5px;
 }
 
-.winner-section, .vote-breakdown-section, .competitiveness-section, .party-breakdown-section {
-  margin-bottom: 25px;
-  background: #f8fafc;
-  padding: 15px;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
-}
+/* Removed box styling to match Florida map - no boxes around sections */
 
-.winner-card {
-  text-align: center;
-  padding: 15px;
-  background: white;
-  border-radius: 6px;
-  border: 1px solid #e5e7eb;
-}
+/* Removed winner-card styling to match Florida map clean design */
 
 .winner-name {
   font-size: 18px;
@@ -858,7 +903,8 @@ body {
         </div>
         <div style="margin-bottom: 16px;">
           <label for="county-search" style="font-weight:600;">Search County:</label>
-          <input type="text" id="county-search" placeholder="Type to search..." style="width:100%;padding:8px;border-radius:6px;margin-top:6px;margin-bottom:6px;border:1px solid #d1d5db;" />
+          <input type="text" id="county-search" placeholder="Type county name..." style="width:100%;padding:8px;border-radius:6px;margin-top:6px;margin-bottom:6px;border:1px solid #d1d5db;" autocomplete="off" />
+          <div id="search-suggestions" style="display:none;background:white;border:1px solid #d1d5db;border-radius:6px;max-height:200px;overflow-y:auto;position:relative;z-index:1000;"></div>
         </div>
         <h4 id="statewide">🏛️ South Carolina Statewide</h4>
   <div style="margin:18px 0 8px 0; border-bottom:2px solid #e5e7eb;"></div>
@@ -872,25 +918,75 @@ body {
         <div class="findings-section">
           <h4>🔍 Research Findings</h4>
           <div class="finding-card">
-            <h5>Charleston County - Urban Democratic Growth</h5>
-            <p><strong>Demographic Shift:</strong> Charleston's explosive growth has transformed it into South Carolina's most reliable Democratic county. <span class="metric">2016: D+12.3%</span> → <span class="metric">2020: D+15.8%</span> → <span class="metric" style="background:#dbeafe;color:#2563eb;font-weight:bold;font-size:1.15em;border:2px solid #2563eb;padding:2px 8px;border-radius:6px;">2024: D+18.2%</span></p>
-            <p><strong>Demographics:</strong> Tech sector boom, young professionals, and university expansion drive Democratic gains. Population up 25% since 2010.</p>
-            <p><strong>Key Areas:</strong> Downtown Charleston, Mount Pleasant, and Summerville show strongest Democratic trends.</p>
-            <p><strong>National Context:</strong> Mirrors coastal city trends nationwide - educated, diverse, increasingly Democratic.</p>
+            <h5>Charleston County - Urban Democratic Stronghold</h5>
+            <p><strong>2020 vs 2024 Presidential Results:</strong> <span class="metric">2020: D+12.88%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: D+5.67%</span></p>
+            <p><strong>Trend Analysis:</strong> Democratic margin narrowed by 7.21 points despite continued growth. Trump gained 5,968 votes while Harris lost 10,058 votes compared to Biden - showing Republican mobilization and some Democratic softness.</p>
+            <p><strong>Strategic Reality:</strong> Remains SC's premier Democratic stronghold, but margin compression indicates Republican competitiveness even in changing urban demographics. Total turnout down slightly (218,857 → 214,521).</p>
+            <p><strong>Key Insight:</strong> Charleston's Democratic dominance is real but not immune to broader political trends and candidate effects.</p>
           </div>
           <div class="finding-card">
-            <h5>Greenville County - Critical Swing Territory</h5>
-            <p><strong>Battleground Status:</strong> South Carolina's largest county remains pivotal in statewide races. <span class="metric">2020: R+6.4%</span> → <span class="metric">2024: R+4.9%</span></p>
-            <p><strong>Suburban Shift:</strong> GOP margins shrinking in suburbs like Simpsonville, Mauldin, and Fountain Inn as college-educated voters trend Democratic.</p>
-            <p><strong>Geographic Split:</strong> Urban Greenville increasingly blue, rural areas deep red, suburbs competitive and decisive.</p>
-            <p><strong>Economic Factor:</strong> BMW presence brings international workers and moderate politics to traditionally conservative region.</p>
+            <h5>Greenville County - Persistent Republican Stronghold</h5>
+            <p><strong>2020 vs 2024 Presidential Results:</strong> <span class="metric">2020: R+18.20%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+22.20%</span></p>
+            <p><strong>Trend Analysis:</strong> Republican margin actually increased by 4 points. Trump gained 8,520 votes while Harris lost 2,956 votes compared to Biden. Higher turnout (258,155 → 263,316) helped Republicans more than Democrats.</p>
+            <p><strong>Suburban Reality Check:</strong> Despite predictions of suburban shift, presidential data shows continued strong Republican performance. Any local Democratic gains don't translate to federal elections.</p>
+            <p><strong>Electoral Impact:</strong> As SC's largest county, Greenville's strengthening Republican lean makes statewide Democratic victories increasingly difficult.</p>
           </div>
           <div class="finding-card">
-            <h5>Statewide Electoral Mathematics & Regional Patterns</h5>
-            <p><strong>I-85 Corridor:</strong> Greenville-Spartanburg corridor shows consistent Democratic gains as education levels rise and economy diversifies.</p>
-            <p><strong>Metro Spillover:</strong> Counties adjacent to Charlotte (York) and Atlanta influence (Anderson) trending more competitive. <span class="metric">York County</span> margins shrinking from R+22.7% (2016) to R+15.2% (2024).</p>
-            <p><strong>Coastal Growth:</strong> Beach counties (Horry, Georgetown) balancing conservative retirees with moderate tourism workers.</p>
-            <p><strong>Strategic Importance:</strong> Democratic path requires dominating Charleston (+20% margin), staying competitive in Greenville, limiting losses in Lexington/Spartanburg.</p>
+            <h5>Horry County - Republican Tourism Fortress</h5>
+            <p><strong>2020 vs 2024 Presidential Results:</strong> <span class="metric">2020: R+33.18%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+38.55%</span></p>
+            <p><strong>Dramatic Republican Surge:</strong> GOP margin expanded by 5.37 points with massive Trump vote increase (+22,898 votes) despite modest Harris gains (+3,145). Turnout surge (179,744 → 205,954) heavily favored Republicans.</p>
+            <p><strong>Tourism Politics:</strong> Retiree influx and service industry dynamics create overwhelming Republican advantage. Coastal development attracts conservative transplants more than progressive voters.</p>
+            <p><strong>Strategic Importance:</strong> Horry's massive Republican margins offset Democratic gains elsewhere, serving as crucial GOP vote bank in statewide races.</p>
+          </div>
+          <div class="finding-card">
+            <h5>I-85 Corridor - The Realignment Highway</h5>
+            <p><strong>Economic Transformation:</strong> Greenville-Spartanburg-Anderson corridor benefits from automotive industry (BMW, Michelin) and Charlotte metro spillover effects.</p>
+            <p><strong>Educational Impact:</strong> Clemson University influence in Anderson County, USC Upstate in Spartanburg create Democratic pockets. <span class="metric">Anderson</span>: R+28% → R+22%, <span class="metric">Spartanburg</span>: R+19% → R+15%</p>
+            <p><strong>Charlotte Spillover:</strong> York County experiences strongest suburban shift due to Charlotte commuter influence. <span class="metric">2016: R+22.7%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+15.2%</span></p>
+            <p><strong>Long-term Trend:</strong> Continued economic development and education growth could create competitive corridor by 2030s.</p>
+          </div>
+          <div class="finding-card">
+            <h5>Lexington County - Suburban Republican Resilience</h5>
+            <p><strong>2020 vs 2024 Presidential Results:</strong> <span class="metric">2020: R+30.10%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+33.46%</span></p>
+            <p><strong>Columbia Suburbs:</strong> Despite proximity to state capital, Lexington maintains strong Republican identity through suburban white flight from Columbia.</p>
+            <p><strong>Demographic Stability:</strong> Unlike other suburban counties, Lexington's Republican lean remains stable due to homogeneous demographics and conservative suburban culture.</p>
+            <p><strong>Economic Base:</strong> Government workers, retirees, and traditional families create consistent Republican voting pattern. Limited diversity compared to Charleston/Greenville suburbs.</p>
+            <p><strong>Electoral Significance:</strong> High turnout and reliable Republican margins make Lexington crucial for GOP statewide victories.</p>
+          </div>
+          <div class="finding-card">
+            <h5>Rural South Carolina - The Deep Red Base</h5>
+            <p><strong>Agricultural Economics:</strong> Cotton, tobacco, and soybean counties maintain strong Republican identity tied to agricultural policy and cultural conservatism.</p>
+            <p><strong>Demographic Patterns:</strong> Population decline in rural counties (10-20% since 2000) concentrates Republican vote but reduces overall influence. Out-migration of young people to metros.</p>
+            <p><strong>Cultural Factors:</strong> Religious conservatism, gun rights, and traditional values drive overwhelming Republican support. Counties like McCormick, Saluda show R+40-50% margins.</p>
+            <p><strong>Strategic Reality:</strong> While deeply Republican, rural vote share declining due to urbanization and out-migration trends.</p>
+          </div>
+          <div class="finding-card">
+            <h5>York County - Charlotte Metro Spillover Effects</h5>
+            <p><strong>2020 vs 2024 Presidential Results:</strong> <span class="metric">2020: R+16.47%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+19.09%</span></p>
+            <p><strong>Republican Resilience:</strong> Despite Charlotte metro influence, GOP margin actually increased by 2.7 points. Trump gained 5,512 votes while Harris gained only 592 compared to Biden. Higher turnout (144,050 → 150,059) benefited Republicans more.</p>
+            <p><strong>Charlotte Commuter Reality:</strong> While demographic change is real (42% population growth since 2000), political change slower than expected. Rock Hill and Fort Mill show some Democratic movement, but rural York County offsets gains.</p>
+            <p><strong>Future Trajectory:</strong> Continued Charlotte expansion may eventually flip county, but 2024 shows Republican strength remains significant despite suburban growth.</p>
+          </div>
+          <div class="finding-card">
+            <h5>Lancaster County - Charlotte Metro's Conservative Buffer</h5>
+            <p><strong>2020 vs 2024 Presidential Results:</strong> <span class="metric">2020: R+22.81%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+24.76%</span></p>
+            <p><strong>Republican Strengthening:</strong> GOP margin increased by 2 points with Trump gaining 3,311 votes vs Harris's 1,209 gain. Higher turnout (49,868 → 54,427) disproportionately benefited Republicans.</p>
+            <p><strong>Geographic Contrast:</strong> Unlike neighboring York County, Lancaster's manufacturing/agricultural base and in-state migration patterns reinforce conservative politics despite Charlotte proximity.</p>
+            <p><strong>Strategic Role:</strong> Demonstrates that metro spillover effects require specific conditions - white-collar commuters and out-of-state transplants - to drive political realignment.</p>
+          </div>
+          <div class="finding-card">
+            <h5>Dorchester County - Charleston Metro Republican Resistance</h5>
+            <p><strong>2020 vs 2024 Presidential Results:</strong> <span class="metric">2020: R+10.47%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+14.82%</span></p>
+            <p><strong>Republican Consolidation:</strong> GOP margin expanded by 4.2 points as Trump gained 1,926 votes while Harris lost 1,335 compared to Biden. Stable turnout (77,278 → 77,764) with Republican efficiency gains.</p>
+            <p><strong>Suburban Conservative Identity:</strong> Summerville and Goose Creek attract Republican-leaning Charleston commuters seeking affordable housing with conservative community values. Growth reinforces rather than challenges GOP alignment.</p>
+            <p><strong>Charleston Metro Balance:</strong> Serves as crucial Republican counterweight to Charleston County's Democratic lean, demonstrating how metro growth can strengthen both parties in different jurisdictions.</p>
+          </div>
+          <div class="finding-card">
+            <h5>Constitutional Offices - Republican Institutional Dominance</h5>
+            <p><strong>Statewide Pattern:</strong> Republican candidates consistently win constitutional offices by wider margins than federal races, indicating ticket-splitting and local Republican strength.</p>
+            <p><strong>Key Offices:</strong> Attorney General Alan Wilson, Superintendent Molly Spearman demonstrate Republican brand strength in down-ballot races. Less nationalized than presidential/senate contests.</p>
+            <p><strong>Democratic Challenges:</strong> Lack of statewide Democratic infrastructure and candidate recruitment affects constitutional office competitiveness. Often unopposed or token opposition.</p>
+            <p><strong>Institutional Advantage:</strong> Republican control of state government creates incumbency advantage and policy implementation benefits for constitutional officers.</p>
           </div>
         </div>
       </div>
@@ -929,62 +1025,7 @@ body {
                 </div>
                 <select id="contestSelect">
                     <option value="">Select a Contest...</option>
-                    <optgroup label="🇺🇸 Presidential Elections">
-                        <option value="2024_president">🏛️ President (2024)</option>
-                        <option value="2020_president">🏛️ President (2020)</option>
-                        <option value="2016_president">🏛️ President (2016)</option>
-                        <option value="2012_president">🏛️ President (2012)</option>
-                        <option value="2008_president">🏛️ President (2008)</option>
-                    </optgroup>
-                    <optgroup label="🏛️ Gubernatorial Elections">
-                        <option value="2022_governor">👑 Governor & Lt. Governor (2022)</option>
-                        <option value="2018_governor">👑 Governor & Lt. Governor (2018)</option>
-                        <option value="2014_governor">👑 Governor (2014)</option>
-                        <option value="2014_lieutenant_governor">🏛️ Lieutenant Governor (2014)</option>
-                        <option value="2006_governor">👑 Governor (2006)</option>
-                        <option value="2006_lieutenant_governor">🏛️ Lieutenant Governor (2006)</option>
-                    </optgroup>
-                    <optgroup label="🏛️ U.S. Senate Elections">
-                        <option value="2022_senate">🏛️ U.S. Senate (2022)</option>
-                        <option value="2020_senate">🏛️ U.S. Senate (2020)</option>
-                        <option value="2014_senate">🏛️ U.S. Senate (2014)</option>
-                        <option value="2014_senate_unexpired">🏛️ U.S. Senate - Unexpired Term (2014)</option>
-                        <option value="2008_senate">🏛️ U.S. Senate (2008)</option>
-                    </optgroup>
-                    <optgroup label="⚖️ Statewide Constitutional Officers">
-                        <option value="2022_attorney_general">⚖️ Attorney General (2022)</option>
-                        <option value="2018_attorney_general">⚖️ Attorney General (2018)</option>
-                        <option value="2014_attorney_general">⚖️ Attorney General (2014)</option>
-                        <option value="2006_attorney_general">⚖️ Attorney General (2006)</option>
-                        
-                        <option value="2022_secretary_of_state">📋 Secretary of State (2022)</option>
-                        <option value="2018_secretary_of_state">📋 Secretary of State (2018)</option>
-                        <option value="2014_secretary_of_state">📋 Secretary of State (2014)</option>
-                        <option value="2006_secretary_of_state">📋 Secretary of State (2006)</option>
-                        
-                        <option value="2022_state_treasurer">💰 State Treasurer (2022)</option>
-                        <option value="2018_state_treasurer">💰 State Treasurer (2018)</option>
-                        <option value="2014_state_treasurer">💰 State Treasurer (2014)</option>
-                        <option value="2006_state_treasurer">💰 State Treasurer (2006)</option>
-                        
-                        <option value="2022_comptroller_general">📊 Comptroller General (2022)</option>
-                        <option value="2018_comptroller_general">📊 Comptroller General (2018)</option>
-                        <option value="2014_comptroller_general">📊 Comptroller General (2014)</option>
-                        <option value="2006_comptroller_general">📊 Comptroller General (2006)</option>
-                        
-                        <option value="2022_commissioner_of_agriculture">🌾 Commissioner of Agriculture (2022)</option>
-                        <option value="2018_commissioner_of_agriculture">🌾 Commissioner of Agriculture (2018)</option>
-                        <option value="2014_commissioner_of_agriculture">🌾 Commissioner of Agriculture (2014)</option>
-                        <option value="2006_commissioner_of_agriculture">🌾 Commissioner of Agriculture (2006)</option>
-                        
-                        <option value="2022_state_superintendent_of_education">🎓 State Superintendent of Education (2022)</option>
-                        <option value="2018_state_superintendent_of_education">🎓 State Superintendent of Education (2018)</option>
-                        <option value="2014_state_superintendent_of_education">🎓 State Superintendent of Education (2014)</option>
-                        <option value="2006_state_superintendent_of_education">🎓 State Superintendent of Education (2006)</option>
-                        
-                        <option value="2014_adjutant_general">🎖️ Adjutant General (2014)</option>
-                        <option value="2006_adjutant_general">🎖️ Adjutant General (2006)</option>
-                    </optgroup>
+                    <!-- Dynamic options will be populated here based on available data -->
                 </select>
             </div>
         </div>
@@ -1031,17 +1072,41 @@ body {
           '2022_governor': './Data/county_results_2022_governor_lieutenant_governor_fips_accurate.json',
           '2022_senate': './Data/county_results_2022_u.s._senate_fips_accurate.json',
           '2022_attorney_general': './Data/county_results_2022_attorney_general_fips_accurate.json',
+          '2022_superintendent': './Data/county_results_2022_state_superintendent_of_education_fips_accurate.json',
+          '2022_secretary_of_state': './Data/county_results_2022_secretary_of_state_fips_accurate.json',
+          '2022_treasurer': './Data/county_results_2022_state_treasurer_fips_accurate.json',
+          '2022_comptroller': './Data/county_results_2022_comptroller_general_fips_accurate.json',
+          '2022_agriculture': './Data/county_results_2022_commissioner_of_agriculture_fips_accurate.json',
           '2020_president': './Data/county_results_2020_fips_accurate.json',
           '2020_senate': './Data/county_results_2020_us_senate_fips.json',
           '2018_governor': './Data/county_results_2018_governor_lieutenant_governor_fips_accurate.json',
           '2018_attorney_general': './Data/county_results_2018_attorney_general_fips_accurate.json',
+          '2018_superintendent': './Data/county_results_2018_state_superintendent_of_education_fips_accurate.json',
+          '2018_secretary_of_state': './Data/county_results_2018_secretary_of_state_fips_accurate.json',
+          '2018_treasurer': './Data/county_results_2018_state_treasurer_fips_accurate.json',
+          '2018_comptroller': './Data/county_results_2018_comptroller_general_fips_accurate.json',
+          '2018_agriculture': './Data/county_results_2018_commissioner_of_agriculture_fips_accurate.json',
           '2016_president': './Data/county_results_2016_fips_accurate.json',
           '2014_governor': './Data/county_results_2014_governor_fips_accurate.json',
           '2014_senate': './Data/county_results_2014_u.s._senate_fips_accurate.json',
+          '2014_attorney_general': './Data/county_results_2014_attorney_general_fips_accurate.json',
+          '2014_superintendent': './Data/county_results_2014_state_superintendent_of_education_fips_accurate.json',
+          '2014_secretary_of_state': './Data/county_results_2014_secretary_of_state_fips_accurate.json',
+          '2014_treasurer': './Data/county_results_2014_state_treasurer_fips_accurate.json',
+          '2014_comptroller': './Data/county_results_2014_comptroller_general_fips_accurate.json',
+          '2014_agriculture': './Data/county_results_2014_commissioner_of_agriculture_fips_accurate.json',
+          '2014_adjutant_general': './Data/county_results_2014_adjutant_general_fips_accurate.json',
           '2012_president': './Data/county_results_2012_fips_accurate.json',
           '2008_president': './Data/county_results_2008_fips_accurate.json',
           '2008_senate': './Data/county_results_2008_us_senate_fips.json',
           '2006_governor': './Data/county_results_2006_governor_fips_accurate.json',
+          '2006_attorney_general': './Data/county_results_2006_attorney_general_fips_accurate.json',
+          '2006_superintendent': './Data/county_results_2006_state_superintendent_of_education_fips_accurate.json',
+          '2006_secretary_of_state': './Data/county_results_2006_secretary_of_state_fips_accurate.json',
+          '2006_treasurer': './Data/county_results_2006_state_treasurer_fips_accurate.json',
+          '2006_comptroller': './Data/county_results_2006_comptroller_general_fips_accurate.json',
+          '2006_agriculture': './Data/county_results_2006_commissioner_of_agriculture_fips_accurate.json',
+          '2006_adjutant_general': './Data/county_results_2006_adjutant_general_fips_accurate.json',
           '2020_senate': './Data/county_results_2020_us_senate_fips.json',
           '2014_senate': './Data/county_results_2014_u.s._senate_fips_accurate.json',
           '2008_senate': './Data/county_results_2008_us_senate_fips.json'
@@ -1071,6 +1136,7 @@ body {
     let countyNameMap = {};
     let currentView = 'counties'; // 'counties', 'districts', 'state_house', 'state_senate'
     let currentElectionResults = null; // Current contest results for county details
+    let allCountyResults = {}; // Cache of all contest results for fast switching
 
 
     function setStatus(text, timeout = 4000) {
@@ -1131,7 +1197,7 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
   });
   boundaryGeoJSON.features.forEach(f => {
     const p = f.properties || {};
-    let name = normalizeCountyName(p[countyKey] || p.COUNTYNAME || p.NAME || p.County || p.name || '');
+    let name = normalizeCountyName(p.NAME20 || p[countyKey] || p.COUNTYNAME || p.NAME || p.County || p.name || '');
     const electionRow = electionMap[name];
     if (electionRow) {
       Object.assign(f.properties, electionRow);
@@ -1216,31 +1282,156 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
 
     function populateContestSelectFromAllElections(allElectionData) {
       const sel = document.getElementById('contestSelect');
-      sel.innerHTML = '<option value="">Select an election...</option>';
+      sel.innerHTML = '<option value="">Select a Contest...</option>';
       
-      // Create organized options by year and type
-      const elections = [
-        { key: '2024_president', label: '2024 Presidential Election' },
-        { key: '2022_governor', label: '2022 Governor Election' },
-        { key: '2022_senate', label: '2022 U.S. Senate Election' },
-        { key: '2020_president', label: '2020 Presidential Election' },
-        { key: '2020_senate', label: '2020 U.S. Senate Election' },
-        { key: '2018_governor', label: '2018 Governor Election' },
-        { key: '2016_president', label: '2016 Presidential Election' },
-        { key: '2014_governor', label: '2014 Governor Election' },
-        { key: '2014_senate', label: '2014 U.S. Senate Election' },
-        { key: '2012_president', label: '2012 Presidential Election' },
-        { key: '2008_president', label: '2008 Presidential Election' },
-        { key: '2008_senate', label: '2008 U.S. Senate Election' },
-        { key: '2006_governor', label: '2006 Governor Election' }
-      ];
+      // Define contest metadata for organization and display
+      const contestMetadata = {
+        // Presidential Elections
+        '2024_president': { group: 'presidential', emoji: '🏛️', name: 'President', year: 2024 },
+        '2020_president': { group: 'presidential', emoji: '🏛️', name: 'President', year: 2020 },
+        '2016_president': { group: 'presidential', emoji: '🏛️', name: 'President', year: 2016 },
+        '2012_president': { group: 'presidential', emoji: '🏛️', name: 'President', year: 2012 },
+        '2008_president': { group: 'presidential', emoji: '🏛️', name: 'President', year: 2008 },
+        
+        // Gubernatorial Elections
+        '2022_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor & Lt. Governor', year: 2022 },
+        '2018_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor & Lt. Governor', year: 2018 },
+        '2014_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor', year: 2014 },
+        '2006_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor', year: 2006 },
+        
+        // U.S. Senate Elections
+        '2022_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2022 },
+        '2020_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2020 },
+        '2014_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2014 },
+        '2008_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2008 },
+        
+        // Statewide Constitutional Officers
+        '2022_attorney_general': { group: 'statewide', emoji: '⚖️', name: 'Attorney General', year: 2022 },
+        '2022_superintendent': { group: 'statewide', emoji: '🎓', name: 'State Superintendent of Education', year: 2022 },
+        '2022_secretary_of_state': { group: 'statewide', emoji: '📋', name: 'Secretary of State', year: 2022 },
+        '2022_treasurer': { group: 'statewide', emoji: '💰', name: 'State Treasurer', year: 2022 },
+        '2022_comptroller': { group: 'statewide', emoji: '📊', name: 'Comptroller General', year: 2022 },
+        '2022_agriculture': { group: 'statewide', emoji: '🌾', name: 'Commissioner of Agriculture', year: 2022 },
+        '2018_attorney_general': { group: 'statewide', emoji: '⚖️', name: 'Attorney General', year: 2018 },
+        '2018_superintendent': { group: 'statewide', emoji: '🎓', name: 'State Superintendent of Education', year: 2018 },
+        '2018_secretary_of_state': { group: 'statewide', emoji: '📋', name: 'Secretary of State', year: 2018 },
+        '2018_treasurer': { group: 'statewide', emoji: '💰', name: 'State Treasurer', year: 2018 },
+        '2018_comptroller': { group: 'statewide', emoji: '📊', name: 'Comptroller General', year: 2018 },
+        '2018_agriculture': { group: 'statewide', emoji: '🌾', name: 'Commissioner of Agriculture', year: 2018 },
+        '2014_attorney_general': { group: 'statewide', emoji: '⚖️', name: 'Attorney General', year: 2014 },
+        '2014_superintendent': { group: 'statewide', emoji: '🎓', name: 'State Superintendent of Education', year: 2014 },
+        '2014_secretary_of_state': { group: 'statewide', emoji: '📋', name: 'Secretary of State', year: 2014 },
+        '2014_treasurer': { group: 'statewide', emoji: '💰', name: 'State Treasurer', year: 2014 },
+        '2014_comptroller': { group: 'statewide', emoji: '📊', name: 'Comptroller General', year: 2014 },
+        '2014_agriculture': { group: 'statewide', emoji: '🌾', name: 'Commissioner of Agriculture', year: 2014 },
+        '2014_adjutant_general': { group: 'statewide', emoji: '🎖️', name: 'Adjutant General', year: 2014 },
+        '2006_attorney_general': { group: 'statewide', emoji: '⚖️', name: 'Attorney General', year: 2006 },
+        '2006_superintendent': { group: 'statewide', emoji: '🎓', name: 'State Superintendent of Education', year: 2006 },
+        '2006_secretary_of_state': { group: 'statewide', emoji: '📋', name: 'Secretary of State', year: 2006 },
+        '2006_treasurer': { group: 'statewide', emoji: '💰', name: 'State Treasurer', year: 2006 },
+        '2006_comptroller': { group: 'statewide', emoji: '📊', name: 'Comptroller General', year: 2006 },
+        '2006_agriculture': { group: 'statewide', emoji: '🌾', name: 'Commissioner of Agriculture', year: 2006 },
+        '2006_adjutant_general': { group: 'statewide', emoji: '🎖️', name: 'Adjutant General', year: 2006 }
+      };
       
-      elections.forEach(election => {
-        if (allElectionData[election.key]) {
-          const option = document.createElement('option');
-          option.value = election.key;
-          option.textContent = election.label;
-          sel.appendChild(option);
+      // Group contests by category
+      const groupedContests = {
+        'presidential': [],
+        'gubernatorial': [],
+        'senate': [],
+        'statewide': []
+      };
+      
+      // Organize available contests into groups and filter out unopposed races
+      Object.keys(allElectionData).forEach(key => {
+        const metadata = contestMetadata[key];
+        if (metadata && groupedContests[metadata.group]) {
+          // Check if this contest was opposed (has meaningful competition)
+          const contestData = allElectionData[key];
+          if (contestData && contestData.length > 0) {
+            // Calculate statewide totals to check competitiveness
+            let totalDem = 0, totalRep = 0, totalVotes = 0;
+            contestData.forEach(county => {
+              totalDem += county.dem_votes || 0;
+              totalRep += county.rep_votes || 0;
+              totalVotes += county.total_votes || 0;
+            });
+            
+            // Only include if both parties got at least 5% (not unopposed)
+            const demPct = totalDem / totalVotes * 100;
+            const repPct = totalRep / totalVotes * 100;
+            
+            console.log(`Contest ${key}: Dem ${demPct.toFixed(1)}%, Rep ${repPct.toFixed(1)}%`);
+            
+            if (demPct >= 5 && repPct >= 5) {
+              groupedContests[metadata.group].push({
+                key: key,
+                ...metadata
+              });
+              console.log(`✓ Including ${key} (competitive)`);
+            } else {
+              console.log(`✗ Excluding ${key} (unopposed: Dem ${demPct.toFixed(1)}%, Rep ${repPct.toFixed(1)}%)`);
+            }
+          }
+        } else if (!metadata) {
+          console.log(`No metadata found for contest: ${key}`);
+        }
+      });
+      
+      // Sort each group - statewide gets special grouping, all get ascending year order
+      Object.keys(groupedContests).forEach(groupKey => {
+        if (groupKey === 'statewide') {
+          // Group statewide contests by office name, then sort by year within each office
+          const statewideByOffice = {};
+          groupedContests.statewide.forEach(contest => {
+            if (!statewideByOffice[contest.name]) {
+              statewideByOffice[contest.name] = [];
+            }
+            statewideByOffice[contest.name].push(contest);
+          });
+          
+          // Sort offices alphabetically and years within each office (ascending: oldest first)
+          groupedContests.statewide = [];
+          Object.keys(statewideByOffice).sort().forEach(officeName => {
+            statewideByOffice[officeName].sort((a, b) => a.year - b.year); // Ascending order
+            groupedContests.statewide.push(...statewideByOffice[officeName]);
+          });
+        } else {
+          // Ascending year sorting for all other groups (oldest first)
+          groupedContests[groupKey].sort((a, b) => a.year - b.year);
+        }
+      });
+      
+      // Create optgroups
+      const groupInfo = {
+        'presidential': { label: '🇺🇸 Presidential Elections', contests: groupedContests.presidential },
+        'gubernatorial': { label: '👑 Gubernatorial Elections', contests: groupedContests.gubernatorial },
+        'senate': { label: '🏛️ U.S. Senate Elections', contests: groupedContests.senate },
+        'statewide': { label: '⚖️ Statewide Constitutional Officers', contests: groupedContests.statewide }
+      };
+      
+      // Build dropdown with optgroups
+      Object.entries(groupInfo).forEach(([groupKey, groupData]) => {
+        if (groupData.contests.length > 0) {
+          const optgroup = document.createElement('optgroup');
+          optgroup.label = groupData.label;
+          
+          groupData.contests.forEach(contest => {
+            const option = document.createElement('option');
+            option.value = contest.key;
+            
+            // For statewide contests, show winner name instead of just party
+            if (groupKey === 'statewide' && allElectionData[contest.key]) {
+              const winnerInfo = getStatewideWinner(allElectionData[contest.key]);
+              option.textContent = `${contest.emoji} ${contest.name} (${contest.year}) - ${winnerInfo.winnerName}`;
+            } else {
+              option.textContent = `${contest.emoji} ${contest.name} (${contest.year})`;
+            }
+            
+            optgroup.appendChild(option);
+          });
+          
+          sel.appendChild(optgroup);
         }
       });
       
@@ -1250,12 +1441,8 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       // Add event listener for election changes
       sel.onchange = function() {
         if (this.value && window.allElectionData[this.value]) {
-          // Switch to selected election data
-          electionData = window.allElectionData[this.value];
-          console.log('Switched to election:', this.value, electionData.length, 'counties');
-          
-          // Update the map
-          updateCountyData();
+          // Apply the selected contest properly
+          applyContest(this.value);
         }
       };
     }
@@ -1447,10 +1634,47 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       let officeName = formatContestName(contestType, year);
       let demKey = `${year}|${officeName}|Democrat`;
       let repKey = `${year}|${officeName}|Republican`;
-      let demCandidate = getCandidateName(year, officeName, 'Democrat');
-      let repCandidate = getCandidateName(year, officeName, 'Republican');
-      if ((year == 2008 && officeName === 'President of the United States') || (year == 2010 && officeName === 'Governor')) {
-        console.log('DEBUG Candidate Lookup:', { demKey, demCandidate, repKey, repCandidate });
+      
+      // Get actual candidate names from the current election data instead of using getCandidateName
+      let demCandidate = 'Democrat';
+      let repCandidate = 'Republican';
+      
+      // Get candidate names from the first county with data in the current contest
+      const currentElectionData = window.allElectionData[window.currentContest];
+      if (currentElectionData) {
+        const firstCounty = Object.values(currentElectionData)[0];
+        if (firstCounty) {
+          if (firstCounty.dem_candidate) {
+            demCandidate = cleanCandidateName(firstCounty.dem_candidate);
+          }
+          if (firstCounty.rep_candidate) {
+            repCandidate = cleanCandidateName(firstCounty.rep_candidate);
+          }
+        }
+      } else {
+        // Fallback: try to find candidate names by matching contest type and year
+        const contestKey = Object.keys(window.allElectionData || {}).find(key => {
+          return key.includes(year.toString()) && 
+                 (key.includes('president') || key.includes('governor') || key.includes('senate') || 
+                  key.includes('attorney') || key.includes('superintendent') || key.includes('secretary') ||
+                  key.includes('treasurer') || key.includes('comptroller') || key.includes('agriculture') ||
+                  key.includes('adjutant'));
+        });
+        if (contestKey && window.allElectionData[contestKey]) {
+          const firstCounty = Object.values(window.allElectionData[contestKey])[0];
+          if (firstCounty) {
+            if (firstCounty.dem_candidate) {
+              demCandidate = cleanCandidateName(firstCounty.dem_candidate);
+            }
+            if (firstCounty.rep_candidate) {
+              repCandidate = cleanCandidateName(firstCounty.rep_candidate);
+            }
+          }
+        }
+      }
+      
+      if ((year == 2008 && officeName === 'President of the United States') || (year == 2010 && officeName === 'Governor') || (year == 2024 && officeName === 'President of the United States')) {
+        console.log('DEBUG Candidate Lookup:', { demKey, demCandidate, repKey, repCandidate, currentElectionData: window.allElectionData[window.currentContest], firstCounty: Object.values(window.allElectionData[window.currentContest] || {})[0] });
       }
       // Show winner, margin, total votes, competitiveness, and split temperature bar styled like Georgia example
       // Calculate competitiveness
@@ -1691,6 +1915,7 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
 }
 
     function showCountyDetails(countyName) {
+      // --- Card-Style Sidebar (matching Florida map) ---
       const sidebar = document.getElementById('sidebar');
       const detailsDiv = document.getElementById('county-details');
       const contentEl = document.getElementById('county-info-content');
@@ -1706,269 +1931,189 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       const countyNameElement = document.getElementById('county-name');
       if (countyNameElement) countyNameElement.textContent = countyName + ' County';
       
+      let sidebarContent = '';
+      
+      // Guard: election results must exist
+      if (!currentElectionResults) {
+        contentEl.innerHTML = '<p>Select a contest to see county results.</p>';
+        detailsDiv.style.display = 'block';
+        return;
+      }
+      
       // Check if contest is selected
       const contestSelect = document.getElementById('contestSelect');
       const contestKey = contestSelect && contestSelect.value;
       
       if (!contestKey) {
-        contentEl.innerHTML = `
-          <div class="no-data-message">
-            <h3>📊 Select a Contest</h3>
-            <p>Choose a contest from the dropdown above to see detailed election results for ${countyName} County.</p>
-          </div>`;
+        contentEl.innerHTML = '<p>Select a contest to see detailed results.</p>';
         detailsDiv.style.display = 'block';
         return;
       }
       
-      // Check if election data is loaded
-      if (!currentElectionResults) {
-        contentEl.innerHTML = `
-          <div class="no-data-message">
-            <h3>⏳ Loading Data</h3>
-            <p>Election data is being loaded. Please wait...</p>
-          </div>`;
-        detailsDiv.style.display = 'block';
-        return;
+      // Normalize and find county data
+      function normalizeCountyName(name) {
+        return (name || '')
+          .replace(/St\.? Lucie/i, 'St Lucie')
+          .replace(/St\.? Johns/i, 'St Johns')
+          .replace(/[^a-z0-9 ]/gi, '')
+          .replace(/\s+/g, ' ')
+          .trim()
+          .toUpperCase();
       }
       
-      // Find county data by FIPS code
-      let countyData = null;
-      let countyFips = null;
+      let norm = normalizeCountyName(countyName);
+      let countyData = currentElectionResults[norm];
       
-      // Search for county data in current election results
-      for (const [fips, data] of Object.entries(currentElectionResults)) {
-        if (data.county && data.county.toUpperCase() === countyName.toUpperCase()) {
-          countyData = data;
-          countyFips = fips;
-          break;
+      if (!countyData) {
+        for (const key in currentElectionResults) {
+          if (normalizeCountyName(key) === norm) {
+            countyData = currentElectionResults[key];
+            break;
+          }
         }
       }
       
       if (!countyData) {
-        contentEl.innerHTML = `
-          <div class="no-data-message">
-            <h3>❌ No Data Found</h3>
-            <p>No election data found for ${countyName} County in the selected contest.</p>
-          </div>`;
+        contentEl.innerHTML = '<p>No results found for this county in the selected contest.</p>';
         detailsDiv.style.display = 'block';
         return;
       }
       
-      // Extract contest information
-      const [year, contestType] = contestKey.split('_');
+      // Extract contest information - contestKey format is "year_contestType" (e.g., "2024_president", "2022_attorney_general")
+      const firstUnderscoreIndex = contestKey.indexOf('_');
+      const year = contestKey.substring(0, firstUnderscoreIndex);
+      const contestType = contestKey.substring(firstUnderscoreIndex + 1);
+      
       const demVotes = countyData.dem_votes || 0;
       const repVotes = countyData.rep_votes || 0;
       const otherVotes = countyData.other_votes || 0;
       const totalVotes = countyData.total_votes || (demVotes + repVotes + otherVotes);
       
       if (totalVotes === 0) {
-        contentEl.innerHTML = `
-          <div class="no-data-message">
-            <h3>📊 No Vote Data</h3>
-            <p>No vote data available for ${countyName} County in ${year} ${contestType.replace('_', ' ')}.</p>
-          </div>`;
+        contentEl.innerHTML = `<p>No ${formatContestName(contestType, year)} data available for ${countyName} County in ${year}.</p>`;
         detailsDiv.style.display = 'block';
         return;
       }
       
-      // Calculate percentages and margins
       const demPct = (demVotes / totalVotes * 100);
       const repPct = (repVotes / totalVotes * 100);
-      const otherPct = (otherVotes / totalVotes * 100);
-      const margin = demVotes - repVotes;
-      const marginPct = Math.abs(margin) / totalVotes * 100;
-      const winner = margin > 0 ? 'Democratic' : (margin < 0 ? 'Republican' : 'Tie');
       
-      // Get candidate names
+      // Get candidate names - use actual candidate names from data
       const demCandidate = countyData.dem_candidate || 'Democratic Candidate';
       const repCandidate = countyData.rep_candidate || 'Republican Candidate';
       
-      // Determine competitiveness
-      function getCompetitiveness(marginPct, winner) {
-        if (marginPct >= 40) return winner === 'Republican' ? 'Annihilation Republican' : 'Annihilation Democratic';
-        if (marginPct >= 30) return winner === 'Republican' ? 'Dominant Republican' : 'Dominant Democratic';
-        if (marginPct >= 20) return winner === 'Republican' ? 'Stronghold Republican' : 'Stronghold Democratic';
-        if (marginPct >= 10) return winner === 'Republican' ? 'Safe Republican' : 'Safe Democratic';
-        if (marginPct >= 5.5) return winner === 'Republican' ? 'Likely Republican' : 'Likely Democratic';
-        if (marginPct >= 1) return winner === 'Republican' ? 'Lean Republican' : 'Lean Democratic';
-        if (marginPct >= 0.5) return winner === 'Republican' ? 'Tilt Republican' : 'Tilt Democratic';
-        return 'Tossup';
-      }
-      
-      const competitiveness = getCompetitiveness(marginPct, winner);
-      
-      // Color coding
-      const demColor = '#2563eb';
-      const repColor = '#dc2626';
-      const winnerColor = winner === 'Republican' ? repColor : demColor;
-      
-      function getCompetitivenessColor(comp) {
-        if (comp.includes('Republican')) {
-          if (comp.includes('Annihilation')) return '#450a0a';
-          if (comp.includes('Dominant')) return '#7f1d1d';
-          if (comp.includes('Stronghold')) return '#991b1b';
-          if (comp.includes('Safe')) return '#dc2626';
-          if (comp.includes('Likely')) return '#ef4444';
-          if (comp.includes('Lean')) return '#f87171';
-          if (comp.includes('Tilt')) return '#fca5a5';
-        } else if (comp.includes('Democratic')) {
-          if (comp.includes('Annihilation')) return '#0c1d56';
-          if (comp.includes('Dominant')) return '#1e3a8a';
-          if (comp.includes('Stronghold')) return '#1e40af';
-          if (comp.includes('Safe')) return '#3b82f6';
-          if (comp.includes('Likely')) return '#60a5fa';
-          if (comp.includes('Lean')) return '#93c5fd';
-          if (comp.includes('Tilt')) return '#bfdbfe';
+      // Clean candidate names - keep party suffixes but handle running mates appropriately
+      function cleanCandidateName(name, year, contestType) {
+        let cleaned = name
+          .replace(/^DEM\s+/i, '')       // Remove DEM prefix
+          .replace(/^REP\s+/i, '')       // Remove REP prefix
+          .trim();
+        
+        // For governor races, handle Lt. Governor running mates based on year
+        if (contestType === 'governor') {
+          if (parseInt(year) >= 2018) {
+            // 2018 and later: Governor and Lt. Governor run together, remove running mate
+            cleaned = cleaned.replace(/\/.*$/, '');
+          }
+          // Before 2018: Governor and Lt. Governor elected separately, so no "/" should exist
         }
-        return '#6b7280';
+        
+        return cleaned.trim();
       }
       
-      const compColor = getCompetitivenessColor(competitiveness);
+      const cleanDemCandidate = cleanCandidateName(demCandidate, year, contestType);
+      const cleanRepCandidate = cleanCandidateName(repCandidate, year, contestType);
       
-      // Format contest name for display
-      function formatContestDisplay(year, type) {
-        const contestNames = {
-          'president': 'Presidential Election',
-          'governor': 'Governor & Lt. Governor',
-          'senate': 'U.S. Senate',
-          'attorney_general': 'Attorney General'
-        };
-        return contestNames[type] || type.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
+      // Margin
+      const margin = demVotes - repVotes;
+      const marginPct = (Math.abs(margin) / totalVotes * 100).toFixed(2);
+      const winner = margin > 0 ? 'Democratic' : (margin < 0 ? 'Republican' : 'Tie');
+      const winnerCandidate = margin > 0 ? cleanDemCandidate : cleanRepCandidate;
+      
+      // Colors
+      let winnerColor = '#dc2626';
+      if (winner === 'Republican') {
+        winnerColor = '#dc2626';
+      } else {
+        winnerColor = '#2563eb';
       }
       
-      const contestDisplay = formatContestDisplay(year, contestType);
+      // Card-style layout
+      sidebarContent += '<div class="result-summary">';
+      sidebarContent += '<h3 class="sidebar-section-title">📊 Election Results</h3>';
+      sidebarContent += `<div style="font-size:14px;margin-bottom:10px;"><b>Total Votes:</b> ${totalVotes.toLocaleString()}</div>`;
+      sidebarContent += `</div>`;
       
-      // Build comprehensive sidebar content
-      let sidebarContent = `
-        <div class="county-analysis-content">
-          <!-- Header Section -->
-          <div class="analysis-header">
-            <h2 class="county-title">${countyName} County</h2>
-            <p class="contest-info">${year} ${contestDisplay}</p>
-            <p class="fips-info">FIPS Code: ${countyFips}</p>
-          </div>
-          
-          <!-- Winner Section -->
-          <div class="winner-section">
-            <h3 class="section-title">🏆 Winner</h3>
-            <div class="winner-card">
-              <div class="winner-name" style="color: ${winnerColor}; font-weight: bold; font-size: 18px;">
-                ${winner === 'Republican' ? repCandidate.replace(/\\(R\\)/, '').trim() : demCandidate.replace(/\\(D\\)/, '').trim()}
-              </div>
-              <div class="winner-party" style="color: ${winnerColor};">
-                ${winner === 'Republican' ? '(Republican)' : '(Democratic)'}
-              </div>
-              <div class="winner-margin" style="color: ${winnerColor}; font-weight: bold;">
-                ${winner === 'Republican' ? 'R+' : 'D+'}${marginPct.toFixed(1)}%
-              </div>
-            </div>
-          </div>
-          
-          <!-- Vote Breakdown Section -->
-          <div class="vote-breakdown-section">
-            <h3 class="section-title">🗳️ Vote Breakdown</h3>
-            <div class="vote-stats">
-              <div class="total-votes">
-                <strong>Total Votes Cast: ${totalVotes.toLocaleString()}</strong>
-              </div>
-              <div class="candidate-results">
-                <div class="candidate-row dem-result">
-                  <span class="candidate-name" style="color: ${demColor};">
-                    ${demCandidate.replace(/\\(D\\)/, '').trim()}
-                  </span>
-                  <span class="candidate-votes">${demVotes.toLocaleString()}</span>
-                  <span class="candidate-percent" style="color: ${demColor}; font-weight: bold;">
-                    ${demPct.toFixed(1)}%
-                  </span>
-                </div>
-                <div class="candidate-row rep-result">
-                  <span class="candidate-name" style="color: ${repColor};">
-                    ${repCandidate.replace(/\\(R\\)/, '').trim()}
-                  </span>
-                  <span class="candidate-votes">${repVotes.toLocaleString()}</span>
-                  <span class="candidate-percent" style="color: ${repColor}; font-weight: bold;">
-                    ${repPct.toFixed(1)}%
-                  </span>
-                </div>`;
+      sidebarContent += `<div class="winner-section">`;
+      sidebarContent += '<h3 class="sidebar-section-title">🏆 Winner</h3>';
+      sidebarContent += `<p class="sidebar-winner" style="color: ${winnerColor}; font-weight: bold;">${winnerCandidate}</p>`;
+      sidebarContent += `</div>`;
       
+      sidebarContent += `<div class="margin-section">`;
+      sidebarContent += '<h3 class="sidebar-section-title">📈 Margin</h3>';
+      sidebarContent += `<p class="sidebar-margin" style="color: ${winnerColor}; font-weight: bold;">${winner === 'Republican' ? 'R+' : 'D+'}${marginPct}%</p>`;
+      sidebarContent += `<p class="sidebar-margin-details" style="color: #6b7280;">(${Math.abs(margin).toLocaleString()} vote margin)</p>`;
+      sidebarContent += `</div>`;
+      
+      sidebarContent += `<div class="vote-breakdown">`;
+      sidebarContent += '<h3 class="sidebar-section-title">🗳️ Vote Breakdown</h3>';
+      sidebarContent += `<p class="sidebar-breakdown"><span style="color: #2563eb; font-weight: bold;">${cleanDemCandidate}</span> : ${demPct.toFixed(2)}% (${demVotes.toLocaleString()})</p>`;
+      sidebarContent += `<p class="sidebar-breakdown"><span style="color: #ef3b2c; font-weight: bold;">${cleanRepCandidate}</span> : ${repPct.toFixed(2)}% (${repVotes.toLocaleString()})</p>`;
       if (otherVotes > 0) {
-        sidebarContent += `
-                <div class="candidate-row other-result">
-                  <span class="candidate-name">Other Candidates</span>
-                  <span class="candidate-votes">${otherVotes.toLocaleString()}</span>
-                  <span class="candidate-percent">${otherPct.toFixed(1)}%</span>
-                </div>`;
+        const otherPct = (otherVotes / totalVotes * 100);
+        sidebarContent += `<p class="sidebar-breakdown"><span style="color: #6b7280; font-weight: bold;">Other Candidates</span> : ${otherPct.toFixed(2)}% (${otherVotes.toLocaleString()})</p>`;
+      }
+      sidebarContent += `</div>`;
+      
+      // Competitiveness
+      let competitiveness;
+      const actualMarginPct = parseFloat(marginPct);
+      if (actualMarginPct >= 40) {
+        competitiveness = winner === 'Republican' ? "Annihilation Republican" : "Annihilation Democratic";
+      } else if (actualMarginPct >= 30) {
+        competitiveness = winner === 'Republican' ? "Dominant Republican" : "Dominant Democratic";
+      } else if (actualMarginPct >= 20) {
+        competitiveness = winner === 'Republican' ? "Stronghold Republican" : "Stronghold Democratic";
+      } else if (actualMarginPct >= 10) {
+        competitiveness = winner === 'Republican' ? "Safe Republican" : "Safe Democratic";
+      } else if (actualMarginPct >= 5.5) {
+        competitiveness = winner === 'Republican' ? "Likely Republican" : "Likely Democratic";
+      } else if (actualMarginPct >= 1) {
+        competitiveness = winner === 'Republican' ? "Lean Republican" : "Lean Democratic";
+      } else if (actualMarginPct >= 0.5) {
+        competitiveness = winner === 'Republican' ? "Tilt Republican" : "Tilt Democratic";
+      } else {
+        competitiveness = `Tossup (${winner} win)`;
       }
       
-      sidebarContent += `
-              </div>
-              <div class="margin-info">
-                <strong>Margin: ${Math.abs(margin).toLocaleString()} votes</strong>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Competitiveness Section -->
-          <div class="competitiveness-section">
-            <h3 class="section-title">🎯 Competitiveness Rating</h3>
-            <div class="competitiveness-card">
-              <div class="competitiveness-rating" style="color: ${compColor}; font-weight: bold; font-size: 16px;">
-                ${competitiveness}
-              </div>`;
-      
-      if (marginPct <= 0.5) {
-        sidebarContent += `<div class="competitiveness-note" style="color: #f59e0b; font-style: italic;">Extremely close race!</div>`;
-      } else if (marginPct <= 1) {
-        sidebarContent += `<div class="competitiveness-note" style="color: #f59e0b; font-style: italic;">Very competitive race!</div>`;
-      } else if (marginPct <= 5) {
-        sidebarContent += `<div class="competitiveness-note" style="color: #6b7280; font-style: italic;">Competitive race</div>`;
+      let compColor = '#6b7280';
+      if (competitiveness.includes('Rep')) {
+        if (competitiveness.includes('Annihilation')) compColor = '#450a0a';
+        else if (competitiveness.includes('Dominant')) compColor = '#7f1d1d';
+        else if (competitiveness.includes('Stronghold')) compColor = '#991b1b';
+        else if (competitiveness.includes('Safe')) compColor = '#dc2626';
+        else if (competitiveness.includes('Likely')) compColor = '#ef4444';
+        else if (competitiveness.includes('Lean')) compColor = '#f87171';
+        else if (competitiveness.includes('Tilt')) compColor = '#fca5a5';
+      } else if (competitiveness.includes('Dem')) {
+        if (competitiveness.includes('Annihilation')) compColor = '#0c1d56';
+        else if (competitiveness.includes('Dominant')) compColor = '#1e3a8a';
+        else if (competitiveness.includes('Stronghold')) compColor = '#1e40af';
+        else if (competitiveness.includes('Safe')) compColor = '#3b82f6';
+        else if (competitiveness.includes('Likely')) compColor = '#60a5fa';
+        else if (competitiveness.includes('Lean')) compColor = '#93c5fd';
+        else if (competitiveness.includes('Tilt')) compColor = '#bfdbfe';
       }
       
-      // Add party breakdown if available
-      if (countyData.all_parties && Object.keys(countyData.all_parties).length > 2) {
-        sidebarContent += `
-            </div>
-          </div>
-          
-          <!-- Detailed Party Breakdown -->
-          <div class="party-breakdown-section">
-            <h3 class="section-title">📊 All Parties</h3>
-            <div class="party-details">`;
-        
-        // Sort parties by vote count
-        const parties = Object.entries(countyData.all_parties)
-          .sort((a, b) => b[1] - a[1])
-          .filter(([party, votes]) => votes > 0);
-        
-        parties.forEach(([party, votes]) => {
-          const pct = (votes / totalVotes * 100).toFixed(1);
-          const partyColor = party === 'DEM' ? demColor : party === 'REP' ? repColor : '#6b7280';
-          const partyName = {
-            'DEM': 'Democratic',
-            'REP': 'Republican', 
-            'LIB': 'Libertarian',
-            'GRN': 'Green',
-            'CON': 'Constitution',
-            'UNC': 'Unaffiliated',
-            'WRK': 'Working Families'
-          }[party] || party;
-          
-          sidebarContent += `
-              <div class="party-row">
-                <span class="party-name" style="color: ${partyColor};">${partyName}</span>
-                <span class="party-votes">${votes.toLocaleString()}</span>
-                <span class="party-percent">${pct}%</span>
-              </div>`;
-        });
-        
-        sidebarContent += `
-            </div>
-          </div>`;
+      sidebarContent += `<div class="competitiveness-section">`;
+      sidebarContent += '<h3 class="sidebar-section-title">🎯 Competitiveness</h3>';
+      sidebarContent += `<p style="color: ${compColor}; font-weight: bold; font-size: 16px;">${competitiveness}</p>`;
+      if (actualMarginPct <= 0.5) {
+        sidebarContent += `<p style="color: #f59e0b; font-style: italic;">(Extremely close!)</p>`;
+      } else if (actualMarginPct <= 1) {
+        sidebarContent += `<p style="color: #f59e0b; font-style: italic;">(Very close!)</p>`;
       }
-      
-      sidebarContent += `
-        </div>
-      </div>`;
+      sidebarContent += `</div>`;
       
       contentEl.innerHTML = sidebarContent;
       detailsDiv.style.display = 'block';
@@ -2199,19 +2344,72 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         }
       });
 
-      // Allow selecting a county by typing and pressing enter
+      // Enhanced county search with real-time suggestions
       const searchInput = document.getElementById('county-search');
+      const suggestionsDiv = document.getElementById('search-suggestions');
+      let allCountyNames = [];
+      
+      // Collect all county names from the map data
+      if (countiesSource && countiesSource._data && countiesSource._data.features) {
+        allCountyNames = countiesSource._data.features.map(f => {
+          const props = f.properties || {};
+          return props.County || props.COUNTYNAME || props.NAME || '';
+        }).filter(name => name).sort();
+      }
+      
       if (searchInput) {
+        // Real-time search as user types
+        searchInput.addEventListener('input', function() {
+          const query = this.value.trim().toLowerCase();
+          
+          if (query.length === 0) {
+            suggestionsDiv.style.display = 'none';
+            return;
+          }
+          
+          // Filter counties based on query
+          const matches = allCountyNames.filter(county => 
+            county.toLowerCase().includes(query)
+          ).slice(0, 8); // Limit to 8 suggestions
+          
+          if (matches.length > 0) {
+            suggestionsDiv.innerHTML = matches.map(county => 
+              `<div class="suggestion-item" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid #f3f4f6;" 
+                   onmouseover="this.style.background='#f8fafc'" 
+                   onmouseout="this.style.background='white'"
+                   onclick="selectCounty('${county}')">${county}</div>`
+            ).join('');
+            suggestionsDiv.style.display = 'block';
+          } else {
+            suggestionsDiv.style.display = 'none';
+          }
+        });
+        
+        // Handle selection on Enter key
+        searchInput.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter') {
+            const val = searchInput.value.trim();
+            if (val) {
+              selectCounty(val);
+            }
+          }
+          if (e.key === 'Escape') {
+            suggestionsDiv.style.display = 'none';
+          }
+        });
+        
+        // Hide suggestions when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!searchInput.contains(e.target) && !suggestionsDiv.contains(e.target)) {
+            suggestionsDiv.style.display = 'none';
+          }
+        });
+        
+        // Legacy change event for backward compatibility
         searchInput.addEventListener('change', function() {
           const val = searchInput.value.trim();
           if (val) {
-            zoomToCounty(val);
-            showCountyDetails(val);
-            lastSelectedCounty = val;
-            const sidebar = document.getElementById('sidebar');
-            if (sidebar.classList.contains('minimized')) {
-              toggleSidebar();
-            }
+            selectCounty(val);
           }
         });
       }
@@ -2694,6 +2892,9 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         // Store all election data globally
         window.allElectionData = allElectionData;
         
+        // Pre-build county results cache for fast switching
+        buildCountyResultsCache();
+        
         // Set default election data (2024 President)
         electionData = allElectionData['2024_president'] || [];
         console.log('All election data loaded. Default:', electionData.length, 'counties');
@@ -2739,6 +2940,12 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
 
         populateContestSelectFromElectionJSON(electionData);
 
+        // Auto-load the default contest (2024 President)
+        const contestSelect = document.getElementById('contestSelect');
+        if (contestSelect && contestSelect.value) {
+          applyContest(contestSelect.value);
+        }
+
         map.fitBounds(CONFIG.fitBounds, { padding: 20 });
 
       } catch (e) {
@@ -2783,10 +2990,19 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
     function applyContest(contestKey) {
       if (!contestKey) return setStatus('Select a contest');
       
-      // Split contest key properly - year is always the last part after final underscore
-      const lastUnderscoreIndex = contestKey.lastIndexOf('_');
-      const contestType = contestKey.substring(0, lastUnderscoreIndex);
-      const year = contestKey.substring(lastUnderscoreIndex + 1);
+      // Switch to the correct election dataset
+      if (!window.allElectionData || !window.allElectionData[contestKey]) {
+        return setStatus(`No data available for ${contestKey}`);
+      }
+      
+      // Switch to selected election data
+      electionData = window.allElectionData[contestKey];
+      console.log('Switched to election:', contestKey, electionData.length, 'counties');
+      
+      // Split contest key properly - format is "year_contestType" (e.g., "2024_president", "2022_attorney_general")
+      const firstUnderscoreIndex = contestKey.indexOf('_');
+      const year = contestKey.substring(0, firstUnderscoreIndex);
+      const contestType = contestKey.substring(firstUnderscoreIndex + 1);
       
       if (currentView === 'counties') {
         applyCountyContest(contestType, year);
@@ -2799,17 +3015,8 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       }
     }
 
-    function applyCountyContest(contestType, year) {
-      // Filter data for this contest and year
-      const contestData = electionData.filter(row => row.year == year);
-      
-      console.log(`Applying ${contestType} for ${year}:`, contestData.length, 'counties found');
-      
-      if (contestData.length === 0) {
-        return setStatus('No data found for this contest');
-      }
-
-      // Store current results for county details using normalized county names
+    function buildCountyResultsCache() {
+      // Pre-build normalized county results for all contests for fast switching
       function normalizeCountyName(name) {
         return (name || '')
           .replace(/St\.? Lucie/i, 'St Lucie')
@@ -2819,11 +3026,56 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
           .trim()
           .toUpperCase();
       }
-      currentElectionResults = {};
-      contestData.forEach(row => {
-        const norm = normalizeCountyName(row.county);
-        currentElectionResults[norm] = row;
+      
+      Object.keys(window.allElectionData).forEach(contestKey => {
+        const contestData = window.allElectionData[contestKey];
+        allCountyResults[contestKey] = {};
+        
+        contestData.forEach(row => {
+          const norm = normalizeCountyName(row.county);
+          allCountyResults[contestKey][norm] = row;
+        });
       });
+      
+      console.log('County results cache built for', Object.keys(allCountyResults).length, 'contests');
+    }
+
+    function applyCountyContest(contestType, year) {
+      // Use current election data (already filtered to correct contest)
+      const contestData = electionData;
+      
+      console.log(`Applying ${contestType} for ${year}:`, contestData.length, 'counties found');
+      
+      if (contestData.length === 0) {
+        return setStatus('No data found for this contest');
+      }
+
+      // Update map colors first
+      updateCountyData();
+
+      // Use pre-built county results cache for fast switching
+      const contestKey = `${year}_${contestType}`;
+      if (allCountyResults[contestKey]) {
+        currentElectionResults = allCountyResults[contestKey];
+        console.log('✓ Using cached county results for', contestKey);
+      } else {
+        console.warn('No cached results found for', contestKey);
+        // Fallback to building it on the fly
+        function normalizeCountyName(name) {
+          return (name || '')
+            .replace(/St\.? Lucie/i, 'St Lucie')
+            .replace(/St\.? Johns/i, 'St Johns')
+            .replace(/[^a-z0-9 ]/gi, '')
+            .replace(/\s+/g, ' ')
+            .trim()
+            .toUpperCase();
+        }
+        currentElectionResults = {};
+        contestData.forEach(row => {
+          const norm = normalizeCountyName(row.county);
+          currentElectionResults[norm] = row;
+        });
+      }
 
       // Calculate statewide totals
       let statewidedemVotes = 0;
@@ -2831,8 +3083,8 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       let statewidTotalVotes = 0;
       
       contestData.forEach(row => {
-        const demVotes = row[`${contestType}_dem`] || 0;
-        const repVotes = row[`${contestType}_rep`] || 0;
+        const demVotes = row.dem_votes || 0;
+        const repVotes = row.rep_votes || 0;
         statewidedemVotes += demVotes;
         statewidrepVotes += repVotes;
         statewidTotalVotes += demVotes + repVotes;
@@ -2857,9 +3109,9 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       }
       contestData.forEach(row => {
         const countyName = normalizeCountyName(row.county);
-        const demVotes = row[`${contestType}_dem`] || 0;
-        const repVotes = row[`${contestType}_rep`] || 0;
-        const totalVotes = row[`${contestType}_total`] || 0;
+        const demVotes = row.dem_votes || 0;
+        const repVotes = row.rep_votes || 0;
+        const totalVotes = row.total_votes || 0;
         if (totalVotes === 0) return;
         const demPct = (demVotes / totalVotes) * 100;
         const repPct = (repVotes / totalVotes) * 100;
@@ -2867,7 +3119,8 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         const marginPct = Math.abs(repPct - demPct);
         const color = categoryColorForMargin(marginPct, winner);
         // Match on normalized, uppercase name from GeoJSON
-        expr.push(['==', ['upcase', ['get', 'County']], countyName]);
+        // Use NAME20 property from GeoJSON and add null checking
+        expr.push(['==', ['upcase', ['coalesce', ['get', 'NAME20'], ['get', 'County'], ['get', 'COUNTYNAME'], '']], countyName]);
         expr.push(color);
         countiesProcessed++;
       });
@@ -2876,7 +3129,7 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       console.log(`Color expression built for ${countiesProcessed} counties`);
       
       map.setPaintProperty('county-fill', 'fill-color', expr);
-  document.getElementById('contest-name').textContent = `FL ${formatContestName(contestType, year)} (${year})`;
+      document.getElementById('contest-name').textContent = `SC ${formatContestName(contestType, year)} (${year})`;
       setStatus(`Applied contest: ${formatContestName(contestType, year)} ${year}`);
     }
 
@@ -2916,8 +3169,8 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       expr.push('#e0e0e0'); // default color
       
       map.setPaintProperty('district-fill', 'fill-color', expr);
-  document.getElementById('contest-name').textContent = `FL US House (${year})`;
-      setStatus(`Applied contest: FL US House ${year}`);
+      document.getElementById('contest-name').textContent = `SC US House (${year})`;
+      setStatus(`Applied contest: SC US House ${year}`);
     }
 
     function applyStatewideContestToDistricts(contestType, year) {
@@ -2966,11 +3219,14 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         setStatus('District layer not found!', 5000, true);
       }
 
-  document.getElementById('contest-name').textContent = `FL ${formatContestName(contestType, year)} (${year}) - Statewide Result`;
+      document.getElementById('contest-name').textContent = `SC ${formatContestName(contestType, year)} (${year}) - Statewide Result`;
       setStatus(`Applied statewide contest: ${formatContestName(contestType, year)} ${year} (${demPct.toFixed(1)}% D, ${repPct.toFixed(1)}% R)`);
     }
 
-    window.onload = init;
+    // Initialize map when both window and map style are loaded
+    window.onload = function() {
+      map.on('load', init);
+    };
 // Floating sidebar expand button logic
 document.addEventListener('DOMContentLoaded', function() {
   const floatBtn = document.getElementById('sidebar-float-toggle');
