@@ -2995,6 +2995,9 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       if (!window.allElectionData || !window.allElectionData[contestKey]) {
         return setStatus(`No data available for ${contestKey}`);
       }
+
+      // Set the current contest key globally for candidate lookup
+      window.currentContest = contestKey;
       
       // Switch to selected election data
       electionData = window.allElectionData[contestKey];
