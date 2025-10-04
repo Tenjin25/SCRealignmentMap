@@ -123,9 +123,13 @@
   <script>
     // Zoom to county by name using turf.js
     function zoomToCounty(countyName) {
-      const countiesSource = map.getSource('counties');
-      if (!countiesSource || !countiesSource._data || !countiesSource._data.features) return;
-      const counties = countiesSource._data.features;
+      try {
+        const countiesSource = map.getSource('counties');
+        if (!countiesSource || !countiesSource._data || !countiesSource._data.features) {
+          console.warn('zoomToCounty: counties source not ready');
+          return;
+        }
+        const counties = countiesSource._data.features;
       // Normalize county names for matching
       function normalizeCountyName(name) {
         return (name || '')
@@ -142,9 +146,23 @@
         const name = normalizeCountyName(props.County || props.COUNTYNAME || props.NAME || '');
         return name === normTarget;
       });
-      if (!countyFeature) return;
-      const bbox = turf.bbox(countyFeature);
-      map.fitBounds(bbox, { padding: 40, maxZoom: 10 });
+      if (!countyFeature) {
+        console.warn('zoomToCounty: county not found for', countyName);
+        return;
+      }
+      if (typeof turf === 'undefined' || !turf.bbox) {
+        console.warn('zoomToCounty: turf not available');
+        return;
+      }
+      const bbox = turf.bbox(countyFeature); // [minX, minY, maxX, maxY]
+      // Convert to [[minLng,minLat],[maxLng,maxLat]] which map.fitBounds expects
+      const fitBoundsBox = [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
+      map.fitBounds(fitBoundsBox, { padding: 40, maxZoom: 10 });
+      console.log('zoomToCounty: zoomed to', countyName, fitBoundsBox);
+      return;
+      } catch (err) {
+        console.error('zoomToCounty error:', err);
+      }
     }
   </script>
   
@@ -1589,30 +1607,32 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       sel.onchange = () => { applyContest(sel.value); };
     }
 
-    function populateContestSelectFromCongressionalCSV(csvData) {
-      const sel = document.getElementById('contestSelect');
-      const years = [...new Set(csvData.map(row => row.year))].sort();
-      
-      years.forEach(year => {
-        const hasData = csvData.some(row => 
-          row.year == year && row.us_house_total > 0
-        );
-        
-        if (hasData) {
-          const opt = document.createElement('option');
-          opt.value = `us_house_${year}`;
-          opt.textContent = `${formatContestName('us_house', year)} (${year})`;
-          sel.appendChild(opt);
-        }
-      });
-      sel.onchange = () => { applyContest(sel.value); };
+function populateContestSelectFromCongressionalCSV(csvData) {
+  const sel = document.getElementById('contestSelect');
+  const years = [...new Set(csvData.map(row => row.year))].sort();
+  
+  years.forEach(year => {
+    const hasData = csvData.some(row => 
+      row.year == year && row.us_house_total > 0
+    );
+    
+    if (hasData) {
+      const opt = document.createElement('option');
+      opt.value = `us_house_${year}`;
+      opt.textContent = `${formatContestName('us_house', year)} (${year})`;
+      sel.appendChild(opt);
     }
+  });
+  sel.onchange = () => { applyContest(sel.value); };
+}
 
     function setAnalysisMode(mode) {
       // Update button states
-      document.getElementById('county-mode').classList.toggle('active', mode === 'county');
-      document.getElementById('district-mode').classList.toggle('active', mode === 'district');
-      
+      // Only 'county-mode' exists in the HTML; 'district-mode' does not exist, so skip it.
+      var countyModeBtn = document.getElementById('county-mode');
+      if (countyModeBtn) {
+        countyModeBtn.classList.toggle('active', mode === 'county');
+      }
       // Could add different analysis modes here (e.g., demographic analysis vs electoral analysis)
       console.log(`Analysis mode set to: ${mode}`);
     }
@@ -1740,10 +1760,11 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       currentView = view;
       
       // Update button states
-      document.getElementById('counties-view').classList.toggle('active', view === 'counties');
-      document.getElementById('districts-view').classList.toggle('active', view === 'districts');
-      document.getElementById('state-house-view').classList.toggle('active', view === 'state_house');
-      document.getElementById('state-senate-view').classList.toggle('active', view === 'state_senate');
+      // The following elements do not exist in the HTML, so skip toggling their classes.
+      // document.getElementById('counties-view').classList.toggle('active', view === 'counties');
+      // document.getElementById('districts-view').classList.toggle('active', view === 'districts');
+      // document.getElementById('state-house-view').classList.toggle('active', view === 'state_house');
+      // document.getElementById('state-senate-view').classList.toggle('active', view === 'state_senate');
       
       // Update 2000 VTDs button if available
       const vtds2000Button = document.getElementById('vtds-2000-view');
@@ -2585,7 +2606,10 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       nameEl.textContent = `Congressional District ${districtNum}`;
       
       // Get district info from districtsInfo CSV
-      const districtInfo = districtsInfo.find(d => d.district == districtNum);
+      let districtInfo = null;
+      if (districtsInfo && Array.isArray(districtsInfo)) {
+        districtInfo = districtsInfo.find(d => d.district == districtNum);
+      }
       
       let demographicInfo = '';
       if (districtInfo) {
