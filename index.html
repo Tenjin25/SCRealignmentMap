@@ -2295,36 +2295,40 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('All election data loaded. Default:', electionData.length, 'counties');
         setStatus('Election data loaded');
 
-        setStatus('Loading congressional data...');
-        const congressionalCSV = await loadCSV(CONFIG.paths.congressional);
-        congressionalData = parseCSV(congressionalCSV);
+        // Congressional data loading temporarily disabled - files not yet created
+        // setStatus('Loading congressional data...');
+        // const congressionalCSV = await loadCSV(CONFIG.paths.congressional);
+        // congressionalData = parseCSV(congressionalCSV);
         
-        const districtsCSV = await loadCSV(CONFIG.paths.districts_info);
-        districtsInfo = parseCSV(districtsCSV);
-        setStatus('Congressional data loaded');
+        // const districtsCSV = await loadCSV(CONFIG.paths.districts_info);
+        // districtsInfo = parseCSV(districtsCSV);
+        // setStatus('Congressional data loaded');
 
-        // Load congressional districts GeoJSON
-        setStatus('Loading congressional districts...');
-        const districtsGeoJSON = await loadJSON(CONFIG.paths.districts);
-        map.addSource('districts', { type: 'geojson', data: districtsGeoJSON });
-        setStatus('Congressional districts loaded');
+        // Congressional districts GeoJSON loading temporarily disabled
+        // setStatus('Loading congressional districts...');
+        // const districtsGeoJSON = await loadJSON(CONFIG.paths.districts);
+        // map.addSource('districts', { type: 'geojson', data: districtsGeoJSON });
+        // setStatus('Congressional districts loaded');
 
+        // State legislative districts loading temporarily disabled - files not yet created
         // Load state legislative districts
-        setStatus('Loading state house districts...');
-        const stateHouseGeoJSON = await loadJSON(CONFIG.paths.state_house);
-        map.addSource('state-house', { type: 'geojson', data: stateHouseGeoJSON });
+        // setStatus('Loading state house districts...');
+        // State house and senate data loading temporarily disabled - files not yet created
+        // setStatus('Loading state house districts...');
+        // const stateHouseGeoJSON = await loadJSON(CONFIG.paths.state_house);
+        // map.addSource('state-house', { type: 'geojson', data: stateHouseGeoJSON });
         
-        const stateHouseCSV = await loadCSV(CONFIG.paths.state_house_info);
-        stateHouseInfo = parseCSV(stateHouseCSV);
-        setStatus('State house districts loaded');
+        // const stateHouseCSV = await loadCSV(CONFIG.paths.state_house_info);
+        // stateHouseInfo = parseCSV(stateHouseCSV);
+        // setStatus('State house districts loaded');
 
-        setStatus('Loading state senate districts...');
-        const stateSenateGeoJSON = await loadJSON(CONFIG.paths.state_senate);
-        map.addSource('state-senate', { type: 'geojson', data: stateSenateGeoJSON });
+        // setStatus('Loading state senate districts...');
+        // const stateSenateGeoJSON = await loadJSON(CONFIG.paths.state_senate);
+        // map.addSource('state-senate', { type: 'geojson', data: stateSenateGeoJSON });
         
-        const stateSenateCSV = await loadCSV(CONFIG.paths.state_senate_info);
-        stateSenateInfo = parseCSV(stateSenateCSV);
-        setStatus('State senate districts loaded');
+        // const stateSenateCSV = await loadCSV(CONFIG.paths.state_senate_info);
+        // stateSenateInfo = parseCSV(stateSenateCSV);
+        // setStatus('State senate districts loaded');
 
         populateContestSelectFromElectionJSON(electionData);
 
