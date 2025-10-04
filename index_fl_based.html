@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Carolina Political Map - Interactive Election Analysis</title>
+    
+    <!-- Mapbox CSS -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+    
+    <style>
+/* Show floating button only when sidebar is minimized */
+#sidebar-float-toggle { display: none; }
+.sidebar.minimized ~ #sidebar-float-toggle { display: flex !important; }
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh;
+  background: #f0f4f8;
+  transition: left 0.3s cubic-bezier(.4,0,.2,1), width 0.3s cubic-bezier(.4,0,.2,1);
+  z-index: 1;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 2;
+}
+
+/* Hover Tooltip */
+.hover-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  pointer-events: none;
+  z-index: 1000;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: none;
+  line-height: 1.4;
+}
+
+.hover-tooltip .tooltip-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+  border-bottom: 1px solid #444;
+  padding-bottom: 6px;
+}
+
+.hover-tooltip .tooltip-trends {
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.quick-tooltip {
+  background: rgba(40, 40, 40, 0.95);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  line-height: 1.3;
+}
+
+.quick-tooltip strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.sidebar {
+  width: 400px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  border-left: 1px solid #e5e7eb;
+  overflow-y: auto;
+  transition: width 0.3s cubic-bezier(.4,0,.2,1);
+}
+.sidebar.minimized {
+  width: 0 !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sidebar.minimized .sidebar-content {
+  display: none !important;
+}
+.sidebar.minimized .sidebar-header {
+  display: none !important;
+}
+.sidebar.minimized .minimize-btn {
+  display: flex !important;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2563eb;
+  color: white;
+  border: 1px solid #1d4ed8;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+.sidebar-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+.sidebar-content {
+  padding: 20px;
+}
+.minimize-btn {
+  background: #2563eb;
+  border: 1px solid #1d4ed8;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.2s ease;
+}
+.minimize-btn:hover {
+  background: #1d4ed8;
+  border-color: #1e40af;
+  transform: scale(1.05);
+}
+
+/* Main Controls */
+.main-controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  z-index: 1000;
+  min-width: 380px;
+  max-width: 420px;
+  transition: all 0.3s ease;
+}
+.main-controls.minimized {
+  min-width: 60px;
+  max-width: 60px;
+  padding: 15px;
+}
+.main-controls.minimized .controls-content {
+  display: none;
+}
+.controls-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.controls-header h3 {
+  margin: 0;
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 16px;
+}
+.controls-content {
+  position: relative;
+}
+.control-group {
+  margin-bottom: 16px;
+}
+.control-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #374151;
+}
+.control-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: white;
+  font-size: 14px;
+}
+
+/* Legend */
+.legend {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  z-index: 1000;
+  min-width: 250px;
+  border: 1px solid #e5e7eb;
+}
+.legend.minimized .legend-content {
+  display: none;
+}
+.legend-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+  border-radius: 12px 12px 0 0;
+}
+.legend-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #374151;
+}
+.legend-content {
+  padding: 16px 20px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+/* County Details */
+.county-details {
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+.county-details h4 {
+  margin: 0 0 12px 0;
+  color: #374151;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Statewide Results */
+.statewide-results {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.statewide-results h4 {
+  margin: 0 0 15px 0;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Status panel */
+.status-panel {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  border: 1px solid #e5e7eb;
+  z-index: 1000;
+  max-width: 300px;
+}
+
+.sidebar.minimized .sidebar-footer {
+  display: none !important;
+}
+#sidebar-float-toggle {
+  position: fixed;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  z-index: 1001;
+  background: #2563eb;
+  color: white;
+  border: 1px solid #1d4ed8;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+  transition: all 0.3s ease;
+}
+#sidebar-float-toggle:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+.sidebar.minimized ~ #sidebar-float-toggle {
+  display: flex !important;
+}
+    </style>
+</head>
+<body>
+    <!-- Mapbox container -->
+    <div id="map"></div>
+
+    <!-- Main Controls Panel -->
+    <div class="main-controls" id="main-controls">
+        <div class="controls-header">
+            <h3>Election Analysis</h3>
+            <button class="minimize-btn" onclick="toggleMainControls()" title="Minimize Controls">−</button>
+        </div>
+        <div class="controls-content">
+            <div class="control-group">
+                <label for="year-select">Election Year:</label>
+                <select id="year-select" onchange="updateMap()">
+                    <option value="">Select Year...</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="office-select">Office:</label>
+                <select id="office-select" onchange="updateMap()">
+                    <option value="">Select Office...</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="legend" id="legend">
+        <div class="legend-header">
+            <h4>Party Performance</h4>
+            <button class="minimize-btn" onclick="toggleLegend()" title="Minimize Legend">−</button>
+        </div>
+        <div class="legend-content">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #b91c1c;"></div>
+                <span>Strong Republican (60%+)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #dc2626;"></div>
+                <span>Republican (55-60%)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #f87171;"></div>
+                <span>Lean Republican (50-55%)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #e5e7eb;"></div>
+                <span>Competitive (48-52%)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #93c5fd;"></div>
+                <span>Lean Democratic (50-55%)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #2563eb;"></div>
+                <span>Democratic (55-60%)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #1d4ed8;"></div>
+                <span>Strong Democratic (60%+)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h3>County Details</h3>
+            <button class="minimize-btn" onclick="toggleSidebar()" title="Close Sidebar">×</button>
+        </div>
+        <div class="sidebar-content">
+            <div class="county-details" id="county-info" style="display: none;">
+                <h4 id="county-name">Select a County</h4>
+                <div id="county-results"></div>
+            </div>
+            
+            <div class="statewide-results">
+                <h4>Statewide Results</h4>
+                <div id="statewide-results">
+                    <p>Select an election to view results</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating sidebar toggle for when sidebar is minimized -->
+    <button id="sidebar-float-toggle" onclick="toggleSidebar()" title="Open Sidebar">→</button>
+
+    <!-- Hover tooltip -->
+    <div class="hover-tooltip" id="hover-tooltip">
+        <div class="tooltip-title" id="tooltip-title"></div>
+        <div class="tooltip-trends" id="tooltip-trends"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <script>
+        // Global variables
+        let map;
+        let currentData = null;
+        let availableElections = {};
+        let isLoading = false;
+
+        // Mapbox access token - you'll need to replace this with your own
+        mapboxgl.accessToken = 'pk.eyJ1IjoiY29tcGFyYXRpdmVwb2xpdGljcyIsImEiOiJjbGdndTJrczkwYzdkM2ZudXozZDRpbjVyIn0.TEvEuVjFl_ZdgfXTLhD6uw';
+
+        // Color scheme for party performance
+        const colorScheme = {
+            strongRep: '#b91c1c',     // 60%+ Republican
+            rep: '#dc2626',           // 55-60% Republican  
+            leanRep: '#f87171',       // 50-55% Republican
+            competitive: '#e5e7eb',   // 48-52% (gray)
+            leanDem: '#93c5fd',       // 50-55% Democratic
+            dem: '#2563eb',           // 55-60% Democratic
+            strongDem: '#1d4ed8',     // 60%+ Democratic
+            noData: '#f3f4f6'         // No data available
+        };
+
+        // Initialize the application
+        async function initApp() {
+            initializeMap();
+            await loadElectionIndex();
+            populateYearDropdown();
+            setupEventListeners();
+        }
+
+        // Initialize Mapbox map
+        function initializeMap() {
+            map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/light-v11',
+                center: [-80.5, 33.8], // South Carolina center
+                zoom: 6.5,
+                minZoom: 5,
+                maxZoom: 12
+            });
+
+            map.on('load', function() {
+                // Add county boundaries layer
+                addCountyLayer();
+                
+                // Setup map interactions
+                setupMapInteractions();
+            });
+        }
+
+        // Load the election index
+        async function loadElectionIndex() {
+            try {
+                const response = await fetch('workspace_files/sc_results_index_corrected.json');
+                if (!response.ok) throw new Error('Failed to load election index');
+                availableElections = await response.json();
+                console.log('Loaded election index:', availableElections);
+            } catch (error) {
+                console.error('Error loading election index:', error);
+                showError('Failed to load election data. Please check that the data files are available.');
+            }
+        }
+
+        // Populate the year dropdown
+        function populateYearDropdown() {
+            const yearSelect = document.getElementById('year-select');
+            const years = Object.keys(availableElections).sort().reverse(); // Most recent first
+            
+            yearSelect.innerHTML = '<option value="">Select Year...</option>';
+            years.forEach(year => {
+                const option = document.createElement('option');
+                option.value = year;
+                option.textContent = year;
+                yearSelect.appendChild(option);
+            });
+        }
+
+        // Populate the office dropdown based on selected year
+        function populateOfficeDropdown(year) {
+            const officeSelect = document.getElementById('office-select');
+            
+            if (!year || !availableElections[year]) {
+                officeSelect.innerHTML = '<option value="">Select Office...</option>';
+                return;
+            }
+
+            const offices = Object.keys(availableElections[year]).sort();
+            officeSelect.innerHTML = '<option value="">Select Office...</option>';
+            
+            offices.forEach(office => {
+                const option = document.createElement('option');
+                option.value = office;
+                option.textContent = formatOfficeName(office);
+                officeSelect.appendChild(option);
+            });
+        }
+
+        // Format office names for display
+        function formatOfficeName(office) {
+            return office.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        // Add county layer to map
+        function addCountyLayer() {
+            // This would need actual GeoJSON data for SC counties
+            // For now, we'll create a placeholder
+            map.addSource('counties', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'FeatureCollection',
+                    'features': []
+                }
+            });
+
+            map.addLayer({
+                'id': 'county-fills',
+                'type': 'fill',
+                'source': 'counties',
+                'paint': {
+                    'fill-color': colorScheme.noData,
+                    'fill-opacity': 0.8,
+                    'fill-outline-color': '#ffffff'
+                }
+            });
+
+            map.addLayer({
+                'id': 'county-borders',
+                'type': 'line',
+                'source': 'counties',
+                'paint': {
+                    'line-color': '#374151',
+                    'line-width': 1
+                }
+            });
+        }
+
+        // Setup map interactions
+        function setupMapInteractions() {
+            let hoveredCountyId = null;
+
+            // County hover effects
+            map.on('mouseenter', 'county-fills', (e) => {
+                if (e.features.length > 0) {
+                    if (hoveredCountyId !== null) {
+                        map.setFeatureState(
+                            { source: 'counties', id: hoveredCountyId },
+                            { hover: false }
+                        );
+                    }
+                    hoveredCountyId = e.features[0].id;
+                    map.setFeatureState(
+                        { source: 'counties', id: hoveredCountyId },
+                        { hover: true }
+                    );
+
+                    // Show tooltip
+                    showTooltip(e, e.features[0]);
+                }
+            });
+
+            map.on('mouseleave', 'county-fills', () => {
+                if (hoveredCountyId !== null) {
+                    map.setFeatureState(
+                        { source: 'counties', id: hoveredCountyId },
+                        { hover: false }
+                    );
+                }
+                hoveredCountyId = null;
+                hideTooltip();
+            });
+
+            map.on('mousemove', 'county-fills', (e) => {
+                updateTooltipPosition(e);
+            });
+
+            // County click handler
+            map.on('click', 'county-fills', (e) => {
+                if (e.features.length > 0) {
+                    selectCounty(e.features[0]);
+                }
+            });
+
+            // Change cursor on hover
+            map.on('mouseenter', 'county-fills', () => {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+            map.on('mouseleave', 'county-fills', () => {
+                map.getCanvas().style.cursor = '';
+            });
+        }
+
+        // Update map when selections change
+        async function updateMap() {
+            const year = document.getElementById('year-select').value;
+            const office = document.getElementById('office-select').value;
+
+            if (year && !office) {
+                populateOfficeDropdown(year);
+                return;
+            }
+
+            if (!year || !office) {
+                clearMapData();
+                return;
+            }
+
+            await loadElectionData(year, office);
+        }
+
+        // Load election data for specific year/office
+        async function loadElectionData(year, office) {
+            if (isLoading) return;
+            
+            isLoading = true;
+            showLoading(true);
+
+            try {
+                const filename = availableElections[year][office];
+                if (!filename) {
+                    throw new Error(`No data file found for ${year} ${office}`);
+                }
+
+                const response = await fetch(`workspace_files/${filename}`);
+                if (!response.ok) throw new Error(`Failed to load ${filename}`);
+                
+                const csvText = await response.text();
+                currentData = parseCSV(csvText);
+                
+                await updateMapWithData(currentData);
+                updateStatewideResults(currentData);
+                
+            } catch (error) {
+                console.error('Error loading election data:', error);
+                showError(`Failed to load election data: ${error.message}`);
+            } finally {
+                isLoading = false;
+                showLoading(false);
+            }
+        }
+
+        // Parse CSV data
+        function parseCSV(csvText) {
+            const lines = csvText.trim().split('\n');
+            const headers = lines[0].split(',').map(h => h.trim());
+            
+            return lines.slice(1).map(line => {
+                const values = line.split(',').map(v => v.trim());
+                const row = {};
+                headers.forEach((header, index) => {
+                    row[header] = values[index];
+                });
+                return row;
+            });
+        }
+
+        // Update map with election data
+        async function updateMapWithData(data) {
+            // This would integrate with actual county GeoJSON data
+            // For now, we'll update the sidebar and prepare for data visualization
+            console.log('Updating map with data:', data);
+        }
+
+        // Update statewide results
+        function updateStatewideResults(data) {
+            const resultsDiv = document.getElementById('statewide-results');
+            
+            if (!data || data.length === 0) {
+                resultsDiv.innerHTML = '<p>No data available</p>';
+                return;
+            }
+
+            // Calculate statewide totals
+            const totals = {};
+            data.forEach(county => {
+                Object.keys(county).forEach(key => {
+                    if (key !== 'County' && key !== 'FIPS') {
+                        const value = parseInt(county[key]) || 0;
+                        totals[key] = (totals[key] || 0) + value;
+                    }
+                });
+            });
+
+            // Display results
+            let html = '<div class="statewide-totals">';
+            Object.entries(totals).forEach(([candidate, votes]) => {
+                const percentage = ((votes / Object.values(totals).reduce((a, b) => a + b, 0)) * 100).toFixed(1);
+                html += `
+                    <div class="result-row">
+                        <span class="candidate-name">${candidate}</span>
+                        <span class="candidate-votes">${votes.toLocaleString()} (${percentage}%)</span>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            
+            resultsDiv.innerHTML = html;
+        }
+
+        // Show/hide tooltip
+        function showTooltip(e, feature) {
+            const tooltip = document.getElementById('hover-tooltip');
+            const title = document.getElementById('tooltip-title');
+            const trends = document.getElementById('tooltip-trends');
+            
+            title.textContent = feature.properties.name || 'County';
+            trends.textContent = 'Click for detailed results';
+            
+            tooltip.style.display = 'block';
+            updateTooltipPosition(e);
+        }
+
+        function updateTooltipPosition(e) {
+            const tooltip = document.getElementById('hover-tooltip');
+            tooltip.style.left = e.point.x + 15 + 'px';
+            tooltip.style.top = e.point.y - 15 + 'px';
+        }
+
+        function hideTooltip() {
+            document.getElementById('hover-tooltip').style.display = 'none';
+        }
+
+        // Select county for detailed view
+        function selectCounty(feature) {
+            const countyInfo = document.getElementById('county-info');
+            const countyName = document.getElementById('county-name');
+            const countyResults = document.getElementById('county-results');
+            
+            countyName.textContent = feature.properties.name || 'Selected County';
+            countyResults.innerHTML = '<p>Loading county data...</p>';
+            countyInfo.style.display = 'block';
+            
+            // Show sidebar if minimized
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.remove('minimized');
+        }
+
+        // UI Control Functions
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('minimized');
+        }
+
+        function toggleMainControls() {
+            const controls = document.getElementById('main-controls');
+            controls.classList.toggle('minimized');
+        }
+
+        function toggleLegend() {
+            const legend = document.getElementById('legend');
+            legend.classList.toggle('minimized');
+        }
+
+        // Utility functions
+        function clearMapData() {
+            currentData = null;
+            document.getElementById('statewide-results').innerHTML = '<p>Select an election to view results</p>';
+            document.getElementById('county-info').style.display = 'none';
+        }
+
+        function showLoading(show) {
+            // Add loading indicators as needed
+        }
+
+        function showError(message) {
+            console.error(message);
+            // You could add a toast notification or error panel here
+        }
+
+        function setupEventListeners() {
+            // Year dropdown change handler
+            document.getElementById('year-select').addEventListener('change', updateMap);
+            
+            // Office dropdown change handler  
+            document.getElementById('office-select').addEventListener('change', updateMap);
+        }
+
+        // Initialize the application when page loads
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>

@@ -1,0 +1,1960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Carolina Political Map - Interactive Election Analysis</title>
+    
+    <!-- Mapbox CSS -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+    
+    <style>
+/* Mobile responsive design */
+@media (max-width: 700px) {
+  #sidebar-minimize-btn,
+  #main-controls .controls-header #controls-minimize-btn,
+  #legend-minimize-btn {
+    position: absolute !important;
+    top: 12px !important;
+    right: 12px !important;
+    z-index: 10002 !important;
+    font-size: 18px !important;
+    background: #f3f4f6 !important;
+    color: #2563eb !important;
+    border-radius: 6px !important;
+    width: auto !important;
+    height: auto !important;
+    border: 1px solid #2563eb !important;
+    box-shadow: none !important;
+    padding: 4px 16px !important;
+    display: block !important;
+    font-weight: 700 !important;
+    transition: background 0.2s;
+  }
+  #main-controls .controls-header #controls-minimize-btn {
+    left: 12px !important;
+    right: auto !important;
+  }
+  .legend-header {
+    position: relative !important;
+    min-height: 48px;
+  }
+  .legend-header h4 {
+    margin-right: 56px !important;
+  }
+  .legend {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    z-index: 10005 !important;
+    background: #fff !important;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.10);
+    border-radius: 12px 12px 0 0;
+    overflow-y: auto;
+    max-height: 40vh;
+  }
+  .legend-header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 10006;
+  }
+}
+
+/* Show floating button only when sidebar is minimized */
+#sidebar-float-toggle { display: none; }
+.sidebar.minimized ~ #sidebar-float-toggle { display: flex !important; }
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh;
+  background: #f0f4f8;
+  transition: left 0.3s cubic-bezier(.4,0,.2,1), width 0.3s cubic-bezier(.4,0,.2,1);
+  z-index: 1;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 2;
+}
+
+/* Hover Tooltip */
+.hover-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  pointer-events: none;
+  z-index: 1000;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: none;
+  line-height: 1.4;
+}
+
+.hover-tooltip .tooltip-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+  border-bottom: 1px solid #444;
+  padding-bottom: 6px;
+}
+
+.hover-tooltip .tooltip-trends {
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.quick-tooltip {
+  background: rgba(40, 40, 40, 0.95);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  line-height: 1.3;
+}
+
+.quick-tooltip strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.sidebar {
+  width: 400px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  border-left: 1px solid #e5e7eb;
+  overflow-y: auto;
+  transition: width 0.3s cubic-bezier(.4,0,.2,1);
+}
+.sidebar.minimized {
+  width: 0 !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sidebar.minimized .sidebar-content {
+  display: none !important;
+}
+.sidebar.minimized .sidebar-header {
+  display: none !important;
+}
+.sidebar.minimized .minimize-btn {
+  display: flex !important;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2563eb;
+  color: white;
+  border: 1px solid #1d4ed8;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+.sidebar-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+.sidebar-content {
+  padding: 20px;
+}
+.minimize-btn {
+  background: #2563eb;
+  border: 1px solid #1d4ed8;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.2s ease;
+}
+.minimize-btn:hover {
+  background: #1d4ed8;
+  border-color: #1e40af;
+  transform: scale(1.05);
+}
+
+/* Main Controls */
+.main-controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  z-index: 1000;
+  min-width: 380px;
+  max-width: 420px;
+  transition: all 0.3s ease;
+}
+.main-controls.minimized {
+  min-width: 60px;
+  max-width: 60px;
+  padding: 15px;
+}
+.main-controls.minimized .controls-content {
+  display: none;
+}
+.controls-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.controls-header h3 {
+  margin: 0;
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 16px;
+}
+.controls-content {
+  position: relative;
+}
+.analysis-mode {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 4px;
+}
+.mode-toggle {
+  flex: 1;
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+  color: #6b7280;
+  font-size: 14px;
+}
+.mode-toggle.active {
+  background: #2563eb;
+  color: white;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);
+}
+.mode-toggle:hover:not(.active) {
+  background: #e5e7eb;
+  color: #374151;
+}
+.view-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 4px;
+}
+.control-group {
+  margin-bottom: 16px;
+}
+.control-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #374151;
+}
+.control-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: white;
+  font-size: 14px;
+}
+
+/* Legend */
+.legend {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  z-index: 1000;
+  min-width: 250px;
+  border: 1px solid #e5e7eb;
+}
+.legend.minimized .legend-content {
+  display: none;
+}
+.legend-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+  border-radius: 12px 12px 0 0;
+}
+.legend-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #374151;
+}
+.legend-content {
+  padding: 16px 20px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+/* County Details */
+.county-details {
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+.county-details h4 {
+  margin: 0 0 12px 0;
+  color: #374151;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Sidebar Card Classes for Consistent Font Sizes */
+.sidebar-section-title {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin-bottom: 6px !important;
+  color: #222 !important;
+}
+.sidebar-winner {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin-bottom: 8px !important;
+}
+.sidebar-margin {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin-bottom: 4px !important;
+}
+.sidebar-margin-details {
+  font-size: 13px !important;
+  color: #64748b !important;
+  margin-bottom: 8px !important;
+}
+.sidebar-breakdown {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-bottom: 2px !important;
+}
+
+/* Statewide Results */
+.statewide-results {
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #f0f9ff;
+  border-radius: 8px;
+  border: 1px solid #0ea5e9;
+}
+.statewide-results h4 {
+  margin: 0 0 15px 0;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #1f2937 !important;
+}
+.statewide-margin {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 10px 0;
+}
+.margin-text {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+.margin-details {
+  font-size: 14px !important;
+  color: #64748b !important;
+  margin-top: 5px !important;
+}
+
+.findings-section {
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 15px 0;
+}
+.findings-section h5 {
+  margin: 0 0 10px 0;
+  color: #92400e;
+  font-size: 15px;
+  font-weight: 700;
+}
+.findings-section ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #92400e;
+}
+.findings-section li {
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.finding-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.finding-card h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 6px;
+}
+.finding-card p {
+  margin: 8px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #374151;
+}
+.metric {
+  background: #eff6ff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #1d4ed8;
+  display: inline-block;
+  margin: 2px;
+}
+
+/* County search styling */
+#county-search {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin: 6px 0;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+/* Sidebar footer */
+.sidebar-footer {
+  padding: 16px 20px;
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+  border-top: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+/* Status panel */
+.status-panel {
+  position: fixed;
+  top: 20px;
+  right: 90px;
+  z-index: 10002;
+  background: rgba(255,255,255,0.97);
+  backdrop-filter: blur(10px);
+  padding: 18px 24px 18px 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  border: 1px solid #e5e7eb;
+  max-width: 340px;
+  min-width: 200px;
+  font-size: 15px;
+  color: #34495e;
+  display: none;
+}
+
+#status-exit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Enhanced floating toggle */
+#sidebar-float-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10001;
+  width: 40px;
+  height: 40px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  font-size: 24px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#sidebar-float-toggle:hover {
+  background: #1746a0;
+}
+
+/* Temperature bar for statewide results */
+#statewide-temperature-bar {
+  width: 100%;
+  height: 24px;
+  margin: 12px 0;
+  border-radius: 4px;
+  display: none;
+  background: linear-gradient(to right, #dc2626, #f87171, #e5e7eb, #93c5fd, #2563eb);
+}
+
+/* Status panel */
+.status-panel {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  border: 1px solid #e5e7eb;
+  z-index: 1000;
+  max-width: 300px;
+}
+
+.sidebar.minimized .sidebar-footer {
+  display: none !important;
+}
+#sidebar-float-toggle {
+  position: fixed;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  z-index: 1001;
+  background: #2563eb;
+  color: white;
+  border: 1px solid #1d4ed8;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+  transition: all 0.3s ease;
+}
+#sidebar-float-toggle:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+.sidebar.minimized ~ #sidebar-float-toggle {
+  display: flex !important;
+}
+    </style>
+</head>
+<body>
+    <!-- Mapbox container -->
+    <div id="map"></div>
+
+    <!-- Main Controls Panel -->
+    <div class="main-controls" id="main-controls">
+        <div class="controls-header">
+            <h3>🗳️ SC Political Contests</h3>
+            <button class="minimize-btn" id="controls-minimize-btn" onclick="toggleMainControls()" title="Minimize Controls">−</button>
+        </div>
+        <div class="controls-content">
+            <div class="analysis-modes">
+                <h4>Analysis Mode</h4>
+                <div class="analysis-buttons">
+                    <button class="analysis-mode-btn active" data-analysis="default" onclick="setAnalysisMode('default')">Default View</button>
+                    <button class="analysis-mode-btn" data-analysis="margins" onclick="setAnalysisMode('margins')">Victory Margins</button>
+                    <button class="analysis-mode-btn" data-analysis="swing" onclick="setAnalysisMode('swing')">Swing Analysis</button>
+                    <button class="analysis-mode-btn" data-analysis="turnout" onclick="setAnalysisMode('turnout')">Turnout Patterns</button>
+                </div>
+            </div>
+            
+            <div class="map-view-modes">
+                <h4>Map View</h4>
+                <div class="view-buttons">
+                    <button class="map-view-btn active" data-view="all" onclick="setMapViewMode('all')">All Counties</button>
+                    <button class="map-view-btn" data-view="competitive" onclick="setMapViewMode('competitive')">Competitive</button>
+                    <button class="map-view-btn" data-view="safe" onclick="setMapViewMode('safe')">Safe Seats</button>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <label for="year-select">Election Year:</label>
+                <select id="year-select" onchange="updateMap()">
+                    <option value="">Select Year...</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="office-select">Office:</label>
+                <select id="office-select" onchange="updateMap()">
+                    <option value="">Select Office...</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="legend" id="legend">
+        <div class="legend-header">
+            <h4>Political Categories</h4>
+            <button class="minimize-btn" id="legend-minimize-btn" onclick="toggleLegend()" title="Minimize Legend">−</button>
+        </div>
+        <div class="legend-content" id="legend-content">
+            <div class="legend-item"><div class="legend-color" style="background: #67000d;"></div>Annihilation Republican (40%+)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #a50f15;"></div>Dominant Republican (30-40%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #cb181d;"></div>Stronghold Republican (20-30%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #ef3b2c;"></div>Safe Republican (10-20%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #fb6a4a;"></div>Likely Republican (5.5-10%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #fcae91;"></div>Lean Republican (1-5.5%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #fee8c8;"></div>Tilt Republican (0.5-1%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #f7f7f7; border: 1px solid #999;"></div>Tossup (±0.5%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #e1f5fe;"></div>Tilt Democratic (0.5-1%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #c6dbef;"></div>Lean Democratic (1-5.5%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #9ecae1;"></div>Likely Democratic (5.5-10%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #6baed6;"></div>Safe Democratic (10-20%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #3182bd;"></div>Stronghold Democratic (20-30%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #08519c;"></div>Dominant Democratic (30-40%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #08306b;"></div>Annihilation Democratic (40%+)</div>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h3>📊 County Analysis</h3>
+            <button class="minimize-btn" id="sidebar-minimize-btn" onclick="toggleSidebar()" title="Close Sidebar">×</button>
+        </div>
+        <div class="sidebar-content">
+            <div class="county-details" id="county-info" style="display: none;">
+                <h4 id="county-name" class="sidebar-section-title">Select a County</h4>
+                <div id="county-results"></div>
+                
+                <div class="findings-section" id="county-findings" style="display: none;">
+                    <h5>Key Findings</h5>
+                    <ul id="county-findings-list"></ul>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 16px;">
+                <label for="county-search" style="font-weight:600;">Search County:</label>
+                <input type="text" id="county-search" placeholder="Type to search..." />
+            </div>
+            
+            <h4 id="statewide">🏛️ South Carolina Statewide</h4>
+            <div style="margin:18px 0 8px 0; border-bottom:2px solid #e5e7eb;"></div>
+            
+            <div class="statewide-results">
+                <h4 id="contest-name">Statewide Results</h4>
+                <div id="statewide-results">
+                    <p>Select an election to view results</p>
+                </div>
+                
+                <div id="statewide-temperature-bar"></div>
+                
+                <div class="statewide-margin" id="statewide-margin" style="display: none;">
+                    <div class="margin-text" id="margin-text"></div>
+                    <div class="margin-details" id="margin-details"></div>
+                </div>
+                
+                <div class="findings-section" id="statewide-findings" style="display: none;">
+                    <h5>Statewide Analysis</h5>
+                    <ul id="statewide-findings-list"></ul>
+                </div>
+            </div>
+            
+            <div class="findings-section">
+                <h4>🔍 Research Findings</h4>
+                <div class="finding-card">
+                    <h5>Charleston County - Coastal Democratic Stronghold</h5>
+                    <p><strong>Urban Growth:</strong> Charleston's explosive growth has transformed it into South Carolina's most reliable Democratic county. <span class="metric">2016: D+12.3%</span> → <span class="metric">2020: D+15.8%</span> → <span class="metric">2024: D+18.2%</span></p>
+                    <p><strong>Demographics:</strong> Tech sector boom, young professionals, and university expansion drive Democratic gains. Population up 25% since 2010.</p>
+                    <p><strong>Key Areas:</strong> Downtown Charleston, Mount Pleasant, and Summerville show strongest Democratic trends.</p>
+                    <p><strong>National Context:</strong> Mirrors coastal city trends nationwide - educated, diverse, increasingly Democratic.</p>
+                </div>
+                <div class="finding-card">
+                    <h5>Greenville County - Critical Swing Territory</h5>
+                    <p><strong>Battleground Status:</strong> South Carolina's largest county remains pivotal in statewide races. <span class="metric">2020: R+6.4%</span> → <span class="metric">2024: R+4.9%</span></p>
+                    <p><strong>Suburban Shift:</strong> GOP margins shrinking in suburbs like Simpsonville, Mauldin, and Fountain Inn as college-educated voters trend Democratic.</p>
+                    <p><strong>Geographic Split:</strong> Urban Greenville increasingly blue, rural areas deep red, suburbs competitive and decisive.</p>
+                    <p><strong>Economic Factor:</strong> BMW presence brings international workers and moderate politics to traditionally conservative region.</p>
+                </div>
+                <div class="finding-card">
+                    <h5>Lexington County - Suburban Republican Base</h5>
+                    <p><strong>GOP Stronghold:</strong> Columbia suburbs remain reliable Republican, but margins narrowing with demographic change. <span class="metric">2020: R+24.1%</span> → <span class="metric">2024: R+21.3%</span></p>
+                    <p><strong>Growth Pattern:</strong> Rapid population growth (+18% since 2010) brings diverse newcomers to traditionally homogeneous area.</p>
+                    <p><strong>Key Communities:</strong> Irmo, Chapin, and Lexington proper show modest Democratic gains among educated suburbanites.</p>
+                    <p><strong>Strategic Value:</strong> Large population makes it crucial for statewide Republican victories despite narrowing margins.</p>
+                </div>
+                <div class="finding-card">
+                    <h5>York County - Charlotte Spillover Effect</h5>
+                    <p><strong>Metropolitan Influence:</strong> Charlotte metro growth transforms York County politics. <span class="metric">2016: R+22.7%</span> → <span class="metric">2020: R+18.9%</span> → <span class="metric">2024: R+15.2%</span></p>
+                    <p><strong>Demographic Change:</strong> Young families from Charlotte bring moderate politics to Rock Hill, Fort Mill, and Tega Cay areas.</p>
+                    <p><strong>Education Factor:</strong> Winthrop University and growing professional class drive political moderation.</p>
+                    <p><strong>Future Trend:</strong> Likely to become competitive within 2-3 cycles as Charlotte expansion continues.</p>
+                </div>
+                <div class="finding-card">
+                    <h5>Horry County - Tourism Economy Politics</h5>
+                    <p><strong>Complex Dynamics:</strong> Myrtle Beach tourism creates unique political environment. <span class="metric">Population: 65% growth since 2000</span></p>
+                    <p><strong>Seasonal Influence:</strong> Tourism economy brings diverse workforce, retiree influx creates complex voter registration patterns.</p>
+                    <p><strong>Geographic Split:</strong> Beach areas more moderate, inland areas deeply conservative, creating internal competition.</p>
+                    <p><strong>Growth Impact:</strong> Rapid population growth challenges traditional Republican dominance in some precincts.</p>
+                </div>
+                <div class="finding-card">
+                    <h5>Regional Transformation Patterns</h5>
+                    <p><strong>I-85 Corridor:</strong> Greenville-Spartanburg corridor shows consistent Democratic gains as education levels rise and economy diversifies.</p>
+                    <p><strong>Metro Spillover:</strong> Counties adjacent to Charlotte (York) and Atlanta influence (Anderson) trending more competitive.</p>
+                    <p><strong>Rural Persistence:</strong> Counties like Allendale, Bamberg, and Hampton remain deeply rural with stable political patterns.</p>
+                    <p><strong>Coastal Growth:</strong> Beach counties (Horry, Georgetown) balancing conservative retirees with moderate tourism workers.</p>
+                </div>
+                <div class="finding-card">
+                    <h5>Statewide Electoral Mathematics</h5>
+                    <p><strong>Democratic Strategy:</strong> Must dominate Charleston (+20% margin), stay competitive in Greenville, limit losses in Lexington/Spartanburg.</p>
+                    <p><strong>Republican Strategy:</strong> Maximize rural turnout, hold suburban margins, prevent urban Democratic blowouts.</p>
+                    <p><strong>Swing Counties:</strong> Greenville, York, Beaufort, and Dorchester most likely to determine statewide outcomes.</p>
+                    <p><strong>Turnout Patterns:</strong> Rural counties punch above weight in primaries, urban counties crucial in general elections.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-footer">
+            Created by Shamar Davis
+        </div>
+    </div>
+
+    <!-- Floating sidebar toggle -->
+    <button id="sidebar-float-toggle" title="Expand Sidebar">+</button>
+
+    <!-- Status Panel -->
+    <div class="status-panel" id="status-panel">
+        <span id="status-message"></span>
+        <button id="status-exit" title="Close">×</button>
+    </div>
+
+    <!-- Floating sidebar toggle for when sidebar is minimized -->
+    <button id="sidebar-float-toggle" onclick="toggleSidebar()" title="Open Sidebar">→</button>
+
+    <!-- Hover tooltip -->
+    <div class="hover-tooltip" id="hover-tooltip">
+        <div class="tooltip-title" id="tooltip-title"></div>
+        <div class="tooltip-trends" id="tooltip-trends"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <script>
+        // Global variables
+        let map;
+        let currentData = null;
+        let availableElections = {};
+        let isLoading = false;
+
+        // Mapbox access token - you'll need to replace this with your own
+        mapboxgl.accessToken = 'pk.eyJ1IjoiY29tcGFyYXRpdmVwb2xpdGljcyIsImEiOiJjbGdndTJrczkwYzdkM2ZudXozZDRpbjVyIn0.TEvEuVjFl_ZdgfXTLhD6uw';
+
+        // Color scheme for party performance
+        const colorScheme = {
+            strongRep: '#b91c1c',     // 60%+ Republican
+            rep: '#dc2626',           // 55-60% Republican  
+            leanRep: '#f87171',       // 50-55% Republican
+            competitive: '#e5e7eb',   // 48-52% (gray)
+            leanDem: '#93c5fd',       // 50-55% Democratic
+            dem: '#2563eb',           // 55-60% Democratic
+            strongDem: '#1d4ed8',     // 60%+ Democratic
+            noData: '#f3f4f6'         // No data available
+        };
+
+        // Initialize the application
+        async function initApp() {
+            initializeMap();
+            await loadElectionIndex();
+            populateYearDropdown();
+            setupEventListeners();
+            setupAnalysisModes();
+        }
+
+        // Setup analysis mode toggles
+        function setupAnalysisModes() {
+            const modeToggles = document.querySelectorAll('.mode-toggle');
+            modeToggles.forEach(toggle => {
+                toggle.addEventListener('click', function() {
+                    // Remove active class from all toggles
+                    modeToggles.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked toggle
+                    this.classList.add('active');
+                    
+                    const mode = this.dataset.mode;
+                    handleAnalysisModeChange(mode);
+                });
+            });
+        }
+
+        // Handle analysis mode changes
+        function handleAnalysisModeChange(mode) {
+            console.log('Analysis mode changed to:', mode);
+            
+            switch(mode) {
+                case 'results':
+                    // Show current election results
+                    break;
+                case 'trends':
+                    // Show historical trends
+                    break;
+                case 'comparison':
+                    // Show comparison view
+                    break;
+            }
+        }
+
+        // Initialize Mapbox map
+        function initializeMap() {
+            map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/light-v11',
+                center: [-80.5, 33.8], // South Carolina center
+                zoom: 6.5,
+                minZoom: 5,
+                maxZoom: 12
+            });
+
+            map.on('load', function() {
+                // Add county boundaries layer
+                addCountyLayer();
+                
+                // Setup map interactions
+                setupMapInteractions();
+            });
+        }
+
+        // Load the election index
+        async function loadElectionIndex() {
+            try {
+                const response = await fetch('workspace_files/sc_results_index_corrected.json');
+                if (!response.ok) throw new Error('Failed to load election index');
+                availableElections = await response.json();
+                console.log('Loaded election index:', availableElections);
+            } catch (error) {
+                console.error('Error loading election index:', error);
+                showError('Failed to load election data. Please check that the data files are available.');
+            }
+        }
+
+        // Populate the year dropdown
+        function populateYearDropdown() {
+            const yearSelect = document.getElementById('year-select');
+            const years = Object.keys(availableElections).sort().reverse(); // Most recent first
+            
+            yearSelect.innerHTML = '<option value="">Select Year...</option>';
+            years.forEach(year => {
+                const option = document.createElement('option');
+                option.value = year;
+                option.textContent = year;
+                yearSelect.appendChild(option);
+            });
+        }
+
+        // Populate the office dropdown based on selected year
+        function populateOfficeDropdown(year) {
+            const officeSelect = document.getElementById('office-select');
+            
+            if (!year || !availableElections[year]) {
+                officeSelect.innerHTML = '<option value="">Select Office...</option>';
+                return;
+            }
+
+            const offices = Object.keys(availableElections[year]).sort();
+            officeSelect.innerHTML = '<option value="">Select Office...</option>';
+            
+            offices.forEach(office => {
+                const option = document.createElement('option');
+                option.value = office;
+                option.textContent = formatOfficeName(office);
+                officeSelect.appendChild(option);
+            });
+        }
+
+        // Format office names for display
+        function formatOfficeName(office) {
+            return office.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        // Add county layer to map
+        function addCountyLayer() {
+            // This would need actual GeoJSON data for SC counties
+            // For now, we'll create a placeholder
+            map.addSource('counties', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'FeatureCollection',
+                    'features': []
+                }
+            });
+
+            map.addLayer({
+                'id': 'county-fills',
+                'type': 'fill',
+                'source': 'counties',
+                'paint': {
+                    'fill-color': colorScheme.noData,
+                    'fill-opacity': 0.8,
+                    'fill-outline-color': '#ffffff'
+                }
+            });
+
+            map.addLayer({
+                'id': 'county-borders',
+                'type': 'line',
+                'source': 'counties',
+                'paint': {
+                    'line-color': '#374151',
+                    'line-width': 1
+                }
+            });
+        }
+
+        // Setup map interactions
+        function setupMapInteractions() {
+            let hoveredCountyId = null;
+
+            // County hover effects
+            map.on('mouseenter', 'county-fills', (e) => {
+                if (e.features.length > 0) {
+                    if (hoveredCountyId !== null) {
+                        map.setFeatureState(
+                            { source: 'counties', id: hoveredCountyId },
+                            { hover: false }
+                        );
+                    }
+                    hoveredCountyId = e.features[0].id;
+                    map.setFeatureState(
+                        { source: 'counties', id: hoveredCountyId },
+                        { hover: true }
+                    );
+
+                    // Show tooltip
+                    showTooltip(e, e.features[0]);
+                }
+            });
+
+            map.on('mouseleave', 'county-fills', () => {
+                if (hoveredCountyId !== null) {
+                    map.setFeatureState(
+                        { source: 'counties', id: hoveredCountyId },
+                        { hover: false }
+                    );
+                }
+                hoveredCountyId = null;
+                hideTooltip();
+            });
+
+            map.on('mousemove', 'county-fills', (e) => {
+                updateTooltipPosition(e);
+            });
+
+            // County click handler
+            map.on('click', 'county-fills', (e) => {
+                if (e.features.length > 0) {
+                    selectCounty(e.features[0]);
+                }
+            });
+
+            // Change cursor on hover
+            map.on('mouseenter', 'county-fills', () => {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+            map.on('mouseleave', 'county-fills', () => {
+                map.getCanvas().style.cursor = '';
+            });
+        }
+
+        // Update map when selections change
+        async function updateMap() {
+            const year = document.getElementById('year-select').value;
+            const office = document.getElementById('office-select').value;
+
+            if (year && !office) {
+                populateOfficeDropdown(year);
+                return;
+            }
+
+            if (!year || !office) {
+                clearMapData();
+                return;
+            }
+
+            await loadElectionData(year, office);
+        }
+
+        // Load election data for specific year/office
+        async function loadElectionData(year, office) {
+            if (isLoading) return;
+            
+            isLoading = true;
+            showLoading(true);
+
+            try {
+                const filename = availableElections[year][office];
+                if (!filename) {
+                    throw new Error(`No data file found for ${year} ${office}`);
+                }
+
+                const response = await fetch(`workspace_files/${filename}`);
+                if (!response.ok) throw new Error(`Failed to load ${filename}`);
+                
+                const csvText = await response.text();
+                currentData = parseCSV(csvText);
+                
+                await updateMapWithData(currentData);
+                updateStatewideResults(currentData);
+                
+            } catch (error) {
+                console.error('Error loading election data:', error);
+                showError(`Failed to load election data: ${error.message}`);
+            } finally {
+                isLoading = false;
+                showLoading(false);
+            }
+        }
+
+        // Parse CSV data
+        function parseCSV(csvText) {
+            const lines = csvText.trim().split('\n');
+            const headers = lines[0].split(',').map(h => h.trim());
+            
+            return lines.slice(1).map(line => {
+                const values = line.split(',').map(v => v.trim());
+                const row = {};
+                headers.forEach((header, index) => {
+                    row[header] = values[index];
+                });
+                return row;
+            });
+        }
+
+        // Update map with election data
+        async function updateMapWithData(data) {
+            // Store data globally for advanced processing
+            currentMapData = data;
+            
+            // Update research findings with current data
+            updateResearchFindings(data);
+            
+            // Apply current analysis mode and view mode
+            updateMapDisplay();
+            
+            // Generate dynamic sidebar content
+            generateDynamicFindings(data);
+            
+            console.log('Map updated with advanced FL map features:', data);
+        }
+
+        // Enhanced dynamic findings generation
+        function generateDynamicFindings(data) {
+            if (!data || data.length === 0) return;
+            
+            const findings = generateResearchFindings(data);
+            const findingsList = document.getElementById('statewide-findings-list');
+            const findingsDiv = document.getElementById('statewide-findings');
+            
+            if (findings.length > 0) {
+                findingsList.innerHTML = findings.map(finding => `<li>${finding}</li>`).join('');
+                findingsDiv.style.display = 'block';
+            } else {
+                findingsDiv.style.display = 'none';
+            }
+        }
+
+        // Enhanced research findings update
+        function updateResearchFindings(data) {
+            if (!data || data.length === 0) return;
+            
+            // Calculate key metrics for dynamic findings
+            const competitiveCounties = data.filter(county => {
+                const margin = Math.abs(calculateMargin(county) || 0);
+                return margin <= 10;
+            }).length;
+            
+            const highTurnoutCounties = data.filter(county => {
+                const totalVotes = Object.entries(county)
+                    .filter(([key, value]) => key !== 'County' && key !== 'FIPS' && !isNaN(value))
+                    .reduce((sum, [, votes]) => sum + parseInt(votes || 0), 0);
+                return totalVotes > 50000;
+            }).length;
+            
+            // Update statewide analysis section with dynamic insights
+            const year = document.getElementById('year-select').value;
+            const office = document.getElementById('office-select').value;
+            
+            if (year && office) {
+                const contestName = `${year} ${formatOfficeName(office)}`;
+                document.getElementById('contest-name').textContent = contestName;
+                
+                // Add dynamic temperature bar if applicable
+                updateTemperatureBar(data);
+            }
+        }
+
+        // Temperature bar visualization
+        function updateTemperatureBar(data) {
+            const tempBarDiv = document.getElementById('statewide-temperature-bar');
+            if (!tempBarDiv || !data) return;
+            
+            const margins = data.map(calculateMargin).filter(m => m !== null);
+            if (margins.length === 0) return;
+            
+            const avgMargin = margins.reduce((sum, m) => sum + Math.abs(m), 0) / margins.length;
+            const competitivePct = (margins.filter(m => Math.abs(m) <= 10).length / margins.length) * 100;
+            
+            let tempColor = '#f3f4f6'; // Default gray
+            let tempText = 'Analyzing...';
+            
+            if (competitivePct > 30) {
+                tempColor = '#fbbf24'; // Hot/competitive
+                tempText = `High Competition (${competitivePct.toFixed(1)}% competitive counties)`;
+            } else if (competitivePct > 15) {
+                tempColor = '#60a5fa'; // Moderate
+                tempText = `Moderate Competition (${competitivePct.toFixed(1)}% competitive counties)`;
+            } else {
+                tempColor = '#d1d5db'; // Cool/safe
+                tempText = `Low Competition (${competitivePct.toFixed(1)}% competitive counties)`;
+            }
+            
+            tempBarDiv.innerHTML = `
+                <div class="temperature-bar" style="background: linear-gradient(90deg, ${tempColor}, ${tempColor}aa);">
+                    <span class="temp-text">${tempText}</span>
+                </div>
+            `;
+        }
+
+        // Update statewide results with enhanced FL map styling
+        function updateStatewideResults(data) {
+            const resultsDiv = document.getElementById('statewide-results');
+            const marginDiv = document.getElementById('statewide-margin');
+            const findingsDiv = document.getElementById('statewide-findings');
+            const findingsList = document.getElementById('statewide-findings-list');
+            
+            if (!data || data.length === 0) {
+                resultsDiv.innerHTML = '<p>No data available</p>';
+                marginDiv.style.display = 'none';
+                findingsDiv.style.display = 'none';
+                return;
+            }
+
+            // Calculate statewide totals
+            const totals = {};
+            data.forEach(county => {
+                Object.keys(county).forEach(key => {
+                    if (key !== 'County' && key !== 'FIPS') {
+                        const value = parseInt(county[key]) || 0;
+                        totals[key] = (totals[key] || 0) + value;
+                    }
+                });
+            });
+
+            // Display results with enhanced styling
+            let html = '<div class="statewide-totals">';
+            const sortedCandidates = Object.entries(totals).sort((a, b) => b[1] - a[1]);
+            const totalVotes = Object.values(totals).reduce((a, b) => a + b, 0);
+            
+            sortedCandidates.forEach(([candidate, votes], index) => {
+                const percentage = ((votes / totalVotes) * 100).toFixed(1);
+                const isWinner = index === 0;
+                
+                html += `
+                    <div class="result-row ${isWinner ? 'sidebar-winner' : 'sidebar-breakdown'}">
+                        <span class="candidate-name">${candidate}</span>
+                        <span class="candidate-votes">${votes.toLocaleString()} (${percentage}%)</span>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            
+            resultsDiv.innerHTML = html;
+            
+            // Show margin information if we have at least 2 candidates
+            if (sortedCandidates.length >= 2) {
+                const winner = sortedCandidates[0];
+                const runnerUp = sortedCandidates[1];
+                const margin = winner[1] - runnerUp[1];
+                const marginPercentage = ((margin / totalVotes) * 100).toFixed(1);
+                
+                document.getElementById('margin-text').textContent = 
+                    `${winner[0]} +${margin.toLocaleString()}`;
+                document.getElementById('margin-details').textContent = 
+                    `${marginPercentage}% margin over ${runnerUp[0]}`;
+                marginDiv.style.display = 'block';
+                
+                // Generate findings
+                const findings = generateStatewidefindings(sortedCandidates, totalVotes, data.length);
+                if (findings.length > 0) {
+                    findingsList.innerHTML = findings.map(finding => `<li>${finding}</li>`).join('');
+                    findingsDiv.style.display = 'block';
+                } else {
+                    findingsDiv.style.display = 'none';
+                }
+            } else {
+                marginDiv.style.display = 'none';
+                findingsDiv.style.display = 'none';
+            }
+        }
+
+        // Generate analytical findings for statewide results
+        function generateStatewidefindings(candidates, totalVotes, countyCount) {
+            const findings = [];
+            
+            if (candidates.length >= 2) {
+                const winnerPct = (candidates[0][1] / totalVotes * 100);
+                const margin = (candidates[0][1] - candidates[1][1]) / totalVotes * 100;
+                
+                if (winnerPct > 60) {
+                    findings.push(`Strong ${candidates[0][0]} performance with ${winnerPct.toFixed(1)}% statewide`);
+                } else if (winnerPct > 55) {
+                    findings.push(`Clear ${candidates[0][0]} victory with ${winnerPct.toFixed(1)}% statewide`);
+                } else if (margin < 2) {
+                    findings.push(`Very close race with only ${margin.toFixed(1)}% separating top candidates`);
+                } else if (margin < 5) {
+                    findings.push(`Competitive race with ${margin.toFixed(1)}% margin`);
+                }
+                
+                findings.push(`Results across ${countyCount} counties analyzed`);
+            }
+            
+            return findings;
+        }
+
+        // Show/hide tooltip
+        function showTooltip(e, feature) {
+            const tooltip = document.getElementById('hover-tooltip');
+            const title = document.getElementById('tooltip-title');
+            const trends = document.getElementById('tooltip-trends');
+            
+            title.textContent = feature.properties.name || 'County';
+            trends.textContent = 'Click for detailed results';
+            
+            tooltip.style.display = 'block';
+            updateTooltipPosition(e);
+        }
+
+        function updateTooltipPosition(e) {
+            const tooltip = document.getElementById('hover-tooltip');
+            tooltip.style.left = e.point.x + 15 + 'px';
+            tooltip.style.top = e.point.y - 15 + 'px';
+        }
+
+        function hideTooltip() {
+            document.getElementById('hover-tooltip').style.display = 'none';
+        }
+
+        // Select county for detailed view with enhanced FL map features
+        function selectCounty(feature) {
+            const countyInfo = document.getElementById('county-info');
+            const countyName = document.getElementById('county-name');
+            const countyResults = document.getElementById('county-results');
+            const findingsDiv = document.getElementById('county-findings');
+            const findingsList = document.getElementById('county-findings-list');
+            
+            const county = feature.properties.name || 'Selected County';
+            countyName.textContent = county;
+            countyResults.innerHTML = '<p>Loading county data...</p>';
+            countyInfo.style.display = 'block';
+            
+            // Show sidebar if minimized
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.remove('minimized');
+            
+            // If we have current data, show county-specific results
+            if (currentData) {
+                displayCountyResults(county, countyResults, findingsList, findingsDiv);
+            }
+        }
+
+        // Display enhanced county results
+        function displayCountyResults(countyName, resultsDiv, findingsList, findingsDiv) {
+            const countyData = currentData.find(row => 
+                row.County && row.County.toLowerCase().includes(countyName.toLowerCase().replace(' county', ''))
+            );
+
+            if (!countyData) {
+                resultsDiv.innerHTML = '<p>No data available for this county</p>';
+                findingsDiv.style.display = 'none';
+                return;
+            }
+
+            // Display county results with FL map styling
+            let html = '';
+            const candidates = [];
+            
+            Object.entries(countyData).forEach(([key, value]) => {
+                if (key !== 'County' && key !== 'FIPS' && !isNaN(value) && value !== '') {
+                    const votes = parseInt(value);
+                    candidates.push({ name: key, votes: votes });
+                }
+            });
+
+            if (candidates.length > 0) {
+                candidates.sort((a, b) => b.votes - a.votes);
+                const totalVotes = candidates.reduce((sum, c) => sum + c.votes, 0);
+                
+                candidates.forEach((candidate, index) => {
+                    const percentage = ((candidate.votes / totalVotes) * 100).toFixed(1);
+                    const isWinner = index === 0;
+                    
+                    html += `
+                        <div class="${isWinner ? 'sidebar-winner' : 'sidebar-breakdown'}">
+                            ${candidate.name}: ${candidate.votes.toLocaleString()} (${percentage}%)
+                        </div>
+                    `;
+                });
+
+                // Generate county-specific findings
+                const findings = generateCountyFindings(candidates, totalVotes, countyName);
+                if (findings.length > 0) {
+                    findingsList.innerHTML = findings.map(finding => `<li>${finding}</li>`).join('');
+                    findingsDiv.style.display = 'block';
+                } else {
+                    findingsDiv.style.display = 'none';
+                }
+            } else {
+                html = '<p>No candidate data available</p>';
+                findingsDiv.style.display = 'none';
+            }
+
+            resultsDiv.innerHTML = html;
+        }
+
+        // Generate analytical findings for county results
+        function generateCountyFindings(candidates, totalVotes, countyName) {
+            const findings = [];
+            
+            if (candidates.length >= 2) {
+                const winnerPct = (candidates[0].votes / totalVotes * 100);
+                const margin = (candidates[0].votes - candidates[1].votes) / totalVotes * 100;
+                
+                if (winnerPct > 70) {
+                    findings.push(`Dominant ${candidates[0].name} stronghold`);
+                } else if (winnerPct > 60) {
+                    findings.push(`Strong ${candidates[0].name} performance`);
+                } else if (margin < 5) {
+                    findings.push(`Highly competitive county`);
+                } else if (margin < 10) {
+                    findings.push(`Moderately competitive race`);
+                }
+                
+                if (totalVotes > 50000) {
+                    findings.push(`High turnout county with ${totalVotes.toLocaleString()} votes`);
+                } else if (totalVotes < 10000) {
+                    findings.push(`Small county with ${totalVotes.toLocaleString()} votes`);
+                }
+            }
+            
+            return findings;
+        }
+
+        // UI Control Functions
+        // Advanced Map Status Management
+        let mapViewMode = 'all'; // 'all', 'competitive', 'safe'
+        let analysisMode = 'default'; // 'default', 'swing', 'turnout', 'margins'
+        let currentMapData = {};
+        let countySearchIndex = [];
+
+        // County Search Functionality
+        function initializeCountySearch() {
+            const searchInput = document.getElementById('county-search');
+            if (!searchInput) return;
+
+            searchInput.addEventListener('input', function() {
+                const query = this.value.toLowerCase().trim();
+                if (query.length >= 2) {
+                    performCountySearch(query);
+                } else {
+                    clearSearchResults();
+                }
+            });
+
+            // Build search index
+            if (scCounties && scCounties.features) {
+                countySearchIndex = scCounties.features.map(feature => ({
+                    name: feature.properties.name || feature.properties.NAME,
+                    feature: feature
+                }));
+            }
+        }
+
+        function performCountySearch(query) {
+            const results = countySearchIndex.filter(item => 
+                item.name.toLowerCase().includes(query)
+            ).slice(0, 5);
+
+            displaySearchResults(results);
+        }
+
+        function displaySearchResults(results) {
+            let searchResults = document.getElementById('county-search-results');
+            if (!searchResults) {
+                searchResults = document.createElement('div');
+                searchResults.id = 'county-search-results';
+                searchResults.className = 'search-results';
+                document.getElementById('county-search').parentNode.appendChild(searchResults);
+            }
+
+            if (results.length === 0) {
+                searchResults.style.display = 'none';
+                return;
+            }
+
+            searchResults.innerHTML = results.map(result => 
+                `<div class="search-result-item" onclick="selectCountyFromSearch('${result.name}')">${result.name}</div>`
+            ).join('');
+            searchResults.style.display = 'block';
+        }
+
+        function selectCountyFromSearch(countyName) {
+            clearSearchResults();
+            document.getElementById('county-search').value = countyName;
+            
+            // Find and click the county
+            const county = countySearchIndex.find(item => item.name === countyName);
+            if (county) {
+                // Simulate county click
+                onCountyClick(county.feature);
+                
+                // Zoom to county if possible
+                if (map && county.feature.geometry) {
+                    const bounds = turf.bbox(county.feature);
+                    map.fitBounds([[bounds[0], bounds[1]], [bounds[2], bounds[3]]], {
+                        padding: 50
+                    });
+                }
+            }
+        }
+
+        function clearSearchResults() {
+            const searchResults = document.getElementById('county-search-results');
+            if (searchResults) {
+                searchResults.style.display = 'none';
+            }
+        }
+
+        // Advanced Data Processing
+        function normalizeCountyName(name) {
+            if (!name) return '';
+            return name.replace(/\s+(County|Parish|Borough)$/i, '').trim();
+        }
+
+        function mergeElectionDataWithGeoJSON(geoData, csvData, options = {}) {
+            const {
+                geoNameProperty = 'NAME',
+                csvNameProperty = 'County',
+                normalize = true
+            } = options;
+
+            const mergedFeatures = geoData.features.map(feature => {
+                const geoName = normalize ? 
+                    normalizeCountyName(feature.properties[geoNameProperty]) : 
+                    feature.properties[geoNameProperty];
+
+                const matchingData = csvData.find(row => {
+                    const csvName = normalize ? 
+                        normalizeCountyName(row[csvNameProperty]) : 
+                        row[csvNameProperty];
+                    return csvName && geoName && 
+                           csvName.toLowerCase() === geoName.toLowerCase();
+                });
+
+                return {
+                    ...feature,
+                    properties: {
+                        ...feature.properties,
+                        electionData: matchingData || null
+                    }
+                };
+            });
+
+            return {
+                ...geoData,
+                features: mergedFeatures
+            };
+        }
+
+        // Advanced Color and Styling Functions
+        function getCountyColor(countyData, mode = 'default') {
+            if (!countyData) return '#f3f4f6'; // Default gray
+
+            switch (mode) {
+                case 'margins':
+                    return getMarginColor(countyData);
+                case 'turnout':
+                    return getTurnoutColor(countyData);
+                case 'swing':
+                    return getSwingColor(countyData);
+                default:
+                    return getDefaultColor(countyData);
+            }
+        }
+
+        function getMarginColor(data) {
+            const margin = calculateMargin(data);
+            if (margin === null) return '#f3f4f6';
+
+            if (margin >= 40) return '#67000d'; // Annihilation R
+            if (margin >= 30) return '#a50f15'; // Dominant R
+            if (margin >= 20) return '#cb181d'; // Stronghold R
+            if (margin >= 10) return '#ef3b2c'; // Safe R
+            if (margin >= 5.5) return '#fb6a4a'; // Likely R
+            if (margin >= 1) return '#fcae91'; // Lean R
+            if (margin >= 0.5) return '#fee8c8'; // Tilt R
+            if (margin >= -0.5) return '#f7f7f7'; // Tossup
+            if (margin >= -1) return '#e1f5fe'; // Tilt D
+            if (margin >= -5.5) return '#c6dbef'; // Lean D
+            if (margin >= -10) return '#9ecae1'; // Likely D
+            if (margin >= -20) return '#6baed6'; // Safe D
+            if (margin >= -30) return '#3182bd'; // Stronghold D
+            if (margin >= -40) return '#08519c'; // Dominant D
+            return '#08306b'; // Annihilation D
+        }
+
+        function calculateMargin(data) {
+            if (!data) return null;
+            
+            const candidates = [];
+            Object.entries(data).forEach(([key, value]) => {
+                if (key !== 'County' && key !== 'FIPS' && !isNaN(value) && value !== '') {
+                    candidates.push({ name: key, votes: parseInt(value) });
+                }
+            });
+
+            if (candidates.length < 2) return null;
+            
+            candidates.sort((a, b) => b.votes - a.votes);
+            const totalVotes = candidates.reduce((sum, c) => sum + c.votes, 0);
+            
+            const winnerPct = (candidates[0].votes / totalVotes) * 100;
+            const runnerUpPct = (candidates[1].votes / totalVotes) * 100;
+            
+            // Determine if winner is Republican or Democratic based on party
+            const isRepublican = isRepublicanCandidate(candidates[0].name);
+            const margin = winnerPct - runnerUpPct;
+            
+            return isRepublican ? margin : -margin;
+        }
+
+        function isRepublicanCandidate(candidateName) {
+            // Add logic to determine party affiliation
+            // This would depend on your data structure
+            const republicanKeywords = ['trump', 'republican', 'gop', 'mcmaster', 'scott'];
+            return republicanKeywords.some(keyword => 
+                candidateName.toLowerCase().includes(keyword)
+            );
+        }
+
+        // Map View Mode Functions
+        function setMapViewMode(mode) {
+            mapViewMode = mode;
+            updateMapDisplay();
+            
+            // Update UI buttons
+            document.querySelectorAll('.map-view-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[data-view="${mode}"]`).classList.add('active');
+        }
+
+        function setAnalysisMode(mode) {
+            analysisMode = mode;
+            updateMapDisplay();
+            
+            // Update UI buttons  
+            document.querySelectorAll('.analysis-mode-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[data-analysis="${mode}"]`).classList.add('active');
+        }
+
+        function updateMapDisplay() {
+            if (!map || !currentData) return;
+            
+            // Reapply styling based on current modes
+            map.eachLayer(layer => {
+                if (layer.feature && layer.feature.properties) {
+                    const countyData = currentData.find(row => 
+                        normalizeCountyName(row.County).toLowerCase() === 
+                        normalizeCountyName(layer.feature.properties.name || layer.feature.properties.NAME).toLowerCase()
+                    );
+                    
+                    if (countyData) {
+                        const color = getCountyColor(countyData, analysisMode);
+                        const shouldShow = shouldShowCounty(countyData, mapViewMode);
+                        
+                        layer.setStyle({
+                            fillColor: color,
+                            fillOpacity: shouldShow ? 0.7 : 0.1,
+                            weight: shouldShow ? 2 : 1,
+                            opacity: shouldShow ? 1 : 0.3
+                        });
+                    }
+                }
+            });
+        }
+
+        function shouldShowCounty(data, viewMode) {
+            if (viewMode === 'all') return true;
+            
+            const margin = Math.abs(calculateMargin(data) || 0);
+            
+            if (viewMode === 'competitive') {
+                return margin <= 10; // Show counties with margins <= 10%
+            }
+            
+            if (viewMode === 'safe') {
+                return margin > 20; // Show counties with margins > 20%
+            }
+            
+            return true;
+        }
+
+        // Research Findings Generator
+        function generateResearchFindings(data) {
+            const findings = [];
+            
+            if (!data || data.length === 0) return findings;
+            
+            // Analyze statewide patterns
+            const countyAnalysis = analyzeCountyPatterns(data);
+            const marginAnalysis = analyzeMargins(data);
+            const turnoutAnalysis = analyzeTurnout(data);
+            
+            findings.push(...countyAnalysis);
+            findings.push(...marginAnalysis);
+            findings.push(...turnoutAnalysis);
+            
+            return findings.slice(0, 8); // Limit to top 8 findings
+        }
+
+        function analyzeCountyPatterns(data) {
+            const findings = [];
+            const totalCounties = data.length;
+            
+            let republicanCounties = 0;
+            let democraticCounties = 0;
+            let competitiveCounties = 0;
+            
+            data.forEach(county => {
+                const margin = calculateMargin(county);
+                if (margin === null) return;
+                
+                if (Math.abs(margin) <= 5) {
+                    competitiveCounties++;
+                } else if (margin > 0) {
+                    republicanCounties++;
+                } else {
+                    democraticCounties++;
+                }
+            });
+            
+            const competitivePct = (competitiveCounties / totalCounties * 100).toFixed(1);
+            const republicanPct = (republicanCounties / totalCounties * 100).toFixed(1);
+            
+            if (competitiveCounties > 0) {
+                findings.push(`${competitiveCounties} counties (${competitivePct}%) are highly competitive (±5% margin)`);
+            }
+            
+            if (republicanPct > 60) {
+                findings.push(`Republican dominance: ${republicanPct}% of counties lean Republican`);
+            } else if (republicanPct < 40) {
+                findings.push(`Democratic strength: ${(100 - republicanPct)}% of counties lean Democratic`);
+            }
+            
+            return findings;
+        }
+
+        function analyzeMargins(data) {
+            const findings = [];
+            const margins = data.map(calculateMargin).filter(m => m !== null);
+            
+            if (margins.length === 0) return findings;
+            
+            const avgMargin = margins.reduce((sum, m) => sum + Math.abs(m), 0) / margins.length;
+            const extremeMargins = margins.filter(m => Math.abs(m) > 30).length;
+            
+            if (avgMargin > 25) {
+                findings.push(`High polarization: Average county margin is ${avgMargin.toFixed(1)}%`);
+            } else if (avgMargin < 15) {
+                findings.push(`Competitive landscape: Average county margin is only ${avgMargin.toFixed(1)}%`);
+            }
+            
+            if (extremeMargins > 0) {
+                findings.push(`${extremeMargins} counties show extreme margins (30%+ victory)`);
+            }
+            
+            return findings;
+        }
+
+        function analyzeTurnout(data) {
+            const findings = [];
+            
+            // Calculate total turnout if vote data is available
+            const totalVotes = data.reduce((sum, county) => {
+                const countyTotal = Object.entries(county)
+                    .filter(([key, value]) => key !== 'County' && key !== 'FIPS' && !isNaN(value))
+                    .reduce((countySum, [, votes]) => countySum + parseInt(votes || 0), 0);
+                return sum + countyTotal;
+            }, 0);
+            
+            if (totalVotes > 0) {
+                findings.push(`Statewide turnout: ${totalVotes.toLocaleString()} total votes cast`);
+                
+                // Find highest turnout county
+                let highestTurnout = { name: '', votes: 0 };
+                data.forEach(county => {
+                    const countyTotal = Object.entries(county)
+                        .filter(([key, value]) => key !== 'County' && key !== 'FIPS' && !isNaN(value))
+                        .reduce((sum, [, votes]) => sum + parseInt(votes || 0), 0);
+                    
+                    if (countyTotal > highestTurnout.votes) {
+                        highestTurnout = { name: county.County, votes: countyTotal };
+                    }
+                });
+                
+                if (highestTurnout.name) {
+                    findings.push(`Highest turnout: ${highestTurnout.name} with ${highestTurnout.votes.toLocaleString()} votes`);
+                }
+            }
+            
+            return findings;
+        }
+
+        // Enhanced Event Handlers
+        function setupAdvancedEventListeners() {
+            // Map view mode buttons
+            document.querySelectorAll('.map-view-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    setMapViewMode(this.dataset.view);
+                });
+            });
+            
+            // Analysis mode buttons
+            document.querySelectorAll('.analysis-mode-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    setAnalysisMode(this.dataset.analysis);
+                });
+            });
+            
+            // County search
+            initializeCountySearch();
+            
+            // Close search results when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.county-search-container')) {
+                    clearSearchResults();
+                }
+            });
+        }
+
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('minimized');
+        }
+
+        function toggleMainControls() {
+            const controls = document.getElementById('main-controls');
+            controls.classList.toggle('minimized');
+        }
+
+        function toggleLegend() {
+            const legend = document.getElementById('legend');
+            legend.classList.toggle('minimized');
+        }
+
+        // Utility functions
+        function clearMapData() {
+            currentData = null;
+            currentMapData = {};
+            document.getElementById('statewide-results').innerHTML = '<p>Select an election to view results</p>';
+            document.getElementById('county-info').style.display = 'none';
+        }
+
+        function showLoading(show) {
+            // Add loading indicators as needed
+            const loadingIndicator = document.getElementById('loading-indicator');
+            if (loadingIndicator) {
+                loadingIndicator.style.display = show ? 'block' : 'none';
+            }
+        }
+
+        function showError(message) {
+            console.error(message);
+            // Enhanced error display
+            const errorDiv = document.getElementById('error-display') || createErrorDisplay();
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        function createErrorDisplay() {
+            const errorDiv = document.createElement('div');
+            errorDiv.id = 'error-display';
+            errorDiv.className = 'error-toast';
+            document.body.appendChild(errorDiv);
+            return errorDiv;
+        }
+
+        // Additional Utility Functions for FL Map Compatibility
+        function getTurnoutColor(data) {
+            // Calculate county turnout and return color
+            const totalVotes = Object.entries(data)
+                .filter(([key, value]) => key !== 'County' && key !== 'FIPS' && !isNaN(value))
+                .reduce((sum, [, votes]) => sum + parseInt(votes || 0), 0);
+            
+            if (totalVotes > 100000) return '#1e40af'; // High turnout - dark blue
+            if (totalVotes > 50000) return '#3b82f6'; // Medium-high turnout - blue
+            if (totalVotes > 25000) return '#60a5fa'; // Medium turnout - light blue
+            if (totalVotes > 10000) return '#93c5fd'; // Low-medium turnout - lighter blue
+            return '#dbeafe'; // Low turnout - very light blue
+        }
+
+        function getSwingColor(data) {
+            // Calculate swing based on historical comparison (placeholder)
+            const margin = calculateMargin(data);
+            if (margin === null) return '#f3f4f6';
+            
+            // This would ideally compare to previous election data
+            // For now, use margin as proxy for swing potential
+            const absMargin = Math.abs(margin);
+            
+            if (absMargin <= 5) return '#dc2626'; // High swing potential - red
+            if (absMargin <= 10) return '#ea580c'; // Medium swing potential - orange
+            if (absMargin <= 20) return '#ca8a04'; // Low swing potential - yellow
+            return '#65a30d'; // Very low swing potential - green
+        }
+
+        function getDefaultColor(data) {
+            // Default coloring - use margin-based system
+            return getMarginColor(data);
+        }
+
+        function setMapView(view) {
+            // Legacy compatibility function
+            setMapViewMode(view);
+        }
+
+        function setAnalysisMode(mode) {
+            // Already defined above - this ensures compatibility
+            analysisMode = mode;
+            updateMapDisplay();
+            
+            // Update UI buttons  
+            document.querySelectorAll('.analysis-mode-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[data-analysis="${mode}"]`)?.classList.add('active');
+        }
+
+        // Enhanced initApp function
+        function initApp() {
+            // Initialize map
+            initializeMap();
+            
+            // Setup all event listeners
+            setupEventListeners();
+            
+            // Initialize county search
+            initializeCountySearch();
+            
+            // Set default modes
+            mapViewMode = 'all';
+            analysisMode = 'default';
+            
+            // Update UI to show default selections
+            document.querySelector('[data-view="all"]')?.classList.add('active');
+            document.querySelector('[data-analysis="default"]')?.classList.add('active');
+            
+            console.log('SC Realignments Map initialized with FL map features');
+        }
+
+        function setupEventListeners() {
+            // Year dropdown change handler
+            document.getElementById('year-select').addEventListener('change', updateMap);
+            
+            // Office dropdown change handler  
+            document.getElementById('office-select').addEventListener('change', updateMap);
+            
+            // Advanced event listeners
+            setupAdvancedEventListeners();
+        }
+
+        // Initialize the application when page loads
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>

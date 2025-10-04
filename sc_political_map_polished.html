@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>South Carolina Political Realignment Map (2006-2024)</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="description" content="Interactive visualization of South Carolina's political realignment from 2006 to 2024, showing county-level voting patterns across 51 elections.">
+    <meta property="og:title" content="SC Political Realignment Map (2006-2024)">
+    <meta property="og:description" content="Explore 18 years of South Carolina political data across 51 elections with accurate CSV-sourced results.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- External Libraries -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-blue: #1e40af;
+            --primary-red: #dc2626;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --text-light: #94a3b8;
+            --border-light: #e2e8f0;
+            --border-medium: #cbd5e1;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --radius-sm: 0.375rem;
+            --radius-md: 0.5rem;
+            --radius-lg: 0.75rem;
+            --transition-fast: 0.15s ease-out;
+            --transition-normal: 0.25s ease-out;
+            --transition-slow: 0.35s ease-out;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-feature-settings: "cv01", "cv03", "cv04", "cv11";
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            overflow: hidden;
+        }
+
+        .app-container {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: var(--bg-primary);
+            border-bottom: 1px solid var(--border-light);
+            box-shadow: var(--shadow-sm);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-title h1 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0;
+            color: var(--text-primary);
+        }
+
+        .header-subtitle {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-left: 12px;
+        }
+
+        .header-stats {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .stat-value {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Map Container */
+        .map-container {
+            flex: 1;
+            position: relative;
+            height: 100vh;
+            padding-top: 60px;
+        }
+
+        #map {
+            width: 100%;
+            height: calc(100vh - 60px);
+            background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 420px;
+            height: 100vh;
+            background: var(--bg-primary);
+            border-left: 1px solid var(--border-light);
+            box-shadow: var(--shadow-lg);
+            overflow-y: auto;
+            z-index: 1001;
+            transition: transform var(--transition-normal);
+            padding-top: 60px;
+        }
+
+        .sidebar.collapsed {
+            transform: translateX(100%);
+        }
+
+        .sidebar-toggle {
+            position: fixed;
+            top: 50%;
+            right: 16px;
+            transform: translateY(-50%);
+            z-index: 1002;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-medium);
+            border-radius: var(--radius-md);
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-fast);
+        }
+
+        .sidebar-toggle:hover {
+            background: var(--bg-secondary);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .sidebar.collapsed + .sidebar-toggle {
+            right: 16px;
+        }
+
+        .sidebar:not(.collapsed) + .sidebar-toggle {
+            right: 436px;
+        }
+
+        /* Sidebar Content */
+        .sidebar-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border-light);
+            background: var(--bg-secondary);
+        }
+
+        .sidebar-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0 0 8px 0;
+            color: var(--text-primary);
+        }
+
+        .sidebar-description {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .sidebar-content {
+            padding: 24px;
+        }
+
+        .control-section {
+            margin-bottom: 32px;
+        }
+
+        .control-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .control-label {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .control-description {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+
+        /* Select Styling */
+        .select-container {
+            position: relative;
+        }
+
+        .select-container select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--border-medium);
+            border-radius: var(--radius-md);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-size: 14px;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+            background-position: right 12px center;
+            background-repeat: no-repeat;
+            background-size: 16px;
+            padding-right: 40px;
+        }
+
+        .select-container select:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgb(30 64 175 / 0.1);
+        }
+
+        .select-container select:hover {
+            border-color: var(--border-medium);
+        }
+
+        /* Legend */
+        .legend {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            padding: 20px;
+            margin-top: 8px;
+        }
+
+        .legend-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .legend-items {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 16px;
+            border-radius: var(--radius-sm);
+            border: 1px solid rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+
+        .legend-label {
+            flex: 1;
+            color: var(--text-secondary);
+        }
+
+        .legend-party {
+            font-weight: 500;
+            font-size: 12px;
+            padding: 2px 6px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+        }
+
+        .legend-party.dem {
+            background: #dbeafe;
+            color: var(--primary-blue);
+        }
+
+        .legend-party.rep {
+            background: #fecaca;
+            color: var(--primary-red);
+        }
+
+        /* Info Panel */
+        .info-panel {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: 20px;
+            margin-top: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .info-panel.hidden {
+            display: none;
+        }
+
+        .info-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .info-content {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .info-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .info-percentage {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .info-percentage.dem {
+            color: var(--primary-blue);
+        }
+
+        .info-percentage.rep {
+            color: var(--primary-red);
+        }
+
+        /* Loading States */
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .loading::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border-light);
+            border-top: 2px solid var(--primary-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 12px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100vw;
+                transform: translateX(100%);
+            }
+
+            .sidebar:not(.collapsed) {
+                transform: translateX(0);
+            }
+
+            .sidebar-toggle {
+                right: 16px;
+            }
+
+            .header-stats {
+                display: none;
+            }
+
+            .header-subtitle {
+                display: none;
+            }
+        }
+
+        /* Performance Optimizations */
+        .mapboxgl-canvas {
+            will-change: transform;
+        }
+
+        .sidebar {
+            will-change: transform;
+        }
+
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                transition: none !important;
+                animation: none !important;
+            }
+        }
+
+        /* Dark mode support (future) */
+        @media (prefers-color-scheme: dark) {
+            /* Dark mode styles would go here */
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-title">
+                    <i class="fas fa-map-marked-alt" style="color: var(--primary-blue);"></i>
+                    <h1>South Carolina Political Realignment</h1>
+                    <span class="header-subtitle">2006-2024 • 51 Elections • CSV-Sourced Data</span>
+                </div>
+                <div class="header-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-calendar"></i>
+                        <span class="stat-value">18</span> Years
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-vote-yea"></i>
+                        <span class="stat-value">51</span> Elections
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-map"></i>
+                        <span class="stat-value">46</span> Counties
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Map Container -->
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2 class="sidebar-title">Election Explorer</h2>
+                <p class="sidebar-description">
+                    Analyze South Carolina's political evolution through accurate, CSV-sourced election data spanning presidential and gubernatorial races.
+                </p>
+            </div>
+            
+            <div class="sidebar-content">
+                <!-- Contest Selection -->
+                <div class="control-section">
+                    <label class="control-label" for="contest-select">
+                        <i class="fas fa-ballot"></i> Select Election
+                    </label>
+                    <div class="control-description">
+                        Choose from 51 elections including presidential races, gubernatorial contests, and down-ballot offices.
+                    </div>
+                    <div class="select-container">
+                        <select id="contest-select">
+                            <option value="">Loading elections...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Legend -->
+                <div class="control-section">
+                    <div class="legend">
+                        <div class="legend-title">
+                            <i class="fas fa-palette"></i> Competitiveness Scale
+                        </div>
+                        <div class="legend-items" id="legend-items">
+                            <div class="loading">Loading legend...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- County Information -->
+                <div class="info-panel hidden" id="info-panel">
+                    <div class="info-title" id="info-title">Select a County</div>
+                    <div class="info-content" id="info-content">
+                        <p style="color: var(--text-secondary); font-size: 14px; text-align: center; margin: 20px 0;">
+                            Click on a county to view detailed election results and voting patterns.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar Toggle -->
+        <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <script>
+        // Global variables
+        let map;
+        let currentContestData = null;
+        let contestIndex = null;
+        let selectedCounty = null;
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeMap();
+            loadContestIndex();
+            setupEventListeners();
+        });
+
+        function initializeMap() {
+            mapboxgl.accessToken = 'pk.eyJ1IjoidGVuamluMjUiLCJhIjoiY20xcXpwbzZvMDBobzJqczU4dmN5cGxubyJ9.j0SfpbJmMqaORxgcvhzqhA';
+            
+            map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/light-v11',
+                center: [-81.035, 34.000],
+                zoom: 6.5,
+                maxZoom: 12,
+                minZoom: 5.5,
+                maxBounds: [[-84.5, 31.5], [-77.5, 36.5]],
+                attributionControl: false,
+                logoPosition: 'bottom-left'
+            });
+
+            map.addControl(new mapboxgl.NavigationControl({
+                showCompass: false,
+                showZoom: true,
+                visualizePitch: false
+            }), 'top-left');
+
+            map.on('load', function() {
+                loadCountyBoundaries();
+            });
+
+            // Handle county clicks
+            map.on('click', 'counties-fill', function(e) {
+                if (e.features.length > 0) {
+                    const feature = e.features[0];
+                    selectCounty(feature.properties.FIPS, feature.properties);
+                }
+            });
+
+            // Change cursor on hover
+            map.on('mouseenter', 'counties-fill', function() {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+            map.on('mouseleave', 'counties-fill', function() {
+                map.getCanvas().style.cursor = '';
+            });
+        }
+
+        function loadCountyBoundaries() {
+            // Load SC county boundaries
+            map.addSource('counties', {
+                type: 'geojson',
+                data: 'https://raw.githubusercontent.com/holtzy/The-Python-Graph-Gallery/master/static/data/south_carolina_counties.geojson'
+            });
+
+            // Add county fill layer
+            map.addLayer({
+                id: 'counties-fill',
+                type: 'fill',
+                source: 'counties',
+                paint: {
+                    'fill-color': '#e2e8f0',
+                    'fill-opacity': 0.8
+                }
+            });
+
+            // Add county borders
+            map.addLayer({
+                id: 'counties-border',
+                type: 'line',
+                source: 'counties',
+                paint: {
+                    'line-color': '#ffffff',
+                    'line-width': 1.5,
+                    'line-opacity': 0.9
+                }
+            });
+
+            // Add county labels
+            map.addLayer({
+                id: 'counties-labels',
+                type: 'symbol',
+                source: 'counties',
+                layout: {
+                    'text-field': ['get', 'NAME'],
+                    'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+                    'text-size': 11,
+                    'text-anchor': 'center',
+                    'text-max-width': 8,
+                    'text-ignore-placement': false,
+                    'text-allow-overlap': false
+                },
+                paint: {
+                    'text-color': '#374151',
+                    'text-halo-color': '#ffffff',
+                    'text-halo-width': 1.5,
+                    'text-halo-blur': 0.5
+                }
+            });
+        }
+
+        async function loadContestIndex() {
+            try {
+                const response = await fetch('sc_results_index_corrected.json');
+                contestIndex = await response.json();
+                populateContestSelect();
+            } catch (error) {
+                console.error('Error loading contest index:', error);
+                showError('Failed to load election data');
+            }
+        }
+
+        function populateContestSelect() {
+            const select = document.getElementById('contest-select');
+            select.innerHTML = '';
+
+            if (!contestIndex || !contestIndex.county || !contestIndex.county.contests_by_year) {
+                select.innerHTML = '<option value="">No elections available</option>';
+                return;
+            }
+
+            // Group contests by type
+            const grouped = {
+                'Presidential Elections': [],
+                'Gubernatorial Elections': [],
+                'Down-ballot Offices': []
+            };
+
+            // Process county contests by year
+            Object.keys(contestIndex.county.contests_by_year).forEach(year => {
+                const contests = contestIndex.county.contests_by_year[year];
+                contests.forEach(contest => {
+                    const contestInfo = {
+                        year: year,
+                        file: contest.file,
+                        name: contest.name,
+                        type: contest.type
+                    };
+
+                    if (contest.type === 'presidential') {
+                        grouped['Presidential Elections'].push(contestInfo);
+                    } else if (contest.type === 'gubernatorial') {
+                        grouped['Gubernatorial Elections'].push(contestInfo);
+                    } else {
+                        grouped['Down-ballot Offices'].push(contestInfo);
+                    }
+                });
+            });
+
+            // Sort within groups by year (descending)
+            Object.keys(grouped).forEach(group => {
+                grouped[group].sort((a, b) => parseInt(b.year) - parseInt(a.year));
+            });
+
+            // Add to select
+            Object.keys(grouped).forEach(groupName => {
+                if (grouped[groupName].length > 0) {
+                    const optgroup = document.createElement('optgroup');
+                    optgroup.label = groupName;
+                    
+                    grouped[groupName].forEach(contest => {
+                        const option = document.createElement('option');
+                        option.value = contest.file;
+                        option.textContent = contest.name;
+                        optgroup.appendChild(option);
+                    });
+                    
+                    select.appendChild(optgroup);
+                }
+            });
+
+            // Default to 2024 Presidential if available
+            let defaultContest = null;
+            if (contestIndex.county.contests_by_year['2024']) {
+                defaultContest = contestIndex.county.contests_by_year['2024'].find(c => 
+                    c.type === 'presidential'
+                );
+            }
+            
+            if (defaultContest) {
+                select.value = defaultContest.file;
+                loadContestData(defaultContest.file);
+            } else {
+                // Fall back to first available contest
+                const allContests = Object.values(contestIndex.county.contests_by_year).flat();
+                if (allContests.length > 0) {
+                    select.value = allContests[0].file;
+                    loadContestData(allContests[0].file);
+                }
+            }
+        }
+
+        async function loadContestData(filename) {
+            if (!filename) return;
+
+            try {
+                showLoading('Loading election data...');
+                
+                const response = await fetch(`workspace_files/${filename}`);
+                currentContestData = await response.json();
+                
+                updateMapVisualization();
+                updateLegend();
+                clearCountySelection();
+                
+            } catch (error) {
+                console.error('Error loading contest data:', error);
+                showError('Failed to load election results');
+            }
+        }
+
+        function updateMapVisualization() {
+            if (!currentContestData || !map.getSource('counties')) return;
+
+            // Create color expression for Mapbox
+            const colorExpression = ['case'];
+            
+            Object.keys(currentContestData).forEach(fips => {
+                const county = currentContestData[fips];
+                if (county.competitiveness && county.competitiveness.color) {
+                    colorExpression.push(['==', ['get', 'FIPS'], fips]);
+                    colorExpression.push(county.competitiveness.color);
+                }
+            });
+            
+            // Default color
+            colorExpression.push('#e2e8f0');
+
+            map.setPaintProperty('counties-fill', 'fill-color', colorExpression);
+        }
+
+        function updateLegend() {
+            const legendItems = document.getElementById('legend-items');
+            
+            if (!currentContestData) {
+                legendItems.innerHTML = '<div class="loading">No data available</div>';
+                return;
+            }
+
+            // Define competitiveness levels
+            const levels = [
+                { name: 'Annihilation', dem: '#08519c', rep: '#67000d', threshold: '40%+' },
+                { name: 'Dominant', dem: '#2171b5', rep: '#a50f15', threshold: '30-40%' },
+                { name: 'Stronghold', dem: '#4292c6', rep: '#cb181d', threshold: '20-30%' },
+                { name: 'Safe', dem: '#6baed6', rep: '#ef3b2c', threshold: '10-20%' },
+                { name: 'Likely', dem: '#9ecae1', rep: '#fb6a4a', threshold: '5.5-10%' },
+                { name: 'Lean', dem: '#c6dbef', rep: '#fc9272', threshold: '1-5.5%' },
+                { name: 'Tilt', dem: '#deebf7', rep: '#fcbba1', threshold: '0.5-1%' },
+                { name: 'Tossup', dem: '#f7fbff', rep: '#fee0d2', threshold: '±0.5%' }
+            ];
+
+            legendItems.innerHTML = levels.map(level => `
+                <div class="legend-item">
+                    <div class="legend-color" style="background: linear-gradient(90deg, ${level.dem} 0%, ${level.rep} 100%);"></div>
+                    <span class="legend-label">${level.name}</span>
+                    <span class="legend-party dem">D</span>
+                    <span class="legend-party rep">R</span>
+                </div>
+            `).join('');
+        }
+
+        function selectCounty(fips, properties) {
+            selectedCounty = fips;
+            
+            if (!currentContestData || !currentContestData[fips]) {
+                showCountyInfo('County data not available', {});
+                return;
+            }
+
+            const county = currentContestData[fips];
+            showCountyInfo(county.county || properties.NAME || 'Unknown County', county);
+        }
+
+        function showCountyInfo(countyName, data) {
+            const infoPanel = document.getElementById('info-panel');
+            const infoTitle = document.getElementById('info-title');
+            const infoContent = document.getElementById('info-content');
+            
+            infoTitle.textContent = `${countyName} County`;
+            
+            if (!data.dem_votes && !data.rep_votes) {
+                infoContent.innerHTML = `
+                    <p style="color: var(--text-secondary); text-align: center; margin: 20px 0;">
+                        No election data available for this county.
+                    </p>
+                `;
+            } else {
+                const totalVotes = data.dem_votes + data.rep_votes;
+                const demPct = totalVotes > 0 ? (data.dem_votes / totalVotes * 100) : 0;
+                const repPct = totalVotes > 0 ? (data.rep_votes / totalVotes * 100) : 0;
+                const competitiveness = data.competitiveness || {};
+                
+                infoContent.innerHTML = `
+                    <div class="info-row">
+                        <span class="info-label">Democratic</span>
+                        <span class="info-value info-percentage dem">${demPct.toFixed(1)}%</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Republican</span>
+                        <span class="info-value info-percentage rep">${repPct.toFixed(1)}%</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Total Votes</span>
+                        <span class="info-value">${totalVotes.toLocaleString()}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Classification</span>
+                        <span class="info-value">${competitiveness.category || 'Unknown'}</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Winner</span>
+                        <span class="info-value">${competitiveness.party || 'Unknown'}</span>
+                    </div>
+                    ${data.dem_candidate ? `
+                    <div class="info-row">
+                        <span class="info-label">Democratic Candidate</span>
+                        <span class="info-value">${data.dem_candidate}</span>
+                    </div>
+                    ` : ''}
+                    ${data.rep_candidate ? `
+                    <div class="info-row">
+                        <span class="info-label">Republican Candidate</span>
+                        <span class="info-value">${data.rep_candidate}</span>
+                    </div>
+                    ` : ''}
+                `;
+            }
+            
+            infoPanel.classList.remove('hidden');
+        }
+
+        function clearCountySelection() {
+            selectedCounty = null;
+            const infoPanel = document.getElementById('info-panel');
+            const infoContent = document.getElementById('info-content');
+            
+            infoContent.innerHTML = `
+                <p style="color: var(--text-secondary); font-size: 14px; text-align: center; margin: 20px 0;">
+                    Click on a county to view detailed election results and voting patterns.
+                </p>
+            `;
+            infoPanel.classList.add('hidden');
+        }
+
+        function setupEventListeners() {
+            // Contest selection
+            document.getElementById('contest-select').addEventListener('change', function(e) {
+                if (e.target.value) {
+                    loadContestData(e.target.value);
+                }
+            });
+
+            // Sidebar toggle
+            document.getElementById('sidebar-toggle').addEventListener('click', function() {
+                const sidebar = document.getElementById('sidebar');
+                const toggle = document.getElementById('sidebar-toggle');
+                const icon = toggle.querySelector('i');
+                
+                sidebar.classList.toggle('collapsed');
+                
+                if (sidebar.classList.contains('collapsed')) {
+                    icon.className = 'fas fa-chevron-left';
+                } else {
+                    icon.className = 'fas fa-chevron-right';
+                }
+            });
+        }
+
+        function showLoading(message) {
+            const legendItems = document.getElementById('legend-items');
+            legendItems.innerHTML = `<div class="loading">${message}</div>`;
+        }
+
+        function showError(message) {
+            const legendItems = document.getElementById('legend-items');
+            legendItems.innerHTML = `<div style="color: var(--primary-red); text-align: center; padding: 20px;">${message}</div>`;
+        }
+
+        // Performance optimizations
+        let resizeTimeout;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(function() {
+                if (map) map.resize();
+            }, 250);
+        });
+    </script>
+</body>
+</html>
