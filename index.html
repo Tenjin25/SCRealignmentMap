@@ -976,6 +976,43 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       };
     }
 
+    function updateCountyData() {
+      // Update county colors based on current election data
+      if (!electionData || electionData.length === 0) {
+        console.warn('No election data available for county update');
+        return;
+      }
+
+      // Build color expression for counties based on competitiveness
+      const expr = ['case'];
+      let countiesProcessed = 0;
+
+      electionData.forEach(row => {
+        if (row.county_fips && row.competitiveness_color) {
+          // Match on county FIPS code
+          expr.push(['==', ['get', 'GEOID20'], row.county_fips]);
+          expr.push(row.competitiveness_color);
+          countiesProcessed++;
+        }
+      });
+      
+      expr.push('#e0e0e0'); // default color for unmatched counties
+      
+      console.log(`Updated county colors for ${countiesProcessed} counties`);
+      
+      // Apply the color expression to the map
+      if (map.getLayer('county-fill')) {
+        map.setPaintProperty('county-fill', 'fill-color', expr);
+      }
+
+      // Update any displayed contest information
+      if (electionData.length > 0) {
+        const firstCounty = electionData[0];
+        const contestName = `${firstCounty.year} ${firstCounty.contest}`;
+        console.log('Display updated for:', contestName);
+      }
+    }
+
     function populateContestSelectFromCSV(csvData) {
       const sel = document.getElementById('contestSelect');
       if (sel.dataset.populated === 'true') return; // Only populate once per data load
