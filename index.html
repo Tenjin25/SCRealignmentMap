@@ -745,7 +745,23 @@ body {
       mapboxToken: 'pk.eyJ1Ijoic2hhbWFyZGF2aXMiLCJhIjoiY21kcW8yeDB2MDhvbTJzb29qeGp1aDZmZCJ9.Zw_i6U-dL7_bEKRHTUh7yg',
       paths: {
         counties: './Data/sc_counties.geojson',
-        election: './Data/county_results_2024_fips_accurate.json',
+        // Multiple election data files
+        elections: {
+          '2024_president': './Data/county_results_2024_fips_accurate.json',
+          '2022_governor': './Data/county_results_2022_governor_lieutenant_governor_fips_accurate.json',
+          '2020_president': './Data/county_results_2020_fips_accurate.json',
+          '2018_governor': './Data/county_results_2018_governor_lieutenant_governor_fips_accurate.json',
+          '2016_president': './Data/county_results_2016_fips_accurate.json',
+          '2014_governor': './Data/county_results_2014_governor_fips_accurate.json',
+          '2012_president': './Data/county_results_2012_fips_accurate.json',
+          '2008_president': './Data/county_results_2008_fips_accurate.json',
+          '2006_governor': './Data/county_results_2006_governor_fips_accurate.json',
+          // Additional contests
+          '2022_senate': './Data/county_results_2022_u.s._senate_fips_accurate.json',
+          '2020_senate': './Data/county_results_2020_us_senate_fips.json',
+          '2014_senate': './Data/county_results_2014_u.s._senate_fips_accurate.json',
+          '2008_senate': './Data/county_results_2008_us_senate_fips.json'
+        },
         districts: './Data/sc_congressional_districts.geojson',
         state_house: './Data/sc_state_house_districts.geojson',
         state_senate: './Data/sc_state_senate_districts.geojson',
@@ -903,10 +919,61 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
 
     function populateContestSelectFromElectionJSON(electionData) {
       const sel = document.getElementById('contestSelect');
-      sel.innerHTML = '<option value="">Select a contest...</option>';
+      sel.innerHTML = '<option value="">Select an election...</option>';
       
-      // Use only non-gerrymandered statewide contests for all views
-      populateContestSelectFromCSV(electionData);
+      // Use all available elections from our loaded data
+      if (window.allElectionData) {
+        populateContestSelectFromAllElections(window.allElectionData);
+      } else {
+        // Fallback to single election data
+        populateContestSelectFromCSV(electionData);
+      }
+    }
+
+    function populateContestSelectFromAllElections(allElectionData) {
+      const sel = document.getElementById('contestSelect');
+      sel.innerHTML = '<option value="">Select an election...</option>';
+      
+      // Create organized options by year and type
+      const elections = [
+        { key: '2024_president', label: '2024 Presidential Election' },
+        { key: '2022_governor', label: '2022 Governor Election' },
+        { key: '2022_senate', label: '2022 U.S. Senate Election' },
+        { key: '2020_president', label: '2020 Presidential Election' },
+        { key: '2020_senate', label: '2020 U.S. Senate Election' },
+        { key: '2018_governor', label: '2018 Governor Election' },
+        { key: '2016_president', label: '2016 Presidential Election' },
+        { key: '2014_governor', label: '2014 Governor Election' },
+        { key: '2014_senate', label: '2014 U.S. Senate Election' },
+        { key: '2012_president', label: '2012 Presidential Election' },
+        { key: '2008_president', label: '2008 Presidential Election' },
+        { key: '2008_senate', label: '2008 U.S. Senate Election' },
+        { key: '2006_governor', label: '2006 Governor Election' }
+      ];
+      
+      elections.forEach(election => {
+        if (allElectionData[election.key]) {
+          const option = document.createElement('option');
+          option.value = election.key;
+          option.textContent = election.label;
+          sel.appendChild(option);
+        }
+      });
+      
+      // Set default to 2024 President
+      sel.value = '2024_president';
+      
+      // Add event listener for election changes
+      sel.onchange = function() {
+        if (this.value && window.allElectionData[this.value]) {
+          // Switch to selected election data
+          electionData = window.allElectionData[this.value];
+          console.log('Switched to election:', this.value, electionData.length, 'counties');
+          
+          // Update the map
+          updateCountyData();
+        }
+      };
     }
 
     function populateContestSelectFromCSV(csvData) {
@@ -2179,32 +2246,53 @@ document.addEventListener('DOMContentLoaded', function() {
         setStatus('Counties loaded');
 
         setStatus('Loading election data...');
-        console.log('Loading election data from:', CONFIG.paths.election);
-        const electionJSON = await loadJSON(CONFIG.paths.election);
-        // Convert JSON object to array format for compatibility
-        electionData = Object.keys(electionJSON).map(fips => {
-            const county = electionJSON[fips];
-            return {
-                county_fips: fips,
-                county: county.county,
-                year: county.year,
-                contest: county.contest,
-                dem_candidate: county.dem_candidate,
-                rep_candidate: county.rep_candidate,
-                dem_votes: county.dem_votes,
-                rep_votes: county.rep_votes,
-                other_votes: county.other_votes,
-                total_votes: county.total_votes,
-                margin: county.margin,
-                margin_pct: county.margin_pct,
-                winner: county.winner,
-                two_party_total: county.two_party_total,
-                competitiveness_category: county.competitiveness?.category || '',
-                competitiveness_party: county.competitiveness?.party || '',
-                competitiveness_color: county.competitiveness?.color || ''
-            };
-        });
-        console.log('Election data loaded:', electionData.length, 'counties');
+        console.log('Loading multiple election datasets...');
+        
+        // Load all election data files
+        const allElectionData = {};
+        const electionKeys = Object.keys(CONFIG.paths.elections);
+        
+        for (const key of electionKeys) {
+          try {
+            console.log(`Loading ${key} from:`, CONFIG.paths.elections[key]);
+            const electionJSON = await loadJSON(CONFIG.paths.elections[key]);
+            
+            // Convert JSON object to array format for compatibility
+            allElectionData[key] = Object.keys(electionJSON).map(fips => {
+                const county = electionJSON[fips];
+                return {
+                    election_key: key,
+                    county_fips: fips,
+                    county: county.county,
+                    year: county.year,
+                    contest: county.contest,
+                    dem_candidate: county.dem_candidate,
+                    rep_candidate: county.rep_candidate,
+                    dem_votes: county.dem_votes,
+                    rep_votes: county.rep_votes,
+                    other_votes: county.other_votes,
+                    total_votes: county.total_votes,
+                    margin: county.margin,
+                    margin_pct: county.margin_pct,
+                    winner: county.winner,
+                    two_party_total: county.two_party_total,
+                    competitiveness_category: county.competitiveness?.category || '',
+                    competitiveness_party: county.competitiveness?.party || '',
+                    competitiveness_color: county.competitiveness?.color || ''
+                };
+            });
+            console.log(`${key} loaded:`, allElectionData[key].length, 'counties');
+          } catch (error) {
+            console.warn(`Failed to load ${key}:`, error);
+          }
+        }
+        
+        // Store all election data globally
+        window.allElectionData = allElectionData;
+        
+        // Set default election data (2024 President)
+        electionData = allElectionData['2024_president'] || [];
+        console.log('All election data loaded. Default:', electionData.length, 'counties');
         setStatus('Election data loaded');
 
         setStatus('Loading congressional data...');
