@@ -287,32 +287,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "U.S. HOUSE",
-    "year": "2022",
-    "dem_candidate": "DEM Daryl W Scott (D)",
-    "rep_candidate": "REP Russell Fry (R)",
-    "dem_votes": 4402,
-    "rep_votes": 8115,
-    "other_votes": 18,
-    "total_votes": 12535,
-    "all_parties": {
-      "REP": 8115,
-      "DEM": 4402,
-      "NON": 18
-    },
-    "county_fips": "45025",
-    "two_party_total": 12517,
-    "margin": 3713,
-    "margin_pct": 29.663657425900773,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Republican",
-      "color": "#cb181d"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "U.S. HOUSE",
@@ -333,6 +307,32 @@
     "two_party_total": 9438,
     "margin": 2422,
     "margin_pct": 25.66221657130748,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 4402,
+    "rep_votes": 8115,
+    "other_votes": 18,
+    "total_votes": 12535,
+    "all_parties": {
+      "REP": 8115,
+      "DEM": 4402,
+      "NON": 18
+    },
+    "county_fips": "45025",
+    "two_party_total": 12517,
+    "margin": 3713,
+    "margin_pct": 29.663657425900773,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
@@ -837,83 +837,6 @@
       "color": "#a50f15"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "U.S. HOUSE",
-    "year": "2022",
-    "dem_candidate": "DEM Daryl W Scott (D)",
-    "rep_candidate": "REP Russell Fry (R)",
-    "dem_votes": 4509,
-    "rep_votes": 3875,
-    "other_votes": 10,
-    "total_votes": 8394,
-    "all_parties": {
-      "REP": 3875,
-      "DEM": 4509,
-      "NON": 10
-    },
-    "county_fips": "45065",
-    "two_party_total": 8384,
-    "margin": 634,
-    "margin_pct": 7.562022900763359,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "U.S. HOUSE",
-    "year": "2022",
-    "dem_candidate": "DEM Daryl W Scott (D)",
-    "rep_candidate": "REP Russell Fry (R)",
-    "dem_votes": 3270,
-    "rep_votes": 3199,
-    "other_votes": 8,
-    "total_votes": 6477,
-    "all_parties": {
-      "REP": 3199,
-      "DEM": 3270,
-      "NON": 8
-    },
-    "county_fips": "45067",
-    "two_party_total": 6469,
-    "margin": 71,
-    "margin_pct": 1.0975421239758851,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Democratic",
-      "color": "#c6dbef"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "U.S. HOUSE",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Jeff Duncan (R)",
-    "dem_votes": 0,
-    "rep_votes": 3062,
-    "other_votes": 41,
-    "total_votes": 3103,
-    "all_parties": {
-      "REP": 3062,
-      "NON": 41
-    },
-    "county_fips": "45069",
-    "two_party_total": 3062,
-    "margin": 3062,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "U.S. HOUSE",
@@ -1198,6 +1121,57 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 4509,
+    "rep_votes": 3875,
+    "other_votes": 10,
+    "total_votes": 8394,
+    "all_parties": {
+      "REP": 3875,
+      "DEM": 4509,
+      "NON": 10
+    },
+    "county_fips": "45065",
+    "two_party_total": 8384,
+    "margin": 634,
+    "margin_pct": 7.562022900763359,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Jeff Duncan (R)",
+    "dem_votes": 0,
+    "rep_votes": 3062,
+    "other_votes": 41,
+    "total_votes": 3103,
+    "all_parties": {
+      "REP": 3062,
+      "NON": 41
+    },
+    "county_fips": "45069",
+    "two_party_total": 3062,
+    "margin": 3062,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
     }
   }
 }

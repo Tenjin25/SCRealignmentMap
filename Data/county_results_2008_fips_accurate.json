@@ -54,6 +54,738 @@
       "color": "#67000d"
     }
   },
+  "45005": {
+    "county": "ALLENDALE",
+    "county_fips": "45005",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 3029,
+    "rep_votes": 947,
+    "other_votes": 107,
+    "total_votes": 4083,
+    "two_party_total": 3976,
+    "margin": 2082,
+    "margin_pct": 52.36418511066398,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    },
+    "all_parties": {
+      "DEM": 3029,
+      "REP": 947,
+      "OTHER": 107
+    }
+  },
+  "45007": {
+    "county": "ANDERSON",
+    "county_fips": "45007",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 24128,
+    "rep_votes": 48675,
+    "other_votes": 1298,
+    "total_votes": 74101,
+    "two_party_total": 72803,
+    "margin": 24547,
+    "margin_pct": 33.71701715588643,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    },
+    "all_parties": {
+      "DEM": 24128,
+      "REP": 48675,
+      "OTHER": 1298
+    }
+  },
+  "45009": {
+    "county": "BAMBERG",
+    "county_fips": "45009",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 4426,
+    "rep_votes": 2309,
+    "other_votes": 127,
+    "total_votes": 6862,
+    "two_party_total": 6735,
+    "margin": 2117,
+    "margin_pct": 31.432813659985154,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    },
+    "all_parties": {
+      "DEM": 4426,
+      "REP": 2309,
+      "OTHER": 127
+    }
+  },
+  "45011": {
+    "county": "BARNWELL",
+    "county_fips": "45011",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 4931,
+    "rep_votes": 4769,
+    "other_votes": 176,
+    "total_votes": 9876,
+    "two_party_total": 9700,
+    "margin": 162,
+    "margin_pct": 1.670103092783505,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    },
+    "all_parties": {
+      "DEM": 4931,
+      "REP": 4769,
+      "OTHER": 176
+    }
+  },
+  "45013": {
+    "county": "BEAUFORT",
+    "county_fips": "45013",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 30396,
+    "rep_votes": 37821,
+    "other_votes": 837,
+    "total_votes": 69054,
+    "two_party_total": 68217,
+    "margin": 7425,
+    "margin_pct": 10.884383658032455,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "DEM": 30396,
+      "REP": 37821,
+      "OTHER": 837
+    }
+  },
+  "45015": {
+    "county": "BERKELEY",
+    "county_fips": "45015",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 27821,
+    "rep_votes": 36283,
+    "other_votes": 1041,
+    "total_votes": 65145,
+    "two_party_total": 64104,
+    "margin": 8462,
+    "margin_pct": 13.200424310495446,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "DEM": 27821,
+      "REP": 36283,
+      "OTHER": 1041
+    }
+  },
+  "45017": {
+    "county": "CALHOUN",
+    "county_fips": "45017",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 3970,
+    "rep_votes": 3695,
+    "other_votes": 114,
+    "total_votes": 7779,
+    "two_party_total": 7665,
+    "margin": 275,
+    "margin_pct": 3.587736464448793,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    },
+    "all_parties": {
+      "DEM": 3970,
+      "REP": 3695,
+      "OTHER": 114
+    }
+  },
+  "45019": {
+    "county": "CHARLESTON",
+    "county_fips": "45019",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 82696,
+    "rep_votes": 69820,
+    "other_votes": 2460,
+    "total_votes": 154976,
+    "two_party_total": 152516,
+    "margin": 12876,
+    "margin_pct": 8.442392929266438,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    },
+    "all_parties": {
+      "DEM": 82696,
+      "REP": 69820,
+      "OTHER": 2460
+    }
+  },
+  "45021": {
+    "county": "CHEROKEE",
+    "county_fips": "45021",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 7216,
+    "rep_votes": 13309,
+    "other_votes": 396,
+    "total_votes": 20921,
+    "two_party_total": 20525,
+    "margin": 6093,
+    "margin_pct": 29.685749086479902,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    },
+    "all_parties": {
+      "DEM": 7216,
+      "REP": 13309,
+      "OTHER": 396
+    }
+  },
+  "45023": {
+    "county": "CHESTER",
+    "county_fips": "45023",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 7478,
+    "rep_votes": 6318,
+    "other_votes": 254,
+    "total_votes": 14050,
+    "two_party_total": 13796,
+    "margin": 1160,
+    "margin_pct": 8.408234270803131,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    },
+    "all_parties": {
+      "DEM": 7478,
+      "REP": 6318,
+      "OTHER": 254
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "county_fips": "45025",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 7842,
+    "rep_votes": 8325,
+    "other_votes": 384,
+    "total_votes": 16551,
+    "two_party_total": 16167,
+    "margin": 483,
+    "margin_pct": 2.987567266654296,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    },
+    "all_parties": {
+      "DEM": 7842,
+      "REP": 8325,
+      "OTHER": 384
+    }
+  },
+  "45027": {
+    "county": "CLARENDON",
+    "county_fips": "45027",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 8673,
+    "rep_votes": 6758,
+    "other_votes": 234,
+    "total_votes": 15665,
+    "two_party_total": 15431,
+    "margin": 1915,
+    "margin_pct": 12.410083597952175,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    },
+    "all_parties": {
+      "DEM": 8673,
+      "REP": 6758,
+      "OTHER": 234
+    }
+  },
+  "45029": {
+    "county": "COLLETON",
+    "county_fips": "45029",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 8616,
+    "rep_votes": 8525,
+    "other_votes": 308,
+    "total_votes": 17449,
+    "two_party_total": 17141,
+    "margin": 91,
+    "margin_pct": 0.5308908465083717,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#deebf7"
+    },
+    "all_parties": {
+      "DEM": 8616,
+      "REP": 8525,
+      "OTHER": 308
+    }
+  },
+  "45031": {
+    "county": "DARLINGTON",
+    "county_fips": "45031",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 14478,
+    "rep_votes": 14517,
+    "other_votes": 423,
+    "total_votes": 29418,
+    "two_party_total": 28995,
+    "margin": 39,
+    "margin_pct": 0.13450594930160373,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Tossup",
+      "party": "Republican",
+      "color": "#fee0d2"
+    },
+    "all_parties": {
+      "DEM": 14478,
+      "REP": 14517,
+      "OTHER": 423
+    }
+  },
+  "45033": {
+    "county": "DILLON",
+    "county_fips": "45033",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 7408,
+    "rep_votes": 5874,
+    "other_votes": 258,
+    "total_votes": 13540,
+    "two_party_total": 13282,
+    "margin": 1534,
+    "margin_pct": 11.549465441951513,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    },
+    "all_parties": {
+      "DEM": 7408,
+      "REP": 5874,
+      "OTHER": 258
+    }
+  },
+  "45035": {
+    "county": "DORCHESTER",
+    "county_fips": "45035",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 21742,
+    "rep_votes": 29853,
+    "other_votes": 818,
+    "total_votes": 52413,
+    "two_party_total": 51595,
+    "margin": 8111,
+    "margin_pct": 15.720515553832737,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "DEM": 21742,
+      "REP": 29853,
+      "OTHER": 818
+    }
+  },
+  "45037": {
+    "county": "EDGEFIELD",
+    "county_fips": "45037",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "John McCain (R)",
+    "dem_votes": 5076,
+    "rep_votes": 6335,
+    "other_votes": 182,
+    "total_votes": 11593,
+    "two_party_total": 11411,
+    "margin": 1259,
+    "margin_pct": 11.033213565857505,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    },
+    "all_parties": {
+      "DEM": 5076,
+      "REP": 6335,
+      "OTHER": 182
+    }
+  },
+  "45039": {
+    "county": "FAIRFIELD",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 7591,
+    "rep_votes": 3912,
+    "other_votes": 116,
+    "total_votes": 11619,
+    "all_parties": {
+      "GRN": 32,
+      "REP": 3912,
+      "LIB": 27,
+      "PET": 22,
+      "DEM": 7591,
+      "CON": 35
+    },
+    "county_fips": "45039",
+    "two_party_total": 11503,
+    "margin": 3679,
+    "margin_pct": 31.982960966704336,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45041": {
+    "county": "FLORENCE",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 28012,
+    "rep_votes": 29861,
+    "other_votes": 500,
+    "total_votes": 58373,
+    "all_parties": {
+      "GRN": 109,
+      "REP": 29861,
+      "LIB": 151,
+      "PET": 115,
+      "DEM": 28012,
+      "CON": 125
+    },
+    "county_fips": "45041",
+    "two_party_total": 57873,
+    "margin": 1849,
+    "margin_pct": 3.1949268225251846,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45043": {
+    "county": "GEORGETOWN",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 14199,
+    "rep_votes": 15790,
+    "other_votes": 301,
+    "total_votes": 30290,
+    "all_parties": {
+      "GRN": 83,
+      "REP": 15790,
+      "LIB": 89,
+      "PET": 68,
+      "DEM": 14199,
+      "CON": 61
+    },
+    "county_fips": "45043",
+    "two_party_total": 29989,
+    "margin": 1591,
+    "margin_pct": 5.305278602154123,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45045": {
+    "county": "GREENVILLE",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 70886,
+    "rep_votes": 116363,
+    "other_votes": 3408,
+    "total_votes": 190657,
+    "all_parties": {
+      "GRN": 423,
+      "REP": 116363,
+      "LIB": 893,
+      "NON": 526,
+      "DEM": 70886,
+      "CON": 1566
+    },
+    "county_fips": "45045",
+    "two_party_total": 187249,
+    "margin": 45477,
+    "margin_pct": 24.286912079637275,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "GREENWOOD",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 12348,
+    "rep_votes": 16995,
+    "other_votes": 324,
+    "total_votes": 29667,
+    "all_parties": {
+      "GRN": 58,
+      "REP": 16995,
+      "LIB": 100,
+      "PET": 69,
+      "DEM": 12348,
+      "CON": 97
+    },
+    "county_fips": "45047",
+    "two_party_total": 29343,
+    "margin": 4647,
+    "margin_pct": 15.836826500357837,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45049": {
+    "county": "HAMPTON",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 5816,
+    "rep_votes": 3439,
+    "other_votes": 95,
+    "total_votes": 9350,
+    "all_parties": {
+      "GRN": 28,
+      "REP": 3439,
+      "LIB": 34,
+      "PET": 15,
+      "DEM": 5816,
+      "CON": 18
+    },
+    "county_fips": "45049",
+    "two_party_total": 9255,
+    "margin": 2377,
+    "margin_pct": 25.68341437061048,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45051": {
+    "county": "HORRY",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 38879,
+    "rep_votes": 64609,
+    "other_votes": 1310,
+    "total_votes": 104798,
+    "all_parties": {
+      "GRN": 269,
+      "REP": 64609,
+      "LIB": 367,
+      "PET": 401,
+      "DEM": 38879,
+      "CON": 273
+    },
+    "county_fips": "45051",
+    "two_party_total": 103488,
+    "margin": 25730,
+    "margin_pct": 24.86278602350031,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "JASPER",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 5389,
+    "rep_votes": 3365,
+    "other_votes": 100,
+    "total_votes": 8854,
+    "all_parties": {
+      "GRN": 35,
+      "REP": 3365,
+      "LIB": 32,
+      "PET": 16,
+      "DEM": 5389,
+      "CON": 17
+    },
+    "county_fips": "45053",
+    "two_party_total": 8754,
+    "margin": 2024,
+    "margin_pct": 23.12085903586932,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45055": {
+    "county": "KERSHAW",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 11226,
+    "rep_votes": 16466,
+    "other_votes": 293,
+    "total_votes": 27985,
+    "all_parties": {
+      "GRN": 68,
+      "REP": 16466,
+      "LIB": 105,
+      "PET": 55,
+      "DEM": 11226,
+      "CON": 65
+    },
+    "county_fips": "45055",
+    "two_party_total": 27692,
+    "margin": 5240,
+    "margin_pct": 18.922432471471907,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45057": {
+    "county": "LANCASTER",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 12139,
+    "rep_votes": 16441,
+    "other_votes": 341,
+    "total_votes": 28921,
+    "all_parties": {
+      "GRN": 79,
+      "REP": 16441,
+      "LIB": 108,
+      "PET": 82,
+      "DEM": 12139,
+      "CON": 72
+    },
+    "county_fips": "45057",
+    "two_party_total": 28580,
+    "margin": 4302,
+    "margin_pct": 15.052484254723582,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
   "45059": {
     "county": "LAURENS",
     "contest": "PRESIDENT",
@@ -139,93 +871,6 @@
       "category": "Dominant",
       "party": "Republican",
       "color": "#a50f15"
-    }
-  },
-  "45065": {
-    "county": "MARION",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 9608,
-    "rep_votes": 5416,
-    "other_votes": 150,
-    "total_votes": 15174,
-    "all_parties": {
-      "GRN": 47,
-      "REP": 5416,
-      "LIB": 48,
-      "PET": 26,
-      "DEM": 9608,
-      "CON": 29
-    },
-    "county_fips": "45065",
-    "two_party_total": 15024,
-    "margin": 4192,
-    "margin_pct": 27.902023429179977,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 6794,
-    "rep_votes": 3996,
-    "other_votes": 86,
-    "total_votes": 10876,
-    "all_parties": {
-      "GRN": 25,
-      "REP": 3996,
-      "LIB": 24,
-      "PET": 17,
-      "DEM": 6794,
-      "CON": 20
-    },
-    "county_fips": "45067",
-    "two_party_total": 10790,
-    "margin": 2798,
-    "margin_pct": 25.93141797961075,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 2755,
-    "rep_votes": 2437,
-    "other_votes": 40,
-    "total_votes": 5232,
-    "all_parties": {
-      "GRN": 15,
-      "REP": 2437,
-      "LIB": 9,
-      "PET": 8,
-      "DEM": 2755,
-      "CON": 8
-    },
-    "county_fips": "45069",
-    "two_party_total": 5192,
-    "margin": 318,
-    "margin_pct": 6.1248073959938365,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
     }
   },
   "45071": {
@@ -547,173 +1192,28 @@
       "color": "#ef3b2c"
     }
   },
-  "45039": {
-    "county": "FAIRFIELD",
+  "45065": {
+    "county": "MARION",
     "contest": "PRESIDENT",
     "year": "2008",
     "dem_candidate": "Barack Obama / Joe Biden (D)",
     "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 7591,
-    "rep_votes": 3912,
-    "other_votes": 116,
-    "total_votes": 11619,
+    "dem_votes": 9608,
+    "rep_votes": 5416,
+    "other_votes": 150,
+    "total_votes": 15174,
     "all_parties": {
-      "GRN": 32,
-      "REP": 3912,
-      "LIB": 27,
-      "PET": 22,
-      "DEM": 7591,
-      "CON": 35
+      "GRN": 47,
+      "REP": 5416,
+      "LIB": 48,
+      "PET": 26,
+      "DEM": 9608,
+      "CON": 29
     },
-    "county_fips": "45039",
-    "two_party_total": 11503,
-    "margin": 3679,
-    "margin_pct": 31.982960966704336,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Dominant",
-      "party": "Democratic",
-      "color": "#2171b5"
-    }
-  },
-  "45041": {
-    "county": "FLORENCE",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 28012,
-    "rep_votes": 29861,
-    "other_votes": 500,
-    "total_votes": 58373,
-    "all_parties": {
-      "GRN": 109,
-      "REP": 29861,
-      "LIB": 151,
-      "PET": 115,
-      "DEM": 28012,
-      "CON": 125
-    },
-    "county_fips": "45041",
-    "two_party_total": 57873,
-    "margin": 1849,
-    "margin_pct": 3.1949268225251846,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Republican",
-      "color": "#fc9272"
-    }
-  },
-  "45043": {
-    "county": "GEORGETOWN",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 14199,
-    "rep_votes": 15790,
-    "other_votes": 301,
-    "total_votes": 30290,
-    "all_parties": {
-      "GRN": 83,
-      "REP": 15790,
-      "LIB": 89,
-      "PET": 68,
-      "DEM": 14199,
-      "CON": 61
-    },
-    "county_fips": "45043",
-    "two_party_total": 29989,
-    "margin": 1591,
-    "margin_pct": 5.305278602154123,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Republican",
-      "color": "#fc9272"
-    }
-  },
-  "45045": {
-    "county": "GREENVILLE",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 70886,
-    "rep_votes": 116363,
-    "other_votes": 3408,
-    "total_votes": 190657,
-    "all_parties": {
-      "GRN": 423,
-      "REP": 116363,
-      "LIB": 893,
-      "NON": 526,
-      "DEM": 70886,
-      "CON": 1566
-    },
-    "county_fips": "45045",
-    "two_party_total": 187249,
-    "margin": 45477,
-    "margin_pct": 24.286912079637275,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Republican",
-      "color": "#cb181d"
-    }
-  },
-  "45047": {
-    "county": "GREENWOOD",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 12348,
-    "rep_votes": 16995,
-    "other_votes": 324,
-    "total_votes": 29667,
-    "all_parties": {
-      "GRN": 58,
-      "REP": 16995,
-      "LIB": 100,
-      "PET": 69,
-      "DEM": 12348,
-      "CON": 97
-    },
-    "county_fips": "45047",
-    "two_party_total": 29343,
-    "margin": 4647,
-    "margin_pct": 15.836826500357837,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    }
-  },
-  "45049": {
-    "county": "HAMPTON",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 5816,
-    "rep_votes": 3439,
-    "other_votes": 95,
-    "total_votes": 9350,
-    "all_parties": {
-      "GRN": 28,
-      "REP": 3439,
-      "LIB": 34,
-      "PET": 15,
-      "DEM": 5816,
-      "CON": 18
-    },
-    "county_fips": "45049",
-    "two_party_total": 9255,
-    "margin": 2377,
-    "margin_pct": 25.68341437061048,
+    "county_fips": "45065",
+    "two_party_total": 15024,
+    "margin": 4192,
+    "margin_pct": 27.902023429179977,
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
@@ -721,562 +1221,33 @@
       "color": "#4292c6"
     }
   },
-  "45051": {
-    "county": "HORRY",
+  "45069": {
+    "county": "MCCORMICK",
     "contest": "PRESIDENT",
     "year": "2008",
     "dem_candidate": "Barack Obama / Joe Biden (D)",
     "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 38879,
-    "rep_votes": 64609,
-    "other_votes": 1310,
-    "total_votes": 104798,
+    "dem_votes": 2755,
+    "rep_votes": 2437,
+    "other_votes": 40,
+    "total_votes": 5232,
     "all_parties": {
-      "GRN": 269,
-      "REP": 64609,
-      "LIB": 367,
-      "PET": 401,
-      "DEM": 38879,
-      "CON": 273
+      "GRN": 15,
+      "REP": 2437,
+      "LIB": 9,
+      "PET": 8,
+      "DEM": 2755,
+      "CON": 8
     },
-    "county_fips": "45051",
-    "two_party_total": 103488,
-    "margin": 25730,
-    "margin_pct": 24.86278602350031,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Republican",
-      "color": "#cb181d"
-    }
-  },
-  "45053": {
-    "county": "JASPER",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 5389,
-    "rep_votes": 3365,
-    "other_votes": 100,
-    "total_votes": 8854,
-    "all_parties": {
-      "GRN": 35,
-      "REP": 3365,
-      "LIB": 32,
-      "PET": 16,
-      "DEM": 5389,
-      "CON": 17
-    },
-    "county_fips": "45053",
-    "two_party_total": 8754,
-    "margin": 2024,
-    "margin_pct": 23.12085903586932,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45055": {
-    "county": "KERSHAW",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 11226,
-    "rep_votes": 16466,
-    "other_votes": 293,
-    "total_votes": 27985,
-    "all_parties": {
-      "GRN": 68,
-      "REP": 16466,
-      "LIB": 105,
-      "PET": 55,
-      "DEM": 11226,
-      "CON": 65
-    },
-    "county_fips": "45055",
-    "two_party_total": 27692,
-    "margin": 5240,
-    "margin_pct": 18.922432471471907,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    }
-  },
-  "45057": {
-    "county": "LANCASTER",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "John McCain / Sarah Palin (R)",
-    "dem_votes": 12139,
-    "rep_votes": 16441,
-    "other_votes": 341,
-    "total_votes": 28921,
-    "all_parties": {
-      "GRN": 79,
-      "REP": 16441,
-      "LIB": 108,
-      "PET": 82,
-      "DEM": 12139,
-      "CON": 72
-    },
-    "county_fips": "45057",
-    "two_party_total": 28580,
-    "margin": 4302,
-    "margin_pct": 15.052484254723582,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    }
-  },
-  "45023": {
-    "county": "CHESTER",
-    "county_fips": "45023",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 7478,
-    "rep_votes": 6318,
-    "other_votes": 254,
-    "total_votes": 14050,
-    "two_party_total": 13796,
-    "margin": 1160,
-    "margin_pct": 8.408234270803131,
+    "county_fips": "45069",
+    "two_party_total": 5192,
+    "margin": 318,
+    "margin_pct": 6.1248073959938365,
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
       "party": "Democratic",
       "color": "#9ecae1"
-    },
-    "all_parties": {
-      "DEM": 7478,
-      "REP": 6318,
-      "OTHER": 254
-    }
-  },
-  "45027": {
-    "county": "CLARENDON",
-    "county_fips": "45027",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 8673,
-    "rep_votes": 6758,
-    "other_votes": 234,
-    "total_votes": 15665,
-    "two_party_total": 15431,
-    "margin": 1915,
-    "margin_pct": 12.410083597952175,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    },
-    "all_parties": {
-      "DEM": 8673,
-      "REP": 6758,
-      "OTHER": 234
-    }
-  },
-  "45035": {
-    "county": "DORCHESTER",
-    "county_fips": "45035",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 21742,
-    "rep_votes": 29853,
-    "other_votes": 818,
-    "total_votes": 52413,
-    "two_party_total": 51595,
-    "margin": 8111,
-    "margin_pct": 15.720515553832737,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    },
-    "all_parties": {
-      "DEM": 21742,
-      "REP": 29853,
-      "OTHER": 818
-    }
-  },
-  "45015": {
-    "county": "BERKELEY",
-    "county_fips": "45015",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 27821,
-    "rep_votes": 36283,
-    "other_votes": 1041,
-    "total_votes": 65145,
-    "two_party_total": 64104,
-    "margin": 8462,
-    "margin_pct": 13.200424310495446,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    },
-    "all_parties": {
-      "DEM": 27821,
-      "REP": 36283,
-      "OTHER": 1041
-    }
-  },
-  "45029": {
-    "county": "COLLETON",
-    "county_fips": "45029",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 8616,
-    "rep_votes": 8525,
-    "other_votes": 308,
-    "total_votes": 17449,
-    "two_party_total": 17141,
-    "margin": 91,
-    "margin_pct": 0.5308908465083717,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Tilt",
-      "party": "Democratic",
-      "color": "#deebf7"
-    },
-    "all_parties": {
-      "DEM": 8616,
-      "REP": 8525,
-      "OTHER": 308
-    }
-  },
-  "45007": {
-    "county": "ANDERSON",
-    "county_fips": "45007",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 24128,
-    "rep_votes": 48675,
-    "other_votes": 1298,
-    "total_votes": 74101,
-    "two_party_total": 72803,
-    "margin": 24547,
-    "margin_pct": 33.71701715588643,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Dominant",
-      "party": "Republican",
-      "color": "#a50f15"
-    },
-    "all_parties": {
-      "DEM": 24128,
-      "REP": 48675,
-      "OTHER": 1298
-    }
-  },
-  "45019": {
-    "county": "CHARLESTON",
-    "county_fips": "45019",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 82696,
-    "rep_votes": 69820,
-    "other_votes": 2460,
-    "total_votes": 154976,
-    "two_party_total": 152516,
-    "margin": 12876,
-    "margin_pct": 8.442392929266438,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
-    },
-    "all_parties": {
-      "DEM": 82696,
-      "REP": 69820,
-      "OTHER": 2460
-    }
-  },
-  "45031": {
-    "county": "DARLINGTON",
-    "county_fips": "45031",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 14478,
-    "rep_votes": 14517,
-    "other_votes": 423,
-    "total_votes": 29418,
-    "two_party_total": 28995,
-    "margin": 39,
-    "margin_pct": 0.13450594930160373,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Tossup",
-      "party": "Republican",
-      "color": "#fee0d2"
-    },
-    "all_parties": {
-      "DEM": 14478,
-      "REP": 14517,
-      "OTHER": 423
-    }
-  },
-  "45013": {
-    "county": "BEAUFORT",
-    "county_fips": "45013",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 30396,
-    "rep_votes": 37821,
-    "other_votes": 837,
-    "total_votes": 69054,
-    "two_party_total": 68217,
-    "margin": 7425,
-    "margin_pct": 10.884383658032455,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    },
-    "all_parties": {
-      "DEM": 30396,
-      "REP": 37821,
-      "OTHER": 837
-    }
-  },
-  "45017": {
-    "county": "CALHOUN",
-    "county_fips": "45017",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 3970,
-    "rep_votes": 3695,
-    "other_votes": 114,
-    "total_votes": 7779,
-    "two_party_total": 7665,
-    "margin": 275,
-    "margin_pct": 3.587736464448793,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Democratic",
-      "color": "#c6dbef"
-    },
-    "all_parties": {
-      "DEM": 3970,
-      "REP": 3695,
-      "OTHER": 114
-    }
-  },
-  "45021": {
-    "county": "CHEROKEE",
-    "county_fips": "45021",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 7216,
-    "rep_votes": 13309,
-    "other_votes": 396,
-    "total_votes": 20921,
-    "two_party_total": 20525,
-    "margin": 6093,
-    "margin_pct": 29.685749086479902,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Republican",
-      "color": "#cb181d"
-    },
-    "all_parties": {
-      "DEM": 7216,
-      "REP": 13309,
-      "OTHER": 396
-    }
-  },
-  "45005": {
-    "county": "ALLENDALE",
-    "county_fips": "45005",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 3029,
-    "rep_votes": 947,
-    "other_votes": 107,
-    "total_votes": 4083,
-    "two_party_total": 3976,
-    "margin": 2082,
-    "margin_pct": 52.36418511066398,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Democratic",
-      "color": "#08519c"
-    },
-    "all_parties": {
-      "DEM": 3029,
-      "REP": 947,
-      "OTHER": 107
-    }
-  },
-  "45011": {
-    "county": "BARNWELL",
-    "county_fips": "45011",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 4931,
-    "rep_votes": 4769,
-    "other_votes": 176,
-    "total_votes": 9876,
-    "two_party_total": 9700,
-    "margin": 162,
-    "margin_pct": 1.670103092783505,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Democratic",
-      "color": "#c6dbef"
-    },
-    "all_parties": {
-      "DEM": 4931,
-      "REP": 4769,
-      "OTHER": 176
-    }
-  },
-  "45009": {
-    "county": "BAMBERG",
-    "county_fips": "45009",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 4426,
-    "rep_votes": 2309,
-    "other_votes": 127,
-    "total_votes": 6862,
-    "two_party_total": 6735,
-    "margin": 2117,
-    "margin_pct": 31.432813659985154,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Dominant",
-      "party": "Democratic",
-      "color": "#2171b5"
-    },
-    "all_parties": {
-      "DEM": 4426,
-      "REP": 2309,
-      "OTHER": 127
-    }
-  },
-  "45037": {
-    "county": "EDGEFIELD",
-    "county_fips": "45037",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 5076,
-    "rep_votes": 6335,
-    "other_votes": 182,
-    "total_votes": 11593,
-    "two_party_total": 11411,
-    "margin": 1259,
-    "margin_pct": 11.033213565857505,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    },
-    "all_parties": {
-      "DEM": 5076,
-      "REP": 6335,
-      "OTHER": 182
-    }
-  },
-  "45033": {
-    "county": "DILLON",
-    "county_fips": "45033",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 7408,
-    "rep_votes": 5874,
-    "other_votes": 258,
-    "total_votes": 13540,
-    "two_party_total": 13282,
-    "margin": 1534,
-    "margin_pct": 11.549465441951513,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    },
-    "all_parties": {
-      "DEM": 7408,
-      "REP": 5874,
-      "OTHER": 258
-    }
-  },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "county_fips": "45025",
-    "contest": "PRESIDENT",
-    "year": "2008",
-    "dem_candidate": "Barack Obama (D)",
-    "rep_candidate": "John McCain (R)",
-    "dem_votes": 7842,
-    "rep_votes": 8325,
-    "other_votes": 384,
-    "total_votes": 16551,
-    "two_party_total": 16167,
-    "margin": 483,
-    "margin_pct": 2.987567266654296,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Republican",
-      "color": "#fc9272"
-    },
-    "all_parties": {
-      "DEM": 7842,
-      "REP": 8325,
-      "OTHER": 384
     }
   }
 }

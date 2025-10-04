@@ -296,33 +296,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "Governor and Lieutenant Governor",
-    "year": "2022",
-    "dem_candidate": "Dem Joe Cunningham/Tally Parham Casey (D)",
-    "rep_candidate": "REP Henry McMaster/Pamela Evette (R)",
-    "dem_votes": 4435,
-    "rep_votes": 7983,
-    "other_votes": 139,
-    "total_votes": 12557,
-    "all_parties": {
-      "REP": 7983,
-      "LIB": 133,
-      "DEM": 4435,
-      "NON": 6
-    },
-    "county_fips": "45025",
-    "two_party_total": 12418,
-    "margin": 3548,
-    "margin_pct": 28.57142857142857,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Republican",
-      "color": "#cb181d"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "Governor and Lieutenant Governor",
@@ -343,6 +316,33 @@
     "two_party_total": 9457,
     "margin": 2067,
     "margin_pct": 21.856825631807126,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2022",
+    "dem_candidate": "Dem Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "REP Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 4435,
+    "rep_votes": 7983,
+    "other_votes": 139,
+    "total_votes": 12557,
+    "all_parties": {
+      "REP": 7983,
+      "LIB": 133,
+      "DEM": 4435,
+      "NON": 6
+    },
+    "county_fips": "45025",
+    "two_party_total": 12418,
+    "margin": 3548,
+    "margin_pct": 28.57142857142857,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
@@ -863,87 +863,6 @@
       "color": "#a50f15"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "Governor and Lieutenant Governor",
-    "year": "2022",
-    "dem_candidate": "DEM Joe Cunningham/Tally Parham Casey (D)",
-    "rep_candidate": "REP Henry McMaster/Pamela Evette (R)",
-    "dem_votes": 4484,
-    "rep_votes": 3846,
-    "other_votes": 86,
-    "total_votes": 8416,
-    "all_parties": {
-      "REP": 3846,
-      "LIB": 80,
-      "DEM": 4484,
-      "NON": 6
-    },
-    "county_fips": "45065",
-    "two_party_total": 8330,
-    "margin": 638,
-    "margin_pct": 7.65906362545018,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "Governor and Lieutenant Governor",
-    "year": "2022",
-    "dem_candidate": "DEM Joe Cunningham/Tally Parham Casey (D)",
-    "rep_candidate": "REP Henry McMaster/Pamela Evette (R)",
-    "dem_votes": 3247,
-    "rep_votes": 3209,
-    "other_votes": 81,
-    "total_votes": 6537,
-    "all_parties": {
-      "REP": 3209,
-      "LIB": 76,
-      "DEM": 3247,
-      "NON": 5
-    },
-    "county_fips": "45067",
-    "two_party_total": 6456,
-    "margin": 38,
-    "margin_pct": 0.5885997521685253,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Tilt",
-      "party": "Democratic",
-      "color": "#deebf7"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "Governor and Lieutenant Governor",
-    "year": "2022",
-    "dem_candidate": "DEM Joe Cunningham (D)",
-    "rep_candidate": "REP Henry McMaster (R)",
-    "dem_votes": 1759,
-    "rep_votes": 2757,
-    "other_votes": 51,
-    "total_votes": 4567,
-    "all_parties": {
-      "REP": 2757,
-      "LIB": 49,
-      "DEM": 1759,
-      "NON": 2
-    },
-    "county_fips": "45069",
-    "two_party_total": 4516,
-    "margin": 998,
-    "margin_pct": 22.099202834366697,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Republican",
-      "color": "#cb181d"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "Governor and Lieutenant Governor",
@@ -1234,6 +1153,60 @@
     "two_party_total": 94295,
     "margin": 22013,
     "margin_pct": 23.344822100853705,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2022",
+    "dem_candidate": "DEM Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "REP Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 4484,
+    "rep_votes": 3846,
+    "other_votes": 86,
+    "total_votes": 8416,
+    "all_parties": {
+      "REP": 3846,
+      "LIB": 80,
+      "DEM": 4484,
+      "NON": 6
+    },
+    "county_fips": "45065",
+    "two_party_total": 8330,
+    "margin": 638,
+    "margin_pct": 7.65906362545018,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2022",
+    "dem_candidate": "DEM Joe Cunningham (D)",
+    "rep_candidate": "REP Henry McMaster (R)",
+    "dem_votes": 1759,
+    "rep_votes": 2757,
+    "other_votes": 51,
+    "total_votes": 4567,
+    "all_parties": {
+      "REP": 2757,
+      "LIB": 49,
+      "DEM": 1759,
+      "NON": 2
+    },
+    "county_fips": "45069",
+    "two_party_total": 4516,
+    "margin": 998,
+    "margin_pct": 22.099202834366697,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",

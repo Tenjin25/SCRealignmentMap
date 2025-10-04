@@ -285,32 +285,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "STATE TREASURER",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Curtis Loftis (R)",
-    "dem_votes": 0,
-    "rep_votes": 8580,
-    "other_votes": 1591,
-    "total_votes": 10171,
-    "all_parties": {
-      "REP": 8580,
-      "ALN": 1564,
-      "NON": 27
-    },
-    "county_fips": "45025",
-    "two_party_total": 8580,
-    "margin": 8580,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "STATE TREASURER",
@@ -329,6 +303,32 @@
     "county_fips": "45023",
     "two_party_total": 6225,
     "margin": 6225,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE TREASURER",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 8580,
+    "other_votes": 1591,
+    "total_votes": 10171,
+    "all_parties": {
+      "REP": 8580,
+      "ALN": 1564,
+      "NON": 27
+    },
+    "county_fips": "45025",
+    "two_party_total": 8580,
+    "margin": 8580,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {
@@ -831,84 +831,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "STATE TREASURER",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Curtis Loftis (R)",
-    "dem_votes": 0,
-    "rep_votes": 4293,
-    "other_votes": 1442,
-    "total_votes": 5735,
-    "all_parties": {
-      "REP": 4293,
-      "ALN": 1414,
-      "NON": 28
-    },
-    "county_fips": "45065",
-    "two_party_total": 4293,
-    "margin": 4293,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "STATE TREASURER",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Curtis Loftis (R)",
-    "dem_votes": 0,
-    "rep_votes": 3499,
-    "other_votes": 1132,
-    "total_votes": 4631,
-    "all_parties": {
-      "REP": 3499,
-      "ALN": 1121,
-      "NON": 11
-    },
-    "county_fips": "45067",
-    "two_party_total": 3499,
-    "margin": 3499,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "STATE TREASURER",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Curtis Loftis (R)",
-    "dem_votes": 0,
-    "rep_votes": 2901,
-    "other_votes": 573,
-    "total_votes": 3474,
-    "all_parties": {
-      "REP": 2901,
-      "ALN": 563,
-      "NON": 10
-    },
-    "county_fips": "45069",
-    "two_party_total": 2901,
-    "margin": 2901,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "STATE TREASURER",
@@ -1187,6 +1109,58 @@
     "county_fips": "45091",
     "two_party_total": 64564,
     "margin": 64564,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE TREASURER",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 4293,
+    "other_votes": 1442,
+    "total_votes": 5735,
+    "all_parties": {
+      "REP": 4293,
+      "ALN": 1414,
+      "NON": 28
+    },
+    "county_fips": "45065",
+    "two_party_total": 4293,
+    "margin": 4293,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE TREASURER",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 2901,
+    "other_votes": 573,
+    "total_votes": 3474,
+    "all_parties": {
+      "REP": 2901,
+      "ALN": 563,
+      "NON": 10
+    },
+    "county_fips": "45069",
+    "two_party_total": 2901,
+    "margin": 2901,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {

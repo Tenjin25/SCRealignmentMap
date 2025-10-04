@@ -959,96 +959,6 @@
       "color": "#a50f15"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "PRESIDENT",
-    "year": "2016",
-    "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine (D)",
-    "rep_candidate": "Donald J Trump / Michael R Pence (R)",
-    "dem_votes": 8569,
-    "rep_votes": 5444,
-    "other_votes": 263,
-    "total_votes": 14276,
-    "all_parties": {
-      "DEM": 8569,
-      "CON": 27,
-      "IND": 46,
-      "GRN": 65,
-      "REP": 5444,
-      "AMR": 22,
-      "LIB": 103
-    },
-    "county_fips": "45065",
-    "two_party_total": 14013,
-    "margin": 3125,
-    "margin_pct": 22.30072075929494,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "PRESIDENT",
-    "year": "2016",
-    "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine (D)",
-    "rep_candidate": "Donald J Trump / Michael R Pence (R)",
-    "dem_votes": 5954,
-    "rep_votes": 4267,
-    "other_votes": 168,
-    "total_votes": 10389,
-    "all_parties": {
-      "DEM": 5954,
-      "CON": 20,
-      "IND": 32,
-      "GRN": 33,
-      "REP": 4267,
-      "AMR": 13,
-      "LIB": 70
-    },
-    "county_fips": "45067",
-    "two_party_total": 10221,
-    "margin": 1687,
-    "margin_pct": 16.50523432149496,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "PRESIDENT",
-    "year": "2016",
-    "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine (D)",
-    "rep_candidate": "Donald J Trump / Michael R Pence (R)",
-    "dem_votes": 2479,
-    "rep_votes": 2652,
-    "other_votes": 85,
-    "total_votes": 5216,
-    "all_parties": {
-      "DEM": 2479,
-      "CON": 6,
-      "IND": 17,
-      "GRN": 8,
-      "REP": 2652,
-      "AMR": 7,
-      "LIB": 47
-    },
-    "county_fips": "45069",
-    "two_party_total": 5131,
-    "margin": 173,
-    "margin_pct": 3.3716624439680376,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Republican",
-      "color": "#fc9272"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "PRESIDENT",
@@ -1377,6 +1287,66 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "PRESIDENT",
+    "year": "2016",
+    "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine (D)",
+    "rep_candidate": "Donald J Trump / Michael R Pence (R)",
+    "dem_votes": 8569,
+    "rep_votes": 5444,
+    "other_votes": 263,
+    "total_votes": 14276,
+    "all_parties": {
+      "DEM": 8569,
+      "CON": 27,
+      "IND": 46,
+      "GRN": 65,
+      "REP": 5444,
+      "AMR": 22,
+      "LIB": 103
+    },
+    "county_fips": "45065",
+    "two_party_total": 14013,
+    "margin": 3125,
+    "margin_pct": 22.30072075929494,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "PRESIDENT",
+    "year": "2016",
+    "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine (D)",
+    "rep_candidate": "Donald J Trump / Michael R Pence (R)",
+    "dem_votes": 2479,
+    "rep_votes": 2652,
+    "other_votes": 85,
+    "total_votes": 5216,
+    "all_parties": {
+      "DEM": 2479,
+      "CON": 6,
+      "IND": 17,
+      "GRN": 8,
+      "REP": 2652,
+      "AMR": 7,
+      "LIB": 47
+    },
+    "county_fips": "45069",
+    "two_party_total": 5131,
+    "margin": 173,
+    "margin_pct": 3.3716624439680376,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
     }
   }
 }

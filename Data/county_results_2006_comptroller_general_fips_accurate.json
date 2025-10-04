@@ -831,84 +831,6 @@
       "color": "#cb181d"
     }
   },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "COMPTROLLER GENERAL",
-    "year": "2006",
-    "dem_candidate": "Drew Theodore (D)",
-    "rep_candidate": "Richard Eckstrom (R)",
-    "dem_votes": 1708,
-    "rep_votes": 1518,
-    "other_votes": 0,
-    "total_votes": 3226,
-    "all_parties": {
-      "REPUBLICAN": 1518,
-      "DEMOCRAT": 1708,
-      "": 0
-    },
-    "county_fips": "45069",
-    "two_party_total": 3226,
-    "margin": 190,
-    "margin_pct": 5.889646621202728,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
-    }
-  },
-  "45065": {
-    "county": "MARION",
-    "contest": "COMPTROLLER GENERAL",
-    "year": "2006",
-    "dem_candidate": "Drew Theodore (D)",
-    "rep_candidate": "Richard Eckstrom (R)",
-    "dem_votes": 4530,
-    "rep_votes": 2752,
-    "other_votes": 3,
-    "total_votes": 7285,
-    "all_parties": {
-      "REPUBLICAN": 2752,
-      "DEMOCRAT": 4530,
-      "": 3
-    },
-    "county_fips": "45065",
-    "two_party_total": 7282,
-    "margin": 1778,
-    "margin_pct": 24.416369129360067,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "COMPTROLLER GENERAL",
-    "year": "2006",
-    "dem_candidate": "Drew Theodore (D)",
-    "rep_candidate": "Richard Eckstrom (R)",
-    "dem_votes": 3536,
-    "rep_votes": 1755,
-    "other_votes": 1,
-    "total_votes": 5292,
-    "all_parties": {
-      "REPUBLICAN": 1755,
-      "DEMOCRAT": 3536,
-      "": 1
-    },
-    "county_fips": "45067",
-    "two_party_total": 5291,
-    "margin": 1781,
-    "margin_pct": 33.660933660933665,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Dominant",
-      "party": "Democratic",
-      "color": "#2171b5"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "COMPTROLLER GENERAL",
@@ -1193,6 +1115,58 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 4530,
+    "rep_votes": 2752,
+    "other_votes": 3,
+    "total_votes": 7285,
+    "all_parties": {
+      "REPUBLICAN": 2752,
+      "DEMOCRAT": 4530,
+      "": 3
+    },
+    "county_fips": "45065",
+    "two_party_total": 7282,
+    "margin": 1778,
+    "margin_pct": 24.416369129360067,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 1708,
+    "rep_votes": 1518,
+    "other_votes": 0,
+    "total_votes": 3226,
+    "all_parties": {
+      "REPUBLICAN": 1518,
+      "DEMOCRAT": 1708,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3226,
+    "margin": 190,
+    "margin_pct": 5.889646621202728,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
     }
   }
 }

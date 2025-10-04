@@ -307,34 +307,6 @@
       "color": "#cb181d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "PRESIDENT",
-    "year": "2012",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "Mitt Romney / Paul Ryan (R)",
-    "dem_votes": 7958,
-    "rep_votes": 8490,
-    "other_votes": 146,
-    "total_votes": 16594,
-    "all_parties": {
-      "REP": 8490,
-      "LIB": 59,
-      "DEM": 7958,
-      "CON": 40,
-      "GRN": 47
-    },
-    "county_fips": "45025",
-    "two_party_total": 16448,
-    "margin": 532,
-    "margin_pct": 3.23443579766537,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Republican",
-      "color": "#fc9272"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "PRESIDENT",
@@ -361,6 +333,34 @@
       "category": "Safe",
       "party": "Democratic",
       "color": "#6baed6"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "PRESIDENT",
+    "year": "2012",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "Mitt Romney / Paul Ryan (R)",
+    "dem_votes": 7958,
+    "rep_votes": 8490,
+    "other_votes": 146,
+    "total_votes": 16594,
+    "all_parties": {
+      "REP": 8490,
+      "LIB": 59,
+      "DEM": 7958,
+      "CON": 40,
+      "GRN": 47
+    },
+    "county_fips": "45025",
+    "two_party_total": 16448,
+    "margin": 532,
+    "margin_pct": 3.23443579766537,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
     }
   },
   "45027": {
@@ -895,90 +895,6 @@
       "color": "#a50f15"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "PRESIDENT",
-    "year": "2012",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "Mitt Romney / Paul Ryan (R)",
-    "dem_votes": 9688,
-    "rep_votes": 5164,
-    "other_votes": 134,
-    "total_votes": 14986,
-    "all_parties": {
-      "REP": 5164,
-      "LIB": 35,
-      "DEM": 9688,
-      "CON": 55,
-      "GRN": 44
-    },
-    "county_fips": "45065",
-    "two_party_total": 14852,
-    "margin": 4524,
-    "margin_pct": 30.460544034473468,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Dominant",
-      "party": "Democratic",
-      "color": "#2171b5"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "PRESIDENT",
-    "year": "2012",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "Mitt Romney / Paul Ryan (R)",
-    "dem_votes": 6100,
-    "rep_votes": 3676,
-    "other_votes": 77,
-    "total_votes": 9853,
-    "all_parties": {
-      "REP": 3676,
-      "LIB": 45,
-      "DEM": 6100,
-      "CON": 23,
-      "GRN": 9
-    },
-    "county_fips": "45067",
-    "two_party_total": 9776,
-    "margin": 2424,
-    "margin_pct": 24.79541734860884,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "PRESIDENT",
-    "year": "2012",
-    "dem_candidate": "Barack Obama / Joe Biden (D)",
-    "rep_candidate": "Mitt Romney / Paul Ryan (R)",
-    "dem_votes": 2653,
-    "rep_votes": 2467,
-    "other_votes": 40,
-    "total_votes": 5160,
-    "all_parties": {
-      "REP": 2467,
-      "LIB": 21,
-      "DEM": 2653,
-      "CON": 7,
-      "GRN": 12
-    },
-    "county_fips": "45069",
-    "two_party_total": 5120,
-    "margin": 186,
-    "margin_pct": 3.6328125000000004,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Democratic",
-      "color": "#c6dbef"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "PRESIDENT",
@@ -1285,6 +1201,62 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "PRESIDENT",
+    "year": "2012",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "Mitt Romney / Paul Ryan (R)",
+    "dem_votes": 9688,
+    "rep_votes": 5164,
+    "other_votes": 134,
+    "total_votes": 14986,
+    "all_parties": {
+      "REP": 5164,
+      "LIB": 35,
+      "DEM": 9688,
+      "CON": 55,
+      "GRN": 44
+    },
+    "county_fips": "45065",
+    "two_party_total": 14852,
+    "margin": 4524,
+    "margin_pct": 30.460544034473468,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "PRESIDENT",
+    "year": "2012",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "Mitt Romney / Paul Ryan (R)",
+    "dem_votes": 2653,
+    "rep_votes": 2467,
+    "other_votes": 40,
+    "total_votes": 5160,
+    "all_parties": {
+      "REP": 2467,
+      "LIB": 21,
+      "DEM": 2653,
+      "CON": 7,
+      "GRN": 12
+    },
+    "county_fips": "45069",
+    "two_party_total": 5120,
+    "margin": 186,
+    "margin_pct": 3.6328125000000004,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
     }
   }
 }

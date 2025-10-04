@@ -296,33 +296,6 @@
       "color": "#a50f15"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2014",
-    "dem_candidate": "Tom Thompson (D)",
-    "rep_candidate": "Molly Mitchell Spearman (R)",
-    "dem_votes": 4659,
-    "rep_votes": 5109,
-    "other_votes": 359,
-    "total_votes": 10127,
-    "all_parties": {
-      "DEM": 4659,
-      "REP": 5109,
-      "AMR": 347,
-      "NON": 12
-    },
-    "county_fips": "45025",
-    "two_party_total": 9768,
-    "margin": 450,
-    "margin_pct": 4.606879606879607,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Republican",
-      "color": "#fc9272"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",
@@ -348,6 +321,33 @@
       "category": "Tossup",
       "party": "Democratic",
       "color": "#f7fbff"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2014",
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 4659,
+    "rep_votes": 5109,
+    "other_votes": 359,
+    "total_votes": 10127,
+    "all_parties": {
+      "DEM": 4659,
+      "REP": 5109,
+      "AMR": 347,
+      "NON": 12
+    },
+    "county_fips": "45025",
+    "two_party_total": 9768,
+    "margin": 450,
+    "margin_pct": 4.606879606879607,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
     }
   },
   "45027": {
@@ -863,87 +863,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2014",
-    "dem_candidate": "Tom Thompson (D)",
-    "rep_candidate": "Molly Mitchell Spearman (R)",
-    "dem_votes": 5514,
-    "rep_votes": 2984,
-    "other_votes": 192,
-    "total_votes": 8690,
-    "all_parties": {
-      "DEM": 5514,
-      "REP": 2984,
-      "AMR": 188,
-      "NON": 4
-    },
-    "county_fips": "45065",
-    "two_party_total": 8498,
-    "margin": 2530,
-    "margin_pct": 29.771710990821372,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2014",
-    "dem_candidate": "Tom Thompson (D)",
-    "rep_candidate": "Molly Mitchell Spearman (R)",
-    "dem_votes": 3912,
-    "rep_votes": 2108,
-    "other_votes": 151,
-    "total_votes": 6171,
-    "all_parties": {
-      "DEM": 3912,
-      "REP": 2108,
-      "AMR": 147,
-      "NON": 4
-    },
-    "county_fips": "45067",
-    "two_party_total": 6020,
-    "margin": 1804,
-    "margin_pct": 29.966777408637874,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2014",
-    "dem_candidate": "Tom Thompson (D)",
-    "rep_candidate": "Molly Mitchell Spearman (R)",
-    "dem_votes": 1578,
-    "rep_votes": 1905,
-    "other_votes": 93,
-    "total_votes": 3576,
-    "all_parties": {
-      "DEM": 1578,
-      "REP": 1905,
-      "AMR": 92,
-      "NON": 1
-    },
-    "county_fips": "45069",
-    "two_party_total": 3483,
-    "margin": 327,
-    "margin_pct": 9.388458225667529,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#fb6a4a"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",
@@ -1239,6 +1158,60 @@
       "category": "Dominant",
       "party": "Republican",
       "color": "#a50f15"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2014",
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 5514,
+    "rep_votes": 2984,
+    "other_votes": 192,
+    "total_votes": 8690,
+    "all_parties": {
+      "DEM": 5514,
+      "REP": 2984,
+      "AMR": 188,
+      "NON": 4
+    },
+    "county_fips": "45065",
+    "two_party_total": 8498,
+    "margin": 2530,
+    "margin_pct": 29.771710990821372,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2014",
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 1578,
+    "rep_votes": 1905,
+    "other_votes": 93,
+    "total_votes": 3576,
+    "all_parties": {
+      "DEM": 1578,
+      "REP": 1905,
+      "AMR": 92,
+      "NON": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 3483,
+    "margin": 327,
+    "margin_pct": 9.388458225667529,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
     }
   }
 }

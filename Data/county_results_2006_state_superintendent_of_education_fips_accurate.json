@@ -959,96 +959,6 @@
       "color": "#fc9272"
     }
   },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2006",
-    "dem_candidate": "Jim Rex (D)",
-    "rep_candidate": "Karen Floyd (R)",
-    "dem_votes": 1717,
-    "rep_votes": 1415,
-    "other_votes": 135,
-    "total_votes": 3267,
-    "all_parties": {
-      "INDEPENDENCE PARTY O": 58,
-      "GREEN": 24,
-      "REPUBLICAN": 1415,
-      "LIBERTARIAN": 42,
-      "DEMOCRAT": 1717,
-      "CONSTITUTION": 11,
-      "": 0
-    },
-    "county_fips": "45069",
-    "two_party_total": 3132,
-    "margin": 302,
-    "margin_pct": 9.642401021711366,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
-    }
-  },
-  "45065": {
-    "county": "MARION",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2006",
-    "dem_candidate": "Jim Rex (D)",
-    "rep_candidate": "Karen Floyd (R)",
-    "dem_votes": 4634,
-    "rep_votes": 2400,
-    "other_votes": 244,
-    "total_votes": 7278,
-    "all_parties": {
-      "INDEPENDENCE PARTY O": 89,
-      "GREEN": 34,
-      "REPUBLICAN": 2400,
-      "LIBERTARIAN": 79,
-      "DEMOCRAT": 4634,
-      "CONSTITUTION": 41,
-      "": 1
-    },
-    "county_fips": "45065",
-    "two_party_total": 7034,
-    "margin": 2234,
-    "margin_pct": 31.760022746659082,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Dominant",
-      "party": "Democratic",
-      "color": "#2171b5"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2006",
-    "dem_candidate": "Jim Rex (D)",
-    "rep_candidate": "Karen Floyd (R)",
-    "dem_votes": 3381,
-    "rep_votes": 1682,
-    "other_votes": 230,
-    "total_votes": 5293,
-    "all_parties": {
-      "INDEPENDENCE PARTY O": 92,
-      "GREEN": 31,
-      "REPUBLICAN": 1682,
-      "LIBERTARIAN": 60,
-      "DEMOCRAT": 3381,
-      "CONSTITUTION": 45,
-      "": 2
-    },
-    "county_fips": "45067",
-    "two_party_total": 5063,
-    "margin": 1699,
-    "margin_pct": 33.55717953782342,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Dominant",
-      "party": "Democratic",
-      "color": "#2171b5"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",
@@ -1377,6 +1287,66 @@
       "category": "Safe",
       "party": "Republican",
       "color": "#ef3b2c"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 4634,
+    "rep_votes": 2400,
+    "other_votes": 244,
+    "total_votes": 7278,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 89,
+      "GREEN": 34,
+      "REPUBLICAN": 2400,
+      "LIBERTARIAN": 79,
+      "DEMOCRAT": 4634,
+      "CONSTITUTION": 41,
+      "": 1
+    },
+    "county_fips": "45065",
+    "two_party_total": 7034,
+    "margin": 2234,
+    "margin_pct": 31.760022746659082,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 1717,
+    "rep_votes": 1415,
+    "other_votes": 135,
+    "total_votes": 3267,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 58,
+      "GREEN": 24,
+      "REPUBLICAN": 1415,
+      "LIBERTARIAN": 42,
+      "DEMOCRAT": 1717,
+      "CONSTITUTION": 11,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3132,
+    "margin": 302,
+    "margin_pct": 9.642401021711366,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
     }
   }
 }

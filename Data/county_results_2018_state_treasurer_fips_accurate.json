@@ -895,90 +895,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "STATE TREASURER",
-    "year": "2018",
-    "dem_candidate": "Rosalyn L Glenn (D)",
-    "rep_candidate": "Curtis Loftis (R)",
-    "dem_votes": 6274,
-    "rep_votes": 3920,
-    "other_votes": 245,
-    "total_votes": 10439,
-    "all_parties": {
-      "DEM": 6274,
-      "WFM": 163,
-      "REP": 3920,
-      "AMR": 80,
-      "NON": 2
-    },
-    "county_fips": "45065",
-    "two_party_total": 10194,
-    "margin": 2354,
-    "margin_pct": 23.092014910731802,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "STATE TREASURER",
-    "year": "2018",
-    "dem_candidate": "Rosalyn L Glenn (D)",
-    "rep_candidate": "Curtis Loftis (R)",
-    "dem_votes": 4373,
-    "rep_votes": 3018,
-    "other_votes": 290,
-    "total_votes": 7681,
-    "all_parties": {
-      "DEM": 4373,
-      "WFM": 184,
-      "REP": 3018,
-      "AMR": 104,
-      "NON": 2
-    },
-    "county_fips": "45067",
-    "two_party_total": 7391,
-    "margin": 1355,
-    "margin_pct": 18.333107833851983,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "STATE TREASURER",
-    "year": "2018",
-    "dem_candidate": "Rosalyn L Glenn (D)",
-    "rep_candidate": "Curtis Loftis (R)",
-    "dem_votes": 2024,
-    "rep_votes": 2300,
-    "other_votes": 83,
-    "total_votes": 4407,
-    "all_parties": {
-      "DEM": 2024,
-      "WFM": 52,
-      "REP": 2300,
-      "AMR": 31,
-      "NON": 0
-    },
-    "county_fips": "45069",
-    "two_party_total": 4324,
-    "margin": 276,
-    "margin_pct": 6.382978723404255,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#fb6a4a"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "STATE TREASURER",
@@ -1285,6 +1201,62 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE TREASURER",
+    "year": "2018",
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 6274,
+    "rep_votes": 3920,
+    "other_votes": 245,
+    "total_votes": 10439,
+    "all_parties": {
+      "DEM": 6274,
+      "WFM": 163,
+      "REP": 3920,
+      "AMR": 80,
+      "NON": 2
+    },
+    "county_fips": "45065",
+    "two_party_total": 10194,
+    "margin": 2354,
+    "margin_pct": 23.092014910731802,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE TREASURER",
+    "year": "2018",
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 2024,
+    "rep_votes": 2300,
+    "other_votes": 83,
+    "total_votes": 4407,
+    "all_parties": {
+      "DEM": 2024,
+      "WFM": 52,
+      "REP": 2300,
+      "AMR": 31,
+      "NON": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 4324,
+    "margin": 276,
+    "margin_pct": 6.382978723404255,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
     }
   }
 }

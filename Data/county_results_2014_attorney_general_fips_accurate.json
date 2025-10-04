@@ -285,32 +285,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "ATTORNEY GENERAL",
-    "year": "2014",
-    "dem_candidate": "Parnell Diggs (D)",
-    "rep_candidate": "Alan Wilson (R)",
-    "dem_votes": 4519,
-    "rep_votes": 5586,
-    "other_votes": 4,
-    "total_votes": 10109,
-    "all_parties": {
-      "DEM": 4519,
-      "REP": 5586,
-      "NON": 4
-    },
-    "county_fips": "45025",
-    "two_party_total": 10105,
-    "margin": 1067,
-    "margin_pct": 10.559129143988125,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "ATTORNEY GENERAL",
@@ -335,6 +309,32 @@
       "category": "Lean",
       "party": "Republican",
       "color": "#fc9272"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2014",
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4519,
+    "rep_votes": 5586,
+    "other_votes": 4,
+    "total_votes": 10109,
+    "all_parties": {
+      "DEM": 4519,
+      "REP": 5586,
+      "NON": 4
+    },
+    "county_fips": "45025",
+    "two_party_total": 10105,
+    "margin": 1067,
+    "margin_pct": 10.559129143988125,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
     }
   },
   "45027": {
@@ -831,84 +831,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "ATTORNEY GENERAL",
-    "year": "2014",
-    "dem_candidate": "Parnell Diggs (D)",
-    "rep_candidate": "Alan Wilson (R)",
-    "dem_votes": 5497,
-    "rep_votes": 3171,
-    "other_votes": 4,
-    "total_votes": 8672,
-    "all_parties": {
-      "DEM": 5497,
-      "REP": 3171,
-      "NON": 4
-    },
-    "county_fips": "45065",
-    "two_party_total": 8668,
-    "margin": 2326,
-    "margin_pct": 26.834333179510843,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "ATTORNEY GENERAL",
-    "year": "2014",
-    "dem_candidate": "Parnell Diggs (D)",
-    "rep_candidate": "Alan Wilson (R)",
-    "dem_votes": 3765,
-    "rep_votes": 2358,
-    "other_votes": 6,
-    "total_votes": 6129,
-    "all_parties": {
-      "DEM": 3765,
-      "REP": 2358,
-      "NON": 6
-    },
-    "county_fips": "45067",
-    "two_party_total": 6123,
-    "margin": 1407,
-    "margin_pct": 22.97893189612935,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "ATTORNEY GENERAL",
-    "year": "2014",
-    "dem_candidate": "Parnell Diggs (D)",
-    "rep_candidate": "Alan Wilson (R)",
-    "dem_votes": 1610,
-    "rep_votes": 1958,
-    "other_votes": 1,
-    "total_votes": 3569,
-    "all_parties": {
-      "DEM": 1610,
-      "REP": 1958,
-      "NON": 1
-    },
-    "county_fips": "45069",
-    "two_party_total": 3568,
-    "margin": 348,
-    "margin_pct": 9.753363228699552,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#fb6a4a"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "ATTORNEY GENERAL",
@@ -1193,6 +1115,58 @@
       "category": "Dominant",
       "party": "Republican",
       "color": "#a50f15"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2014",
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 5497,
+    "rep_votes": 3171,
+    "other_votes": 4,
+    "total_votes": 8672,
+    "all_parties": {
+      "DEM": 5497,
+      "REP": 3171,
+      "NON": 4
+    },
+    "county_fips": "45065",
+    "two_party_total": 8668,
+    "margin": 2326,
+    "margin_pct": 26.834333179510843,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2014",
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 1610,
+    "rep_votes": 1958,
+    "other_votes": 1,
+    "total_votes": 3569,
+    "all_parties": {
+      "DEM": 1610,
+      "REP": 1958,
+      "NON": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 3568,
+    "margin": 348,
+    "margin_pct": 9.753363228699552,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
     }
   }
 }

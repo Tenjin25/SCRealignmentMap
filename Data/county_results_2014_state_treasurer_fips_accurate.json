@@ -274,31 +274,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "STATE TREASURER",
-    "year": "2014",
-    "dem_candidate": "",
-    "rep_candidate": "Curtis Loftis (R)",
-    "dem_votes": 0,
-    "rep_votes": 6803,
-    "other_votes": 64,
-    "total_votes": 6867,
-    "all_parties": {
-      "REP": 6803,
-      "NON": 64
-    },
-    "county_fips": "45025",
-    "two_party_total": 6803,
-    "margin": 6803,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "STATE TREASURER",
@@ -316,6 +291,31 @@
     "county_fips": "45023",
     "two_party_total": 5254,
     "margin": 5254,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE TREASURER",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 6803,
+    "other_votes": 64,
+    "total_votes": 6867,
+    "all_parties": {
+      "REP": 6803,
+      "NON": 64
+    },
+    "county_fips": "45025",
+    "two_party_total": 6803,
+    "margin": 6803,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {
@@ -799,81 +799,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "STATE TREASURER",
-    "year": "2014",
-    "dem_candidate": "",
-    "rep_candidate": "Curtis Loftis (R)",
-    "dem_votes": 0,
-    "rep_votes": 3970,
-    "other_votes": 47,
-    "total_votes": 4017,
-    "all_parties": {
-      "REP": 3970,
-      "NON": 47
-    },
-    "county_fips": "45065",
-    "two_party_total": 3970,
-    "margin": 3970,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "STATE TREASURER",
-    "year": "2014",
-    "dem_candidate": "",
-    "rep_candidate": "Curtis Loftis (R)",
-    "dem_votes": 0,
-    "rep_votes": 3129,
-    "other_votes": 46,
-    "total_votes": 3175,
-    "all_parties": {
-      "REP": 3129,
-      "NON": 46
-    },
-    "county_fips": "45067",
-    "two_party_total": 3129,
-    "margin": 3129,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "STATE TREASURER",
-    "year": "2014",
-    "dem_candidate": "",
-    "rep_candidate": "Curtis Loftis (R)",
-    "dem_votes": 0,
-    "rep_votes": 2219,
-    "other_votes": 10,
-    "total_votes": 2229,
-    "all_parties": {
-      "REP": 2219,
-      "NON": 10
-    },
-    "county_fips": "45069",
-    "two_party_total": 2219,
-    "margin": 2219,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "STATE TREASURER",
@@ -1141,6 +1066,56 @@
     "county_fips": "45091",
     "two_party_total": 43577,
     "margin": 43577,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE TREASURER",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 3970,
+    "other_votes": 47,
+    "total_votes": 4017,
+    "all_parties": {
+      "REP": 3970,
+      "NON": 47
+    },
+    "county_fips": "45065",
+    "two_party_total": 3970,
+    "margin": 3970,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE TREASURER",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 2219,
+    "other_votes": 10,
+    "total_votes": 2229,
+    "all_parties": {
+      "REP": 2219,
+      "NON": 10
+    },
+    "county_fips": "45069",
+    "two_party_total": 2219,
+    "margin": 2219,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {

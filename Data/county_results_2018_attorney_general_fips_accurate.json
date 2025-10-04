@@ -863,87 +863,6 @@
       "color": "#a50f15"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "ATTORNEY GENERAL",
-    "year": "2018",
-    "dem_candidate": "Constance Anastopoulo (D)",
-    "rep_candidate": "Alan Wilson (R)",
-    "dem_votes": 6329,
-    "rep_votes": 3906,
-    "other_votes": 194,
-    "total_votes": 10429,
-    "all_parties": {
-      "DEM": 6329,
-      "WFM": 191,
-      "REP": 3906,
-      "NON": 3
-    },
-    "county_fips": "45065",
-    "two_party_total": 10235,
-    "margin": 2423,
-    "margin_pct": 23.673668783585736,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "ATTORNEY GENERAL",
-    "year": "2018",
-    "dem_candidate": "Constance Anastopoulo (D)",
-    "rep_candidate": "Alan Wilson (R)",
-    "dem_votes": 4410,
-    "rep_votes": 3061,
-    "other_votes": 225,
-    "total_votes": 7696,
-    "all_parties": {
-      "DEM": 4410,
-      "WFM": 222,
-      "REP": 3061,
-      "NON": 3
-    },
-    "county_fips": "45067",
-    "two_party_total": 7471,
-    "margin": 1349,
-    "margin_pct": 18.05648507562575,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "ATTORNEY GENERAL",
-    "year": "2018",
-    "dem_candidate": "Constance Anastopoulo (D)",
-    "rep_candidate": "Alan Wilson (R)",
-    "dem_votes": 2041,
-    "rep_votes": 2310,
-    "other_votes": 48,
-    "total_votes": 4399,
-    "all_parties": {
-      "DEM": 2041,
-      "WFM": 48,
-      "REP": 2310,
-      "NON": 0
-    },
-    "county_fips": "45069",
-    "two_party_total": 4351,
-    "margin": 269,
-    "margin_pct": 6.182486784647208,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#fb6a4a"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "ATTORNEY GENERAL",
@@ -1239,6 +1158,60 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 6329,
+    "rep_votes": 3906,
+    "other_votes": 194,
+    "total_votes": 10429,
+    "all_parties": {
+      "DEM": 6329,
+      "WFM": 191,
+      "REP": 3906,
+      "NON": 3
+    },
+    "county_fips": "45065",
+    "two_party_total": 10235,
+    "margin": 2423,
+    "margin_pct": 23.673668783585736,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 2041,
+    "rep_votes": 2310,
+    "other_votes": 48,
+    "total_votes": 4399,
+    "all_parties": {
+      "DEM": 2041,
+      "WFM": 48,
+      "REP": 2310,
+      "NON": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 4351,
+    "margin": 269,
+    "margin_pct": 6.182486784647208,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
     }
   }
 }

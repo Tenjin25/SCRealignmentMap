@@ -831,84 +831,6 @@
       "color": "#ef3b2c"
     }
   },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "LIEUTENANT GOVERNOR",
-    "year": "2006",
-    "dem_candidate": "Robert Barber (D)",
-    "rep_candidate": "Andre Bauer (R)",
-    "dem_votes": 1915,
-    "rep_votes": 1353,
-    "other_votes": 0,
-    "total_votes": 3268,
-    "all_parties": {
-      "REPUBLICAN": 1353,
-      "DEMOCRAT": 1915,
-      "": 0
-    },
-    "county_fips": "45069",
-    "two_party_total": 3268,
-    "margin": 562,
-    "margin_pct": 17.19706242350061,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45065": {
-    "county": "MARION",
-    "contest": "LIEUTENANT GOVERNOR",
-    "year": "2006",
-    "dem_candidate": "Robert Barber (D)",
-    "rep_candidate": "Andre Bauer (R)",
-    "dem_votes": 4587,
-    "rep_votes": 2739,
-    "other_votes": 4,
-    "total_votes": 7330,
-    "all_parties": {
-      "REPUBLICAN": 2739,
-      "DEMOCRAT": 4587,
-      "": 4
-    },
-    "county_fips": "45065",
-    "two_party_total": 7326,
-    "margin": 1848,
-    "margin_pct": 25.225225225225223,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "LIEUTENANT GOVERNOR",
-    "year": "2006",
-    "dem_candidate": "Robert Barber (D)",
-    "rep_candidate": "Andre Bauer (R)",
-    "dem_votes": 3618,
-    "rep_votes": 1733,
-    "other_votes": 8,
-    "total_votes": 5359,
-    "all_parties": {
-      "REPUBLICAN": 1733,
-      "DEMOCRAT": 3618,
-      "": 8
-    },
-    "county_fips": "45067",
-    "two_party_total": 5351,
-    "margin": 1885,
-    "margin_pct": 35.227060362549054,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Dominant",
-      "party": "Democratic",
-      "color": "#2171b5"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "LIEUTENANT GOVERNOR",
@@ -1193,6 +1115,58 @@
       "category": "Safe",
       "party": "Republican",
       "color": "#ef3b2c"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 4587,
+    "rep_votes": 2739,
+    "other_votes": 4,
+    "total_votes": 7330,
+    "all_parties": {
+      "REPUBLICAN": 2739,
+      "DEMOCRAT": 4587,
+      "": 4
+    },
+    "county_fips": "45065",
+    "two_party_total": 7326,
+    "margin": 1848,
+    "margin_pct": 25.225225225225223,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 1915,
+    "rep_votes": 1353,
+    "other_votes": 0,
+    "total_votes": 3268,
+    "all_parties": {
+      "REPUBLICAN": 1353,
+      "DEMOCRAT": 1915,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3268,
+    "margin": 562,
+    "margin_pct": 17.19706242350061,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
     }
   }
 }

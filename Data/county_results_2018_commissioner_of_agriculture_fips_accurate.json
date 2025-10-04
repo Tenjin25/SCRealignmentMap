@@ -863,87 +863,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2018",
-    "dem_candidate": "",
-    "rep_candidate": "Hugh Weathers (R)",
-    "dem_votes": 0,
-    "rep_votes": 4247,
-    "other_votes": 1690,
-    "total_votes": 5937,
-    "all_parties": {
-      "UNC": 932,
-      "GRN": 720,
-      "REP": 4247,
-      "NON": 38
-    },
-    "county_fips": "45065",
-    "two_party_total": 4247,
-    "margin": 4247,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2018",
-    "dem_candidate": "",
-    "rep_candidate": "Hugh Weathers (R)",
-    "dem_votes": 0,
-    "rep_votes": 3420,
-    "other_votes": 1653,
-    "total_votes": 5073,
-    "all_parties": {
-      "UNC": 990,
-      "GRN": 651,
-      "REP": 3420,
-      "NON": 12
-    },
-    "county_fips": "45067",
-    "two_party_total": 3420,
-    "margin": 3420,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2018",
-    "dem_candidate": "",
-    "rep_candidate": "Hugh Weathers (R)",
-    "dem_votes": 0,
-    "rep_votes": 2397,
-    "other_votes": 768,
-    "total_votes": 3165,
-    "all_parties": {
-      "UNC": 351,
-      "GRN": 412,
-      "REP": 2397,
-      "NON": 5
-    },
-    "county_fips": "45069",
-    "two_party_total": 2397,
-    "margin": 2397,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "COMMISSIONER OF AGRICULTURE",
@@ -1233,6 +1152,60 @@
     "county_fips": "45091",
     "two_party_total": 58637,
     "margin": 58637,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4247,
+    "other_votes": 1690,
+    "total_votes": 5937,
+    "all_parties": {
+      "UNC": 932,
+      "GRN": 720,
+      "REP": 4247,
+      "NON": 38
+    },
+    "county_fips": "45065",
+    "two_party_total": 4247,
+    "margin": 4247,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 2397,
+    "other_votes": 768,
+    "total_votes": 3165,
+    "all_parties": {
+      "UNC": 351,
+      "GRN": 412,
+      "REP": 2397,
+      "NON": 5
+    },
+    "county_fips": "45069",
+    "two_party_total": 2397,
+    "margin": 2397,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {

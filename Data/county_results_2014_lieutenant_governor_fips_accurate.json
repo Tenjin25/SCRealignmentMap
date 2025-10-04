@@ -285,32 +285,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "LIEUTENANT GOVERNOR",
-    "year": "2014",
-    "dem_candidate": "Bakari Sellers (D)",
-    "rep_candidate": "Henry McMaster (R)",
-    "dem_votes": 4463,
-    "rep_votes": 5709,
-    "other_votes": 9,
-    "total_votes": 10181,
-    "all_parties": {
-      "DEM": 4463,
-      "REP": 5709,
-      "NON": 9
-    },
-    "county_fips": "45025",
-    "two_party_total": 10172,
-    "margin": 1246,
-    "margin_pct": 12.249311836413684,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "LIEUTENANT GOVERNOR",
@@ -335,6 +309,32 @@
       "category": "Likely",
       "party": "Republican",
       "color": "#fb6a4a"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 4463,
+    "rep_votes": 5709,
+    "other_votes": 9,
+    "total_votes": 10181,
+    "all_parties": {
+      "DEM": 4463,
+      "REP": 5709,
+      "NON": 9
+    },
+    "county_fips": "45025",
+    "two_party_total": 10172,
+    "margin": 1246,
+    "margin_pct": 12.249311836413684,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
     }
   },
   "45027": {
@@ -831,84 +831,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "LIEUTENANT GOVERNOR",
-    "year": "2014",
-    "dem_candidate": "Bakari Sellers (D)",
-    "rep_candidate": "Henry McMaster (R)",
-    "dem_votes": 5603,
-    "rep_votes": 3129,
-    "other_votes": 6,
-    "total_votes": 8738,
-    "all_parties": {
-      "DEM": 5603,
-      "REP": 3129,
-      "NON": 6
-    },
-    "county_fips": "45065",
-    "two_party_total": 8732,
-    "margin": 2474,
-    "margin_pct": 28.33256985799359,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "LIEUTENANT GOVERNOR",
-    "year": "2014",
-    "dem_candidate": "Bakari Sellers (D)",
-    "rep_candidate": "Henry McMaster (R)",
-    "dem_votes": 3814,
-    "rep_votes": 2376,
-    "other_votes": 2,
-    "total_votes": 6192,
-    "all_parties": {
-      "DEM": 3814,
-      "REP": 2376,
-      "NON": 2
-    },
-    "county_fips": "45067",
-    "two_party_total": 6190,
-    "margin": 1438,
-    "margin_pct": 23.231017770597738,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "LIEUTENANT GOVERNOR",
-    "year": "2014",
-    "dem_candidate": "Bakari Sellers (D)",
-    "rep_candidate": "Henry McMaster (R)",
-    "dem_votes": 1604,
-    "rep_votes": 1980,
-    "other_votes": 1,
-    "total_votes": 3585,
-    "all_parties": {
-      "DEM": 1604,
-      "REP": 1980,
-      "NON": 1
-    },
-    "county_fips": "45069",
-    "two_party_total": 3584,
-    "margin": 376,
-    "margin_pct": 10.491071428571429,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "LIEUTENANT GOVERNOR",
@@ -1193,6 +1115,58 @@
       "category": "Dominant",
       "party": "Republican",
       "color": "#a50f15"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 5603,
+    "rep_votes": 3129,
+    "other_votes": 6,
+    "total_votes": 8738,
+    "all_parties": {
+      "DEM": 5603,
+      "REP": 3129,
+      "NON": 6
+    },
+    "county_fips": "45065",
+    "two_party_total": 8732,
+    "margin": 2474,
+    "margin_pct": 28.33256985799359,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Bakari Sellers (D)",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 1604,
+    "rep_votes": 1980,
+    "other_votes": 1,
+    "total_votes": 3585,
+    "all_parties": {
+      "DEM": 1604,
+      "REP": 1980,
+      "NON": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 3584,
+    "margin": 376,
+    "margin_pct": 10.491071428571429,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
     }
   }
 }

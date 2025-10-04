@@ -831,84 +831,6 @@
       "color": "#67000d"
     }
   },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2006",
-    "dem_candidate": "Emile DeFelice (D)",
-    "rep_candidate": "Hugh Weathers (R)",
-    "dem_votes": 1647,
-    "rep_votes": 1557,
-    "other_votes": 1,
-    "total_votes": 3205,
-    "all_parties": {
-      "REPUBLICAN": 1557,
-      "DEMOCRAT": 1647,
-      "": 1
-    },
-    "county_fips": "45069",
-    "two_party_total": 3204,
-    "margin": 90,
-    "margin_pct": 2.8089887640449436,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Lean",
-      "party": "Democratic",
-      "color": "#c6dbef"
-    }
-  },
-  "45065": {
-    "county": "MARION",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2006",
-    "dem_candidate": "Emile DeFelice (D)",
-    "rep_candidate": "Hugh Weathers (R)",
-    "dem_votes": 3984,
-    "rep_votes": 3256,
-    "other_votes": 0,
-    "total_votes": 7240,
-    "all_parties": {
-      "REPUBLICAN": 3256,
-      "DEMOCRAT": 3984,
-      "": 0
-    },
-    "county_fips": "45065",
-    "two_party_total": 7240,
-    "margin": 728,
-    "margin_pct": 10.05524861878453,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2006",
-    "dem_candidate": "Emile DeFelice (D)",
-    "rep_candidate": "Hugh Weathers (R)",
-    "dem_votes": 3117,
-    "rep_votes": 2140,
-    "other_votes": 1,
-    "total_votes": 5258,
-    "all_parties": {
-      "REPUBLICAN": 2140,
-      "DEMOCRAT": 3117,
-      "": 1
-    },
-    "county_fips": "45067",
-    "two_party_total": 5257,
-    "margin": 977,
-    "margin_pct": 18.584744150656267,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "COMMISSIONER OF AGRICULTURE",
@@ -1193,6 +1115,58 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2006",
+    "dem_candidate": "Emile DeFelice (D)",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 3984,
+    "rep_votes": 3256,
+    "other_votes": 0,
+    "total_votes": 7240,
+    "all_parties": {
+      "REPUBLICAN": 3256,
+      "DEMOCRAT": 3984,
+      "": 0
+    },
+    "county_fips": "45065",
+    "two_party_total": 7240,
+    "margin": 728,
+    "margin_pct": 10.05524861878453,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2006",
+    "dem_candidate": "Emile DeFelice (D)",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 1647,
+    "rep_votes": 1557,
+    "other_votes": 1,
+    "total_votes": 3205,
+    "all_parties": {
+      "REPUBLICAN": 1557,
+      "DEMOCRAT": 1647,
+      "": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 3204,
+    "margin": 90,
+    "margin_pct": 2.8089887640449436,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
     }
   }
 }

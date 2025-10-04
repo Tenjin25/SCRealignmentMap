@@ -799,81 +799,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2018",
-    "dem_candidate": "",
-    "rep_candidate": "Molly Mitchell Spearman (R)",
-    "dem_votes": 0,
-    "rep_votes": 4104,
-    "other_votes": 16,
-    "total_votes": 4120,
-    "all_parties": {
-      "REP": 4104,
-      "NON": 16
-    },
-    "county_fips": "45065",
-    "two_party_total": 4104,
-    "margin": 4104,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2018",
-    "dem_candidate": "",
-    "rep_candidate": "Molly Mitchell Spearman (R)",
-    "dem_votes": 0,
-    "rep_votes": 3277,
-    "other_votes": 7,
-    "total_votes": 3284,
-    "all_parties": {
-      "REP": 3277,
-      "NON": 7
-    },
-    "county_fips": "45067",
-    "two_party_total": 3277,
-    "margin": 3277,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "STATE SUPERINTENDENT OF EDUCATION",
-    "year": "2018",
-    "dem_candidate": "",
-    "rep_candidate": "Molly Mitchell Spearman (R)",
-    "dem_votes": 0,
-    "rep_votes": 2415,
-    "other_votes": 2,
-    "total_votes": 2417,
-    "all_parties": {
-      "REP": 2415,
-      "NON": 2
-    },
-    "county_fips": "45069",
-    "two_party_total": 2415,
-    "margin": 2415,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",
@@ -1141,6 +1066,56 @@
     "county_fips": "45091",
     "two_party_total": 59297,
     "margin": 59297,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 4104,
+    "other_votes": 16,
+    "total_votes": 4120,
+    "all_parties": {
+      "REP": 4104,
+      "NON": 16
+    },
+    "county_fips": "45065",
+    "two_party_total": 4104,
+    "margin": 4104,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 2415,
+    "other_votes": 2,
+    "total_votes": 2417,
+    "all_parties": {
+      "REP": 2415,
+      "NON": 2
+    },
+    "county_fips": "45069",
+    "two_party_total": 2415,
+    "margin": 2415,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {

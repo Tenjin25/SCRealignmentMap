@@ -296,33 +296,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Hugh Weathers (R)",
-    "dem_votes": 0,
-    "rep_votes": 8381,
-    "other_votes": 1629,
-    "total_votes": 10010,
-    "all_parties": {
-      "UNC": 724,
-      "GRN": 881,
-      "REP": 8381,
-      "NON": 24
-    },
-    "county_fips": "45025",
-    "two_party_total": 8381,
-    "margin": 8381,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "COMMISSIONER OF AGRICULTURE",
@@ -342,6 +315,33 @@
     "county_fips": "45023",
     "two_party_total": 6048,
     "margin": 6048,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 8381,
+    "other_votes": 1629,
+    "total_votes": 10010,
+    "all_parties": {
+      "UNC": 724,
+      "GRN": 881,
+      "REP": 8381,
+      "NON": 24
+    },
+    "county_fips": "45025",
+    "two_party_total": 8381,
+    "margin": 8381,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {
@@ -863,87 +863,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Hugh Weathers (R)",
-    "dem_votes": 0,
-    "rep_votes": 4147,
-    "other_votes": 1436,
-    "total_votes": 5583,
-    "all_parties": {
-      "UNC": 612,
-      "GRN": 802,
-      "REP": 4147,
-      "NON": 22
-    },
-    "county_fips": "45065",
-    "two_party_total": 4147,
-    "margin": 4147,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Hugh Weathers (R)",
-    "dem_votes": 0,
-    "rep_votes": 3375,
-    "other_votes": 1099,
-    "total_votes": 4474,
-    "all_parties": {
-      "UNC": 496,
-      "GRN": 594,
-      "REP": 3375,
-      "NON": 9
-    },
-    "county_fips": "45067",
-    "two_party_total": 3375,
-    "margin": 3375,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "COMMISSIONER OF AGRICULTURE",
-    "year": "2022",
-    "dem_candidate": "",
-    "rep_candidate": "REP Hugh Weathers (R)",
-    "dem_votes": 0,
-    "rep_votes": 2798,
-    "other_votes": 650,
-    "total_votes": 3448,
-    "all_parties": {
-      "UNC": 217,
-      "GRN": 426,
-      "REP": 2798,
-      "NON": 7
-    },
-    "county_fips": "45069",
-    "two_party_total": 2798,
-    "margin": 2798,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "COMMISSIONER OF AGRICULTURE",
@@ -1233,6 +1152,60 @@
     "county_fips": "45091",
     "two_party_total": 62542,
     "margin": 62542,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 4147,
+    "other_votes": 1436,
+    "total_votes": 5583,
+    "all_parties": {
+      "UNC": 612,
+      "GRN": 802,
+      "REP": 4147,
+      "NON": 22
+    },
+    "county_fips": "45065",
+    "two_party_total": 4147,
+    "margin": 4147,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 2798,
+    "other_votes": 650,
+    "total_votes": 3448,
+    "all_parties": {
+      "UNC": 217,
+      "GRN": 426,
+      "REP": 2798,
+      "NON": 7
+    },
+    "county_fips": "45069",
+    "two_party_total": 2798,
+    "margin": 2798,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {

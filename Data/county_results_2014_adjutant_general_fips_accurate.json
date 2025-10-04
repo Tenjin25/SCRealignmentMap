@@ -274,31 +274,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "ADJUTANT GENERAL",
-    "year": "2014",
-    "dem_candidate": "",
-    "rep_candidate": "Bob Livingston (R)",
-    "dem_votes": 0,
-    "rep_votes": 6795,
-    "other_votes": 57,
-    "total_votes": 6852,
-    "all_parties": {
-      "REP": 6795,
-      "NON": 57
-    },
-    "county_fips": "45025",
-    "two_party_total": 6795,
-    "margin": 6795,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "ADJUTANT GENERAL",
@@ -316,6 +291,31 @@
     "county_fips": "45023",
     "two_party_total": 5235,
     "margin": 5235,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "ADJUTANT GENERAL",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 6795,
+    "other_votes": 57,
+    "total_votes": 6852,
+    "all_parties": {
+      "REP": 6795,
+      "NON": 57
+    },
+    "county_fips": "45025",
+    "two_party_total": 6795,
+    "margin": 6795,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {
@@ -799,81 +799,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "ADJUTANT GENERAL",
-    "year": "2014",
-    "dem_candidate": "",
-    "rep_candidate": "Bob Livingston (R)",
-    "dem_votes": 0,
-    "rep_votes": 4027,
-    "other_votes": 44,
-    "total_votes": 4071,
-    "all_parties": {
-      "REP": 4027,
-      "NON": 44
-    },
-    "county_fips": "45065",
-    "two_party_total": 4027,
-    "margin": 4027,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "ADJUTANT GENERAL",
-    "year": "2014",
-    "dem_candidate": "",
-    "rep_candidate": "Bob Livingston (R)",
-    "dem_votes": 0,
-    "rep_votes": 3124,
-    "other_votes": 42,
-    "total_votes": 3166,
-    "all_parties": {
-      "REP": 3124,
-      "NON": 42
-    },
-    "county_fips": "45067",
-    "two_party_total": 3124,
-    "margin": 3124,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "ADJUTANT GENERAL",
-    "year": "2014",
-    "dem_candidate": "",
-    "rep_candidate": "Bob Livingston (R)",
-    "dem_votes": 0,
-    "rep_votes": 2233,
-    "other_votes": 11,
-    "total_votes": 2244,
-    "all_parties": {
-      "REP": 2233,
-      "NON": 11
-    },
-    "county_fips": "45069",
-    "two_party_total": 2233,
-    "margin": 2233,
-    "margin_pct": 100.0,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Republican",
-      "color": "#67000d"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "ADJUTANT GENERAL",
@@ -1141,6 +1066,56 @@
     "county_fips": "45091",
     "two_party_total": 43507,
     "margin": 43507,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "ADJUTANT GENERAL",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 4027,
+    "other_votes": 44,
+    "total_votes": 4071,
+    "all_parties": {
+      "REP": 4027,
+      "NON": 44
+    },
+    "county_fips": "45065",
+    "two_party_total": 4027,
+    "margin": 4027,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "ADJUTANT GENERAL",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 2233,
+    "other_votes": 11,
+    "total_votes": 2244,
+    "all_parties": {
+      "REP": 2233,
+      "NON": 11
+    },
+    "county_fips": "45069",
+    "two_party_total": 2233,
+    "margin": 2233,
     "margin_pct": 100.0,
     "winner": "REP",
     "competitiveness": {

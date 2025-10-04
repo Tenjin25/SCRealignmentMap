@@ -831,84 +831,6 @@
       "color": "#ef3b2c"
     }
   },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "GOVERNOR",
-    "year": "2006",
-    "dem_candidate": "Tommy Moore (D)",
-    "rep_candidate": "Mark Sanford (R)",
-    "dem_votes": 1876,
-    "rep_votes": 1432,
-    "other_votes": 0,
-    "total_votes": 3308,
-    "all_parties": {
-      "REPUBLICAN": 1432,
-      "DEMOCRAT": 1876,
-      "": 0
-    },
-    "county_fips": "45069",
-    "two_party_total": 3308,
-    "margin": 444,
-    "margin_pct": 13.422007255139057,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45065": {
-    "county": "MARION",
-    "contest": "GOVERNOR",
-    "year": "2006",
-    "dem_candidate": "Tommy Moore (D)",
-    "rep_candidate": "Mark Sanford (R)",
-    "dem_votes": 4496,
-    "rep_votes": 2902,
-    "other_votes": 2,
-    "total_votes": 7400,
-    "all_parties": {
-      "REPUBLICAN": 2902,
-      "DEMOCRAT": 4496,
-      "": 2
-    },
-    "county_fips": "45065",
-    "two_party_total": 7398,
-    "margin": 1594,
-    "margin_pct": 21.546363882130308,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "GOVERNOR",
-    "year": "2006",
-    "dem_candidate": "Tommy Moore (D)",
-    "rep_candidate": "Mark Sanford (R)",
-    "dem_votes": 3405,
-    "rep_votes": 1996,
-    "other_votes": 4,
-    "total_votes": 5405,
-    "all_parties": {
-      "REPUBLICAN": 1996,
-      "DEMOCRAT": 3405,
-      "": 4
-    },
-    "county_fips": "45067",
-    "two_party_total": 5401,
-    "margin": 1409,
-    "margin_pct": 26.087761525643398,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "GOVERNOR",
@@ -1193,6 +1115,58 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 4496,
+    "rep_votes": 2902,
+    "other_votes": 2,
+    "total_votes": 7400,
+    "all_parties": {
+      "REPUBLICAN": 2902,
+      "DEMOCRAT": 4496,
+      "": 2
+    },
+    "county_fips": "45065",
+    "two_party_total": 7398,
+    "margin": 1594,
+    "margin_pct": 21.546363882130308,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 1876,
+    "rep_votes": 1432,
+    "other_votes": 0,
+    "total_votes": 3308,
+    "all_parties": {
+      "REPUBLICAN": 1432,
+      "DEMOCRAT": 1876,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3308,
+    "margin": 444,
+    "margin_pct": 13.422007255139057,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
     }
   }
 }

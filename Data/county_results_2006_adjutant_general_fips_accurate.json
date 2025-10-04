@@ -831,84 +831,6 @@
       "color": "#67000d"
     }
   },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "ADJUTANT GENERAL",
-    "year": "2006",
-    "dem_candidate": "Glenn Lindman (D)",
-    "rep_candidate": "Stan Spears (R)",
-    "dem_votes": 1701,
-    "rep_votes": 1517,
-    "other_votes": 0,
-    "total_votes": 3218,
-    "all_parties": {
-      "REPUBLICAN": 1517,
-      "DEMOCRAT": 1701,
-      "": 0
-    },
-    "county_fips": "45069",
-    "two_party_total": 3218,
-    "margin": 184,
-    "margin_pct": 5.717837165941578,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
-    }
-  },
-  "45065": {
-    "county": "MARION",
-    "contest": "ADJUTANT GENERAL",
-    "year": "2006",
-    "dem_candidate": "Glenn Lindman (D)",
-    "rep_candidate": "Stan Spears (R)",
-    "dem_votes": 4118,
-    "rep_votes": 3110,
-    "other_votes": 3,
-    "total_votes": 7231,
-    "all_parties": {
-      "REPUBLICAN": 3110,
-      "DEMOCRAT": 4118,
-      "": 3
-    },
-    "county_fips": "45065",
-    "two_party_total": 7228,
-    "margin": 1008,
-    "margin_pct": 13.945766463752074,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "ADJUTANT GENERAL",
-    "year": "2006",
-    "dem_candidate": "Glenn Lindman (D)",
-    "rep_candidate": "Stan Spears (R)",
-    "dem_votes": 3337,
-    "rep_votes": 1916,
-    "other_votes": 1,
-    "total_votes": 5254,
-    "all_parties": {
-      "REPUBLICAN": 1916,
-      "DEMOCRAT": 3337,
-      "": 1
-    },
-    "county_fips": "45067",
-    "two_party_total": 5253,
-    "margin": 1421,
-    "margin_pct": 27.05120883304778,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "ADJUTANT GENERAL",
@@ -1193,6 +1115,58 @@
       "category": "Stronghold",
       "party": "Republican",
       "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "ADJUTANT GENERAL",
+    "year": "2006",
+    "dem_candidate": "Glenn Lindman (D)",
+    "rep_candidate": "Stan Spears (R)",
+    "dem_votes": 4118,
+    "rep_votes": 3110,
+    "other_votes": 3,
+    "total_votes": 7231,
+    "all_parties": {
+      "REPUBLICAN": 3110,
+      "DEMOCRAT": 4118,
+      "": 3
+    },
+    "county_fips": "45065",
+    "two_party_total": 7228,
+    "margin": 1008,
+    "margin_pct": 13.945766463752074,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "ADJUTANT GENERAL",
+    "year": "2006",
+    "dem_candidate": "Glenn Lindman (D)",
+    "rep_candidate": "Stan Spears (R)",
+    "dem_votes": 1701,
+    "rep_votes": 1517,
+    "other_votes": 0,
+    "total_votes": 3218,
+    "all_parties": {
+      "REPUBLICAN": 1517,
+      "DEMOCRAT": 1701,
+      "": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 3218,
+    "margin": 184,
+    "margin_pct": 5.717837165941578,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
     }
   }
 }

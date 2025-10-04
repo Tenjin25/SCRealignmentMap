@@ -284,32 +284,6 @@
       "color": "#67000d"
     }
   },
-  "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "STATE HOUSE OF REPRESENTATIVES",
-    "year": "2014",
-    "dem_candidate": "Amy M Brown (D)",
-    "rep_candidate": "Richie Yow (R)",
-    "dem_votes": 4177,
-    "rep_votes": 5188,
-    "other_votes": 56,
-    "total_votes": 9421,
-    "all_parties": {
-      "DEM": 4177,
-      "REP": 5188,
-      "NON": 56
-    },
-    "county_fips": "45025",
-    "two_party_total": 9365,
-    "margin": 1011,
-    "margin_pct": 10.795515216230646,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#ef3b2c"
-    }
-  },
   "45023": {
     "county": "CHESTER",
     "contest": "STATE HOUSE OF REPRESENTATIVES",
@@ -334,6 +308,32 @@
       "category": "Annihilation",
       "party": "Republican",
       "color": "#67000d"
+    }
+  },
+  "45025": {
+    "county": "CHESTERFIELD",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Amy M Brown (D)",
+    "rep_candidate": "Richie Yow (R)",
+    "dem_votes": 4177,
+    "rep_votes": 5188,
+    "other_votes": 56,
+    "total_votes": 9421,
+    "all_parties": {
+      "DEM": 4177,
+      "REP": 5188,
+      "NON": 56
+    },
+    "county_fips": "45025",
+    "two_party_total": 9365,
+    "margin": 1011,
+    "margin_pct": 10.795515216230646,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
     }
   },
   "45027": {
@@ -830,83 +830,6 @@
       "color": "#67000d"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "STATE HOUSE OF REPRESENTATIVES",
-    "year": "2014",
-    "dem_candidate": "J Wayne George (D)",
-    "rep_candidate": "Raleigh O Ward Jr (R)",
-    "dem_votes": 7637,
-    "rep_votes": 229,
-    "other_votes": 32,
-    "total_votes": 7898,
-    "all_parties": {
-      "DEM": 7637,
-      "NON": 32,
-      "REP": 229
-    },
-    "county_fips": "45065",
-    "two_party_total": 7866,
-    "margin": 7408,
-    "margin_pct": 94.1774726671752,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Democratic",
-      "color": "#08519c"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "STATE HOUSE OF REPRESENTATIVES",
-    "year": "2014",
-    "dem_candidate": "Patricia M Pat Henegan (D)",
-    "rep_candidate": "",
-    "dem_votes": 5287,
-    "rep_votes": 0,
-    "other_votes": 69,
-    "total_votes": 5356,
-    "all_parties": {
-      "DEM": 5287,
-      "NON": 69
-    },
-    "county_fips": "45067",
-    "two_party_total": 5287,
-    "margin": 5287,
-    "margin_pct": 100.0,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Annihilation",
-      "party": "Democratic",
-      "color": "#08519c"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "STATE HOUSE OF REPRESENTATIVES",
-    "year": "2014",
-    "dem_candidate": "Anne Parks (D)",
-    "rep_candidate": "Tony Wideman (R)",
-    "dem_votes": 1677,
-    "rep_votes": 1919,
-    "other_votes": 1,
-    "total_votes": 3597,
-    "all_parties": {
-      "DEM": 1677,
-      "REP": 1919,
-      "NON": 1
-    },
-    "county_fips": "45069",
-    "two_party_total": 3596,
-    "margin": 242,
-    "margin_pct": 6.7296996662958835,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#fb6a4a"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "STATE HOUSE OF REPRESENTATIVES",
@@ -1191,6 +1114,58 @@
       "category": "Annihilation",
       "party": "Republican",
       "color": "#67000d"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "J Wayne George (D)",
+    "rep_candidate": "Raleigh O Ward Jr (R)",
+    "dem_votes": 7637,
+    "rep_votes": 229,
+    "other_votes": 32,
+    "total_votes": 7898,
+    "all_parties": {
+      "DEM": 7637,
+      "NON": 32,
+      "REP": 229
+    },
+    "county_fips": "45065",
+    "two_party_total": 7866,
+    "margin": 7408,
+    "margin_pct": 94.1774726671752,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Anne Parks (D)",
+    "rep_candidate": "Tony Wideman (R)",
+    "dem_votes": 1677,
+    "rep_votes": 1919,
+    "other_votes": 1,
+    "total_votes": 3597,
+    "all_parties": {
+      "DEM": 1677,
+      "REP": 1919,
+      "NON": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 3596,
+    "margin": 242,
+    "margin_pct": 6.7296996662958835,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
     }
   }
 }

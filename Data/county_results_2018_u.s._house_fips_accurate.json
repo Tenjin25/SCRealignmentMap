@@ -858,85 +858,6 @@
       "color": "#a50f15"
     }
   },
-  "45065": {
-    "county": "MARION",
-    "contest": "U.S. HOUSE",
-    "year": "2018",
-    "dem_candidate": "Robert Williams (D)",
-    "rep_candidate": "Tom Rice (R)",
-    "dem_votes": 6279,
-    "rep_votes": 4194,
-    "other_votes": 3,
-    "total_votes": 10476,
-    "all_parties": {
-      "DEM": 6279,
-      "REP": 4194,
-      "NON": 3
-    },
-    "county_fips": "45065",
-    "two_party_total": 10473,
-    "margin": 2085,
-    "margin_pct": 19.90833572042395,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45067": {
-    "county": "MARLBORO",
-    "contest": "U.S. HOUSE",
-    "year": "2018",
-    "dem_candidate": "Robert Williams (D)",
-    "rep_candidate": "Tom Rice (R)",
-    "dem_votes": 4363,
-    "rep_votes": 3340,
-    "other_votes": 2,
-    "total_votes": 7705,
-    "all_parties": {
-      "DEM": 4363,
-      "REP": 3340,
-      "NON": 2
-    },
-    "county_fips": "45067",
-    "two_party_total": 7703,
-    "margin": 1023,
-    "margin_pct": 13.28054004933143,
-    "winner": "DEM",
-    "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
-    }
-  },
-  "45069": {
-    "county": "MCCORMICK",
-    "contest": "U.S. HOUSE",
-    "year": "2018",
-    "dem_candidate": "Mary Geren (D)",
-    "rep_candidate": "Jeff Duncan (R)",
-    "dem_votes": 2057,
-    "rep_votes": 2328,
-    "other_votes": 33,
-    "total_votes": 4418,
-    "all_parties": {
-      "DEM": 2057,
-      "REP": 2328,
-      "AMR": 33,
-      "NON": 0
-    },
-    "county_fips": "45069",
-    "two_party_total": 4385,
-    "margin": 271,
-    "margin_pct": 6.180159635119726,
-    "winner": "REP",
-    "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#fb6a4a"
-    }
-  },
   "45071": {
     "county": "NEWBERRY",
     "contest": "U.S. HOUSE",
@@ -1237,6 +1158,59 @@
       "category": "Safe",
       "party": "Republican",
       "color": "#ef3b2c"
+    }
+  },
+  "45065": {
+    "county": "MARION",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 6279,
+    "rep_votes": 4194,
+    "other_votes": 3,
+    "total_votes": 10476,
+    "all_parties": {
+      "DEM": 6279,
+      "REP": 4194,
+      "NON": 3
+    },
+    "county_fips": "45065",
+    "two_party_total": 10473,
+    "margin": 2085,
+    "margin_pct": 19.90833572042395,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45069": {
+    "county": "MCCORMICK",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Mary Geren (D)",
+    "rep_candidate": "Jeff Duncan (R)",
+    "dem_votes": 2057,
+    "rep_votes": 2328,
+    "other_votes": 33,
+    "total_votes": 4418,
+    "all_parties": {
+      "DEM": 2057,
+      "REP": 2328,
+      "AMR": 33,
+      "NON": 0
+    },
+    "county_fips": "45069",
+    "two_party_total": 4385,
+    "margin": 271,
+    "margin_pct": 6.180159635119726,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
     }
   }
 }
