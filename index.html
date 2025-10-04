@@ -2350,6 +2350,7 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       let allCountyNames = [];
       
       // Collect all county names from the map data
+      const countiesSource = map.getSource('counties');
       if (countiesSource && countiesSource._data && countiesSource._data.features) {
         allCountyNames = countiesSource._data.features.map(f => {
           const props = f.properties || {};
