@@ -959,8 +959,8 @@ body {
           <div class="finding-card">
             <h5>I-85 Corridor - The Realignment Highway</h5>
             <p><strong>Economic Transformation:</strong> Greenville-Spartanburg-Anderson corridor benefits from automotive industry (BMW, Michelin) and Charlotte metro spillover effects.</p>
-            <p><strong>Educational Impact:</strong> Clemson University influence in Anderson County, USC Upstate in Spartanburg create Democratic pockets. <span class="metric">Anderson</span>: 2016: R+43.66% → 2024: R+47.35%, <span class="metric">Spartanburg</span>: 2016: R+29.96% → 2024: R+33.63%</p>
-            <p><strong>Charlotte Spillover:</strong> York County experiences strongest suburban shift due to Charlotte commuter influence. <span class="metric">2016: R+22.00%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+19.09%</span></p>
+            <p><strong>Educational Impact:</strong> Clemson University influence in Anderson County, USC Upstate in Spartanburg create Democratic pockets. <span class="metric">Anderson</span>: R+28% → R+22%, <span class="metric">Spartanburg</span>: R+19% → R+15%</p>
+            <p><strong>Charlotte Spillover:</strong> York County experiences strongest suburban shift due to Charlotte commuter influence. <span class="metric">2016: R+22.7%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+15.2%</span></p>
             <p><strong>Long-term Trend:</strong> Continued economic development and education growth could create competitive corridor by 2030s.</p>
           </div>
           <div class="finding-card">
@@ -1020,6 +1020,9 @@ body {
     <span id="status-message"></span>
     <button id="status-exit" title="Close" style="position:absolute;top:10px;right:10px;padding:4px 10px;border-radius:6px;border:none;background:#eee;cursor:pointer;font-weight:bold;font-size:18px;">×</button>
   </div>
+  
+  <!-- Area details for VTDs (needed for showVTDDetails) -->
+  <div id="area-details" style="display:none;"></div>
     
 
 
@@ -1124,10 +1127,7 @@ body {
           '2006_treasurer': './Data/county_results_2006_state_treasurer_fips_accurate.json',
           '2006_comptroller': './Data/county_results_2006_comptroller_general_fips_accurate.json',
           '2006_agriculture': './Data/county_results_2006_commissioner_of_agriculture_fips_accurate.json',
-          '2006_adjutant_general': './Data/county_results_2006_adjutant_general_fips_accurate.json',
-          '2020_senate': './Data/county_results_2020_us_senate_fips.json',
-          '2014_senate': './Data/county_results_2014_u.s._senate_fips_accurate.json',
-          '2008_senate': './Data/county_results_2008_us_senate_fips.json'
+          '2006_adjutant_general': './Data/county_results_2006_adjutant_general_fips_accurate.json'
         },
         districts: './Data/sc_congressional_districts.geojson',
         state_house: './Data/sc_state_house_districts.geojson',
@@ -1155,6 +1155,7 @@ body {
     let currentView = 'counties'; // 'counties', 'districts', 'state_house', 'state_senate'
     let currentElectionResults = null; // Current contest results for county details
     let allCountyResults = {}; // Cache of all contest results for fast switching
+    window.lastSelectedCounty = null; // Track the last selected county globally
 
 
     function setStatus(text, timeout = 4000) {
@@ -2342,77 +2343,60 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       sidebar.classList.add('minimized');
       btn.textContent = '+';
 
-      // --- Improved county search: loading guard, debug logs, normalization ---
+      // Populate county search dropdown/list with county names if available
+      // Wait for map and counties source to be loaded
+      map.on('load', function() {
+        const countiesSource = map.getSource('counties');
+        if (!countiesSource) return;
+        let counties = [];
+        if (countiesSource._data && countiesSource._data.features) {
+          counties = countiesSource._data.features.map(f => f.properties && (f.properties.County || f.properties.COUNTYNAME || f.properties.NAME)).filter(Boolean).sort();
+        }
+        const searchInput = document.getElementById('county-search');
+        if (searchInput && counties.length > 0) {
+          // Create a datalist for autocomplete
+          let datalist = document.getElementById('county-datalist');
+          if (!datalist) {
+            datalist = document.createElement('datalist');
+            datalist.id = 'county-datalist';
+            document.body.appendChild(datalist);
+            searchInput.setAttribute('list', 'county-datalist');
+          }
+          datalist.innerHTML = counties.map(name => `<option value="${name}"></option>`).join('');
+        }
+      });
+
+      // Enhanced county search with real-time suggestions
       const searchInput = document.getElementById('county-search');
       const suggestionsDiv = document.getElementById('search-suggestions');
       let allCountyNames = [];
-      let normalizedCountyMap = {};
-      // Helper for normalization (matches zoomToCounty)
-      function normalizeCountyName(name) {
-        return (name || '')
-          .replace(/St\.? Lucie/i, 'St Lucie')
-          .replace(/St\.? Johns/i, 'St Johns')
-          .replace(/[^a-z0-9 ]/gi, '')
-          .replace(/\s+/g, ' ')
-          .trim()
-          .toUpperCase();
-      }
-
-      function enableCountySearch() {
-        // Collect all county names from the map data
-        const countiesSource = map.getSource('counties');
-        if (!countiesSource || !countiesSource._data || !countiesSource._data.features) {
-          console.warn('[CountySearch] Map or counties source not ready. Search disabled.');
-          if (searchInput) searchInput.disabled = true;
-          return;
-        }
+      
+      // Collect all county names from the map data
+      const countiesSource = map.getSource('counties');
+      if (countiesSource && countiesSource._data && countiesSource._data.features) {
         allCountyNames = countiesSource._data.features.map(f => {
           const props = f.properties || {};
           return props.County || props.COUNTYNAME || props.NAME || '';
         }).filter(name => name).sort();
-        // Build normalized map for fast lookup
-        normalizedCountyMap = {};
-        allCountyNames.forEach(name => {
-          normalizedCountyMap[normalizeCountyName(name)] = name;
-        });
-        // Enable input
-        if (searchInput) searchInput.disabled = false;
-        // Create a datalist for autocomplete
-        let datalist = document.getElementById('county-datalist');
-        if (!datalist) {
-          datalist = document.createElement('datalist');
-          datalist.id = 'county-datalist';
-          document.body.appendChild(datalist);
-          searchInput.setAttribute('list', 'county-datalist');
-        }
-        datalist.innerHTML = allCountyNames.map(name => `<option value="${name}"></option>`).join('');
       }
-
-      // Wait for map and counties source to be loaded before enabling search
-      if (searchInput) searchInput.disabled = true;
-      if (typeof map !== 'undefined') {
-        if (map.loaded()) {
-          enableCountySearch();
-        } else {
-          map.on('load', enableCountySearch);
-        }
-      }
-
+      
       if (searchInput) {
-        // Real-time search as user types (normalized)
+        // Real-time search as user types
         searchInput.addEventListener('input', function() {
-          const query = this.value.trim();
-          const normQuery = normalizeCountyName(query);
+          const query = this.value.trim().toLowerCase();
+          
           if (query.length === 0) {
             suggestionsDiv.style.display = 'none';
             return;
           }
-          // Filter counties based on normalized query
-          const matches = allCountyNames.filter(county =>
-            normalizeCountyName(county).includes(normQuery)
+          
+          // Filter counties based on query
+          const matches = allCountyNames.filter(county => 
+            county.toLowerCase().includes(query)
           ).slice(0, 8); // Limit to 8 suggestions
+          
           if (matches.length > 0) {
-            suggestionsDiv.innerHTML = matches.map(county =>
+            suggestionsDiv.innerHTML = matches.map(county => 
               `<div class="suggestion-item" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid #f3f4f6;" 
                    onmouseover="this.style.background='#f8fafc'" 
                    onmouseout="this.style.background='white'"
@@ -2423,34 +2407,32 @@ function populateContestSelectFromCongressionalCSV(csvData) {
             suggestionsDiv.style.display = 'none';
           }
         });
-        // Handle selection on Enter key (normalized)
+        
+        // Handle selection on Enter key
         searchInput.addEventListener('keydown', function(e) {
           if (e.key === 'Enter') {
             const val = searchInput.value.trim();
             if (val) {
-              // Try to match normalized name
-              const normVal = normalizeCountyName(val);
-              const canonical = normalizedCountyMap[normVal] || val;
-              selectCounty(canonical);
+              selectCounty(val);
             }
           }
           if (e.key === 'Escape') {
             suggestionsDiv.style.display = 'none';
           }
         });
+        
         // Hide suggestions when clicking outside
         document.addEventListener('click', function(e) {
           if (!searchInput.contains(e.target) && !suggestionsDiv.contains(e.target)) {
             suggestionsDiv.style.display = 'none';
           }
         });
-        // Legacy change event for backward compatibility (normalized)
+        
+        // Legacy change event for backward compatibility
         searchInput.addEventListener('change', function() {
           const val = searchInput.value.trim();
           if (val) {
-            const normVal = normalizeCountyName(val);
-            const canonical = normalizedCountyMap[normVal] || val;
-            selectCounty(canonical);
+            selectCounty(val);
           }
         });
       }
@@ -2468,19 +2450,62 @@ function populateContestSelectFromCongressionalCSV(csvData) {
           const data = congressionalData.find(row => 
             row.year == year && row.district == districtNum
           );
+          
           if (data && data.us_house_total > 0) {
             const demVotes = data.us_house_dem || 0;
             const repVotes = data.us_house_rep || 0;
             const totalVotes = data.us_house_total || 0;
+            
             if (totalVotes > 0) {
               const demPct = (demVotes / totalVotes) * 100;
               const repPct = (repVotes / totalVotes) * 100;
               const margin = demPct - repPct;
               const winner = margin > 0 ? 'D' : 'R';
               const marginAbs = Math.abs(margin);
+              
               trends.push({
                 year: year,
                 display: `${year}: ${winner}+${marginAbs.toFixed(1)}`,
+                margin: margin,
+                type: 'house'
+              });
+            }
+          }
+        });
+
+      } else {
+        // For counties, show both presidential and recent state house trends
+        
+        // Presidential trends
+        presidentialYears.forEach(year => {
+          const data = electionData.find(row => 
+            row.year == year && row.county === countyName
+          );
+          
+          if (data && data.president_total > 0) {
+            const demVotes = data.president_dem || 0;
+            const repVotes = data.president_rep || 0;
+            const totalVotes = data.president_total || 0;
+            
+            if (totalVotes > 0) {
+              const demPct = (demVotes / totalVotes) * 100;
+              const repPct = (repVotes / totalVotes) * 100;
+              const margin = demPct - repPct;
+              const winner = margin > 0 ? 'D' : 'R';
+              const marginAbs = Math.abs(margin);
+              
+              // Get candidate names for recent years
+              let candidateInfo = '';
+              if (year === 2024) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
+              else if (year === 2020) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
+              else if (year === 2016) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
+              else if (year === 2012) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
+              else if (year === 2008) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
+              
+              trends.push({
+                year: year,
+                display: `${year}: ${candidateInfo}+${marginAbs.toFixed(1)}`,
+                margin: margin,
                 type: 'president'
               });
             }
@@ -2717,6 +2742,8 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       
       if (contestValue && electionData) {
         const [contestType, year] = contestValue.split('_');
+        // Fix: define expectedType based on chamber
+        const expectedType = chamber === 'house' ? 'state_house' : 'state_senate';
         if (contestType === expectedType) {
           // For state legislative districts, we need to aggregate county data by district
           // This is complex without a county-to-district mapping, so show general message
@@ -3257,5 +3284,4 @@ document.addEventListener('DOMContentLoaded', function() {
   </script>
 </body>
 </html>
-
 
