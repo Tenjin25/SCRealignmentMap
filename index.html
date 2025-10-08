@@ -2342,60 +2342,77 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       sidebar.classList.add('minimized');
       btn.textContent = '+';
 
-      // Populate county search dropdown/list with county names if available
-      // Wait for map and counties source to be loaded
-      map.on('load', function() {
-        const countiesSource = map.getSource('counties');
-        if (!countiesSource) return;
-        let counties = [];
-        if (countiesSource._data && countiesSource._data.features) {
-          counties = countiesSource._data.features.map(f => f.properties && (f.properties.County || f.properties.COUNTYNAME || f.properties.NAME)).filter(Boolean).sort();
-        }
-        const searchInput = document.getElementById('county-search');
-        if (searchInput && counties.length > 0) {
-          // Create a datalist for autocomplete
-          let datalist = document.getElementById('county-datalist');
-          if (!datalist) {
-            datalist = document.createElement('datalist');
-            datalist.id = 'county-datalist';
-            document.body.appendChild(datalist);
-            searchInput.setAttribute('list', 'county-datalist');
-          }
-          datalist.innerHTML = counties.map(name => `<option value="${name}"></option>`).join('');
-        }
-      });
-
-      // Enhanced county search with real-time suggestions
+      // --- Improved county search: loading guard, debug logs, normalization ---
       const searchInput = document.getElementById('county-search');
       const suggestionsDiv = document.getElementById('search-suggestions');
       let allCountyNames = [];
-      
-      // Collect all county names from the map data
-      const countiesSource = map.getSource('counties');
-      if (countiesSource && countiesSource._data && countiesSource._data.features) {
+      let normalizedCountyMap = {};
+      // Helper for normalization (matches zoomToCounty)
+      function normalizeCountyName(name) {
+        return (name || '')
+          .replace(/St\.? Lucie/i, 'St Lucie')
+          .replace(/St\.? Johns/i, 'St Johns')
+          .replace(/[^a-z0-9 ]/gi, '')
+          .replace(/\s+/g, ' ')
+          .trim()
+          .toUpperCase();
+      }
+
+      function enableCountySearch() {
+        // Collect all county names from the map data
+        const countiesSource = map.getSource('counties');
+        if (!countiesSource || !countiesSource._data || !countiesSource._data.features) {
+          console.warn('[CountySearch] Map or counties source not ready. Search disabled.');
+          if (searchInput) searchInput.disabled = true;
+          return;
+        }
         allCountyNames = countiesSource._data.features.map(f => {
           const props = f.properties || {};
           return props.County || props.COUNTYNAME || props.NAME || '';
         }).filter(name => name).sort();
+        // Build normalized map for fast lookup
+        normalizedCountyMap = {};
+        allCountyNames.forEach(name => {
+          normalizedCountyMap[normalizeCountyName(name)] = name;
+        });
+        // Enable input
+        if (searchInput) searchInput.disabled = false;
+        // Create a datalist for autocomplete
+        let datalist = document.getElementById('county-datalist');
+        if (!datalist) {
+          datalist = document.createElement('datalist');
+          datalist.id = 'county-datalist';
+          document.body.appendChild(datalist);
+          searchInput.setAttribute('list', 'county-datalist');
+        }
+        datalist.innerHTML = allCountyNames.map(name => `<option value="${name}"></option>`).join('');
       }
-      
+
+      // Wait for map and counties source to be loaded before enabling search
+      if (searchInput) searchInput.disabled = true;
+      if (typeof map !== 'undefined') {
+        if (map.loaded()) {
+          enableCountySearch();
+        } else {
+          map.on('load', enableCountySearch);
+        }
+      }
+
       if (searchInput) {
-        // Real-time search as user types
+        // Real-time search as user types (normalized)
         searchInput.addEventListener('input', function() {
-          const query = this.value.trim().toLowerCase();
-          
+          const query = this.value.trim();
+          const normQuery = normalizeCountyName(query);
           if (query.length === 0) {
             suggestionsDiv.style.display = 'none';
             return;
           }
-          
-          // Filter counties based on query
-          const matches = allCountyNames.filter(county => 
-            county.toLowerCase().includes(query)
+          // Filter counties based on normalized query
+          const matches = allCountyNames.filter(county =>
+            normalizeCountyName(county).includes(normQuery)
           ).slice(0, 8); // Limit to 8 suggestions
-          
           if (matches.length > 0) {
-            suggestionsDiv.innerHTML = matches.map(county => 
+            suggestionsDiv.innerHTML = matches.map(county =>
               `<div class="suggestion-item" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid #f3f4f6;" 
                    onmouseover="this.style.background='#f8fafc'" 
                    onmouseout="this.style.background='white'"
@@ -2406,32 +2423,34 @@ function populateContestSelectFromCongressionalCSV(csvData) {
             suggestionsDiv.style.display = 'none';
           }
         });
-        
-        // Handle selection on Enter key
+        // Handle selection on Enter key (normalized)
         searchInput.addEventListener('keydown', function(e) {
           if (e.key === 'Enter') {
             const val = searchInput.value.trim();
             if (val) {
-              selectCounty(val);
+              // Try to match normalized name
+              const normVal = normalizeCountyName(val);
+              const canonical = normalizedCountyMap[normVal] || val;
+              selectCounty(canonical);
             }
           }
           if (e.key === 'Escape') {
             suggestionsDiv.style.display = 'none';
           }
         });
-        
         // Hide suggestions when clicking outside
         document.addEventListener('click', function(e) {
           if (!searchInput.contains(e.target) && !suggestionsDiv.contains(e.target)) {
             suggestionsDiv.style.display = 'none';
           }
         });
-        
-        // Legacy change event for backward compatibility
+        // Legacy change event for backward compatibility (normalized)
         searchInput.addEventListener('change', function() {
           const val = searchInput.value.trim();
           if (val) {
-            selectCounty(val);
+            const normVal = normalizeCountyName(val);
+            const canonical = normalizedCountyMap[normVal] || val;
+            selectCounty(canonical);
           }
         });
       }
@@ -2449,62 +2468,19 @@ function populateContestSelectFromCongressionalCSV(csvData) {
           const data = congressionalData.find(row => 
             row.year == year && row.district == districtNum
           );
-          
           if (data && data.us_house_total > 0) {
             const demVotes = data.us_house_dem || 0;
             const repVotes = data.us_house_rep || 0;
             const totalVotes = data.us_house_total || 0;
-            
             if (totalVotes > 0) {
               const demPct = (demVotes / totalVotes) * 100;
               const repPct = (repVotes / totalVotes) * 100;
               const margin = demPct - repPct;
               const winner = margin > 0 ? 'D' : 'R';
               const marginAbs = Math.abs(margin);
-              
               trends.push({
                 year: year,
                 display: `${year}: ${winner}+${marginAbs.toFixed(1)}`,
-                margin: margin,
-                type: 'house'
-              });
-            }
-          }
-        });
-
-      } else {
-        // For counties, show both presidential and recent state house trends
-        
-        // Presidential trends
-        presidentialYears.forEach(year => {
-          const data = electionData.find(row => 
-            row.year == year && row.county === countyName
-          );
-          
-          if (data && data.president_total > 0) {
-            const demVotes = data.president_dem || 0;
-            const repVotes = data.president_rep || 0;
-            const totalVotes = data.president_total || 0;
-            
-            if (totalVotes > 0) {
-              const demPct = (demVotes / totalVotes) * 100;
-              const repPct = (repVotes / totalVotes) * 100;
-              const margin = demPct - repPct;
-              const winner = margin > 0 ? 'D' : 'R';
-              const marginAbs = Math.abs(margin);
-              
-              // Get candidate names for recent years
-              let candidateInfo = '';
-              if (year === 2024) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
-              else if (year === 2020) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
-              else if (year === 2016) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
-              else if (year === 2012) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
-              else if (year === 2008) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
-              
-              trends.push({
-                year: year,
-                display: `${year}: ${candidateInfo}+${marginAbs.toFixed(1)}`,
-                margin: margin,
                 type: 'president'
               });
             }
