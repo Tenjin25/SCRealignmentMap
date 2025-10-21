@@ -130,36 +130,93 @@
           return;
         }
         const counties = countiesSource._data.features;
-      // Normalize county names for matching
-      function normalizeCountyName(name) {
-        return (name || '')
-          .replace(/St\.? Lucie/i, 'St Lucie')
-          .replace(/St\.? Johns/i, 'St Johns')
-          .replace(/[^a-z0-9 ]/gi, '')
-          .replace(/\s+/g, ' ')
-          .trim()
-          .toUpperCase();
-      }
-      const normTarget = normalizeCountyName(countyName);
-      const countyFeature = counties.find(f => {
-        const props = f.properties || {};
-        const name = normalizeCountyName(props.County || props.COUNTYNAME || props.NAME || '');
-        return name === normTarget;
-      });
-      if (!countyFeature) {
-        console.warn('zoomToCounty: county not found for', countyName);
+        // Robust normalization
+        function normalizeCountyName(name) {
+          return (name || '')
+            .replace(/[^a-z0-9 ]/gi, '')
+            .replace(/\s+/g, ' ')
+            .trim()
+            .toLowerCase();
+        }
+        const normTarget = normalizeCountyName(countyName);
+        // Multi-key match
+        let foundFeature = null;
+        // Use NAME20 and NAMELSAD20 for matching county names from tl_2020_45_county20.geojson
+        const keys = ['NAME20', 'NAMELSAD20'];
+        for (const feature of counties) {
+          const props = feature.properties || {};
+          for (const key of keys) {
+            if (props[key] && normalizeCountyName(props[key]) === normTarget) {
+              foundFeature = feature;
+              break;
+            }
+          }
+          if (foundFeature) break;
+        }
+        // Levenshtein fallback
+        function levenshtein(a, b) {
+          if (a === b) return 0;
+          if (!a.length) return b.length;
+          if (!b.length) return a.length;
+          const matrix = [];
+          for (let i = 0; i <= b.length; i++) {
+            matrix[i] = [i];
+          }
+          for (let j = 0; j <= a.length; j++) {
+            matrix[0][j] = j;
+          }
+          for (let i = 1; i <= b.length; i++) {
+            for (let j = 1; j <= a.length; j++) {
+              if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                matrix[i][j] = matrix[i - 1][j - 1];
+              } else {
+                matrix[i][j] = Math.min(
+                  matrix[i - 1][j - 1] + 1,
+                  matrix[i][j - 1] + 1,
+                  matrix[i - 1][j] + 1
+                );
+              }
+            }
+          }
+          return matrix[b.length][a.length];
+        }
+        if (!foundFeature) {
+          let minDist = Infinity;
+          let bestFeature = null;
+          for (const feature of counties) {
+            const props = feature.properties || {};
+            for (const key of keys) {
+              if (props[key]) {
+                const candidate = normalizeCountyName(props[key]);
+                const dist = levenshtein(normTarget, candidate);
+                if (dist < minDist) {
+                  minDist = dist;
+                  bestFeature = feature;
+                }
+              }
+            }
+          }
+          if (bestFeature && minDist <= 2) {
+            foundFeature = bestFeature;
+          }
+        }
+        if (!foundFeature) {
+          console.warn('zoomToCounty: county not found for', countyName);
+          return;
+        }
+        if (typeof turf === 'undefined' || !turf.bbox) {
+          console.warn('zoomToCounty: turf not available');
+          return;
+        }
+        const bbox = turf.bbox(foundFeature);
+        const fitBoundsBox = [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
+        map.fitBounds(fitBoundsBox, { padding: 40, maxZoom: 10 });
+        console.log('zoomToCounty: zoomed to', countyName, fitBoundsBox);
+        // Optionally highlight the county
+        if (foundFeature.properties.GEOID) {
+          map.setFilter('county-highlight', ['==', ['get', 'GEOID'], foundFeature.properties.GEOID]);
+        }
         return;
-      }
-      if (typeof turf === 'undefined' || !turf.bbox) {
-        console.warn('zoomToCounty: turf not available');
-        return;
-      }
-      const bbox = turf.bbox(countyFeature); // [minX, minY, maxX, maxY]
-      // Convert to [[minLng,minLat],[maxLng,maxLat]] which map.fitBounds expects
-      const fitBoundsBox = [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
-      map.fitBounds(fitBoundsBox, { padding: 40, maxZoom: 10 });
-      console.log('zoomToCounty: zoomed to', countyName, fitBoundsBox);
-      return;
       } catch (err) {
         console.error('zoomToCounty error:', err);
       }
@@ -1086,7 +1143,7 @@ body {
     const CONFIG = {
       mapboxToken: 'pk.eyJ1Ijoic2hhbWFyZGF2aXMiLCJhIjoiY21kcW8yeDB2MDhvbTJzb29qeGp1aDZmZCJ9.Zw_i6U-dL7_bEKRHTUh7yg',
       paths: {
-        counties: './Data/sc_counties.geojson',
+        counties: './VTDs/tl_2020_45_county20.geojson',
         // Multiple election data files
         elections: {
           '2024_president': './Data/county_results_2024_fips_accurate.json',
@@ -1546,53 +1603,54 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       options.forEach(opt => fragment.appendChild(opt));
       sel.appendChild(fragment);
       sel.dataset.populated = 'true';
-      // Hide loading spinner
-  var spinner = document.getElementById('contest-loading-spinner');
-  if (spinner) spinner.style.display = 'none';
-      sel.onchange = () => {
-        if (document.body.classList.contains('colorblind-mode')) {
-          // ...existing code for accessibility mode...
-          const expr = ['case'];
-          const contestKey = sel.value;
-          if (contestKey && electionData) {
-            // ...existing code for accessibility palette...
-            // ...existing code...
-          }
-        } else {
-          // Normal mode
-          applyContest(sel.value);
-          // Explicitly update sidebar for last selected county
-          if (typeof lastSelectedCounty !== 'undefined' && lastSelectedCounty) {
-            showCountyDetails(lastSelectedCounty);
+    // Robust county search and zoom hotfix
+    const normalizedInput = countyName.trim().toLowerCase();
+    let foundFeature = null;
+    for (const feature of countyGeoJSON.features) {
+      const props = feature.properties;
+      // Try multiple keys for county name
+      const keys = ['NAME', 'name', 'County', 'county'];
+      for (const key of keys) {
+        if (props[key] && props[key].toString().trim().toLowerCase() === normalizedInput) {
+          foundFeature = feature;
+          break;
+        }
+      }
+      if (foundFeature) break;
+    }
+    // If not found, try Levenshtein closest match
+    if (!foundFeature) {
+      let minDist = Infinity;
+      let bestFeature = null;
+      for (const feature of countyGeoJSON.features) {
+        const props = feature.properties;
+        const keys = ['NAME', 'name', 'County', 'county'];
+        for (const key of keys) {
+          if (props[key]) {
+            const candidate = props[key].toString().trim().toLowerCase();
+            const dist = levenshtein(normalizedInput, candidate);
+            if (dist < minDist) {
+              minDist = dist;
+              bestFeature = feature;
+            }
           }
         }
-      };
-
+      }
+      if (bestFeature && minDist <= 2) {
+        foundFeature = bestFeature;
+      }
     }
-
-    function populateContestSelectForStateHouse(csvData) {
-      const sel = document.getElementById('contestSelect');
-      const years = [...new Set(csvData.map(row => row.year))].sort();
-      
-      years.forEach(year => {
-        const hasData = csvData.some(row => 
-          row.year == year && row.state_house_total > 0
-        );
-        
-        if (hasData) {
-          const opt = document.createElement('option');
-          opt.value = `state_house_${year}`;
-          opt.textContent = `${formatContestName('state_house', year)} (${year})`;
-          sel.appendChild(opt);
-        }
-      });
-      sel.onchange = () => { applyContest(sel.value); };
+    if (!foundFeature) {
+      alert('County not found: ' + countyName);
+      return;
     }
-
-    function populateContestSelectForStateSenate(csvData) {
-      const sel = document.getElementById('contestSelect');
-      const years = [...new Set(csvData.map(row => row.year))].sort();
-      
+    // Zoom to the county feature
+    const bbox = turf.bbox(foundFeature);
+    map.fitBounds(bbox, { padding: 40, duration: 1000 });
+    // Optionally highlight the county
+    if (foundFeature.properties.GEOID) {
+      map.setFilter('county-highlight', ['==', ['get', 'GEOID'], foundFeature.properties.GEOID]);
+    }
       years.forEach(year => {
         const hasData = csvData.some(row => 
           row.year == year && row.state_senate_total > 0
