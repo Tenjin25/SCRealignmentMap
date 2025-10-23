@@ -1017,7 +1017,7 @@ body {
             <h5>I-85 Corridor - The Realignment Highway</h5>
             <p><strong>Economic Transformation:</strong> Greenville-Spartanburg-Anderson corridor benefits from automotive industry (BMW, Michelin) and Charlotte metro spillover effects.</p>
             <p><strong>Educational Impact:</strong> Clemson University influence in Anderson County, USC Upstate in Spartanburg create Democratic pockets. <span class="metric">Anderson</span>: R+28% → R+22%, <span class="metric">Spartanburg</span>: R+19% → R+15%</p>
-            <p><strong>Charlotte Spillover:</strong> York County experiences strongest suburban shift due to Charlotte commuter influence. <span class="metric">2016: R+22.7%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+15.2%</span></p>
+            <p><strong>Charlotte Spillover:</strong> York County experiences strongest suburban shift due to Charlotte commuter influence. <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2016: R+22.7%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+15.2%</span></p>
             <p><strong>Long-term Trend:</strong> Continued economic development and education growth could create competitive corridor by 2030s.</p>
           </div>
           <div class="finding-card">
@@ -1664,7 +1664,7 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         }
       });
       sel.onchange = () => { applyContest(sel.value); };
-    }
+}
 
 function populateContestSelectFromCongressionalCSV(csvData) {
   const sel = document.getElementById('contestSelect');
@@ -2168,30 +2168,38 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       
       let compColor = '#6b7280';
       if (competitiveness.includes('Rep')) {
-        if (competitiveness.includes('Annihilation')) compColor = '#450a0a';
-        else if (competitiveness.includes('Dominant')) compColor = '#7f1d1d';
-        else if (competitiveness.includes('Stronghold')) compColor = '#991b1b';
-        else if (competitiveness.includes('Safe')) compColor = '#dc2626';
-        else if (competitiveness.includes('Likely')) compColor = '#ef4444';
-        else if (competitiveness.includes('Lean')) compColor = '#f87171';
-        else if (competitiveness.includes('Tilt')) compColor = '#fca5a5';
+        if (competitiveness.includes('Annihilation')) compColor = '#67000d';
+        else if (competitiveness.includes('Dominant')) compColor = '#a50f15';
+        else if (competitiveness.includes('Stronghold')) compColor = '#cb181d';
+        else if (competitiveness.includes('Safe')) compColor = '#ef3b2c';
+        else if (competitiveness.includes('Likely')) compColor = '#fb6a4a';
+        else if (competitiveness.includes('Lean')) compColor = '#fcae91';
+        else if (competitiveness.includes('Tilt')) compColor = '#fee8c8';
       } else if (competitiveness.includes('Dem')) {
-        if (competitiveness.includes('Annihilation')) compColor = '#0c1d56';
-        else if (competitiveness.includes('Dominant')) compColor = '#1e3a8a';
-        else if (competitiveness.includes('Stronghold')) compColor = '#1e40af';
-        else if (competitiveness.includes('Safe')) compColor = '#3b82f6';
-        else if (competitiveness.includes('Likely')) compColor = '#60a5fa';
-        else if (competitiveness.includes('Lean')) compColor = '#93c5fd';
-        else if (competitiveness.includes('Tilt')) compColor = '#bfdbfe';
+        if (competitiveness.includes('Annihilation')) compColor = '#08306b';
+        else if (competitiveness.includes('Dominant')) compColor = '#08519c';
+        else if (competitiveness.includes('Stronghold')) compColor = '#3182bd';
+        else if (competitiveness.includes('Safe')) compColor = '#6baed6';
+        else if (competitiveness.includes('Likely')) compColor = '#9ecae1';
+        else if (competitiveness.includes('Lean')) compColor = '#c6dbef';
+        else if (competitiveness.includes('Tilt')) compColor = '#e1f5fe';
       }
       
       sidebarContent += `<div class="competitiveness-section">`;
-      sidebarContent += '<h3 class="sidebar-section-title">🎯 Competitiveness</h3>';
-      sidebarContent += `<p style="color: ${compColor}; font-weight: bold; font-size: 16px;">${competitiveness}</p>`;
-      if (actualMarginPct <= 0.5) {
-        sidebarContent += `<p style="color: #f59e0b; font-style: italic;">(Extremely close!)</p>`;
-      } else if (actualMarginPct <= 1) {
-        sidebarContent += `<p style="color: #f59e0b; font-style: italic;">(Very close!)</p>`;
+      sidebarContent += `<div class="competitiveness-label" style="font-weight:bold;${tossupStyle}${!compLabel.startsWith('Tossup') ? 'color:' + compColor + '; font-size:15px; padding:2px 8px; border-radius:4px; vertical-align:middle;' : ''}">${compLabel}</div>`;
+      // Add short, emphasized cues for very-close and extremely-close contests (matches CLEAN map UX)
+      try {
+        if (typeof countyCompLabel === 'string') {
+          const labelUpper = countyCompLabel.toUpperCase();
+          if (labelUpper.includes('TILT')) {
+            sidebarContent += `<p style="color:#f59e0b;font-style:italic;margin-top:6px;">(Very close!)</p>`;
+          } else if (labelUpper.includes('TOSSUP')) {
+            sidebarContent += `<p style="color:#d97706;font-style:italic;margin-top:6px;">(Extremely close!)</p>`;
+          }
+        }
+      } catch (e) {
+        // noop - don't break sidebar if something unexpected happens
+        console.warn('Error rendering close-contest cue:', e);
       }
       sidebarContent += `</div>`;
       
@@ -3339,7 +3347,4 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 });
-  </script>
-</body>
-</html>
 
