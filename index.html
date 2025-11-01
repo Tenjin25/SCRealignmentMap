@@ -3359,6 +3359,12 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       map.setPaintProperty('county-fill', 'fill-color', expr);
       document.getElementById('contest-name').textContent = `SC ${formatContestName(contestType, year)} (${year})`;
       setStatus(`Applied contest: ${formatContestName(contestType, year)} ${year}`);
+      
+      // Auto-update: If a county was previously selected, re-display its info for the new contest
+      if (window.lastSelectedCounty) {
+        console.log('Auto-updating county info for:', window.lastSelectedCounty);
+        displayCountyInfo(window.lastSelectedCounty);
+      }
     }
 
     function applyDistrictContest(contestType, year) {
