@@ -3363,7 +3363,7 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       // Auto-update: If a county was previously selected, re-display its info for the new contest
       if (window.lastSelectedCounty) {
         console.log('Auto-updating county info for:', window.lastSelectedCounty);
-        displayCountyInfo(window.lastSelectedCounty);
+        showCountyDetails(window.lastSelectedCounty);
       }
     }
 
