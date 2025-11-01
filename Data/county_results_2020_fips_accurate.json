@@ -1231,6 +1231,34 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "PRESIDENT",
+    "year": "2020",
+    "dem_candidate": "Joseph R Biden | Kamala D Harris (D)",
+    "rep_candidate": "Donald J Trump | Michael R Pence (R)",
+    "dem_votes": 8740,
+    "rep_votes": 7653,
+    "other_votes": 174,
+    "total_votes": 16567,
+    "all_parties": {
+      "GRN": 47,
+      "REP": 7653,
+      "ALN": 17,
+      "LIB": 110,
+      "DEM": 8740
+    },
+    "county_fips": "45069",
+    "two_party_total": 16393,
+    "margin": 1087,
+    "margin_pct": 6.631482850417537,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#9ecae1"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",

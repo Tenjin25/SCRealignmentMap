@@ -1221,6 +1221,35 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "PRESIDENT",
+    "year": "2008",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "John McCain / Sarah Palin (R)",
+    "dem_votes": 6794,
+    "rep_votes": 3996,
+    "other_votes": 86,
+    "total_votes": 10876,
+    "all_parties": {
+      "GRN": 25,
+      "REP": 3996,
+      "LIB": 24,
+      "PET": 17,
+      "DEM": 6794,
+      "CON": 20
+    },
+    "county_fips": "45069",
+    "two_party_total": 10790,
+    "margin": 2798,
+    "margin_pct": 25.93141797961075,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",

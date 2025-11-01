@@ -1143,6 +1143,32 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2018",
+    "dem_candidate": "James Smith / Mandy Powers Norrell (D)",
+    "rep_candidate": "Henry McMaster / Pamela Evette (R)",
+    "dem_votes": 4594,
+    "rep_votes": 3166,
+    "other_votes": 7,
+    "total_votes": 7767,
+    "all_parties": {
+      "DEM": 4594,
+      "REP": 3166,
+      "NON": 7
+    },
+    "county_fips": "45069",
+    "two_party_total": 7760,
+    "margin": 1428,
+    "margin_pct": 18.402061855670105,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "Governor and Lieutenant Governor",

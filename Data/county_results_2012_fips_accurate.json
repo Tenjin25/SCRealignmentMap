@@ -1231,6 +1231,34 @@
       "color": "#2171b5"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "PRESIDENT",
+    "year": "2012",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
+    "rep_candidate": "Mitt Romney / Paul Ryan (R)",
+    "dem_votes": 6100,
+    "rep_votes": 3676,
+    "other_votes": 77,
+    "total_votes": 9853,
+    "all_parties": {
+      "REP": 3676,
+      "LIB": 45,
+      "DEM": 6100,
+      "CON": 23,
+      "GRN": 9
+    },
+    "county_fips": "45069",
+    "two_party_total": 9776,
+    "margin": 2424,
+    "margin_pct": 24.79541734860884,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",

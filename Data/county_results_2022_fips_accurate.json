@@ -1187,6 +1187,33 @@
       "color": "#9ecae1"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "Governor and Lieutenant Governor",
+    "year": "2022",
+    "dem_candidate": "DEM Joe Cunningham/Tally Parham Casey (D)",
+    "rep_candidate": "REP Henry McMaster/Pamela Evette (R)",
+    "dem_votes": 3247,
+    "rep_votes": 3209,
+    "other_votes": 81,
+    "total_votes": 6537,
+    "all_parties": {
+      "REP": 3209,
+      "LIB": 76,
+      "DEM": 3247,
+      "NON": 5
+    },
+    "county_fips": "45069",
+    "two_party_total": 6456,
+    "margin": 38,
+    "margin_pct": 0.5885997521685253,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#deebf7"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "Governor and Lieutenant Governor",

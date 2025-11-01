@@ -1143,6 +1143,32 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Tommy Moore (D)",
+    "rep_candidate": "Mark Sanford (R)",
+    "dem_votes": 3405,
+    "rep_votes": 1996,
+    "other_votes": 4,
+    "total_votes": 5405,
+    "all_parties": {
+      "REPUBLICAN": 1996,
+      "DEMOCRAT": 3405,
+      "": 4
+    },
+    "county_fips": "45069",
+    "two_party_total": 5401,
+    "margin": 1409,
+    "margin_pct": 26.087761525643398,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "GOVERNOR",
