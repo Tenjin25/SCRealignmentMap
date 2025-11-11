@@ -1,0 +1,830 @@
+{
+  "45001": {
+    "dem_votes": 0,
+    "rep_votes": 4748,
+    "other_votes": 38,
+    "total_votes": 4786,
+    "all_parties": {
+      "REP": 4748,
+      "NON": 38
+    },
+    "margin": 4748,
+    "margin_pct": 99.21,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45003": {
+    "dem_votes": 0,
+    "rep_votes": 35650,
+    "other_votes": 309,
+    "total_votes": 35959,
+    "all_parties": {
+      "REP": 35650,
+      "NON": 309
+    },
+    "margin": 35650,
+    "margin_pct": 99.14,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45005": {
+    "dem_votes": 0,
+    "rep_votes": 804,
+    "other_votes": 13,
+    "total_votes": 817,
+    "all_parties": {
+      "REP": 804,
+      "NON": 13
+    },
+    "margin": 804,
+    "margin_pct": 98.41,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45007": {
+    "dem_votes": 0,
+    "rep_votes": 39385,
+    "other_votes": 318,
+    "total_votes": 39703,
+    "all_parties": {
+      "REP": 39385,
+      "NON": 318
+    },
+    "margin": 39385,
+    "margin_pct": 99.2,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45009": {
+    "dem_votes": 0,
+    "rep_votes": 2011,
+    "other_votes": 13,
+    "total_votes": 2024,
+    "all_parties": {
+      "REP": 2011,
+      "NON": 13
+    },
+    "margin": 2011,
+    "margin_pct": 99.36,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45011": {
+    "dem_votes": 0,
+    "rep_votes": 4038,
+    "other_votes": 21,
+    "total_votes": 4059,
+    "all_parties": {
+      "REP": 4038,
+      "NON": 21
+    },
+    "margin": 4038,
+    "margin_pct": 99.48,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45013": {
+    "dem_votes": 0,
+    "rep_votes": 37108,
+    "other_votes": 354,
+    "total_votes": 37462,
+    "all_parties": {
+      "REP": 37108,
+      "NON": 354
+    },
+    "margin": 37108,
+    "margin_pct": 99.06,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45015": {
+    "dem_votes": 0,
+    "rep_votes": 29393,
+    "other_votes": 221,
+    "total_votes": 29614,
+    "all_parties": {
+      "REP": 29393,
+      "NON": 221
+    },
+    "margin": 29393,
+    "margin_pct": 99.25,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45017": {
+    "dem_votes": 0,
+    "rep_votes": 3452,
+    "other_votes": 37,
+    "total_votes": 3489,
+    "all_parties": {
+      "REP": 3452,
+      "NON": 37
+    },
+    "margin": 3452,
+    "margin_pct": 98.94,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45019": {
+    "dem_votes": 0,
+    "rep_votes": 64330,
+    "other_votes": 933,
+    "total_votes": 65263,
+    "all_parties": {
+      "REP": 64330,
+      "NON": 933
+    },
+    "margin": 64330,
+    "margin_pct": 98.57,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45021": {
+    "dem_votes": 0,
+    "rep_votes": 10648,
+    "other_votes": 58,
+    "total_votes": 10706,
+    "all_parties": {
+      "REP": 10648,
+      "NON": 58
+    },
+    "margin": 10648,
+    "margin_pct": 99.46,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45023": {
+    "dem_votes": 0,
+    "rep_votes": 5387,
+    "other_votes": 68,
+    "total_votes": 5455,
+    "all_parties": {
+      "REP": 5387,
+      "NON": 68
+    },
+    "margin": 5387,
+    "margin_pct": 98.75,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45025": {
+    "dem_votes": 0,
+    "rep_votes": 6748,
+    "other_votes": 63,
+    "total_votes": 6811,
+    "all_parties": {
+      "REP": 6748,
+      "NON": 63
+    },
+    "margin": 6748,
+    "margin_pct": 99.08,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45027": {
+    "dem_votes": 0,
+    "rep_votes": 5887,
+    "other_votes": 58,
+    "total_votes": 5945,
+    "all_parties": {
+      "REP": 5887,
+      "NON": 58
+    },
+    "margin": 5887,
+    "margin_pct": 99.02,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45029": {
+    "dem_votes": 0,
+    "rep_votes": 7924,
+    "other_votes": 50,
+    "total_votes": 7974,
+    "all_parties": {
+      "REP": 7924,
+      "NON": 50
+    },
+    "margin": 7924,
+    "margin_pct": 99.37,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45031": {
+    "dem_votes": 0,
+    "rep_votes": 12135,
+    "other_votes": 82,
+    "total_votes": 12217,
+    "all_parties": {
+      "REP": 12135,
+      "NON": 82
+    },
+    "margin": 12135,
+    "margin_pct": 99.33,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45033": {
+    "dem_votes": 0,
+    "rep_votes": 4150,
+    "other_votes": 39,
+    "total_votes": 4189,
+    "all_parties": {
+      "REP": 4150,
+      "NON": 39
+    },
+    "margin": 4150,
+    "margin_pct": 99.07,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45035": {
+    "dem_votes": 0,
+    "rep_votes": 25557,
+    "other_votes": 330,
+    "total_votes": 25887,
+    "all_parties": {
+      "REP": 25557,
+      "NON": 330
+    },
+    "margin": 25557,
+    "margin_pct": 98.73,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45037": {
+    "dem_votes": 0,
+    "rep_votes": 5256,
+    "other_votes": 20,
+    "total_votes": 5276,
+    "all_parties": {
+      "REP": 5256,
+      "NON": 20
+    },
+    "margin": 5256,
+    "margin_pct": 99.62,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45039": {
+    "dem_votes": 0,
+    "rep_votes": 4119,
+    "other_votes": 60,
+    "total_votes": 4179,
+    "all_parties": {
+      "REP": 4119,
+      "NON": 60
+    },
+    "margin": 4119,
+    "margin_pct": 98.56,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45041": {
+    "dem_votes": 0,
+    "rep_votes": 25139,
+    "other_votes": 206,
+    "total_votes": 25345,
+    "all_parties": {
+      "REP": 25139,
+      "NON": 206
+    },
+    "margin": 25139,
+    "margin_pct": 99.19,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45043": {
+    "dem_votes": 0,
+    "rep_votes": 13364,
+    "other_votes": 74,
+    "total_votes": 13438,
+    "all_parties": {
+      "REP": 13364,
+      "NON": 74
+    },
+    "margin": 13364,
+    "margin_pct": 99.45,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45045": {
+    "dem_votes": 0,
+    "rep_votes": 102065,
+    "other_votes": 1183,
+    "total_votes": 103248,
+    "all_parties": {
+      "REP": 102065,
+      "NON": 1183
+    },
+    "margin": 102065,
+    "margin_pct": 98.85,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45047": {
+    "dem_votes": 0,
+    "rep_votes": 13860,
+    "other_votes": 146,
+    "total_votes": 14006,
+    "all_parties": {
+      "REP": 13860,
+      "NON": 146
+    },
+    "margin": 13860,
+    "margin_pct": 98.96,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45049": {
+    "dem_votes": 0,
+    "rep_votes": 2797,
+    "other_votes": 11,
+    "total_votes": 2808,
+    "all_parties": {
+      "REP": 2797,
+      "": 11
+    },
+    "margin": 2797,
+    "margin_pct": 99.61,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45051": {
+    "dem_votes": 0,
+    "rep_votes": 52893,
+    "other_votes": 311,
+    "total_votes": 53204,
+    "all_parties": {
+      "REP": 52893,
+      "NON": 311
+    },
+    "margin": 52893,
+    "margin_pct": 99.42,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45053": {
+    "dem_votes": 0,
+    "rep_votes": 2890,
+    "other_votes": 21,
+    "total_votes": 2911,
+    "all_parties": {
+      "REP": 2890,
+      "": 21
+    },
+    "margin": 2890,
+    "margin_pct": 99.28,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45055": {
+    "dem_votes": 0,
+    "rep_votes": 15542,
+    "other_votes": 101,
+    "total_votes": 15643,
+    "all_parties": {
+      "REP": 15542,
+      "NON": 101
+    },
+    "margin": 15542,
+    "margin_pct": 99.35,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45057": {
+    "dem_votes": 0,
+    "rep_votes": 15245,
+    "other_votes": 101,
+    "total_votes": 15346,
+    "all_parties": {
+      "REP": 15245,
+      "NON": 101
+    },
+    "margin": 15245,
+    "margin_pct": 99.34,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45059": {
+    "dem_votes": 0,
+    "rep_votes": 12185,
+    "other_votes": 105,
+    "total_votes": 12290,
+    "all_parties": {
+      "REP": 12185,
+      "NON": 105
+    },
+    "margin": 12185,
+    "margin_pct": 99.15,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45061": {
+    "dem_votes": 0,
+    "rep_votes": 2644,
+    "other_votes": 32,
+    "total_votes": 2676,
+    "all_parties": {
+      "REP": 2644,
+      "NON": 32
+    },
+    "margin": 2644,
+    "margin_pct": 98.8,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45063": {
+    "dem_votes": 0,
+    "rep_votes": 67816,
+    "other_votes": 742,
+    "total_votes": 68558,
+    "all_parties": {
+      "REP": 67816,
+      "NON": 742
+    },
+    "margin": 67816,
+    "margin_pct": 98.92,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45065": {
+    "dem_votes": 0,
+    "rep_votes": 2317,
+    "other_votes": 9,
+    "total_votes": 2326,
+    "all_parties": {
+      "REP": 2317,
+      "NON": 9
+    },
+    "margin": 2317,
+    "margin_pct": 99.61,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45067": {
+    "dem_votes": 0,
+    "rep_votes": 4595,
+    "other_votes": 50,
+    "total_votes": 4645,
+    "all_parties": {
+      "REP": 4595,
+      "NON": 50
+    },
+    "margin": 4595,
+    "margin_pct": 98.92,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45069": {
+    "dem_votes": 0,
+    "rep_votes": 3257,
+    "other_votes": 44,
+    "total_votes": 3301,
+    "all_parties": {
+      "REP": 3257,
+      "NON": 44
+    },
+    "margin": 3257,
+    "margin_pct": 98.67,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45071": {
+    "dem_votes": 0,
+    "rep_votes": 8477,
+    "other_votes": 66,
+    "total_votes": 8543,
+    "all_parties": {
+      "REP": 8477,
+      "NON": 66
+    },
+    "margin": 8477,
+    "margin_pct": 99.23,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45073": {
+    "dem_votes": 0,
+    "rep_votes": 17198,
+    "other_votes": 108,
+    "total_votes": 17306,
+    "all_parties": {
+      "REP": 17198,
+      "": 108
+    },
+    "margin": 17198,
+    "margin_pct": 99.38,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45075": {
+    "dem_votes": 0,
+    "rep_votes": 10944,
+    "other_votes": 182,
+    "total_votes": 11126,
+    "all_parties": {
+      "REP": 10944,
+      "NON": 182
+    },
+    "margin": 10944,
+    "margin_pct": 98.36,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45077": {
+    "dem_votes": 0,
+    "rep_votes": 25275,
+    "other_votes": 206,
+    "total_votes": 25481,
+    "all_parties": {
+      "REP": 25275,
+      "NON": 206
+    },
+    "margin": 25275,
+    "margin_pct": 99.19,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45079": {
+    "dem_votes": 0,
+    "rep_votes": 62688,
+    "other_votes": 1692,
+    "total_votes": 64380,
+    "all_parties": {
+      "REP": 62688,
+      "NON": 1692
+    },
+    "margin": 62688,
+    "margin_pct": 97.37,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45081": {
+    "dem_votes": 0,
+    "rep_votes": 4352,
+    "other_votes": 12,
+    "total_votes": 4364,
+    "all_parties": {
+      "REP": 4352,
+      "": 12
+    },
+    "margin": 4352,
+    "margin_pct": 99.73,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45083": {
+    "dem_votes": 0,
+    "rep_votes": 55091,
+    "other_votes": 458,
+    "total_votes": 55549,
+    "all_parties": {
+      "REP": 55091,
+      "NON": 458
+    },
+    "margin": 55091,
+    "margin_pct": 99.18,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45085": {
+    "dem_votes": 0,
+    "rep_votes": 16469,
+    "other_votes": 240,
+    "total_votes": 16709,
+    "all_parties": {
+      "REP": 16469,
+      "NON": 240
+    },
+    "margin": 16469,
+    "margin_pct": 98.56,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45087": {
+    "dem_votes": 0,
+    "rep_votes": 5954,
+    "other_votes": 66,
+    "total_votes": 6020,
+    "all_parties": {
+      "REP": 5954,
+      "NON": 66
+    },
+    "margin": 5954,
+    "margin_pct": 98.9,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45089": {
+    "dem_votes": 0,
+    "rep_votes": 4293,
+    "other_votes": 74,
+    "total_votes": 4367,
+    "all_parties": {
+      "REP": 4293,
+      "NON": 74
+    },
+    "margin": 4293,
+    "margin_pct": 98.31,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45091": {
+    "dem_votes": 0,
+    "rep_votes": 51675,
+    "other_votes": 423,
+    "total_votes": 52098,
+    "all_parties": {
+      "REP": 51675,
+      "NON": 423
+    },
+    "margin": 51675,
+    "margin_pct": 99.19,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  }
+}

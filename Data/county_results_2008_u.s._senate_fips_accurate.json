@@ -1,0 +1,820 @@
+{
+  "45001": {
+    "county": "Abbeville",
+    "fips": "45001",
+    "contest": "U.S. SENATE",
+    "total_votes": 10791,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 4558,
+    "rep_votes": 6226,
+    "dem_pct": 42.24,
+    "rep_pct": 57.7,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45003": {
+    "dem_votes": 24412,
+    "rep_votes": 43555,
+    "other_votes": 162,
+    "total_votes": 68129,
+    "all_parties": {
+      "REP": 43555,
+      "DEM": 24412,
+      "OTH": 162
+    },
+    "margin": 19143,
+    "margin_pct": 28.1,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45005": {
+    "dem_votes": 2805,
+    "rep_votes": 1042,
+    "other_votes": 2,
+    "total_votes": 3849,
+    "all_parties": {
+      "REP": 1042,
+      "DEM": 2805,
+      "OTH": 2
+    },
+    "margin": -1763,
+    "margin_pct": -45.8,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45007": {
+    "dem_votes": 23759,
+    "rep_votes": 48323,
+    "other_votes": 172,
+    "total_votes": 72254,
+    "all_parties": {
+      "REP": 48323,
+      "DEM": 23759,
+      "OTH": 172
+    },
+    "margin": 24564,
+    "margin_pct": 34.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45009": {
+    "dem_votes": 4045,
+    "rep_votes": 2521,
+    "other_votes": 3,
+    "total_votes": 6569,
+    "all_parties": {
+      "REP": 2521,
+      "DEM": 4045,
+      "OTH": 3
+    },
+    "margin": -1524,
+    "margin_pct": -23.2,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45011": {
+    "dem_votes": 4657,
+    "rep_votes": 4850,
+    "other_votes": 10,
+    "total_votes": 9517,
+    "all_parties": {
+      "REP": 4850,
+      "DEM": 4657,
+      "OTH": 10
+    },
+    "margin": 193,
+    "margin_pct": 2.03,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45013": {
+    "dem_votes": 26879,
+    "rep_votes": 39932,
+    "other_votes": 128,
+    "total_votes": 66939,
+    "all_parties": {
+      "REP": 39932,
+      "DEM": 26879,
+      "OTH": 128
+    },
+    "margin": 13053,
+    "margin_pct": 19.5,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45015": {
+    "dem_votes": 25494,
+    "rep_votes": 37540,
+    "other_votes": 147,
+    "total_votes": 63181,
+    "all_parties": {
+      "REP": 37540,
+      "DEM": 25494,
+      "OTH": 147
+    },
+    "margin": 12046,
+    "margin_pct": 19.07,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45017": {
+    "dem_votes": 3664,
+    "rep_votes": 3924,
+    "other_votes": 6,
+    "total_votes": 7594,
+    "all_parties": {
+      "REP": 3924,
+      "DEM": 3664,
+      "OTH": 6
+    },
+    "margin": 260,
+    "margin_pct": 3.42,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45019": {
+    "dem_votes": 70463,
+    "rep_votes": 78424,
+    "other_votes": 592,
+    "total_votes": 149479,
+    "all_parties": {
+      "REP": 78424,
+      "DEM": 70463,
+      "OTH": 592
+    },
+    "margin": 7961,
+    "margin_pct": 5.33,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Republican",
+      "color": "#FF9999"
+    }
+  },
+  "45021": {
+    "dem_votes": 7744,
+    "rep_votes": 12462,
+    "other_votes": 34,
+    "total_votes": 20240,
+    "all_parties": {
+      "REP": 12462,
+      "DEM": 7744,
+      "OTH": 34
+    },
+    "margin": 4718,
+    "margin_pct": 23.31,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45023": {
+    "dem_votes": 7168,
+    "rep_votes": 6297,
+    "other_votes": 10,
+    "total_votes": 13475,
+    "all_parties": {
+      "REP": 6297,
+      "DEM": 7168,
+      "OTH": 10
+    },
+    "margin": -871,
+    "margin_pct": -6.46,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Democratic",
+      "color": "#9999FF"
+    }
+  },
+  "45025": {
+    "dem_votes": 7306,
+    "rep_votes": 8557,
+    "other_votes": 13,
+    "total_votes": 15876,
+    "all_parties": {
+      "REP": 8557,
+      "DEM": 7306,
+      "OTH": 13
+    },
+    "margin": 1251,
+    "margin_pct": 7.88,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Republican",
+      "color": "#FF9999"
+    }
+  },
+  "45027": {
+    "dem_votes": 8313,
+    "rep_votes": 6996,
+    "other_votes": 3,
+    "total_votes": 15312,
+    "all_parties": {
+      "REP": 6996,
+      "DEM": 8313,
+      "OTH": 3
+    },
+    "margin": -1317,
+    "margin_pct": -8.6,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Democratic",
+      "color": "#9999FF"
+    }
+  },
+  "45029": {
+    "dem_votes": 7876,
+    "rep_votes": 9052,
+    "other_votes": 13,
+    "total_votes": 16941,
+    "all_parties": {
+      "REP": 9052,
+      "DEM": 7876,
+      "OTH": 13
+    },
+    "margin": 1176,
+    "margin_pct": 6.94,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Republican",
+      "color": "#FF9999"
+    }
+  },
+  "45031": {
+    "dem_votes": 13161,
+    "rep_votes": 15490,
+    "other_votes": 18,
+    "total_votes": 28669,
+    "all_parties": {
+      "REP": 15490,
+      "DEM": 13161,
+      "OTH": 18
+    },
+    "margin": 2329,
+    "margin_pct": 8.12,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Republican",
+      "color": "#FF9999"
+    }
+  },
+  "45033": {
+    "dem_votes": 5784,
+    "rep_votes": 6315,
+    "other_votes": 14,
+    "total_votes": 12113,
+    "all_parties": {
+      "REP": 6315,
+      "DEM": 5784,
+      "OTH": 14
+    },
+    "margin": 531,
+    "margin_pct": 4.38,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45035": {
+    "dem_votes": 19836,
+    "rep_votes": 31255,
+    "other_votes": 130,
+    "total_votes": 51221,
+    "all_parties": {
+      "REP": 31255,
+      "DEM": 19836,
+      "OTH": 130
+    },
+    "margin": 11419,
+    "margin_pct": 22.29,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45037": {
+    "dem_votes": 4889,
+    "rep_votes": 6390,
+    "other_votes": 28,
+    "total_votes": 11307,
+    "all_parties": {
+      "REP": 6390,
+      "DEM": 4889,
+      "OTH": 28
+    },
+    "margin": 1501,
+    "margin_pct": 13.27,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "fips": "45039",
+    "contest": "U.S. SENATE",
+    "total_votes": 11216,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6737,
+    "rep_votes": 4472,
+    "dem_pct": 60.07,
+    "rep_pct": 39.87,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "fips": "45041",
+    "contest": "U.S. SENATE",
+    "total_votes": 57329,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 24589,
+    "rep_votes": 32680,
+    "dem_pct": 42.89,
+    "rep_pct": 57.0,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "fips": "45043",
+    "contest": "U.S. SENATE",
+    "total_votes": 29549,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 12753,
+    "rep_votes": 16769,
+    "dem_pct": 43.16,
+    "rep_pct": 56.75,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "fips": "45045",
+    "contest": "U.S. SENATE",
+    "total_votes": 185834,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 72205,
+    "rep_votes": 112522,
+    "dem_pct": 38.85,
+    "rep_pct": 60.55,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "fips": "45047",
+    "contest": "U.S. SENATE",
+    "total_votes": 29059,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 11104,
+    "rep_votes": 17911,
+    "dem_pct": 38.21,
+    "rep_pct": 61.64,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "fips": "45049",
+    "contest": "U.S. SENATE",
+    "total_votes": 8840,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5225,
+    "rep_votes": 3609,
+    "dem_pct": 59.11,
+    "rep_pct": 40.83,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "fips": "45051",
+    "contest": "U.S. SENATE",
+    "total_votes": 102019,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 34678,
+    "rep_votes": 67215,
+    "dem_pct": 33.99,
+    "rep_pct": 65.88,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "fips": "45053",
+    "contest": "U.S. SENATE",
+    "total_votes": 8573,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5203,
+    "rep_votes": 3367,
+    "dem_pct": 60.69,
+    "rep_pct": 39.27,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "fips": "45055",
+    "contest": "U.S. SENATE",
+    "total_votes": 27365,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 9999,
+    "rep_votes": 17344,
+    "dem_pct": 36.54,
+    "rep_pct": 63.38,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "fips": "45057",
+    "contest": "U.S. SENATE",
+    "total_votes": 27906,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 11585,
+    "rep_votes": 16295,
+    "dem_pct": 41.51,
+    "rep_pct": 58.39,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "fips": "45059",
+    "contest": "U.S. SENATE",
+    "total_votes": 25873,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 10377,
+    "rep_votes": 15448,
+    "dem_pct": 40.11,
+    "rep_pct": 59.71,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "fips": "45061",
+    "contest": "U.S. SENATE",
+    "total_votes": 8912,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 5489,
+    "rep_votes": 3418,
+    "dem_pct": 61.59,
+    "rep_pct": 38.35,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "fips": "45063",
+    "contest": "U.S. SENATE",
+    "total_votes": 107645,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 29255,
+    "rep_votes": 78255,
+    "dem_pct": 27.18,
+    "rep_pct": 72.7,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45065": {
+    "county": "Marion",
+    "fips": "45065",
+    "contest": "U.S. SENATE",
+    "total_votes": 14557,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 8599,
+    "rep_votes": 5951,
+    "dem_pct": 59.07,
+    "rep_pct": 40.88,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45067": {
+    "county": "Marlboro",
+    "fips": "45067",
+    "contest": "U.S. SENATE",
+    "total_votes": 10571,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6306,
+    "rep_votes": 4256,
+    "dem_pct": 59.65,
+    "rep_pct": 40.26,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#3182bd"
+    }
+  },
+  "45069": {
+    "county": "McCormick",
+    "fips": "45069",
+    "contest": "U.S. SENATE",
+    "total_votes": 5118,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 2592,
+    "rep_votes": 2521,
+    "dem_pct": 50.64,
+    "rep_pct": 49.26,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "fips": "45071",
+    "contest": "U.S. SENATE",
+    "total_votes": 16183,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6111,
+    "rep_votes": 10064,
+    "dem_pct": 37.76,
+    "rep_pct": 62.19,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "fips": "45073",
+    "contest": "U.S. SENATE",
+    "total_votes": 30574,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 8236,
+    "rep_votes": 22305,
+    "dem_pct": 26.94,
+    "rep_pct": 72.95,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "fips": "45075",
+    "contest": "U.S. SENATE",
+    "total_votes": 38502,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 25129,
+    "rep_votes": 13346,
+    "dem_pct": 65.27,
+    "rep_pct": 34.66,
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "fips": "45077",
+    "contest": "U.S. SENATE",
+    "total_votes": 44446,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 12121,
+    "rep_votes": 32158,
+    "dem_pct": 27.27,
+    "rep_pct": 72.35,
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "fips": "45079",
+    "contest": "U.S. SENATE",
+    "total_votes": 160814,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 87891,
+    "rep_votes": 72654,
+    "dem_pct": 54.65,
+    "rep_pct": 45.18,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "fips": "45081",
+    "contest": "U.S. SENATE",
+    "total_votes": 8454,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3163,
+    "rep_votes": 5282,
+    "dem_pct": 37.41,
+    "rep_pct": 62.48,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "fips": "45083",
+    "contest": "U.S. SENATE",
+    "total_votes": 105509,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 43966,
+    "rep_votes": 61117,
+    "dem_pct": 41.67,
+    "rep_pct": 57.93,
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "fips": "45085",
+    "contest": "U.S. SENATE",
+    "total_votes": 43556,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 23625,
+    "rep_votes": 19906,
+    "dem_pct": 54.24,
+    "rep_pct": 45.7,
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "fips": "45087",
+    "contest": "U.S. SENATE",
+    "total_votes": 13251,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 6349,
+    "rep_votes": 6881,
+    "dem_pct": 47.91,
+    "rep_pct": 51.93,
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fee0d2"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "fips": "45089",
+    "contest": "U.S. SENATE",
+    "total_votes": 15809,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 10137,
+    "rep_votes": 5662,
+    "dem_pct": 64.12,
+    "rep_pct": 35.82,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "fips": "45091",
+    "contest": "U.S. SENATE",
+    "total_votes": 90511,
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 34384,
+    "rep_votes": 55975,
+    "dem_pct": 37.99,
+    "rep_pct": 61.84,
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}
