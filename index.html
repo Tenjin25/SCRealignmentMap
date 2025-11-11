@@ -130,36 +130,97 @@
           return;
         }
         const counties = countiesSource._data.features;
-      // Normalize county names for matching
-      function normalizeCountyName(name) {
-        return (name || '')
-          .replace(/St\.? Lucie/i, 'St Lucie')
-          .replace(/St\.? Johns/i, 'St Johns')
-          .replace(/[^a-z0-9 ]/gi, '')
-          .replace(/\s+/g, ' ')
-          .trim()
-          .toUpperCase();
-      }
-      const normTarget = normalizeCountyName(countyName);
-      const countyFeature = counties.find(f => {
-        const props = f.properties || {};
-        const name = normalizeCountyName(props.County || props.COUNTYNAME || props.NAME || '');
-        return name === normTarget;
-      });
-      if (!countyFeature) {
-        console.warn('zoomToCounty: county not found for', countyName);
+        function normalizeCountyName(name) {
+          return (name || '')
+            .replace(/St\.? Lucie/i, 'St Lucie')
+            .replace(/St\.? Johns/i, 'St Johns')
+            .replace(/[^a-z0-9 ]/gi, '')
+            .replace(/\s+/g, ' ')
+            .trim()
+            .toUpperCase();
+        }
+        const normTarget = normalizeCountyName(countyName);
+        // Try all possible property keys for matching
+        const possibleKeys = ['County', 'COUNTYNAME', 'NAME', 'NAME20', 'NAMELSAD', 'name'];
+        let countyFeature = counties.find(f => {
+          const props = f.properties || {};
+          for (let key of possibleKeys) {
+            if (props[key] && normalizeCountyName(props[key]) === normTarget) {
+              return true;
+            }
+          }
+          return false;
+        });
+        // Fallback: find closest match by Levenshtein distance if no exact match
+        if (!countyFeature) {
+          let minDist = Infinity;
+          let bestFeature = null;
+          counties.forEach(f => {
+            const props = f.properties || {};
+            for (let key of possibleKeys) {
+              if (props[key]) {
+                const dist = levenshtein(normTarget, normalizeCountyName(props[key]));
+                if (dist < minDist) {
+                  minDist = dist;
+                  bestFeature = f;
+                }
+              }
+            }
+          });
+          if (bestFeature && minDist <= 2) { // Accept close match
+            countyFeature = bestFeature;
+            console.warn('zoomToCounty: No exact match for', countyName, 'but using closest match:', bestFeature.properties);
+          } else {
+            // Debug: Show all available normalized names for troubleshooting
+            const countiesList = counties.map(f => {
+              const props = f.properties || {};
+              return possibleKeys.map(k => props[k]).find(Boolean) || '';
+            }).filter(name => name).sort();
+            const normalizedList = countiesList.map(n => normalizeCountyName(n));
+            console.warn('zoomToCounty: county not found for', countyName, '| normalized:', normTarget);
+            console.warn('zoomToCounty: Available counties:', countiesList);
+            console.warn('zoomToCounty: Normalized counties:', normalizedList);
+            alert('County not found: ' + countyName + '\nAvailable counties (raw):\n' + countiesList.join(', ') + '\n\nIf you typed the name, try selecting from the suggestions.');
+            return;
+          }
+        }
+        // Levenshtein distance function
+        function levenshtein(a, b) {
+          if (a === b) return 0;
+          if (!a.length) return b.length;
+          if (!b.length) return a.length;
+          let matrix = [];
+          for (let i = 0; i <= b.length; i++) {
+            matrix[i] = [i];
+          }
+          for (let j = 0; j <= a.length; j++) {
+            matrix[0][j] = j;
+          }
+          for (let i = 1; i <= b.length; i++) {
+            for (let j = 1; j <= a.length; j++) {
+              if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                matrix[i][j] = matrix[i - 1][j - 1];
+              } else {
+                matrix[i][j] = Math.min(
+                  matrix[i - 1][j - 1] + 1, // substitution
+                  matrix[i][j - 1] + 1,     // insertion
+                  matrix[i - 1][j] + 1      // deletion
+                );
+              }
+            }
+          }
+          return matrix[b.length][a.length];
+        }
+        if (typeof turf === 'undefined' || !turf.bbox) {
+          console.warn('zoomToCounty: turf not available');
+          return;
+        }
+        const bbox = turf.bbox(countyFeature); // [minX, minY, maxX, maxY]
+        // Convert to [[minLng,minLat],[maxLng,maxLat]] which map.fitBounds expects
+        const fitBoundsBox = [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
+        map.fitBounds(fitBoundsBox, { padding: 40, maxZoom: 10 });
+        console.log('zoomToCounty: zoomed to', countyName, fitBoundsBox);
         return;
-      }
-      if (typeof turf === 'undefined' || !turf.bbox) {
-        console.warn('zoomToCounty: turf not available');
-        return;
-      }
-      const bbox = turf.bbox(countyFeature); // [minX, minY, maxX, maxY]
-      // Convert to [[minLng,minLat],[maxLng,maxLat]] which map.fitBounds expects
-      const fitBoundsBox = [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
-      map.fitBounds(fitBoundsBox, { padding: 40, maxZoom: 10 });
-      console.log('zoomToCounty: zoomed to', countyName, fitBoundsBox);
-      return;
       } catch (err) {
         console.error('zoomToCounty error:', err);
       }
@@ -960,7 +1021,7 @@ body {
             <h5>I-85 Corridor - The Realignment Highway</h5>
             <p><strong>Economic Transformation:</strong> Greenville-Spartanburg-Anderson corridor benefits from automotive industry (BMW, Michelin) and Charlotte metro spillover effects.</p>
             <p><strong>Educational Impact:</strong> Clemson University influence in Anderson County, USC Upstate in Spartanburg create Democratic pockets. <span class="metric">Anderson</span>: R+28% → R+22%, <span class="metric">Spartanburg</span>: R+19% → R+15%</p>
-            <p><strong>Charlotte Spillover:</strong> York County experiences strongest suburban shift due to Charlotte commuter influence. <span class="metric">2016: R+22.7%</span> → <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+15.2%</span></p>
+            <p><strong>Charlotte Spillover:</strong> York County experiences strongest suburban shift due to Charlotte commuter influence. <span class="metric" style="color:#b91c1c;font-weight:bold;background:rgba(185,28,28,0.08);border:1.5px solid #b91c1c;border-radius:5px;padding:2px 6px;">2024: R+15.2%</span></p>
             <p><strong>Long-term Trend:</strong> Continued economic development and education growth could create competitive corridor by 2030s.</p>
           </div>
           <div class="finding-card">
@@ -1445,7 +1506,7 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
             } else {
               option.textContent = `${contest.emoji} ${contest.name} (${contest.year})`;
             }
-            
+
             optgroup.appendChild(option);
           });
           
@@ -1607,30 +1668,32 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       sel.onchange = () => { applyContest(sel.value); };
     }
 
-    function populateContestSelectFromCongressionalCSV(csvData) {
-      const sel = document.getElementById('contestSelect');
-      const years = [...new Set(csvData.map(row => row.year))].sort();
-      
-      years.forEach(year => {
-        const hasData = csvData.some(row => 
-          row.year == year && row.us_house_total > 0
-        );
-        
-        if (hasData) {
-          const opt = document.createElement('option');
-          opt.value = `us_house_${year}`;
-          opt.textContent = `${formatContestName('us_house', year)} (${year})`;
-          sel.appendChild(opt);
-        }
-      });
-      sel.onchange = () => { applyContest(sel.value); };
+function populateContestSelectFromCongressionalCSV(csvData) {
+  const sel = document.getElementById('contestSelect');
+  const years = [...new Set(csvData.map(row => row.year))].sort();
+  
+  years.forEach(year => {
+    const hasData = csvData.some(row => 
+      row.year == year && row.us_house_total > 0
+    );
+    
+    if (hasData) {
+      const opt = document.createElement('option');
+      opt.value = `us_house_${year}`;
+      opt.textContent = `${formatContestName('us_house', year)} (${year})`;
+      sel.appendChild(opt);
     }
+  });
+  sel.onchange = () => { applyContest(sel.value); };
+}
 
     function setAnalysisMode(mode) {
       // Update button states
-      document.getElementById('county-mode').classList.toggle('active', mode === 'county');
-      document.getElementById('district-mode').classList.toggle('active', mode === 'district');
-      
+      // Only 'county-mode' exists in the HTML; 'district-mode' does not exist, so skip it.
+      var countyModeBtn = document.getElementById('county-mode');
+      if (countyModeBtn) {
+        countyModeBtn.classList.toggle('active', mode === 'county');
+      }
       // Could add different analysis modes here (e.g., demographic analysis vs electoral analysis)
       console.log(`Analysis mode set to: ${mode}`);
     }
@@ -1758,10 +1821,11 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       currentView = view;
       
       // Update button states
-      document.getElementById('counties-view').classList.toggle('active', view === 'counties');
-      document.getElementById('districts-view').classList.toggle('active', view === 'districts');
-      document.getElementById('state-house-view').classList.toggle('active', view === 'state_house');
-      document.getElementById('state-senate-view').classList.toggle('active', view === 'state_senate');
+      // The following elements do not exist in the HTML, so skip toggling their classes.
+      // document.getElementById('counties-view').classList.toggle('active', view === 'counties');
+      // document.getElementById('districts-view').classList.toggle('active', view === 'districts');
+      // document.getElementById('state-house-view').classList.toggle('active', view === 'state_house');
+      // document.getElementById('state-senate-view').classList.toggle('active', view === 'state_senate');
       
       // Update 2000 VTDs button if available
       const vtds2000Button = document.getElementById('vtds-2000-view');
@@ -2087,40 +2151,40 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       let competitiveness;
       const actualMarginPct = parseFloat(marginPct);
       if (actualMarginPct >= 40) {
-        competitiveness = winner === 'Republican' ? "Annihilation Republican" : "Annihilation Democratic";
+        competitiveness = winner === 'Republican' ? 'Annihilation Republican' : 'Annihilation Democratic';
       } else if (actualMarginPct >= 30) {
-        competitiveness = winner === 'Republican' ? "Dominant Republican" : "Dominant Democratic";
+        competitiveness = winner === 'Republican' ? 'Dominant Republican' : 'Dominant Democratic';
       } else if (actualMarginPct >= 20) {
-        competitiveness = winner === 'Republican' ? "Stronghold Republican" : "Stronghold Democratic";
+        competitiveness = winner === 'Republican' ? 'Stronghold Republican' : 'Stronghold Democratic';
       } else if (actualMarginPct >= 10) {
-        competitiveness = winner === 'Republican' ? "Safe Republican" : "Safe Democratic";
+        competitiveness = winner === 'Republican' ? 'Safe Republican' : 'Safe Democratic';
       } else if (actualMarginPct >= 5.5) {
-        competitiveness = winner === 'Republican' ? "Likely Republican" : "Likely Democratic";
+        competitiveness = winner === 'Republican' ? 'Likely Republican' : 'Likely Democratic';
       } else if (actualMarginPct >= 1) {
-        competitiveness = winner === 'Republican' ? "Lean Republican" : "Lean Democratic";
+        competitiveness = winner === 'Republican' ? 'Lean Republican' : 'Lean Democratic';
       } else if (actualMarginPct >= 0.5) {
-        competitiveness = winner === 'Republican' ? "Tilt Republican" : "Tilt Democratic";
+        competitiveness = winner === 'Republican' ? 'Tilt Republican' : 'Tilt Democratic';
       } else {
         competitiveness = `Tossup (${winner} win)`;
       }
       
       let compColor = '#6b7280';
       if (competitiveness.includes('Rep')) {
-        if (competitiveness.includes('Annihilation')) compColor = '#450a0a';
-        else if (competitiveness.includes('Dominant')) compColor = '#7f1d1d';
-        else if (competitiveness.includes('Stronghold')) compColor = '#991b1b';
-        else if (competitiveness.includes('Safe')) compColor = '#dc2626';
-        else if (competitiveness.includes('Likely')) compColor = '#ef4444';
-        else if (competitiveness.includes('Lean')) compColor = '#f87171';
-        else if (competitiveness.includes('Tilt')) compColor = '#fca5a5';
+        if (competitiveness.includes('Annihilation')) compColor = '#67000d';
+        else if (competitiveness.includes('Dominant')) compColor = '#a50f15';
+        else if (competitiveness.includes('Stronghold')) compColor = '#cb181d';
+        else if (competitiveness.includes('Safe')) compColor = '#ef3b2c';
+        else if (competitiveness.includes('Likely')) compColor = '#fb6a4a';
+        else if (competitiveness.includes('Lean')) compColor = '#fcae91';
+        else if (competitiveness.includes('Tilt')) compColor = '#fee8c8';
       } else if (competitiveness.includes('Dem')) {
-        if (competitiveness.includes('Annihilation')) compColor = '#0c1d56';
-        else if (competitiveness.includes('Dominant')) compColor = '#1e3a8a';
-        else if (competitiveness.includes('Stronghold')) compColor = '#1e40af';
-        else if (competitiveness.includes('Safe')) compColor = '#3b82f6';
-        else if (competitiveness.includes('Likely')) compColor = '#60a5fa';
-        else if (competitiveness.includes('Lean')) compColor = '#93c5fd';
-        else if (competitiveness.includes('Tilt')) compColor = '#bfdbfe';
+        if (competitiveness.includes('Annihilation')) compColor = '#08306b';
+        else if (competitiveness.includes('Dominant')) compColor = '#08519c';
+        else if (competitiveness.includes('Stronghold')) compColor = '#3182bd';
+        else if (competitiveness.includes('Safe')) compColor = '#6baed6';
+        else if (competitiveness.includes('Likely')) compColor = '#9ecae1';
+        else if (competitiveness.includes('Lean')) compColor = '#c6dbef';
+        else if (competitiveness.includes('Tilt')) compColor = '#e1f5fe';
       }
       
       sidebarContent += `<div class="competitiveness-section">`;
@@ -2603,7 +2667,10 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       nameEl.textContent = `Congressional District ${districtNum}`;
       
       // Get district info from districtsInfo CSV
-      const districtInfo = districtsInfo.find(d => d.district == districtNum);
+      let districtInfo = null;
+      if (districtsInfo && Array.isArray(districtsInfo)) {
+        districtInfo = districtsInfo.find(d => d.district == districtNum);
+      }
       
       let demographicInfo = '';
       if (districtInfo) {
@@ -2757,7 +2824,7 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       const recentYears = [2024, 2022, 2020, 2018, 2016];
       const trends = [];
       
-      // This is simplified - in reality you'd need county-to-district mapping
+      // This is simplified - in reality you'd need to county-to-district mapping
       // For now, just show that data is available
       recentYears.forEach(year => {
         const contestType = chamber === 'house' ? 'state_house' : 'state_senate';
@@ -3272,7 +3339,108 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 });
-  </script>
-</body>
-</html>
+
+function zoomToCounty(countyName) {
+  try {
+    const countiesSource = map.getSource('counties');
+    if (!countiesSource || !countiesSource._data || !countiesSource._data.features) {
+      console.warn('zoomToCounty: counties source not ready');
+      return;
+    }
+    const counties = countiesSource._data.features;
+    function normalizeCountyName(name) {
+      return (name || '')
+        .replace(/St\.? Lucie/i, 'St Lucie')
+        .replace(/St\.? Johns/i, 'St Johns')
+        .replace(/[^a-z0-9 ]/gi, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toUpperCase();
+    }
+    const normTarget = normalizeCountyName(countyName);
+    // Try all possible property keys for matching
+    const possibleKeys = ['County', 'COUNTYNAME', 'NAME', 'NAME20', 'NAMELSAD', 'name'];
+    let countyFeature = counties.find(f => {
+      const props = f.properties || {};
+      for (let key of possibleKeys) {
+        if (props[key] && normalizeCountyName(props[key]) === normTarget) {
+          return true;
+        }
+      }
+      return false;
+    });
+    // Fallback: find closest match by Levenshtein distance if no exact match
+    if (!countyFeature) {
+      let minDist = Infinity;
+      let bestFeature = null;
+      counties.forEach(f => {
+        const props = f.properties || {};
+        for (let key of possibleKeys) {
+          if (props[key]) {
+            const dist = levenshtein(normTarget, normalizeCountyName(props[key]));
+            if (dist < minDist) {
+              minDist = dist;
+              bestFeature = f;
+            }
+          }
+        }
+      });
+      if (bestFeature && minDist <= 2) { // Accept close match
+        countyFeature = bestFeature;
+        console.warn('zoomToCounty: No exact match for', countyName, 'but using closest match:', bestFeature.properties);
+      } else {
+        // Debug: Show all available normalized names for troubleshooting
+        const countiesList = counties.map(f => {
+          const props = f.properties || {};
+          return possibleKeys.map(k => props[k]).find(Boolean) || '';
+        }).filter(name => name).sort();
+        const normalizedList = countiesList.map(n => normalizeCountyName(n));
+        console.warn('zoomToCounty: county not found for', countyName, '| normalized:', normTarget);
+        console.warn('zoomToCounty: Available counties:', countiesList);
+        console.warn('zoomToCounty: Normalized counties:', normalizedList);
+        alert('County not found: ' + countyName + '\nAvailable counties (raw):\n' + countiesList.join(', ') + '\n\nIf you typed the name, try selecting from the suggestions.');
+        return;
+      }
+    }
+    // Levenshtein distance function
+    function levenshtein(a, b) {
+      if (a === b) return 0;
+      if (!a.length) return b.length;
+      if (!b.length) return a.length;
+      let matrix = [];
+      for (let i = 0; i <= b.length; i++) {
+        matrix[i] = [i];
+      }
+      for (let j = 0; j <= a.length; j++) {
+        matrix[0][j] = j;
+      }
+      for (let i = 1; i <= b.length; i++) {
+        for (let j = 1; j <= a.length; j++) {
+          if (b.charAt(i - 1) === a.charAt(j - 1)) {
+            matrix[i][j] = matrix[i - 1][j - 1];
+          } else {
+            matrix[i][j] = Math.min(
+              matrix[i - 1][j - 1] + 1, // substitution
+              matrix[i][j - 1] + 1,     // insertion
+              matrix[i - 1][j] + 1      // deletion
+            );
+          }
+        }
+      }
+      return matrix[b.length][a.length];
+    }
+    if (typeof turf === 'undefined' || !turf.bbox) {
+      console.warn('zoomToCounty: turf not available');
+      return;
+    }
+    const bbox = turf.bbox(countyFeature); // [minX, minY, maxX, maxY]
+    // Convert to [[minLng,minLat],[maxLng,maxLat]] which map.fitBounds expects
+    const fitBoundsBox = [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
+    map.fitBounds(fitBoundsBox, { padding: 40, maxZoom: 10 });
+    console.log('zoomToCounty: zoomed to', countyName, fitBoundsBox);
+    return;
+  } catch (err) {
+    console.error('zoomToCounty error:', err);
+  }
+}
 
