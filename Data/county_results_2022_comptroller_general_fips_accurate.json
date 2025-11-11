@@ -1099,6 +1099,31 @@
       "color": "#67000d"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Richard Eckstrom (R)",
+    "dem_votes": 0,
+    "rep_votes": 3945,
+    "other_votes": 35,
+    "total_votes": 3980,
+    "all_parties": {
+      "REP": 3945,
+      "NON": 35
+    },
+    "county_fips": "45069",
+    "two_party_total": 3945,
+    "margin": 3945,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "COMPTROLLER GENERAL",

@@ -1319,6 +1319,36 @@
       "color": "#2171b5"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2006",
+    "dem_candidate": "Jim Rex (D)",
+    "rep_candidate": "Karen Floyd (R)",
+    "dem_votes": 3381,
+    "rep_votes": 1682,
+    "other_votes": 230,
+    "total_votes": 5293,
+    "all_parties": {
+      "INDEPENDENCE PARTY O": 92,
+      "GREEN": 31,
+      "REPUBLICAN": 1682,
+      "LIBERTARIAN": 60,
+      "DEMOCRAT": 3381,
+      "CONSTITUTION": 45,
+      "": 2
+    },
+    "county_fips": "45069",
+    "two_party_total": 5063,
+    "margin": 1699,
+    "margin_pct": 33.55717953782342,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",

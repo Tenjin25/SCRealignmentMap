@@ -1143,6 +1143,32 @@
       "color": "#6baed6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "ADJUTANT GENERAL",
+    "year": "2006",
+    "dem_candidate": "Glenn Lindman (D)",
+    "rep_candidate": "Stan Spears (R)",
+    "dem_votes": 3337,
+    "rep_votes": 1916,
+    "other_votes": 1,
+    "total_votes": 5254,
+    "all_parties": {
+      "REPUBLICAN": 1916,
+      "DEMOCRAT": 3337,
+      "": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 5253,
+    "margin": 1421,
+    "margin_pct": 27.05120883304778,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "ADJUTANT GENERAL",

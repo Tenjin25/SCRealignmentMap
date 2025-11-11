@@ -1142,6 +1142,31 @@
       "color": "#08519c"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE HOUSE OF REPRESENTATIVES",
+    "year": "2014",
+    "dem_candidate": "Patricia M Pat Henegan (D)",
+    "rep_candidate": "",
+    "dem_votes": 5287,
+    "rep_votes": 0,
+    "other_votes": 69,
+    "total_votes": 5356,
+    "all_parties": {
+      "DEM": 5287,
+      "NON": 69
+    },
+    "county_fips": "45069",
+    "two_party_total": 5287,
+    "margin": 5287,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE HOUSE OF REPRESENTATIVES",

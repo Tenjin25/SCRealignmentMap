@@ -1319,6 +1319,36 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "PRESIDENT",
+    "year": "2016",
+    "dem_candidate": "Hillary Rodham Clinton / Timothy Michael Kaine (D)",
+    "rep_candidate": "Donald J Trump / Michael R Pence (R)",
+    "dem_votes": 5954,
+    "rep_votes": 4267,
+    "other_votes": 168,
+    "total_votes": 10389,
+    "all_parties": {
+      "DEM": 5954,
+      "CON": 20,
+      "IND": 32,
+      "GRN": 33,
+      "REP": 4267,
+      "AMR": 13,
+      "LIB": 70
+    },
+    "county_fips": "45069",
+    "two_party_total": 10221,
+    "margin": 1687,
+    "margin_pct": 16.50523432149496,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "PRESIDENT",

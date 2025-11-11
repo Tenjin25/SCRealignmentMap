@@ -1099,6 +1099,31 @@
       "color": "#67000d"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 0,
+    "rep_votes": 3277,
+    "other_votes": 7,
+    "total_votes": 3284,
+    "all_parties": {
+      "REP": 3277,
+      "NON": 7
+    },
+    "county_fips": "45069",
+    "two_party_total": 3277,
+    "margin": 3277,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",

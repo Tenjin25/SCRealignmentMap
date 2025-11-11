@@ -1099,6 +1099,31 @@
       "color": "#67000d"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2006",
+    "dem_candidate": "",
+    "rep_candidate": "Henry McMaster (R)",
+    "dem_votes": 0,
+    "rep_votes": 2864,
+    "other_votes": 14,
+    "total_votes": 2878,
+    "all_parties": {
+      "REPUBLICAN": 2864,
+      "": 14
+    },
+    "county_fips": "45069",
+    "two_party_total": 2864,
+    "margin": 2864,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "ATTORNEY GENERAL",

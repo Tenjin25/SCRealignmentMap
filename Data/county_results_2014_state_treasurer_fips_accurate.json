@@ -1099,6 +1099,31 @@
       "color": "#67000d"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE TREASURER",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 3129,
+    "other_votes": 46,
+    "total_votes": 3175,
+    "all_parties": {
+      "REP": 3129,
+      "NON": 46
+    },
+    "county_fips": "45069",
+    "two_party_total": 3129,
+    "margin": 3129,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE TREASURER",

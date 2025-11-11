@@ -1143,6 +1143,32 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "LIEUTENANT GOVERNOR",
+    "year": "2006",
+    "dem_candidate": "Robert Barber (D)",
+    "rep_candidate": "Andre Bauer (R)",
+    "dem_votes": 3618,
+    "rep_votes": 1733,
+    "other_votes": 8,
+    "total_votes": 5359,
+    "all_parties": {
+      "REPUBLICAN": 1733,
+      "DEMOCRAT": 3618,
+      "": 8
+    },
+    "county_fips": "45069",
+    "two_party_total": 5351,
+    "margin": 1885,
+    "margin_pct": 35.227060362549054,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "LIEUTENANT GOVERNOR",

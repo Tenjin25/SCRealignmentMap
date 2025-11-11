@@ -1143,6 +1143,32 @@
       "color": "#6baed6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2006",
+    "dem_candidate": "Emile DeFelice (D)",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 3117,
+    "rep_votes": 2140,
+    "other_votes": 1,
+    "total_votes": 5258,
+    "all_parties": {
+      "REPUBLICAN": 2140,
+      "DEMOCRAT": 3117,
+      "": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 5257,
+    "margin": 977,
+    "margin_pct": 18.584744150656267,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "COMMISSIONER OF AGRICULTURE",

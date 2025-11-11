@@ -1144,6 +1144,33 @@
       "color": "#08519c"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Patricia Pat Moore Henegan (D)",
+    "rep_candidate": "REP Sterling McDiarmid (R)",
+    "dem_votes": 3372,
+    "rep_votes": 3133,
+    "other_votes": 18,
+    "total_votes": 6523,
+    "all_parties": {
+      "REP": 3133,
+      "DEM": 3372,
+      "NON": 8,
+      "IND": 10
+    },
+    "county_fips": "45069",
+    "two_party_total": 6505,
+    "margin": 239,
+    "margin_pct": 3.674096848578017,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE HOUSE",

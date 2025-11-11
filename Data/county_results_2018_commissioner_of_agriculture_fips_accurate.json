@@ -1187,6 +1187,33 @@
       "color": "#67000d"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "COMMISSIONER OF AGRICULTURE",
+    "year": "2018",
+    "dem_candidate": "",
+    "rep_candidate": "Hugh Weathers (R)",
+    "dem_votes": 0,
+    "rep_votes": 3420,
+    "other_votes": 1653,
+    "total_votes": 5073,
+    "all_parties": {
+      "UNC": 990,
+      "GRN": 651,
+      "REP": 3420,
+      "NON": 12
+    },
+    "county_fips": "45069",
+    "two_party_total": 3420,
+    "margin": 3420,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "COMMISSIONER OF AGRICULTURE",

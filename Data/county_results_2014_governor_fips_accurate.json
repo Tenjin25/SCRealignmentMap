@@ -1275,6 +1275,35 @@
       "color": "#2171b5"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "GOVERNOR",
+    "year": "2014",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki R Haley (R)",
+    "dem_votes": 3826,
+    "rep_votes": 2244,
+    "other_votes": 179,
+    "total_votes": 6249,
+    "all_parties": {
+      "LIB": 41,
+      "PET": 100,
+      "DEM": 3826,
+      "UNC": 37,
+      "REP": 2244,
+      "NON": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 6070,
+    "margin": 1582,
+    "margin_pct": 26.062602965403624,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "GOVERNOR",

@@ -1187,6 +1187,33 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "U.S. SENATE (UNEXPIRED TERM)",
+    "year": "2014",
+    "dem_candidate": "Joyce Dickerson (D)",
+    "rep_candidate": "Tim Scott (R)",
+    "dem_votes": 3637,
+    "rep_votes": 2474,
+    "other_votes": 92,
+    "total_votes": 6203,
+    "all_parties": {
+      "DEM": 3637,
+      "REP": 2474,
+      "AMR": 89,
+      "NON": 3
+    },
+    "county_fips": "45069",
+    "two_party_total": 6111,
+    "margin": 1163,
+    "margin_pct": 19.03125511372934,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. SENATE (UNEXPIRED TERM)",

@@ -1143,6 +1143,32 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2014",
+    "dem_candidate": "Parnell Diggs (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 3765,
+    "rep_votes": 2358,
+    "other_votes": 6,
+    "total_votes": 6129,
+    "all_parties": {
+      "DEM": 3765,
+      "REP": 2358,
+      "NON": 6
+    },
+    "county_fips": "45069",
+    "two_party_total": 6123,
+    "margin": 1407,
+    "margin_pct": 22.97893189612935,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "ATTORNEY GENERAL",

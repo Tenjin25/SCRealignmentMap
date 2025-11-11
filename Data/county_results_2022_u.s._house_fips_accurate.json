@@ -1149,6 +1149,32 @@
       "color": "#9ecae1"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "U.S. HOUSE",
+    "year": "2022",
+    "dem_candidate": "DEM Daryl W Scott (D)",
+    "rep_candidate": "REP Russell Fry (R)",
+    "dem_votes": 3270,
+    "rep_votes": 3199,
+    "other_votes": 8,
+    "total_votes": 6477,
+    "all_parties": {
+      "REP": 3199,
+      "DEM": 3270,
+      "NON": 8
+    },
+    "county_fips": "45069",
+    "two_party_total": 6469,
+    "margin": 71,
+    "margin_pct": 1.0975421239758851,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. HOUSE",

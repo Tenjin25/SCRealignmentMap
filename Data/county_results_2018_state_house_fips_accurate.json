@@ -1155,6 +1155,31 @@
       "color": "#08519c"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE HOUSE",
+    "year": "2018",
+    "dem_candidate": "Patricia Pat Moore Henegan (D)",
+    "rep_candidate": "",
+    "dem_votes": 6153,
+    "rep_votes": 0,
+    "other_votes": 94,
+    "total_votes": 6247,
+    "all_parties": {
+      "DEM": 6153,
+      "NON": 94
+    },
+    "county_fips": "45069",
+    "two_party_total": 6153,
+    "margin": 6153,
+    "margin_pct": 100.0,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08519c"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE HOUSE",

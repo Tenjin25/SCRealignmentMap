@@ -1143,6 +1143,32 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2006",
+    "dem_candidate": "Drew Theodore (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3536,
+    "rep_votes": 1755,
+    "other_votes": 1,
+    "total_votes": 5292,
+    "all_parties": {
+      "REPUBLICAN": 1755,
+      "DEMOCRAT": 3536,
+      "": 1
+    },
+    "county_fips": "45069",
+    "two_party_total": 5291,
+    "margin": 1781,
+    "margin_pct": 33.660933660933665,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "COMPTROLLER GENERAL",

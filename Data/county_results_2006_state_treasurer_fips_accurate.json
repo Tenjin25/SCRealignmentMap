@@ -1143,6 +1143,32 @@
       "color": "#2171b5"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE TREASURER",
+    "year": "2006",
+    "dem_candidate": "Grady L Patterson Jr (D)",
+    "rep_candidate": "Thomas Ravenel (R)",
+    "dem_votes": 3721,
+    "rep_votes": 1609,
+    "other_votes": 4,
+    "total_votes": 5334,
+    "all_parties": {
+      "REPUBLICAN": 1609,
+      "DEMOCRAT": 3721,
+      "": 4
+    },
+    "county_fips": "45069",
+    "two_party_total": 5330,
+    "margin": 2112,
+    "margin_pct": 39.62476547842402,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#2171b5"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE TREASURER",

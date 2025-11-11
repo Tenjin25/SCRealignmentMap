@@ -1187,6 +1187,33 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2014",
+    "dem_candidate": "Tom Thompson (D)",
+    "rep_candidate": "Molly Mitchell Spearman (R)",
+    "dem_votes": 3912,
+    "rep_votes": 2108,
+    "other_votes": 151,
+    "total_votes": 6171,
+    "all_parties": {
+      "DEM": 3912,
+      "REP": 2108,
+      "AMR": 147,
+      "NON": 4
+    },
+    "county_fips": "45069",
+    "two_party_total": 6020,
+    "margin": 1804,
+    "margin_pct": 29.966777408637874,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",

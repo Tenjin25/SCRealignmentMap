@@ -1177,6 +1177,32 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "U.S. HOUSE",
+    "year": "2014",
+    "dem_candidate": "Gloria Bromell-Tinubu (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 3658,
+    "rep_votes": 2556,
+    "other_votes": 5,
+    "total_votes": 6219,
+    "all_parties": {
+      "DEM": 3658,
+      "REP": 2556,
+      "NON": 5
+    },
+    "county_fips": "45069",
+    "two_party_total": 6214,
+    "margin": 1102,
+    "margin_pct": 17.734148696491793,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. HOUSE",

@@ -1099,6 +1099,31 @@
       "color": "#67000d"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "ADJUTANT GENERAL",
+    "year": "2014",
+    "dem_candidate": "",
+    "rep_candidate": "Bob Livingston (R)",
+    "dem_votes": 0,
+    "rep_votes": 3124,
+    "other_votes": 42,
+    "total_votes": 3166,
+    "all_parties": {
+      "REP": 3124,
+      "NON": 42
+    },
+    "county_fips": "45069",
+    "two_party_total": 3124,
+    "margin": 3124,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "ADJUTANT GENERAL",

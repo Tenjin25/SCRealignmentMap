@@ -1275,6 +1275,35 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "U.S. SENATE",
+    "year": "2014",
+    "dem_candidate": "Brad Hutto (D)",
+    "rep_candidate": "Lindsey Graham (R)",
+    "dem_votes": 3538,
+    "rep_votes": 2354,
+    "other_votes": 344,
+    "total_votes": 6236,
+    "all_parties": {
+      "LIB": 57,
+      "PET": 150,
+      "DEM": 3538,
+      "WFM": 135,
+      "REP": 2354,
+      "NON": 2
+    },
+    "county_fips": "45069",
+    "two_party_total": 5892,
+    "margin": 1184,
+    "margin_pct": 20.095044127630686,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. SENATE",

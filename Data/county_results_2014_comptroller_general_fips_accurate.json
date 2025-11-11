@@ -1143,6 +1143,32 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "COMPTROLLER GENERAL",
+    "year": "2014",
+    "dem_candidate": "Kyle Herbert (D)",
+    "rep_candidate": "Richard Eckstrom (R)",
+    "dem_votes": 3781,
+    "rep_votes": 2332,
+    "other_votes": 3,
+    "total_votes": 6116,
+    "all_parties": {
+      "DEM": 3781,
+      "REP": 2332,
+      "NON": 3
+    },
+    "county_fips": "45069",
+    "two_party_total": 6113,
+    "margin": 1449,
+    "margin_pct": 23.703582529036478,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#4292c6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "COMPTROLLER GENERAL",

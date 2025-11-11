@@ -1186,6 +1186,32 @@
       "color": "#6baed6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "U.S. HOUSE",
+    "year": "2018",
+    "dem_candidate": "Robert Williams (D)",
+    "rep_candidate": "Tom Rice (R)",
+    "dem_votes": 4363,
+    "rep_votes": 3340,
+    "other_votes": 2,
+    "total_votes": 7705,
+    "all_parties": {
+      "DEM": 4363,
+      "REP": 3340,
+      "NON": 2
+    },
+    "county_fips": "45069",
+    "two_party_total": 7703,
+    "margin": 1023,
+    "margin_pct": 13.28054004933143,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. HOUSE",

@@ -1231,6 +1231,34 @@
       "color": "#6baed6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE SUPERINTENDENT OF EDUCATION",
+    "year": "2022",
+    "dem_candidate": "DEM Lisa Ellis (D)",
+    "rep_candidate": "REP Ellen Weaver (R)",
+    "dem_votes": 3203,
+    "rep_votes": 3020,
+    "other_votes": 247,
+    "total_votes": 6470,
+    "all_parties": {
+      "GRN": 126,
+      "REP": 3020,
+      "ALN": 116,
+      "DEM": 3203,
+      "NON": 5
+    },
+    "county_fips": "45069",
+    "two_party_total": 6223,
+    "margin": 183,
+    "margin_pct": 2.9407038405913544,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#c6dbef"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE SUPERINTENDENT OF EDUCATION",

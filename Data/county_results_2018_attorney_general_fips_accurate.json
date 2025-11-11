@@ -1187,6 +1187,33 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "ATTORNEY GENERAL",
+    "year": "2018",
+    "dem_candidate": "Constance Anastopoulo (D)",
+    "rep_candidate": "Alan Wilson (R)",
+    "dem_votes": 4410,
+    "rep_votes": 3061,
+    "other_votes": 225,
+    "total_votes": 7696,
+    "all_parties": {
+      "DEM": 4410,
+      "WFM": 222,
+      "REP": 3061,
+      "NON": 3
+    },
+    "county_fips": "45069",
+    "two_party_total": 7471,
+    "margin": 1349,
+    "margin_pct": 18.05648507562575,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "ATTORNEY GENERAL",

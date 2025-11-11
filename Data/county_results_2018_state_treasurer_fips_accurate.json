@@ -1231,6 +1231,34 @@
       "color": "#4292c6"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE TREASURER",
+    "year": "2018",
+    "dem_candidate": "Rosalyn L Glenn (D)",
+    "rep_candidate": "Curtis Loftis (R)",
+    "dem_votes": 4373,
+    "rep_votes": 3018,
+    "other_votes": 290,
+    "total_votes": 7681,
+    "all_parties": {
+      "DEM": 4373,
+      "WFM": 184,
+      "REP": 3018,
+      "AMR": 104,
+      "NON": 2
+    },
+    "county_fips": "45069",
+    "two_party_total": 7391,
+    "margin": 1355,
+    "margin_pct": 18.333107833851983,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#6baed6"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE TREASURER",

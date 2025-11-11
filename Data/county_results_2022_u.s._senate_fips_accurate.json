@@ -1143,6 +1143,32 @@
       "color": "#9ecae1"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "U.S. SENATE",
+    "year": "2022",
+    "dem_candidate": "DEM Krystle Matthews (D)",
+    "rep_candidate": "REP Tim Scott (R)",
+    "dem_votes": 3169,
+    "rep_votes": 3308,
+    "other_votes": 9,
+    "total_votes": 6486,
+    "all_parties": {
+      "REP": 3308,
+      "DEM": 3169,
+      "NON": 9
+    },
+    "county_fips": "45069",
+    "two_party_total": 6477,
+    "margin": 139,
+    "margin_pct": 2.146055272502702,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "U.S. SENATE",

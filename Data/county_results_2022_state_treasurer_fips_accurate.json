@@ -1143,6 +1143,32 @@
       "color": "#67000d"
     }
   },
+  "45069": {
+    "county": "MARLBORO",
+    "contest": "STATE TREASURER",
+    "year": "2022",
+    "dem_candidate": "",
+    "rep_candidate": "REP Curtis Loftis (R)",
+    "dem_votes": 0,
+    "rep_votes": 3499,
+    "other_votes": 1132,
+    "total_votes": 4631,
+    "all_parties": {
+      "REP": 3499,
+      "ALN": 1121,
+      "NON": 11
+    },
+    "county_fips": "45069",
+    "two_party_total": 3499,
+    "margin": 3499,
+    "margin_pct": 100.0,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Republican",
+      "color": "#67000d"
+    }
+  },
   "45065": {
     "county": "MCCORMICK",
     "contest": "STATE TREASURER",
