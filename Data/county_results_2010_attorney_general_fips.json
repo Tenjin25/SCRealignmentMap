@@ -1,0 +1,922 @@
+{
+  "45001": {
+    "dem_votes": 3357,
+    "rep_votes": 3744,
+    "other_votes": 174,
+    "total_votes": 7275,
+    "all_parties": {
+      "GRN": 170,
+      "REP": 3744,
+      "DEM": 3357,
+      "NON": 4
+    },
+    "margin": 387,
+    "margin_pct": 5.32,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Republican",
+      "color": "#FF9999"
+    }
+  },
+  "45003": {
+    "dem_votes": 16135,
+    "rep_votes": 31254,
+    "other_votes": 1194,
+    "total_votes": 48583,
+    "all_parties": {
+      "GRN": 1182,
+      "REP": 31254,
+      "DEM": 16135,
+      "NON": 12
+    },
+    "margin": 15119,
+    "margin_pct": 31.12,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45005": {
+    "dem_votes": 1900,
+    "rep_votes": 593,
+    "other_votes": 30,
+    "total_votes": 2523,
+    "all_parties": {
+      "GRN": 28,
+      "REP": 593,
+      "DEM": 1900,
+      "NON": 2
+    },
+    "margin": -1307,
+    "margin_pct": -51.8,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45007": {
+    "dem_votes": 16995,
+    "rep_votes": 31466,
+    "other_votes": 1075,
+    "total_votes": 49536,
+    "all_parties": {
+      "GRN": 1058,
+      "REP": 31466,
+      "DEM": 16995,
+      "NON": 17
+    },
+    "margin": 14471,
+    "margin_pct": 29.21,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45009": {
+    "dem_votes": 3300,
+    "rep_votes": 1439,
+    "other_votes": 36,
+    "total_votes": 4775,
+    "all_parties": {
+      "GRN": 36,
+      "REP": 1439,
+      "DEM": 3300,
+      "NON": 0
+    },
+    "margin": -1861,
+    "margin_pct": -38.97,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45011": {
+    "dem_votes": 4029,
+    "rep_votes": 2788,
+    "other_votes": 81,
+    "total_votes": 6898,
+    "all_parties": {
+      "GRN": 80,
+      "REP": 2788,
+      "DEM": 4029,
+      "NON": 1
+    },
+    "margin": -1241,
+    "margin_pct": -17.99,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6666FF"
+    }
+  },
+  "45013": {
+    "dem_votes": 18781,
+    "rep_votes": 30405,
+    "other_votes": 1204,
+    "total_votes": 50390,
+    "all_parties": {
+      "GRN": 1185,
+      "REP": 30405,
+      "DEM": 18781,
+      "NON": 19
+    },
+    "margin": 11624,
+    "margin_pct": 23.07,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45015": {
+    "dem_votes": 17626,
+    "rep_votes": 23958,
+    "other_votes": 1111,
+    "total_votes": 42695,
+    "all_parties": {
+      "GRN": 1102,
+      "REP": 23958,
+      "DEM": 17626,
+      "NON": 9
+    },
+    "margin": 6332,
+    "margin_pct": 14.83,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45017": {
+    "dem_votes": 3118,
+    "rep_votes": 2632,
+    "other_votes": 80,
+    "total_votes": 5830,
+    "all_parties": {
+      "GRN": 77,
+      "REP": 2632,
+      "DEM": 3118,
+      "NON": 3
+    },
+    "margin": -486,
+    "margin_pct": -8.34,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Democratic",
+      "color": "#9999FF"
+    }
+  },
+  "45019": {
+    "dem_votes": 49074,
+    "rep_votes": 49222,
+    "other_votes": 2741,
+    "total_votes": 101037,
+    "all_parties": {
+      "GRN": 2707,
+      "REP": 49222,
+      "DEM": 49074,
+      "NON": 34
+    },
+    "margin": 148,
+    "margin_pct": 0.15,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45021": {
+    "dem_votes": 5316,
+    "rep_votes": 8670,
+    "other_votes": 258,
+    "total_votes": 14244,
+    "all_parties": {
+      "GRN": 253,
+      "REP": 8670,
+      "DEM": 5316,
+      "NON": 5
+    },
+    "margin": 3354,
+    "margin_pct": 23.55,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45023": {
+    "dem_votes": 4912,
+    "rep_votes": 4265,
+    "other_votes": 156,
+    "total_votes": 9333,
+    "all_parties": {
+      "GRN": 155,
+      "REP": 4265,
+      "DEM": 4912,
+      "NON": 1
+    },
+    "margin": -647,
+    "margin_pct": -6.93,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Democratic",
+      "color": "#9999FF"
+    }
+  },
+  "45025": {
+    "dem_votes": 5668,
+    "rep_votes": 5173,
+    "other_votes": 189,
+    "total_votes": 11030,
+    "all_parties": {
+      "GRN": 185,
+      "REP": 5173,
+      "DEM": 5668,
+      "NON": 4
+    },
+    "margin": -495,
+    "margin_pct": -4.49,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45027": {
+    "dem_votes": 6418,
+    "rep_votes": 4717,
+    "other_votes": 132,
+    "total_votes": 11267,
+    "all_parties": {
+      "GRN": 127,
+      "REP": 4717,
+      "DEM": 6418,
+      "NON": 5
+    },
+    "margin": -1701,
+    "margin_pct": -15.1,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6666FF"
+    }
+  },
+  "45029": {
+    "dem_votes": 6426,
+    "rep_votes": 6321,
+    "other_votes": 239,
+    "total_votes": 12986,
+    "all_parties": {
+      "GRN": 236,
+      "REP": 6321,
+      "DEM": 6426,
+      "NON": 3
+    },
+    "margin": -105,
+    "margin_pct": -0.81,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45031": {
+    "dem_votes": 11123,
+    "rep_votes": 9877,
+    "other_votes": 228,
+    "total_votes": 21228,
+    "all_parties": {
+      "GRN": 227,
+      "REP": 9877,
+      "DEM": 11123,
+      "NON": 1
+    },
+    "margin": -1246,
+    "margin_pct": -5.87,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Democratic",
+      "color": "#9999FF"
+    }
+  },
+  "45033": {
+    "dem_votes": 4708,
+    "rep_votes": 2989,
+    "other_votes": 76,
+    "total_votes": 7773,
+    "all_parties": {
+      "GRN": 75,
+      "REP": 2989,
+      "DEM": 4708,
+      "NON": 1
+    },
+    "margin": -1719,
+    "margin_pct": -22.12,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45035": {
+    "dem_votes": 14198,
+    "rep_votes": 20419,
+    "other_votes": 940,
+    "total_votes": 35557,
+    "all_parties": {
+      "GRN": 921,
+      "REP": 20419,
+      "DEM": 14198,
+      "NON": 19
+    },
+    "margin": 6221,
+    "margin_pct": 17.5,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45037": {
+    "dem_votes": 3400,
+    "rep_votes": 4616,
+    "other_votes": 138,
+    "total_votes": 8154,
+    "all_parties": {
+      "GRN": 138,
+      "REP": 4616,
+      "DEM": 3400,
+      "NON": 0
+    },
+    "margin": 1216,
+    "margin_pct": 14.91,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45039": {
+    "dem_votes": 5821,
+    "rep_votes": 2798,
+    "other_votes": 142,
+    "total_votes": 8761,
+    "all_parties": {
+      "GRN": 141,
+      "REP": 2798,
+      "DEM": 5821,
+      "NON": 1
+    },
+    "margin": -3023,
+    "margin_pct": -34.51,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45041": {
+    "dem_votes": 19734,
+    "rep_votes": 20020,
+    "other_votes": 519,
+    "total_votes": 40273,
+    "all_parties": {
+      "GRN": 510,
+      "REP": 20020,
+      "DEM": 19734,
+      "NON": 9
+    },
+    "margin": 286,
+    "margin_pct": 0.71,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45043": {
+    "dem_votes": 9442,
+    "rep_votes": 11243,
+    "other_votes": 283,
+    "total_votes": 20968,
+    "all_parties": {
+      "GRN": 281,
+      "REP": 11243,
+      "DEM": 9442,
+      "NON": 2
+    },
+    "margin": 1801,
+    "margin_pct": 8.59,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Republican",
+      "color": "#FF9999"
+    }
+  },
+  "45045": {
+    "dem_votes": 46438,
+    "rep_votes": 82767,
+    "other_votes": 2844,
+    "total_votes": 132049,
+    "all_parties": {
+      "GRN": 2783,
+      "REP": 82767,
+      "DEM": 46438,
+      "NON": 61
+    },
+    "margin": 36329,
+    "margin_pct": 27.51,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45047": {
+    "dem_votes": 8620,
+    "rep_votes": 11015,
+    "other_votes": 305,
+    "total_votes": 19940,
+    "all_parties": {
+      "GRN": 297,
+      "REP": 11015,
+      "DEM": 8620,
+      "NON": 8
+    },
+    "margin": 2395,
+    "margin_pct": 12.01,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45049": {
+    "dem_votes": 3942,
+    "rep_votes": 2210,
+    "other_votes": 100,
+    "total_votes": 6252,
+    "all_parties": {
+      "GRN": 99,
+      "REP": 2210,
+      "DEM": 3942,
+      "": 1
+    },
+    "margin": -1732,
+    "margin_pct": -27.7,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45051": {
+    "dem_votes": 24118,
+    "rep_votes": 43866,
+    "other_votes": 1484,
+    "total_votes": 69468,
+    "all_parties": {
+      "GRN": 1467,
+      "REP": 43866,
+      "DEM": 24118,
+      "NON": 17
+    },
+    "margin": 19748,
+    "margin_pct": 28.43,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45053": {
+    "dem_votes": 3623,
+    "rep_votes": 2482,
+    "other_votes": 89,
+    "total_votes": 6194,
+    "all_parties": {
+      "GRN": 89,
+      "REP": 2482,
+      "DEM": 3623,
+      "": 0
+    },
+    "margin": -1141,
+    "margin_pct": -18.42,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6666FF"
+    }
+  },
+  "45055": {
+    "dem_votes": 10256,
+    "rep_votes": 11196,
+    "other_votes": 443,
+    "total_votes": 21895,
+    "all_parties": {
+      "GRN": 433,
+      "REP": 11196,
+      "DEM": 10256,
+      "NON": 10
+    },
+    "margin": 940,
+    "margin_pct": 4.29,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45057": {
+    "dem_votes": 8735,
+    "rep_votes": 12625,
+    "other_votes": 452,
+    "total_votes": 21812,
+    "all_parties": {
+      "GRN": 449,
+      "REP": 12625,
+      "DEM": 8735,
+      "NON": 3
+    },
+    "margin": 3890,
+    "margin_pct": 17.83,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45059": {
+    "dem_votes": 7383,
+    "rep_votes": 9683,
+    "other_votes": 306,
+    "total_votes": 17372,
+    "all_parties": {
+      "GRN": 296,
+      "REP": 9683,
+      "DEM": 7383,
+      "NON": 10
+    },
+    "margin": 2300,
+    "margin_pct": 13.24,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45061": {
+    "dem_votes": 4458,
+    "rep_votes": 2006,
+    "other_votes": 87,
+    "total_votes": 6551,
+    "all_parties": {
+      "GRN": 87,
+      "REP": 2006,
+      "DEM": 4458,
+      "NON": 0
+    },
+    "margin": -2452,
+    "margin_pct": -37.43,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45063": {
+    "dem_votes": 27936,
+    "rep_votes": 52924,
+    "other_votes": 2029,
+    "total_votes": 82889,
+    "all_parties": {
+      "GRN": 1984,
+      "REP": 52924,
+      "DEM": 27936,
+      "NON": 45
+    },
+    "margin": 24988,
+    "margin_pct": 30.15,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45065": {
+    "dem_votes": 1906,
+    "rep_votes": 1962,
+    "other_votes": 74,
+    "total_votes": 3942,
+    "all_parties": {
+      "GRN": 74,
+      "REP": 1962,
+      "DEM": 1906,
+      "NON": 0
+    },
+    "margin": 56,
+    "margin_pct": 1.42,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Tossup",
+      "color": "#CCCCCC"
+    }
+  },
+  "45067": {
+    "dem_votes": 6767,
+    "rep_votes": 3436,
+    "other_votes": 116,
+    "total_votes": 10319,
+    "all_parties": {
+      "GRN": 115,
+      "REP": 3436,
+      "DEM": 6767,
+      "NON": 1
+    },
+    "margin": -3331,
+    "margin_pct": -32.28,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45069": {
+    "dem_votes": 4926,
+    "rep_votes": 2128,
+    "other_votes": 82,
+    "total_votes": 7136,
+    "all_parties": {
+      "GRN": 81,
+      "REP": 2128,
+      "DEM": 4926,
+      "NON": 1
+    },
+    "margin": -2798,
+    "margin_pct": -39.21,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45071": {
+    "dem_votes": 5554,
+    "rep_votes": 6314,
+    "other_votes": 183,
+    "total_votes": 12051,
+    "all_parties": {
+      "GRN": 178,
+      "REP": 6314,
+      "DEM": 5554,
+      "NON": 5
+    },
+    "margin": 760,
+    "margin_pct": 6.31,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Republican",
+      "color": "#FF9999"
+    }
+  },
+  "45073": {
+    "dem_votes": 6582,
+    "rep_votes": 13831,
+    "other_votes": 556,
+    "total_votes": 20969,
+    "all_parties": {
+      "GRN": 547,
+      "REP": 13831,
+      "DEM": 6582,
+      "": 9
+    },
+    "margin": 7249,
+    "margin_pct": 34.57,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45075": {
+    "dem_votes": 20076,
+    "rep_votes": 8008,
+    "other_votes": 286,
+    "total_votes": 28370,
+    "all_parties": {
+      "GRN": 282,
+      "REP": 8008,
+      "DEM": 20076,
+      "NON": 4
+    },
+    "margin": -12068,
+    "margin_pct": -42.54,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45077": {
+    "dem_votes": 8071,
+    "rep_votes": 21090,
+    "other_votes": 804,
+    "total_votes": 29965,
+    "all_parties": {
+      "GRN": 783,
+      "REP": 21090,
+      "DEM": 8071,
+      "NON": 21
+    },
+    "margin": 13019,
+    "margin_pct": 43.45,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45079": {
+    "dem_votes": 74896,
+    "rep_votes": 39925,
+    "other_votes": 2119,
+    "total_votes": 116940,
+    "all_parties": {
+      "GRN": 2060,
+      "REP": 39925,
+      "DEM": 74896,
+      "NON": 59
+    },
+    "margin": -34971,
+    "margin_pct": -29.91,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45081": {
+    "dem_votes": 2682,
+    "rep_votes": 3483,
+    "other_votes": 102,
+    "total_votes": 6267,
+    "all_parties": {
+      "GRN": 100,
+      "REP": 3483,
+      "DEM": 2682,
+      "": 2
+    },
+    "margin": 801,
+    "margin_pct": 12.78,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#FF6666"
+    }
+  },
+  "45083": {
+    "dem_votes": 27709,
+    "rep_votes": 44148,
+    "other_votes": 1460,
+    "total_votes": 73317,
+    "all_parties": {
+      "GRN": 1443,
+      "REP": 44148,
+      "DEM": 27709,
+      "NON": 17
+    },
+    "margin": 16439,
+    "margin_pct": 22.42,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  },
+  "45085": {
+    "dem_votes": 17279,
+    "rep_votes": 12445,
+    "other_votes": 375,
+    "total_votes": 30099,
+    "all_parties": {
+      "GRN": 354,
+      "REP": 12445,
+      "DEM": 17279,
+      "NON": 21
+    },
+    "margin": -4834,
+    "margin_pct": -16.06,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#6666FF"
+    }
+  },
+  "45087": {
+    "dem_votes": 4740,
+    "rep_votes": 4148,
+    "other_votes": 196,
+    "total_votes": 9084,
+    "all_parties": {
+      "GRN": 191,
+      "REP": 4148,
+      "DEM": 4740,
+      "NON": 5
+    },
+    "margin": -592,
+    "margin_pct": -6.52,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Competitive",
+      "party": "Democratic",
+      "color": "#9999FF"
+    }
+  },
+  "45089": {
+    "dem_votes": 8037,
+    "rep_votes": 3345,
+    "other_votes": 94,
+    "total_votes": 11476,
+    "all_parties": {
+      "GRN": 91,
+      "REP": 3345,
+      "DEM": 8037,
+      "NON": 3
+    },
+    "margin": -4692,
+    "margin_pct": -40.89,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0000FF"
+    }
+  },
+  "45091": {
+    "dem_votes": 22920,
+    "rep_votes": 42547,
+    "other_votes": 1866,
+    "total_votes": 67333,
+    "all_parties": {
+      "GRN": 1851,
+      "REP": 42547,
+      "DEM": 22920,
+      "NON": 15
+    },
+    "margin": 19627,
+    "margin_pct": 29.15,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#FF0000"
+    }
+  }
+}
