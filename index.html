@@ -1660,18 +1660,13 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         '2006_adjutant_general': { group: 'statewide', emoji: '🎖️', name: 'Adjutant General', year: 2006 }
       };
       
-      // Group contests by category
-      const groupedContests = {
-        'presidential': [],
-        'gubernatorial': [],
-        'senate': [],
-        'statewide': []
-      };
+      // Group contests by year, then organize by type within each year
+      const contestsByYear = {};
       
-      // Organize available contests into groups and filter out unopposed races
+      // Organize available contests into years and filter out unopposed races
       Object.keys(allElectionData).forEach(key => {
         const metadata = contestMetadata[key];
-        if (metadata && groupedContests[metadata.group]) {
+        if (metadata) {
           // Check if this contest was opposed (has meaningful competition)
           const contestData = allElectionData[key];
           if (contestData && contestData.length > 0) {
@@ -1690,7 +1685,15 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
             console.log(`Contest ${key}: Dem ${demPct.toFixed(1)}%, Rep ${repPct.toFixed(1)}%`);
             
             if (demPct >= 5 && repPct >= 5) {
-              groupedContests[metadata.group].push({
+              if (!contestsByYear[metadata.year]) {
+                contestsByYear[metadata.year] = {
+                  presidential: [],
+                  gubernatorial: [],
+                  senate: [],
+                  statewide: []
+                };
+              }
+              contestsByYear[metadata.year][metadata.group].push({
                 key: key,
                 ...metadata
               });
@@ -1699,64 +1702,51 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
               console.log(`✗ Excluding ${key} (unopposed: Dem ${demPct.toFixed(1)}%, Rep ${repPct.toFixed(1)}%)`);
             }
           }
-        } else if (!metadata) {
+        } else {
           console.log(`No metadata found for contest: ${key}`);
         }
       });
       
-      // Sort each group - statewide gets special grouping, all get ascending year order
-      Object.keys(groupedContests).forEach(groupKey => {
-        if (groupKey === 'statewide') {
-          // Group statewide contests by office name, then sort by year within each office
-          const statewideByOffice = {};
-          groupedContests.statewide.forEach(contest => {
-            if (!statewideByOffice[contest.name]) {
-              statewideByOffice[contest.name] = [];
-            }
-            statewideByOffice[contest.name].push(contest);
-          });
-          
-          // Sort offices alphabetically and years within each office (ascending: oldest first)
-          groupedContests.statewide = [];
-          Object.keys(statewideByOffice).sort().forEach(officeName => {
-            statewideByOffice[officeName].sort((a, b) => a.year - b.year); // Ascending order
-            groupedContests.statewide.push(...statewideByOffice[officeName]);
-          });
-        } else {
-          // Ascending year sorting for all other groups (oldest first)
-          groupedContests[groupKey].sort((a, b) => a.year - b.year);
-        }
-      });
+      // Sort years in descending order (most recent first)
+      const years = Object.keys(contestsByYear).sort((a, b) => b - a);
       
-      // Create optgroups
-      const groupInfo = {
-        'presidential': { label: '🇺🇸 Presidential Elections', contests: groupedContests.presidential },
-        'gubernatorial': { label: '👑 Gubernatorial Elections', contests: groupedContests.gubernatorial },
-        'senate': { label: '🏛️ U.S. Senate Elections', contests: groupedContests.senate },
-        'statewide': { label: '⚖️ Statewide Constitutional Officers', contests: groupedContests.statewide }
+      // Define order preference for contest types within each year
+      const typeOrder = ['presidential', 'gubernatorial', 'senate', 'statewide'];
+      const typeLabels = {
+        'presidential': '🏛️ President',
+        'gubernatorial': '👑 Governor',
+        'senate': '🏛️ U.S. Senate',
+        'statewide': '⚖️ Statewide Officers'
       };
       
-      // Build dropdown with optgroups
-      Object.entries(groupInfo).forEach(([groupKey, groupData]) => {
-        if (groupData.contests.length > 0) {
-          const optgroup = document.createElement('optgroup');
-          optgroup.label = groupData.label;
-          
-          groupData.contests.forEach(contest => {
-            const option = document.createElement('option');
-            option.value = contest.key;
+      // Build dropdown with optgroups by year
+      years.forEach(year => {
+        const yearData = contestsByYear[year];
+        const optgroup = document.createElement('optgroup');
+        optgroup.label = `━━━━━ ${year} Elections ━━━━━`;
+        
+        let hasContests = false;
+        
+        // Add contests in order: Presidential, Gubernatorial, Senate, then Statewide
+        typeOrder.forEach(type => {
+          if (yearData[type] && yearData[type].length > 0) {
+            hasContests = true;
             
-            // For statewide contests, show winner name instead of just party
-            if (groupKey === 'statewide' && allElectionData[contest.key]) {
-              const winnerInfo = getStatewideWinner(allElectionData[contest.key]);
-              option.textContent = `${contest.emoji} ${contest.name} (${contest.year}) - ${winnerInfo.winnerName}`;
-            } else {
-              option.textContent = `${contest.emoji} ${contest.name} (${contest.year})`;
+            // Sort statewide by office name
+            if (type === 'statewide') {
+              yearData[type].sort((a, b) => a.name.localeCompare(b.name));
             }
             
-            optgroup.appendChild(option);
-          });
-          
+            yearData[type].forEach(contest => {
+              const option = document.createElement('option');
+              option.value = contest.key;
+              option.textContent = `  ${contest.emoji} ${contest.name}`;
+              optgroup.appendChild(option);
+            });
+          }
+        });
+        
+        if (hasContests) {
           sel.appendChild(optgroup);
         }
       });
