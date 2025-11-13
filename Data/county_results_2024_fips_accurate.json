@@ -1,14 +1,127 @@
 {
+  "competitiveness_scale": {
+    "Republican": [
+      {
+        "category": "Annihilation",
+        "range": "R+40%+",
+        "color": "#67000d",
+        "min": 40,
+        "max": 100
+      },
+      {
+        "category": "Dominant",
+        "range": "R+30-40%",
+        "color": "#a50f15",
+        "min": 30,
+        "max": 40
+      },
+      {
+        "category": "Stronghold",
+        "range": "R+20-30%",
+        "color": "#cb181d",
+        "min": 20,
+        "max": 30
+      },
+      {
+        "category": "Safe",
+        "range": "R+10-20%",
+        "color": "#ef3b2c",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "Likely",
+        "range": "R+5.5-10%",
+        "color": "#fb6a4a",
+        "min": 5.5,
+        "max": 10
+      },
+      {
+        "category": "Lean",
+        "range": "R+1-5.5%",
+        "color": "#fc9272",
+        "min": 1,
+        "max": 5.5
+      },
+      {
+        "category": "Tilt",
+        "range": "R+0.5-1%",
+        "color": "#fee8c8",
+        "min": 0.5,
+        "max": 1
+      }
+    ],
+    "Tossup": [
+      {
+        "category": "Tossup",
+        "range": "\u00b10.5%",
+        "color": "#f7f7f7",
+        "min": -0.5,
+        "max": 0.5
+      }
+    ],
+    "Democratic": [
+      {
+        "category": "Tilt",
+        "range": "D+0.5-1%",
+        "color": "#e1f5fe",
+        "min": -1,
+        "max": -0.5
+      },
+      {
+        "category": "Lean",
+        "range": "D+1-5.5%",
+        "color": "#b3e5fc",
+        "min": -5.5,
+        "max": -1
+      },
+      {
+        "category": "Likely",
+        "range": "D+5.5-10%",
+        "color": "#4fc3f7",
+        "min": -10,
+        "max": -5.5
+      },
+      {
+        "category": "Safe",
+        "range": "D+10-20%",
+        "color": "#0288d1",
+        "min": -20,
+        "max": -10
+      },
+      {
+        "category": "Stronghold",
+        "range": "D+20-30%",
+        "color": "#01579b",
+        "min": -30,
+        "max": -20
+      },
+      {
+        "category": "Dominant",
+        "range": "D+30-40%",
+        "color": "#014a7f",
+        "min": -40,
+        "max": -30
+      },
+      {
+        "category": "Annihilation",
+        "range": "D+40%+",
+        "color": "#08306b",
+        "min": -100,
+        "max": -40
+      }
+    ]
+  },
   "45001": {
-    "county": "ABBEVILLE",
-    "contest": "PRESIDENT",
+    "county": "Abbeville",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45001",
     "dem_votes": 3399,
     "rep_votes": 8509,
     "other_votes": 140,
-    "total_votes": 12048,
     "all_parties": {
       "CON": 29,
       "UNC": 31,
@@ -18,27 +131,26 @@
       "DEM": 3399,
       "WRK": 16
     },
-    "county_fips": "45001",
+    "total_votes": 12048,
     "two_party_total": 11908,
     "margin": 5110,
     "margin_pct": 42.91232784682567,
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
-      "party": "Republican",
       "color": "#67000d"
     }
   },
   "45003": {
-    "county": "AIKEN",
-    "contest": "PRESIDENT",
+    "county": "Aiken",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45003",
     "dem_votes": 31298,
     "rep_votes": 53592,
     "other_votes": 1201,
-    "total_votes": 86091,
     "all_parties": {
       "CON": 181,
       "UNC": 247,
@@ -48,27 +160,26 @@
       "DEM": 31298,
       "WRK": 108
     },
-    "county_fips": "45003",
+    "total_votes": 86091,
     "two_party_total": 84890,
     "margin": 22294,
     "margin_pct": 26.262221698668863,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
-      "party": "Republican",
       "color": "#cb181d"
     }
   },
   "45005": {
-    "county": "ALLENDALE",
-    "contest": "PRESIDENT",
+    "county": "Allendale",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45005",
     "dem_votes": 2165,
     "rep_votes": 813,
     "other_votes": 45,
-    "total_votes": 3023,
     "all_parties": {
       "CON": 5,
       "UNC": 29,
@@ -78,27 +189,26 @@
       "DEM": 2165,
       "WRK": 3
     },
-    "county_fips": "45005",
+    "total_votes": 3023,
     "two_party_total": 2978,
     "margin": 1352,
     "margin_pct": 45.39959704499664,
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
-      "party": "Democratic",
-      "color": "#08519c"
+      "color": "#67000d"
     }
   },
   "45007": {
-    "county": "ANDERSON",
-    "contest": "PRESIDENT",
+    "county": "Anderson",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45007",
     "dem_votes": 25281,
     "rep_votes": 71828,
     "other_votes": 1187,
-    "total_votes": 98296,
     "all_parties": {
       "CON": 232,
       "UNC": 215,
@@ -108,27 +218,26 @@
       "DEM": 25281,
       "WRK": 83
     },
-    "county_fips": "45007",
+    "total_votes": 98296,
     "two_party_total": 97109,
     "margin": 46547,
     "margin_pct": 47.93273537983091,
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
-      "party": "Republican",
       "color": "#67000d"
     }
   },
   "45009": {
-    "county": "BAMBERG",
-    "contest": "PRESIDENT",
+    "county": "Bamberg",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45009",
     "dem_votes": 3245,
     "rep_votes": 2376,
     "other_votes": 73,
-    "total_votes": 5694,
     "all_parties": {
       "CON": 13,
       "UNC": 25,
@@ -138,27 +247,26 @@
       "DEM": 3245,
       "WRK": 10
     },
-    "county_fips": "45009",
+    "total_votes": 5694,
     "two_party_total": 5621,
     "margin": 869,
     "margin_pct": 15.459882583170254,
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
+      "color": "#ef3b2c"
     }
   },
   "45011": {
-    "county": "BARNWELL",
-    "contest": "PRESIDENT",
+    "county": "Barnwell",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45011",
     "dem_votes": 4082,
     "rep_votes": 5605,
     "other_votes": 116,
-    "total_votes": 9803,
     "all_parties": {
       "CON": 16,
       "UNC": 36,
@@ -168,27 +276,26 @@
       "DEM": 4082,
       "WRK": 14
     },
-    "county_fips": "45011",
+    "total_votes": 9803,
     "two_party_total": 9687,
     "margin": 1523,
     "margin_pct": 15.722101785898627,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45013": {
-    "county": "BEAUFORT",
-    "contest": "PRESIDENT",
+    "county": "Beaufort",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45013",
     "dem_votes": 44002,
     "rep_votes": 59123,
     "other_votes": 1278,
-    "total_votes": 104403,
     "all_parties": {
       "CON": 180,
       "UNC": 181,
@@ -198,27 +305,26 @@
       "DEM": 44002,
       "WRK": 74
     },
-    "county_fips": "45013",
+    "total_votes": 104403,
     "two_party_total": 103125,
     "margin": 15121,
     "margin_pct": 14.662787878787878,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45015": {
-    "county": "BERKELEY",
-    "contest": "PRESIDENT",
+    "county": "Berkeley",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45015",
     "dem_votes": 46416,
     "rep_votes": 64777,
     "other_votes": 1641,
-    "total_votes": 112834,
     "all_parties": {
       "CON": 204,
       "UNC": 331,
@@ -228,27 +334,26 @@
       "DEM": 46416,
       "WRK": 154
     },
-    "county_fips": "45015",
+    "total_votes": 112834,
     "two_party_total": 111193,
     "margin": 18361,
     "margin_pct": 16.512730117903104,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45017": {
-    "county": "CALHOUN",
-    "contest": "PRESIDENT",
+    "county": "Calhoun",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45017",
     "dem_votes": 3339,
     "rep_votes": 4474,
     "other_votes": 101,
-    "total_votes": 7914,
     "all_parties": {
       "CON": 18,
       "UNC": 25,
@@ -258,27 +363,26 @@
       "DEM": 3339,
       "WRK": 8
     },
-    "county_fips": "45017",
+    "total_votes": 7914,
     "two_party_total": 7813,
     "margin": 1135,
     "margin_pct": 14.527070267502879,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45019": {
-    "county": "CHARLESTON",
-    "contest": "PRESIDENT",
+    "county": "Charleston",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45019",
     "dem_votes": 111427,
     "rep_votes": 99265,
     "other_votes": 3829,
-    "total_votes": 214521,
     "all_parties": {
       "CON": 380,
       "UNC": 501,
@@ -288,27 +392,26 @@
       "DEM": 111427,
       "WRK": 310
     },
-    "county_fips": "45019",
+    "total_votes": 214521,
     "two_party_total": 210692,
     "margin": 12162,
     "margin_pct": 5.772407115600023,
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
+      "color": "#fb6a4a"
     }
   },
   "45021": {
-    "county": "CHEROKEE",
-    "contest": "PRESIDENT",
+    "county": "Cherokee",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45021",
     "dem_votes": 5939,
     "rep_votes": 18697,
     "other_votes": 203,
-    "total_votes": 24839,
     "all_parties": {
       "CON": 34,
       "UNC": 41,
@@ -318,27 +421,26 @@
       "DEM": 5939,
       "WRK": 19
     },
-    "county_fips": "45021",
+    "total_votes": 24839,
     "two_party_total": 24636,
     "margin": 12758,
     "margin_pct": 51.78600422146452,
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
-      "party": "Republican",
       "color": "#67000d"
     }
   },
   "45023": {
-    "county": "CHESTER",
-    "contest": "PRESIDENT",
+    "county": "Chester",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45023",
     "dem_votes": 6353,
     "rep_votes": 9030,
     "other_votes": 173,
-    "total_votes": 15556,
     "all_parties": {
       "CON": 26,
       "UNC": 43,
@@ -348,27 +450,26 @@
       "DEM": 6353,
       "WRK": 22
     },
-    "county_fips": "45023",
+    "total_votes": 15556,
     "two_party_total": 15383,
     "margin": 2677,
     "margin_pct": 17.402327244360656,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45025": {
-    "county": "CHESTERFIELD",
-    "contest": "PRESIDENT",
+    "county": "Chesterfield",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45025",
     "dem_votes": 6520,
     "rep_votes": 11682,
     "other_votes": 189,
-    "total_votes": 18391,
     "all_parties": {
       "CON": 38,
       "UNC": 55,
@@ -378,27 +479,26 @@
       "DEM": 6520,
       "WRK": 21
     },
-    "county_fips": "45025",
+    "total_votes": 18391,
     "two_party_total": 18202,
     "margin": 5162,
     "margin_pct": 28.35952093176574,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
-      "party": "Republican",
       "color": "#cb181d"
     }
   },
   "45027": {
-    "county": "CLARENDON",
-    "contest": "PRESIDENT",
+    "county": "Clarendon",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45027",
     "dem_votes": 7064,
     "rep_votes": 9065,
     "other_votes": 191,
-    "total_votes": 16320,
     "all_parties": {
       "CON": 29,
       "UNC": 66,
@@ -408,27 +508,26 @@
       "DEM": 7064,
       "WRK": 26
     },
-    "county_fips": "45027",
+    "total_votes": 16320,
     "two_party_total": 16129,
     "margin": 2001,
     "margin_pct": 12.406224812449624,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45029": {
-    "county": "COLLETON",
-    "contest": "PRESIDENT",
+    "county": "Colleton",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45029",
     "dem_votes": 7376,
     "rep_votes": 10696,
     "other_votes": 204,
-    "total_votes": 18276,
     "all_parties": {
       "CON": 37,
       "UNC": 41,
@@ -438,27 +537,26 @@
       "DEM": 7376,
       "WRK": 23
     },
-    "county_fips": "45029",
+    "total_votes": 18276,
     "two_party_total": 18072,
     "margin": 3320,
     "margin_pct": 18.3709606020363,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45031": {
-    "county": "DARLINGTON",
-    "contest": "PRESIDENT",
+    "county": "Darlington",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45031",
     "dem_votes": 12977,
     "rep_votes": 17017,
     "other_votes": 337,
-    "total_votes": 30331,
     "all_parties": {
       "CON": 54,
       "UNC": 87,
@@ -468,27 +566,26 @@
       "DEM": 12977,
       "WRK": 36
     },
-    "county_fips": "45031",
+    "total_votes": 30331,
     "two_party_total": 29994,
     "margin": 4040,
     "margin_pct": 13.469360538774422,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45033": {
-    "county": "DILLON",
-    "contest": "PRESIDENT",
+    "county": "Dillon",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45033",
     "dem_votes": 5241,
     "rep_votes": 6526,
     "other_votes": 94,
-    "total_votes": 11861,
     "all_parties": {
       "CON": 16,
       "UNC": 27,
@@ -498,27 +595,26 @@
       "DEM": 5241,
       "WRK": 18
     },
-    "county_fips": "45033",
+    "total_votes": 11861,
     "two_party_total": 11767,
     "margin": 1285,
     "margin_pct": 10.920370527747089,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45035": {
-    "county": "DORCHESTER",
-    "contest": "PRESIDENT",
+    "county": "Dorchester",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45035",
     "dem_votes": 32489,
     "rep_votes": 43839,
     "other_votes": 1436,
-    "total_votes": 77764,
     "all_parties": {
       "CON": 183,
       "UNC": 174,
@@ -528,27 +624,26 @@
       "DEM": 32489,
       "WRK": 102
     },
-    "county_fips": "45035",
+    "total_votes": 77764,
     "two_party_total": 76328,
     "margin": 11350,
     "margin_pct": 14.870034587569435,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45037": {
-    "county": "EDGEFIELD",
-    "contest": "PRESIDENT",
+    "county": "Edgefield",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45037",
     "dem_votes": 4659,
     "rep_votes": 9092,
     "other_votes": 168,
-    "total_votes": 13919,
     "all_parties": {
       "CON": 33,
       "UNC": 31,
@@ -558,27 +653,26 @@
       "DEM": 4659,
       "WRK": 19
     },
-    "county_fips": "45037",
+    "total_votes": 13919,
     "two_party_total": 13751,
     "margin": 4433,
     "margin_pct": 32.23765544324049,
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
-      "party": "Republican",
       "color": "#a50f15"
     }
   },
   "45039": {
-    "county": "FAIRFIELD",
-    "contest": "PRESIDENT",
+    "county": "Fairfield",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45039",
     "dem_votes": 6277,
     "rep_votes": 4792,
     "other_votes": 146,
-    "total_votes": 11215,
     "all_parties": {
       "CON": 19,
       "UNC": 54,
@@ -588,27 +682,26 @@
       "DEM": 6277,
       "WRK": 13
     },
-    "county_fips": "45039",
+    "total_votes": 11215,
     "two_party_total": 11069,
     "margin": 1485,
     "margin_pct": 13.41584605655434,
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
+      "color": "#ef3b2c"
     }
   },
   "45041": {
-    "county": "FLORENCE",
-    "contest": "PRESIDENT",
+    "county": "Florence",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45041",
     "dem_votes": 27706,
     "rep_votes": 32615,
     "other_votes": 819,
-    "total_votes": 61140,
     "all_parties": {
       "CON": 116,
       "UNC": 258,
@@ -618,27 +711,26 @@
       "DEM": 27706,
       "WRK": 73
     },
-    "county_fips": "45041",
+    "total_votes": 61140,
     "two_party_total": 60321,
     "margin": 4909,
     "margin_pct": 8.138127683559624,
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
-      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
   "45043": {
-    "county": "GEORGETOWN",
-    "contest": "PRESIDENT",
+    "county": "Georgetown",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45043",
     "dem_votes": 14965,
     "rep_votes": 22326,
     "other_votes": 463,
-    "total_votes": 37754,
     "all_parties": {
       "CON": 56,
       "UNC": 106,
@@ -648,27 +740,26 @@
       "DEM": 14965,
       "WRK": 36
     },
-    "county_fips": "45043",
+    "total_votes": 37754,
     "two_party_total": 37291,
     "margin": 7361,
     "margin_pct": 19.73934729559411,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45045": {
-    "county": "GREENVILLE",
-    "contest": "PRESIDENT",
+    "county": "Greenville",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45045",
     "dem_votes": 100074,
     "rep_votes": 158541,
     "other_votes": 4701,
-    "total_votes": 263316,
     "all_parties": {
       "CON": 847,
       "UNC": 544,
@@ -678,27 +769,26 @@
       "DEM": 100074,
       "WRK": 298
     },
-    "county_fips": "45045",
+    "total_votes": 263316,
     "two_party_total": 258615,
     "margin": 58467,
     "margin_pct": 22.607737370222143,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
-      "party": "Republican",
       "color": "#cb181d"
     }
   },
   "45047": {
-    "county": "GREENWOOD",
-    "contest": "PRESIDENT",
+    "county": "Greenwood",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45047",
     "dem_votes": 10766,
     "rep_votes": 19715,
     "other_votes": 407,
-    "total_votes": 30888,
     "all_parties": {
       "CON": 70,
       "UNC": 106,
@@ -708,27 +798,26 @@
       "DEM": 10766,
       "WRK": 49
     },
-    "county_fips": "45047",
+    "total_votes": 30888,
     "two_party_total": 30481,
     "margin": 8949,
     "margin_pct": 29.359272989731306,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
-      "party": "Republican",
       "color": "#cb181d"
     }
   },
   "45049": {
-    "county": "HAMPTON",
-    "contest": "PRESIDENT",
+    "county": "Hampton",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45049",
     "dem_votes": 4328,
     "rep_votes": 3801,
     "other_votes": 104,
-    "total_votes": 8233,
     "all_parties": {
       "CON": 13,
       "UNC": 48,
@@ -738,27 +827,26 @@
       "DEM": 4328,
       "WRK": 15
     },
-    "county_fips": "45049",
+    "total_votes": 8233,
     "two_party_total": 8129,
     "margin": 527,
     "margin_pct": 6.482962233977119,
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
-      "party": "Democratic",
-      "color": "#9ecae1"
+      "color": "#fb6a4a"
     }
   },
   "45051": {
-    "county": "HORRY",
-    "contest": "PRESIDENT",
+    "county": "Horry",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45051",
     "dem_votes": 62325,
     "rep_votes": 141719,
     "other_votes": 1910,
-    "total_votes": 205954,
     "all_parties": {
       "CON": 249,
       "UNC": 334,
@@ -768,27 +856,26 @@
       "DEM": 62325,
       "WRK": 176
     },
-    "county_fips": "45051",
+    "total_votes": 205954,
     "two_party_total": 204044,
     "margin": 79394,
     "margin_pct": 38.91023504734273,
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
-      "party": "Republican",
       "color": "#a50f15"
     }
   },
   "45053": {
-    "county": "JASPER",
-    "contest": "PRESIDENT",
+    "county": "Jasper",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45053",
     "dem_votes": 8144,
     "rep_votes": 9900,
     "other_votes": 183,
-    "total_votes": 18227,
     "all_parties": {
       "CON": 30,
       "UNC": 37,
@@ -798,27 +885,26 @@
       "DEM": 8144,
       "WRK": 19
     },
-    "county_fips": "45053",
+    "total_votes": 18227,
     "two_party_total": 18044,
     "margin": 1756,
     "margin_pct": 9.731766792285525,
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
-      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
   "45055": {
-    "county": "KERSHAW",
-    "contest": "PRESIDENT",
+    "county": "Kershaw",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45055",
     "dem_votes": 11826,
     "rep_votes": 21289,
     "other_votes": 418,
-    "total_votes": 33533,
     "all_parties": {
       "CON": 62,
       "UNC": 94,
@@ -828,27 +914,26 @@
       "DEM": 11826,
       "WRK": 37
     },
-    "county_fips": "45055",
+    "total_votes": 33533,
     "two_party_total": 33115,
     "margin": 9463,
     "margin_pct": 28.57617393930243,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
-      "party": "Republican",
       "color": "#cb181d"
     }
   },
   "45057": {
-    "county": "LANCASTER",
-    "contest": "PRESIDENT",
+    "county": "Lancaster",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45057",
     "dem_votes": 20146,
     "rep_votes": 33623,
     "other_votes": 658,
-    "total_votes": 54427,
     "all_parties": {
       "CON": 94,
       "UNC": 105,
@@ -858,27 +943,26 @@
       "DEM": 20146,
       "WRK": 50
     },
-    "county_fips": "45057",
+    "total_votes": 54427,
     "two_party_total": 53769,
     "margin": 13477,
     "margin_pct": 25.064628317431975,
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
-      "party": "Republican",
       "color": "#cb181d"
     }
   },
   "45059": {
-    "county": "LAURENS",
-    "contest": "PRESIDENT",
+    "county": "Laurens",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45059",
     "dem_votes": 8769,
     "rep_votes": 21110,
     "other_votes": 334,
-    "total_votes": 30213,
     "all_parties": {
       "CON": 55,
       "UNC": 91,
@@ -888,27 +972,26 @@
       "DEM": 8769,
       "WRK": 35
     },
-    "county_fips": "45059",
+    "total_votes": 30213,
     "two_party_total": 29879,
     "margin": 12341,
     "margin_pct": 41.30325646775327,
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
-      "party": "Republican",
       "color": "#67000d"
     }
   },
   "45061": {
-    "county": "LEE",
-    "contest": "PRESIDENT",
+    "county": "Lee",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45061",
     "dem_votes": 4505,
     "rep_votes": 3078,
     "other_votes": 493,
-    "total_votes": 8076,
     "all_parties": {
       "CON": 94,
       "UNC": 136,
@@ -918,27 +1001,26 @@
       "DEM": 4505,
       "WRK": 82
     },
-    "county_fips": "45061",
+    "total_votes": 8076,
     "two_party_total": 7583,
     "margin": 1427,
     "margin_pct": 18.818409600421994,
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
+      "color": "#ef3b2c"
     }
   },
   "45063": {
-    "county": "LEXINGTON",
-    "contest": "PRESIDENT",
+    "county": "Lexington",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45063",
     "dem_votes": 47815,
     "rep_votes": 96965,
     "other_votes": 2123,
-    "total_votes": 146903,
     "all_parties": {
       "CON": 362,
       "UNC": 311,
@@ -948,27 +1030,26 @@
       "DEM": 47815,
       "WRK": 169
     },
-    "county_fips": "45063",
+    "total_votes": 146903,
     "two_party_total": 144780,
     "margin": 49150,
     "margin_pct": 33.948059124188426,
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
-      "party": "Republican",
       "color": "#a50f15"
     }
   },
   "45071": {
-    "county": "NEWBERRY",
-    "contest": "PRESIDENT",
+    "county": "Newberry",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45071",
     "dem_votes": 5841,
     "rep_votes": 12067,
     "other_votes": 221,
-    "total_votes": 18129,
     "all_parties": {
       "CON": 46,
       "UNC": 60,
@@ -978,27 +1059,26 @@
       "DEM": 5841,
       "WRK": 14
     },
-    "county_fips": "45071",
+    "total_votes": 18129,
     "two_party_total": 17908,
     "margin": 6226,
     "margin_pct": 34.76658476658477,
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
-      "party": "Republican",
       "color": "#a50f15"
     }
   },
   "45073": {
-    "county": "OCONEE",
-    "contest": "PRESIDENT",
+    "county": "Oconee",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45073",
     "dem_votes": 9987,
     "rep_votes": 31772,
     "other_votes": 505,
-    "total_votes": 42264,
     "all_parties": {
       "CON": 83,
       "UNC": 70,
@@ -1008,27 +1088,26 @@
       "DEM": 9987,
       "WRK": 50
     },
-    "county_fips": "45073",
+    "total_votes": 42264,
     "two_party_total": 41759,
     "margin": 21785,
     "margin_pct": 52.16839483704112,
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
-      "party": "Republican",
       "color": "#67000d"
     }
   },
   "45075": {
-    "county": "ORANGEBURG",
-    "contest": "PRESIDENT",
+    "county": "Orangeburg",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45075",
     "dem_votes": 22832,
     "rep_votes": 13750,
     "other_votes": 388,
-    "total_votes": 36970,
     "all_parties": {
       "CON": 54,
       "UNC": 150,
@@ -1038,27 +1117,26 @@
       "DEM": 22832,
       "WRK": 48
     },
-    "county_fips": "45075",
+    "total_votes": 36970,
     "two_party_total": 36582,
     "margin": 9082,
     "margin_pct": 24.826417363730798,
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
+      "color": "#cb181d"
     }
   },
   "45077": {
-    "county": "PICKENS",
-    "contest": "PRESIDENT",
+    "county": "Pickens",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45077",
     "dem_votes": 13891,
     "rep_votes": 45728,
     "other_votes": 832,
-    "total_votes": 60451,
     "all_parties": {
       "CON": 149,
       "UNC": 65,
@@ -1068,27 +1146,26 @@
       "DEM": 13891,
       "WRK": 71
     },
-    "county_fips": "45077",
+    "total_votes": 60451,
     "two_party_total": 59619,
     "margin": 31837,
     "margin_pct": 53.400761502205675,
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
-      "party": "Republican",
       "color": "#67000d"
     }
   },
   "45079": {
-    "county": "RICHLAND",
-    "contest": "PRESIDENT",
+    "county": "Richland",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45079",
     "dem_votes": 121110,
     "rep_votes": 58019,
     "other_votes": 3282,
-    "total_votes": 182411,
     "all_parties": {
       "CON": 440,
       "UNC": 853,
@@ -1098,27 +1175,26 @@
       "DEM": 121110,
       "WRK": 324
     },
-    "county_fips": "45079",
+    "total_votes": 182411,
     "two_party_total": 179129,
     "margin": 63091,
     "margin_pct": 35.220985993334416,
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
-      "party": "Democratic",
-      "color": "#2171b5"
+      "color": "#a50f15"
     }
   },
   "45081": {
-    "county": "SALUDA",
-    "contest": "PRESIDENT",
+    "county": "Saluda",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45081",
     "dem_votes": 2454,
     "rep_votes": 6452,
     "other_votes": 108,
-    "total_votes": 9014,
     "all_parties": {
       "CON": 8,
       "UNC": 20,
@@ -1128,27 +1204,26 @@
       "DEM": 2454,
       "WRK": 27
     },
-    "county_fips": "45081",
+    "total_votes": 9014,
     "two_party_total": 8906,
     "margin": 3998,
     "margin_pct": 44.8910846620256,
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
-      "party": "Republican",
       "color": "#67000d"
     }
   },
   "45083": {
-    "county": "SPARTANBURG",
-    "contest": "PRESIDENT",
+    "county": "Spartanburg",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45083",
     "dem_votes": 50710,
     "rep_votes": 103032,
     "other_votes": 1855,
-    "total_votes": 155597,
     "all_parties": {
       "CON": 292,
       "UNC": 354,
@@ -1158,27 +1233,26 @@
       "DEM": 50710,
       "WRK": 140
     },
-    "county_fips": "45083",
+    "total_votes": 155597,
     "two_party_total": 153742,
     "margin": 52322,
     "margin_pct": 34.03233989410831,
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
-      "party": "Republican",
       "color": "#a50f15"
     }
   },
   "45085": {
-    "county": "SUMTER",
-    "contest": "PRESIDENT",
+    "county": "Sumter",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45085",
     "dem_votes": 23425,
     "rep_votes": 21215,
     "other_votes": 530,
-    "total_votes": 45170,
     "all_parties": {
       "CON": 67,
       "UNC": 194,
@@ -1188,27 +1262,26 @@
       "DEM": 23425,
       "WRK": 41
     },
-    "county_fips": "45085",
+    "total_votes": 45170,
     "two_party_total": 44640,
     "margin": 2210,
     "margin_pct": 4.950716845878136,
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
-      "party": "Democratic",
-      "color": "#c6dbef"
+      "color": "#fc9272"
     }
   },
   "45087": {
-    "county": "UNION",
-    "contest": "PRESIDENT",
+    "county": "Union",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45087",
     "dem_votes": 4084,
     "rep_votes": 8102,
     "other_votes": 103,
-    "total_votes": 12289,
     "all_parties": {
       "CON": 21,
       "UNC": 33,
@@ -1218,27 +1291,26 @@
       "DEM": 4084,
       "WRK": 7
     },
-    "county_fips": "45087",
+    "total_votes": 12289,
     "two_party_total": 12186,
     "margin": 4018,
     "margin_pct": 32.97226325291318,
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
-      "party": "Republican",
       "color": "#a50f15"
     }
   },
   "45089": {
-    "county": "WILLIAMSBURG",
-    "contest": "PRESIDENT",
+    "county": "Williamsburg",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45089",
     "dem_votes": 8634,
     "rep_votes": 5524,
     "other_votes": 172,
-    "total_votes": 14330,
     "all_parties": {
       "CON": 27,
       "UNC": 85,
@@ -1248,27 +1320,26 @@
       "DEM": 8634,
       "WRK": 20
     },
-    "county_fips": "45089",
+    "total_votes": 14330,
     "two_party_total": 14158,
     "margin": 3110,
     "margin_pct": 21.96637943212318,
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
-      "party": "Democratic",
-      "color": "#4292c6"
+      "color": "#cb181d"
     }
   },
   "45091": {
-    "county": "YORK",
-    "contest": "PRESIDENT",
+    "county": "York",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45091",
     "dem_votes": 59600,
     "rep_votes": 88239,
     "other_votes": 2220,
-    "total_votes": 150059,
     "all_parties": {
       "CON": 338,
       "UNC": 324,
@@ -1278,27 +1349,26 @@
       "DEM": 59600,
       "WRK": 160
     },
-    "county_fips": "45091",
+    "total_votes": 150059,
     "two_party_total": 147839,
     "margin": 28639,
     "margin_pct": 19.37174899721995,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45067": {
-    "county": "MARION",
-    "contest": "PRESIDENT",
+    "county": "Marion",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45067",
     "dem_votes": 7316,
     "rep_votes": 5906,
     "other_votes": 166,
-    "total_votes": 13388,
     "all_parties": {
       "CON": 22,
       "UNC": 58,
@@ -1308,27 +1378,26 @@
       "DEM": 7316,
       "WRK": 23
     },
-    "county_fips": "45067",
+    "total_votes": 13388,
     "two_party_total": 13222,
     "margin": 1410,
     "margin_pct": 10.664044773861745,
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
-      "party": "Democratic",
-      "color": "#6baed6"
+      "color": "#ef3b2c"
     }
   },
   "45065": {
-    "county": "MCCORMICK",
-    "contest": "PRESIDENT",
+    "county": "McCormick",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45065",
     "dem_votes": 2513,
     "rep_votes": 3565,
     "other_votes": 75,
-    "total_votes": 6153,
     "all_parties": {
       "CON": 15,
       "UNC": 22,
@@ -1338,27 +1407,26 @@
       "DEM": 2513,
       "WRK": 2
     },
-    "county_fips": "45065",
+    "total_votes": 6153,
     "two_party_total": 6078,
     "margin": 1052,
     "margin_pct": 17.308325106943073,
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
-      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
   "45069": {
-    "county": "MARLBORO",
-    "contest": "PRESIDENT",
+    "county": "Marlboro",
+    "contest": "President",
     "year": "2024",
-    "dem_candidate": "Kamala D Harris/Tim Walz (D)",
-    "rep_candidate": "Donald J Trump/JD Vance (R)",
+    "dem_candidate": "Kamala Harris",
+    "rep_candidate": "Donald Trump",
+    "county_fips": "45069",
     "dem_votes": 5137,
     "rep_votes": 4896,
     "other_votes": 119,
-    "total_votes": 10152,
     "all_parties": {
       "CON": 15,
       "UNC": 46,
@@ -1368,15 +1436,14 @@
       "DEM": 5137,
       "WRK": 14
     },
-    "county_fips": "45069",
+    "total_votes": 10152,
     "two_party_total": 10033,
     "margin": 241,
     "margin_pct": 2.402073158576697,
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
-      "party": "Democratic",
-      "color": "#c6dbef"
+      "color": "#fc9272"
     }
   }
 }

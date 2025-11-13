@@ -1,229 +1,413 @@
 {
+  "competitiveness_scale": {
+    "Republican": [
+      {
+        "category": "Annihilation",
+        "range": "R+40%+",
+        "color": "#67000d",
+        "min": 40,
+        "max": 100
+      },
+      {
+        "category": "Dominant",
+        "range": "R+30-40%",
+        "color": "#a50f15",
+        "min": 30,
+        "max": 40
+      },
+      {
+        "category": "Stronghold",
+        "range": "R+20-30%",
+        "color": "#cb181d",
+        "min": 20,
+        "max": 30
+      },
+      {
+        "category": "Safe",
+        "range": "R+10-20%",
+        "color": "#ef3b2c",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "Likely",
+        "range": "R+5.5-10%",
+        "color": "#fb6a4a",
+        "min": 5.5,
+        "max": 10
+      },
+      {
+        "category": "Lean",
+        "range": "R+1-5.5%",
+        "color": "#fc9272",
+        "min": 1,
+        "max": 5.5
+      },
+      {
+        "category": "Tilt",
+        "range": "R+0.5-1%",
+        "color": "#fee8c8",
+        "min": 0.5,
+        "max": 1
+      }
+    ],
+    "Tossup": [
+      {
+        "category": "Tossup",
+        "range": "\u00b10.5%",
+        "color": "#f7f7f7",
+        "min": -0.5,
+        "max": 0.5
+      }
+    ],
+    "Democratic": [
+      {
+        "category": "Tilt",
+        "range": "D+0.5-1%",
+        "color": "#e1f5fe",
+        "min": -1,
+        "max": -0.5
+      },
+      {
+        "category": "Lean",
+        "range": "D+1-5.5%",
+        "color": "#b3e5fc",
+        "min": -5.5,
+        "max": -1
+      },
+      {
+        "category": "Likely",
+        "range": "D+5.5-10%",
+        "color": "#4fc3f7",
+        "min": -10,
+        "max": -5.5
+      },
+      {
+        "category": "Safe",
+        "range": "D+10-20%",
+        "color": "#0288d1",
+        "min": -20,
+        "max": -10
+      },
+      {
+        "category": "Stronghold",
+        "range": "D+20-30%",
+        "color": "#01579b",
+        "min": -30,
+        "max": -20
+      },
+      {
+        "category": "Dominant",
+        "range": "D+30-40%",
+        "color": "#014a7f",
+        "min": -40,
+        "max": -30
+      },
+      {
+        "category": "Annihilation",
+        "range": "D+40%+",
+        "color": "#08306b",
+        "min": -100,
+        "max": -40
+      }
+    ]
+  },
   "45001": {
+    "county": "Abbeville",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45001",
     "dem_votes": 3807,
     "rep_votes": 3359,
     "other_votes": 84,
-    "total_votes": 7250,
     "all_parties": {
       "UNC": 51,
       "REP": 3359,
       "DEM": 3807,
       "NON": 33
     },
+    "total_votes": 7250,
+    "two_party_total": 7166,
     "margin": -448,
     "margin_pct": -6.18,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Democratic",
-      "color": "#9999FF"
+      "category": "Likely",
+      "color": "#4fc3f7"
     }
   },
   "45003": {
+    "county": "Aiken",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45003",
     "dem_votes": 17874,
     "rep_votes": 30268,
     "other_votes": 321,
-    "total_votes": 48463,
     "all_parties": {
       "UNC": 239,
       "REP": 30268,
       "DEM": 17874,
       "NON": 82
     },
+    "total_votes": 48463,
+    "two_party_total": 48142,
     "margin": 12394,
     "margin_pct": 25.57,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45005": {
+    "county": "Allendale",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45005",
     "dem_votes": 1926,
     "rep_votes": 564,
     "other_votes": 40,
-    "total_votes": 2530,
     "all_parties": {
       "UNC": 39,
       "REP": 564,
       "DEM": 1926,
       "NON": 1
     },
+    "total_votes": 2530,
+    "two_party_total": 2490,
     "margin": -1362,
     "margin_pct": -53.83,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Annihilation",
+      "color": "#08306b"
     }
   },
   "45007": {
+    "county": "Anderson",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45007",
     "dem_votes": 19954,
     "rep_votes": 28682,
     "other_votes": 606,
-    "total_votes": 49242,
     "all_parties": {
       "UNC": 356,
       "REP": 28682,
       "DEM": 19954,
       "NON": 250
     },
+    "total_votes": 49242,
+    "two_party_total": 48636,
     "margin": 8728,
     "margin_pct": 17.72,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45009": {
+    "county": "Bamberg",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45009",
     "dem_votes": 3086,
     "rep_votes": 1661,
     "other_votes": 39,
-    "total_votes": 4786,
     "all_parties": {
       "UNC": 36,
       "REP": 1661,
       "DEM": 3086,
       "NON": 3
     },
+    "total_votes": 4786,
+    "two_party_total": 4747,
     "margin": -1425,
     "margin_pct": -29.77,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Stronghold",
+      "color": "#01579b"
     }
   },
   "45011": {
+    "county": "Barnwell",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45011",
     "dem_votes": 3469,
     "rep_votes": 3327,
     "other_votes": 83,
-    "total_votes": 6879,
     "all_parties": {
       "UNC": 77,
       "REP": 3327,
       "DEM": 3469,
       "NON": 6
     },
+    "total_votes": 6879,
+    "two_party_total": 6796,
     "margin": -142,
     "margin_pct": -2.06,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#b3e5fc"
     }
   },
   "45013": {
+    "county": "Beaufort",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45013",
     "dem_votes": 20229,
     "rep_votes": 29958,
     "other_votes": 279,
-    "total_votes": 50466,
     "all_parties": {
       "UNC": 233,
       "REP": 29958,
       "DEM": 20229,
       "NON": 46
     },
+    "total_votes": 50466,
+    "two_party_total": 50187,
     "margin": 9729,
     "margin_pct": 19.28,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45015": {
+    "county": "Berkeley",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45015",
     "dem_votes": 17979,
     "rep_votes": 24164,
     "other_votes": 432,
-    "total_votes": 42575,
     "all_parties": {
       "UNC": 359,
       "REP": 24164,
       "DEM": 17979,
       "NON": 73
     },
+    "total_votes": 42575,
+    "two_party_total": 42143,
     "margin": 6185,
     "margin_pct": 14.53,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45017": {
+    "county": "Calhoun",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45017",
     "dem_votes": 3126,
     "rep_votes": 2642,
     "other_votes": 38,
-    "total_votes": 5806,
     "all_parties": {
       "UNC": 31,
       "REP": 2642,
       "DEM": 3126,
       "NON": 7
     },
+    "total_votes": 5806,
+    "two_party_total": 5768,
     "margin": -484,
     "margin_pct": -8.34,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Democratic",
-      "color": "#9999FF"
+      "category": "Likely",
+      "color": "#4fc3f7"
     }
   },
   "45019": {
+    "county": "Charleston",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45019",
     "dem_votes": 51917,
     "rep_votes": 48905,
     "other_votes": 655,
-    "total_votes": 101477,
     "all_parties": {
       "UNC": 427,
       "REP": 48905,
       "DEM": 51917,
       "NON": 228
     },
+    "total_votes": 101477,
+    "two_party_total": 100822,
     "margin": -3012,
     "margin_pct": -2.97,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#b3e5fc"
     }
   },
   "45021": {
+    "county": "Cherokee",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45021",
     "dem_votes": 5931,
     "rep_votes": 8066,
     "other_votes": 147,
-    "total_votes": 14144,
     "all_parties": {
       "UNC": 110,
       "REP": 8066,
       "DEM": 5931,
       "NON": 37
     },
+    "total_votes": 14144,
+    "two_party_total": 13997,
     "margin": 2135,
     "margin_pct": 15.09,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45023": {
+    "county": "Chester",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45023",
     "dem_votes": 5231,
     "rep_votes": 4007,
     "other_votes": 185,
-    "total_votes": 9423,
     "all_parties": {
       "GRN": 110,
       "REP": 4007,
@@ -231,660 +415,858 @@
       "UNC": 63,
       "NON": 12
     },
+    "total_votes": 9423,
+    "two_party_total": 9238,
     "margin": -1224,
     "margin_pct": -12.99,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45025": {
+    "county": "Chesterfield",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45025",
     "dem_votes": 6232,
     "rep_votes": 4797,
     "other_votes": 54,
-    "total_votes": 11083,
     "all_parties": {
       "UNC": 48,
       "REP": 4797,
       "DEM": 6232,
       "NON": 6
     },
+    "total_votes": 11083,
+    "two_party_total": 11029,
     "margin": -1435,
     "margin_pct": -12.95,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45027": {
+    "county": "Clarendon",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45027",
     "dem_votes": 6383,
     "rep_votes": 4733,
     "other_votes": 93,
-    "total_votes": 11209,
     "all_parties": {
       "UNC": 84,
       "REP": 4733,
       "DEM": 6383,
       "NON": 9
     },
+    "total_votes": 11209,
+    "two_party_total": 11116,
     "margin": -1650,
     "margin_pct": -14.72,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45029": {
+    "county": "Colleton",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45029",
     "dem_votes": 6535,
     "rep_votes": 6227,
     "other_votes": 146,
-    "total_votes": 12908,
     "all_parties": {
       "UNC": 130,
       "REP": 6227,
       "DEM": 6535,
       "NON": 16
     },
+    "total_votes": 12908,
+    "two_party_total": 12762,
     "margin": -308,
     "margin_pct": -2.39,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#b3e5fc"
     }
   },
   "45031": {
+    "county": "Darlington",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45031",
     "dem_votes": 11284,
     "rep_votes": 9844,
     "other_votes": 94,
-    "total_votes": 21222,
     "all_parties": {
       "UNC": 84,
       "REP": 9844,
       "DEM": 11284,
       "NON": 10
     },
+    "total_votes": 21222,
+    "two_party_total": 21128,
     "margin": -1440,
     "margin_pct": -6.79,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Democratic",
-      "color": "#9999FF"
+      "category": "Likely",
+      "color": "#4fc3f7"
     }
   },
   "45033": {
+    "county": "Dillon",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45033",
     "dem_votes": 4621,
     "rep_votes": 3127,
     "other_votes": 51,
-    "total_votes": 7799,
     "all_parties": {
       "UNC": 44,
       "REP": 3127,
       "DEM": 4621,
       "NON": 7
     },
+    "total_votes": 7799,
+    "two_party_total": 7748,
     "margin": -1494,
     "margin_pct": -19.16,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45035": {
+    "county": "Dorchester",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45035",
     "dem_votes": 14395,
     "rep_votes": 20811,
     "other_votes": 259,
-    "total_votes": 35465,
     "all_parties": {
       "UNC": 213,
       "REP": 20811,
       "DEM": 14395,
       "NON": 46
     },
+    "total_votes": 35465,
+    "two_party_total": 35206,
     "margin": 6416,
     "margin_pct": 18.09,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45037": {
+    "county": "Edgefield",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45037",
     "dem_votes": 3623,
     "rep_votes": 4447,
     "other_votes": 46,
-    "total_votes": 8116,
     "all_parties": {
       "UNC": 35,
       "REP": 4447,
       "DEM": 3623,
       "NON": 11
     },
+    "total_votes": 8116,
+    "two_party_total": 8070,
     "margin": 824,
     "margin_pct": 10.15,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45039": {
+    "county": "Fairfield",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45039",
     "dem_votes": 5931,
     "rep_votes": 2754,
     "other_votes": 71,
-    "total_votes": 8756,
     "all_parties": {
       "UNC": 58,
       "REP": 2754,
       "DEM": 5931,
       "NON": 13
     },
+    "total_votes": 8756,
+    "two_party_total": 8685,
     "margin": -3177,
     "margin_pct": -36.28,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45041": {
+    "county": "Florence",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45041",
     "dem_votes": 20594,
     "rep_votes": 19253,
     "other_votes": 234,
-    "total_votes": 40081,
     "all_parties": {
       "UNC": 190,
       "REP": 19253,
       "DEM": 20594,
       "NON": 44
     },
+    "total_votes": 40081,
+    "two_party_total": 39847,
     "margin": -1341,
     "margin_pct": -3.35,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#b3e5fc"
     }
   },
   "45043": {
+    "county": "Georgetown",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45043",
     "dem_votes": 9661,
     "rep_votes": 11285,
     "other_votes": 119,
-    "total_votes": 21065,
     "all_parties": {
       "UNC": 103,
       "REP": 11285,
       "DEM": 9661,
       "NON": 16
     },
+    "total_votes": 21065,
+    "two_party_total": 20946,
     "margin": 1624,
     "margin_pct": 7.71,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45045": {
+    "county": "Greenville",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45045",
     "dem_votes": 52376,
     "rep_votes": 78235,
     "other_votes": 1141,
-    "total_votes": 131752,
     "all_parties": {
       "UNC": 679,
       "REP": 78235,
       "DEM": 52376,
       "NON": 462
     },
+    "total_votes": 131752,
+    "two_party_total": 130611,
     "margin": 25859,
     "margin_pct": 19.63,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45047": {
+    "county": "Greenwood",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45047",
     "dem_votes": 9521,
     "rep_votes": 10221,
     "other_votes": 213,
-    "total_votes": 19955,
     "all_parties": {
       "UNC": 120,
       "REP": 10221,
       "DEM": 9521,
       "NON": 93
     },
+    "total_votes": 19955,
+    "two_party_total": 19742,
     "margin": 700,
     "margin_pct": 3.51,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#fc9272"
     }
   },
   "45049": {
+    "county": "Hampton",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45049",
     "dem_votes": 4030,
     "rep_votes": 2195,
     "other_votes": 63,
-    "total_votes": 6288,
     "all_parties": {
       "UNC": 58,
       "REP": 2195,
       "DEM": 4030,
       "": 5
     },
+    "total_votes": 6288,
+    "two_party_total": 6225,
     "margin": -1835,
     "margin_pct": -29.18,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Stronghold",
+      "color": "#01579b"
     }
   },
   "45051": {
+    "county": "Horry",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45051",
     "dem_votes": 23778,
     "rep_votes": 45001,
     "other_votes": 608,
-    "total_votes": 69387,
     "all_parties": {
       "UNC": 532,
       "REP": 45001,
       "DEM": 23778,
       "NON": 76
     },
+    "total_votes": 69387,
+    "two_party_total": 68779,
     "margin": 21223,
     "margin_pct": 30.59,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45053": {
+    "county": "Jasper",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45053",
     "dem_votes": 3643,
     "rep_votes": 2469,
     "other_votes": 74,
-    "total_votes": 6186,
     "all_parties": {
       "UNC": 71,
       "REP": 2469,
       "DEM": 3643,
       "": 3
     },
+    "total_votes": 6186,
+    "two_party_total": 6112,
     "margin": -1174,
     "margin_pct": -18.98,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45055": {
+    "county": "Kershaw",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45055",
     "dem_votes": 12662,
     "rep_votes": 9393,
     "other_votes": 96,
-    "total_votes": 22151,
     "all_parties": {
       "UNC": 80,
       "REP": 9393,
       "DEM": 12662,
       "NON": 16
     },
+    "total_votes": 22151,
+    "two_party_total": 22055,
     "margin": -3269,
     "margin_pct": -14.76,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45057": {
+    "county": "Lancaster",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45057",
     "dem_votes": 10358,
     "rep_votes": 11650,
     "other_votes": 173,
-    "total_votes": 22181,
     "all_parties": {
       "UNC": 162,
       "REP": 11650,
       "DEM": 10358,
       "NON": 11
     },
+    "total_votes": 22181,
+    "two_party_total": 22008,
     "margin": 1292,
     "margin_pct": 5.82,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45059": {
+    "county": "Laurens",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45059",
     "dem_votes": 7872,
     "rep_votes": 9260,
     "other_votes": 212,
-    "total_votes": 17344,
     "all_parties": {
       "UNC": 159,
       "REP": 9260,
       "DEM": 7872,
       "NON": 53
     },
+    "total_votes": 17344,
+    "two_party_total": 17132,
     "margin": 1388,
     "margin_pct": 8.0,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45061": {
+    "county": "Lee",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45061",
     "dem_votes": 4532,
     "rep_votes": 1985,
     "other_votes": 36,
-    "total_votes": 6553,
     "all_parties": {
       "UNC": 31,
       "REP": 1985,
       "DEM": 4532,
       "NON": 5
     },
+    "total_votes": 6553,
+    "two_party_total": 6517,
     "margin": -2547,
     "margin_pct": -38.87,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45063": {
+    "county": "Lexington",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45063",
     "dem_votes": 31787,
     "rep_votes": 50167,
     "other_votes": 731,
-    "total_votes": 82685,
     "all_parties": {
       "UNC": 479,
       "REP": 50167,
       "DEM": 31787,
       "NON": 252
     },
+    "total_votes": 82685,
+    "two_party_total": 81954,
     "margin": 18380,
     "margin_pct": 22.23,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45065": {
+    "county": "McCormick",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45065",
     "dem_votes": 1933,
     "rep_votes": 1995,
     "other_votes": 29,
-    "total_votes": 3957,
     "all_parties": {
       "UNC": 26,
       "REP": 1995,
       "DEM": 1933,
       "NON": 3
     },
+    "total_votes": 3957,
+    "two_party_total": 3928,
     "margin": 62,
     "margin_pct": 1.57,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#fc9272"
     }
   },
   "45067": {
+    "county": "Marion",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45067",
     "dem_votes": 6822,
     "rep_votes": 3391,
     "other_votes": 51,
-    "total_votes": 10264,
     "all_parties": {
       "UNC": 47,
       "REP": 3391,
       "DEM": 6822,
       "NON": 4
     },
+    "total_votes": 10264,
+    "two_party_total": 10213,
     "margin": -3431,
     "margin_pct": -33.43,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45069": {
+    "county": "Marlboro",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45069",
     "dem_votes": 4833,
     "rep_votes": 2269,
     "other_votes": 50,
-    "total_votes": 7152,
     "all_parties": {
       "UNC": 46,
       "REP": 2269,
       "DEM": 4833,
       "NON": 4
     },
+    "total_votes": 7152,
+    "two_party_total": 7102,
     "margin": -2564,
     "margin_pct": -35.85,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45071": {
+    "county": "Newberry",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45071",
     "dem_votes": 5705,
     "rep_votes": 6237,
     "other_votes": 75,
-    "total_votes": 12017,
     "all_parties": {
       "UNC": 59,
       "REP": 6237,
       "DEM": 5705,
       "NON": 16
     },
+    "total_votes": 12017,
+    "two_party_total": 11942,
     "margin": 532,
     "margin_pct": 4.43,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#fc9272"
     }
   },
   "45073": {
+    "county": "Oconee",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45073",
     "dem_votes": 8072,
     "rep_votes": 12361,
     "other_votes": 476,
-    "total_votes": 20909,
     "all_parties": {
       "UNC": 224,
       "REP": 12361,
       "DEM": 8072,
       "": 252
     },
+    "total_votes": 20909,
+    "two_party_total": 20433,
     "margin": 4289,
     "margin_pct": 20.51,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45075": {
+    "county": "Orangeburg",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45075",
     "dem_votes": 19861,
     "rep_votes": 8352,
     "other_votes": 192,
-    "total_votes": 28405,
     "all_parties": {
       "UNC": 170,
       "REP": 8352,
       "DEM": 19861,
       "NON": 22
     },
+    "total_votes": 28405,
+    "two_party_total": 28213,
     "margin": -11509,
     "margin_pct": -40.52,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Annihilation",
+      "color": "#08306b"
     }
   },
   "45077": {
+    "county": "Pickens",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45077",
     "dem_votes": 10033,
     "rep_votes": 19435,
     "other_votes": 431,
-    "total_votes": 29899,
     "all_parties": {
       "UNC": 235,
       "REP": 19435,
       "DEM": 10033,
       "NON": 196
     },
+    "total_votes": 29899,
+    "two_party_total": 29468,
     "margin": 9402,
     "margin_pct": 31.45,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45079": {
+    "county": "Richland",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45079",
     "dem_votes": 79378,
     "rep_votes": 36899,
     "other_votes": 656,
-    "total_votes": 116933,
     "all_parties": {
       "UNC": 404,
       "REP": 36899,
       "DEM": 79378,
       "NON": 252
     },
+    "total_votes": 116933,
+    "two_party_total": 116277,
     "margin": -42479,
     "margin_pct": -36.33,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45081": {
+    "county": "Saluda",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45081",
     "dem_votes": 2909,
     "rep_votes": 3268,
     "other_votes": 49,
-    "total_votes": 6226,
     "all_parties": {
       "UNC": 35,
       "REP": 3268,
       "DEM": 2909,
       "": 14
     },
+    "total_votes": 6226,
+    "two_party_total": 6177,
     "margin": 359,
     "margin_pct": 5.77,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45083": {
+    "county": "Spartanburg",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45083",
     "dem_votes": 31074,
     "rep_votes": 41593,
     "other_votes": 593,
-    "total_votes": 73260,
     "all_parties": {
       "UNC": 385,
       "REP": 41593,
       "DEM": 31074,
       "NON": 208
     },
+    "total_votes": 73260,
+    "two_party_total": 72667,
     "margin": 10519,
     "margin_pct": 14.36,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45085": {
+    "county": "Sumter",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45085",
     "dem_votes": 16769,
     "rep_votes": 12396,
     "other_votes": 158,
-    "total_votes": 29323,
     "all_parties": {
       "UNC": 130,
       "REP": 12396,
       "DEM": 16769,
       "NON": 28
     },
+    "total_votes": 29323,
+    "two_party_total": 29165,
     "margin": -4373,
     "margin_pct": -14.91,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45087": {
+    "county": "Union",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45087",
     "dem_votes": 4966,
     "rep_votes": 4014,
     "other_votes": 91,
-    "total_votes": 9071,
     "all_parties": {
       "UNC": 60,
       "REP": 4014,
       "DEM": 4966,
       "NON": 31
     },
+    "total_votes": 9071,
+    "two_party_total": 8980,
     "margin": -952,
     "margin_pct": -10.49,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45089": {
+    "county": "Williamsburg",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45089",
     "dem_votes": 7977,
     "rep_votes": 3393,
     "other_votes": 209,
-    "total_votes": 11579,
     "all_parties": {
       "GRN": 73,
       "REP": 3393,
@@ -892,33 +1274,40 @@
       "UNC": 121,
       "NON": 15
     },
+    "total_votes": 11579,
+    "two_party_total": 11370,
     "margin": -4584,
     "margin_pct": -39.59,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45091": {
+    "county": "York",
+    "contest": "Governor",
+    "year": "2010",
+    "dem_candidate": "Vincent Sheheen",
+    "rep_candidate": "Nikki Haley",
+    "county_fips": "45091",
     "dem_votes": 25855,
     "rep_votes": 41465,
     "other_votes": 356,
-    "total_votes": 67676,
     "all_parties": {
       "UNC": 308,
       "REP": 41465,
       "DEM": 25855,
       "NON": 48
     },
+    "total_votes": 67676,
+    "two_party_total": 67320,
     "margin": 15610,
     "margin_pct": 23.07,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   }
 }

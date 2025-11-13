@@ -1,8 +1,121 @@
 {
+  "competitiveness_scale": {
+    "Republican": [
+      {
+        "category": "Annihilation",
+        "range": "R+40%+",
+        "color": "#67000d",
+        "min": 40,
+        "max": 100
+      },
+      {
+        "category": "Dominant",
+        "range": "R+30-40%",
+        "color": "#a50f15",
+        "min": 30,
+        "max": 40
+      },
+      {
+        "category": "Stronghold",
+        "range": "R+20-30%",
+        "color": "#cb181d",
+        "min": 20,
+        "max": 30
+      },
+      {
+        "category": "Safe",
+        "range": "R+10-20%",
+        "color": "#ef3b2c",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "Likely",
+        "range": "R+5.5-10%",
+        "color": "#fb6a4a",
+        "min": 5.5,
+        "max": 10
+      },
+      {
+        "category": "Lean",
+        "range": "R+1-5.5%",
+        "color": "#fc9272",
+        "min": 1,
+        "max": 5.5
+      },
+      {
+        "category": "Tilt",
+        "range": "R+0.5-1%",
+        "color": "#fee8c8",
+        "min": 0.5,
+        "max": 1
+      }
+    ],
+    "Tossup": [
+      {
+        "category": "Tossup",
+        "range": "\u00b10.5%",
+        "color": "#f7f7f7",
+        "min": -0.5,
+        "max": 0.5
+      }
+    ],
+    "Democratic": [
+      {
+        "category": "Tilt",
+        "range": "D+0.5-1%",
+        "color": "#e1f5fe",
+        "min": -1,
+        "max": -0.5
+      },
+      {
+        "category": "Lean",
+        "range": "D+1-5.5%",
+        "color": "#b3e5fc",
+        "min": -5.5,
+        "max": -1
+      },
+      {
+        "category": "Likely",
+        "range": "D+5.5-10%",
+        "color": "#4fc3f7",
+        "min": -10,
+        "max": -5.5
+      },
+      {
+        "category": "Safe",
+        "range": "D+10-20%",
+        "color": "#0288d1",
+        "min": -20,
+        "max": -10
+      },
+      {
+        "category": "Stronghold",
+        "range": "D+20-30%",
+        "color": "#01579b",
+        "min": -30,
+        "max": -20
+      },
+      {
+        "category": "Dominant",
+        "range": "D+30-40%",
+        "color": "#014a7f",
+        "min": -40,
+        "max": -30
+      },
+      {
+        "category": "Annihilation",
+        "range": "D+40%+",
+        "color": "#08306b",
+        "min": -100,
+        "max": -40
+      }
+    ]
+  },
   "45001": {
     "county": "Abbeville",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45001",
@@ -20,15 +133,14 @@
     "margin_pct": 42.91232784682567,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45003": {
     "county": "Aiken",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45003",
@@ -46,15 +158,14 @@
     "margin_pct": 26.262221698668863,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45005": {
     "county": "Allendale",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45005",
@@ -72,15 +183,14 @@
     "margin_pct": 45.39959704499664,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe DEM",
-      "party": "DEM",
-      "color": "blue"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45007": {
     "county": "Anderson",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45007",
@@ -98,15 +208,14 @@
     "margin_pct": 47.93273537983091,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45009": {
     "county": "Bamberg",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45009",
@@ -124,15 +233,14 @@
     "margin_pct": 15.459882583170254,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe DEM",
-      "party": "DEM",
-      "color": "blue"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45011": {
     "county": "Barnwell",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45011",
@@ -150,15 +258,14 @@
     "margin_pct": 15.722101785898627,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45013": {
     "county": "Beaufort",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45013",
@@ -176,15 +283,14 @@
     "margin_pct": 14.662787878787878,
     "winner": "REP",
     "competitiveness": {
-      "category": "Leans REP",
-      "party": "REP",
-      "color": "light-red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45015": {
     "county": "Berkeley",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45015",
@@ -202,15 +308,14 @@
     "margin_pct": 16.512730117903104,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45017": {
     "county": "Calhoun",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45017",
@@ -228,15 +333,14 @@
     "margin_pct": 14.527070267502879,
     "winner": "REP",
     "competitiveness": {
-      "category": "Leans REP",
-      "party": "REP",
-      "color": "light-red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45019": {
     "county": "Charleston",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45019",
@@ -254,15 +358,14 @@
     "margin_pct": 5.772407115600023,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "DEM",
-      "color": "light-purple"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45021": {
     "county": "Cherokee",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45021",
@@ -280,15 +383,14 @@
     "margin_pct": 51.78600422146452,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45023": {
     "county": "Chester",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45023",
@@ -306,15 +408,14 @@
     "margin_pct": 17.402327244360656,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45025": {
     "county": "Chesterfield",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45025",
@@ -332,15 +433,14 @@
     "margin_pct": 28.35952093176574,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45027": {
     "county": "Clarendon",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45027",
@@ -358,15 +458,14 @@
     "margin_pct": 12.406224812449624,
     "winner": "REP",
     "competitiveness": {
-      "category": "Leans REP",
-      "party": "REP",
-      "color": "light-red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45029": {
     "county": "Colleton",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45029",
@@ -384,15 +483,14 @@
     "margin_pct": 18.3709606020363,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45031": {
     "county": "Darlington",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45031",
@@ -410,15 +508,14 @@
     "margin_pct": 13.469360538774422,
     "winner": "REP",
     "competitiveness": {
-      "category": "Leans REP",
-      "party": "REP",
-      "color": "light-red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45033": {
     "county": "Dillon",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45033",
@@ -436,15 +533,14 @@
     "margin_pct": 10.920370527747089,
     "winner": "REP",
     "competitiveness": {
-      "category": "Leans REP",
-      "party": "REP",
-      "color": "light-red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45035": {
     "county": "Dorchester",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45035",
@@ -462,15 +558,14 @@
     "margin_pct": 14.870034587569435,
     "winner": "REP",
     "competitiveness": {
-      "category": "Leans REP",
-      "party": "REP",
-      "color": "light-red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45037": {
     "county": "Edgefield",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45037",
@@ -488,15 +583,14 @@
     "margin_pct": 32.23765544324049,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45039": {
     "county": "Fairfield",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45039",
@@ -514,15 +608,14 @@
     "margin_pct": 13.41584605655434,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Leans DEM",
-      "party": "DEM",
-      "color": "light-blue"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45041": {
     "county": "Florence",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45041",
@@ -540,15 +633,14 @@
     "margin_pct": 8.138127683559624,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "REP",
-      "color": "light-purple"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45043": {
     "county": "Georgetown",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45043",
@@ -566,15 +658,14 @@
     "margin_pct": 19.73934729559411,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45045": {
     "county": "Greenville",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45045",
@@ -592,15 +683,14 @@
     "margin_pct": 22.607737370222143,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45047": {
     "county": "Greenwood",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45047",
@@ -618,15 +708,14 @@
     "margin_pct": 29.359272989731306,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45049": {
     "county": "Hampton",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45049",
@@ -644,15 +733,14 @@
     "margin_pct": 6.482962233977119,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "DEM",
-      "color": "light-purple"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45051": {
     "county": "Horry",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45051",
@@ -670,15 +758,14 @@
     "margin_pct": 38.91023504734273,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45053": {
     "county": "Jasper",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45053",
@@ -696,15 +783,14 @@
     "margin_pct": 9.731766792285525,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "REP",
-      "color": "light-purple"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45055": {
     "county": "Kershaw",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45055",
@@ -722,15 +808,14 @@
     "margin_pct": 28.57617393930243,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45057": {
     "county": "Lancaster",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45057",
@@ -748,15 +833,14 @@
     "margin_pct": 25.064628317431975,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45059": {
     "county": "Laurens",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45059",
@@ -774,15 +858,14 @@
     "margin_pct": 41.30325646775327,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45061": {
     "county": "Lee",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45061",
@@ -800,15 +883,14 @@
     "margin_pct": 18.818409600421994,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe DEM",
-      "party": "DEM",
-      "color": "blue"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45063": {
     "county": "Lexington",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45063",
@@ -826,15 +908,14 @@
     "margin_pct": 33.948059124188426,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45067": {
     "county": "Marion",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45067",
@@ -852,15 +933,14 @@
     "margin_pct": 10.664044773861745,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Leans DEM",
-      "party": "DEM",
-      "color": "light-blue"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45069": {
     "county": "Marlboro",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45069",
@@ -878,15 +958,14 @@
     "margin_pct": 2.402073158576697,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Highly Competitive",
-      "party": "DEM",
-      "color": "purple"
+      "category": "Lean",
+      "color": "#fc9272"
     }
   },
   "45065": {
     "county": "McCormick",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45065",
@@ -904,15 +983,14 @@
     "margin_pct": 17.308325106943073,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45071": {
     "county": "Newberry",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45071",
@@ -930,15 +1008,14 @@
     "margin_pct": 34.76658476658477,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45073": {
     "county": "Oconee",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45073",
@@ -956,15 +1033,14 @@
     "margin_pct": 52.16839483704112,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45075": {
     "county": "Orangeburg",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45075",
@@ -982,15 +1058,14 @@
     "margin_pct": 24.826417363730798,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe DEM",
-      "party": "DEM",
-      "color": "blue"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45077": {
     "county": "Pickens",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45077",
@@ -1008,15 +1083,14 @@
     "margin_pct": 53.400761502205675,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45079": {
     "county": "Richland",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45079",
@@ -1034,15 +1108,14 @@
     "margin_pct": 35.220985993334416,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe DEM",
-      "party": "DEM",
-      "color": "blue"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45081": {
     "county": "Saluda",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45081",
@@ -1060,15 +1133,14 @@
     "margin_pct": 44.8910846620256,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45083": {
     "county": "Spartanburg",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45083",
@@ -1086,15 +1158,14 @@
     "margin_pct": 34.03233989410831,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45085": {
     "county": "Sumter",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45085",
@@ -1112,15 +1183,14 @@
     "margin_pct": 4.950716845878136,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Highly Competitive",
-      "party": "DEM",
-      "color": "purple"
+      "category": "Lean",
+      "color": "#fc9272"
     }
   },
   "45087": {
     "county": "Union",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45087",
@@ -1138,15 +1208,14 @@
     "margin_pct": 32.97226325291318,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45089": {
     "county": "Williamsburg",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45089",
@@ -1164,15 +1233,14 @@
     "margin_pct": 21.96637943212318,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe DEM",
-      "party": "DEM",
-      "color": "blue"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45091": {
     "county": "York",
     "contest": "President",
-    "year": 2024,
+    "year": "2024",
     "dem_candidate": "Kamala Harris",
     "rep_candidate": "Donald Trump",
     "county_fips": "45091",
@@ -1190,9 +1258,8 @@
     "margin_pct": 19.37174899721995,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe REP",
-      "party": "REP",
-      "color": "red"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   }
 }

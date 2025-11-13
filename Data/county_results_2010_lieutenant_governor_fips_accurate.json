@@ -1,876 +1,1265 @@
 {
+  "competitiveness_scale": {
+    "Republican": [
+      {
+        "category": "Annihilation",
+        "range": "R+40%+",
+        "color": "#67000d",
+        "min": 40,
+        "max": 100
+      },
+      {
+        "category": "Dominant",
+        "range": "R+30-40%",
+        "color": "#a50f15",
+        "min": 30,
+        "max": 40
+      },
+      {
+        "category": "Stronghold",
+        "range": "R+20-30%",
+        "color": "#cb181d",
+        "min": 20,
+        "max": 30
+      },
+      {
+        "category": "Safe",
+        "range": "R+10-20%",
+        "color": "#ef3b2c",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "Likely",
+        "range": "R+5.5-10%",
+        "color": "#fb6a4a",
+        "min": 5.5,
+        "max": 10
+      },
+      {
+        "category": "Lean",
+        "range": "R+1-5.5%",
+        "color": "#fc9272",
+        "min": 1,
+        "max": 5.5
+      },
+      {
+        "category": "Tilt",
+        "range": "R+0.5-1%",
+        "color": "#fee8c8",
+        "min": 0.5,
+        "max": 1
+      }
+    ],
+    "Tossup": [
+      {
+        "category": "Tossup",
+        "range": "\u00b10.5%",
+        "color": "#f7f7f7",
+        "min": -0.5,
+        "max": 0.5
+      }
+    ],
+    "Democratic": [
+      {
+        "category": "Tilt",
+        "range": "D+0.5-1%",
+        "color": "#e1f5fe",
+        "min": -1,
+        "max": -0.5
+      },
+      {
+        "category": "Lean",
+        "range": "D+1-5.5%",
+        "color": "#b3e5fc",
+        "min": -5.5,
+        "max": -1
+      },
+      {
+        "category": "Likely",
+        "range": "D+5.5-10%",
+        "color": "#4fc3f7",
+        "min": -10,
+        "max": -5.5
+      },
+      {
+        "category": "Safe",
+        "range": "D+10-20%",
+        "color": "#0288d1",
+        "min": -20,
+        "max": -10
+      },
+      {
+        "category": "Stronghold",
+        "range": "D+20-30%",
+        "color": "#01579b",
+        "min": -30,
+        "max": -20
+      },
+      {
+        "category": "Dominant",
+        "range": "D+30-40%",
+        "color": "#014a7f",
+        "min": -40,
+        "max": -30
+      },
+      {
+        "category": "Annihilation",
+        "range": "D+40%+",
+        "color": "#08306b",
+        "min": -100,
+        "max": -40
+      }
+    ]
+  },
   "45001": {
+    "county": "Abbeville",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45001",
     "dem_votes": 3424,
     "rep_votes": 3827,
     "other_votes": 5,
-    "total_votes": 7256,
     "all_parties": {
       "REP": 3827,
       "DEM": 3424,
       "NON": 5
     },
+    "total_votes": 7256,
+    "two_party_total": 7251,
     "margin": 403,
     "margin_pct": 5.55,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45003": {
+    "county": "Aiken",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45003",
     "dem_votes": 16829,
     "rep_votes": 31660,
     "other_votes": 26,
-    "total_votes": 48515,
     "all_parties": {
       "REP": 31660,
       "DEM": 16829,
       "NON": 26
     },
+    "total_votes": 48515,
+    "two_party_total": 48489,
     "margin": 14831,
     "margin_pct": 30.57,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45005": {
+    "county": "Allendale",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45005",
     "dem_votes": 1877,
     "rep_votes": 590,
     "other_votes": 2,
-    "total_votes": 2469,
     "all_parties": {
       "REP": 590,
       "DEM": 1877,
       "NON": 2
     },
+    "total_votes": 2469,
+    "two_party_total": 2467,
     "margin": -1287,
     "margin_pct": -52.13,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Annihilation",
+      "color": "#08306b"
     }
   },
   "45007": {
+    "county": "Anderson",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45007",
     "dem_votes": 17427,
     "rep_votes": 32065,
     "other_votes": 58,
-    "total_votes": 49550,
     "all_parties": {
       "REP": 32065,
       "DEM": 17427,
       "NON": 58
     },
+    "total_votes": 49550,
+    "two_party_total": 49492,
     "margin": 14638,
     "margin_pct": 29.54,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45009": {
+    "county": "Bamberg",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45009",
     "dem_votes": 3107,
     "rep_votes": 1643,
     "other_votes": 1,
-    "total_votes": 4751,
     "all_parties": {
       "REP": 1643,
       "DEM": 3107,
       "NON": 1
     },
+    "total_votes": 4751,
+    "two_party_total": 4750,
     "margin": -1464,
     "margin_pct": -30.81,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45011": {
+    "county": "Barnwell",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45011",
     "dem_votes": 3432,
     "rep_votes": 3344,
     "other_votes": 6,
-    "total_votes": 6782,
     "all_parties": {
       "REP": 3344,
       "DEM": 3432,
       "NON": 6
     },
+    "total_votes": 6782,
+    "two_party_total": 6776,
     "margin": -88,
     "margin_pct": -1.3,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#b3e5fc"
     }
   },
   "45013": {
+    "county": "Beaufort",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45013",
     "dem_votes": 19789,
     "rep_votes": 30683,
     "other_votes": 30,
-    "total_votes": 50502,
     "all_parties": {
       "REP": 30683,
       "DEM": 19789,
       "NON": 30
     },
+    "total_votes": 50502,
+    "two_party_total": 50472,
     "margin": 10894,
     "margin_pct": 21.57,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45015": {
+    "county": "Berkeley",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45015",
     "dem_votes": 18716,
     "rep_votes": 23680,
     "other_votes": 34,
-    "total_votes": 42430,
     "all_parties": {
       "REP": 23680,
       "DEM": 18716,
       "NON": 34
     },
+    "total_votes": 42430,
+    "two_party_total": 42396,
     "margin": 4964,
     "margin_pct": 11.7,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45017": {
+    "county": "Calhoun",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45017",
     "dem_votes": 3105,
     "rep_votes": 2707,
     "other_votes": 1,
-    "total_votes": 5813,
     "all_parties": {
       "REP": 2707,
       "DEM": 3105,
       "NON": 1
     },
+    "total_votes": 5813,
+    "two_party_total": 5812,
     "margin": -398,
     "margin_pct": -6.85,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Democratic",
-      "color": "#9999FF"
+      "category": "Likely",
+      "color": "#4fc3f7"
     }
   },
   "45019": {
+    "county": "Charleston",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45019",
     "dem_votes": 54789,
     "rep_votes": 46832,
     "other_votes": 94,
-    "total_votes": 101715,
     "all_parties": {
       "REP": 46832,
       "DEM": 54789,
       "NON": 94
     },
+    "total_votes": 101715,
+    "two_party_total": 101621,
     "margin": -7957,
     "margin_pct": -7.82,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Democratic",
-      "color": "#9999FF"
+      "category": "Likely",
+      "color": "#4fc3f7"
     }
   },
   "45021": {
+    "county": "Cherokee",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45021",
     "dem_votes": 5224,
     "rep_votes": 9002,
     "other_votes": 14,
-    "total_votes": 14240,
     "all_parties": {
       "REP": 9002,
       "DEM": 5224,
       "NON": 14
     },
+    "total_votes": 14240,
+    "two_party_total": 14226,
     "margin": 3778,
     "margin_pct": 26.53,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45023": {
+    "county": "Chester",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45023",
     "dem_votes": 4997,
     "rep_votes": 4317,
     "other_votes": 4,
-    "total_votes": 9318,
     "all_parties": {
       "REP": 4317,
       "DEM": 4997,
       "NON": 4
     },
+    "total_votes": 9318,
+    "two_party_total": 9314,
     "margin": -680,
     "margin_pct": -7.3,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Democratic",
-      "color": "#9999FF"
+      "category": "Likely",
+      "color": "#4fc3f7"
     }
   },
   "45025": {
+    "county": "Chesterfield",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45025",
     "dem_votes": 5609,
     "rep_votes": 5418,
     "other_votes": 4,
-    "total_votes": 11031,
     "all_parties": {
       "REP": 5418,
       "DEM": 5609,
       "NON": 4
     },
+    "total_votes": 11031,
+    "two_party_total": 11027,
     "margin": -191,
     "margin_pct": -1.73,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#b3e5fc"
     }
   },
   "45027": {
+    "county": "Clarendon",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45027",
     "dem_votes": 6242,
     "rep_votes": 4899,
     "other_votes": 7,
-    "total_votes": 11148,
     "all_parties": {
       "REP": 4899,
       "DEM": 6242,
       "NON": 7
     },
+    "total_votes": 11148,
+    "two_party_total": 11141,
     "margin": -1343,
     "margin_pct": -12.05,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45029": {
+    "county": "Colleton",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45029",
     "dem_votes": 6727,
     "rep_votes": 6146,
     "other_votes": 4,
-    "total_votes": 12877,
     "all_parties": {
       "REP": 6146,
       "DEM": 6727,
       "NON": 4
     },
+    "total_votes": 12877,
+    "two_party_total": 12873,
     "margin": -581,
     "margin_pct": -4.51,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#b3e5fc"
     }
   },
   "45031": {
+    "county": "Darlington",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45031",
     "dem_votes": 10635,
     "rep_votes": 10612,
     "other_votes": 4,
-    "total_votes": 21251,
     "all_parties": {
       "REP": 10612,
       "DEM": 10635,
       "NON": 4
     },
+    "total_votes": 21251,
+    "two_party_total": 21247,
     "margin": -23,
     "margin_pct": -0.11,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Tossup",
+      "color": "#f7f7f7"
     }
   },
   "45033": {
+    "county": "Dillon",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45033",
     "dem_votes": 4310,
     "rep_votes": 3462,
     "other_votes": 4,
-    "total_votes": 7776,
     "all_parties": {
       "REP": 3462,
       "DEM": 4310,
       "NON": 4
     },
+    "total_votes": 7776,
+    "two_party_total": 7772,
     "margin": -848,
     "margin_pct": -10.91,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45035": {
+    "county": "Dorchester",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45035",
     "dem_votes": 15255,
     "rep_votes": 20387,
     "other_votes": 28,
-    "total_votes": 35670,
     "all_parties": {
       "REP": 20387,
       "DEM": 15255,
       "NON": 28
     },
+    "total_votes": 35670,
+    "two_party_total": 35642,
     "margin": 5132,
     "margin_pct": 14.39,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45037": {
+    "county": "Edgefield",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45037",
     "dem_votes": 3471,
     "rep_votes": 4654,
     "other_votes": 1,
-    "total_votes": 8126,
     "all_parties": {
       "REP": 4654,
       "DEM": 3471,
       "NON": 1
     },
+    "total_votes": 8126,
+    "two_party_total": 8125,
     "margin": 1183,
     "margin_pct": 14.56,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45039": {
+    "county": "Fairfield",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45039",
     "dem_votes": 5771,
     "rep_votes": 2954,
     "other_votes": 7,
-    "total_votes": 8732,
     "all_parties": {
       "REP": 2954,
       "DEM": 5771,
       "NON": 7
     },
+    "total_votes": 8732,
+    "two_party_total": 8725,
     "margin": -2817,
     "margin_pct": -32.26,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45041": {
+    "county": "Florence",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45041",
     "dem_votes": 18693,
     "rep_votes": 21612,
     "other_votes": 17,
-    "total_votes": 40322,
     "all_parties": {
       "REP": 21612,
       "DEM": 18693,
       "NON": 17
     },
+    "total_votes": 40322,
+    "two_party_total": 40305,
     "margin": 2919,
     "margin_pct": 7.24,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45043": {
+    "county": "Georgetown",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45043",
     "dem_votes": 9593,
     "rep_votes": 11499,
     "other_votes": 10,
-    "total_votes": 21102,
     "all_parties": {
       "REP": 11499,
       "DEM": 9593,
       "NON": 10
     },
+    "total_votes": 21102,
+    "two_party_total": 21092,
     "margin": 1906,
     "margin_pct": 9.03,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45045": {
+    "county": "Greenville",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45045",
     "dem_votes": 48586,
     "rep_votes": 83650,
     "other_votes": 130,
-    "total_votes": 132366,
     "all_parties": {
       "REP": 83650,
       "DEM": 48586,
       "NON": 130
     },
+    "total_votes": 132366,
+    "two_party_total": 132236,
     "margin": 35064,
     "margin_pct": 26.49,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45047": {
+    "county": "Greenwood",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45047",
     "dem_votes": 8422,
     "rep_votes": 11576,
     "other_votes": 17,
-    "total_votes": 20015,
     "all_parties": {
       "REP": 11576,
       "DEM": 8422,
       "NON": 17
     },
+    "total_votes": 20015,
+    "two_party_total": 19998,
     "margin": 3154,
     "margin_pct": 15.76,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45049": {
+    "county": "Hampton",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45049",
     "dem_votes": 4036,
     "rep_votes": 2132,
     "other_votes": 5,
-    "total_votes": 6173,
     "all_parties": {
       "REP": 2132,
       "DEM": 4036,
       "": 5
     },
+    "total_votes": 6173,
+    "two_party_total": 6168,
     "margin": -1904,
     "margin_pct": -30.84,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45051": {
+    "county": "Horry",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45051",
     "dem_votes": 22655,
     "rep_votes": 46317,
     "other_votes": 41,
-    "total_votes": 69013,
     "all_parties": {
       "REP": 46317,
       "DEM": 22655,
       "NON": 41
     },
+    "total_votes": 69013,
+    "two_party_total": 68972,
     "margin": 23662,
     "margin_pct": 34.29,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45053": {
+    "county": "Jasper",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45053",
     "dem_votes": 3688,
     "rep_votes": 2457,
     "other_votes": 3,
-    "total_votes": 6148,
     "all_parties": {
       "REP": 2457,
       "DEM": 3688,
       "": 3
     },
+    "total_votes": 6148,
+    "two_party_total": 6145,
     "margin": -1231,
     "margin_pct": -20.02,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Stronghold",
+      "color": "#01579b"
     }
   },
   "45055": {
+    "county": "Kershaw",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45055",
     "dem_votes": 9935,
     "rep_votes": 11866,
     "other_votes": 10,
-    "total_votes": 21811,
     "all_parties": {
       "REP": 11866,
       "DEM": 9935,
       "NON": 10
     },
+    "total_votes": 21811,
+    "two_party_total": 21801,
     "margin": 1931,
     "margin_pct": 8.85,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45057": {
+    "county": "Lancaster",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45057",
     "dem_votes": 9309,
     "rep_votes": 12678,
     "other_votes": 15,
-    "total_votes": 22002,
     "all_parties": {
       "REP": 12678,
       "DEM": 9309,
       "NON": 15
     },
+    "total_votes": 22002,
+    "two_party_total": 21987,
     "margin": 3369,
     "margin_pct": 15.31,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45059": {
+    "county": "Laurens",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45059",
     "dem_votes": 7387,
     "rep_votes": 9830,
     "other_votes": 21,
-    "total_votes": 17238,
     "all_parties": {
       "REP": 9830,
       "DEM": 7387,
       "NON": 21
     },
+    "total_votes": 17238,
+    "two_party_total": 17217,
     "margin": 2443,
     "margin_pct": 14.17,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45061": {
+    "county": "Lee",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45061",
     "dem_votes": 4442,
     "rep_votes": 2099,
     "other_votes": 4,
-    "total_votes": 6545,
     "all_parties": {
       "REP": 2099,
       "DEM": 4442,
       "NON": 4
     },
+    "total_votes": 6545,
+    "two_party_total": 6541,
     "margin": -2343,
     "margin_pct": -35.8,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45063": {
+    "county": "Lexington",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45063",
     "dem_votes": 27213,
     "rep_votes": 55484,
     "other_votes": 103,
-    "total_votes": 82800,
     "all_parties": {
       "REP": 55484,
       "DEM": 27213,
       "NON": 103
     },
+    "total_votes": 82800,
+    "two_party_total": 82697,
     "margin": 28271,
     "margin_pct": 34.14,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45065": {
+    "county": "McCormick",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45065",
     "dem_votes": 1963,
     "rep_votes": 1988,
     "other_votes": 0,
-    "total_votes": 3951,
     "all_parties": {
       "REP": 1988,
       "DEM": 1963,
       "NON": 0
     },
+    "total_votes": 3951,
+    "two_party_total": 3951,
     "margin": 25,
     "margin_pct": 0.63,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Tilt",
+      "color": "#fee8c8"
     }
   },
   "45067": {
+    "county": "Marion",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45067",
     "dem_votes": 6485,
     "rep_votes": 3801,
     "other_votes": 3,
-    "total_votes": 10289,
     "all_parties": {
       "REP": 3801,
       "DEM": 6485,
       "NON": 3
     },
+    "total_votes": 10289,
+    "two_party_total": 10286,
     "margin": -2684,
     "margin_pct": -26.09,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Stronghold",
+      "color": "#01579b"
     }
   },
   "45069": {
+    "county": "Marlboro",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45069",
     "dem_votes": 4682,
     "rep_votes": 2472,
     "other_votes": 2,
-    "total_votes": 7156,
     "all_parties": {
       "REP": 2472,
       "DEM": 4682,
       "NON": 2
     },
+    "total_votes": 7156,
+    "two_party_total": 7154,
     "margin": -2210,
     "margin_pct": -30.88,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45071": {
+    "county": "Newberry",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45071",
     "dem_votes": 5499,
     "rep_votes": 6541,
     "other_votes": 11,
-    "total_votes": 12051,
     "all_parties": {
       "REP": 6541,
       "DEM": 5499,
       "NON": 11
     },
+    "total_votes": 12051,
+    "two_party_total": 12040,
     "margin": 1042,
     "margin_pct": 8.65,
     "winner": "REP",
     "competitiveness": {
-      "category": "Competitive",
-      "party": "Republican",
-      "color": "#FF9999"
+      "category": "Likely",
+      "color": "#fb6a4a"
     }
   },
   "45073": {
+    "county": "Oconee",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45073",
     "dem_votes": 6607,
     "rep_votes": 14233,
     "other_votes": 13,
-    "total_votes": 20853,
     "all_parties": {
       "REP": 14233,
       "DEM": 6607,
       "": 13
     },
+    "total_votes": 20853,
+    "two_party_total": 20840,
     "margin": 7626,
     "margin_pct": 36.57,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Dominant",
+      "color": "#a50f15"
     }
   },
   "45075": {
+    "county": "Orangeburg",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45075",
     "dem_votes": 19941,
     "rep_votes": 8239,
     "other_votes": 19,
-    "total_votes": 28199,
     "all_parties": {
       "REP": 8239,
       "DEM": 19941,
       "NON": 19
     },
+    "total_votes": 28199,
+    "two_party_total": 28180,
     "margin": -11702,
     "margin_pct": -41.5,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Annihilation",
+      "color": "#08306b"
     }
   },
   "45077": {
+    "county": "Pickens",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45077",
     "dem_votes": 8737,
     "rep_votes": 21345,
     "other_votes": 33,
-    "total_votes": 30115,
     "all_parties": {
       "REP": 21345,
       "DEM": 8737,
       "NON": 33
     },
+    "total_votes": 30115,
+    "two_party_total": 30082,
     "margin": 12608,
     "margin_pct": 41.87,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Annihilation",
+      "color": "#67000d"
     }
   },
   "45079": {
+    "county": "Richland",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45079",
     "dem_votes": 73676,
     "rep_votes": 42977,
     "other_votes": 99,
-    "total_votes": 116752,
     "all_parties": {
       "REP": 42977,
       "DEM": 73676,
       "NON": 99
     },
+    "total_votes": 116752,
+    "two_party_total": 116653,
     "margin": -30699,
     "margin_pct": -26.29,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Stronghold",
+      "color": "#01579b"
     }
   },
   "45081": {
+    "county": "Saluda",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45081",
     "dem_votes": 2674,
     "rep_votes": 3576,
     "other_votes": 2,
-    "total_votes": 6252,
     "all_parties": {
       "REP": 3576,
       "DEM": 2674,
       "": 2
     },
+    "total_votes": 6252,
+    "two_party_total": 6250,
     "margin": 902,
     "margin_pct": 14.43,
     "winner": "REP",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Republican",
-      "color": "#FF6666"
+      "category": "Safe",
+      "color": "#ef3b2c"
     }
   },
   "45083": {
+    "county": "Spartanburg",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45083",
     "dem_votes": 27575,
     "rep_votes": 45801,
     "other_votes": 59,
-    "total_votes": 73435,
     "all_parties": {
       "REP": 45801,
       "DEM": 27575,
       "NON": 59
     },
+    "total_votes": 73435,
+    "two_party_total": 73376,
     "margin": 18226,
     "margin_pct": 24.82,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   },
   "45085": {
+    "county": "Sumter",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45085",
     "dem_votes": 17001,
     "rep_votes": 13020,
     "other_votes": 18,
-    "total_votes": 30039,
     "all_parties": {
       "REP": 13020,
       "DEM": 17001,
       "NON": 18
     },
+    "total_votes": 30039,
+    "two_party_total": 30021,
     "margin": -3981,
     "margin_pct": -13.25,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Likely",
-      "party": "Democratic",
-      "color": "#6666FF"
+      "category": "Safe",
+      "color": "#0288d1"
     }
   },
   "45087": {
+    "county": "Union",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45087",
     "dem_votes": 4659,
     "rep_votes": 4411,
     "other_votes": 8,
-    "total_votes": 9078,
     "all_parties": {
       "REP": 4411,
       "DEM": 4659,
       "NON": 8
     },
+    "total_votes": 9078,
+    "two_party_total": 9070,
     "margin": -248,
     "margin_pct": -2.73,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Tossup",
-      "color": "#CCCCCC"
+      "category": "Lean",
+      "color": "#b3e5fc"
     }
   },
   "45089": {
+    "county": "Williamsburg",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45089",
     "dem_votes": 7906,
     "rep_votes": 3471,
     "other_votes": 4,
-    "total_votes": 11381,
     "all_parties": {
       "REP": 3471,
       "DEM": 7906,
       "NON": 4
     },
+    "total_votes": 11381,
+    "two_party_total": 11377,
     "margin": -4435,
     "margin_pct": -38.97,
     "winner": "DEM",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Democratic",
-      "color": "#0000FF"
+      "category": "Dominant",
+      "color": "#014a7f"
     }
   },
   "45091": {
+    "county": "York",
+    "contest": "Lieutenant Governor",
+    "year": "2010",
+    "dem_candidate": "Ashley Cooper",
+    "rep_candidate": "Ken Ard",
+    "county_fips": "45091",
     "dem_votes": 24520,
     "rep_votes": 43132,
     "other_votes": 31,
-    "total_votes": 67683,
     "all_parties": {
       "REP": 43132,
       "DEM": 24520,
       "NON": 31
     },
+    "total_votes": 67683,
+    "two_party_total": 67652,
     "margin": 18612,
     "margin_pct": 27.5,
     "winner": "REP",
     "competitiveness": {
-      "category": "Safe",
-      "party": "Republican",
-      "color": "#FF0000"
+      "category": "Stronghold",
+      "color": "#cb181d"
     }
   }
 }
