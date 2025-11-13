@@ -1741,7 +1741,7 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
           contests.forEach(contest => {
             const option = document.createElement('option');
             option.value = contest.key;
-            option.textContent = `  ${contest.year}`;
+            option.textContent = `${contest.name} (${contest.year})`;
             
             optgroup.appendChild(option);
           });
