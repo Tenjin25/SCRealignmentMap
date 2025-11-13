@@ -52,6 +52,7 @@ CANDIDATES = {
     "2010_state_treasurer": {"dem": "Curtis Loftis (D)", "rep": "Curtis Loftis (R)"},  # Both parties nominated same
     "2010_comptroller_general": {"dem": "Robert J. Clink, Jr. (D)", "rep": "Richard Eckstrom (R)"},
     "2010_commissioner_of_agriculture": {"dem": "Tom E. Elliott (D)", "rep": "Hugh Weathers (R)"},
+    "2010_state_superintendent_of_education": {"dem": "Frank Holleman (D)", "rep": "Mick Zais (R)"},
     "2012_president": {"dem": "Barack Obama (D)", "rep": "Mitt Romney (R)"},
     "2016_u.s._senate": {"dem": "Thomas Dixon (D)", "rep": "Tim Scott (R)"},
     "2024_president": {"dem": "Kamala Harris (D)", "rep": "Donald Trump (R)"}
@@ -171,6 +172,7 @@ def main():
         ("county_results_2010_state_treasurer_fips_accurate.json", "2010_state_treasurer"),
         ("county_results_2010_comptroller_general_fips_accurate.json", "2010_comptroller_general"),
         ("county_results_2010_commissioner_of_agriculture_fips_accurate.json", "2010_commissioner_of_agriculture"),
+        ("county_results_2010_state_superintendent_of_education_fips_accurate.json", "2010_state_superintendent_of_education"),
         
         # 2012 President
         ("county_results_2012_president_fips_accurate.json", "2012_president"),

@@ -1,0 +1,1449 @@
+{
+  "competitiveness_scale": {
+    "Republican": [
+      {
+        "category": "Annihilation",
+        "range": "R+40%+",
+        "color": "#67000d",
+        "min": 40,
+        "max": 100
+      },
+      {
+        "category": "Dominant",
+        "range": "R+30-40%",
+        "color": "#a50f15",
+        "min": 30,
+        "max": 40
+      },
+      {
+        "category": "Stronghold",
+        "range": "R+20-30%",
+        "color": "#cb181d",
+        "min": 20,
+        "max": 30
+      },
+      {
+        "category": "Safe",
+        "range": "R+10-20%",
+        "color": "#ef3b2c",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "Likely",
+        "range": "R+5.5-10%",
+        "color": "#fb6a4a",
+        "min": 5.5,
+        "max": 10
+      },
+      {
+        "category": "Lean",
+        "range": "R+1-5.5%",
+        "color": "#fc9272",
+        "min": 1,
+        "max": 5.5
+      },
+      {
+        "category": "Tilt",
+        "range": "R+0.5-1%",
+        "color": "#fee8c8",
+        "min": 0.5,
+        "max": 1
+      }
+    ],
+    "Tossup": [
+      {
+        "category": "Tossup",
+        "range": "\u00b10.5%",
+        "color": "#f7f7f7",
+        "min": -0.5,
+        "max": 0.5
+      }
+    ],
+    "Democratic": [
+      {
+        "category": "Tilt",
+        "range": "D+0.5-1%",
+        "color": "#e1f5fe",
+        "min": -1,
+        "max": -0.5
+      },
+      {
+        "category": "Lean",
+        "range": "D+1-5.5%",
+        "color": "#b3e5fc",
+        "min": -5.5,
+        "max": -1
+      },
+      {
+        "category": "Likely",
+        "range": "D+5.5-10%",
+        "color": "#4fc3f7",
+        "min": -10,
+        "max": -5.5
+      },
+      {
+        "category": "Safe",
+        "range": "D+10-20%",
+        "color": "#0288d1",
+        "min": -20,
+        "max": -10
+      },
+      {
+        "category": "Stronghold",
+        "range": "D+20-30%",
+        "color": "#01579b",
+        "min": -30,
+        "max": -20
+      },
+      {
+        "category": "Dominant",
+        "range": "D+30-40%",
+        "color": "#014a7f",
+        "min": -40,
+        "max": -30
+      },
+      {
+        "category": "Annihilation",
+        "range": "D+40%+",
+        "color": "#08306b",
+        "min": -100,
+        "max": -40
+      }
+    ]
+  },
+  "45001": {
+    "county": "Abbeville",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45001",
+    "dem_votes": 3690,
+    "rep_votes": 3254,
+    "other_votes": 347,
+    "all_parties": {
+      "GRN": 128,
+      "REP": 3254,
+      "LIB": 140,
+      "DEM": 3690,
+      "IND": 77,
+      "NON": 2
+    },
+    "total_votes": 7291,
+    "two_party_total": 6944,
+    "margin": -436,
+    "margin_pct": -5.98,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#4fc3f7"
+    }
+  },
+  "45003": {
+    "county": "Aiken",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45003",
+    "dem_votes": 16052,
+    "rep_votes": 29348,
+    "other_votes": 3111,
+    "all_parties": {
+      "GRN": 874,
+      "REP": 29348,
+      "LIB": 1490,
+      "DEM": 16052,
+      "IND": 736,
+      "NON": 11
+    },
+    "total_votes": 48511,
+    "two_party_total": 45400,
+    "margin": 13296,
+    "margin_pct": 27.41,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45005": {
+    "county": "Allendale",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45005",
+    "dem_votes": 1844,
+    "rep_votes": 596,
+    "other_votes": 71,
+    "all_parties": {
+      "GRN": 24,
+      "REP": 596,
+      "LIB": 29,
+      "DEM": 1844,
+      "IND": 15,
+      "NON": 3
+    },
+    "total_votes": 2511,
+    "two_party_total": 2440,
+    "margin": -1248,
+    "margin_pct": -49.7,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08306b"
+    }
+  },
+  "45007": {
+    "county": "Anderson",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45007",
+    "dem_votes": 18197,
+    "rep_votes": 28439,
+    "other_votes": 2918,
+    "all_parties": {
+      "GRN": 777,
+      "REP": 28439,
+      "LIB": 1340,
+      "DEM": 18197,
+      "IND": 779,
+      "NON": 22
+    },
+    "total_votes": 49554,
+    "two_party_total": 46636,
+    "margin": 10242,
+    "margin_pct": 20.67,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45009": {
+    "county": "Bamberg",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45009",
+    "dem_votes": 3097,
+    "rep_votes": 1543,
+    "other_votes": 123,
+    "all_parties": {
+      "GRN": 38,
+      "REP": 1543,
+      "LIB": 54,
+      "DEM": 3097,
+      "IND": 31,
+      "NON": 0
+    },
+    "total_votes": 4763,
+    "two_party_total": 4640,
+    "margin": -1554,
+    "margin_pct": -32.63,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#014a7f"
+    }
+  },
+  "45011": {
+    "county": "Barnwell",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45011",
+    "dem_votes": 3321,
+    "rep_votes": 3264,
+    "other_votes": 246,
+    "all_parties": {
+      "GRN": 80,
+      "REP": 3264,
+      "LIB": 116,
+      "DEM": 3321,
+      "IND": 49,
+      "NON": 1
+    },
+    "total_votes": 6831,
+    "two_party_total": 6585,
+    "margin": -57,
+    "margin_pct": -0.83,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Tilt",
+      "party": "Democratic",
+      "color": "#e1f5fe"
+    }
+  },
+  "45013": {
+    "county": "Beaufort",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45013",
+    "dem_votes": 17516,
+    "rep_votes": 28852,
+    "other_votes": 3687,
+    "all_parties": {
+      "GRN": 1025,
+      "REP": 28852,
+      "LIB": 1506,
+      "DEM": 17516,
+      "IND": 1131,
+      "NON": 25
+    },
+    "total_votes": 50055,
+    "two_party_total": 46368,
+    "margin": 11336,
+    "margin_pct": 22.65,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  },
+  "45015": {
+    "county": "Berkeley",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45015",
+    "dem_votes": 16544,
+    "rep_votes": 22826,
+    "other_votes": 2944,
+    "all_parties": {
+      "GRN": 754,
+      "REP": 22826,
+      "LIB": 1500,
+      "DEM": 16544,
+      "IND": 668,
+      "NON": 22
+    },
+    "total_votes": 42314,
+    "two_party_total": 39370,
+    "margin": 6282,
+    "margin_pct": 14.85,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45017": {
+    "county": "Calhoun",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45017",
+    "dem_votes": 2861,
+    "rep_votes": 2669,
+    "other_votes": 265,
+    "all_parties": {
+      "GRN": 78,
+      "REP": 2669,
+      "LIB": 133,
+      "DEM": 2861,
+      "IND": 52,
+      "NON": 2
+    },
+    "total_votes": 5795,
+    "two_party_total": 5530,
+    "margin": -192,
+    "margin_pct": -3.31,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#b3e5fc"
+    }
+  },
+  "45019": {
+    "county": "Charleston",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45019",
+    "dem_votes": 45255,
+    "rep_votes": 48124,
+    "other_votes": 6944,
+    "all_parties": {
+      "GRN": 1967,
+      "REP": 48124,
+      "LIB": 3629,
+      "DEM": 45255,
+      "IND": 1311,
+      "NON": 37
+    },
+    "total_votes": 100323,
+    "two_party_total": 93379,
+    "margin": 2869,
+    "margin_pct": 2.86,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45021": {
+    "county": "Cherokee",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45021",
+    "dem_votes": 5382,
+    "rep_votes": 8104,
+    "other_votes": 753,
+    "all_parties": {
+      "GRN": 209,
+      "REP": 8104,
+      "LIB": 333,
+      "DEM": 5382,
+      "IND": 207,
+      "NON": 4
+    },
+    "total_votes": 14239,
+    "two_party_total": 13486,
+    "margin": 2722,
+    "margin_pct": 19.12,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45023": {
+    "county": "Chester",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45023",
+    "dem_votes": 4917,
+    "rep_votes": 3978,
+    "other_votes": 457,
+    "all_parties": {
+      "GRN": 130,
+      "REP": 3978,
+      "LIB": 186,
+      "DEM": 4917,
+      "IND": 140,
+      "NON": 1
+    },
+    "total_votes": 9352,
+    "two_party_total": 8895,
+    "margin": -939,
+    "margin_pct": -10.04,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0288d1"
+    }
+  },
+  "45025": {
+    "county": "Chesterfield",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45025",
+    "dem_votes": 5630,
+    "rep_votes": 4881,
+    "other_votes": 500,
+    "all_parties": {
+      "GRN": 130,
+      "REP": 4881,
+      "LIB": 201,
+      "DEM": 5630,
+      "IND": 168,
+      "NON": 1
+    },
+    "total_votes": 11011,
+    "two_party_total": 10511,
+    "margin": -749,
+    "margin_pct": -6.8,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Democratic",
+      "color": "#4fc3f7"
+    }
+  },
+  "45027": {
+    "county": "Clarendon",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45027",
+    "dem_votes": 6240,
+    "rep_votes": 4622,
+    "other_votes": 332,
+    "all_parties": {
+      "GRN": 107,
+      "REP": 4622,
+      "LIB": 125,
+      "DEM": 6240,
+      "IND": 97,
+      "NON": 3
+    },
+    "total_votes": 11194,
+    "two_party_total": 10862,
+    "margin": -1618,
+    "margin_pct": -14.45,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0288d1"
+    }
+  },
+  "45029": {
+    "county": "Colleton",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45029",
+    "dem_votes": 5909,
+    "rep_votes": 6310,
+    "other_votes": 508,
+    "all_parties": {
+      "GRN": 134,
+      "REP": 6310,
+      "LIB": 215,
+      "DEM": 5909,
+      "IND": 155,
+      "NON": 4
+    },
+    "total_votes": 12727,
+    "two_party_total": 12219,
+    "margin": 401,
+    "margin_pct": 3.15,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45031": {
+    "county": "Darlington",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45031",
+    "dem_votes": 10435,
+    "rep_votes": 9936,
+    "other_votes": 800,
+    "all_parties": {
+      "GRN": 268,
+      "REP": 9936,
+      "LIB": 347,
+      "DEM": 10435,
+      "IND": 184,
+      "NON": 1
+    },
+    "total_votes": 21171,
+    "two_party_total": 20371,
+    "margin": -499,
+    "margin_pct": -2.36,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#b3e5fc"
+    }
+  },
+  "45033": {
+    "county": "Dillon",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45033",
+    "dem_votes": 4313,
+    "rep_votes": 3107,
+    "other_votes": 318,
+    "all_parties": {
+      "GRN": 84,
+      "REP": 3107,
+      "LIB": 166,
+      "DEM": 4313,
+      "IND": 67,
+      "NON": 1
+    },
+    "total_votes": 7738,
+    "two_party_total": 7420,
+    "margin": -1206,
+    "margin_pct": -15.59,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0288d1"
+    }
+  },
+  "45035": {
+    "county": "Dorchester",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45035",
+    "dem_votes": 13170,
+    "rep_votes": 19675,
+    "other_votes": 2567,
+    "all_parties": {
+      "GRN": 659,
+      "REP": 19675,
+      "LIB": 1240,
+      "DEM": 13170,
+      "IND": 655,
+      "NON": 13
+    },
+    "total_votes": 35412,
+    "two_party_total": 32845,
+    "margin": 6505,
+    "margin_pct": 18.37,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45037": {
+    "county": "Edgefield",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45037",
+    "dem_votes": 3468,
+    "rep_votes": 4316,
+    "other_votes": 374,
+    "all_parties": {
+      "GRN": 103,
+      "REP": 4316,
+      "LIB": 179,
+      "DEM": 3468,
+      "IND": 88,
+      "NON": 4
+    },
+    "total_votes": 8158,
+    "two_party_total": 7784,
+    "margin": 848,
+    "margin_pct": 10.39,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45039": {
+    "county": "Fairfield",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45039",
+    "dem_votes": 5515,
+    "rep_votes": 2882,
+    "other_votes": 385,
+    "all_parties": {
+      "GRN": 130,
+      "REP": 2882,
+      "LIB": 170,
+      "DEM": 5515,
+      "IND": 83,
+      "NON": 2
+    },
+    "total_votes": 8782,
+    "two_party_total": 8397,
+    "margin": -2633,
+    "margin_pct": -29.98,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#01579b"
+    }
+  },
+  "45041": {
+    "county": "Florence",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45041",
+    "dem_votes": 18209,
+    "rep_votes": 20371,
+    "other_votes": 1574,
+    "all_parties": {
+      "GRN": 486,
+      "REP": 20371,
+      "LIB": 693,
+      "DEM": 18209,
+      "IND": 384,
+      "NON": 11
+    },
+    "total_votes": 40154,
+    "two_party_total": 38580,
+    "margin": 2162,
+    "margin_pct": 5.38,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Republican",
+      "color": "#fc9272"
+    }
+  },
+  "45043": {
+    "county": "Georgetown",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45043",
+    "dem_votes": 8808,
+    "rep_votes": 11122,
+    "other_votes": 966,
+    "all_parties": {
+      "GRN": 306,
+      "REP": 11122,
+      "LIB": 420,
+      "DEM": 8808,
+      "IND": 233,
+      "NON": 7
+    },
+    "total_votes": 20896,
+    "two_party_total": 19930,
+    "margin": 2314,
+    "margin_pct": 11.07,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45045": {
+    "county": "Greenville",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45045",
+    "dem_votes": 50691,
+    "rep_votes": 74206,
+    "other_votes": 7379,
+    "all_parties": {
+      "GRN": 1839,
+      "REP": 74206,
+      "LIB": 3648,
+      "DEM": 50691,
+      "IND": 1837,
+      "NON": 55
+    },
+    "total_votes": 132276,
+    "two_party_total": 124897,
+    "margin": 23515,
+    "margin_pct": 17.78,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45047": {
+    "county": "Greenwood",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45047",
+    "dem_votes": 8939,
+    "rep_votes": 10144,
+    "other_votes": 893,
+    "all_parties": {
+      "GRN": 279,
+      "REP": 10144,
+      "LIB": 389,
+      "DEM": 8939,
+      "IND": 215,
+      "NON": 10
+    },
+    "total_votes": 19976,
+    "two_party_total": 19083,
+    "margin": 1205,
+    "margin_pct": 6.03,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45049": {
+    "county": "Hampton",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45049",
+    "dem_votes": 3989,
+    "rep_votes": 1994,
+    "other_votes": 214,
+    "all_parties": {
+      "GRN": 77,
+      "REP": 1994,
+      "LIB": 85,
+      "DEM": 3989,
+      "IND": 50,
+      "": 2
+    },
+    "total_votes": 6197,
+    "two_party_total": 5983,
+    "margin": -1995,
+    "margin_pct": -32.19,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#014a7f"
+    }
+  },
+  "45051": {
+    "county": "Horry",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45051",
+    "dem_votes": 19323,
+    "rep_votes": 44201,
+    "other_votes": 4824,
+    "all_parties": {
+      "GRN": 1422,
+      "REP": 44201,
+      "LIB": 2031,
+      "DEM": 19323,
+      "IND": 1350,
+      "NON": 21
+    },
+    "total_votes": 68348,
+    "two_party_total": 63524,
+    "margin": 24878,
+    "margin_pct": 36.4,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45053": {
+    "county": "Jasper",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45053",
+    "dem_votes": 3585,
+    "rep_votes": 2315,
+    "other_votes": 237,
+    "all_parties": {
+      "GRN": 67,
+      "REP": 2315,
+      "LIB": 97,
+      "DEM": 3585,
+      "IND": 72,
+      "": 1
+    },
+    "total_votes": 6137,
+    "two_party_total": 5900,
+    "margin": -1270,
+    "margin_pct": -20.69,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#01579b"
+    }
+  },
+  "45055": {
+    "county": "Kershaw",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45055",
+    "dem_votes": 9324,
+    "rep_votes": 11073,
+    "other_votes": 1361,
+    "all_parties": {
+      "GRN": 311,
+      "REP": 11073,
+      "LIB": 682,
+      "DEM": 9324,
+      "IND": 354,
+      "NON": 14
+    },
+    "total_votes": 21758,
+    "two_party_total": 20397,
+    "margin": 1749,
+    "margin_pct": 8.04,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45057": {
+    "county": "Lancaster",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45057",
+    "dem_votes": 8934,
+    "rep_votes": 11653,
+    "other_votes": 1273,
+    "all_parties": {
+      "GRN": 364,
+      "REP": 11653,
+      "LIB": 542,
+      "DEM": 8934,
+      "IND": 359,
+      "NON": 8
+    },
+    "total_votes": 21860,
+    "two_party_total": 20587,
+    "margin": 2719,
+    "margin_pct": 12.44,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45059": {
+    "county": "Laurens",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45059",
+    "dem_votes": 7538,
+    "rep_votes": 8951,
+    "other_votes": 798,
+    "all_parties": {
+      "GRN": 246,
+      "REP": 8951,
+      "LIB": 346,
+      "DEM": 7538,
+      "IND": 198,
+      "NON": 8
+    },
+    "total_votes": 17287,
+    "two_party_total": 16489,
+    "margin": 1413,
+    "margin_pct": 8.17,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45061": {
+    "county": "Lee",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45061",
+    "dem_votes": 4351,
+    "rep_votes": 2001,
+    "other_votes": 197,
+    "all_parties": {
+      "GRN": 87,
+      "REP": 2001,
+      "LIB": 74,
+      "DEM": 4351,
+      "IND": 35,
+      "NON": 1
+    },
+    "total_votes": 6549,
+    "two_party_total": 6352,
+    "margin": -2350,
+    "margin_pct": -35.88,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#014a7f"
+    }
+  },
+  "45063": {
+    "county": "Lexington",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45063",
+    "dem_votes": 25277,
+    "rep_votes": 51412,
+    "other_votes": 5660,
+    "all_parties": {
+      "GRN": 1210,
+      "REP": 51412,
+      "LIB": 3208,
+      "DEM": 25277,
+      "IND": 1203,
+      "NON": 39
+    },
+    "total_votes": 82349,
+    "two_party_total": 76689,
+    "margin": 26135,
+    "margin_pct": 31.74,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45065": {
+    "county": "McCormick",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45065",
+    "dem_votes": 1918,
+    "rep_votes": 1835,
+    "other_votes": 174,
+    "all_parties": {
+      "GRN": 62,
+      "REP": 1835,
+      "LIB": 61,
+      "DEM": 1918,
+      "IND": 51,
+      "NON": 0
+    },
+    "total_votes": 3927,
+    "two_party_total": 3753,
+    "margin": -83,
+    "margin_pct": -2.11,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Lean",
+      "party": "Democratic",
+      "color": "#b3e5fc"
+    }
+  },
+  "45067": {
+    "county": "Marion",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45067",
+    "dem_votes": 6424,
+    "rep_votes": 3514,
+    "other_votes": 346,
+    "all_parties": {
+      "GRN": 113,
+      "REP": 3514,
+      "LIB": 142,
+      "DEM": 6424,
+      "IND": 88,
+      "NON": 3
+    },
+    "total_votes": 10284,
+    "two_party_total": 9938,
+    "margin": -2910,
+    "margin_pct": -28.3,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#01579b"
+    }
+  },
+  "45069": {
+    "county": "Marlboro",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45069",
+    "dem_votes": 4499,
+    "rep_votes": 2255,
+    "other_votes": 344,
+    "all_parties": {
+      "GRN": 113,
+      "REP": 2255,
+      "LIB": 146,
+      "DEM": 4499,
+      "IND": 84,
+      "NON": 1
+    },
+    "total_votes": 7098,
+    "two_party_total": 6754,
+    "margin": -2244,
+    "margin_pct": -31.61,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#014a7f"
+    }
+  },
+  "45071": {
+    "county": "Newberry",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45071",
+    "dem_votes": 5147,
+    "rep_votes": 6430,
+    "other_votes": 511,
+    "all_parties": {
+      "GRN": 142,
+      "REP": 6430,
+      "LIB": 236,
+      "DEM": 5147,
+      "IND": 128,
+      "NON": 5
+    },
+    "total_votes": 12088,
+    "two_party_total": 11577,
+    "margin": 1283,
+    "margin_pct": 10.61,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45073": {
+    "county": "Oconee",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45073",
+    "dem_votes": 8782,
+    "rep_votes": 11082,
+    "other_votes": 1070,
+    "all_parties": {
+      "GRN": 307,
+      "REP": 11082,
+      "LIB": 501,
+      "DEM": 8782,
+      "IND": 252,
+      "": 10
+    },
+    "total_votes": 20934,
+    "two_party_total": 19864,
+    "margin": 2300,
+    "margin_pct": 10.99,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45075": {
+    "county": "Orangeburg",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45075",
+    "dem_votes": 19464,
+    "rep_votes": 8080,
+    "other_votes": 715,
+    "all_parties": {
+      "GRN": 248,
+      "REP": 8080,
+      "LIB": 288,
+      "DEM": 19464,
+      "IND": 172,
+      "NON": 7
+    },
+    "total_votes": 28259,
+    "two_party_total": 27544,
+    "margin": -11384,
+    "margin_pct": -40.28,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Annihilation",
+      "party": "Democratic",
+      "color": "#08306b"
+    }
+  },
+  "45077": {
+    "county": "Pickens",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45077",
+    "dem_votes": 9085,
+    "rep_votes": 19081,
+    "other_votes": 1876,
+    "all_parties": {
+      "GRN": 547,
+      "REP": 19081,
+      "LIB": 851,
+      "DEM": 9085,
+      "IND": 458,
+      "NON": 20
+    },
+    "total_votes": 30042,
+    "two_party_total": 28166,
+    "margin": 9996,
+    "margin_pct": 33.27,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Republican",
+      "color": "#a50f15"
+    }
+  },
+  "45079": {
+    "county": "Richland",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45079",
+    "dem_votes": 70538,
+    "rep_votes": 40199,
+    "other_votes": 5652,
+    "all_parties": {
+      "GRN": 1808,
+      "REP": 40199,
+      "LIB": 2745,
+      "DEM": 70538,
+      "IND": 1043,
+      "NON": 56
+    },
+    "total_votes": 116389,
+    "two_party_total": 110737,
+    "margin": -30339,
+    "margin_pct": -26.07,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Democratic",
+      "color": "#01579b"
+    }
+  },
+  "45081": {
+    "county": "Saluda",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45081",
+    "dem_votes": 2694,
+    "rep_votes": 3308,
+    "other_votes": 254,
+    "all_parties": {
+      "GRN": 67,
+      "REP": 3308,
+      "LIB": 125,
+      "DEM": 2694,
+      "IND": 61,
+      "": 1
+    },
+    "total_votes": 6256,
+    "two_party_total": 6002,
+    "margin": 614,
+    "margin_pct": 9.81,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Likely",
+      "party": "Republican",
+      "color": "#fb6a4a"
+    }
+  },
+  "45083": {
+    "county": "Spartanburg",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45083",
+    "dem_votes": 28680,
+    "rep_votes": 40787,
+    "other_votes": 3907,
+    "all_parties": {
+      "GRN": 1088,
+      "REP": 40787,
+      "LIB": 1702,
+      "DEM": 28680,
+      "IND": 1088,
+      "NON": 29
+    },
+    "total_votes": 73374,
+    "two_party_total": 69467,
+    "margin": 12107,
+    "margin_pct": 16.5,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Republican",
+      "color": "#ef3b2c"
+    }
+  },
+  "45085": {
+    "county": "Sumter",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45085",
+    "dem_votes": 16614,
+    "rep_votes": 12370,
+    "other_votes": 1077,
+    "all_parties": {
+      "GRN": 327,
+      "REP": 12370,
+      "LIB": 453,
+      "DEM": 16614,
+      "IND": 281,
+      "NON": 16
+    },
+    "total_votes": 30061,
+    "two_party_total": 28984,
+    "margin": -4244,
+    "margin_pct": -14.12,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0288d1"
+    }
+  },
+  "45087": {
+    "county": "Union",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45087",
+    "dem_votes": 5024,
+    "rep_votes": 3604,
+    "other_votes": 462,
+    "all_parties": {
+      "GRN": 162,
+      "REP": 3604,
+      "LIB": 173,
+      "DEM": 5024,
+      "IND": 121,
+      "NON": 6
+    },
+    "total_votes": 9090,
+    "two_party_total": 8628,
+    "margin": -1420,
+    "margin_pct": -15.62,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Safe",
+      "party": "Democratic",
+      "color": "#0288d1"
+    }
+  },
+  "45089": {
+    "county": "Williamsburg",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45089",
+    "dem_votes": 7848,
+    "rep_votes": 3310,
+    "other_votes": 276,
+    "all_parties": {
+      "GRN": 99,
+      "REP": 3310,
+      "LIB": 103,
+      "DEM": 7848,
+      "IND": 71,
+      "NON": 3
+    },
+    "total_votes": 11434,
+    "two_party_total": 11158,
+    "margin": -4538,
+    "margin_pct": -39.69,
+    "winner": "DEM",
+    "competitiveness": {
+      "category": "Dominant",
+      "party": "Democratic",
+      "color": "#014a7f"
+    }
+  },
+  "45091": {
+    "county": "York",
+    "contest": "State Superintendent Of Education",
+    "year": "2010",
+    "dem_candidate": "Frank Holleman (D)",
+    "rep_candidate": "Mick Zais (R)",
+    "county_fips": "45091",
+    "dem_votes": 23467,
+    "rep_votes": 38763,
+    "other_votes": 5079,
+    "all_parties": {
+      "GRN": 1311,
+      "REP": 38763,
+      "LIB": 2522,
+      "DEM": 23467,
+      "IND": 1226,
+      "NON": 20
+    },
+    "total_votes": 67309,
+    "two_party_total": 62230,
+    "margin": 15296,
+    "margin_pct": 22.73,
+    "winner": "REP",
+    "competitiveness": {
+      "category": "Stronghold",
+      "party": "Republican",
+      "color": "#cb181d"
+    }
+  }
+}

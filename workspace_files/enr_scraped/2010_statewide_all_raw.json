@@ -1,0 +1,5990 @@
+{
+  "Abbeville": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 51,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 3359,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 3807,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 33,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 3827,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 3424,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 4226,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 2998,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 4748,
+        "party": "REP"
+      },
+      "Write-In": {
+        "votes": 38,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 170,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 3744,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 3357,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 3902,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 3316,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 128,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 3254,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 140,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 3690,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 77,
+        "party": "IND"
+      },
+      "Write-In": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 4120,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 3083,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 10,
+        "party": "NON"
+      }
+    }
+  },
+  "Aiken": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 239,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 30268,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 17874,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 82,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 31660,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 16829,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 26,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 32547,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 15823,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 15,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 35650,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 309,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1182,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 31254,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 16135,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 12,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 32033,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 16204,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 12,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 874,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 29348,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 1490,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 16052,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 736,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 31943,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 16122,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 27,
+        "party": "NON"
+      }
+    }
+  },
+  "Allendale": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 39,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 564,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 1926,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 590,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 1877,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 658,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 1832,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 804,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 13,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 28,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 593,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 1900,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 639,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 1869,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 24,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 596,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 29,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 1844,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 15,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 656,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 1845,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    }
+  },
+  "Anderson": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 356,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 28682,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 19954,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 250,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 32065,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 17427,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 58,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 35314,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 13839,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 22,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 39385,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 318,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1058,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 31466,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 16995,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 17,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 32534,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 16484,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 30,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 777,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 28439,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 1340,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 18197,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 779,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 22,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 34866,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 14109,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 17,
+        "party": "NON"
+      }
+    }
+  },
+  "Bamberg": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 36,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 1661,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 3086,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 1643,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 3107,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 1790,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 2932,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 2011,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 13,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 36,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 1439,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 3300,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 1741,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 3015,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 38,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 1543,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 54,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 3097,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 31,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 1830,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 2949,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    }
+  },
+  "Barnwell": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 77,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 3327,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 3469,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 6,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 3344,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 3432,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 6,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 3659,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 3150,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 4038,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 21,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 80,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 2788,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 4029,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 3546,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 3297,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 80,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 3264,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 116,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 3321,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 49,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 3601,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 3238,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    }
+  },
+  "Beaufort": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 233,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 29958,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 20229,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 46,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 30683,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 19789,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 30,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 32437,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 17782,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 20,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 37108,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 354,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1185,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 30405,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 18781,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 19,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 31781,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 18121,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 20,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 1025,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 28852,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 1506,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 17516,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 1131,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 25,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 31557,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 18051,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 16,
+        "party": "NON"
+      }
+    }
+  },
+  "Berkeley": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 359,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 24164,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 17979,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 73,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 23680,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 18716,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 34,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 26373,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 15767,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 23,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 29393,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 221,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1102,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 23958,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 17626,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 24642,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 17743,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 14,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 754,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 22826,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 1500,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 16544,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 668,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 22,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 25973,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 16117,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 15,
+        "party": "NON"
+      }
+    }
+  },
+  "Calhoun": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 31,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 2642,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 3126,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 2707,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 3105,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 3031,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 2750,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 3452,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 37,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 77,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 2632,
+        "party": "REP"
+      },
+      "Mathew Richardson": {
+        "votes": 3118,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 2745,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 3141,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 6,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 78,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 2669,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 133,
+        "party": "LIB"
+      },
+      "Holleman Frank": {
+        "votes": 2861,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 52,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 3091,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 2725,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    }
+  },
+  "Charleston": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 427,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 48905,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 51917,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 228,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 46832,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 54789,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 94,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 56040,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 43846,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 62,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 64330,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 933,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 2707,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 49222,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 49074,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 34,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 49354,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 50944,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 49,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 1967,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 48124,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 3629,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 45255,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 1311,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 37,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 55660,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 43434,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 44,
+        "party": "NON"
+      }
+    }
+  },
+  "Cherokee": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 110,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 8066,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 5931,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 37,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 9002,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 5224,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 14,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 9817,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 4365,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 10648,
+        "party": "REP"
+      },
+      "Write-In": {
+        "votes": 58,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 253,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 8670,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 5316,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 9043,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 5117,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 209,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 8104,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 333,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 5382,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 207,
+        "party": "IND"
+      },
+      "Write-In": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 9464,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 4701,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 3,
+        "party": "NON"
+      }
+    }
+  },
+  "Chester": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 110,
+        "party": "GRN"
+      },
+      "Nikki R Haley": {
+        "votes": 4007,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 5231,
+        "party": "DEM"
+      },
+      "Morgan Bruce Reeves.": {
+        "votes": 63,
+        "party": "UNC"
+      },
+      "WRITE-IN": {
+        "votes": 12,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 4317,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 4997,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 4640,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 4648,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 5387,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 68,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 155,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 4265,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 4912,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 4550,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 4771,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 130,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 3978,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 186,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 4917,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 140,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 4482,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 4848,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    }
+  },
+  "Chesterfield": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 48,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 4797,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 6232,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 6,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 5418,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 5609,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 5796,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 5199,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 6748,
+        "party": "REP"
+      },
+      "Write-In": {
+        "votes": 63,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 185,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 5173,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 5668,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 5497,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 5480,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 130,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 4881,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 201,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 5630,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 168,
+        "party": "IND"
+      },
+      "Write-In": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 5700,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 5293,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 9,
+        "party": "NON"
+      }
+    }
+  },
+  "Clarendon": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 84,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 4733,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 6383,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 4899,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 6242,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 5272,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 5892,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 6,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 5887,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 58,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 127,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 4717,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 6418,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 4954,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 6238,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 107,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 4622,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 125,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 6240,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 97,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 5264,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 5939,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    }
+  },
+  "Colleton": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 130,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 6227,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 6535,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 16,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 6146,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 6727,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 7187,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 5514,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 7924,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 50,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 236,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 6321,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 6426,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 6741,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 6096,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 134,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 6310,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 215,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 5909,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 155,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 7205,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 5643,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    }
+  },
+  "Darlington": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 84,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 9844,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 11284,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 10612,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 10635,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 10962,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 10179,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 12135,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 82,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 227,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 9877,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 11123,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 10219,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 10906,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 6,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 268,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 9936,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 347,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 10435,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 184,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 10854,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 10299,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    }
+  },
+  "Dillon": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 44,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 3127,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 4621,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 3462,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 4310,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 3668,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 4060,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 4150,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 39,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 75,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 2989,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 4708,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 3303,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 4428,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 84,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 3107,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 166,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 4313,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 67,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 3614,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 4150,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    }
+  },
+  "Dorchester": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 213,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 20811,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 14395,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 46,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 20387,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 15255,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 28,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 22665,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 12647,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 17,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 25557,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 330,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 921,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 20419,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 14198,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 19,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 20993,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 14241,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 19,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 659,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 19675,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 1240,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 13170,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 655,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 13,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 22481,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 12664,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 15,
+        "party": "NON"
+      }
+    }
+  },
+  "Edgefield": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 35,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 4447,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 3623,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 4654,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 3471,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 4797,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 3324,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 5256,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 20,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 138,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 4616,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 3400,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 4727,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 3397,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 103,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 4316,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 179,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 3468,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 88,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 4745,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 3391,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    }
+  },
+  "Fairfield": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 58,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 2754,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 5931,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 13,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 2954,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 5771,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 3379,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 5303,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 4119,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 60,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 141,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 2798,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 5821,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 2992,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 5698,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 130,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 2882,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 170,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 5515,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 83,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 3292,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 5424,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    }
+  },
+  "Florence": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 190,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 19253,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 20594,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 44,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 21612,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 18693,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 17,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 22322,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 17643,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 8,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 25139,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 206,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 510,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 20020,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 19734,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 20902,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 19077,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 25,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 486,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 20371,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 693,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 18209,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 384,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 22230,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 17797,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": "NON"
+      }
+    }
+  },
+  "Georgetown": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 103,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 11285,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 9661,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 16,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 11499,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 9593,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 12272,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 8721,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 13364,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 74,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 281,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 11243,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 9442,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 11608,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 9235,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 306,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 11122,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 420,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 8808,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 233,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 11991,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 8803,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    }
+  },
+  "Greenville": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 679,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 78235,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 52376,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 462,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 83650,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 48586,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 130,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 91588,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 39482,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 84,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 102065,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 1183,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 2783,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 82767,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 46438,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 61,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 86504,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 44021,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 129,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 1839,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 74206,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 3648,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 50691,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 1837,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 55,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 90172,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 39896,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 69,
+        "party": "NON"
+      }
+    }
+  },
+  "Greenwood": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 120,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 10221,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 9521,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 93,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 11576,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 8422,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 17,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 12575,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 7313,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 23,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 13860,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 146,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 297,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 11015,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 8620,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 8,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard  A Eckstrom": {
+        "votes": 11548,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 8223,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 279,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 10144,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 389,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 8939,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 215,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 12176,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 7575,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 15,
+        "party": "NON"
+      }
+    }
+  },
+  "Hampton": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 58,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 2195,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 4030,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": ""
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 2132,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 4036,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": ""
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 2413,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 3782,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": ""
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 2797,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": ""
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 99,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 2210,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 3942,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": ""
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 2380,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 3843,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": ""
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 77,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 1994,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 85,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 3989,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 50,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": ""
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 2382,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 3842,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": ""
+      }
+    }
+  },
+  "Horry": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 532,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 45001,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 23778,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 76,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 46317,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 22655,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 41,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 48293,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 20150,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 22,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 52893,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 311,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1467,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 43866,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 24118,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 17,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 46141,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 22472,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 20,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 1422,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 44201,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 2031,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 19323,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 1350,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 21,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 47449,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 20818,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 16,
+        "party": "NON"
+      }
+    }
+  },
+  "Jasper": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 71,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 2469,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 3643,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": ""
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 2457,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 3688,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": ""
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 2588,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 3564,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": ""
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 2890,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 21,
+        "party": ""
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 89,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 2482,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 3623,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": ""
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 2542,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 3635,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": ""
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 67,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 2315,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 97,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 3585,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 72,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": ""
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 2533,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 3649,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": ""
+      }
+    }
+  },
+  "Kershaw": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 80,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 9393,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 12662,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 16,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 11866,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 9935,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 13608,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 7884,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 14,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 15542,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 101,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 433,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 11196,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 10256,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 12202,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 9434,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 14,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 311,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 11073,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 682,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 9324,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 354,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 14,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 13412,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 8178,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 6,
+        "party": "NON"
+      }
+    }
+  },
+  "Lancaster": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 162,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 11650,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 10358,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 12678,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 9309,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 15,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 14143,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 7890,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 8,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 15245,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 101,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 449,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 12625,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 8735,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 13385,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 8361,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 364,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 11653,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 542,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 8934,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 359,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 8,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 13258,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 8508,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 12,
+        "party": "NON"
+      }
+    }
+  },
+  "Laurens": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 159,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 9260,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 7872,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 53,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 9830,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 7387,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 21,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 10901,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 6264,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 12185,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 105,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 296,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 9683,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 7383,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 10175,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 7086,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 6,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 246,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 8951,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 346,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 7538,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 198,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 8,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 10896,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 6342,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 8,
+        "party": "NON"
+      }
+    }
+  },
+  "Lee": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 31,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 1985,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 4532,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 2099,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 4442,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 2302,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 4235,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 2644,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 32,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 87,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 2006,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 4458,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 2086,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 4437,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 87,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 2001,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 74,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 4351,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 35,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 2267,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 4254,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    }
+  },
+  "Lexington": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 479,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 50167,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 31787,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 252,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 55484,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 27213,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 103,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 61670,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 20207,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 53,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 67816,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 742,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1984,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 52924,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 27936,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 45,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 54404,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 27654,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 75,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 1210,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 51412,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 3208,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 25277,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 1203,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 39,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 60924,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 20758,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 52,
+        "party": "NON"
+      }
+    }
+  },
+  "Marion": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 47,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 3391,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 6822,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 3801,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 6485,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 4021,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 6200,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 4595,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 50,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 115,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 3436,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 6767,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 3643,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 6604,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 113,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 3514,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 142,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 6424,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 88,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 3944,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 6311,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    }
+  },
+  "Marlboro": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 46,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 2269,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 4833,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 2472,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 4682,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 2711,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 4389,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 3257,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 44,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 81,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 2128,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 4926,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 2381,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 4718,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 113,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 2255,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 146,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 4499,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 84,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 2614,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 4518,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    }
+  },
+  "McCormick": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 26,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 1995,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 1933,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 1988,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 1963,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 2061,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 1868,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 2317,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 74,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 1962,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 1906,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 2012,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 1912,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 62,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 1835,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 61,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 1918,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 51,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 2009,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 1906,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    }
+  },
+  "Newberry": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 59,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 6237,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 5705,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 16,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 6541,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 5499,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 7618,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 4357,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 8477,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 66,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 178,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 6314,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 5554,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 6319,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 5672,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 142,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 6430,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 236,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 5147,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 128,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 7636,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 4372,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    }
+  },
+  "Oconee": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 224,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 12361,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 8072,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 252,
+        "party": ""
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 14233,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 6607,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 13,
+        "party": ""
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 15523,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 5158,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": ""
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 17198,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 108,
+        "party": ""
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 547,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 13831,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 6582,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": ""
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 14488,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 6263,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 16,
+        "party": ""
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 307,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 11082,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 501,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 8782,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 252,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": ""
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 15485,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 5111,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": ""
+      }
+    }
+  },
+  "Orangeburg": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 170,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 8352,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 19861,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 22,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 8239,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 19941,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 19,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 9178,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 18952,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 10944,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 182,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 282,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 8008,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 20076,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 8530,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 19630,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 10,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 248,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 8080,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 288,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 19464,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 172,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 9580,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 18748,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 9,
+        "party": "NON"
+      }
+    }
+  },
+  "Pickens": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 235,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 19435,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 10033,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 196,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 21345,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 8737,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 33,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 23427,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 6504,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 27,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 25275,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 206,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 783,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 21090,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 8071,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 21,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 21792,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 7863,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 34,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 547,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 19081,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 851,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 9085,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 458,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 20,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 23246,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 6417,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 18,
+        "party": "NON"
+      }
+    }
+  },
+  "Richland": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 404,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 36899,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 79378,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 252,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 42977,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 73676,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 99,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 48699,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 66502,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 75,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 62688,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 1692,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 2060,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 39925,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 74896,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 59,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 42308,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 73350,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 91,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 1808,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 40199,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 2745,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 70538,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 1043,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 56,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 47994,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 67110,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 62,
+        "party": "NON"
+      }
+    }
+  },
+  "Saluda": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 35,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 3268,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 2909,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 14,
+        "party": ""
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 3576,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 2674,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": ""
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 3968,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 2255,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": ""
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 4352,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 12,
+        "party": ""
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 100,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 3483,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 2682,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": ""
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 3608,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 2636,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": ""
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 67,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 3308,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 125,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 2694,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 61,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": ""
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 3989,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 2241,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": ""
+      }
+    }
+  },
+  "Spartanburg": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 385,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 41593,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 31074,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 208,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 45801,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 27575,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 59,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 51306,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 21935,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 38,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 55091,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 458,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1443,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 44148,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 27709,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 17,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 45998,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 26718,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 42,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 1088,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 40787,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 1702,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 28680,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 1088,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 29,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 49163,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 23464,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 26,
+        "party": "NON"
+      }
+    }
+  },
+  "Sumter": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 130,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 12396,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 16769,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 28,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 13020,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 17001,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 18,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 14046,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 15847,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 11,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 16469,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 240,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 354,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 12445,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 17279,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 21,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 13135,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 16382,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 12,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 327,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 12370,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 453,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 16614,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 281,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 16,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 13884,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 16010,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 5,
+        "party": "NON"
+      }
+    }
+  },
+  "Union": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 60,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 4014,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 4966,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 31,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 4411,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 4659,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 8,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 5152,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 3864,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 5954,
+        "party": "REP"
+      },
+      "Write-In": {
+        "votes": 66,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 191,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 4148,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 4740,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 4524,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 4517,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 162,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 3604,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 173,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 5024,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 121,
+        "party": "IND"
+      },
+      "Write-In": {
+        "votes": 6,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 4791,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 4224,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 2,
+        "party": "NON"
+      }
+    }
+  },
+  "Williamsburg": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 73,
+        "party": "GRN"
+      },
+      "Nikki R Haley": {
+        "votes": 3393,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 7977,
+        "party": "DEM"
+      },
+      "Morgan Bruce Reeves (UNC)": {
+        "votes": 121,
+        "party": "UNC"
+      },
+      "WRITE-IN": {
+        "votes": 15,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 3471,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 7906,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 3698,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 7664,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 4293,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 74,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 91,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 3345,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 8037,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 3507,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 7931,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 99,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 3310,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 103,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 7848,
+        "party": "DEM"
+      },
+      "Tony Fayyazi (IND)": {
+        "votes": 71,
+        "party": "IND"
+      },
+      "WRITE-IN": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 3695,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 7736,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 0,
+        "party": "NON"
+      }
+    }
+  },
+  "York": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 308,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 41465,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 25855,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 48,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 43132,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 24520,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 31,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 45442,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 21934,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 22,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 51675,
+        "party": "REP"
+      },
+      "Write-In": {
+        "votes": 423,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1851,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 42547,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 22920,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 15,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 44783,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 22122,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 21,
+        "party": "NON"
+      }
+    },
+    "State Superintendent of Education": {
+      "Doretha A Bull": {
+        "votes": 1311,
+        "party": "GRN"
+      },
+      "Mick Zais": {
+        "votes": 38763,
+        "party": "REP"
+      },
+      "Tim Moultrie": {
+        "votes": 2522,
+        "party": "LIB"
+      },
+      "Frank Holleman": {
+        "votes": 23467,
+        "party": "DEM"
+      },
+      "Tony Fayyazi": {
+        "votes": 1226,
+        "party": "IND"
+      },
+      "Write-In": {
+        "votes": 20,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 44142,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 22616,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 14,
+        "party": "NON"
+      }
+    }
+  }
+}
