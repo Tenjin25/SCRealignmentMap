@@ -1403,6 +1403,7 @@ body {
           '2014_comptroller': './Data/county_results_2014_comptroller_general_fips_accurate.json',
           '2014_agriculture': './Data/county_results_2014_commissioner_of_agriculture_fips_accurate.json',
           '2014_adjutant_general': './Data/county_results_2014_adjutant_general_fips_accurate.json',
+          '2014_lieutenant_governor': './Data/county_results_2014_lieutenant_governor_fips_accurate.json',
           '2012_president': './Data/county_results_2012_fips_accurate.json',
           '2010_governor': './Data/county_results_2010_governor_fips_accurate.json',
           '2010_lieutenant_governor': './Data/county_results_2010_lieutenant_governor_fips_accurate.json',
@@ -1420,7 +1421,8 @@ body {
           '2006_treasurer': './Data/county_results_2006_state_treasurer_fips_accurate.json',
           '2006_comptroller': './Data/county_results_2006_comptroller_general_fips_accurate.json',
           '2006_agriculture': './Data/county_results_2006_commissioner_of_agriculture_fips_accurate.json',
-          '2006_adjutant_general': './Data/county_results_2006_adjutant_general_fips_accurate.json'
+          '2006_adjutant_general': './Data/county_results_2006_adjutant_general_fips_accurate.json',
+          '2006_lieutenant_governor': './Data/county_results_2006_lieutenant_governor_fips_accurate.json'
         },
         districts: './Data/sc_congressional_districts.geojson',
         state_house: './Data/sc_state_house_districts.geojson',
@@ -1609,11 +1611,13 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         '2022_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor & Lt. Governor', year: 2022 },
         '2018_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor & Lt. Governor', year: 2018 },
         '2014_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor', year: 2014 },
+        '2010_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor', year: 2010 },
         '2006_governor': { group: 'gubernatorial', emoji: '👑', name: 'Governor', year: 2006 },
         
         // U.S. Senate Elections
         '2022_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2022 },
         '2020_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2020 },
+        '2016_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2016 },
         '2014_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2014 },
         '2008_senate': { group: 'senate', emoji: '🏛️', name: 'U.S. Senate', year: 2008 },
         
@@ -1637,13 +1641,21 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         '2014_comptroller': { group: 'statewide', emoji: '📊', name: 'Comptroller General', year: 2014 },
         '2014_agriculture': { group: 'statewide', emoji: '🌾', name: 'Commissioner of Agriculture', year: 2014 },
         '2014_adjutant_general': { group: 'statewide', emoji: '🎖️', name: 'Adjutant General', year: 2014 },
+        '2014_lieutenant_governor': { group: 'statewide', emoji: '👔', name: 'Lieutenant Governor', year: 2014 },
+        '2010_lieutenant_governor': { group: 'statewide', emoji: '👔', name: 'Lieutenant Governor', year: 2010 },
+        '2010_attorney_general': { group: 'statewide', emoji: '⚖️', name: 'Attorney General', year: 2010 },
+        '2010_secretary_of_state': { group: 'statewide', emoji: '📋', name: 'Secretary of State', year: 2010 },
+        '2010_treasurer': { group: 'statewide', emoji: '💰', name: 'State Treasurer', year: 2010 },
+        '2010_comptroller': { group: 'statewide', emoji: '📊', name: 'Comptroller General', year: 2010 },
+        '2010_agriculture': { group: 'statewide', emoji: '🌾', name: 'Commissioner of Agriculture', year: 2010 },
         '2006_attorney_general': { group: 'statewide', emoji: '⚖️', name: 'Attorney General', year: 2006 },
         '2006_superintendent': { group: 'statewide', emoji: '🎓', name: 'State Superintendent of Education', year: 2006 },
         '2006_secretary_of_state': { group: 'statewide', emoji: '📋', name: 'Secretary of State', year: 2006 },
         '2006_treasurer': { group: 'statewide', emoji: '💰', name: 'State Treasurer', year: 2006 },
         '2006_comptroller': { group: 'statewide', emoji: '📊', name: 'Comptroller General', year: 2006 },
         '2006_agriculture': { group: 'statewide', emoji: '🌾', name: 'Commissioner of Agriculture', year: 2006 },
-        '2006_adjutant_general': { group: 'statewide', emoji: '🎖️', name: 'Adjutant General', year: 2006 }
+        '2006_adjutant_general': { group: 'statewide', emoji: '🎖️', name: 'Adjutant General', year: 2006 },
+        '2006_lieutenant_governor': { group: 'statewide', emoji: '👔', name: 'Lieutenant Governor', year: 2006 }
       };
       
       // Group contests by category
