@@ -116,8 +116,8 @@
     "county": "Abbeville",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45001",
     "dem_votes": 4543,
     "rep_votes": 5981,
@@ -136,6 +136,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -143,8 +144,8 @@
     "county": "Aiken",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45003",
     "dem_votes": 25322,
     "rep_votes": 44042,
@@ -163,6 +164,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -170,8 +172,8 @@
     "county": "Allendale",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45005",
     "dem_votes": 3297,
     "rep_votes": 838,
@@ -190,6 +192,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -197,8 +200,8 @@
     "county": "Anderson",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45007",
     "dem_votes": 22405,
     "rep_votes": 48709,
@@ -217,6 +220,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -224,8 +228,8 @@
     "county": "Bamberg",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45009",
     "dem_votes": 4624,
     "rep_votes": 2194,
@@ -244,6 +248,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -251,8 +256,8 @@
     "county": "Barnwell",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45011",
     "dem_votes": 5188,
     "rep_votes": 4659,
@@ -271,6 +276,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -278,8 +284,8 @@
     "county": "Beaufort",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45013",
     "dem_votes": 29848,
     "rep_votes": 42687,
@@ -298,6 +304,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -305,8 +312,8 @@
     "county": "Berkeley",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45015",
     "dem_votes": 28542,
     "rep_votes": 38475,
@@ -325,6 +332,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -332,8 +340,8 @@
     "county": "Calhoun",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45017",
     "dem_votes": 4045,
     "rep_votes": 3707,
@@ -352,6 +360,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -359,8 +368,8 @@
     "county": "Charleston",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45019",
     "dem_votes": 81487,
     "rep_votes": 77629,
@@ -379,6 +388,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -386,8 +396,8 @@
     "county": "Cherokee",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45021",
     "dem_votes": 7231,
     "rep_votes": 13314,
@@ -406,6 +416,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -413,8 +424,8 @@
     "county": "Chester",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45023",
     "dem_votes": 7891,
     "rep_votes": 6367,
@@ -433,6 +444,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -440,8 +452,8 @@
     "county": "Chesterfield",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45025",
     "dem_votes": 7958,
     "rep_votes": 8490,
@@ -460,6 +472,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -467,8 +480,8 @@
     "county": "Clarendon",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45027",
     "dem_votes": 9091,
     "rep_votes": 7071,
@@ -487,6 +500,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -494,8 +508,8 @@
     "county": "Colleton",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45029",
     "dem_votes": 8475,
     "rep_votes": 8443,
@@ -514,6 +528,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -521,8 +536,8 @@
     "county": "Darlington",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45031",
     "dem_votes": 15457,
     "rep_votes": 14434,
@@ -541,6 +556,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -548,8 +564,8 @@
     "county": "Dillon",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45033",
     "dem_votes": 7523,
     "rep_votes": 5427,
@@ -568,6 +584,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -575,8 +592,8 @@
     "county": "Dorchester",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45035",
     "dem_votes": 23445,
     "rep_votes": 32531,
@@ -595,6 +612,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -602,8 +620,8 @@
     "county": "Edgefield",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45037",
     "dem_votes": 4967,
     "rep_votes": 6512,
@@ -622,6 +640,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -629,8 +648,8 @@
     "county": "Fairfield",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45039",
     "dem_votes": 7777,
     "rep_votes": 3999,
@@ -649,6 +668,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -656,8 +676,8 @@
     "county": "Florence",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45041",
     "dem_votes": 28614,
     "rep_votes": 28961,
@@ -676,6 +696,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Tilt",
+      "party": "Republican",
       "color": "#fee8c8"
     }
   },
@@ -683,8 +704,8 @@
     "county": "Georgetown",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45043",
     "dem_votes": 14163,
     "rep_votes": 16526,
@@ -703,6 +724,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -710,8 +732,8 @@
     "county": "Greenville",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45045",
     "dem_votes": 68070,
     "rep_votes": 121685,
@@ -730,6 +752,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -737,8 +760,8 @@
     "county": "Greenwood",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45047",
     "dem_votes": 11972,
     "rep_votes": 16348,
@@ -757,6 +780,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -764,8 +788,8 @@
     "county": "Hampton",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45049",
     "dem_votes": 5834,
     "rep_votes": 3312,
@@ -784,6 +808,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -791,8 +816,8 @@
     "county": "Horry",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45051",
     "dem_votes": 38885,
     "rep_votes": 72127,
@@ -811,6 +836,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -818,8 +844,8 @@
     "county": "Jasper",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45053",
     "dem_votes": 5757,
     "rep_votes": 4169,
@@ -838,6 +864,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -845,8 +872,8 @@
     "county": "Kershaw",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45055",
     "dem_votes": 11259,
     "rep_votes": 16324,
@@ -865,6 +892,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -872,8 +900,8 @@
     "county": "Lancaster",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45057",
     "dem_votes": 13419,
     "rep_votes": 19333,
@@ -892,6 +920,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -899,8 +928,8 @@
     "county": "Laurens",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45059",
     "dem_votes": 10318,
     "rep_votes": 14746,
@@ -919,6 +948,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -926,8 +956,8 @@
     "county": "Lee",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45061",
     "dem_votes": 5977,
     "rep_votes": 2832,
@@ -946,6 +976,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -953,8 +984,8 @@
     "county": "Lexington",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45063",
     "dem_votes": 34148,
     "rep_votes": 76662,
@@ -973,6 +1004,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -980,8 +1012,8 @@
     "county": "Marion",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45067",
     "dem_votes": 9688,
     "rep_votes": 5164,
@@ -1000,6 +1032,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -1007,8 +1040,8 @@
     "county": "Marlboro",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45069",
     "dem_votes": 6100,
     "rep_votes": 3676,
@@ -1027,6 +1060,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -1034,8 +1068,8 @@
     "county": "McCormick",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45065",
     "dem_votes": 2653,
     "rep_votes": 2467,
@@ -1054,6 +1088,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -1061,8 +1096,8 @@
     "county": "Newberry",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45071",
     "dem_votes": 6913,
     "rep_votes": 9260,
@@ -1081,6 +1116,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -1088,8 +1124,8 @@
     "county": "Oconee",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45073",
     "dem_votes": 8550,
     "rep_votes": 21611,
@@ -1108,6 +1144,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1115,8 +1152,8 @@
     "county": "Orangeburg",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45075",
     "dem_votes": 30720,
     "rep_votes": 12022,
@@ -1135,6 +1172,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1142,8 +1180,8 @@
     "county": "Pickens",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45077",
     "dem_votes": 11156,
     "rep_votes": 33474,
@@ -1162,6 +1200,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1169,8 +1208,8 @@
     "county": "Richland",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45079",
     "dem_votes": 103989,
     "rep_votes": 53105,
@@ -1189,6 +1228,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -1196,8 +1236,8 @@
     "county": "Saluda",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45081",
     "dem_votes": 3328,
     "rep_votes": 5135,
@@ -1216,6 +1256,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -1223,8 +1264,8 @@
     "county": "Spartanburg",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45083",
     "dem_votes": 41461,
     "rep_votes": 66969,
@@ -1243,6 +1284,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -1250,8 +1292,8 @@
     "county": "Sumter",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45085",
     "dem_votes": 27589,
     "rep_votes": 19274,
@@ -1270,6 +1312,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -1277,8 +1320,8 @@
     "county": "Union",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45087",
     "dem_votes": 5796,
     "rep_votes": 6584,
@@ -1297,6 +1340,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -1304,8 +1348,8 @@
     "county": "Williamsburg",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45089",
     "dem_votes": 11335,
     "rep_votes": 4824,
@@ -1324,6 +1368,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1331,8 +1376,8 @@
     "county": "York",
     "contest": "President",
     "year": "2012",
-    "dem_candidate": "Barack Obama",
-    "rep_candidate": "Mitt Romney",
+    "dem_candidate": "Barack Obama (D)",
+    "rep_candidate": "Mitt Romney (R)",
     "county_fips": "45091",
     "dem_votes": 39131,
     "rep_votes": 59546,
@@ -1351,6 +1396,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   }

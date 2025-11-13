@@ -116,8 +116,8 @@
     "county": "Abbeville",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45001",
     "dem_votes": 0,
     "rep_votes": 4748,
@@ -133,6 +133,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -140,8 +141,8 @@
     "county": "Aiken",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45003",
     "dem_votes": 0,
     "rep_votes": 35650,
@@ -157,6 +158,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -164,8 +166,8 @@
     "county": "Allendale",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45005",
     "dem_votes": 0,
     "rep_votes": 804,
@@ -181,6 +183,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -188,8 +191,8 @@
     "county": "Anderson",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45007",
     "dem_votes": 0,
     "rep_votes": 39385,
@@ -205,6 +208,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -212,8 +216,8 @@
     "county": "Bamberg",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45009",
     "dem_votes": 0,
     "rep_votes": 2011,
@@ -229,6 +233,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -236,8 +241,8 @@
     "county": "Barnwell",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45011",
     "dem_votes": 0,
     "rep_votes": 4038,
@@ -253,6 +258,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -260,8 +266,8 @@
     "county": "Beaufort",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45013",
     "dem_votes": 0,
     "rep_votes": 37108,
@@ -277,6 +283,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -284,8 +291,8 @@
     "county": "Berkeley",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45015",
     "dem_votes": 0,
     "rep_votes": 29393,
@@ -301,6 +308,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -308,8 +316,8 @@
     "county": "Calhoun",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45017",
     "dem_votes": 0,
     "rep_votes": 3452,
@@ -325,6 +333,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -332,8 +341,8 @@
     "county": "Charleston",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45019",
     "dem_votes": 0,
     "rep_votes": 64330,
@@ -349,6 +358,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -356,8 +366,8 @@
     "county": "Cherokee",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45021",
     "dem_votes": 0,
     "rep_votes": 10648,
@@ -373,6 +383,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -380,8 +391,8 @@
     "county": "Chester",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45023",
     "dem_votes": 0,
     "rep_votes": 5387,
@@ -397,6 +408,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -404,8 +416,8 @@
     "county": "Chesterfield",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45025",
     "dem_votes": 0,
     "rep_votes": 6748,
@@ -421,6 +433,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -428,8 +441,8 @@
     "county": "Clarendon",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45027",
     "dem_votes": 0,
     "rep_votes": 5887,
@@ -445,6 +458,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -452,8 +466,8 @@
     "county": "Colleton",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45029",
     "dem_votes": 0,
     "rep_votes": 7924,
@@ -469,6 +483,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -476,8 +491,8 @@
     "county": "Darlington",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45031",
     "dem_votes": 0,
     "rep_votes": 12135,
@@ -493,6 +508,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -500,8 +516,8 @@
     "county": "Dillon",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45033",
     "dem_votes": 0,
     "rep_votes": 4150,
@@ -517,6 +533,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -524,8 +541,8 @@
     "county": "Dorchester",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45035",
     "dem_votes": 0,
     "rep_votes": 25557,
@@ -541,6 +558,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -548,8 +566,8 @@
     "county": "Edgefield",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45037",
     "dem_votes": 0,
     "rep_votes": 5256,
@@ -565,6 +583,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -572,8 +591,8 @@
     "county": "Fairfield",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45039",
     "dem_votes": 0,
     "rep_votes": 4119,
@@ -589,6 +608,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -596,8 +616,8 @@
     "county": "Florence",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45041",
     "dem_votes": 0,
     "rep_votes": 25139,
@@ -613,6 +633,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -620,8 +641,8 @@
     "county": "Georgetown",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45043",
     "dem_votes": 0,
     "rep_votes": 13364,
@@ -637,6 +658,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -644,8 +666,8 @@
     "county": "Greenville",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45045",
     "dem_votes": 0,
     "rep_votes": 102065,
@@ -661,6 +683,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -668,8 +691,8 @@
     "county": "Greenwood",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45047",
     "dem_votes": 0,
     "rep_votes": 13860,
@@ -685,6 +708,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -692,8 +716,8 @@
     "county": "Hampton",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45049",
     "dem_votes": 0,
     "rep_votes": 2797,
@@ -709,6 +733,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -716,8 +741,8 @@
     "county": "Horry",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45051",
     "dem_votes": 0,
     "rep_votes": 52893,
@@ -733,6 +758,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -740,8 +766,8 @@
     "county": "Jasper",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45053",
     "dem_votes": 0,
     "rep_votes": 2890,
@@ -757,6 +783,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -764,8 +791,8 @@
     "county": "Kershaw",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45055",
     "dem_votes": 0,
     "rep_votes": 15542,
@@ -781,6 +808,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -788,8 +816,8 @@
     "county": "Lancaster",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45057",
     "dem_votes": 0,
     "rep_votes": 15245,
@@ -805,6 +833,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -812,8 +841,8 @@
     "county": "Laurens",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45059",
     "dem_votes": 0,
     "rep_votes": 12185,
@@ -829,6 +858,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -836,8 +866,8 @@
     "county": "Lee",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45061",
     "dem_votes": 0,
     "rep_votes": 2644,
@@ -853,6 +883,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -860,8 +891,8 @@
     "county": "Lexington",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45063",
     "dem_votes": 0,
     "rep_votes": 67816,
@@ -877,6 +908,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -884,8 +916,8 @@
     "county": "McCormick",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45065",
     "dem_votes": 0,
     "rep_votes": 2317,
@@ -901,6 +933,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -908,8 +941,8 @@
     "county": "Marion",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45067",
     "dem_votes": 0,
     "rep_votes": 4595,
@@ -925,6 +958,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -932,8 +966,8 @@
     "county": "Marlboro",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45069",
     "dem_votes": 0,
     "rep_votes": 3257,
@@ -949,6 +983,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -956,8 +991,8 @@
     "county": "Newberry",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45071",
     "dem_votes": 0,
     "rep_votes": 8477,
@@ -973,6 +1008,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -980,8 +1016,8 @@
     "county": "Oconee",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45073",
     "dem_votes": 0,
     "rep_votes": 17198,
@@ -997,6 +1033,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1004,8 +1041,8 @@
     "county": "Orangeburg",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45075",
     "dem_votes": 0,
     "rep_votes": 10944,
@@ -1021,6 +1058,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1028,8 +1066,8 @@
     "county": "Pickens",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45077",
     "dem_votes": 0,
     "rep_votes": 25275,
@@ -1045,6 +1083,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1052,8 +1091,8 @@
     "county": "Richland",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45079",
     "dem_votes": 0,
     "rep_votes": 62688,
@@ -1069,6 +1108,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1076,8 +1116,8 @@
     "county": "Saluda",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45081",
     "dem_votes": 0,
     "rep_votes": 4352,
@@ -1093,6 +1133,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1100,8 +1141,8 @@
     "county": "Spartanburg",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45083",
     "dem_votes": 0,
     "rep_votes": 55091,
@@ -1117,6 +1158,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1124,8 +1166,8 @@
     "county": "Sumter",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45085",
     "dem_votes": 0,
     "rep_votes": 16469,
@@ -1141,6 +1183,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1148,8 +1191,8 @@
     "county": "Union",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45087",
     "dem_votes": 0,
     "rep_votes": 5954,
@@ -1165,6 +1208,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1172,8 +1216,8 @@
     "county": "Williamsburg",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45089",
     "dem_votes": 0,
     "rep_votes": 4293,
@@ -1189,6 +1233,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1196,8 +1241,8 @@
     "county": "York",
     "contest": "State Treasurer",
     "year": "2010",
-    "dem_candidate": "Curtis Loftis",
-    "rep_candidate": "Curtis Loftis",
+    "dem_candidate": "Curtis Loftis (D)",
+    "rep_candidate": "Curtis Loftis (R)",
     "county_fips": "45091",
     "dem_votes": 0,
     "rep_votes": 51675,
@@ -1213,6 +1258,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   }

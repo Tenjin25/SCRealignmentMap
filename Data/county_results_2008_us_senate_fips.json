@@ -116,8 +116,8 @@
     "county": "Abbeville",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45001",
     "dem_votes": 4558,
     "rep_votes": 6226,
@@ -130,6 +130,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -137,8 +138,8 @@
     "county": "Aiken",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45003",
     "dem_votes": 24412,
     "rep_votes": 43555,
@@ -155,6 +156,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -162,8 +164,8 @@
     "county": "Allendale",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45005",
     "dem_votes": 2805,
     "rep_votes": 1042,
@@ -180,6 +182,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Democratic",
       "color": "#08306b"
     }
   },
@@ -187,8 +190,8 @@
     "county": "Anderson",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45007",
     "dem_votes": 23759,
     "rep_votes": 48323,
@@ -205,6 +208,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -212,8 +216,8 @@
     "county": "Bamberg",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45009",
     "dem_votes": 4045,
     "rep_votes": 2521,
@@ -230,6 +234,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Democratic",
       "color": "#01579b"
     }
   },
@@ -237,8 +242,8 @@
     "county": "Barnwell",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45011",
     "dem_votes": 4657,
     "rep_votes": 4850,
@@ -255,6 +260,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -262,8 +268,8 @@
     "county": "Beaufort",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45013",
     "dem_votes": 26879,
     "rep_votes": 39932,
@@ -280,6 +286,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -287,8 +294,8 @@
     "county": "Berkeley",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45015",
     "dem_votes": 25494,
     "rep_votes": 37540,
@@ -305,6 +312,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -312,8 +320,8 @@
     "county": "Calhoun",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45017",
     "dem_votes": 3664,
     "rep_votes": 3924,
@@ -330,6 +338,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -337,8 +346,8 @@
     "county": "Charleston",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45019",
     "dem_votes": 70463,
     "rep_votes": 78424,
@@ -355,6 +364,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -362,8 +372,8 @@
     "county": "Cherokee",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45021",
     "dem_votes": 7744,
     "rep_votes": 12462,
@@ -380,6 +390,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -387,8 +398,8 @@
     "county": "Chester",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45023",
     "dem_votes": 7168,
     "rep_votes": 6297,
@@ -405,6 +416,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -412,8 +424,8 @@
     "county": "Chesterfield",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45025",
     "dem_votes": 7306,
     "rep_votes": 8557,
@@ -430,6 +442,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -437,8 +450,8 @@
     "county": "Clarendon",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45027",
     "dem_votes": 8313,
     "rep_votes": 6996,
@@ -455,6 +468,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -462,8 +476,8 @@
     "county": "Colleton",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45029",
     "dem_votes": 7876,
     "rep_votes": 9052,
@@ -480,6 +494,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -487,8 +502,8 @@
     "county": "Darlington",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45031",
     "dem_votes": 13161,
     "rep_votes": 15490,
@@ -505,6 +520,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -512,8 +528,8 @@
     "county": "Dillon",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45033",
     "dem_votes": 5784,
     "rep_votes": 6315,
@@ -530,6 +546,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -537,8 +554,8 @@
     "county": "Dorchester",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45035",
     "dem_votes": 19836,
     "rep_votes": 31255,
@@ -555,6 +572,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -562,8 +580,8 @@
     "county": "Edgefield",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45037",
     "dem_votes": 4889,
     "rep_votes": 6390,
@@ -580,6 +598,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -587,8 +606,8 @@
     "county": "Fairfield",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45039",
     "dem_votes": 6737,
     "rep_votes": 4472,
@@ -601,6 +620,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -608,8 +628,8 @@
     "county": "Florence",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45041",
     "dem_votes": 24589,
     "rep_votes": 32680,
@@ -622,6 +642,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -629,8 +650,8 @@
     "county": "Georgetown",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45043",
     "dem_votes": 12753,
     "rep_votes": 16769,
@@ -643,6 +664,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -650,8 +672,8 @@
     "county": "Greenville",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45045",
     "dem_votes": 72205,
     "rep_votes": 112522,
@@ -664,6 +686,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -671,8 +694,8 @@
     "county": "Greenwood",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45047",
     "dem_votes": 11104,
     "rep_votes": 17911,
@@ -685,6 +708,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -692,8 +716,8 @@
     "county": "Hampton",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45049",
     "dem_votes": 5225,
     "rep_votes": 3609,
@@ -706,6 +730,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -713,8 +738,8 @@
     "county": "Horry",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45051",
     "dem_votes": 34678,
     "rep_votes": 67215,
@@ -727,6 +752,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -734,8 +760,8 @@
     "county": "Jasper",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45053",
     "dem_votes": 5203,
     "rep_votes": 3367,
@@ -748,6 +774,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -755,8 +782,8 @@
     "county": "Kershaw",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45055",
     "dem_votes": 9999,
     "rep_votes": 17344,
@@ -769,6 +796,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -776,8 +804,8 @@
     "county": "Lancaster",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45057",
     "dem_votes": 11585,
     "rep_votes": 16295,
@@ -790,6 +818,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -797,8 +826,8 @@
     "county": "Laurens",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45059",
     "dem_votes": 10377,
     "rep_votes": 15448,
@@ -811,6 +840,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -818,8 +848,8 @@
     "county": "Lee",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45061",
     "dem_votes": 5489,
     "rep_votes": 3418,
@@ -832,6 +862,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -839,8 +870,8 @@
     "county": "Lexington",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45063",
     "dem_votes": 29255,
     "rep_votes": 78255,
@@ -853,6 +884,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -860,8 +892,8 @@
     "county": "McCormick",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45065",
     "dem_votes": 8599,
     "rep_votes": 5951,
@@ -874,6 +906,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -881,8 +914,8 @@
     "county": "Marion",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45067",
     "dem_votes": 6306,
     "rep_votes": 4256,
@@ -895,6 +928,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -902,8 +936,8 @@
     "county": "Marlboro",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45069",
     "dem_votes": 2592,
     "rep_votes": 2521,
@@ -916,6 +950,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -923,8 +958,8 @@
     "county": "Newberry",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45071",
     "dem_votes": 6111,
     "rep_votes": 10064,
@@ -937,6 +972,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -944,8 +980,8 @@
     "county": "Oconee",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45073",
     "dem_votes": 8236,
     "rep_votes": 22305,
@@ -958,6 +994,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -965,8 +1002,8 @@
     "county": "Orangeburg",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45075",
     "dem_votes": 25129,
     "rep_votes": 13346,
@@ -979,6 +1016,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -986,8 +1024,8 @@
     "county": "Pickens",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45077",
     "dem_votes": 12121,
     "rep_votes": 32158,
@@ -1000,6 +1038,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -1007,8 +1046,8 @@
     "county": "Richland",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45079",
     "dem_votes": 87891,
     "rep_votes": 72654,
@@ -1021,6 +1060,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -1028,8 +1068,8 @@
     "county": "Saluda",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45081",
     "dem_votes": 3163,
     "rep_votes": 5282,
@@ -1042,6 +1082,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -1049,8 +1090,8 @@
     "county": "Spartanburg",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45083",
     "dem_votes": 43966,
     "rep_votes": 61117,
@@ -1063,6 +1104,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -1070,8 +1112,8 @@
     "county": "Sumter",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45085",
     "dem_votes": 23625,
     "rep_votes": 19906,
@@ -1084,6 +1126,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -1091,8 +1134,8 @@
     "county": "Union",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45087",
     "dem_votes": 6349,
     "rep_votes": 6881,
@@ -1105,6 +1148,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -1112,8 +1156,8 @@
     "county": "Williamsburg",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45089",
     "dem_votes": 10137,
     "rep_votes": 5662,
@@ -1126,6 +1170,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -1133,8 +1178,8 @@
     "county": "York",
     "contest": "U.S. Senate",
     "year": "2008",
-    "dem_candidate": "Bob Conley",
-    "rep_candidate": "Lindsey Graham",
+    "dem_candidate": "Bob Conley (D)",
+    "rep_candidate": "Lindsey Graham (R)",
     "county_fips": "45091",
     "dem_votes": 34384,
     "rep_votes": 55975,
@@ -1147,6 +1192,7 @@
     "winner": "",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   }

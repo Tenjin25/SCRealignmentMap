@@ -116,8 +116,8 @@
     "county": "Abbeville",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45001",
     "dem_votes": 3357,
     "rep_votes": 3744,
@@ -135,6 +135,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -142,8 +143,8 @@
     "county": "Aiken",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45003",
     "dem_votes": 16135,
     "rep_votes": 31254,
@@ -161,6 +162,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -168,8 +170,8 @@
     "county": "Allendale",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45005",
     "dem_votes": 1900,
     "rep_votes": 593,
@@ -187,6 +189,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Democratic",
       "color": "#08306b"
     }
   },
@@ -194,8 +197,8 @@
     "county": "Anderson",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45007",
     "dem_votes": 16995,
     "rep_votes": 31466,
@@ -213,6 +216,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -220,8 +224,8 @@
     "county": "Bamberg",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45009",
     "dem_votes": 3300,
     "rep_votes": 1439,
@@ -239,6 +243,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -246,8 +251,8 @@
     "county": "Barnwell",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45011",
     "dem_votes": 4029,
     "rep_votes": 2788,
@@ -265,6 +270,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -272,8 +278,8 @@
     "county": "Beaufort",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45013",
     "dem_votes": 18781,
     "rep_votes": 30405,
@@ -291,6 +297,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -298,8 +305,8 @@
     "county": "Berkeley",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45015",
     "dem_votes": 17626,
     "rep_votes": 23958,
@@ -317,6 +324,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -324,8 +332,8 @@
     "county": "Calhoun",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45017",
     "dem_votes": 3118,
     "rep_votes": 2632,
@@ -343,6 +351,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -350,8 +359,8 @@
     "county": "Charleston",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45019",
     "dem_votes": 49074,
     "rep_votes": 49222,
@@ -369,6 +378,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Tossup",
+      "party": "Tossup",
       "color": "#f7f7f7"
     }
   },
@@ -376,8 +386,8 @@
     "county": "Cherokee",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45021",
     "dem_votes": 5316,
     "rep_votes": 8670,
@@ -395,6 +405,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -402,8 +413,8 @@
     "county": "Chester",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45023",
     "dem_votes": 4912,
     "rep_votes": 4265,
@@ -421,6 +432,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -428,8 +440,8 @@
     "county": "Chesterfield",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45025",
     "dem_votes": 5668,
     "rep_votes": 5173,
@@ -447,6 +459,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Democratic",
       "color": "#b3e5fc"
     }
   },
@@ -454,8 +467,8 @@
     "county": "Clarendon",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45027",
     "dem_votes": 6418,
     "rep_votes": 4717,
@@ -473,6 +486,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -480,8 +494,8 @@
     "county": "Colleton",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45029",
     "dem_votes": 6426,
     "rep_votes": 6321,
@@ -499,6 +513,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Tilt",
+      "party": "Democratic",
       "color": "#e1f5fe"
     }
   },
@@ -506,8 +521,8 @@
     "county": "Darlington",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45031",
     "dem_votes": 11123,
     "rep_votes": 9877,
@@ -525,6 +540,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -532,8 +548,8 @@
     "county": "Dillon",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45033",
     "dem_votes": 4708,
     "rep_votes": 2989,
@@ -551,6 +567,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Democratic",
       "color": "#01579b"
     }
   },
@@ -558,8 +575,8 @@
     "county": "Dorchester",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45035",
     "dem_votes": 14198,
     "rep_votes": 20419,
@@ -577,6 +594,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -584,8 +602,8 @@
     "county": "Edgefield",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45037",
     "dem_votes": 3400,
     "rep_votes": 4616,
@@ -603,6 +621,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -610,8 +629,8 @@
     "county": "Fairfield",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45039",
     "dem_votes": 5821,
     "rep_votes": 2798,
@@ -629,6 +648,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -636,8 +656,8 @@
     "county": "Florence",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45041",
     "dem_votes": 19734,
     "rep_votes": 20020,
@@ -655,6 +675,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Tilt",
+      "party": "Republican",
       "color": "#fee8c8"
     }
   },
@@ -662,8 +683,8 @@
     "county": "Georgetown",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45043",
     "dem_votes": 9442,
     "rep_votes": 11243,
@@ -681,6 +702,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -688,8 +710,8 @@
     "county": "Greenville",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45045",
     "dem_votes": 46438,
     "rep_votes": 82767,
@@ -707,6 +729,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -714,8 +737,8 @@
     "county": "Greenwood",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45047",
     "dem_votes": 8620,
     "rep_votes": 11015,
@@ -733,6 +756,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -740,8 +764,8 @@
     "county": "Hampton",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45049",
     "dem_votes": 3942,
     "rep_votes": 2210,
@@ -759,6 +783,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Democratic",
       "color": "#01579b"
     }
   },
@@ -766,8 +791,8 @@
     "county": "Horry",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45051",
     "dem_votes": 24118,
     "rep_votes": 43866,
@@ -785,6 +810,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -792,8 +818,8 @@
     "county": "Jasper",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45053",
     "dem_votes": 3623,
     "rep_votes": 2482,
@@ -811,6 +837,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -818,8 +845,8 @@
     "county": "Kershaw",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45055",
     "dem_votes": 10256,
     "rep_votes": 11196,
@@ -837,6 +864,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -844,8 +872,8 @@
     "county": "Lancaster",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45057",
     "dem_votes": 8735,
     "rep_votes": 12625,
@@ -863,6 +891,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -870,8 +899,8 @@
     "county": "Laurens",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45059",
     "dem_votes": 7383,
     "rep_votes": 9683,
@@ -889,6 +918,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -896,8 +926,8 @@
     "county": "Lee",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45061",
     "dem_votes": 4458,
     "rep_votes": 2006,
@@ -915,6 +945,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -922,8 +953,8 @@
     "county": "Lexington",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45063",
     "dem_votes": 27936,
     "rep_votes": 52924,
@@ -941,6 +972,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -948,8 +980,8 @@
     "county": "McCormick",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45065",
     "dem_votes": 1906,
     "rep_votes": 1962,
@@ -967,6 +999,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -974,8 +1007,8 @@
     "county": "Marion",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45067",
     "dem_votes": 6767,
     "rep_votes": 3436,
@@ -993,6 +1026,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -1000,8 +1034,8 @@
     "county": "Marlboro",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45069",
     "dem_votes": 4926,
     "rep_votes": 2128,
@@ -1019,6 +1053,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -1026,8 +1061,8 @@
     "county": "Newberry",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45071",
     "dem_votes": 5554,
     "rep_votes": 6314,
@@ -1045,6 +1080,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -1052,8 +1088,8 @@
     "county": "Oconee",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45073",
     "dem_votes": 6582,
     "rep_votes": 13831,
@@ -1071,6 +1107,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -1078,8 +1115,8 @@
     "county": "Orangeburg",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45075",
     "dem_votes": 20076,
     "rep_votes": 8008,
@@ -1097,6 +1134,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Democratic",
       "color": "#08306b"
     }
   },
@@ -1104,8 +1142,8 @@
     "county": "Pickens",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45077",
     "dem_votes": 8071,
     "rep_votes": 21090,
@@ -1123,6 +1161,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1130,8 +1169,8 @@
     "county": "Richland",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45079",
     "dem_votes": 74896,
     "rep_votes": 39925,
@@ -1149,6 +1188,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Democratic",
       "color": "#01579b"
     }
   },
@@ -1156,8 +1196,8 @@
     "county": "Saluda",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45081",
     "dem_votes": 2682,
     "rep_votes": 3483,
@@ -1175,6 +1215,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -1182,8 +1223,8 @@
     "county": "Spartanburg",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45083",
     "dem_votes": 27709,
     "rep_votes": 44148,
@@ -1201,6 +1242,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -1208,8 +1250,8 @@
     "county": "Sumter",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45085",
     "dem_votes": 17279,
     "rep_votes": 12445,
@@ -1227,6 +1269,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -1234,8 +1277,8 @@
     "county": "Union",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45087",
     "dem_votes": 4740,
     "rep_votes": 4148,
@@ -1253,6 +1296,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -1260,8 +1304,8 @@
     "county": "Williamsburg",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45089",
     "dem_votes": 8037,
     "rep_votes": 3345,
@@ -1279,6 +1323,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Democratic",
       "color": "#08306b"
     }
   },
@@ -1286,8 +1331,8 @@
     "county": "York",
     "contest": "Attorney General",
     "year": "2010",
-    "dem_candidate": "Matthew Richardson",
-    "rep_candidate": "Alan Wilson",
+    "dem_candidate": "Matthew Richardson (D)",
+    "rep_candidate": "Alan Wilson (R)",
     "county_fips": "45091",
     "dem_votes": 22920,
     "rep_votes": 42547,
@@ -1305,6 +1350,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   }

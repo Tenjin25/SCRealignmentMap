@@ -44,40 +44,55 @@ COUNTY_NAMES = {
 
 # Candidate information by contest
 CANDIDATES = {
-    "2008_u.s._senate": {"dem": "Bob Conley", "rep": "Lindsey Graham"},
-    "2010_governor": {"dem": "Vincent Sheheen", "rep": "Nikki Haley"},
-    "2010_lieutenant_governor": {"dem": "Ashley Cooper", "rep": "Ken Ard"},
-    "2010_attorney_general": {"dem": "Matthew Richardson", "rep": "Alan Wilson"},
-    "2010_secretary_of_state": {"dem": "Marjorie L. Johnson", "rep": "Mark Hammond"},
-    "2010_state_treasurer": {"dem": "Curtis Loftis", "rep": "Curtis Loftis"},  # Both parties nominated same
-    "2010_comptroller_general": {"dem": "Robert J. Clink, Jr.", "rep": "Richard Eckstrom"},
-    "2010_commissioner_of_agriculture": {"dem": "Tom E. Elliott", "rep": "Hugh Weathers"},
-    "2012_president": {"dem": "Barack Obama", "rep": "Mitt Romney"},
-    "2016_u.s._senate": {"dem": "Thomas Dixon", "rep": "Tim Scott"},
-    "2024_president": {"dem": "Kamala Harris", "rep": "Donald Trump"}
+    "2008_u.s._senate": {"dem": "Bob Conley (D)", "rep": "Lindsey Graham (R)"},
+    "2010_governor": {"dem": "Vincent Sheheen (D)", "rep": "Nikki Haley (R)"},
+    "2010_lieutenant_governor": {"dem": "Ashley Cooper (D)", "rep": "Ken Ard (R)"},
+    "2010_attorney_general": {"dem": "Matthew Richardson (D)", "rep": "Alan Wilson (R)"},
+    "2010_secretary_of_state": {"dem": "Marjorie L. Johnson (D)", "rep": "Mark Hammond (R)"},
+    "2010_state_treasurer": {"dem": "Curtis Loftis (D)", "rep": "Curtis Loftis (R)"},  # Both parties nominated same
+    "2010_comptroller_general": {"dem": "Robert J. Clink, Jr. (D)", "rep": "Richard Eckstrom (R)"},
+    "2010_commissioner_of_agriculture": {"dem": "Tom E. Elliott (D)", "rep": "Hugh Weathers (R)"},
+    "2012_president": {"dem": "Barack Obama (D)", "rep": "Mitt Romney (R)"},
+    "2016_u.s._senate": {"dem": "Thomas Dixon (D)", "rep": "Tim Scott (R)"},
+    "2024_president": {"dem": "Kamala Harris (D)", "rep": "Donald Trump (R)"}
 }
 
 def get_competitiveness(margin_pct):
-    """Determine competitiveness category and color based on margin percentage."""
-    # Check all categories
-    all_categories = (COMPETITIVENESS_SCALE["Republican"] + 
-                     COMPETITIVENESS_SCALE["Tossup"] + 
-                     COMPETITIVENESS_SCALE["Democratic"])
-    
-    for cat in all_categories:
+    """Determine competitiveness category, party, and color based on margin percentage."""
+    # Check Republican categories
+    for cat in COMPETITIVENESS_SCALE["Republican"]:
         if cat["min"] <= margin_pct < cat["max"]:
             return {
                 "category": cat["category"],
+                "party": "Republican",
+                "color": cat["color"]
+            }
+    
+    # Check Tossup
+    for cat in COMPETITIVENESS_SCALE["Tossup"]:
+        if cat["min"] <= margin_pct < cat["max"]:
+            return {
+                "category": cat["category"],
+                "party": "Tossup",
+                "color": cat["color"]
+            }
+    
+    # Check Democratic categories
+    for cat in COMPETITIVENESS_SCALE["Democratic"]:
+        if cat["min"] <= margin_pct < cat["max"]:
+            return {
+                "category": cat["category"],
+                "party": "Democratic",
                 "color": cat["color"]
             }
     
     # Fallback for edge cases
     if margin_pct >= 40:
-        return {"category": "Annihilation", "color": "#67000d"}
+        return {"category": "Annihilation", "party": "Republican", "color": "#67000d"}
     elif margin_pct <= -40:
-        return {"category": "Annihilation", "color": "#08306b"}
+        return {"category": "Annihilation", "party": "Democratic", "color": "#08306b"}
     
-    return {"category": "Tossup", "color": "#f7f7f7"}
+    return {"category": "Tossup", "party": "Tossup", "color": "#f7f7f7"}
 
 def fix_json_file(filepath, contest_key):
     """Fix a single JSON file to match the required structure."""

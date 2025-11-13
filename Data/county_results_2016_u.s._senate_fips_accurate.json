@@ -116,8 +116,8 @@
     "county": "Abbeville",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45001",
     "dem_votes": 3285,
     "rep_votes": 6669,
@@ -139,6 +139,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -146,8 +147,8 @@
     "county": "Aiken",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45003",
     "dem_votes": 21801,
     "rep_votes": 47318,
@@ -169,6 +170,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -176,8 +178,8 @@
     "county": "Allendale",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45005",
     "dem_votes": 2452,
     "rep_votes": 796,
@@ -199,6 +201,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -206,8 +209,8 @@
     "county": "Anderson",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45007",
     "dem_votes": 16538,
     "rep_votes": 57675,
@@ -229,6 +232,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -236,8 +240,8 @@
     "county": "Bamberg",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45009",
     "dem_votes": 3706,
     "rep_votes": 2159,
@@ -259,6 +263,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -266,8 +271,8 @@
     "county": "Barnwell",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45011",
     "dem_votes": 3998,
     "rep_votes": 4793,
@@ -289,6 +294,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -296,8 +302,8 @@
     "county": "Beaufort",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45013",
     "dem_votes": 24875,
     "rep_votes": 48125,
@@ -319,6 +325,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -326,8 +333,8 @@
     "county": "Berkeley",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45015",
     "dem_votes": 23628,
     "rep_votes": 50423,
@@ -349,6 +356,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -356,8 +364,8 @@
     "county": "Calhoun",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45017",
     "dem_votes": 3236,
     "rep_votes": 3834,
@@ -379,6 +387,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -386,8 +395,8 @@
     "county": "Charleston",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45019",
     "dem_votes": 67341,
     "rep_votes": 97219,
@@ -409,6 +418,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -416,8 +426,8 @@
     "county": "Cherokee",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45021",
     "dem_votes": 5239,
     "rep_votes": 14565,
@@ -439,6 +449,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -446,8 +457,8 @@
     "county": "Chester",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45023",
     "dem_votes": 5964,
     "rep_votes": 6649,
@@ -469,6 +480,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -476,8 +488,8 @@
     "county": "Chesterfield",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45025",
     "dem_votes": 6204,
     "rep_votes": 8895,
@@ -499,6 +511,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -506,8 +519,8 @@
     "county": "Clarendon",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45027",
     "dem_votes": 6965,
     "rep_votes": 7477,
@@ -529,6 +542,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -536,8 +550,8 @@
     "county": "Colleton",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45029",
     "dem_votes": 6346,
     "rep_votes": 9427,
@@ -559,6 +573,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -566,8 +581,8 @@
     "county": "Darlington",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45031",
     "dem_votes": 12336,
     "rep_votes": 15261,
@@ -589,6 +604,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -596,8 +612,8 @@
     "county": "Dillon",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45033",
     "dem_votes": 4567,
     "rep_votes": 5743,
@@ -619,6 +635,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -626,8 +643,8 @@
     "county": "Dorchester",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45035",
     "dem_votes": 18510,
     "rep_votes": 39918,
@@ -649,6 +666,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -656,8 +674,8 @@
     "county": "Edgefield",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45037",
     "dem_votes": 4038,
     "rep_votes": 6662,
@@ -679,6 +697,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -686,8 +705,8 @@
     "county": "Fairfield",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45039",
     "dem_votes": 6068,
     "rep_votes": 4265,
@@ -709,6 +728,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -716,8 +736,8 @@
     "county": "Florence",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45041",
     "dem_votes": 23026,
     "rep_votes": 31449,
@@ -739,6 +759,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -746,8 +767,8 @@
     "county": "Georgetown",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45043",
     "dem_votes": 11311,
     "rep_votes": 18737,
@@ -769,6 +790,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -776,8 +798,8 @@
     "county": "Greenville",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45045",
     "dem_votes": 59012,
     "rep_votes": 141731,
@@ -799,6 +821,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -806,8 +829,8 @@
     "county": "Greenwood",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45047",
     "dem_votes": 9086,
     "rep_votes": 17568,
@@ -829,6 +852,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -836,8 +860,8 @@
     "county": "Hampton",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45049",
     "dem_votes": 4518,
     "rep_votes": 3265,
@@ -859,6 +883,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -866,8 +891,8 @@
     "county": "Horry",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45051",
     "dem_votes": 31688,
     "rep_votes": 90641,
@@ -889,6 +914,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -896,8 +922,8 @@
     "county": "Jasper",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45053",
     "dem_votes": 4798,
     "rep_votes": 5152,
@@ -919,6 +945,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -926,8 +953,8 @@
     "county": "Kershaw",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45055",
     "dem_votes": 8666,
     "rep_votes": 17949,
@@ -949,6 +976,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -956,8 +984,8 @@
     "county": "Lancaster",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45057",
     "dem_votes": 12088,
     "rep_votes": 23199,
@@ -979,6 +1007,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -986,8 +1015,8 @@
     "county": "Laurens",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45059",
     "dem_votes": 6889,
     "rep_votes": 17051,
@@ -1009,6 +1038,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1016,8 +1046,8 @@
     "county": "Lee",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45061",
     "dem_votes": 4806,
     "rep_votes": 2727,
@@ -1039,6 +1069,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -1046,8 +1077,8 @@
     "county": "Lexington",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45063",
     "dem_votes": 26910,
     "rep_votes": 85385,
@@ -1069,6 +1100,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1076,8 +1108,8 @@
     "county": "McCormick",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45065",
     "dem_votes": 2136,
     "rep_votes": 2699,
@@ -1099,6 +1131,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -1106,8 +1139,8 @@
     "county": "Marion",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45067",
     "dem_votes": 7535,
     "rep_votes": 5500,
@@ -1129,6 +1162,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -1136,8 +1170,8 @@
     "county": "Marlboro",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45069",
     "dem_votes": 5364,
     "rep_votes": 4132,
@@ -1159,6 +1193,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -1166,8 +1201,8 @@
     "county": "Newberry",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45071",
     "dem_votes": 5311,
     "rep_votes": 10048,
@@ -1189,6 +1224,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -1196,8 +1232,8 @@
     "county": "Oconee",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45073",
     "dem_votes": 5863,
     "rep_votes": 25248,
@@ -1219,6 +1255,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1226,8 +1263,8 @@
     "county": "Orangeburg",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45075",
     "dem_votes": 24800,
     "rep_votes": 12256,
@@ -1249,6 +1286,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -1256,8 +1294,8 @@
     "county": "Pickens",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45077",
     "dem_votes": 7681,
     "rep_votes": 37726,
@@ -1279,6 +1317,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1286,8 +1325,8 @@
     "county": "Richland",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45079",
     "dem_votes": 90901,
     "rep_votes": 66736,
@@ -1309,6 +1348,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -1316,8 +1356,8 @@
     "county": "Saluda",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45081",
     "dem_votes": 2460,
     "rep_votes": 5443,
@@ -1339,6 +1379,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -1346,8 +1387,8 @@
     "county": "Spartanburg",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45083",
     "dem_votes": 32171,
     "rep_votes": 79487,
@@ -1369,6 +1410,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Republican",
       "color": "#67000d"
     }
   },
@@ -1376,8 +1418,8 @@
     "county": "Sumter",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45085",
     "dem_votes": 21957,
     "rep_votes": 19462,
@@ -1399,6 +1441,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -1406,8 +1449,8 @@
     "county": "Union",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45087",
     "dem_votes": 4013,
     "rep_votes": 6727,
@@ -1429,6 +1472,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -1436,8 +1480,8 @@
     "county": "Williamsburg",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45089",
     "dem_votes": 8902,
     "rep_votes": 5138,
@@ -1459,6 +1503,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -1466,8 +1511,8 @@
     "county": "York",
     "contest": "U.S. Senate",
     "year": "2016",
-    "dem_candidate": "Thomas Dixon",
-    "rep_candidate": "Tim Scott",
+    "dem_candidate": "Thomas Dixon (D)",
+    "rep_candidate": "Tim Scott (R)",
     "county_fips": "45091",
     "dem_votes": 35551,
     "rep_votes": 68280,
@@ -1489,6 +1534,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   }

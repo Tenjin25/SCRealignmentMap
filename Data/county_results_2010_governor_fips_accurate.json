@@ -116,8 +116,8 @@
     "county": "Abbeville",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45001",
     "dem_votes": 3807,
     "rep_votes": 3359,
@@ -135,6 +135,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -142,8 +143,8 @@
     "county": "Aiken",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45003",
     "dem_votes": 17874,
     "rep_votes": 30268,
@@ -161,6 +162,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -168,8 +170,8 @@
     "county": "Allendale",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45005",
     "dem_votes": 1926,
     "rep_votes": 564,
@@ -187,6 +189,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Democratic",
       "color": "#08306b"
     }
   },
@@ -194,8 +197,8 @@
     "county": "Anderson",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45007",
     "dem_votes": 19954,
     "rep_votes": 28682,
@@ -213,6 +216,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -220,8 +224,8 @@
     "county": "Bamberg",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45009",
     "dem_votes": 3086,
     "rep_votes": 1661,
@@ -239,6 +243,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Democratic",
       "color": "#01579b"
     }
   },
@@ -246,8 +251,8 @@
     "county": "Barnwell",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45011",
     "dem_votes": 3469,
     "rep_votes": 3327,
@@ -265,6 +270,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Democratic",
       "color": "#b3e5fc"
     }
   },
@@ -272,8 +278,8 @@
     "county": "Beaufort",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45013",
     "dem_votes": 20229,
     "rep_votes": 29958,
@@ -291,6 +297,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -298,8 +305,8 @@
     "county": "Berkeley",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45015",
     "dem_votes": 17979,
     "rep_votes": 24164,
@@ -317,6 +324,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -324,8 +332,8 @@
     "county": "Calhoun",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45017",
     "dem_votes": 3126,
     "rep_votes": 2642,
@@ -343,6 +351,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -350,8 +359,8 @@
     "county": "Charleston",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45019",
     "dem_votes": 51917,
     "rep_votes": 48905,
@@ -369,6 +378,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Democratic",
       "color": "#b3e5fc"
     }
   },
@@ -376,8 +386,8 @@
     "county": "Cherokee",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45021",
     "dem_votes": 5931,
     "rep_votes": 8066,
@@ -395,6 +405,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -402,8 +413,8 @@
     "county": "Chester",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45023",
     "dem_votes": 5231,
     "rep_votes": 4007,
@@ -422,6 +433,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -429,8 +441,8 @@
     "county": "Chesterfield",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45025",
     "dem_votes": 6232,
     "rep_votes": 4797,
@@ -448,6 +460,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -455,8 +468,8 @@
     "county": "Clarendon",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45027",
     "dem_votes": 6383,
     "rep_votes": 4733,
@@ -474,6 +487,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -481,8 +495,8 @@
     "county": "Colleton",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45029",
     "dem_votes": 6535,
     "rep_votes": 6227,
@@ -500,6 +514,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Democratic",
       "color": "#b3e5fc"
     }
   },
@@ -507,8 +522,8 @@
     "county": "Darlington",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45031",
     "dem_votes": 11284,
     "rep_votes": 9844,
@@ -526,6 +541,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Likely",
+      "party": "Democratic",
       "color": "#4fc3f7"
     }
   },
@@ -533,8 +549,8 @@
     "county": "Dillon",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45033",
     "dem_votes": 4621,
     "rep_votes": 3127,
@@ -552,6 +568,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -559,8 +576,8 @@
     "county": "Dorchester",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45035",
     "dem_votes": 14395,
     "rep_votes": 20811,
@@ -578,6 +595,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -585,8 +603,8 @@
     "county": "Edgefield",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45037",
     "dem_votes": 3623,
     "rep_votes": 4447,
@@ -604,6 +622,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -611,8 +630,8 @@
     "county": "Fairfield",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45039",
     "dem_votes": 5931,
     "rep_votes": 2754,
@@ -630,6 +649,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -637,8 +657,8 @@
     "county": "Florence",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45041",
     "dem_votes": 20594,
     "rep_votes": 19253,
@@ -656,6 +676,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Lean",
+      "party": "Democratic",
       "color": "#b3e5fc"
     }
   },
@@ -663,8 +684,8 @@
     "county": "Georgetown",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45043",
     "dem_votes": 9661,
     "rep_votes": 11285,
@@ -682,6 +703,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -689,8 +711,8 @@
     "county": "Greenville",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45045",
     "dem_votes": 52376,
     "rep_votes": 78235,
@@ -708,6 +730,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -715,8 +738,8 @@
     "county": "Greenwood",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45047",
     "dem_votes": 9521,
     "rep_votes": 10221,
@@ -734,6 +757,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -741,8 +765,8 @@
     "county": "Hampton",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45049",
     "dem_votes": 4030,
     "rep_votes": 2195,
@@ -760,6 +784,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Democratic",
       "color": "#01579b"
     }
   },
@@ -767,8 +792,8 @@
     "county": "Horry",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45051",
     "dem_votes": 23778,
     "rep_votes": 45001,
@@ -786,6 +811,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -793,8 +819,8 @@
     "county": "Jasper",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45053",
     "dem_votes": 3643,
     "rep_votes": 2469,
@@ -812,6 +838,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -819,8 +846,8 @@
     "county": "Kershaw",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45055",
     "dem_votes": 12662,
     "rep_votes": 9393,
@@ -838,6 +865,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -845,8 +873,8 @@
     "county": "Lancaster",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45057",
     "dem_votes": 10358,
     "rep_votes": 11650,
@@ -864,6 +892,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -871,8 +900,8 @@
     "county": "Laurens",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45059",
     "dem_votes": 7872,
     "rep_votes": 9260,
@@ -890,6 +919,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -897,8 +927,8 @@
     "county": "Lee",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45061",
     "dem_votes": 4532,
     "rep_votes": 1985,
@@ -916,6 +946,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -923,8 +954,8 @@
     "county": "Lexington",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45063",
     "dem_votes": 31787,
     "rep_votes": 50167,
@@ -942,6 +973,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -949,8 +981,8 @@
     "county": "McCormick",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45065",
     "dem_votes": 1933,
     "rep_votes": 1995,
@@ -968,6 +1000,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -975,8 +1008,8 @@
     "county": "Marion",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45067",
     "dem_votes": 6822,
     "rep_votes": 3391,
@@ -994,6 +1027,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -1001,8 +1035,8 @@
     "county": "Marlboro",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45069",
     "dem_votes": 4833,
     "rep_votes": 2269,
@@ -1020,6 +1054,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -1027,8 +1062,8 @@
     "county": "Newberry",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45071",
     "dem_votes": 5705,
     "rep_votes": 6237,
@@ -1046,6 +1081,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Lean",
+      "party": "Republican",
       "color": "#fc9272"
     }
   },
@@ -1053,8 +1089,8 @@
     "county": "Oconee",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45073",
     "dem_votes": 8072,
     "rep_votes": 12361,
@@ -1072,6 +1108,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   },
@@ -1079,8 +1116,8 @@
     "county": "Orangeburg",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45075",
     "dem_votes": 19861,
     "rep_votes": 8352,
@@ -1098,6 +1135,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Annihilation",
+      "party": "Democratic",
       "color": "#08306b"
     }
   },
@@ -1105,8 +1143,8 @@
     "county": "Pickens",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45077",
     "dem_votes": 10033,
     "rep_votes": 19435,
@@ -1124,6 +1162,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Republican",
       "color": "#a50f15"
     }
   },
@@ -1131,8 +1170,8 @@
     "county": "Richland",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45079",
     "dem_votes": 79378,
     "rep_votes": 36899,
@@ -1150,6 +1189,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -1157,8 +1197,8 @@
     "county": "Saluda",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45081",
     "dem_votes": 2909,
     "rep_votes": 3268,
@@ -1176,6 +1216,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Likely",
+      "party": "Republican",
       "color": "#fb6a4a"
     }
   },
@@ -1183,8 +1224,8 @@
     "county": "Spartanburg",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45083",
     "dem_votes": 31074,
     "rep_votes": 41593,
@@ -1202,6 +1243,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Safe",
+      "party": "Republican",
       "color": "#ef3b2c"
     }
   },
@@ -1209,8 +1251,8 @@
     "county": "Sumter",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45085",
     "dem_votes": 16769,
     "rep_votes": 12396,
@@ -1228,6 +1270,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -1235,8 +1278,8 @@
     "county": "Union",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45087",
     "dem_votes": 4966,
     "rep_votes": 4014,
@@ -1254,6 +1297,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Safe",
+      "party": "Democratic",
       "color": "#0288d1"
     }
   },
@@ -1261,8 +1305,8 @@
     "county": "Williamsburg",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45089",
     "dem_votes": 7977,
     "rep_votes": 3393,
@@ -1281,6 +1325,7 @@
     "winner": "DEM",
     "competitiveness": {
       "category": "Dominant",
+      "party": "Democratic",
       "color": "#014a7f"
     }
   },
@@ -1288,8 +1333,8 @@
     "county": "York",
     "contest": "Governor",
     "year": "2010",
-    "dem_candidate": "Vincent Sheheen",
-    "rep_candidate": "Nikki Haley",
+    "dem_candidate": "Vincent Sheheen (D)",
+    "rep_candidate": "Nikki Haley (R)",
     "county_fips": "45091",
     "dem_votes": 25855,
     "rep_votes": 41465,
@@ -1307,6 +1352,7 @@
     "winner": "REP",
     "competitiveness": {
       "category": "Stronghold",
+      "party": "Republican",
       "color": "#cb181d"
     }
   }
