@@ -1,0 +1,92 @@
+{
+  "Aiken": {
+    "Graham": 43555,
+    "Conley": 24412,
+    "other": 162
+  },
+  "Allendale": {
+    "Graham": 1042,
+    "Conley": 2805,
+    "other": 2
+  },
+  "Anderson": {
+    "Graham": 48323,
+    "Conley": 23759,
+    "other": 172
+  },
+  "Bamberg": {
+    "Graham": 2521,
+    "Conley": 4045,
+    "other": 3
+  },
+  "Barnwell": {
+    "Graham": 4850,
+    "Conley": 4657,
+    "other": 10
+  },
+  "Beaufort": {
+    "Graham": 39932,
+    "Conley": 26879,
+    "other": 128
+  },
+  "Berkeley": {
+    "Graham": 37540,
+    "Conley": 25494,
+    "other": 147
+  },
+  "Calhoun": {
+    "Graham": 3924,
+    "Conley": 3664,
+    "other": 6
+  },
+  "Charleston": {
+    "Graham": 78424,
+    "Conley": 70463,
+    "other": 592
+  },
+  "Cherokee": {
+    "Graham": 12462,
+    "Conley": 7744,
+    "other": 34
+  },
+  "Chester": {
+    "Graham": 6297,
+    "Conley": 7168,
+    "other": 10
+  },
+  "Chesterfield": {
+    "Graham": 8557,
+    "Conley": 7306,
+    "other": 13
+  },
+  "Clarendon": {
+    "Graham": 6996,
+    "Conley": 8313,
+    "other": 3
+  },
+  "Colleton": {
+    "Graham": 9052,
+    "Conley": 7876,
+    "other": 13
+  },
+  "Darlington": {
+    "Graham": 15490,
+    "Conley": 13161,
+    "other": 18
+  },
+  "Dillon": {
+    "Graham": 6315,
+    "Conley": 5784,
+    "other": 14
+  },
+  "Dorchester": {
+    "Graham": 31255,
+    "Conley": 19836,
+    "other": 130
+  },
+  "Edgefield": {
+    "Graham": 6390,
+    "Conley": 4889,
+    "other": 28
+  }
+}

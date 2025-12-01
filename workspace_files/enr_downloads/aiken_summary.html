@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Aiken - Election Results</title><script type="text/javascript">
+try {document.execCommand("BackgroundImageCache", false, true);} catch(err) {}
+</script> 
+
+<script type="text/JavaScript">
+var voteTypeIcon = 'Vote type summary';
+var mapDetailIcon = 'Contest Detail Map';
+var of = 'of';
+var areaLabel = 'Precinct';
+var areasLabel = 'Precincts';
+var votes = 'Votes';
+var total = 'Total';
+var reporting = 'Reporting';
+var percentLbl = 'Percent';
+var barPercentage = '';
+var tabSystem = 2;
+var showVoteFor = 1;
+var showPrecinctDetails = 1;
+var showVoteTypeDetails = 0;
+var showPrecinctsRptg = 1;
+var previous = 'Previous';
+var next = 'Next';
+var vote_for = 'Vote For';
+var recount = 'Recount';
+var runoff = 'Runoff';
+var winner = 'Winner';
+</script>
+<script type="text/javascript">
+<!-- 
+var gomez={
+gs: new Date().getTime(),
+acctId:'5154D9',
+pgId:'Aiken:ENRSummary',
+grpId:'19079' 
+}; 
+//--> 
+</script> 
+
+<link href="../css/main.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE]><link href="../css/all-ie.css" rel="stylesheet" type="text/css"  /><![endif]-->
+<link href="../css/skin1.css"  rel="stylesheet" type="text/css" media="screen" />
+<link href="../css/print.css"  rel="stylesheet" type="text/css" media="print" />
+<!--[if IE]><script type="text/javascript" src="../js/excanvas-compressed.js"></script><![endif]-->
+<script type="text/JavaScript" src="../js/common-compressed.js"></script>
+<script type="text/JavaScript" src="../js/gomez.js"></script>
+
+</head>
+<body onload="doInit();">
+<div id="skin-header">
+
+<div id="skin-header-shadow1">Registration and Elections Commission for Aiken County, SC</div>
+
+<div id="skin-header-shadow2">Registration and Elections Commission for Aiken County, SC</div>
+
+</div>
+<div id="wrapper">
+<div id="header">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="right-cap">
+<tr>
+<td><h1>2010 General Election</h1></td><td rowspan="3">
+<div class="dataL">
+<table border="0" cellspacing="0" cellpadding="0" class="data1">
+<tr>
+<td><label>Registered Voters:</label></td>
+<td>&nbsp;94,142</td>
+</tr>
+<tr>
+<td><label>Ballots Cast:</label></td>
+<td>&nbsp;49,638</td>
+</tr>
+<tr>
+<td><label>Voter Turnout:</label></td>
+<td>&nbsp;52.73 %</td>
+</tr>
+</table>
+
+</div>
+</td>
+<td>
+<div class="dataR">
+<table border="0" cellspacing="0" cellpadding="0" class="data2" align="right">
+<tr>
+<td ><label>Precincts Partially Reported:</label></td><td class="alignRight">&nbsp;0 of 76</td></tr>
+<tr>
+<td><label>Precincts Completely Reported:</label></td><td class="alignRight">&nbsp;76 of 76</td></tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td><h2><span id="wlu"><label>Website last updated</label>&nbsp;11/18/2010 12:09:08 PM EST</span></h2></td><td>
+<div id="language_noDots"></div>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="tabs">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="tabLOnEnd">&nbsp;</td><td class="tabTxtOn"><a href="javascript:NavTo('summary.html');">Summary</a></td><td class="tabOnOff">&nbsp;</td><td class="tabTxtOff"><a href="javascript:NavTo('pr.html');">Precincts Reporting</a></td><td class="tabOffOff">&nbsp;</td><td class="tabTxtOff"><a href="javascript:NavTo('vt.html');">Voter Turnout</a></td><td class="tabOffOff">&nbsp;</td><td class="tabTxtOff"><a href="javascript:NavTo('reports.html');">Reports</a></td><td class="tabROffEnd">&nbsp;</td><td class="tabBarOn">&nbsp;</td><td class="tabBarOn" align="right"><div class="btn-printable"><a href="JavaScript:window.print();">Print This Page</a></div></td><td class="tabBarOnEnd">&nbsp;</td>
+</tr>
+</table>
+</div>
+<a name="top" id="top"></a>
+<div id="content-wrapper">
+<div id="note"><center><font size="2" color="red">OFFICIAL RESULTS</font></center></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="33%"><div class="btn-search"><a href="javascript:NavTo('search-contests.html');">Search Contests</a></div><span id="contestCount"></span></td>
+<td width="33%"><div id="pagination-top"></div></td>
+<td width="33%">
+<div id="display">
+<table border="0" cellspacing="0" cellpadding="0" align="right">
+<tr>
+<tr>
+<td><label>Go To Page</label></td>
+<td><select id="pager" onchange="changeCurrentPage('parent',this,0)">
+</select>
+</td>
+<td>&nbsp;</td>
+<td><label>Contests Per Page</label></td>
+<td><select id="recsPerPage" onchange="changeRecordsPerPage('parent',this,0);">
+<option value="5" selected>5</option>
+<option value="10">10</option>
+<option value="20">20</option>
+<option value="40">All</option>
+</select>
+</td></tr>
+</table>
+</div><!-- #display -->
+</td>
+</tr>
+</table>
+<div id="results"></div>
+<div id="pagination-bottom"></div>
+</div>
+<div id="content-footer">
+<div id="content-footerL"></div>
+<div id="content-footerR"></div>
+</div>
+<div id="footer-links"><a href="javascript:NavTo('summary.html');">Summary</a> | <a href="javascript:NavTo('pr.html');">Precincts Reporting</a> | <a href="javascript:NavTo('vt.html');">Voter Turnout</a> | <a href="javascript:NavTo('reports.html');">Reports</a> | <a href="JavaScript:window.print();">Print This Page</a> | <a href="#top">Top of Page</a></div>
+</div>
+<script type="text/javascript">
+var jsonFile = "../json/sum.json";
+LoadJsonList(jsonFile,'checkFilter()');
+</script>
+<center><div id="copyright" style="font-size:x-small;">Powered by - <a href="http://www.soesoftware.com">SOE Software</a></div></center>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3425620-5");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

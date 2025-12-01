@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>SC - Election Results</title><script type="text/javascript">
+try {document.execCommand("BackgroundImageCache", false, true);} catch(err) {}
+</script> 
+
+<script type="text/javascript">
+<!-- 
+var gomez={
+gs: new Date().getTime(),
+acctId:'5154D9',
+pgId:'SC:ENRStateSelectCounty',
+grpId:'8562' 
+}; 
+//--> 
+</script> 
+
+<link href="../css/main.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE]><link href="../css/all-ie.css" rel="stylesheet" type="text/css"  /><![endif]-->
+<link href="../css/skin1.css"  rel="stylesheet" type="text/css" media="screen" />
+<link href="../css/sc.css"  rel="stylesheet" type="text/css" media="screen" />
+<link href="../css/print.css"  rel="stylesheet" type="text/css" media="print" />
+<!--[if IE]><script type="text/javascript" src="../js/excanvas-compressed.js"></script><![endif]-->
+<script type="text/JavaScript" src="../js/common-compressed.js"></script>
+<script type="text/JavaScript" src="../js/gomez.js"></script>
+
+<script type="text/JavaScript">
+function a (precinct) 
+{
+   var precinct = decodeURIComponent(precinct);
+   var rprecinct = precinct.replace("*","\'");
+   if( rprecinct != '' ) {
+      if( document.getElementById(rprecinct) != null ) {
+          var loc;
+          if( isIE == 1 )
+             loc = getStatePath() + document.getElementById(rprecinct).value;
+          else
+             loc = getStatePath() + document.getElementById(rprecinct).attributes['value'].value;
+          window.open (loc,rprecinct.replace(" ","_"),"resizable=1,scrollbars=1");
+      } else {
+          alert(rprecinct + ' is not participating in this election.'); 
+      }
+   }
+}
+</script>
+</head>
+<body onload="doInit();loadEvents();">
+<div id="skin-header"><h1></h1></div>
+<a name="top" id="top"></a>
+<div id="wrapper">
+<div id="tabs-state">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="tabLOffEnd-state">&nbsp;</td>
+<td class="tabTxtOff-state"><a href="javascript:NavTo('summary.html');">Statewide Results</a></td>
+<td class="tabOffOn-state">&nbsp;</td>
+<td class="tabTxtOn-state"><a href="javascript:NavTo('select-county.html');">Results by County</a></td>
+<td class="tabROnEnd-state">&nbsp;</td>
+<td class="tabBarOn-state">&nbsp;</td>
+<td class="tabBarOn-state" align="right">
+<div id="language">
+<table border="0" cellspacing="0" cellpadding="0" align="right">
+<tr>
+</tr>
+</table>
+</div><!-- #language --></td>
+<td class="tabBarOnEnd-state">&nbsp;</td>	
+</tr>
+</table>
+</div><!-- #tabs-state-->
+<div id="content-wrapper">
+<div id="header">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="right-cap">
+<tr>
+<td><h1>2008 General Election</h1></td><td rowspan="2" valign="top">
+<div class="dataL">
+<table border="0" cellspacing="2" cellpadding="2" align="center">
+<tr>
+<td><label>Registered Voters:</label></td>
+<td>&nbsp;2,553,923</td>
+</tr>
+<tr>
+<td><label>Ballots Cast:</label></td>
+<td>&nbsp;1,941,480</td>
+</tr>
+<tr>
+<td><label>Voter Turnout:</label></td>
+<td>&nbsp;76.02 %</td>
+</tr>
+</table>
+
+</div>
+</td>
+<td rowspan="2" valign="top">
+<div class="dataR">
+<table border="0" cellspacing="0" cellpadding="0" class="data2" align="right">
+<tr>
+<td><label>Counties Partially Reported:</label></td><td>&nbsp;0 of 46</td></tr>
+<tr>
+<td><label>Counties Completely Reported:</label></td><td class="alignRight">&nbsp;46 of 46</td></tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top"><h2><span id="wlu"><label>Website last updated</label>&nbsp;6/1/2009 2:34:23 PM EST</span></h2></td></tr>
+</table>
+</div>
+
+<div id="note"><center><font size="2" color="red">OFFICIAL RESULTS</font></center></div>
+<div id="canvas_legend">
+<table align="center"><tr>
+<td><img src="../images/icon-white.gif" alt="Counties Not Participating" title="Counties Not Participating" width="17" height="17" border="0" /></td><td>Counties Not Participating</td><td><img src="../images/icon-reported.gif" alt="Counties Participating" title="Counties Participating" width="17" height="17" border="0" /></td><td>Counties Participating</td><td><img src="../images/icon_canvassed.gif" alt="County Certified Results" title="County Certified Results" width="17" height="17" border="0" /></td><td>County Certified Results</td></tr></table>
+</div><!-- #legend -->
+
+<div id="map" class="alignCenter">
+<img src="../images/spacer.gif" width="1" height="608" style="float:left;"/><div id="loading" style="position:relative;padding-top:5px;height=32;"/><img src="../images/icon_loading.gif" width="32" height="32"/>&nbsp;Loading Map ...</div><canvas id="jsmap" width="800" height="576"></canvas><div id="ToolTip"></div></div>
+<table align="center" border="0" cellspacing="4" cellpadding="4">
+<tr>
+<td width="33%"><ul>
+<li><a id="Abbeville" value="/Abbeville/8563/index.html" href="javascript:a('Abbeville');">Abbeville</a></li>
+<li><a id="Aiken" value="/Aiken/8564/index.html" href="javascript:a('Aiken');">Aiken</a></li>
+<li><a id="Allendale" value="/Allendale/8565/index.html" href="javascript:a('Allendale');">Allendale</a></li>
+<li><a id="Anderson" value="/Anderson/8566/index.html" href="javascript:a('Anderson');">Anderson</a></li>
+<li><a id="Bamberg" value="/Bamberg/8567/index.html" href="javascript:a('Bamberg');">Bamberg</a></li>
+<li><a id="Barnwell" value="/Barnwell/8568/index.html" href="javascript:a('Barnwell');">Barnwell</a></li>
+<li><a id="Beaufort" value="/Beaufort/8569/index.html" href="javascript:a('Beaufort');">Beaufort</a></li>
+<li><a id="Berkeley" value="/Berkeley/8570/index.html" href="javascript:a('Berkeley');">Berkeley</a></li>
+<li><a id="Calhoun" value="/Calhoun/8571/index.html" href="javascript:a('Calhoun');">Calhoun</a></li>
+<li><a id="Charleston" value="/Charleston/8572/index.html" href="javascript:a('Charleston');">Charleston</a></li>
+<li><a id="Cherokee" value="/Cherokee/8573/index.html" href="javascript:a('Cherokee');">Cherokee</a></li>
+<li><a id="Chester" value="/Chester/8574/index.html" href="javascript:a('Chester');">Chester</a></li>
+<li><a id="Chesterfield" value="/Chesterfield/8575/index.html" href="javascript:a('Chesterfield');">Chesterfield</a></li>
+<li><a id="Clarendon" value="/Clarendon/8576/index.html" href="javascript:a('Clarendon');">Clarendon</a></li>
+<li><a id="Colleton" value="/Colleton/8577/index.html" href="javascript:a('Colleton');">Colleton</a></li>
+</ul></td>
+<td width="33%"><ul>
+<li><a id="Darlington" value="/Darlington/8578/index.html" href="javascript:a('Darlington');">Darlington</a></li>
+<li><a id="Dillon" value="/Dillon/8579/index.html" href="javascript:a('Dillon');">Dillon</a></li>
+<li><a id="Dorchester" value="/Dorchester/8580/index.html" href="javascript:a('Dorchester');">Dorchester</a></li>
+<li><a id="Edgefield" value="/Edgefield/8581/index.html" href="javascript:a('Edgefield');">Edgefield</a></li>
+<li><a id="Fairfield" value="/Fairfield/8582/index.html" href="javascript:a('Fairfield');">Fairfield</a></li>
+<li><a id="Florence" value="/Florence/8583/index.html" href="javascript:a('Florence');">Florence</a></li>
+<li><a id="Georgetown" value="/Georgetown/8584/index.html" href="javascript:a('Georgetown');">Georgetown</a></li>
+<li><a id="Greenville" value="/Greenville/8585/index.html" href="javascript:a('Greenville');">Greenville</a></li>
+<li><a id="Greenwood" value="/Greenwood/8586/index.html" href="javascript:a('Greenwood');">Greenwood</a></li>
+<li><a id="Hampton" value="/Hampton/8587/index.html" href="javascript:a('Hampton');">Hampton</a></li>
+<li><a id="Horry" value="/Horry/8588/index.html" href="javascript:a('Horry');">Horry</a></li>
+<li><a id="Jasper" value="/Jasper/8589/index.html" href="javascript:a('Jasper');">Jasper</a></li>
+<li><a id="Kershaw" value="/Kershaw/8590/index.html" href="javascript:a('Kershaw');">Kershaw</a></li>
+<li><a id="Lancaster" value="/Lancaster/8591/index.html" href="javascript:a('Lancaster');">Lancaster</a></li>
+<li><a id="Laurens" value="/Laurens/8592/index.html" href="javascript:a('Laurens');">Laurens</a></li>
+</ul></td>
+<td width="33%"><ul>
+<li><a id="Lee" value="/Lee/8593/index.html" href="javascript:a('Lee');">Lee</a></li>
+<li><a id="Lexington" value="/Lexington/8594/index.html" href="javascript:a('Lexington');">Lexington</a></li>
+<li><a id="Marion" value="/Marion/8595/index.html" href="javascript:a('Marion');">Marion</a></li>
+<li><a id="Marlboro" value="/Marlboro/8596/index.html" href="javascript:a('Marlboro');">Marlboro</a></li>
+<li><a id="McCormick" value="/McCormick/8597/index.html" href="javascript:a('McCormick');">McCormick</a></li>
+<li><a id="Newberry" value="/Newberry/8598/index.html" href="javascript:a('Newberry');">Newberry</a></li>
+<li><a id="Oconee" value="/Oconee/8599/index.html" href="javascript:a('Oconee');">Oconee</a></li>
+<li><a id="Orangeburg" value="/Orangeburg/8600/index.html" href="javascript:a('Orangeburg');">Orangeburg</a></li>
+<li><a id="Pickens" value="/Pickens/8601/index.html" href="javascript:a('Pickens');">Pickens</a></li>
+<li><a id="Richland" value="/Richland/8602/index.html" href="javascript:a('Richland');">Richland</a></li>
+<li><a id="Saluda" value="/Saluda/8603/index.html" href="javascript:a('Saluda');">Saluda</a></li>
+<li><a id="Spartanburg" value="/Spartanburg/8604/index.html" href="javascript:a('Spartanburg');">Spartanburg</a></li>
+<li><a id="Sumter" value="/Sumter/8605/index.html" href="javascript:a('Sumter');">Sumter</a></li>
+<li><a id="Union" value="/Union/8606/index.html" href="javascript:a('Union');">Union</a></li>
+<li><a id="Williamsburg" value="/Williamsburg/8607/index.html" href="javascript:a('Williamsburg');">Williamsburg</a></li>
+<li><a id="York" value="/York/8608/index.html" href="javascript:a('York');">York</a></li>
+</ul></td>
+</tr>
+</table>
+</div><!-- #content-wrapper-->
+<div id="content-footer">
+<div id="content-footerL"></div>
+<div id="content-footerR"></div>
+</div>
+<div id="footer-links"><a href="javascript:NavTo('summary.html');">Summary</a> | <a href="javascript:NavTo('pr.html');">Counties Reporting</a> | <a href="javascript:NavTo('vt.html');">Voter Turnout</a> | <a href="javascript:NavTo('reports.html');">Reports</a> | <a href="JavaScript:window.print();">Print This Page</a> | <a href="#top">Top of Page</a></div>
+</div><!-- #wrapper -->
+<script type="text/javascript">
+var jsonFile = "../json/status.json,../json/poly1.json";
+LoadJsonList(jsonFile,'PickCountyMap()');
+</script>
+<center><div id="copyright" style="font-size:x-small;">Powered by - <a href="http://www.soesoftware.com">SOE Software</a></div></center>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3425620-5");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

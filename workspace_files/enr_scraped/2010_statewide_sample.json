@@ -1,0 +1,314 @@
+{
+  "Abbeville": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 51,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 3359,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 3807,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 33,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 3827,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 3424,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 5,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 4226,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 2998,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 7,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 4748,
+        "party": "REP"
+      },
+      "Write-In": {
+        "votes": 38,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 170,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 3744,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 3357,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 4,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 3902,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 3316,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 3,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 4120,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 3083,
+        "party": "DEM"
+      },
+      "Write-In": {
+        "votes": 10,
+        "party": "NON"
+      }
+    }
+  },
+  "Aiken": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 239,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 30268,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 17874,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 82,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 31660,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 16829,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 26,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 32547,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 15823,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 15,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 35650,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 309,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 1182,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 31254,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 16135,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 12,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 32033,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 16204,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 12,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 31943,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 16122,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 27,
+        "party": "NON"
+      }
+    }
+  },
+  "Allendale": {
+    "Governor": {
+      "Morgan Bruce Reeves": {
+        "votes": 39,
+        "party": "UNC"
+      },
+      "Nikki R Haley": {
+        "votes": 564,
+        "party": "REP"
+      },
+      "Vincent A Sheheen": {
+        "votes": 1926,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Lieutenant Governor": {
+      "Ken Ard": {
+        "votes": 590,
+        "party": "REP"
+      },
+      "Ashley Cooper": {
+        "votes": 1877,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Secretary of State": {
+      "Mark Hammond": {
+        "votes": 658,
+        "party": "REP"
+      },
+      "Marjorie L Johnson": {
+        "votes": 1832,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "State Treasurer": {
+      "Curtis Loftis": {
+        "votes": 804,
+        "party": "REP"
+      },
+      "WRITE-IN": {
+        "votes": 13,
+        "party": "NON"
+      }
+    },
+    "Attorney General": {
+      "Leslie Minerd": {
+        "votes": 28,
+        "party": "GRN"
+      },
+      "Alan Wilson": {
+        "votes": 593,
+        "party": "REP"
+      },
+      "Matthew Richardson": {
+        "votes": 1900,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 2,
+        "party": "NON"
+      }
+    },
+    "Comptroller General": {
+      "Richard A Eckstrom": {
+        "votes": 639,
+        "party": "REP"
+      },
+      "Robert Barber": {
+        "votes": 1869,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    },
+    "Commissioner of Agriculture": {
+      "Hugh Weathers": {
+        "votes": 656,
+        "party": "REP"
+      },
+      "Tom E Elliott": {
+        "votes": 1845,
+        "party": "DEM"
+      },
+      "WRITE-IN": {
+        "votes": 1,
+        "party": "NON"
+      }
+    }
+  }
+}
