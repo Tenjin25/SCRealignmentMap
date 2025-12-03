@@ -50,7 +50,7 @@ South Carolina's educational attainment lags behind its neighbors, reinforcing p
 ### County-Level Deep Dive: Key Bellwethers and Polarization
 
 #### **Greenville County** - The Upstate Giant
-*Population: ~525,000 | 2020 Result: Trump 59.1% - Biden 39.5% (R+19.6)*
+*Population: ~525,000 | 2020 Result: Trump 59.1% - Biden 39.5% (R+19.6) | 2024 Result: Trump 61.3% - Harris 38.7% (R+22.6)*
 
 South Carolina's most populous county exemplifies the state's conservative foundation:
 - **Bob Jones University influence**: Evangelical culture deeply embedded
@@ -61,7 +61,7 @@ South Carolina's most populous county exemplifies the state's conservative found
 - **Why it matters**: Contains 11% of state population; must stay deep red for Republicans to hold SC
 
 #### **York County** - Charlotte's Conservative Spillover
-*Population: ~280,000 | 2020 Result: Trump 58.2% - Biden 40.7% (R+17.5)*
+*Population: ~280,000 | 2020 Result: Trump 58.2% - Biden 40.7% (R+17.5) | 2024 Result: Trump 59.7% - Harris 40.3% (R+19.4)*
 
 Border county benefiting from Charlotte metro growth, yet remaining solidly red:
 - **Charlotte exurbs**: Rock Hill, Fort Mill, Tega Cay see explosive growth from NC transplants
@@ -72,7 +72,7 @@ Border county benefiting from Charlotte metro growth, yet remaining solidly red:
 - **Paradox**: Population boom hasn't brought political change like Georgia suburbs because migrants self-select for conservative policies
 
 #### **Lexington County** - America's Reddest Suburb?
-*Population: ~295,000 | 2020 Result: Trump 63.4% - Biden 35.3% (R+28.1)*
+*Population: ~295,000 | 2020 Result: Trump 63.4% - Biden 35.3% (R+28.1) | 2024 Result: Trump 66.9% - Harris 33.0% (R+34.0)*
 
 Columbia's western suburbs represent peak Republican performance:
 - **Suburban structure**: Middle-class subdivisions (Irmo, Chapin, Lexington town)
@@ -84,7 +84,7 @@ Columbia's western suburbs represent peak Republican performance:
 - **Why**: Homogeneous population (82% white), few transplants, culturally conservative professionals
 
 #### **Charleston County** - The Blue Anchor
-*Population: ~410,000 | 2020 Result: Biden 55.0% - Trump 43.4% (D+11.6)*
+*Population: ~410,000 | 2020 Result: Biden 55.0% - Trump 43.4% (D+11.6) | 2024 Result: Harris 52.9% - Trump 47.1% (D+5.8)*
 
 SC's most Democratic large county and best hope for future competitiveness:
 - **Historic city**: Tourism, hospitality, College of Charleston, liberal urban core
@@ -97,7 +97,7 @@ SC's most Democratic large county and best hope for future competitiveness:
 - **Limitation**: Only contains 9% of state population—not enough to offset Upstate
 
 #### **Richland County** - The Capital Paradox
-*Population: ~415,000 | 2020 Result: Biden 61.1% - Trump 37.2% (D+23.9)*
+*Population: ~415,000 | 2020 Result: Biden 61.1% - Trump 37.2% (D+23.9) | 2024 Result: Harris 67.6% - Trump 32.4% (D+35.2)*
 
 SC's bluest large county, but geographically isolated:
 - **University of South Carolina**: 35,000+ students, liberal academic community
@@ -109,7 +109,7 @@ SC's bluest large county, but geographically isolated:
 - **Cannot spread**: Democratic votes concentrated in Columbia city limits, minimal suburban diffusion
 
 #### **Spartanburg County** - The Manufacturing Heartland
-*Population: ~320,000 | 2020 Result: Trump 61.5% - Biden 37.2% (R+24.3)*
+*Population: ~320,000 | 2020 Result: Trump 61.5% - Biden 37.2% (R+24.3) | 2024 Result: Trump 67.0% - Harris 33.0% (R+34.0)*
 
 BMW's anchor county represents white working-class realignment:
 - **BMW effect**: German auto plant employs thousands, conservative workforce
@@ -121,7 +121,7 @@ BMW's anchor county represents white working-class realignment:
 - **Why**: Economic anxiety, cultural conservatism, evangelical influence combine for massive GOP margins
 
 #### **Horry County** - The Tourist Trap
-*Population: ~350,000 | 2020 Result: Trump 60.5% - Biden 38.4% (R+22.1)*
+*Population: ~350,000 | 2020 Result: Trump 60.5% - Biden 38.4% (R+22.1) | 2024 Result: Trump 69.5% - Harris 30.5% (R+38.9)*
 
 Myrtle Beach's home county defies coastal trends:
 - **Tourism economy**: Service workers, retirees, seasonal residents
@@ -132,7 +132,7 @@ Myrtle Beach's home county defies coastal trends:
 - **Why no shift**: Lacks Charleston's diversity, military liberalism, or cultural amenities
 
 #### **Pickens County** - The Clemson Exception
-*Population: ~130,000 | 2020 Result: Trump 69.2% - Biden 29.6% (R+39.6)*
+*Population: ~130,000 | 2020 Result: Trump 69.2% - Biden 29.6% (R+39.6) | 2024 Result: Trump 76.7% - Harris 23.3% (R+53.4)*
 
 Home to Clemson University, yet among SC's reddest counties:
 - **Clemson University**: 27,000 students, engineering and agricultural focus
@@ -144,7 +144,7 @@ Home to Clemson University, yet among SC's reddest counties:
 - **Explanation**: Commuter students, conservative STEM focus, rural culture overwhelms campus liberalism
 
 #### **Beaufort County** - The Military Wild Card
-*Population: ~190,000 | 2020 Result: Trump 51.6% - Biden 46.9% (R+4.7)*
+*Population: ~190,000 | 2020 Result: Trump 51.6% - Biden 46.9% (R+4.7) | 2024 Result: Trump 57.3% - Harris 42.7% (R+14.7)*
 
 Marine Corps base creates SC's closest large county:
 - **Parris Island & MCAS Beaufort**: Marine Corps training and air station
@@ -156,7 +156,7 @@ Marine Corps base creates SC's closest large county:
 - **Why it matters**: Proof that SC *can* have competitive counties with right demographics (military diversity)
 
 #### **Sumter County** - The Rural Blue Dot
-*Population: ~105,000 | 2020 Result: Biden 52.7% - Trump 46.3% (D+6.4)*
+*Population: ~105,000 | 2020 Result: Biden 52.7% - Trump 46.3% (D+6.4) | 2024 Result: Harris 52.5% - Trump 47.5% (D+5.0)*
 
 Shaw Air Force Base creates anomalous rural Democratic county:
 - **Shaw AFB**: Major fighter wing, diverse military population
