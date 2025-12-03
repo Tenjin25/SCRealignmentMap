@@ -24,11 +24,23 @@ While neighboring North Carolina and Georgia have emerged as presidential battle
 - **North Carolina**: 62% White, 22% Black, 10% Hispanic, 3% Asian
 - **Virginia**: 61% White, 19% Black, 10% Hispanic, 7% Asian
 
-**The Key Difference**: Georgia has an even larger Black population (33%) than SC (27%), yet went for Biden. The crucial factor isn't just Black population size—it's:
-1. **Hispanic/Asian growth**: GA, NC, and VA have 10%+ Hispanic populations and rapidly growing Asian communities, creating multi-racial coalitions
-2. **Urban concentration**: GA's Black population is heavily concentrated in metro Atlanta (60% of state), creating overwhelming urban Democratic margins
-3. **College-educated growth**: Tech/finance industries attract diverse, educated professionals to Atlanta, Charlotte, NoVA
-4. **SC's pattern**: Black population more dispersed in rural counties (not concentrated in one massive metro), limited non-Black diversity, slower white-collar job growth
+**The Key Difference**: Georgia has an even larger Black population (33%) than SC (27%), yet went for Biden. Since Black voters overwhelmingly support Democrats (typically 85-90%+ in SC), why doesn't SC's 27% Black population make it competitive? The crucial factors are:
+
+1. **Geographic distribution matters more than raw percentage**:
+   - **Georgia**: Black voters concentrated in metro Atlanta (60% of state population) → Creates D+40-50 margins in massive metro that overwhelms rural red areas
+   - **South Carolina**: Black voters more dispersed across rural Black Belt counties → Democratic margins "wasted" in small rural counties while white suburban/exurban areas dominate vote totals
+
+2. **White voter composition & turnout**:
+   - **Georgia**: Younger, more diverse white electorate with growing college-educated suburban population shifting Democratic
+   - **South Carolina**: Older, less educated white electorate concentrated in evangelical suburbs (Lexington R+34, Greenville suburbs R+25+) that outvote urban cores
+
+3. **Additional demographic diversity**:
+   - **GA/NC/VA**: 10%+ Hispanic populations and rapidly growing Asian communities (especially in Atlanta, Charlotte, NoVA) add to Democratic coalitions
+   - **SC**: Only 6% Hispanic, 2% Asian → Limited multi-racial coalition building beyond Black-white dynamics
+
+4. **Metro size differential**:
+   - **Atlanta metro**: 6M+ people = Can generate 500K+ Democratic margin that overwhelms rest of state
+   - **Charleston + Columbia + Greenville combined**: ~2.5M people = Cannot generate enough Democratic votes to offset rural/suburban red areas, especially when Greenville itself is R+23
 
 **Compared to Neighbors**:
 - **Georgia**: Large Hispanic/Asian growth in metro Atlanta, significant Northern migration, diversifying suburbs
@@ -174,6 +186,19 @@ Shaw Air Force Base creates anomalous rural Democratic county:
 - **Tobacco legacy**: Traditional rural economy with Black-white divide
 - **Trend**: Competitive in presidential races, reliably Democratic in lower-turnout elections
 - **Shows**: Military + Black population can overcome rural conservatism—but model not replicable elsewhere in SC
+
+#### **Dorchester County** - Charleston's Swing Suburb
+*Population: ~180,000 | 2020 Result: Trump 55.3% - Biden 44.7% (R+10.7) | 2024 Result: Trump 57.4% - Harris 42.6% (R+14.9)*
+
+Part of Charleston metro's "tri-county" area, but trending Republican:
+- **Suburban growth**: Summerville, Goose Creek, North Charleston suburbs experiencing rapid development
+- **Mixed demographics**: 30% Black population, growing middle-class white families
+- **Military influence**: Joint Base Charleston workers, Naval Weapons Station
+- **Education divide**: Lower college degree rates than Charleston County proper
+- **Trend**: Moving rightward—Obama lost by 2 points (2008), Trump won by 15 (2024)
+- **Why different from Charleston**: More rural/exurban character, white flight from Charleston, evangelical influence
+- **Comparison**: Unlike suburban Atlanta counties that flipped Democratic, Dorchester follows traditional Southern suburban pattern of becoming more Republican
+- **Future watch**: If Charleston metro continues growing, could become more competitive by 2030s
 
 ### The Missing Swing Counties
 
