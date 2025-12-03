@@ -352,7 +352,7 @@ The 2010 gubernatorial election between **Vincent Sheheen (D)** and **Nikki Hale
 - **Oconee County**: Sheheen won by 3 points (2010) → Trump won by 48 points (2024)
 - **Cherokee County**: Sheheen won by 1 point (2010) → Trump won by 38 points (2024)
 - **Chester County**: Sheheen won by 9 points (2010) → Trump won by 17 points (2024)
-- **Union County**: Sheheen won by margin (2010) → Trump dominates by 30+ points (2024)
+- **Union County**: Sheheen won by 10 point margin (2010) → Trump dominates by 30+ points (2024)
 
 These swings illustrate the complete collapse of white rural Democrats in South Carolina and across the South—a demographic that was still competitive in 2010 but has since become the GOP's most reliable base. The same York County voters who ended John Spratt's career now send Freedom Caucus members to Congress, showing how the realignment extended beyond presidential politics to reshape representation at every level.
 
