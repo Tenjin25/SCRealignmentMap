@@ -55,6 +55,21 @@ South Carolina's educational attainment lags behind its neighbors, reinforcing p
 - **Brain drain**: Many college-educated young adults leave for larger metros in neighboring states
 - **Rural concentration**: 34% of SC residents live in rural areas vs. 24% in NC, 25% in GA
 
+### Religious and Cultural Conservatism
+
+**Southern Baptist Dominance**: South Carolina's political culture is uniquely shaped by evangelical Protestantism:
+- **Southern Baptist Convention**: SC has the highest per-capita Southern Baptist membership in the nation
+- **Church density**: Dense network of evangelical churches in every county, even in urban areas
+- **Cultural influence**: Sunday church attendance rates among highest in America; religious identity deeply intertwined with political identity
+- **Social conservatism**: Opposition to abortion, LGBTQ rights, and secular culture drives Republican voting beyond economic issues
+- **Compared to neighbors**:
+  - **Georgia**: More religious diversity in Atlanta (large Black churches, Catholic/Hindu/Muslim growth)
+  - **North Carolina**: Mainline Protestant tradition in Piedmont, university secularization
+  - **Virginia**: Northern VA is highly secular; Richmond/Hampton Roads more diverse religiously
+- **Bob Jones University effect**: Greenville's fundamentalist university symbolizes SC's distinctive evangelical conservatism
+- **Political mobilization**: Southern Baptist churches serve as Republican organizing hubs; pastors often discuss politics from pulpit
+- **Why it matters**: Even college-educated, affluent white voters in SC suburbs remain Republican due to religious/cultural values—defying national trends where education predicts Democratic voting
+
 ### Geographic Distribution of Democratic Votes
 
 **Democratic strength concentrated in few areas**:
