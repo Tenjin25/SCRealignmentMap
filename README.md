@@ -192,13 +192,16 @@ Shaw Air Force Base creates anomalous rural Democratic county:
 
 Part of Charleston metro's "tri-county" area, but trending Republican:
 - **Suburban growth**: Summerville, Goose Creek, North Charleston suburbs experiencing rapid development
+- **Consistent Republican**: Voting GOP since Reagan (1980s), remarkably stable despite massive suburbanization
+- **Eastern expansion**: Growth concentrated in eastern part of county (Summerville sprawl), yet maintains conservative character
 - **Mixed demographics**: 30% Black population, growing middle-class white families
 - **Military influence**: Joint Base Charleston workers, Naval Weapons Station
 - **Education divide**: Lower college degree rates than Charleston County proper
-- **Trend**: Moving rightward—Obama lost by 2 points (2008), Trump won by 15 (2024)
-- **Why different from Charleston**: More rural/exurban character, white flight from Charleston, evangelical influence
-- **Comparison**: Unlike suburban Atlanta counties that flipped Democratic, Dorchester follows traditional Southern suburban pattern of becoming more Republican
-- **Future watch**: If Charleston metro continues growing, could become more competitive by 2030s
+- **Trend**: Moving rightward even as it suburbanizes—Obama lost by 2 points (2008), Trump won by 15 (2024)
+- **Defies expectations**: Most rapidly suburbanizing counties shift Democratic (suburban Atlanta, Charlotte), but Dorchester proves suburbs can remain Republican
+- **Why different from Charleston**: More exurban/sprawl character than urban, white flight from Charleston, strong evangelical culture, self-selecting conservative migrants
+- **Local observation**: Decades of transformation from rural to suburban haven't altered fundamental conservative voting patterns—growth reinforces rather than challenges Republican dominance
+- **Future watch**: Unlikely to flip unless Charleston metro growth accelerates dramatically and attracts different demographic profile
 
 ### The Missing Swing Counties
 
