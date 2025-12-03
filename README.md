@@ -311,6 +311,51 @@ Unlike battleground states with multiple swing counties that decide elections (B
 - Conservative evangelical culture deeply rooted
 - No equivalent to Atlanta suburbs, Research Triangle, or NoVA to flip moderate/swing
 
+### The 2010 Governor's Race: Last Stand of the White Rural Democrat
+
+The 2010 gubernatorial election between **Vincent Sheheen (D)** and **Nikki Haley (R)** represents a critical inflection point in South Carolina politics:
+
+**Results**: Haley 51.4% - Sheheen 46.9% (R+4.5) - **The closest statewide race since 1998**
+
+**Sheheen's Coalition**:
+- **Rural white Democrat**: State senator from Camden (Kershaw County), representing an endangered political species
+- **Current office**: Now serves as Mayor of Camden (elected 2024), continuing public service despite statewide Democratic collapse
+- **County wins**: Sheheen carried 20 of 46 counties, including traditionally Republican areas
+- **Cross-racial appeal**: Won both Black Belt counties AND rural white counties (Oconee, Pickens borders, Union)
+- **Moderate positioning**: Pro-gun, emphasized rural economic issues, ran as conservative Democrat
+- **"Good ol' boy" appeal**: Lawyer with deep SC roots, could speak to white working-class voters
+
+**Why He Nearly Won**:
+1. **Haley controversy**: Indian-American woman faced racial/gender headwinds in conservative SC
+2. **Pre-Tea Party**: Election held before full Republican consolidation
+3. **Ancestral Democrats**: Some older white voters still identified as Democrats from pre-realignment era
+4. **Black turnout**: Strong African American enthusiasm
+5. **Recession backlash**: 2010 economic anxiety hadn't fully polarized along Obama lines yet
+
+**The 2010 Wipeout Beyond Governor**:
+- **Congressional collapse**: Rep. **John Spratt** (D), 28-year incumbent and House Budget Committee chairman, lost SC-5 by 10 points to Mick Mulvaney
+- **York County anchor**: SC-5 centered on York County, which has sent Freedom Caucus hardliners to Washington ever since (Mulvaney → Norman → current representatives)
+- **End of Blue Dog era**: Spratt's defeat symbolized extinction of conservative Southern Democrats in Congress
+- **Same voters, different results**: Counties that narrowly backed Sheheen for governor voted overwhelmingly Republican downballot
+- **2010 as inflection point**: Tea Party wave accelerated white rural realignment that was already underway
+
+**Why 2010 Was the Last Chance**:
+- **2014 rematch**: Haley defeated Sheheen 55.9% - 41.3% (R+14.6) - **10-point swing toward GOP**
+- **Obama effect**: By 2014, Obama's presidency had completed white working-class exodus from Democratic Party
+- **Rural collapse**: Counties Sheheen won in 2010 (Chester, Cherokee, Oconee, Union) swung hard Republican
+- **Ancestral Democrat extinction**: Older white Democrats died or switched parties; younger whites identify as Republican
+- **Evangelical consolidation**: Religious voters who might have split tickets in 2010 became straight-ticket Republicans by 2014
+- **Congressional wipeout**: After Spratt's loss, no Democrat has come close in York County-area districts
+- **Lesson**: Even a perfect Democratic candidate (white, male, moderate, rural roots) can't overcome SC's fundamentals anymore
+
+**2010 Counties Sheheen Won That Are Now Deep Red**:
+- **Oconee County**: Sheheen won by 3 points (2010) → Trump won by 48 points (2024)
+- **Cherokee County**: Sheheen won by 1 point (2010) → Trump won by 38 points (2024)
+- **Chester County**: Sheheen won by 9 points (2010) → Trump won by 17 points (2024)
+- **Union County**: Sheheen won by margin (2010) → Trump dominates by 30+ points (2024)
+
+These swings illustrate the complete collapse of white rural Democrats in South Carolina and across the South—a demographic that was still competitive in 2010 but has since become the GOP's most reliable base. The same York County voters who ended John Spratt's career now send Freedom Caucus members to Congress, showing how the realignment extended beyond presidential politics to reshape representation at every level.
+
 ### Electoral Math
 
 **2020 Presidential Results**:
