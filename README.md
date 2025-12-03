@@ -16,10 +16,19 @@ While neighboring North Carolina and Georgia have emerged as presidential battle
 
 ### Demographic Composition
 
-**The Black-White Binary**: South Carolina has a unique demographic profile that differs significantly from its neighbors:
-- **Biracial electorate**: SC's population is approximately 63% White and 27% Black, with relatively small Hispanic (6%) and Asian (2%) populations
-- **Limited "New South" growth**: Unlike Atlanta, Charlotte, or the Research Triangle, South Carolina lacks a large metropolitan area attracting diverse, college-educated transplants from across the country
-- **Smaller urban cores**: Charleston (~800K metro), Columbia (~800K metro), and Greenville (~900K metro) are much smaller than Atlanta (6M+) or Charlotte (2.8M+)
+**The Diversity Deficit**: While South Carolina shares a large Black population with its neighbors, it lacks the additional demographic diversity that has transformed them:
+
+**Racial Composition Comparison (2020 Census)**:
+- **South Carolina**: 63% White, 27% Black, 6% Hispanic, 2% Asian
+- **Georgia**: 52% White, 33% Black, 10% Hispanic, 4% Asian
+- **North Carolina**: 62% White, 22% Black, 10% Hispanic, 3% Asian
+- **Virginia**: 61% White, 19% Black, 10% Hispanic, 7% Asian
+
+**The Key Difference**: Georgia has an even larger Black population (33%) than SC (27%), yet went for Biden. The crucial factor isn't just Black population size—it's:
+1. **Hispanic/Asian growth**: GA, NC, and VA have 10%+ Hispanic populations and rapidly growing Asian communities, creating multi-racial coalitions
+2. **Urban concentration**: GA's Black population is heavily concentrated in metro Atlanta (60% of state), creating overwhelming urban Democratic margins
+3. **College-educated growth**: Tech/finance industries attract diverse, educated professionals to Atlanta, Charlotte, NoVA
+4. **SC's pattern**: Black population more dispersed in rural counties (not concentrated in one massive metro), limited non-Black diversity, slower white-collar job growth
 
 **Compared to Neighbors**:
 - **Georgia**: Large Hispanic/Asian growth in metro Atlanta, significant Northern migration, diversifying suburbs
