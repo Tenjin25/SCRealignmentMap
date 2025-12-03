@@ -217,18 +217,24 @@ Part of Charlotte metro but getting redder, not bluer:
 - **Why no swing**: Lower incomes, fewer college degrees, further from Charlotte core than York County
 - **Shows**: Not all Charlotte metro counties are created equal—distance and demographics matter
 
-#### **Chester County** - The Quiet Conservative
+#### **Chester County** - The Obama-Trump Bellwether
 *Population: ~32,000 | 2020 Result: Trump 55.5% - Biden 44.5% (R+11.0) | 2024 Result: Trump 58.7% - Harris 41.3% (R+17.4)*
 
-Small Charlotte-adjacent county quietly shifting right:
+**Classic Obama-Trump county** exemplifying white working-class realignment:
+- **Obama 2008**: Won by D+8.3 points
+- **Obama 2012**: Won by D+10.7 points  
+- **Trump 2016**: Won by R+5.0 points—**~16-point swing**
+- **Trump 2020**: Won by R+11.0 points
+- **Trump 2024**: Won by R+17.4 points
+- **Total shift 2012-2024**: 28-point swing from D+11 to R+17
 - **Charlotte MSA**: Technically part of metro area but lacks strong commuter ties
-- **Economic decline**: Lost manufacturing base, population stagnant
-- **Black population**: 40% Black, one of highest in Upstate
-- **Yet trending red**: Trump margin increased from R+11 to R+17 (2020-2024)
-- **White working-class shift**: Non-college white voters moving sharply Republican
-- **Media market effect**: Like Lancaster, consumes Charlotte media but votes opposite direction
-- **Small but telling**: Shows even biracial counties with large Black populations can shift Republican if white voters polarize
-- **Comparison**: Similar demographics to competitive NC counties (Robeson), but much more Republican
+- **Economic decline**: Lost manufacturing base, population stagnant/declining
+- **Black population**: 40% Black, one of highest percentages in Upstate region
+- **Yet trending red**: Despite large Black population, white working-class shift overwhelms
+- **White working-class collapse**: Non-college white voters moved sharply Republican—the quintessential Obama-Trump pattern
+- **Media market paradox**: Like Lancaster, consumes Charlotte media but votes opposite direction
+- **Symbolic importance**: Chester's flip embodies the rural/small-town white working-class realignment that defined Trump's 2016 victory and continues accelerating
+- **Comparison**: Similar demographics to some competitive NC counties (Scotland, Robeson), but vastly more Republican due to SC's political culture
 
 #### **Anderson County** - The Evangelical Fortress  
 *Population: ~200,000 | 2020 Result: Trump 71.3% - Biden 28.7% (R+42.6) | 2024 Result: Trump 74.0% - Harris 26.0% (R+47.9)*
