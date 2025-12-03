@@ -203,6 +203,48 @@ Part of Charleston metro's "tri-county" area, but trending Republican:
 - **Local observation**: Decades of transformation from rural to suburban haven't altered fundamental conservative voting patterns—growth reinforces rather than challenges Republican dominance
 - **Future watch**: Unlikely to flip unless Charleston metro growth accelerates dramatically and attracts different demographic profile
 
+#### **Lancaster County** - Charlotte Exurbs, No Swing
+*Population: ~100,000 | 2020 Result: Trump 61.6% - Biden 38.4% (R+23.1) | 2024 Result: Trump 62.5% - Harris 37.5% (R+25.1)*
+
+Part of Charlotte metro but getting redder, not bluer:
+- **Charlotte media market**: Residents consume Charlotte news/media but vote like rural South Carolina
+- **Exurban growth**: Fort Mill, Lancaster city seeing housing development from NC migrants
+- **But**: Unlike York County's high-income Charlotte commuters, Lancaster attracts working-class, conservative families
+- **Textile legacy**: Former mill towns (Springs Mills) with deep Southern roots
+- **Demographics**: 70% White, 25% Black—traditional SC racial composition
+- **Trend**: Moving rightward despite Charlotte proximity—Trump +23 (2020) → Trump +25 (2024)
+- **Media market paradox**: Exposed to Charlotte's more liberal culture through TV/radio, yet remains deeply conservative
+- **Why no swing**: Lower incomes, fewer college degrees, further from Charlotte core than York County
+- **Shows**: Not all Charlotte metro counties are created equal—distance and demographics matter
+
+#### **Chester County** - The Quiet Conservative
+*Population: ~32,000 | 2020 Result: Trump 55.5% - Biden 44.5% (R+11.0) | 2024 Result: Trump 58.7% - Harris 41.3% (R+17.4)*
+
+Small Charlotte-adjacent county quietly shifting right:
+- **Charlotte MSA**: Technically part of metro area but lacks strong commuter ties
+- **Economic decline**: Lost manufacturing base, population stagnant
+- **Black population**: 40% Black, one of highest in Upstate
+- **Yet trending red**: Trump margin increased from R+11 to R+17 (2020-2024)
+- **White working-class shift**: Non-college white voters moving sharply Republican
+- **Media market effect**: Like Lancaster, consumes Charlotte media but votes opposite direction
+- **Small but telling**: Shows even biracial counties with large Black populations can shift Republican if white voters polarize
+- **Comparison**: Similar demographics to competitive NC counties (Robeson), but much more Republican
+
+#### **Anderson County** - The Evangelical Fortress  
+*Population: ~200,000 | 2020 Result: Trump 71.3% - Biden 28.7% (R+42.6) | 2024 Result: Trump 74.0% - Harris 26.0% (R+47.9)*
+
+One of South Carolina's most reliably Republican counties:
+- **Near R+50**: Among most conservative non-rural counties in America
+- **Evangelical stronghold**: Dense network of Baptist and evangelical churches
+- **Lake Hartwell**: Retirement destination for conservative Southerners
+- **Former textile**: Ancestrally Democratic mill towns now Trump's strongest areas
+- **Clemson proximity**: Adjacent to Pickens County (Clemson), shares ultra-conservative culture
+- **Education paradox**: Despite some college-educated residents, votes like deep rural county
+- **Trend**: Getting even redder—R+43 (2020) → R+48 (2024), a 5-point rightward swing
+- **Why so red**: Homogeneous (82% white), elderly, religious, no major urban core to moderate
+- **Historical note**: Once home to Strom Thurmond, still embodies Dixiecrat-to-Republican realignment
+- **Shows**: Not all Upstate growth brings moderation—Anderson's population stability and aging reinforce conservatism
+
 ### The Missing Swing Counties
 
 Unlike battleground states with multiple swing counties that decide elections (Bucks County PA, Maricopa County AZ, Waukesha County WI), **South Carolina has no true bellwether counties**:
