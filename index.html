@@ -3037,87 +3037,12 @@ function populateContestSelectFromCongressionalCSV(csvData) {
         // Transform unified data structure to match expected format
         const allElectionData = {};
         
-        // Create a mapping from election names to keys
-        const electionNameToKey = {
-          // Presidential
-          '2024 PRESIDENT': '2024_president',
-          '2024 President': '2024_president',
-          '2020 PRESIDENT': '2020_president',
-          '2016 PRESIDENT': '2016_president',
-          '2012 President': '2012_president',
-          '2008 PRESIDENT': '2008_president',
-          
-          // Gubernatorial
-          '2022 GOVERNOR AND LIEUTENANT GOVERNOR': '2022_governor',
-          '2018 GOVERNOR AND LIEUTENANT GOVERNOR': '2018_governor',
-          '2014 GOVERNOR': '2014_governor',
-          '2014 Governor': '2014_governor',
-          '2014 LIEUTENANT GOVERNOR': '2014_lieutenant_governor',
-          '2010 Governor': '2010_governor',
-          '2010 Lieutenant Governor': '2010_lieutenant_governor',
-          '2006 GOVERNOR': '2006_governor',
-          '2006 LIEUTENANT GOVERNOR': '2006_lieutenant_governor',
-          
-          // Senate
-          '2022 U.S. SENATE': '2022_senate',
-          '2020 U.S. SENATE': '2020_senate',
-          '2016 U.S. Senate': '2016_senate',
-          '2014 U.S. SENATE': '2014_senate',
-          '2008 U.S. Senate': '2008_senate',
-          
-          // Constitutional Officers
-          '2022 ATTORNEY GENERAL': '2022_attorney_general',
-          '2022 STATE SUPERINTENDENT OF EDUCATION': '2022_superintendent',
-          '2022 SECRETARY OF STATE': '2022_secretary_of_state',
-          '2022 STATE TREASURER': '2022_treasurer',
-          '2022 COMPTROLLER GENERAL': '2022_comptroller',
-          '2022 COMMISSIONER OF AGRICULTURE': '2022_agriculture',
-          
-          '2018 ATTORNEY GENERAL': '2018_attorney_general',
-          '2018 STATE SUPERINTENDENT OF EDUCATION': '2018_superintendent',
-          '2018 SECRETARY OF STATE': '2018_secretary_of_state',
-          '2018 STATE TREASURER': '2018_treasurer',
-          '2018 COMPTROLLER GENERAL': '2018_comptroller',
-          '2018 COMMISSIONER OF AGRICULTURE': '2018_agriculture',
-          
-          '2014 ATTORNEY GENERAL': '2014_attorney_general',
-          '2014 STATE SUPERINTENDENT OF EDUCATION': '2014_superintendent',
-          '2014 SECRETARY OF STATE': '2014_secretary_of_state',
-          '2014 STATE TREASURER': '2014_treasurer',
-          '2014 COMPTROLLER GENERAL': '2014_comptroller',
-          '2014 COMMISSIONER OF AGRICULTURE': '2014_agriculture',
-          '2014 ADJUTANT GENERAL': '2014_adjutant_general',
-          
-          '2010 Attorney General': '2010_attorney_general',
-          '2010 Secretary Of State': '2010_secretary_of_state',
-          '2010 State Treasurer': '2010_treasurer',
-          '2010 Comptroller General': '2010_comptroller',
-          '2010 Commissioner Of Agriculture': '2010_agriculture',
-          '2010 State Superintendent Of Education': '2010_superintendent',
-          
-          '2006 ATTORNEY GENERAL': '2006_attorney_general',
-          '2006 STATE SUPERINTENDENT OF EDUCATION': '2006_superintendent',
-          '2006 SECRETARY OF STATE': '2006_secretary_of_state',
-          '2006 STATE TREASURER': '2006_treasurer',
-          '2006 COMPTROLLER GENERAL': '2006_comptroller',
-          '2006 COMMISSIONER OF AGRICULTURE': '2006_agriculture',
-          '2006 ADJUTANT GENERAL': '2006_adjutant_general'
-        };
-        
         // Process each county from unified data
         Object.values(unifiedData.counties).forEach(countyData => {
           const countyFips = countyData.fips;
           
           // Process each election for this county
-          Object.entries(countyData.elections).forEach(([electionName, electionResult]) => {
-            // Get the election key from our mapping
-            const electionKey = electionNameToKey[electionName];
-            
-            if (!electionKey) {
-              console.warn(`No mapping found for election: ${electionName}`);
-              return;
-            }
-            
+          Object.entries(countyData.elections).forEach(([electionKey, electionResult]) => {
             // Initialize array for this election if needed
             if (!allElectionData[electionKey]) {
               allElectionData[electionKey] = [];
@@ -3127,7 +3052,7 @@ function populateContestSelectFromCongressionalCSV(csvData) {
             allElectionData[electionKey].push({
               election_key: electionKey,
               county_fips: countyFips,
-              county: electionResult.county,
+              county: countyData.county_name,
               year: electionResult.year,
               contest: electionResult.contest,
               dem_candidate: electionResult.dem_candidate,
