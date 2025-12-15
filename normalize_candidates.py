@@ -1,9 +1,9 @@
 """
 Candidate Name Normalization System
 
-Normalizes candidate names within each data file to ensure consistency.
-Keeps contests separate (e.g., President 2024 vs President 2020) but ensures
-candidate name variations are standardized within each file.
+Normalizes candidate names across ALL contests within the same year.
+Ensures consistency so that if "Barack Obama" appears in 2008 President,
+he also appears as "Barack Obama" in 2008 Senate, etc.
 """
 
 import re
