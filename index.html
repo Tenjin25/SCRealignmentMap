@@ -1372,59 +1372,8 @@ body {
       mapboxToken: 'pk.eyJ1Ijoic2hhbWFyZGF2aXMiLCJhIjoiY21kcW8yeDB2MDhvbTJzb29qeGp1aDZmZCJ9.Zw_i6U-dL7_bEKRHTUh7yg',
       paths: {
         counties: './VTDs/tl_2020_45_county20.geojson',
-        // Multiple election data files
-        elections: {
-          '2024_president': './Data/county_results_2024_fips_accurate.json',
-          '2022_governor': './Data/county_results_2022_governor_lieutenant_governor_fips_accurate.json',
-          '2022_senate': './Data/county_results_2022_u.s._senate_fips_accurate.json',
-          '2022_attorney_general': './Data/county_results_2022_attorney_general_fips_accurate.json',
-          '2022_superintendent': './Data/county_results_2022_state_superintendent_of_education_fips_accurate.json',
-          '2022_secretary_of_state': './Data/county_results_2022_secretary_of_state_fips_accurate.json',
-          '2022_treasurer': './Data/county_results_2022_state_treasurer_fips_accurate.json',
-          '2022_comptroller': './Data/county_results_2022_comptroller_general_fips_accurate.json',
-          '2022_agriculture': './Data/county_results_2022_commissioner_of_agriculture_fips_accurate.json',
-          '2020_president': './Data/county_results_2020_fips_accurate.json',
-          '2020_senate': './Data/county_results_2020_us_senate_fips.json',
-          '2018_governor': './Data/county_results_2018_governor_lieutenant_governor_fips_accurate.json',
-          '2018_attorney_general': './Data/county_results_2018_attorney_general_fips_accurate.json',
-          '2018_superintendent': './Data/county_results_2018_state_superintendent_of_education_fips_accurate.json',
-          '2018_secretary_of_state': './Data/county_results_2018_secretary_of_state_fips_accurate.json',
-          '2018_treasurer': './Data/county_results_2018_state_treasurer_fips_accurate.json',
-          '2018_comptroller': './Data/county_results_2018_comptroller_general_fips_accurate.json',
-          '2018_agriculture': './Data/county_results_2018_commissioner_of_agriculture_fips_accurate.json',
-          '2016_president': './Data/county_results_2016_fips_accurate.json',
-          '2016_senate': './Data/county_results_2016_u.s._senate_fips_accurate.json',
-          '2014_governor': './Data/county_results_2014_governor_fips_accurate.json',
-          '2014_senate': './Data/county_results_2014_u.s._senate_fips_accurate.json',
-          '2014_attorney_general': './Data/county_results_2014_attorney_general_fips_accurate.json',
-          '2014_superintendent': './Data/county_results_2014_state_superintendent_of_education_fips_accurate.json',
-          '2014_secretary_of_state': './Data/county_results_2014_secretary_of_state_fips_accurate.json',
-          '2014_treasurer': './Data/county_results_2014_state_treasurer_fips_accurate.json',
-          '2014_comptroller': './Data/county_results_2014_comptroller_general_fips_accurate.json',
-          '2014_agriculture': './Data/county_results_2014_commissioner_of_agriculture_fips_accurate.json',
-          '2014_adjutant_general': './Data/county_results_2014_adjutant_general_fips_accurate.json',
-          '2014_lieutenant_governor': './Data/county_results_2014_lieutenant_governor_fips_accurate.json',
-          '2012_president': './Data/county_results_2012_fips_accurate.json',
-          '2010_governor': './Data/county_results_2010_governor_fips_accurate.json',
-          '2010_lieutenant_governor': './Data/county_results_2010_lieutenant_governor_fips_accurate.json',
-          '2010_attorney_general': './Data/county_results_2010_attorney_general_fips_accurate.json',
-          '2010_secretary_of_state': './Data/county_results_2010_secretary_of_state_fips_accurate.json',
-          '2010_treasurer': './Data/county_results_2010_state_treasurer_fips_accurate.json',
-          '2010_comptroller': './Data/county_results_2010_comptroller_general_fips_accurate.json',
-          '2010_agriculture': './Data/county_results_2010_commissioner_of_agriculture_fips_accurate.json',
-          '2010_superintendent': './Data/county_results_2010_state_superintendent_of_education_fips_accurate.json',
-          '2008_president': './Data/county_results_2008_fips_accurate.json',
-          '2008_senate': './Data/county_results_2008_us_senate_fips.json',
-          '2006_governor': './Data/county_results_2006_governor_fips_accurate.json',
-          '2006_attorney_general': './Data/county_results_2006_attorney_general_fips_accurate.json',
-          '2006_superintendent': './Data/county_results_2006_state_superintendent_of_education_fips_accurate.json',
-          '2006_secretary_of_state': './Data/county_results_2006_secretary_of_state_fips_accurate.json',
-          '2006_treasurer': './Data/county_results_2006_state_treasurer_fips_accurate.json',
-          '2006_comptroller': './Data/county_results_2006_comptroller_general_fips_accurate.json',
-          '2006_agriculture': './Data/county_results_2006_commissioner_of_agriculture_fips_accurate.json',
-          '2006_adjutant_general': './Data/county_results_2006_adjutant_general_fips_accurate.json',
-          '2006_lieutenant_governor': './Data/county_results_2006_lieutenant_governor_fips_accurate.json'
-        },
+        // Unified election data file
+        unifiedElections: './unified_sc_elections.json',
         districts: './Data/sc_congressional_districts.geojson',
         state_house: './Data/sc_state_house_districts.geojson',
         state_senate: './Data/sc_state_senate_districts.geojson',
@@ -2003,22 +1952,22 @@ function populateContestSelectFromCongressionalCSV(csvData) {
         compLabel = winner === 'Republican' ? "Annihilation Republican (40%+)" : "Annihilation Democratic (40%+)";
         compColor = winner === 'Republican' ? '#450a0a' : '#0c1d56';
       } else if (marginPct >= 30) {
-        compLabel = winner === 'Republican' ? "Dominant Republican (30-40%)" : "Dominant Democratic (30-40%)";
+        compLabel = winner === 'Republican' ? "Dominant Republican (30.00-39.99%)" : "Dominant Democratic (30.00-39.99%)";
         compColor = winner === 'Republican' ? '#7f1d1d' : '#1e3a8a';
       } else if (marginPct >= 20) {
-        compLabel = winner === 'Republican' ? "Stronghold Republican (20-30%)" : "Stronghold Democratic (20-30%)";
+        compLabel = winner === 'Republican' ? "Stronghold Republican (20.00-29.99%)" : "Stronghold Democratic (20.00-29.99%)";
         compColor = winner === 'Republican' ? '#991b1b' : '#1e40af';
       } else if (marginPct >= 10) {
-        compLabel = winner === 'Republican' ? "Safe Republican (10-20%)" : "Safe Democratic (10-20%)";
+        compLabel = winner === 'Republican' ? "Safe Republican (10.00-19.99%)" : "Safe Democratic (10.00-19.99%)";
         compColor = winner === 'Republican' ? '#dc2626' : '#3b82f6';
       } else if (marginPct >= 5.5) {
-        compLabel = winner === 'Republican' ? "Likely Republican (5.5-10%)" : "Likely Democratic (5.5-10%)";
+        compLabel = winner === 'Republican' ? "Likely Republican (5.50-9.99%)" : "Likely Democratic (5.50-9.99%)";
         compColor = winner === 'Republican' ? '#ef4444' : '#60a5fa';
       } else if (marginPct >= 1) {
-        compLabel = winner === 'Republican' ? "Lean Republican (1-5.5%)" : "Lean Democratic (1-5.5%)";
+        compLabel = winner === 'Republican' ? "Lean Republican (1.00-5.49%)" : "Lean Democratic (1.00-5.49%)";
         compColor = winner === 'Republican' ? '#f87171' : '#93c5fd';
       } else if (marginPct >= 0.5) {
-        compLabel = winner === 'Republican' ? "Tilt Republican (0.5-1%)" : "Tilt Democratic (0.5-1%)";
+        compLabel = winner === 'Republican' ? "Tilt Republican (0.50-0.99%)" : "Tilt Democratic (0.50-0.99%)";
         compColor = winner === 'Republican' ? '#fca5a5' : '#bfdbfe';
       } else {
         compLabel = winner === 'Democratic' ? 'Tossup (Democratic Win)' : 'Tossup (Republican Win)';
@@ -3079,46 +3028,129 @@ function populateContestSelectFromCongressionalCSV(csvData) {
         setStatus('Counties loaded');
 
         setStatus('Loading election data...');
-        console.log('Loading multiple election datasets...');
+        console.log('Loading unified election data...');
         
-        // Load all election data files
+        // Load unified election data file
+        const unifiedData = await loadJSON(CONFIG.paths.unifiedElections);
+        console.log('Unified data loaded:', unifiedData);
+        
+        // Transform unified data structure to match expected format
         const allElectionData = {};
-        const electionKeys = Object.keys(CONFIG.paths.elections);
         
-        for (const key of electionKeys) {
-          try {
-            console.log(`Loading ${key} from:`, CONFIG.paths.elections[key]);
-            const electionJSON = await loadJSON(CONFIG.paths.elections[key]);
+        // Create a mapping from election names to keys
+        const electionNameToKey = {
+          // Presidential
+          '2024 PRESIDENT': '2024_president',
+          '2024 President': '2024_president',
+          '2020 PRESIDENT': '2020_president',
+          '2016 PRESIDENT': '2016_president',
+          '2012 President': '2012_president',
+          '2008 PRESIDENT': '2008_president',
+          
+          // Gubernatorial
+          '2022 GOVERNOR AND LIEUTENANT GOVERNOR': '2022_governor',
+          '2018 GOVERNOR AND LIEUTENANT GOVERNOR': '2018_governor',
+          '2014 GOVERNOR': '2014_governor',
+          '2014 Governor': '2014_governor',
+          '2014 LIEUTENANT GOVERNOR': '2014_lieutenant_governor',
+          '2010 Governor': '2010_governor',
+          '2010 Lieutenant Governor': '2010_lieutenant_governor',
+          '2006 GOVERNOR': '2006_governor',
+          '2006 LIEUTENANT GOVERNOR': '2006_lieutenant_governor',
+          
+          // Senate
+          '2022 U.S. SENATE': '2022_senate',
+          '2020 U.S. SENATE': '2020_senate',
+          '2016 U.S. Senate': '2016_senate',
+          '2014 U.S. SENATE': '2014_senate',
+          '2008 U.S. Senate': '2008_senate',
+          
+          // Constitutional Officers
+          '2022 ATTORNEY GENERAL': '2022_attorney_general',
+          '2022 STATE SUPERINTENDENT OF EDUCATION': '2022_superintendent',
+          '2022 SECRETARY OF STATE': '2022_secretary_of_state',
+          '2022 STATE TREASURER': '2022_treasurer',
+          '2022 COMPTROLLER GENERAL': '2022_comptroller',
+          '2022 COMMISSIONER OF AGRICULTURE': '2022_agriculture',
+          
+          '2018 ATTORNEY GENERAL': '2018_attorney_general',
+          '2018 STATE SUPERINTENDENT OF EDUCATION': '2018_superintendent',
+          '2018 SECRETARY OF STATE': '2018_secretary_of_state',
+          '2018 STATE TREASURER': '2018_treasurer',
+          '2018 COMPTROLLER GENERAL': '2018_comptroller',
+          '2018 COMMISSIONER OF AGRICULTURE': '2018_agriculture',
+          
+          '2014 ATTORNEY GENERAL': '2014_attorney_general',
+          '2014 STATE SUPERINTENDENT OF EDUCATION': '2014_superintendent',
+          '2014 SECRETARY OF STATE': '2014_secretary_of_state',
+          '2014 STATE TREASURER': '2014_treasurer',
+          '2014 COMPTROLLER GENERAL': '2014_comptroller',
+          '2014 COMMISSIONER OF AGRICULTURE': '2014_agriculture',
+          '2014 ADJUTANT GENERAL': '2014_adjutant_general',
+          
+          '2010 Attorney General': '2010_attorney_general',
+          '2010 Secretary Of State': '2010_secretary_of_state',
+          '2010 State Treasurer': '2010_treasurer',
+          '2010 Comptroller General': '2010_comptroller',
+          '2010 Commissioner Of Agriculture': '2010_agriculture',
+          '2010 State Superintendent Of Education': '2010_superintendent',
+          
+          '2006 ATTORNEY GENERAL': '2006_attorney_general',
+          '2006 STATE SUPERINTENDENT OF EDUCATION': '2006_superintendent',
+          '2006 SECRETARY OF STATE': '2006_secretary_of_state',
+          '2006 STATE TREASURER': '2006_treasurer',
+          '2006 COMPTROLLER GENERAL': '2006_comptroller',
+          '2006 COMMISSIONER OF AGRICULTURE': '2006_agriculture',
+          '2006 ADJUTANT GENERAL': '2006_adjutant_general'
+        };
+        
+        // Process each county from unified data
+        Object.values(unifiedData.counties).forEach(countyData => {
+          const countyFips = countyData.fips;
+          
+          // Process each election for this county
+          Object.entries(countyData.elections).forEach(([electionName, electionResult]) => {
+            // Get the election key from our mapping
+            const electionKey = electionNameToKey[electionName];
             
-            // Convert JSON object to array format for compatibility
-            allElectionData[key] = Object.keys(electionJSON).map(fips => {
-                const county = electionJSON[fips];
-                return {
-                    election_key: key,
-                    county_fips: fips,
-                    county: county.county,
-                    year: county.year,
-                    contest: county.contest,
-                    dem_candidate: county.dem_candidate,
-                    rep_candidate: county.rep_candidate,
-                    dem_votes: county.dem_votes,
-                    rep_votes: county.rep_votes,
-                    other_votes: county.other_votes,
-                    total_votes: county.total_votes,
-                    margin: county.margin,
-                    margin_pct: county.margin_pct,
-                    winner: county.winner,
-                    two_party_total: county.two_party_total,
-                    competitiveness_category: county.competitiveness?.category || '',
-                    competitiveness_party: county.competitiveness?.party || '',
-                    competitiveness_color: county.competitiveness?.color || ''
-                };
+            if (!electionKey) {
+              console.warn(`No mapping found for election: ${electionName}`);
+              return;
+            }
+            
+            // Initialize array for this election if needed
+            if (!allElectionData[electionKey]) {
+              allElectionData[electionKey] = [];
+            }
+            
+            // Add this county's result to the election
+            allElectionData[electionKey].push({
+              election_key: electionKey,
+              county_fips: countyFips,
+              county: electionResult.county,
+              year: electionResult.year,
+              contest: electionResult.contest,
+              dem_candidate: electionResult.dem_candidate,
+              rep_candidate: electionResult.rep_candidate,
+              dem_votes: electionResult.dem_votes,
+              rep_votes: electionResult.rep_votes,
+              other_votes: electionResult.other_votes,
+              total_votes: electionResult.total_votes,
+              margin: electionResult.margin,
+              margin_pct: electionResult.margin_pct,
+              winner: electionResult.winner,
+              two_party_total: electionResult.two_party_total,
+              competitiveness_category: electionResult.competitiveness?.category || '',
+              competitiveness_party: electionResult.competitiveness?.party || '',
+              competitiveness_color: electionResult.competitiveness?.color || ''
             });
-            console.log(`${key} loaded:`, allElectionData[key].length, 'counties');
-          } catch (error) {
-            console.warn(`Failed to load ${key}:`, error);
-          }
-        }
+          });
+        });
+        
+        console.log('Transformed election data:', Object.keys(allElectionData).length, 'elections');
+        Object.keys(allElectionData).forEach(key => {
+          console.log(`  ${key}: ${allElectionData[key].length} counties`);
+        });
         
         // Store all election data globally
         window.allElectionData = allElectionData;

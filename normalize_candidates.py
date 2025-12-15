@@ -42,14 +42,14 @@ CANDIDATE_MAPPINGS = {
     "willard romney": "Mitt Romney",
     "romney, mitt": "Mitt Romney",
     
-    "barack obama": "Barack H. Obama",
-    "barack h obama": "Barack H. Obama",
-    "obama, barack": "Barack H. Obama",
+    "barack obama": "Barack Obama",
+    "barack h obama": "Barack Obama",
+    "obama, barack": "Barack Obama",
     
     # 2008 Presidential
-    "john mccain": "John S. McCain",
-    "john s mccain": "John S. McCain",
-    "mccain, john": "John S. McCain",
+    "john mccain": "John McCain",
+    "john s mccain": "John McCain",
+    "mccain, john": "John McCain",
     
     # SC Gubernatorial
     "nikki haley": "Nikki R. Haley",
