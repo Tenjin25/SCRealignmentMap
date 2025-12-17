@@ -3037,37 +3037,41 @@ function populateContestSelectFromCongressionalCSV(csvData) {
         // Transform unified data structure to match expected format
         const allElectionData = {};
         
-        // Process each county from unified data
-        Object.values(unifiedData.counties).forEach(countyData => {
-          const countyFips = countyData.fips;
-          
-          // Process each election for this county
-          Object.entries(countyData.elections).forEach(([electionKey, electionResult]) => {
+        // Process each year in the unified data
+        Object.entries(unifiedData.elections).forEach(([year, contests]) => {
+          // Process each contest for this year
+          Object.entries(contests).forEach(([contest, counties]) => {
+            // Create election key (e.g., "2024_president")
+            const electionKey = `${year}_${contest}`;
+            
             // Initialize array for this election if needed
             if (!allElectionData[electionKey]) {
               allElectionData[electionKey] = [];
             }
             
-            // Add this county's result to the election
-            allElectionData[electionKey].push({
-              election_key: electionKey,
-              county_fips: countyFips,
-              county: countyData.county_name,
-              year: electionResult.year,
-              contest: electionResult.contest,
-              dem_candidate: electionResult.dem_candidate,
-              rep_candidate: electionResult.rep_candidate,
-              dem_votes: electionResult.dem_votes,
-              rep_votes: electionResult.rep_votes,
-              other_votes: electionResult.other_votes,
-              total_votes: electionResult.total_votes,
-              margin: electionResult.margin,
-              margin_pct: electionResult.margin_pct,
-              winner: electionResult.winner,
-              two_party_total: electionResult.two_party_total,
-              competitiveness_category: electionResult.competitiveness?.category || '',
-              competitiveness_party: electionResult.competitiveness?.party || '',
-              competitiveness_color: electionResult.competitiveness?.color || ''
+            // Process each county for this contest
+            Object.entries(counties).forEach(([fips, countyData]) => {
+              // Add this county's result to the election
+              allElectionData[electionKey].push({
+                election_key: electionKey,
+                county_fips: fips,
+                county: countyData.county_name,
+                year: countyData.year,
+                contest: countyData.contest,
+                dem_candidate: countyData.dem_candidate,
+                rep_candidate: countyData.rep_candidate,
+                dem_votes: countyData.dem_votes,
+                rep_votes: countyData.rep_votes,
+                other_votes: countyData.other_votes,
+                total_votes: countyData.total_votes,
+                margin: countyData.margin,
+                margin_pct: countyData.margin_pct,
+                winner: countyData.winner,
+                two_party_total: countyData.two_party_total,
+                competitiveness_category: countyData.competitiveness?.category || '',
+                competitiveness_party: countyData.competitiveness?.party || '',
+                competitiveness_color: countyData.competitiveness?.color || ''
+              });
             });
           });
         });
