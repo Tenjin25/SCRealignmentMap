@@ -1989,10 +1989,10 @@ function populateContestSelectFromCongressionalCSV(csvData) {
               <div style="color:#2563eb;font-size:15px;font-weight:700;">
                 D: ${demVotes.toLocaleString()} (${demPct.toFixed(2)}%)
               </div>
-              ${otherVotes > 0 ? `<div style="color:#6b7280;font-size:15px;font-weight:700;">Other: ${otherVotes.toLocaleString()} (${((otherVotes / totalVotes) * 100).toFixed(2)}%)</div>` : ''}
               <div style="color:#dc2626;font-size:15px;font-weight:700;">
                 R: ${repVotes.toLocaleString()} (${repPct.toFixed(2)}%)
               </div>
+              ${otherVotes > 0 ? `<div style="color:#6b7280;font-size:15px;font-weight:700;">Other: ${otherVotes.toLocaleString()} (${((otherVotes / totalVotes) * 100).toFixed(2)}%)</div>` : ''}
             </div>
           </div>
           <div style="margin-top:10px;font-size:15px;color:#374151;font-weight:600;">
