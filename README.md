@@ -612,7 +612,26 @@ For questions, suggestions, or data requests:
 
 ---
 
-*Last updated: December 2025*
+## 📋 Recent Updates
+
+### December 17, 2025
+- **Enhanced Statewide Results Visualization**: Added third-party/other candidate votes to horizontal temperature bar
+  - Other candidates now appear in gray on the far right of the bar
+  - Vote percentages and totals included for complete transparency
+- **Data Quality Improvements**: 
+  - Fixed margin calculations across 2,991 county entries (63 election files)
+  - Corrected competitiveness categorizations using proper scales
+  - Fixed Aiken County 2008 presidential data (added missing Democratic votes: 26,101 for Obama)
+  - Normalized presidential candidate names to show only nominee (e.g., "Barack Obama" not "Barack Obama / Joseph R. Biden")
+- **Data Structure Reorganization**: Restructured unified JSON from county-centric to year/contest-centric format for improved performance
+- **Bug Fixes**: Resolved JavaScript transformation errors in data loading
+
+### Developer Note
+*This update marks likely the final revision completed on the RP-15 G2. A Lenovo Legion Pro 5i with RTX 5070 Ti GPU arrives next week as its successor—a necessary upgrade driven by my compulsion for building things and attention to detail, acquired just ahead of anticipated 2025 tariff-related price increases in 2026.*
+
+---
+
+*Last updated: December 17, 2025*
 *Election data current through November 2024*
 
 ## 📖 Further Reading
