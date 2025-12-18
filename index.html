@@ -1884,7 +1884,7 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       console.log(`Analysis mode set to: ${mode}`);
     }
 
-    function updateStatewideResults(contestType, year, demVotes, repVotes, totalVotes) {
+    function updateStatewideResults(contestType, year, demVotes, repVotes, otherVotes, totalVotes) {
       const statewideContent = document.getElementById('statewide-content');
       const tempBar = document.getElementById('statewide-temperature-bar');
       if (!statewideContent) return;
@@ -1983,11 +1983,13 @@ function populateContestSelectFromCongressionalCSV(csvData) {
             <div id="statewide-temperature-bar" style="width:100%;height:32px;border-radius:16px;display:flex;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.08);">
               <div style="width:${demPct}%;background:#2563eb;"></div>
               <div style="width:${repPct}%;background:#dc2626;"></div>
+              ${otherVotes > 0 ? `<div style="width:${((otherVotes / totalVotes) * 100)}%;background:#6b7280;"></div>` : ''}
             </div>
             <div style="display:flex;justify-content:space-between;margin-top:6px;">
               <div style="color:#2563eb;font-size:15px;font-weight:700;">
                 D: ${demVotes.toLocaleString()} (${demPct.toFixed(2)}%)
               </div>
+              ${otherVotes > 0 ? `<div style="color:#6b7280;font-size:15px;font-weight:700;">Other: ${otherVotes.toLocaleString()} (${((otherVotes / totalVotes) * 100).toFixed(2)}%)</div>` : ''}
               <div style="color:#dc2626;font-size:15px;font-weight:700;">
                 R: ${repVotes.toLocaleString()} (${repPct.toFixed(2)}%)
               </div>
@@ -3280,18 +3282,21 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       // Calculate statewide totals
       let statewidedemVotes = 0;
       let statewidrepVotes = 0;
+      let statewideOtherVotes = 0;
       let statewidTotalVotes = 0;
       
       contestData.forEach(row => {
         const demVotes = row.dem_votes || 0;
         const repVotes = row.rep_votes || 0;
+        const otherVotes = row.other_votes || 0;
         statewidedemVotes += demVotes;
         statewidrepVotes += repVotes;
-        statewidTotalVotes += demVotes + repVotes;
+        statewideOtherVotes += otherVotes;
+        statewidTotalVotes += demVotes + repVotes + otherVotes;
       });
       
       // Update statewide results display
-      updateStatewideResults(contestType, year, statewidedemVotes, statewidrepVotes, statewidTotalVotes);
+      updateStatewideResults(contestType, year, statewidedemVotes, statewidrepVotes, statewideOtherVotes, statewidTotalVotes);
 
       // Build expression for county coloring using normalized, uppercase names
       const expr = ['case'];
