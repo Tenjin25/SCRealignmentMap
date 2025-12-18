@@ -627,7 +627,7 @@ For questions, suggestions, or data requests:
 - **Bug Fixes**: Resolved JavaScript transformation errors in data loading
 
 ### Developer Note
-*This update marks likely the final revision completed on the RP-15 G2. A Lenovo Legion Pro 5i with RTX 5070 Ti GPU arrives next week as its successor—a necessary upgrade driven by my compulsion for building things and attention to detail, acquired just ahead of anticipated AI bubble-related consumer electronics price increases in 2026.*
+*This update marks likely the final revision completed on the RP-15 G2. A maxed-out Lenovo Legion Pro 5i with RTX 5070 Ti GPU arrives next week as its successor—a necessary upgrade driven by my compulsion for building things and attention to detail, acquired just ahead of anticipated AI bubble-related consumer electronics price increases in 2026.*
 
 ---
 
