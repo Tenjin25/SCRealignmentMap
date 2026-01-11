@@ -3337,7 +3337,7 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       console.log(`Color expression built for ${countiesProcessed} counties`);
       
       map.setPaintProperty('county-fill', 'fill-color', expr);
-      document.getElementById('contest-name').textContent = `SC ${formatContestName(contestType, year)} (${year})`;
+      document.getElementById('contest-name').textContent = `${formatContestName(contestType, year)} (${year})`;
       setStatus(`Applied contest: ${formatContestName(contestType, year)} ${year}`);
       
       // Auto-update: If a county was previously selected, re-display its info for the new contest
@@ -3383,7 +3383,7 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       expr.push('#e0e0e0'); // default color
       
       map.setPaintProperty('district-fill', 'fill-color', expr);
-      document.getElementById('contest-name').textContent = `SC US House (${year})`;
+      document.getElementById('contest-name').textContent = `US House (${year})`;
       setStatus(`Applied contest: SC US House ${year}`);
     }
 
@@ -3433,7 +3433,7 @@ function populateContestSelectFromCongressionalCSV(csvData) {
         setStatus('District layer not found!', 5000, true);
       }
 
-      document.getElementById('contest-name').textContent = `SC ${formatContestName(contestType, year)} (${year}) - Statewide Result`;
+      document.getElementById('contest-name').textContent = `${formatContestName(contestType, year)} (${year}) - Statewide Result`;
       setStatus(`Applied statewide contest: ${formatContestName(contestType, year)} ${year} (${demPct.toFixed(1)}% D, ${repPct.toFixed(1)}% R)`);
     }
 
