@@ -1319,7 +1319,7 @@ body {
             <div class="legend-item"><div class="legend-color" style="background: #fb6a4a;"></div>Likely Republican (5.50-9.99%)</div>
             <div class="legend-item"><div class="legend-color" style="background: #fcae91;"></div>Lean Republican (1.00-5.49%)</div>
             <div class="legend-item"><div class="legend-color" style="background: #fee8c8;"></div>Tilt Republican (0.50-0.99%)</div>
-            <div class="legend-item"><div class="legend-color" style="background: #f7f7f7; border: 1px solid #999;"></div>Tossup (>0.50%)</div>
+            <div class="legend-item"><div class="legend-color" style="background: #f7f7f7; border: 1px solid #999;"></div>Tossup (<0.50%)</div>
             <div class="legend-item"><div class="legend-color" style="background: #e1f5fe;"></div>Tilt Democratic (0.50-0.99%)</div>
             <div class="legend-item"><div class="legend-color" style="background: #c6dbef;"></div>Lean Democratic (1.00-5.49%)</div>
             <div class="legend-item"><div class="legend-color" style="background: #9ecae1;"></div>Likely Democratic (5.50-9.99%)</div>
@@ -2353,11 +2353,14 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       } else if (actualMarginPct >= 0.5) {
         competitiveness = winner === 'Republican' ? "Tilt Republican" : "Tilt Democratic";
       } else {
-        competitiveness = `Tossup (${winner} win)`;
+        competitiveness = winner === 'Democratic' ? 'Tossup (Democratic Win)' : 'Tossup (Republican Win)';
       }
       
       let compColor = '#6b7280';
-      if (competitiveness.includes('Rep')) {
+      // Handle tossup cases with better colors and formatting like index (1).html
+      if (competitiveness.includes('Tossup')) {
+        compColor = winner === 'Democratic' ? '#2563eb' : '#dc2626'; // Blue for Dem win, Red for Rep win
+      } else if (competitiveness.includes('Rep')) {
         if (competitiveness.includes('Annihilation')) compColor = '#450a0a';
         else if (competitiveness.includes('Dominant')) compColor = '#7f1d1d';
         else if (competitiveness.includes('Stronghold')) compColor = '#991b1b';
