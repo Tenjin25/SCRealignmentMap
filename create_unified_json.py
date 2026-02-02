@@ -68,18 +68,6 @@ def create_unified_json(data_dir="Data", output_file="unified_sc_elections.json"
             
         print(f"Processing: {json_file.name}")
         
-        # Extract election identifier from filename
-        # e.g., "county_results_2024_president_fips_accurate.json" -> "2024_president"
-        filename_parts = json_file.stem.replace("county_results_", "").replace("_fips_accurate", "").split("_")
-        
-        # Handle different filename patterns
-        if filename_parts[0].isdigit():  # Year is first
-            year = filename_parts[0]
-            office = "_".join(filename_parts[1:]) if len(filename_parts) > 1 else "president"
-            election_key = f"{year}_{office}"
-        else:
-            continue  # Skip files that don't match expected pattern
-        
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -87,6 +75,29 @@ def create_unified_json(data_dir="Data", output_file="unified_sc_elections.json"
             # Store competitiveness scale from first file
             if unified["metadata"]["competitiveness_scale"] is None and "competitiveness_scale" in data:
                 unified["metadata"]["competitiveness_scale"] = data["competitiveness_scale"]
+            
+            # Determine the election key from the actual contest data
+            # Get the first county to determine the contest type
+            first_fips = None
+            for fips in data.keys():
+                if fips != "competitiveness_scale":
+                    first_fips = fips
+                    break
+            
+            if not first_fips:
+                print(f"  Skipping: No county data found")
+                continue
+            
+            # Get contest name and year from the data itself
+            contest_name = data[first_fips].get("contest", "").lower().replace(" ", "_").replace(".", "")
+            year = data[first_fips].get("year", "")
+            
+            if not contest_name or not year:
+                print(f"  Skipping: Missing contest name or year")
+                continue
+            
+            election_key = f"{year}_{contest_name}"
+            print(f"  Election key: {election_key}")
             
             # Process each county in this election
             for fips, county_data in data.items():
@@ -117,7 +128,7 @@ def create_unified_json(data_dir="Data", output_file="unified_sc_elections.json"
                 }
                 
                 # Track election in metadata
-                election_desc = f"{county_data.get('year')} {county_data.get('contest', office)}"
+                election_desc = f"{county_data.get('year')} {county_data.get('contest', contest_name)}"
                 if election_desc not in unified["metadata"]["elections"]:
                     unified["metadata"]["elections"].append(election_desc)
         
