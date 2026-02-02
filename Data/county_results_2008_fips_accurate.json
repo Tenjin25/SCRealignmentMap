@@ -32,26 +32,27 @@
     "county": "AIKEN",
     "contest": "PRESIDENT",
     "year": "2008",
-    "dem_candidate": "",
+    "dem_candidate": "Barack Obama / Joe Biden (D)",
     "rep_candidate": "John Mccain / Sarah Palin (R)",
-    "dem_votes": 0,
+    "dem_votes": 26101,
     "rep_votes": 42849,
     "other_votes": 318,
-    "total_votes": 43167,
+    "total_votes": 69268,
     "all_parties": {
       "GRN": 160,
       "REP": 42849,
-      "LIB": 158
+      "LIB": 158,
+      "DEM": 26101
     },
     "county_fips": "45003",
-    "two_party_total": 42849,
-    "margin": 42849,
-    "margin_pct": 100.0,
+    "two_party_total": 68950,
+    "margin": 16748,
+    "margin_pct": 24.298550797825088,
     "winner": "REP",
     "competitiveness": {
-      "category": "Annihilation",
+      "category": "Stronghold",
       "party": "Republican",
-      "color": "#67000d"
+      "color": "#cb181d"
     }
   },
   "45005": {
