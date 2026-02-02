@@ -3158,10 +3158,12 @@ function populateContestSelectFromCongressionalCSV(csvData) {
         // stateSenateInfo = parseCSV(stateSenateCSV);
         // setStatus('State senate districts loaded');
 
-        populateContestSelectFromElectionJSON(electionData);
+        // Populate contest selector with all elections
+        populateContestSelectFromAllElections(window.allElectionData);
 
         // Auto-load the default contest (2024 President)
         const contestSelect = document.getElementById('contestSelect');
+        contestSelect.value = '2024_president';
         if (contestSelect && contestSelect.value) {
           applyContest(contestSelect.value);
         }
