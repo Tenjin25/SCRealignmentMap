@@ -1300,6 +1300,11 @@ body {
                     <!-- Dynamic options will be populated here based on available data -->
                 </select>
             </div>
+            <div class="control-group" style="margin-top: 12px;">
+                <button id="toggle-labels-btn" onclick="toggleCountyLabels()" style="width: 100%; padding: 10px; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600;">
+                    🏷️ Hide County Labels
+                </button>
+            </div>
         </div>
     </div>
 
@@ -2135,6 +2140,30 @@ function populateContestSelectFromCongressionalCSV(csvData) {
         legendContent.style.display = 'none';
         minimizeBtn.textContent = '+';
         minimizeBtn.title = 'Expand legend';
+      }
+    }
+
+    function toggleCountyLabels() {
+      const labelLayer = 'county-label';
+      const toggleBtn = document.getElementById('toggle-labels-btn');
+      
+      if (!map.getLayer(labelLayer)) {
+        console.warn('County label layer not found');
+        return;
+      }
+      
+      const currentVisibility = map.getLayoutProperty(labelLayer, 'visibility');
+      
+      if (currentVisibility === 'visible' || currentVisibility === undefined) {
+        // Hide labels
+        map.setLayoutProperty(labelLayer, 'visibility', 'none');
+        toggleBtn.textContent = '🏷️ Show County Labels';
+        toggleBtn.style.background = '#6b7280';
+      } else {
+        // Show labels
+        map.setLayoutProperty(labelLayer, 'visibility', 'visible');
+        toggleBtn.textContent = '🏷️ Hide County Labels';
+        toggleBtn.style.background = '#3b82f6';
       }
     }
 
@@ -3042,41 +3071,35 @@ function populateContestSelectFromCongressionalCSV(csvData) {
         // Transform unified data structure to match expected format
         const allElectionData = {};
         
-        // Process each year in the unified data
-        Object.entries(unifiedData.elections).forEach(([year, contests]) => {
-          // Process each contest for this year
-          Object.entries(contests).forEach(([contest, counties]) => {
-            // Create election key (e.g., "2024_president")
-            const electionKey = `${year}_${contest}`;
-            
+        // Process each county in the unified data (NEW STRUCTURE: counties -> elections)
+        Object.entries(unifiedData.counties).forEach(([fips, countyInfo]) => {
+          // Process each election for this county
+          Object.entries(countyInfo.elections).forEach(([electionKey, electionData]) => {
             // Initialize array for this election if needed
             if (!allElectionData[electionKey]) {
               allElectionData[electionKey] = [];
             }
             
-            // Process each county for this contest
-            Object.entries(counties).forEach(([fips, countyData]) => {
-              // Add this county's result to the election
-              allElectionData[electionKey].push({
-                election_key: electionKey,
-                county_fips: fips,
-                county: countyData.county_name,
-                year: countyData.year,
-                contest: countyData.contest,
-                dem_candidate: countyData.dem_candidate,
-                rep_candidate: countyData.rep_candidate,
-                dem_votes: countyData.dem_votes,
-                rep_votes: countyData.rep_votes,
-                other_votes: countyData.other_votes,
-                total_votes: countyData.total_votes,
-                margin: countyData.margin,
-                margin_pct: countyData.margin_pct,
-                winner: countyData.winner,
-                two_party_total: countyData.two_party_total,
-                competitiveness_category: countyData.competitiveness?.category || '',
-                competitiveness_party: countyData.competitiveness?.party || '',
-                competitiveness_color: countyData.competitiveness?.color || ''
-              });
+            // Add this county's result to the election
+            allElectionData[electionKey].push({
+              election_key: electionKey,
+              county_fips: fips,
+              county: countyInfo.county_name,
+              year: electionData.year,
+              contest: electionData.contest,
+              dem_candidate: electionData.dem_candidate,
+              rep_candidate: electionData.rep_candidate,
+              dem_votes: electionData.dem_votes,
+              rep_votes: electionData.rep_votes,
+              other_votes: electionData.other_votes,
+              total_votes: electionData.total_votes,
+              margin: electionData.margin,
+              margin_pct: electionData.margin_pct,
+              winner: electionData.winner,
+              two_party_total: electionData.two_party_total,
+              competitiveness_category: electionData.competitiveness?.category || '',
+              competitiveness_party: electionData.competitiveness?.party || '',
+              competitiveness_color: electionData.competitiveness?.color || ''
             });
           });
         });
