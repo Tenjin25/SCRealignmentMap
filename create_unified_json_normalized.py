@@ -20,7 +20,7 @@ def normalize_candidate_name(name, contest_type=None):
     
     For Presidential races, remove running mates (VP):
     - "John Mccain / Sarah Palin (R)" -> "John McCain (R)"
-    - "Barack Obama / Joe Biden (D)" -> "Barack Obama (D)"
+    - "Joseph R Biden | Kamala D Harris (D)" -> "Joseph R Biden (D)"
     
     For other races:
     - "Tommy Moore (D)" -> "Tommy Moore (D)"
@@ -28,17 +28,24 @@ def normalize_candidate_name(name, contest_type=None):
     if not name or name == "":
         return name
     
-    # Common patterns to standardize
-    # Remove running mate (VP) from presidential tickets, but keep for governor
-    if contest_type and "president" in contest_type.lower():
-        name = re.sub(r'\s*/\s*[^(]+(?=\s*\()', '', name)
-    
-    # Fix capitalization issues (Mccain -> McCain, Mcmaster -> McMaster)
-    name = re.sub(r'\bMccain\b', 'McCain', name, flags=re.IGNORECASE)
-    name = re.sub(r'\bMcmaster\b', 'McMaster', name, flags=re.IGNORECASE)
-    
     # Remove extra party designations like "REP", "Rep", "DEM", "Dem" prefix
     name = re.sub(r'^(REP|DEM|GRN|LIB|CON|IND)\s+', '', name, flags=re.IGNORECASE)
+    
+    # Remove running mate (VP) from presidential tickets, but keep for governor
+    if contest_type and "president" in contest_type.lower():
+        # Handle both "/" and "|" separators
+        name = re.sub(r'\s*[/|]\s*[^(]+(?=\s*\()', '', name)
+    
+    # Fix capitalization issues (Mccain -> McCain, Mcmaster -> McMaster, etc.)
+    name = re.sub(r'\bMccain\b', 'McCain', name, flags=re.IGNORECASE)
+    name = re.sub(r'\bMcmaster\b', 'McMaster', name, flags=re.IGNORECASE)
+    name = re.sub(r'\b(tally|pamela|henry|james|mandy|norrell)\b', lambda m: m.group(1).capitalize(), name, flags=re.IGNORECASE)
+    
+    # Standardize running mate separator to " / " (with spaces)
+    name = re.sub(r'\s*/\s*', ' / ', name)
+    
+    # Ensure space before party designation
+    name = re.sub(r'([^\s])\s*\((D|R|IND|GRN|LIB|CON)\)', r'\1 (\2)', name)
     
     return name.strip()
 
@@ -162,8 +169,8 @@ def create_unified_json(data_dir="Data", output_file="unified_sc_elections.json"
                 if fips == "competitiveness_scale":
                     continue
                 
-                dem_name = county_data.get("dem_candidate", "")
-                rep_name = county_data.get("rep_candidate", "")
+                dem_name = normalize_candidate_name(county_data.get("dem_candidate", ""), contest_name)
+                rep_name = normalize_candidate_name(county_data.get("rep_candidate", ""), contest_name)
                 
                 if dem_name and dem_name not in election_candidates[election_key]["dem"]:
                     election_candidates[election_key]["dem"].append(dem_name)
