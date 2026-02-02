@@ -305,8 +305,18 @@ if (typeof map !== 'undefined' && typeof map.on === 'function') {
     // Helper function to clean candidate names (remove party suffixes, etc.)
     function cleanCandidateName(name) {
       if (!name) return '';
-      // Remove party indicators like (R), (D), etc.
-      return name.replace(/\s*\([RD]\)\s*$/, '').trim();
+      // Remove party indicators like (R), (D), (WFM), etc.
+      let cleaned = name.replace(/\s*\([A-Z]+\)\s*$/g, '').trim();
+      
+      // Fix common capitalization issues
+      // Handle Mc/Mac names: Mcmaster → McMaster, Macdonald → MacDonald
+      cleaned = cleaned.replace(/\bMc([a-z])/g, (match, letter) => 'Mc' + letter.toUpperCase());
+      cleaned = cleaned.replace(/\bMac([a-z])/g, (match, letter) => 'Mac' + letter.toUpperCase());
+      
+      // Handle O' names: O'brien → O'Brien
+      cleaned = cleaned.replace(/\bO'([a-z])/g, (match, letter) => "O'" + letter.toUpperCase());
+      
+      return cleaned;
     }
 
     document.addEventListener('DOMContentLoaded', function() {
