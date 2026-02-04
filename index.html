@@ -1344,42 +1344,6 @@ body {
             <div class="legend-item"><div class="legend-color" style="background: #08306b;"></div>Annihilation Democratic (40%+)</div>
         </div>
     </div>
-
-
-        <!-- GAMap.html-style County Search Bar moved inside <body> -->
-        <!-- County search JS removed -->
-            alert(`County "${countyName}" not found`);
-            return;
-          }
-          try {
-            const bbox = turf.bbox(feature);
-            const bounds = [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
-            map.fitBounds(bounds, { padding: 50, duration: 1000 });
-          } catch (err) {
-            if (feature.geometry && feature.geometry.coordinates && feature.geometry.coordinates[0]) {
-              const coordinates = feature.geometry.coordinates[0];
-              const mbounds = coordinates.reduce((b, coord) => b.extend(coord), new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
-              map.fitBounds(mbounds, { padding: 50, duration: 1000 });
-            }
-          }
-          if (typeof showCountyDetails === 'function') showCountyDetails(feature.properties.NAME20);
-        }
-        // Initialize when DOM and map are ready
-        function trySetupCountySearch() {
-          if (document.getElementById('county-search')) {
-            setupCountySearch();
-          } else {
-            setTimeout(trySetupCountySearch, 100);
-          }
-        }
-        if (typeof map !== 'undefined' && typeof map.on === 'function') {
-          map.on('load', function() {
-            trySetupCountySearch();
-          });
-        } else {
-          // Fallback: try to setup after DOM is ready
-          document.addEventListener('DOMContentLoaded', trySetupCountySearch);
-        }
         </script>
     <script>
     // --- CONFIG ---
