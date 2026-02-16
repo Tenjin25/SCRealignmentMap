@@ -1782,12 +1782,29 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       let countiesProcessed = 0;
 
       electionData.forEach(row => {
-        if (row.county_fips && row.competitiveness_color) {
-          // Match on county FIPS code
-          expr.push(['==', ['get', 'GEOID20'], row.county_fips]);
-          expr.push(row.competitiveness_color);
-          countiesProcessed++;
+        if (!row.county_fips) return;
+
+        // Prefer stored competitiveness color from the unified dataset.
+        // Fallback to computed category color so older/incomplete rows still render.
+        let fillColor = row.competitiveness_color;
+        if (!fillColor) {
+          const demVotes = Number(row.dem_votes) || 0;
+          const repVotes = Number(row.rep_votes) || 0;
+          const totalVotes = Number(row.total_votes) || (demVotes + repVotes);
+          if (totalVotes > 0) {
+            const demPct = (demVotes / totalVotes) * 100;
+            const repPct = (repVotes / totalVotes) * 100;
+            const winner = repPct > demPct ? 'R' : 'D';
+            const marginPct = Math.abs(repPct - demPct);
+            fillColor = categoryColorForMargin(marginPct, winner);
+          }
         }
+        if (!fillColor) return;
+
+        // Match on county FIPS code
+        expr.push(['==', ['get', 'GEOID20'], row.county_fips]);
+        expr.push(fillColor);
+        countiesProcessed++;
       });
       
       expr.push('#e0e0e0'); // default color for unmatched counties
@@ -2005,32 +2022,24 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       // Show winner, margin, total votes, competitiveness, and split temperature bar styled like Georgia example
       // Calculate competitiveness
       let compLabel = '';
-      let compColor = '#6b7280';
-      // Use county analysis sidebar color logic for competitiveness
+      const winnerKey = repPct > demPct ? 'R' : 'D';
+      let compColor = categoryColorForMargin(marginPct, winnerKey);
       if (marginPct >= 40) {
         compLabel = winner === 'Republican' ? "Annihilation Republican (40%+)" : "Annihilation Democratic (40%+)";
-        compColor = winner === 'Republican' ? '#450a0a' : '#0c1d56';
       } else if (marginPct >= 30) {
         compLabel = winner === 'Republican' ? "Dominant Republican (30.00-39.99%)" : "Dominant Democratic (30.00-39.99%)";
-        compColor = winner === 'Republican' ? '#7f1d1d' : '#1e3a8a';
       } else if (marginPct >= 20) {
         compLabel = winner === 'Republican' ? "Stronghold Republican (20.00-29.99%)" : "Stronghold Democratic (20.00-29.99%)";
-        compColor = winner === 'Republican' ? '#991b1b' : '#1e40af';
       } else if (marginPct >= 10) {
         compLabel = winner === 'Republican' ? "Safe Republican (10.00-19.99%)" : "Safe Democratic (10.00-19.99%)";
-        compColor = winner === 'Republican' ? '#dc2626' : '#3b82f6';
       } else if (marginPct >= 5.5) {
         compLabel = winner === 'Republican' ? "Likely Republican (5.50-9.99%)" : "Likely Democratic (5.50-9.99%)";
-        compColor = winner === 'Republican' ? '#ef4444' : '#60a5fa';
       } else if (marginPct >= 1) {
         compLabel = winner === 'Republican' ? "Lean Republican (1.00-5.49%)" : "Lean Democratic (1.00-5.49%)";
-        compColor = winner === 'Republican' ? '#f87171' : '#93c5fd';
       } else if (marginPct >= 0.5) {
         compLabel = winner === 'Republican' ? "Tilt Republican (0.50-0.99%)" : "Tilt Democratic (0.50-0.99%)";
-        compColor = winner === 'Republican' ? '#fca5a5' : '#bfdbfe';
       } else {
         compLabel = winner === 'Democratic' ? 'Tossup (Democratic Win)' : 'Tossup (Republican Win)';
-        compColor = winner === 'Democratic' ? '#2563eb' : '#dc2626'; // Blue for Dem win, Red for Rep win
       }
       statewideContent.innerHTML = `
         <div class="statewide-margin" style="margin-bottom:0;">
@@ -2436,30 +2445,11 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       } else if (actualMarginPct >= 0.5) {
         competitiveness = winner === 'Republican' ? "Tilt Republican" : "Tilt Democratic";
       } else {
-        competitiveness = winner === 'Democratic' ? 'Tossup (Democratic Win)' : 'Tossup (Republican Win)';
+        competitiveness = winner === 'Tie' ? 'Tossup (Tie)' : (winner === 'Democratic' ? 'Tossup (Democratic Win)' : 'Tossup (Republican Win)');
       }
       
-      let compColor = '#6b7280';
-      // Handle tossup cases with better colors and formatting like index (1).html
-      if (competitiveness.includes('Tossup')) {
-        compColor = winner === 'Democratic' ? '#2563eb' : '#dc2626'; // Blue for Dem win, Red for Rep win
-      } else if (competitiveness.includes('Rep')) {
-        if (competitiveness.includes('Annihilation')) compColor = '#450a0a';
-        else if (competitiveness.includes('Dominant')) compColor = '#7f1d1d';
-        else if (competitiveness.includes('Stronghold')) compColor = '#991b1b';
-        else if (competitiveness.includes('Safe')) compColor = '#dc2626';
-        else if (competitiveness.includes('Likely')) compColor = '#ef4444';
-        else if (competitiveness.includes('Lean')) compColor = '#f87171';
-        else if (competitiveness.includes('Tilt')) compColor = '#fca5a5';
-      } else if (competitiveness.includes('Dem')) {
-        if (competitiveness.includes('Annihilation')) compColor = '#0c1d56';
-        else if (competitiveness.includes('Dominant')) compColor = '#1e3a8a';
-        else if (competitiveness.includes('Stronghold')) compColor = '#1e40af';
-        else if (competitiveness.includes('Safe')) compColor = '#3b82f6';
-        else if (competitiveness.includes('Likely')) compColor = '#60a5fa';
-        else if (competitiveness.includes('Lean')) compColor = '#93c5fd';
-        else if (competitiveness.includes('Tilt')) compColor = '#bfdbfe';
-      }
+      const winnerKey = winner === 'Republican' ? 'R' : 'D';
+      let compColor = countyData.competitiveness_color || categoryColorForMargin(actualMarginPct, winnerKey);
       
       sidebarContent += `<div class="competitiveness-section">`;
       sidebarContent += '<h3 class="sidebar-section-title">🎯 Competitiveness</h3>';
@@ -3379,43 +3369,6 @@ function populateContestSelectFromCongressionalCSV(csvData) {
       
       // Update statewide results display
       updateStatewideResults(contestType, year, statewidedemVotes, statewidrepVotes, statewideOtherVotes, statewidTotalVotes);
-
-      // Build expression for county coloring using normalized, uppercase names
-      const expr = ['case'];
-      let countiesProcessed = 0;
-      // Normalization function (same as mergeGeoElectionData)
-      function normalizeCountyName(name) {
-        if (!name) return '';
-        return name
-          .replace(/St[\.]?\s*Lucie/i, 'St Lucie')
-          .replace(/St[\.]?\s*Johns/i, 'St Johns')
-          .replace(/\./g, '')
-          .replace(/\s+/g, ' ')
-          .trim()
-          .toUpperCase();
-      }
-      contestData.forEach(row => {
-        const countyName = normalizeCountyName(row.county);
-        const demVotes = row.dem_votes || 0;
-        const repVotes = row.rep_votes || 0;
-        const totalVotes = row.total_votes || 0;
-        if (totalVotes === 0) return;
-        const demPct = (demVotes / totalVotes) * 100;
-        const repPct = (repVotes / totalVotes) * 100;
-        const winner = repPct > demPct ? 'R' : 'D';
-        const marginPct = Math.abs(repPct - demPct);
-        const color = categoryColorForMargin(marginPct, winner);
-        // Match on normalized, uppercase name from GeoJSON
-        // Use NAME20 property from GeoJSON and add null checking
-        expr.push(['==', ['upcase', ['coalesce', ['get', 'NAME20'], ['get', 'County'], ['get', 'COUNTYNAME'], '']], countyName]);
-        expr.push(color);
-        countiesProcessed++;
-      });
-      expr.push('#e0e0e0'); // default color
-      
-      console.log(`Color expression built for ${countiesProcessed} counties`);
-      
-      map.setPaintProperty('county-fill', 'fill-color', expr);
       document.getElementById('contest-name').textContent = `${formatContestName(contestType, year)} (${year})`;
       setStatus(`Applied contest: ${formatContestName(contestType, year)} ${year}`);
       
